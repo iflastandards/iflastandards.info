@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+<!-- Scheme: UNIMARC: Visual projections, etc.: Colour -->
+    <skos:ConceptScheme rdf:about="http://iflastandards.info/ns/unimarc/terms/viscol#">
+        <dc:title>UNIMARC: Visual projections, etc.: Colour</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: black and white  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/viscol#a" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/viscol#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7759"/>
+      <skos:prefLabel xml:lang="en">black and white</skos:prefLabel>
+      <skos:notation xml:lang="en">a</skos:notation>
+    </skos:Concept>
+<!-- Concept: colour  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/viscol#b" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/viscol#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7760"/>
+      <skos:prefLabel xml:lang="en">colour</skos:prefLabel>
+      <skos:notation xml:lang="en">b</skos:notation>
+    </skos:Concept>
+<!-- Concept: combination of black &amp; white and colour  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/viscol#c" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/viscol#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7761"/>
+      <skos:prefLabel xml:lang="en">combination of black &amp; white and colour</skos:prefLabel>
+      <skos:notation xml:lang="en">c</skos:notation>
+    </skos:Concept>
+<!-- Concept: other  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/viscol#z" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/viscol#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7763"/>
+      <skos:prefLabel xml:lang="en">other</skos:prefLabel>
+      <skos:notation xml:lang="en">z</skos:notation>
+      <skos:scopeNote xml:lang="en">Includes sepia, tinted, etc.</skos:scopeNote>
+    </skos:Concept>
+<!-- Concept: unknown  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/viscol#u" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/viscol#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7762"/>
+      <skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+      <skos:notation xml:lang="en">u</skos:notation>
+    </skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

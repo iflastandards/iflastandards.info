@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+<!-- Scheme: UNIMARC: Sound recordings: Dimensions -->
+    <skos:ConceptScheme rdf:about="http://iflastandards.info/ns/unimarc/terms/sounddim#">
+        <dc:title>UNIMARC: Sound recordings: Dimensions</dc:title>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/sounddim#d"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/sounddim#e"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/sounddim#g"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/sounddim#f"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/sounddim/#s"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/sounddim#j"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/sounddim#a"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/sounddim#h"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/sounddim#o"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/sounddim#b"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/sounddim#c"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/sounddim#x"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/sounddim#z"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/sounddim#u"/>
+    </skos:ConceptScheme>
+
+<!-- Concept: 10 in.  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/sounddim#d" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/sounddim#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6441"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/sounddim#"/>
+      <skos:prefLabel xml:lang="en">10 in.</skos:prefLabel>
+      <skos:notation xml:lang="en">d</skos:notation>
+    </skos:Concept>
+<!-- Concept: 12 in.  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/sounddim#e" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/sounddim#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6442"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/sounddim#"/>
+      <skos:prefLabel xml:lang="en">12 in.</skos:prefLabel>
+      <skos:notation xml:lang="en">e</skos:notation>
+    </skos:Concept>
+<!-- Concept: 14 in.  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/sounddim#g" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/sounddim#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6444"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/sounddim#"/>
+      <skos:prefLabel xml:lang="en">14 in.</skos:prefLabel>
+      <skos:notation xml:lang="en">g</skos:notation>
+    </skos:Concept>
+<!-- Concept: 16 in.  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/sounddim#f" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/sounddim#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6443"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/sounddim#"/>
+      <skos:prefLabel xml:lang="en">16 in.</skos:prefLabel>
+      <skos:notation xml:lang="en">f</skos:notation>
+    </skos:Concept>
+<!-- Concept: 2 3/4 x 4 in.  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/sounddim/#s" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/sounddim#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6448"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/sounddim#"/>
+      <skos:prefLabel xml:lang="en">2 3/4 x 4 in.</skos:prefLabel>
+      <skos:notation xml:lang="en">s</skos:notation>
+    </skos:Concept>
+<!-- Concept: 3 7/8 x 2 1/2 in.  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/sounddim#j" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/sounddim#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6446"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/sounddim#"/>
+      <skos:prefLabel xml:lang="en">3 7/8 x 2 1/2 in.</skos:prefLabel>
+      <skos:notation xml:lang="en">j</skos:notation>
+    </skos:Concept>
+<!-- Concept: 3 in.  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/sounddim#a" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/sounddim#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6438"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/sounddim#"/>
+      <skos:prefLabel xml:lang="en">3 in.</skos:prefLabel>
+      <skos:notation xml:lang="en">a</skos:notation>
+    </skos:Concept>
+<!-- Concept: 4 3/4 in.  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/sounddim#h" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/sounddim#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6445"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/sounddim#"/>
+      <skos:prefLabel xml:lang="en">4 3/4 in.</skos:prefLabel>
+      <skos:notation xml:lang="en">h</skos:notation>
+    </skos:Concept>
+<!-- Concept: 5 1/4 x 3 7/8 in.  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/sounddim#o" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/sounddim#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6447"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/sounddim#"/>
+      <skos:prefLabel xml:lang="en">5 1/4 x 3 7/8 in.</skos:prefLabel>
+      <skos:notation xml:lang="en">o</skos:notation>
+    </skos:Concept>
+<!-- Concept: 5 in.  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/sounddim#b" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/sounddim#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6439"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/sounddim#"/>
+      <skos:prefLabel xml:lang="en">5 in.</skos:prefLabel>
+      <skos:notation xml:lang="en">b</skos:notation>
+    </skos:Concept>
+<!-- Concept: 7 in.  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/sounddim#c" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/sounddim#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6440"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/sounddim#"/>
+      <skos:prefLabel xml:lang="en">7 in.</skos:prefLabel>
+      <skos:notation xml:lang="en">c</skos:notation>
+    </skos:Concept>
+<!-- Concept: not applicable  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/sounddim#x" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/sounddim#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6450"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/sounddim#"/>
+      <skos:prefLabel xml:lang="en">not applicable</skos:prefLabel>
+      <skos:notation xml:lang="en">x</skos:notation>
+    </skos:Concept>
+<!-- Concept: other  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/sounddim#z" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/sounddim#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6451"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/sounddim#"/>
+      <skos:prefLabel xml:lang="en">other</skos:prefLabel>
+      <skos:notation xml:lang="en">z</skos:notation>
+      <skos:definition xml:lang="en">Dimensions of sound recording other than 3 in., 4 3/4 in., 5 in., 7 in., 10 in., 12 in., 14 in, 16 in., 2 3/4 x 4 in., 3 7/8 x 2 1/2 in., and 5 1/4 x 3 7/8 in.</skos:definition>
+    </skos:Concept>
+<!-- Concept: unknown  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/sounddim#u" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/sounddim#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6449"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/sounddim#"/>
+      <skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+      <skos:notation xml:lang="en">u</skos:notation>
+    </skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

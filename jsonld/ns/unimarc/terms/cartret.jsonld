@@ -1,0 +1,192 @@
+{
+    "@context": "http://iflastandards.info/ns/unimarc/terms/Contexts/concepts_langmap.jsonld",
+    "@graph": [
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/cartret#",
+            "@type": "ConceptScheme",
+            "title": {
+                "en": "UNIMARC: Cartographic materials: Recording technique for remote sensing image"
+            },
+            "description": {
+                "en": "The recording technique for a remote sensing image."
+            },
+            "prefix": "",
+            "token": "cartret",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "label": "Published"
+            },
+            "omr_api": "http://api.metadataregistry.org/vocabularies/401",
+            "omr_home": "http://metadataregistry.org/vocabularies/401",
+            "count": 10,
+            "languages": [
+                {
+                    "code": "en",
+                    "lang": "English",
+                    "version": "Release 1"
+                }
+            ],
+            "dateOfPublication": "January 11, 2020"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/cartret#aa",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7659",
+            "definition": {
+                "en": "Light emission technique."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/cartret#",
+            "notation": {
+                "en": "aa"
+            },
+            "prefLabel": {
+                "en": "video recording"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/cartret#ab",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7660",
+            "definition": {
+                "en": "Light emission technique."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/cartret#",
+            "notation": {
+                "en": "ab"
+            },
+            "prefLabel": {
+                "en": "false colour photography"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/cartret#ac",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7661",
+            "definition": {
+                "en": "Light emission technique."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/cartret#",
+            "notation": {
+                "en": "ac"
+            },
+            "prefLabel": {
+                "en": "multispectral photography"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/cartret#ad",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7662",
+            "definition": {
+                "en": "Light emission technique."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/cartret#",
+            "notation": {
+                "en": "ad"
+            },
+            "prefLabel": {
+                "en": "multispectral scanning"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/cartret#av",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7663",
+            "definition": {
+                "en": "Light emission technique."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/cartret#",
+            "notation": {
+                "en": "av"
+            },
+            "prefLabel": {
+                "en": "combination of various light emission techniques"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/cartret#da",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7664",
+            "definition": {
+                "en": "Thermal infrared scanning technique."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/cartret#",
+            "notation": {
+                "en": "da"
+            },
+            "prefLabel": {
+                "en": "infrared line scanning"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/cartret#dv",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7665",
+            "definition": {
+                "en": "Thermal infrared scanning technique."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/cartret#",
+            "notation": {
+                "en": "dv"
+            },
+            "prefLabel": {
+                "en": "combination of various thermal infrared scanning techniques"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/cartret#ga",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7666",
+            "definition": {
+                "en": "Microwave emission technique."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/cartret#",
+            "notation": {
+                "en": "ga"
+            },
+            "prefLabel": {
+                "en": "Sidelooking Airborne Radar (SLAR)"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/cartret#gb",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7667",
+            "definition": {
+                "en": "Microwave emission technique."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/cartret#",
+            "notation": {
+                "en": "gb"
+            },
+            "prefLabel": {
+                "en": "Synthetic Aperture Radar (SAR)"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/cartret#gc",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7668",
+            "definition": {
+                "en": "Microwave emission technique."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/cartret#",
+            "notation": {
+                "en": "gc"
+            },
+            "prefLabel": {
+                "en": "passive microwave mapping"
+            },
+            "status": "Published"
+        }
+    ]
+}

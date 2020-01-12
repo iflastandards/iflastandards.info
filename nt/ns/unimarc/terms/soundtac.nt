@@ -1,0 +1,92 @@
+<http://iflastandards.info/ns/unimarc/terms/soundtac#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#> <http://purl.org/dc/elements/1.1/title> "UNIMARC: Sound recordings: Tape configuration" .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/soundtac#d\u00A0> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/soundtac#a\u00A0> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/soundtac#b\u00A0> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/soundtac#z\u00A0> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/soundtac#c\u00A0> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/soundtac#x\u00A0> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/soundtac#h\u00A0> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/soundtac#f\u00A0> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/soundtac#e\u00A0> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/soundtac#g\u00A0> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/soundtac#u\u00A0> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#d\u00A0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#d\u00A0> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/soundtac#> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#d\u00A0> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#d\u00A0> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7561> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#d\u00A0> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/soundtac#> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#d\u00A0> <http://www.w3.org/2004/02/skos/core#prefLabel> "eight track"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#d\u00A0> <http://www.w3.org/2004/02/skos/core#notation> "d\u00A0"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#a\u00A0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#a\u00A0> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/soundtac#> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#a\u00A0> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#a\u00A0> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7558> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#a\u00A0> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/soundtac#> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#a\u00A0> <http://www.w3.org/2004/02/skos/core#prefLabel> "full (1) track"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#a\u00A0> <http://www.w3.org/2004/02/skos/core#notation> "a\u00A0"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#b\u00A0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#b\u00A0> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/soundtac#> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#b\u00A0> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#b\u00A0> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7559> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#b\u00A0> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/soundtac#> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#b\u00A0> <http://www.w3.org/2004/02/skos/core#prefLabel> "half (2) track"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#b\u00A0> <http://www.w3.org/2004/02/skos/core#notation> "b\u00A0"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#z\u00A0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#z\u00A0> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/soundtac#> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#z\u00A0> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#z\u00A0> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7568> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#z\u00A0> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/soundtac#> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#z\u00A0> <http://www.w3.org/2004/02/skos/core#prefLabel> "other"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#z\u00A0> <http://www.w3.org/2004/02/skos/core#notation> "z\u00A0"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#c\u00A0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#c\u00A0> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/soundtac#> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#c\u00A0> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#c\u00A0> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7560> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#c\u00A0> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/soundtac#> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#c\u00A0> <http://www.w3.org/2004/02/skos/core#prefLabel> "quarter (4) track"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#c\u00A0> <http://www.w3.org/2004/02/skos/core#notation> "c\u00A0"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#x\u00A0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#x\u00A0> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/soundtac#> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#x\u00A0> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#x\u00A0> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7567> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#x\u00A0> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/soundtac#> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#x\u00A0> <http://www.w3.org/2004/02/skos/core#prefLabel> "recording not a tape"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#x\u00A0> <http://www.w3.org/2004/02/skos/core#notation> "x\u00A0"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#h\u00A0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#h\u00A0> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/soundtac#> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#h\u00A0> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#h\u00A0> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7565> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#h\u00A0> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/soundtac#> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#h\u00A0> <http://www.w3.org/2004/02/skos/core#prefLabel> "six track"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#h\u00A0> <http://www.w3.org/2004/02/skos/core#notation> "h\u00A0"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#f\u00A0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#f\u00A0> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/soundtac#> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#f\u00A0> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#f\u00A0> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7563> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#f\u00A0> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/soundtac#> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#f\u00A0> <http://www.w3.org/2004/02/skos/core#prefLabel> "sixteen track"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#f\u00A0> <http://www.w3.org/2004/02/skos/core#notation> "f\u00A0"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#e\u00A0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#e\u00A0> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/soundtac#> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#e\u00A0> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#e\u00A0> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7562> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#e\u00A0> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/soundtac#> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#e\u00A0> <http://www.w3.org/2004/02/skos/core#prefLabel> "twelve track"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#e\u00A0> <http://www.w3.org/2004/02/skos/core#notation> "e\u00A0"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#g\u00A0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#g\u00A0> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/soundtac#> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#g\u00A0> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#g\u00A0> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7564> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#g\u00A0> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/soundtac#> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#g\u00A0> <http://www.w3.org/2004/02/skos/core#prefLabel> "twenty\u2011four track"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#g\u00A0> <http://www.w3.org/2004/02/skos/core#notation> "g\u00A0"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#u\u00A0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#u\u00A0> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/soundtac#> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#u\u00A0> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#u\u00A0> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7566> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#u\u00A0> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/soundtac#> .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#u\u00A0> <http://www.w3.org/2004/02/skos/core#prefLabel> "unknown"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundtac#u\u00A0> <http://www.w3.org/2004/02/skos/core#notation> "u\u00A0"@en .
+<http://metadataregistry.org/uri/RegStatus/1001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://metadataregistry.org/uri/RegStatus/1001> <http://www.w3.org/2004/02/skos/core#prefLabel> "Published"@en .

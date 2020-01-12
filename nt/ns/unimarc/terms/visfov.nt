@@ -1,0 +1,47 @@
+<http://iflastandards.info/ns/unimarc/terms/visfov#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<http://iflastandards.info/ns/unimarc/terms/visfov#> <http://purl.org/dc/elements/1.1/title> "UNIMARC: Visual projections, etc.: Form of release - videorecording" .
+<http://iflastandards.info/ns/unimarc/terms/visfov#e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/visfov#e> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/visfov#> .
+<http://iflastandards.info/ns/unimarc/terms/visfov#e> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/visfov#e> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7812> .
+<http://iflastandards.info/ns/unimarc/terms/visfov#e> <http://www.w3.org/2004/02/skos/core#prefLabel> "electronic videorecording (EVR)"@en .
+<http://iflastandards.info/ns/unimarc/terms/visfov#e> <http://www.w3.org/2004/02/skos/core#notation> "e"@en .
+<http://iflastandards.info/ns/unimarc/terms/visfov#e> <http://www.w3.org/2004/02/skos/core#definition> "An obsolete form of video recording on 16mm film."@en .
+<http://iflastandards.info/ns/unimarc/terms/visfov#x> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/visfov#x> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/visfov#> .
+<http://iflastandards.info/ns/unimarc/terms/visfov#x> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/visfov#x> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7813> .
+<http://iflastandards.info/ns/unimarc/terms/visfov#x> <http://www.w3.org/2004/02/skos/core#prefLabel> "not a videorecording"@en .
+<http://iflastandards.info/ns/unimarc/terms/visfov#x> <http://www.w3.org/2004/02/skos/core#notation> "x"@en .
+<http://iflastandards.info/ns/unimarc/terms/visfov#z> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/visfov#z> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/visfov#> .
+<http://iflastandards.info/ns/unimarc/terms/visfov#z> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/visfov#z> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7814> .
+<http://iflastandards.info/ns/unimarc/terms/visfov#z> <http://www.w3.org/2004/02/skos/core#prefLabel> "other videotype"@en .
+<http://iflastandards.info/ns/unimarc/terms/visfov#z> <http://www.w3.org/2004/02/skos/core#notation> "z"@en .
+<http://iflastandards.info/ns/unimarc/terms/visfov#a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/visfov#a> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/visfov#> .
+<http://iflastandards.info/ns/unimarc/terms/visfov#a> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/visfov#a> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7808> .
+<http://iflastandards.info/ns/unimarc/terms/visfov#a> <http://www.w3.org/2004/02/skos/core#prefLabel> "videocartridge"@en .
+<http://iflastandards.info/ns/unimarc/terms/visfov#a> <http://www.w3.org/2004/02/skos/core#notation> "a"@en .
+<http://iflastandards.info/ns/unimarc/terms/visfov#c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/visfov#c> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/visfov#> .
+<http://iflastandards.info/ns/unimarc/terms/visfov#c> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/visfov#c> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7810> .
+<http://iflastandards.info/ns/unimarc/terms/visfov#c> <http://www.w3.org/2004/02/skos/core#prefLabel> "videocassette"@en .
+<http://iflastandards.info/ns/unimarc/terms/visfov#c> <http://www.w3.org/2004/02/skos/core#notation> "c"@en .
+<http://iflastandards.info/ns/unimarc/terms/visfov#b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/visfov#b> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/visfov#> .
+<http://iflastandards.info/ns/unimarc/terms/visfov#b> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/visfov#b> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7809> .
+<http://iflastandards.info/ns/unimarc/terms/visfov#b> <http://www.w3.org/2004/02/skos/core#prefLabel> "videodisc"@en .
+<http://iflastandards.info/ns/unimarc/terms/visfov#b> <http://www.w3.org/2004/02/skos/core#notation> "b"@en .
+<http://iflastandards.info/ns/unimarc/terms/visfov#d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/visfov#d> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/visfov#> .
+<http://iflastandards.info/ns/unimarc/terms/visfov#d> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/visfov#d> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7811> .
+<http://iflastandards.info/ns/unimarc/terms/visfov#d> <http://www.w3.org/2004/02/skos/core#prefLabel> "videoreel"@en .
+<http://iflastandards.info/ns/unimarc/terms/visfov#d> <http://www.w3.org/2004/02/skos/core#notation> "d"@en .
+<http://metadataregistry.org/uri/RegStatus/1001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://metadataregistry.org/uri/RegStatus/1001> <http://www.w3.org/2004/02/skos/core#prefLabel> "Published"@en .

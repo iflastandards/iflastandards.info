@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+<!-- Scheme: UNIMARC: Cartographic materials: Presentation technique -->
+    <skos:ConceptScheme rdf:about="http://iflastandards.info/ns/unimarc/terms/cartprt#">
+        <dc:title>UNIMARC: Cartographic materials: Presentation technique</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: anaglyphic  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartprt#aa" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartprt#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7617"/>
+      <skos:prefLabel xml:lang="en">anaglyphic</skos:prefLabel>
+      <skos:notation xml:lang="en">aa</skos:notation>
+    </skos:Concept>
+<!-- Concept: anamorphic  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartprt#am" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartprt#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7628"/>
+      <skos:prefLabel xml:lang="en">anamorphic</skos:prefLabel>
+      <skos:notation xml:lang="en">am</skos:notation>
+    </skos:Concept>
+<!-- Concept: chorochromatic  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartprt#ai" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartprt#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7625"/>
+      <skos:prefLabel xml:lang="en">chorochromatic</skos:prefLabel>
+      <skos:notation xml:lang="en">ai</skos:notation>
+    </skos:Concept>
+<!-- Concept: choropleth  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartprt#ah" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartprt#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7624"/>
+      <skos:prefLabel xml:lang="en">choropleth</skos:prefLabel>
+      <skos:notation xml:lang="en">ah</skos:notation>
+    </skos:Concept>
+<!-- Concept: dasymetric  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartprt#aj" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartprt#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7626"/>
+      <skos:prefLabel xml:lang="en">dasymetric</skos:prefLabel>
+      <skos:notation xml:lang="en">aj</skos:notation>
+    </skos:Concept>
+<!-- Concept: diagram map  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartprt#ad" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartprt#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7620"/>
+      <skos:prefLabel xml:lang="en">diagram map</skos:prefLabel>
+      <skos:notation xml:lang="en">ad</skos:notation>
+    </skos:Concept>
+<!-- Concept: diagrammatric map  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartprt#ag" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartprt#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7623"/>
+      <skos:prefLabel xml:lang="en">diagrammatric map</skos:prefLabel>
+      <skos:altLabel xml:lang="en">cartogram map</skos:altLabel>
+      <skos:notation xml:lang="en">ag</skos:notation>
+    </skos:Concept>
+<!-- Concept: dot map  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartprt#af" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartprt#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7622"/>
+      <skos:prefLabel xml:lang="en">dot map</skos:prefLabel>
+      <skos:notation xml:lang="en">af</skos:notation>
+    </skos:Concept>
+<!-- Concept: flowline map, flow map  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartprt#ae" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartprt#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7621"/>
+      <skos:prefLabel xml:lang="en">flowline map, flow map</skos:prefLabel>
+      <skos:notation xml:lang="en">ae</skos:notation>
+    </skos:Concept>
+<!-- Concept: isopleth  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartprt#ak" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartprt#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7627"/>
+      <skos:prefLabel xml:lang="en">isopleth</skos:prefLabel>
+      <skos:notation xml:lang="en">ak</skos:notation>
+    </skos:Concept>
+<!-- Concept: map view  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartprt#as" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartprt#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7634"/>
+      <skos:prefLabel xml:lang="en">map view</skos:prefLabel>
+      <skos:notation xml:lang="en">as</skos:notation>
+    </skos:Concept>
+<!-- Concept: mental or cognitive map  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartprt#ap" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartprt#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7631"/>
+      <skos:prefLabel xml:lang="en">mental or cognitive map</skos:prefLabel>
+      <skos:notation xml:lang="en">ap</skos:notation>
+    </skos:Concept>
+<!-- Concept: not screened  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartprt#dd" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartprt#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7638"/>
+      <skos:prefLabel xml:lang="en">not screened</skos:prefLabel>
+      <skos:notation xml:lang="en">dd</skos:notation>
+    </skos:Concept>
+<!-- Concept: picto map  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartprt#da" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartprt#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7635"/>
+      <skos:prefLabel xml:lang="en">picto map</skos:prefLabel>
+      <skos:notation xml:lang="en">da</skos:notation>
+    </skos:Concept>
+<!-- Concept: pictorial map  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartprt#an" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartprt#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7629"/>
+      <skos:prefLabel xml:lang="en">pictorial map</skos:prefLabel>
+      <skos:notation xml:lang="en">an</skos:notation>
+    </skos:Concept>
+<!-- Concept: planimetric  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartprt#ac" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartprt#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7619"/>
+      <skos:prefLabel xml:lang="en">planimetric</skos:prefLabel>
+      <skos:notation xml:lang="en">ac</skos:notation>
+    </skos:Concept>
+<!-- Concept: polarized  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartprt#ab" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartprt#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7618"/>
+      <skos:prefLabel xml:lang="en">polarized</skos:prefLabel>
+      <skos:notation xml:lang="en">ab</skos:notation>
+    </skos:Concept>
+<!-- Concept: random dot map  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartprt#db" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartprt#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7636"/>
+      <skos:prefLabel xml:lang="en">random dot map</skos:prefLabel>
+      <skos:notation xml:lang="en">db</skos:notation>
+    </skos:Concept>
+<!-- Concept: screened  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartprt#dc" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartprt#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7637"/>
+      <skos:prefLabel xml:lang="en">screened</skos:prefLabel>
+      <skos:notation xml:lang="en">dc</skos:notation>
+    </skos:Concept>
+<!-- Concept: spatial model on two dimensional surface  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartprt#ao" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartprt#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7630"/>
+      <skos:prefLabel xml:lang="en">spatial model on two dimensional surface</skos:prefLabel>
+      <skos:notation xml:lang="en">ao</skos:notation>
+    </skos:Concept>
+<!-- Concept: views with horizon showing  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartprt#aq" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartprt#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7632"/>
+      <skos:prefLabel xml:lang="en">views with horizon showing</skos:prefLabel>
+      <skos:notation xml:lang="en">aq</skos:notation>
+      <skos:scopeNote xml:lang="en">Includes bird's eye views and panoramas.</skos:scopeNote>
+    </skos:Concept>
+<!-- Concept: views without horizon showing  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartprt#ar" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartprt#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7633"/>
+      <skos:prefLabel xml:lang="en">views without horizon showing</skos:prefLabel>
+      <skos:notation xml:lang="en">ar</skos:notation>
+      <skos:scopeNote xml:lang="en">Includes bird's eye views and panoramas.</skos:scopeNote>
+    </skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

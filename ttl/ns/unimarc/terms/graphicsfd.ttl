@@ -1,0 +1,196 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix reg: <http://metadataregistry.org/uri/profile/regap/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#>
+    dc:title "UNIMARC: Graphics: Functional designation" ;
+    a skos:ConceptScheme ;
+    skos:hasTopConcept <http://iflastandards.info/ns/unimarc/terms/graphicsfd#aa>, <http://iflastandards.info/ns/unimarc/terms/graphicsfd#ab>, <http://iflastandards.info/ns/unimarc/terms/graphicsfd#ac>, <http://iflastandards.info/ns/unimarc/terms/graphicsfd#ad>, <http://iflastandards.info/ns/unimarc/terms/graphicsfd#ae>, <http://iflastandards.info/ns/unimarc/terms/graphicsfd#af>, <http://iflastandards.info/ns/unimarc/terms/graphicsfd#ag>, <http://iflastandards.info/ns/unimarc/terms/graphicsfd#ah>, <http://iflastandards.info/ns/unimarc/terms/graphicsfd#ai>, <http://iflastandards.info/ns/unimarc/terms/graphicsfd#aj>, <http://iflastandards.info/ns/unimarc/terms/graphicsfd#ak>, <http://iflastandards.info/ns/unimarc/terms/graphicsfd#an>, <http://iflastandards.info/ns/unimarc/terms/graphicsfd#as>, <http://iflastandards.info/ns/unimarc/terms/graphicsfd#au>, <http://iflastandards.info/ns/unimarc/terms/graphicsfd#uu>, <http://iflastandards.info/ns/unimarc/terms/graphicsfd#vv>, <http://iflastandards.info/ns/unimarc/terms/graphicsfd#xx>, <http://iflastandards.info/ns/unimarc/terms/graphicsfd#zz> .
+
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#aa>
+    reg:identifier <http://metadataregistry.org/concepts/6348> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:definition "Graphic delineation made for the design and construction (or documentation of design and construction) of sites, structures, buildings, details, fixtures, furnishings, and decorations, as well as other objects designed by an architect or architectural office."@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> ;
+    skos:notation "aa"@en ;
+    skos:prefLabel "architectural drawing"@en, "desenho de arquitectura"@pt, "disegno architettonico"@it ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> .
+
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ab>
+    reg:identifier <http://metadataregistry.org/concepts/6349> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:definition "Cover forming the binding or outer enclosure of an item, i.e. hardback or paperback book covers, record sleeves, etc."@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> ;
+    skos:notation "ab"@en ;
+    skos:prefLabel "copertina del documento"@it, "item cover"@en, "material de protecção"@pt ;
+    skos:scopeNote "Covers may be detached or attached to the item."@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> .
+
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ac>
+    reg:identifier <http://metadataregistry.org/concepts/6350> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:definition "Message or design on slips of paper that are gummed or otherwise treated to adhere to a surface."@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> ;
+    skos:notation "ac"@en ;
+    skos:prefLabel "etiquetas colantes"@pt, "sticker"@en, "sticker"@it ;
+    skos:scopeNote "Also included book owners' identification labels (ex libris); usually intended for attaching inside a book. Book plates may be attached or detached."@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> .
+
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ad>
+    reg:identifier <http://metadataregistry.org/concepts/6351> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:definition "Single or multi-sheet chiefly pictorial notice made for posting, usually in a public place, to attract attention to events, activities, causes, goods, or services."@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> ;
+    skos:notation "ad"@en ;
+    skos:prefLabel "cartaz"@pt, "poster"@en, "poster"@it ;
+    skos:scopeNote "The purely decorative posters made since about 1960 are included."@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> .
+
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ae>
+    reg:identifier <http://metadataregistry.org/concepts/6352> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:definition "Card with a graphic scene on one side, on which a message may be written or printed for mailing without an envelope."@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> ;
+    skos:notation "ae"@en ;
+    skos:prefLabel "cartolina"@it, "postal"@pt, "postcard"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> .
+
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#af>
+    reg:identifier <http://metadataregistry.org/concepts/6353> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:definition "Card sent or given on special occasions; usually bearing messages of good will."@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> ;
+    skos:notation "af"@en ;
+    skos:prefLabel "cartão de felicitações"@pt, "diglietto di auguri"@it, "greetings card"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> .
+
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ag>
+    reg:identifier <http://metadataregistry.org/concepts/6354> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:definition "An opaque sheet that exhibits information in a graphic or tabular form."@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> ;
+    skos:notation "ag"@en ;
+    skos:prefLabel "chart"@en, "diagrama"@pt, "diagramma"@it ;
+    skos:scopeNote "E.g. a wall chart."@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> .
+
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ah>
+    reg:identifier <http://metadataregistry.org/concepts/6355> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:definition "Cards made in sets of a designated number of cards and marked for use in playing one or more games or telling fortunes; marks may follow a standard suit and rank system or may be special designs."@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> ;
+    skos:notation "ah"@en ;
+    skos:prefLabel "cartas de jogar"@pt, "carte da gioco"@it, "playing cards"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> .
+
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ai>
+    reg:identifier <http://metadataregistry.org/concepts/6356> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:definition "A card or other opaque material printed with words, numerals, or pictures and designed for rapid display."@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> ;
+    skos:notation "ai"@en ;
+    skos:prefLabel "ficha de visualização rápida"@pt, "flash card"@en, "flash card"@it ;
+    skos:scopeNote "Activity cards are included here."@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> .
+
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#aj>
+    reg:identifier <http://metadataregistry.org/concepts/6357> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:definition "Transient everyday items, usually printed and on paper, that are manufactured for a specific limited use, then often thrown away."@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> ;
+    skos:notation "aj"@en ;
+    skos:prefLabel "ephemera"@en, "ephemera"@it, "ephemera "@pt ;
+    skos:scopeNote "Also included everyday items that are meant to be saved, at least for a while."@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> .
+
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ak>
+    reg:identifier <http://metadataregistry.org/concepts/6358> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:definition "A picture, design, engraving or other graphic image printed with or inserted in the text of a book or other publication used to complement or clarify the content of the text."@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> ;
+    skos:notation "ak"@en ;
+    skos:prefLabel "illustration"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> .
+
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#an>
+    reg:identifier <http://metadataregistry.org/concepts/6359> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:definition "A table showing the months, days, of the week, and dates of a given year."@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> ;
+    skos:notation "an"@en ;
+    skos:prefLabel "calendar"@en, "calendario"@it, "calendário"@pt ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> .
+
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#as>
+    reg:identifier <http://metadataregistry.org/concepts/6360> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:definition "Decorated card that marks a place reserved for occupancy."@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> ;
+    skos:notation "as"@en ;
+    skos:prefLabel "biglietti segnaposto"@it, "marcador de lugar"@pt, "place card"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> .
+
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#au>
+    reg:identifier <http://metadataregistry.org/concepts/6361> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:definition "Printed card which has, on one side, the picture of a holy or sacred subject and, on the other side a prayer or an appeal formula."@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> ;
+    skos:notation "au"@en ;
+    skos:prefLabel "santinho"@pt, "santino"@en, "santino"@it ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> .
+
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#uu>
+    reg:identifier <http://metadataregistry.org/concepts/6362> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> ;
+    skos:notation "uu"@en ;
+    skos:prefLabel "desconhecido"@pt, "sconosciuto"@it, "unknown"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> .
+
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#vv>
+    reg:identifier <http://metadataregistry.org/concepts/6363> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> ;
+    skos:notation "vv"@en ;
+    skos:prefLabel "composito"@it, "misto"@pt, "mixed"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> .
+
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#xx>
+    reg:identifier <http://metadataregistry.org/concepts/6364> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> ;
+    skos:notation "xx"@en ;
+    skos:prefLabel "non applicabile"@it, "not applicable"@en, "não aplicável"@pt ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> .
+
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#zz>
+    reg:identifier <http://metadataregistry.org/concepts/6365> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> ;
+    skos:notation "zz"@en ;
+    skos:prefLabel "altro"@it, "other"@en, "outro"@pt ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> .
+
+<http://metadataregistry.org/uri/RegStatus/1001>
+    a skos:Concept ;
+    skos:prefLabel "Published"@en .
+

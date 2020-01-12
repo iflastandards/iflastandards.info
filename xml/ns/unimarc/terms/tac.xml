@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+<!-- Scheme: UNIMARC: Target audience -->
+    <skos:ConceptScheme rdf:about="http://iflastandards.info/ns/unimarc/terms/tac#">
+        <dc:title>UNIMARC: Target audience</dc:title>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/tac#m"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/tac/#k"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/tac#d"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/tac#a"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/tac#b"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/tac#c"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/tac#u"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/tac#e"/>
+    </skos:ConceptScheme>
+
+<!-- Concept: adult, general   -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/tac#m" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/tac#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6346"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/tac#"/>
+      <skos:prefLabel xml:lang="en">adult, general </skos:prefLabel>
+      <skos:notation xml:lang="en">m</skos:notation>
+      <skos:prefLabel xml:lang="it">adulti in generale</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">adulto, grande público</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: adult, serious  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/tac/#k" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/tac#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6345"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/tac#"/>
+      <skos:prefLabel xml:lang="en">adult, serious</skos:prefLabel>
+      <skos:notation xml:lang="en">k</skos:notation>
+      <skos:prefLabel xml:lang="it">adulti, serio</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">adulto, público especializado</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: children, ages 9-14  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/tac#d" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/tac#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6343"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/tac#"/>
+      <skos:prefLabel xml:lang="en">children, ages 9-14</skos:prefLabel>
+      <skos:notation xml:lang="en">d</skos:notation>
+      <skos:prefLabel xml:lang="it">pre-adolescente (9-14 anni)</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">infantil, idades 9-14</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: juvenile, general  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/tac#a" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/tac#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6340"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/tac#"/>
+      <skos:prefLabel xml:lang="en">juvenile, general</skos:prefLabel>
+      <skos:notation xml:lang="en">a</skos:notation>
+      <skos:prefLabel xml:lang="it">giovani in generale</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">juvenil, geral</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: pre-primary, ages 0-5  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/tac#b" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/tac#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6341"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/tac#"/>
+      <skos:prefLabel xml:lang="en">pre-primary, ages 0-5</skos:prefLabel>
+      <skos:notation xml:lang="en">b</skos:notation>
+      <skos:prefLabel xml:lang="it">prescolastici (0-5 anni)</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">pré-primária, idades 0-5</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: primary, ages 5-10  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/tac#c" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/tac#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6342"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/tac#"/>
+      <skos:prefLabel xml:lang="en">primary, ages 5-10</skos:prefLabel>
+      <skos:notation xml:lang="en">c</skos:notation>
+      <skos:prefLabel xml:lang="it">primaria (5-10 anni)</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">primária, idades 5-10</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: unknown  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/tac#u" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/tac#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6347"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/tac#"/>
+      <skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+      <skos:notation xml:lang="en">u</skos:notation>
+      <skos:prefLabel xml:lang="it">sconosciuto</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">desconhecido</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: young adult, ages 14-20  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/tac#e" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/tac#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6344"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/tac#"/>
+      <skos:prefLabel xml:lang="en">young adult, ages 14-20</skos:prefLabel>
+      <skos:notation xml:lang="en">e</skos:notation>
+      <skos:prefLabel xml:lang="it">adolescente (14-20 anni)</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">jovem adulto, idades 14-20</skos:prefLabel>
+    </skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

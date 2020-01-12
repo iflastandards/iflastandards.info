@@ -1,0 +1,71 @@
+{
+    "@context": "http://iflastandards.info/ns/unimarc/terms/Contexts/concepts_langmap.jsonld",
+    "@graph": [
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/vistom#",
+            "@type": "ConceptScheme",
+            "title": {
+                "en": "UNIMARC: Visual projections, etc.: Type of material"
+            },
+            "description": {
+                "en": "The type of material of a visual projection, videorecording, or motion picture."
+            },
+            "prefix": "",
+            "token": "vistom",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "label": "Published"
+            },
+            "omr_api": "http://api.metadataregistry.org/vocabularies/405",
+            "omr_home": "http://metadataregistry.org/vocabularies/405",
+            "count": 3,
+            "languages": [
+                {
+                    "code": "en",
+                    "lang": "English",
+                    "version": "Release 1"
+                }
+            ],
+            "dateOfPublication": "January 11, 2020"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/vistom#a",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7756",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/vistom#",
+            "notation": {
+                "en": "a"
+            },
+            "prefLabel": {
+                "en": "motion picture"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/vistom#b ",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7757",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/vistom#",
+            "notation": {
+                "en": "b "
+            },
+            "prefLabel": {
+                "en": "visual projection"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/vistom#c ",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7758",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/vistom#",
+            "notation": {
+                "en": "c "
+            },
+            "prefLabel": {
+                "en": "videorecording"
+            },
+            "status": "Published"
+        }
+    ]
+}

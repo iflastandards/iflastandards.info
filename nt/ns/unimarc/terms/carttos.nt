@@ -1,0 +1,22 @@
+<http://iflastandards.info/ns/unimarc/terms/carttos#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<http://iflastandards.info/ns/unimarc/terms/carttos#> <http://purl.org/dc/elements/1.1/title> "UNIMARC: Cartographic materials: Type of scale" .
+<http://iflastandards.info/ns/unimarc/terms/carttos#b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/carttos#b> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/carttos#> .
+<http://iflastandards.info/ns/unimarc/terms/carttos#b> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/carttos#b> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7889> .
+<http://iflastandards.info/ns/unimarc/terms/carttos#b> <http://www.w3.org/2004/02/skos/core#prefLabel> "angular scale"@en .
+<http://iflastandards.info/ns/unimarc/terms/carttos#b> <http://www.w3.org/2004/02/skos/core#notation> "b"@en .
+<http://iflastandards.info/ns/unimarc/terms/carttos#a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/carttos#a> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/carttos#> .
+<http://iflastandards.info/ns/unimarc/terms/carttos#a> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/carttos#a> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7888> .
+<http://iflastandards.info/ns/unimarc/terms/carttos#a> <http://www.w3.org/2004/02/skos/core#prefLabel> "linear scale"@en .
+<http://iflastandards.info/ns/unimarc/terms/carttos#a> <http://www.w3.org/2004/02/skos/core#notation> "a"@en .
+<http://iflastandards.info/ns/unimarc/terms/carttos#z> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/carttos#z> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/carttos#> .
+<http://iflastandards.info/ns/unimarc/terms/carttos#z> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/carttos#z> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7890> .
+<http://iflastandards.info/ns/unimarc/terms/carttos#z> <http://www.w3.org/2004/02/skos/core#prefLabel> "other type of scale"@en .
+<http://iflastandards.info/ns/unimarc/terms/carttos#z> <http://www.w3.org/2004/02/skos/core#notation> "z"@en .
+<http://metadataregistry.org/uri/RegStatus/1001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://metadataregistry.org/uri/RegStatus/1001> <http://www.w3.org/2004/02/skos/core#prefLabel> "Published"@en .

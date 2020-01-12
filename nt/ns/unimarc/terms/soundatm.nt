@@ -1,0 +1,94 @@
+<http://iflastandards.info/ns/unimarc/terms/soundatm#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#> <http://purl.org/dc/elements/1.1/title> "UNIMARC: Sound recordings: Accompanying textual material" .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#b\u00A0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#b\u00A0> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/soundatm#> .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#b\u00A0> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#b\u00A0> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7523> .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#b\u00A0> <http://www.w3.org/2004/02/skos/core#prefLabel> "bibliography"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#b\u00A0> <http://www.w3.org/2004/02/skos/core#notation> "b\u00A0"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#l\u00A0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#l\u00A0> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/soundatm#> .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#l\u00A0> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#l\u00A0> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7533> .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#l\u00A0> <http://www.w3.org/2004/02/skos/core#prefLabel> "biography of arranger or transcriber"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#l\u00A0> <http://www.w3.org/2004/02/skos/core#notation> "l\u00A0"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#e\u00A0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#e\u00A0> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/soundatm#> .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#e\u00A0> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#e\u00A0> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7526> .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#e\u00A0> <http://www.w3.org/2004/02/skos/core#prefLabel> "biography of composer"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#e\u00A0> <http://www.w3.org/2004/02/skos/core#notation> "e\u00A0"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#f\u00A0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#f\u00A0> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/soundatm#> .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#f\u00A0> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#f\u00A0> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7527> .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#f\u00A0> <http://www.w3.org/2004/02/skos/core#prefLabel> "biography of performer or history of ensemble"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#f\u00A0> <http://www.w3.org/2004/02/skos/core#notation> "f\u00A0"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#a> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/soundatm#> .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#a> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#a> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7522> .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#a> <http://www.w3.org/2004/02/skos/core#prefLabel> "discography"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#a> <http://www.w3.org/2004/02/skos/core#notation> "a"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#k\u00A0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#k\u00A0> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/soundatm#> .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#k\u00A0> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#k\u00A0> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7532> .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#k\u00A0> <http://www.w3.org/2004/02/skos/core#prefLabel> "ethnological information"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#k\u00A0> <http://www.w3.org/2004/02/skos/core#notation> "k\u00A0"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#i\u00A0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#i\u00A0> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/soundatm#> .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#i\u00A0> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#i\u00A0> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7530> .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#i\u00A0> <http://www.w3.org/2004/02/skos/core#prefLabel> "historical information about music"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#i\u00A0> <http://www.w3.org/2004/02/skos/core#notation> "i\u00A0"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#r\u00A0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#r\u00A0> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/soundatm#> .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#r\u00A0> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#r\u00A0> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7534> .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#r\u00A0> <http://www.w3.org/2004/02/skos/core#prefLabel> "instructional material"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#r\u00A0> <http://www.w3.org/2004/02/skos/core#notation> "r\u00A0"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#d\u00A0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#d\u00A0> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/soundatm#> .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#d\u00A0> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#d\u00A0> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7525> .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#d\u00A0> <http://www.w3.org/2004/02/skos/core#prefLabel> "libretto or text"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#d\u00A0> <http://www.w3.org/2004/02/skos/core#notation> "d\u00A0"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#z\u00A0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#z\u00A0> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/soundatm#> .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#z\u00A0> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#z\u00A0> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7536> .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#z\u00A0> <http://www.w3.org/2004/02/skos/core#prefLabel> "other accompanying textual material"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#z\u00A0> <http://www.w3.org/2004/02/skos/core#notation> "z\u00A0"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#j\u00A0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#j\u00A0> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/soundatm#> .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#j\u00A0> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#j\u00A0> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7531> .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#j\u00A0> <http://www.w3.org/2004/02/skos/core#prefLabel> "other historical information"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#j\u00A0> <http://www.w3.org/2004/02/skos/core#notation> "j\u00A0"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#s\u00A0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#s\u00A0> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/soundatm#> .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#s\u00A0> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#s\u00A0> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7535> .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#s\u00A0> <http://www.w3.org/2004/02/skos/core#prefLabel> "score"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#s\u00A0> <http://www.w3.org/2004/02/skos/core#notation> "s\u00A0"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#h\u00A0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#h\u00A0> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/soundatm#> .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#h\u00A0> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#h\u00A0> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7529> .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#h\u00A0> <http://www.w3.org/2004/02/skos/core#prefLabel> "technical information on music"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#h\u00A0> <http://www.w3.org/2004/02/skos/core#notation> "h\u00A0"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#g\u00A0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#g\u00A0> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/soundatm#> .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#g\u00A0> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#g\u00A0> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7528> .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#g\u00A0> <http://www.w3.org/2004/02/skos/core#prefLabel> "technical or historical information on instruments"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#g\u00A0> <http://www.w3.org/2004/02/skos/core#notation> "g\u00A0"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#c\u00A0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#c\u00A0> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/soundatm#> .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#c\u00A0> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#c\u00A0> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7524> .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#c\u00A0> <http://www.w3.org/2004/02/skos/core#prefLabel> "thematic index"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundatm#c\u00A0> <http://www.w3.org/2004/02/skos/core#notation> "c\u00A0"@en .
+<http://metadataregistry.org/uri/RegStatus/1001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://metadataregistry.org/uri/RegStatus/1001> <http://www.w3.org/2004/02/skos/core#prefLabel> "Published"@en .

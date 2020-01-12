@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+<!-- Scheme: UNIMARC: Graphics: Techniques (drawings, paintings)  -->
+    <skos:ConceptScheme rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicstd#">
+        <dc:title>UNIMARC: Graphics: Techniques (drawings, paintings) </dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: acrylics  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicstd#bi" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicstd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7719"/>
+      <skos:prefLabel xml:lang="en">acrylics</skos:prefLabel>
+      <skos:notation xml:lang="en">bi</skos:notation>
+    </skos:Concept>
+<!-- Concept: air brush  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicstd#bl" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicstd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7722"/>
+      <skos:prefLabel xml:lang="en">air brush</skos:prefLabel>
+      <skos:notation xml:lang="en">bl</skos:notation>
+    </skos:Concept>
+<!-- Concept: black chalk  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicstd#ah" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicstd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7704"/>
+      <skos:prefLabel xml:lang="en">black chalk</skos:prefLabel>
+      <skos:notation xml:lang="en">ah</skos:notation>
+    </skos:Concept>
+<!-- Concept: casein  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicstd#bf" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicstd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7716"/>
+      <skos:prefLabel xml:lang="en">casein</skos:prefLabel>
+      <skos:notation xml:lang="en">bf</skos:notation>
+    </skos:Concept>
+<!-- Concept: chalk  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicstd#ag" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicstd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7703"/>
+      <skos:prefLabel xml:lang="en">chalk</skos:prefLabel>
+      <skos:notation xml:lang="en">ag</skos:notation>
+    </skos:Concept>
+<!-- Concept: coal  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicstd#af" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicstd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7702"/>
+      <skos:prefLabel xml:lang="en">coal</skos:prefLabel>
+      <skos:notation xml:lang="en">af</skos:notation>
+    </skos:Concept>
+<!-- Concept: collage  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicstd#bj" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicstd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7720"/>
+      <skos:prefLabel xml:lang="en">collage</skos:prefLabel>
+      <skos:notation xml:lang="en">bj</skos:notation>
+    </skos:Concept>
+<!-- Concept: colour pencil  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicstd#ac" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicstd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7699"/>
+      <skos:prefLabel xml:lang="en">colour pencil</skos:prefLabel>
+      <skos:notation xml:lang="en">ac</skos:notation>
+    </skos:Concept>
+<!-- Concept: crayon  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicstd#bc" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicstd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7713"/>
+      <skos:prefLabel xml:lang="en">crayon</skos:prefLabel>
+      <skos:notation xml:lang="en">bc</skos:notation>
+    </skos:Concept>
+<!-- Concept: encaustic  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicstd#bh" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicstd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7718"/>
+      <skos:prefLabel xml:lang="en">encaustic</skos:prefLabel>
+      <skos:notation xml:lang="en">bh</skos:notation>
+    </skos:Concept>
+<!-- Concept: felt-tip pen  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicstd#ba" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicstd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7711"/>
+      <skos:prefLabel xml:lang="en">felt-tip pen</skos:prefLabel>
+      <skos:notation xml:lang="en">ba</skos:notation>
+    </skos:Concept>
+<!-- Concept: golding  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicstd#bg" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicstd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7717"/>
+      <skos:prefLabel xml:lang="en">golding</skos:prefLabel>
+      <skos:notation xml:lang="en">bg</skos:notation>
+    </skos:Concept>
+<!-- Concept: gouache  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicstd#al" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicstd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7708"/>
+      <skos:prefLabel xml:lang="en">gouache</skos:prefLabel>
+      <skos:notation xml:lang="en">al</skos:notation>
+    </skos:Concept>
+<!-- Concept: graphite  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicstd#ab" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicstd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7698"/>
+      <skos:prefLabel xml:lang="en">graphite</skos:prefLabel>
+      <skos:notation xml:lang="en">ab</skos:notation>
+    </skos:Concept>
+<!-- Concept: India ink  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicstd#ad" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicstd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7700"/>
+      <skos:prefLabel xml:lang="en">India ink</skos:prefLabel>
+      <skos:notation xml:lang="en">ad</skos:notation>
+    </skos:Concept>
+<!-- Concept: lavierung India ink  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicstd#ae" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicstd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7701"/>
+      <skos:prefLabel xml:lang="en">lavierung India ink</skos:prefLabel>
+      <skos:notation xml:lang="en">ae</skos:notation>
+    </skos:Concept>
+<!-- Concept: mixed  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicstd#vv" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicstd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7724"/>
+      <skos:prefLabel xml:lang="en">mixed</skos:prefLabel>
+      <skos:notation xml:lang="en">vv</skos:notation>
+    </skos:Concept>
+<!-- Concept: not applicable  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicstd#xx" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicstd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7725"/>
+      <skos:prefLabel xml:lang="en">not applicable</skos:prefLabel>
+      <skos:notation xml:lang="en">xx</skos:notation>
+    </skos:Concept>
+<!-- Concept: oil  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicstd#an" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicstd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7710"/>
+      <skos:prefLabel xml:lang="en">oil</skos:prefLabel>
+      <skos:notation xml:lang="en">an</skos:notation>
+    </skos:Concept>
+<!-- Concept: other  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicstd#zz" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicstd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7726"/>
+      <skos:prefLabel xml:lang="en">other</skos:prefLabel>
+      <skos:notation xml:lang="en">zz</skos:notation>
+    </skos:Concept>
+<!-- Concept: pastel  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicstd#am" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicstd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7709"/>
+      <skos:prefLabel xml:lang="en">pastel</skos:prefLabel>
+      <skos:notation xml:lang="en">am</skos:notation>
+    </skos:Concept>
+<!-- Concept: pencil  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicstd#aa" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicstd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7697"/>
+      <skos:prefLabel xml:lang="en">pencil</skos:prefLabel>
+      <skos:notation xml:lang="en">aa</skos:notation>
+    </skos:Concept>
+<!-- Concept: sanguine  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicstd#ai" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicstd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7705"/>
+      <skos:prefLabel xml:lang="en">sanguine</skos:prefLabel>
+      <skos:notation xml:lang="en">ai</skos:notation>
+    </skos:Concept>
+<!-- Concept: sepia  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicstd#bd" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicstd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7714"/>
+      <skos:prefLabel xml:lang="en">sepia</skos:prefLabel>
+      <skos:notation xml:lang="en">bd</skos:notation>
+    </skos:Concept>
+<!-- Concept: silver point  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicstd#bk" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicstd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7721"/>
+      <skos:prefLabel xml:lang="en">silver point</skos:prefLabel>
+      <skos:notation xml:lang="en">bk</skos:notation>
+    </skos:Concept>
+<!-- Concept: stain  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicstd#bb" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicstd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7712"/>
+      <skos:prefLabel xml:lang="en">stain</skos:prefLabel>
+      <skos:notation xml:lang="en">bb</skos:notation>
+    </skos:Concept>
+<!-- Concept: tempera  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicstd#ak" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicstd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7707"/>
+      <skos:prefLabel xml:lang="en">tempera</skos:prefLabel>
+      <skos:notation xml:lang="en">ak</skos:notation>
+    </skos:Concept>
+<!-- Concept: unknown  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicstd#uu" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicstd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7723"/>
+      <skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+      <skos:notation xml:lang="en">uu</skos:notation>
+    </skos:Concept>
+<!-- Concept: water colour  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicstd#aj" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicstd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7706"/>
+      <skos:prefLabel xml:lang="en">water colour</skos:prefLabel>
+      <skos:notation xml:lang="en">aj</skos:notation>
+    </skos:Concept>
+<!-- Concept: writing ink  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicstd#be" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicstd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7715"/>
+      <skos:prefLabel xml:lang="en">writing ink</skos:prefLabel>
+      <skos:notation xml:lang="en">be</skos:notation>
+    </skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

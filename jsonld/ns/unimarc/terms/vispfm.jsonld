@@ -1,0 +1,149 @@
+{
+    "@context": "http://iflastandards.info/ns/unimarc/terms/Contexts/concepts_langmap.jsonld",
+    "@graph": [
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/vispfm#",
+            "@type": "ConceptScheme",
+            "title": {
+                "en": "UNIMARC: Visual projections, etc.: Presentation format - motion picture"
+            },
+            "description": {
+                "en": "Indicates whether a motion picture has used a standard or special presentation format."
+            },
+            "prefix": "",
+            "token": "vispfm",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "label": "Published"
+            },
+            "omr_api": "http://api.metadataregistry.org/vocabularies/411",
+            "omr_home": "http://metadataregistry.org/vocabularies/411",
+            "count": 9,
+            "languages": [
+                {
+                    "code": "en",
+                    "lang": "English",
+                    "version": "Release 1"
+                }
+            ],
+            "dateOfPublication": "January 11, 2020"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/vispfm#a",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7799",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/vispfm#",
+            "notation": {
+                "en": "a"
+            },
+            "prefLabel": {
+                "en": "standard sound aperture (reduced format)"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/vispfm#b",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7800",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/vispfm#",
+            "notation": {
+                "en": "b"
+            },
+            "prefLabel": {
+                "en": "non-anamorphic (wide screen)"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/vispfm#c",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7801",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/vispfm#",
+            "notation": {
+                "en": "c"
+            },
+            "prefLabel": {
+                "en": "3D"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/vispfm#d",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7802",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/vispfm#",
+            "notation": {
+                "en": "d"
+            },
+            "prefLabel": {
+                "en": "anamorphic (wide screen)"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/vispfm#e",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7803",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/vispfm#",
+            "notation": {
+                "en": "e"
+            },
+            "prefLabel": {
+                "en": "standard silent aperture"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/vispfm#f",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7804",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/vispfm#",
+            "notation": {
+                "en": "f"
+            },
+            "prefLabel": {
+                "en": "other wide screen format"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/vispfm#u",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7806",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/vispfm#",
+            "notation": {
+                "en": "u"
+            },
+            "prefLabel": {
+                "en": "unknown"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/vispfm#x",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7805",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/vispfm#",
+            "notation": {
+                "en": "x"
+            },
+            "prefLabel": {
+                "en": "not a motion picture"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/vispfm#z",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7807",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/vispfm#",
+            "notation": {
+                "en": "z"
+            },
+            "prefLabel": {
+                "en": "other"
+            },
+            "status": "Published"
+        }
+    ]
+}

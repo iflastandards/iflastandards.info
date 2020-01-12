@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF
+    xml:base="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+<!-- Element Set: UNIMARC/B elements 47X -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/">
+  <dc:title xml:lang="en">UNIMARC/B elements 47X</dc:title>
+</rdf:Description>
+
+<!-- Properties -->
+
+<!-- Property: has Author in Item reviewed (Do not make a note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasAuthorInItemReviewedDoNotMakeANote</reg:name>
+  <rdfs:label xml:lang="en">has Author in Item reviewed (Do not make a note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasAuthorInItemReviewedDoNotMakeANote.en" />
+</rdf:Description>
+
+<!-- Property: has Author in Item reviewed (Make a note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasAuthorInItemReviewedMakeANote</reg:name>
+  <rdfs:label xml:lang="en">has Author in Item reviewed (Make a note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasAuthorInItemReviewedMakeANote.en" />
+</rdf:Description>
+
+<!-- Property: has Authority record number in Item reviewed (Do not make a note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_03">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasAuthorityRecordNumberInItemReviewedDoNotMakeANote</reg:name>
+  <rdfs:label xml:lang="en">has Authority record number in Item reviewed (Do not make a note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasAuthorityRecordNumberInItemReviewedDoNotMakeANote.en" />
+</rdf:Description>
+
+<!-- Property: has Authority record number in Item reviewed (Make a note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_13">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasAuthorityRecordNumberInItemReviewedMakeANote</reg:name>
+  <rdfs:label xml:lang="en">has Authority record number in Item reviewed (Make a note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasAuthorityRecordNumberInItemReviewedMakeANote.en" />
+</rdf:Description>
+
+<!-- Property: has Bibliographic record identifier in Item reviewed (Do not make a note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_00">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasBibliographicRecordIdentifierInItemReviewedDoNotMakeANote</reg:name>
+  <rdfs:label xml:lang="en">has Bibliographic record identifier in Item reviewed (Do not make a note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasBibliographicRecordIdentifierInItemReviewedDoNotMakeANote.en" />
+</rdf:Description>
+
+<!-- Property: has Bibliographic record identifier in Item reviewed (Make a note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_10">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasBibliographicRecordIdentifierInItemReviewedMakeANote</reg:name>
+  <rdfs:label xml:lang="en">has Bibliographic record identifier in Item reviewed (Make a note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasBibliographicRecordIdentifierInItemReviewedMakeANote.en" />
+</rdf:Description>
+
+<!-- Property: has CODEN in Item reviewed (Do not make a note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0z">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasCodenInItemReviewedDoNotMakeANote</reg:name>
+  <rdfs:label xml:lang="en">has CODEN in Item reviewed (Do not make a note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasCodenInItemReviewedDoNotMakeANote.en" />
+</rdf:Description>
+
+<!-- Property: has CODEN in Item reviewed (Make a note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1z">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasCodenInItemReviewedMakeANote</reg:name>
+  <rdfs:label xml:lang="en">has CODEN in Item reviewed (Make a note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasCodenInItemReviewedMakeANote.en" />
+</rdf:Description>
+
+<!-- Property: has Date of publication in Item reviewed (Do not make a note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0d">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasDateOfPublicationInItemReviewedDoNotMakeANote</reg:name>
+  <rdfs:label xml:lang="en">has Date of publication in Item reviewed (Do not make a note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasDateOfPublicationInItemReviewedDoNotMakeANote.en" />
+</rdf:Description>
+
+<!-- Property: has Date of publication in Item reviewed (Make a note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1d">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasDateOfPublicationInItemReviewedMakeANote</reg:name>
+  <rdfs:label xml:lang="en">has Date of publication in Item reviewed (Make a note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasDateOfPublicationInItemReviewedMakeANote.en" />
+</rdf:Description>
+
+<!-- Property: has Edition statement in Item reviewed (Do not make a note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0e">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasEditionStatementInItemReviewedDoNotMakeANote</reg:name>
+  <rdfs:label xml:lang="en">has Edition statement in Item reviewed (Do not make a note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasEditionStatementInItemReviewedDoNotMakeANote.en" />
+</rdf:Description>
+
+<!-- Property: has Edition statement in Item reviewed (Make a note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1e">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasEditionStatementInItemReviewedMakeANote</reg:name>
+  <rdfs:label xml:lang="en">has Edition statement in Item reviewed (Make a note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasEditionStatementInItemReviewedMakeANote.en" />
+</rdf:Description>
+
+<!-- Property: has First statement of responsibility in Item reviewed (Do not make a note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0f">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasFirstStatementOfResponsibilityInItemReviewedDoNotMakeANote</reg:name>
+  <rdfs:label xml:lang="en">has First statement of responsibility in Item reviewed (Do not make a note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasFirstStatementOfResponsibilityInItemReviewedDoNotMakeANote.en" />
+</rdf:Description>
+
+<!-- Property: has First statement of responsibility in Item reviewed (Make a note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1f">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasFirstStatementOfResponsibilityInItemReviewedMakeANote</reg:name>
+  <rdfs:label xml:lang="en">has First statement of responsibility in Item reviewed (Make a note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasFirstStatementOfResponsibilityInItemReviewedMakeANote.en" />
+</rdf:Description>
+
+<!-- Property: has General material designation in Item reviewed (Do not make a note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0b">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasGeneralMaterialDesignationInItemReviewedDoNotMakeANote</reg:name>
+  <rdfs:label xml:lang="en">has General material designation in Item reviewed (Do not make a note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasGeneralMaterialDesignationInItemReviewedDoNotMakeANote.en" />
+</rdf:Description>
+
+<!-- Property: has General material designation in Item reviewed (Make a note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1b">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasGeneralMaterialDesignationInItemReviewedMakeANote</reg:name>
+  <rdfs:label xml:lang="en">has General material designation in Item reviewed (Make a note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasGeneralMaterialDesignationInItemReviewedMakeANote.en" />
+</rdf:Description>
+
+<!-- Property: has Institution to which field applies in Item reviewed (Do not make a note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_05">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasInstitutionToWhichFieldAppliesInItemReviewedDoNotMakeANote</reg:name>
+  <rdfs:label xml:lang="en">has Institution to which field applies in Item reviewed (Do not make a note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasInstitutionToWhichFieldAppliesInItemReviewedDoNotMakeANote.en" />
+</rdf:Description>
+
+<!-- Property: has Institution to which field applies in Item reviewed (Make a note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_15">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasInstitutionToWhichFieldAppliesInItemReviewedMakeANote</reg:name>
+  <rdfs:label xml:lang="en">has Institution to which field applies in Item reviewed (Make a note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasInstitutionToWhichFieldAppliesInItemReviewedMakeANote.en" />
+</rdf:Description>
+
+<!-- Property: has International Standard Book Number in Item reviewed (Do not make a note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0y">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasInternationalStandardBookNumberInItemReviewedDoNotMakeANote</reg:name>
+  <rdfs:label xml:lang="en">has International Standard Book Number in Item reviewed (Do not make a note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasInternationalStandardBookNumberInItemReviewedDoNotMakeANote.en" />
+</rdf:Description>
+
+<!-- Property: has International Standard Book Number in Item reviewed (Make a note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1y">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasInternationalStandardBookNumberInItemReviewedMakeANote</reg:name>
+  <rdfs:label xml:lang="en">has International Standard Book Number in Item reviewed (Make a note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasInternationalStandardBookNumberInItemReviewedMakeANote.en" />
+</rdf:Description>
+
+<!-- Property: has International Standard Music Number in Item reviewed (Do not make a note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0m">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasInternationalStandardMusicNumberInItemReviewedDoNotMakeANote</reg:name>
+  <rdfs:label xml:lang="en">has International Standard Music Number in Item reviewed (Do not make a note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasInternationalStandardMusicNumberInItemReviewedDoNotMakeANote.en" />
+</rdf:Description>
+
+<!-- Property: has International Standard Music Number in Item reviewed (Make a note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1m">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasInternationalStandardMusicNumberInItemReviewedMakeANote</reg:name>
+  <rdfs:label xml:lang="en">has International Standard Music Number in Item reviewed (Make a note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasInternationalStandardMusicNumberInItemReviewedMakeANote.en" />
+</rdf:Description>
+
+<!-- Property: has ISSN in Item reviewed (Do not make a note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0x">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasIssnInItemReviewedDoNotMakeANote</reg:name>
+  <rdfs:label xml:lang="en">has ISSN in Item reviewed (Do not make a note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasIssnInItemReviewedDoNotMakeANote.en" />
+</rdf:Description>
+
+<!-- Property: has ISSN in Item reviewed (Make a note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1x">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasIssnInItemReviewedMakeANote</reg:name>
+  <rdfs:label xml:lang="en">has ISSN in Item reviewed (Make a note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasIssnInItemReviewedMakeANote.en" />
+</rdf:Description>
+
+<!-- Property: has Linking data in Item reviewed (Do not make a note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_01">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasLinkingDataInItemReviewedDoNotMakeANote</reg:name>
+  <rdfs:label xml:lang="en">has Linking data in Item reviewed (Do not make a note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasLinkingDataInItemReviewedDoNotMakeANote.en" />
+</rdf:Description>
+
+<!-- Property: has Linking data in Item reviewed (Make a note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_11">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasLinkingDataInItemReviewedMakeANote</reg:name>
+  <rdfs:label xml:lang="en">has Linking data in Item reviewed (Make a note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasLinkingDataInItemReviewedMakeANote.en" />
+</rdf:Description>
+
+<!-- Property: has Name of publisher, distributor, etc. in Item reviewed (Do not make a note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0n">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasNameOfPublisherDistributorEtcInItemReviewedDoNotMakeANote</reg:name>
+  <rdfs:label xml:lang="en">has Name of publisher, distributor, etc. in Item reviewed (Do not make a note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasNameOfPublisherDistributorEtcInItemReviewedDoNotMakeANote.en" />
+</rdf:Description>
+
+<!-- Property: has Name of publisher, distributor, etc. in Item reviewed (Make a note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1n">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasNameOfPublisherDistributorEtcInItemReviewedMakeANote</reg:name>
+  <rdfs:label xml:lang="en">has Name of publisher, distributor, etc. in Item reviewed (Make a note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasNameOfPublisherDistributorEtcInItemReviewedMakeANote.en" />
+</rdf:Description>
+
+<!-- Property: has Name of section or part in Item reviewed (Do not make a note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0i">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasNameOfSectionOrPartInItemReviewedDoNotMakeANote</reg:name>
+  <rdfs:label xml:lang="en">has Name of section or part in Item reviewed (Do not make a note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasNameOfSectionOrPartInItemReviewedDoNotMakeANote.en" />
+</rdf:Description>
+
+<!-- Property: has Name of section or part in Item reviewed (Make a note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1i">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasNameOfSectionOrPartInItemReviewedMakeANote</reg:name>
+  <rdfs:label xml:lang="en">has Name of section or part in Item reviewed (Make a note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasNameOfSectionOrPartInItemReviewedMakeANote.en" />
+</rdf:Description>
+
+<!-- Property: has Number of section or part in Item reviewed (Do not make a note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0h">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasNumberOfSectionOrPartInItemReviewedDoNotMakeANote</reg:name>
+  <rdfs:label xml:lang="en">has Number of section or part in Item reviewed (Do not make a note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasNumberOfSectionOrPartInItemReviewedDoNotMakeANote.en" />
+</rdf:Description>
+
+<!-- Property: has Number of section or part in Item reviewed (Make a note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1h">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasNumberOfSectionOrPartInItemReviewedMakeANote</reg:name>
+  <rdfs:label xml:lang="en">has Number of section or part in Item reviewed (Make a note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasNumberOfSectionOrPartInItemReviewedMakeANote.en" />
+</rdf:Description>
+
+<!-- Property: has Other title information in Item reviewed (Do not make a note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0o">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasOtherTitleInformationInItemReviewedDoNotMakeANote</reg:name>
+  <rdfs:label xml:lang="en">has Other title information in Item reviewed (Do not make a note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasOtherTitleInformationInItemReviewedDoNotMakeANote.en" />
+</rdf:Description>
+
+<!-- Property: has Other title information in Item reviewed (Make a note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1o">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasOtherTitleInformationInItemReviewedMakeANote</reg:name>
+  <rdfs:label xml:lang="en">has Other title information in Item reviewed (Make a note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasOtherTitleInformationInItemReviewedMakeANote.en" />
+</rdf:Description>
+
+<!-- Property: has Parallel title in Item reviewed (Do not make a note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0l">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasParallelTitleInItemReviewedDoNotMakeANote</reg:name>
+  <rdfs:label xml:lang="en">has Parallel title in Item reviewed (Do not make a note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasParallelTitleInItemReviewedDoNotMakeANote.en" />
+</rdf:Description>
+
+<!-- Property: has Parallel title in Item reviewed (Make a note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1l">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasParallelTitleInItemReviewedMakeANote</reg:name>
+  <rdfs:label xml:lang="en">has Parallel title in Item reviewed (Make a note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasParallelTitleInItemReviewedMakeANote.en" />
+</rdf:Description>
+
+<!-- Property: has Physical description in Item reviewed (Do not make a note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0p">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasPhysicalDescriptionInItemReviewedDoNotMakeANote</reg:name>
+  <rdfs:label xml:lang="en">has Physical description in Item reviewed (Do not make a note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasPhysicalDescriptionInItemReviewedDoNotMakeANote.en" />
+</rdf:Description>
+
+<!-- Property: has Physical description in Item reviewed (Make a note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1p">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasPhysicalDescriptionInItemReviewedMakeANote</reg:name>
+  <rdfs:label xml:lang="en">has Physical description in Item reviewed (Make a note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasPhysicalDescriptionInItemReviewedMakeANote.en" />
+</rdf:Description>
+
+<!-- Property: has Place of publication in Item reviewed (Do not make a note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0c">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasPlaceOfPublicationInItemReviewedDoNotMakeANote</reg:name>
+  <rdfs:label xml:lang="en">has Place of publication in Item reviewed (Do not make a note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasPlaceOfPublicationInItemReviewedDoNotMakeANote.en" />
+</rdf:Description>
+
+<!-- Property: has Place of publication in Item reviewed (Make a note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1c">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasPlaceOfPublicationInItemReviewedMakeANote</reg:name>
+  <rdfs:label xml:lang="en">has Place of publication in Item reviewed (Make a note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasPlaceOfPublicationInItemReviewedMakeANote.en" />
+</rdf:Description>
+
+<!-- Property: has Series statement in Item reviewed (Do not make a note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0s">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasSeriesStatementInItemReviewedDoNotMakeANote</reg:name>
+  <rdfs:label xml:lang="en">has Series statement in Item reviewed (Do not make a note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasSeriesStatementInItemReviewedDoNotMakeANote.en" />
+</rdf:Description>
+
+<!-- Property: has Series statement in Item reviewed (Make a note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1s">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasSeriesStatementInItemReviewedMakeANote</reg:name>
+  <rdfs:label xml:lang="en">has Series statement in Item reviewed (Make a note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasSeriesStatementInItemReviewedMakeANote.en" />
+</rdf:Description>
+
+<!-- Property: has Subsequent statement of responsibility in Item reviewed (Do not make a note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0g">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasSubsequentStatementOfResponsibilityInItemReviewedDoNotMakeANote</reg:name>
+  <rdfs:label xml:lang="en">has Subsequent statement of responsibility in Item reviewed (Do not make a note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasSubsequentStatementOfResponsibilityInItemReviewedDoNotMakeANote.en" />
+</rdf:Description>
+
+<!-- Property: has Subsequent statement of responsibility in Item reviewed (Make a note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1g">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasSubsequentStatementOfResponsibilityInItemReviewedMakeANote</reg:name>
+  <rdfs:label xml:lang="en">has Subsequent statement of responsibility in Item reviewed (Make a note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasSubsequentStatementOfResponsibilityInItemReviewedMakeANote.en" />
+</rdf:Description>
+
+<!-- Property: has Title in Item reviewed (Do not make a note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0t">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTitleInItemReviewedDoNotMakeANote</reg:name>
+  <rdfs:label xml:lang="en">has Title in Item reviewed (Do not make a note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasTitleInItemReviewedDoNotMakeANote.en" />
+</rdf:Description>
+
+<!-- Property: has Title in Item reviewed (Make a note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1t">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTitleInItemReviewedMakeANote</reg:name>
+  <rdfs:label xml:lang="en">has Title in Item reviewed (Make a note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasTitleInItemReviewedMakeANote.en" />
+</rdf:Description>
+
+<!-- Property: has Uniform Resource Identifier in Item reviewed (Do not make a note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0u">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasUniformResourceIdentifierInItemReviewedDoNotMakeANote</reg:name>
+  <rdfs:label xml:lang="en">has Uniform Resource Identifier in Item reviewed (Do not make a note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasUniformResourceIdentifierInItemReviewedDoNotMakeANote.en" />
+</rdf:Description>
+
+<!-- Property: has Uniform Resource Identifier in Item reviewed (Make a note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1u">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasUniformResourceIdentifierInItemReviewedMakeANote</reg:name>
+  <rdfs:label xml:lang="en">has Uniform Resource Identifier in Item reviewed (Make a note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasUniformResourceIdentifierInItemReviewedMakeANote.en" />
+</rdf:Description>
+
+<!-- Property: has Volume number in Item reviewed (Do not make a note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0v">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasVolumeNumberInItemReviewedDoNotMakeANote</reg:name>
+  <rdfs:label xml:lang="en">has Volume number in Item reviewed (Do not make a note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasVolumeNumberInItemReviewedDoNotMakeANote.en" />
+</rdf:Description>
+
+<!-- Property: has Volume number in Item reviewed (Make a note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1v">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasVolumeNumberInItemReviewedMakeANote</reg:name>
+  <rdfs:label xml:lang="en">has Volume number in Item reviewed (Make a note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasVolumeNumberInItemReviewedMakeANote.en" />
+</rdf:Description>
+
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+</rdf:RDF>

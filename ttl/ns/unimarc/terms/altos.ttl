@@ -1,0 +1,44 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix reg: <http://metadataregistry.org/uri/profile/regap/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://iflastandards.info/ns/unimarc/terms/altos#>
+    dc:title "UNIMARC: Cartographic materials: Altitude of sensor" ;
+    a skos:ConceptScheme ;
+    skos:hasTopConcept <http://iflastandards.info/ns/unimarc/terms/altos#a>, <http://iflastandards.info/ns/unimarc/terms/altos#b>, <http://iflastandards.info/ns/unimarc/terms/altos#c> .
+
+<http://iflastandards.info/ns/unimarc/terms/altos#a>
+    reg:identifier <http://metadataregistry.org/concepts/6423> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:definition "Terrestrial altitude."@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/altos#> ;
+    skos:notation "a"@en ;
+    skos:prefLabel "terrestrial"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/altos#> .
+
+<http://iflastandards.info/ns/unimarc/terms/altos#b>
+    reg:identifier <http://metadataregistry.org/concepts/6424> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:definition "Aerial altitude."@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/altos#> ;
+    skos:notation "b"@en ;
+    skos:prefLabel "aerial"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/altos#> .
+
+<http://iflastandards.info/ns/unimarc/terms/altos#c>
+    reg:identifier <http://metadataregistry.org/concepts/6425> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:definition "Altitude of space."@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/altos#> ;
+    skos:notation "c"@en ;
+    skos:prefLabel "space"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/altos#> .
+
+<http://metadataregistry.org/uri/RegStatus/1001>
+    a skos:Concept ;
+    skos:prefLabel "Published"@en .
+

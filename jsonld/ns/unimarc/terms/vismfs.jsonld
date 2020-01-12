@@ -1,0 +1,188 @@
+{
+    "@context": "http://iflastandards.info/ns/unimarc/terms/Contexts/concepts_langmap.jsonld",
+    "@graph": [
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/vismfs#",
+            "@type": "ConceptScheme",
+            "title": {
+                "en": "UNIMARC: Visual projections, etc.: Media for sound"
+            },
+            "description": {
+                "en": "The medium used to carry the sound, when sound is present, of a visual projection, videorecording, or motion picture."
+            },
+            "prefix": "",
+            "token": "vismfs",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "label": "Published"
+            },
+            "omr_api": "http://api.metadataregistry.org/vocabularies/407",
+            "omr_home": "http://metadataregistry.org/vocabularies/407",
+            "count": 12,
+            "languages": [
+                {
+                    "code": "en",
+                    "lang": "English",
+                    "version": "Release 1"
+                }
+            ],
+            "dateOfPublication": "January 11, 2020"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/vismfs#a",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7764",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/vismfs#",
+            "notation": {
+                "en": "a"
+            },
+            "prefLabel": {
+                "en": "optical sound track on motion picture film"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/vismfs#b",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7765",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/vismfs#",
+            "notation": {
+                "en": "b"
+            },
+            "prefLabel": {
+                "en": "magnetic sound track on motion picture film"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/vismfs#c",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7766",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/vismfs#",
+            "notation": {
+                "en": "c"
+            },
+            "prefLabel": {
+                "en": "magnetic audio tape in cartridge"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/vismfs#d",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7767",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/vismfs#",
+            "notation": {
+                "en": "d"
+            },
+            "prefLabel": {
+                "en": "sound disc"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/vismfs#e",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7768",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/vismfs#",
+            "notation": {
+                "en": "e"
+            },
+            "prefLabel": {
+                "en": "magnetic audio tape on reel"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/vismfs#f",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7769",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/vismfs#",
+            "notation": {
+                "en": "f"
+            },
+            "prefLabel": {
+                "en": "magnetic audio tape in cassette"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/vismfs#g",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7770",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/vismfs#",
+            "notation": {
+                "en": "g"
+            },
+            "prefLabel": {
+                "en": "optical and magnetic sound track on motion picture film"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/vismfs#h",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7771",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/vismfs#",
+            "notation": {
+                "en": "h"
+            },
+            "prefLabel": {
+                "en": "videotape"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/vismfs#i",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7772",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/vismfs#",
+            "notation": {
+                "en": "i"
+            },
+            "prefLabel": {
+                "en": "videodisc"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/vismfs#u",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7773",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/vismfs#",
+            "notation": {
+                "en": "u"
+            },
+            "prefLabel": {
+                "en": "unknown"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/vismfs#x",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7774",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/vismfs#",
+            "notation": {
+                "en": "x"
+            },
+            "prefLabel": {
+                "en": "no sound"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/vismfs#z",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7775",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/vismfs#",
+            "notation": {
+                "en": "z"
+            },
+            "prefLabel": {
+                "en": "other"
+            },
+            "status": "Published"
+        }
+    ]
+}

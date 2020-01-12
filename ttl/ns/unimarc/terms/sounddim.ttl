@@ -1,0 +1,141 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix reg: <http://metadataregistry.org/uri/profile/regap/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://iflastandards.info/ns/unimarc/terms/sounddim#>
+    dc:title "UNIMARC: Sound recordings: Dimensions" ;
+    a skos:ConceptScheme ;
+    skos:hasTopConcept <http://iflastandards.info/ns/unimarc/terms/sounddim#a>, <http://iflastandards.info/ns/unimarc/terms/sounddim#b>, <http://iflastandards.info/ns/unimarc/terms/sounddim#c>, <http://iflastandards.info/ns/unimarc/terms/sounddim#d>, <http://iflastandards.info/ns/unimarc/terms/sounddim#e>, <http://iflastandards.info/ns/unimarc/terms/sounddim#f>, <http://iflastandards.info/ns/unimarc/terms/sounddim#g>, <http://iflastandards.info/ns/unimarc/terms/sounddim#h>, <http://iflastandards.info/ns/unimarc/terms/sounddim#j>, <http://iflastandards.info/ns/unimarc/terms/sounddim#o>, <http://iflastandards.info/ns/unimarc/terms/sounddim#u>, <http://iflastandards.info/ns/unimarc/terms/sounddim#x>, <http://iflastandards.info/ns/unimarc/terms/sounddim#z>, <http://iflastandards.info/ns/unimarc/terms/sounddim/#s> .
+
+<http://iflastandards.info/ns/unimarc/terms/sounddim#a>
+    reg:identifier <http://metadataregistry.org/concepts/6438> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/sounddim#> ;
+    skos:notation "a"@en ;
+    skos:prefLabel "3 in."@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/sounddim#> .
+
+<http://iflastandards.info/ns/unimarc/terms/sounddim#b>
+    reg:identifier <http://metadataregistry.org/concepts/6439> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/sounddim#> ;
+    skos:notation "b"@en ;
+    skos:prefLabel "5 in."@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/sounddim#> .
+
+<http://iflastandards.info/ns/unimarc/terms/sounddim#c>
+    reg:identifier <http://metadataregistry.org/concepts/6440> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/sounddim#> ;
+    skos:notation "c"@en ;
+    skos:prefLabel "7 in."@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/sounddim#> .
+
+<http://iflastandards.info/ns/unimarc/terms/sounddim#d>
+    reg:identifier <http://metadataregistry.org/concepts/6441> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/sounddim#> ;
+    skos:notation "d"@en ;
+    skos:prefLabel "10 in."@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/sounddim#> .
+
+<http://iflastandards.info/ns/unimarc/terms/sounddim#e>
+    reg:identifier <http://metadataregistry.org/concepts/6442> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/sounddim#> ;
+    skos:notation "e"@en ;
+    skos:prefLabel "12 in."@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/sounddim#> .
+
+<http://iflastandards.info/ns/unimarc/terms/sounddim#f>
+    reg:identifier <http://metadataregistry.org/concepts/6443> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/sounddim#> ;
+    skos:notation "f"@en ;
+    skos:prefLabel "16 in."@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/sounddim#> .
+
+<http://iflastandards.info/ns/unimarc/terms/sounddim#g>
+    reg:identifier <http://metadataregistry.org/concepts/6444> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/sounddim#> ;
+    skos:notation "g"@en ;
+    skos:prefLabel "14 in."@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/sounddim#> .
+
+<http://iflastandards.info/ns/unimarc/terms/sounddim#h>
+    reg:identifier <http://metadataregistry.org/concepts/6445> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/sounddim#> ;
+    skos:notation "h"@en ;
+    skos:prefLabel "4 3/4 in."@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/sounddim#> .
+
+<http://iflastandards.info/ns/unimarc/terms/sounddim#j>
+    reg:identifier <http://metadataregistry.org/concepts/6446> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/sounddim#> ;
+    skos:notation "j"@en ;
+    skos:prefLabel "3 7/8 x 2 1/2 in."@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/sounddim#> .
+
+<http://iflastandards.info/ns/unimarc/terms/sounddim#o>
+    reg:identifier <http://metadataregistry.org/concepts/6447> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/sounddim#> ;
+    skos:notation "o"@en ;
+    skos:prefLabel "5 1/4 x 3 7/8 in."@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/sounddim#> .
+
+<http://iflastandards.info/ns/unimarc/terms/sounddim#u>
+    reg:identifier <http://metadataregistry.org/concepts/6449> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/sounddim#> ;
+    skos:notation "u"@en ;
+    skos:prefLabel "unknown"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/sounddim#> .
+
+<http://iflastandards.info/ns/unimarc/terms/sounddim#x>
+    reg:identifier <http://metadataregistry.org/concepts/6450> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/sounddim#> ;
+    skos:notation "x"@en ;
+    skos:prefLabel "not applicable"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/sounddim#> .
+
+<http://iflastandards.info/ns/unimarc/terms/sounddim#z>
+    reg:identifier <http://metadataregistry.org/concepts/6451> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:definition "Dimensions of sound recording other than 3 in., 4 3/4 in., 5 in., 7 in., 10 in., 12 in., 14 in, 16 in., 2 3/4 x 4 in., 3 7/8 x 2 1/2 in., and 5 1/4 x 3 7/8 in."@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/sounddim#> ;
+    skos:notation "z"@en ;
+    skos:prefLabel "other"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/sounddim#> .
+
+<http://iflastandards.info/ns/unimarc/terms/sounddim/#s>
+    reg:identifier <http://metadataregistry.org/concepts/6448> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/sounddim#> ;
+    skos:notation "s"@en ;
+    skos:prefLabel "2 3/4 x 4 in."@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/sounddim#> .
+
+<http://metadataregistry.org/uri/RegStatus/1001>
+    a skos:Concept ;
+    skos:prefLabel "Published"@en .
+

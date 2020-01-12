@@ -1,0 +1,84 @@
+{
+    "@context": "http://iflastandards.info/ns/fr/frsad/Contexts/concepts_langmap.jsonld",
+    "@graph": [
+        {
+            "@id": "http://iflastandards.info/ns/fr/frsad/frsadusertask",
+            "@type": "ConceptScheme",
+            "title": {
+                "en": "FRSAD User Tasks"
+            },
+            "description": {
+                "en": ""
+            },
+            "prefix": "",
+            "token": "frsadusertask",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "label": "Published"
+            },
+            "omr_api": "http://api.metadataregistry.org/vocabularies/121",
+            "omr_home": "http://metadataregistry.org/vocabularies/121",
+            "count": 4,
+            "languages": [
+                {
+                    "code": "en",
+                    "lang": "English",
+                    "version": "Release 1"
+                }
+            ],
+            "dateOfPublication": "January 11, 2020"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/fr/frsad/frsadusertask#T1001",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/1240",
+            "definition": {
+                "en": "Find one or more subjects and, or, their appellations, that correspond(s) to the user’s stated criteria, using attributes and relationships."
+            },
+            "inScheme": "http://iflastandards.info/ns/fr/frsad/frsadusertask",
+            "prefLabel": {
+                "en": "find"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/fr/frsad/frsadusertask#T1002",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/1241",
+            "definition": {
+                "en": "Identify a subject and, or, its appellation based on its attributes or relationships (i.e., to distinguish between two or more subjects or appellations with similar characteristics and to confirm that the appropriate subject or appellation has been found)."
+            },
+            "inScheme": "http://iflastandards.info/ns/fr/frsad/frsadusertask",
+            "prefLabel": {
+                "en": "identify"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/fr/frsad/frsadusertask#T1003",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/1242",
+            "definition": {
+                "en": "Select a subject and, or, its appellation appropriate to the user's needs (i.e., to choose or reject based on the user's requirements and needs)."
+            },
+            "inScheme": "http://iflastandards.info/ns/fr/frsad/frsadusertask",
+            "prefLabel": {
+                "en": "select"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/fr/frsad/frsadusertask#T1004",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/1243",
+            "definition": {
+                "en": "Explore relationships between subjects and. or, their appellations (e.g., to explore relationships in order to understand the structure of a subject domain and its terminology)."
+            },
+            "inScheme": "http://iflastandards.info/ns/fr/frsad/frsadusertask",
+            "prefLabel": {
+                "en": "explore"
+            },
+            "status": "Published"
+        }
+    ]
+}

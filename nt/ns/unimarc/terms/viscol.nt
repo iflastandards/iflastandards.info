@@ -1,0 +1,35 @@
+<http://iflastandards.info/ns/unimarc/terms/viscol#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<http://iflastandards.info/ns/unimarc/terms/viscol#> <http://purl.org/dc/elements/1.1/title> "UNIMARC: Visual projections, etc.: Colour" .
+<http://iflastandards.info/ns/unimarc/terms/viscol#a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/viscol#a> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/viscol#> .
+<http://iflastandards.info/ns/unimarc/terms/viscol#a> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/viscol#a> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7759> .
+<http://iflastandards.info/ns/unimarc/terms/viscol#a> <http://www.w3.org/2004/02/skos/core#prefLabel> "black and white"@en .
+<http://iflastandards.info/ns/unimarc/terms/viscol#a> <http://www.w3.org/2004/02/skos/core#notation> "a"@en .
+<http://iflastandards.info/ns/unimarc/terms/viscol#b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/viscol#b> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/viscol#> .
+<http://iflastandards.info/ns/unimarc/terms/viscol#b> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/viscol#b> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7760> .
+<http://iflastandards.info/ns/unimarc/terms/viscol#b> <http://www.w3.org/2004/02/skos/core#prefLabel> "colour"@en .
+<http://iflastandards.info/ns/unimarc/terms/viscol#b> <http://www.w3.org/2004/02/skos/core#notation> "b"@en .
+<http://iflastandards.info/ns/unimarc/terms/viscol#c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/viscol#c> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/viscol#> .
+<http://iflastandards.info/ns/unimarc/terms/viscol#c> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/viscol#c> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7761> .
+<http://iflastandards.info/ns/unimarc/terms/viscol#c> <http://www.w3.org/2004/02/skos/core#prefLabel> "combination of black & white and colour"@en .
+<http://iflastandards.info/ns/unimarc/terms/viscol#c> <http://www.w3.org/2004/02/skos/core#notation> "c"@en .
+<http://iflastandards.info/ns/unimarc/terms/viscol#z> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/viscol#z> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/viscol#> .
+<http://iflastandards.info/ns/unimarc/terms/viscol#z> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/viscol#z> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7763> .
+<http://iflastandards.info/ns/unimarc/terms/viscol#z> <http://www.w3.org/2004/02/skos/core#prefLabel> "other"@en .
+<http://iflastandards.info/ns/unimarc/terms/viscol#z> <http://www.w3.org/2004/02/skos/core#notation> "z"@en .
+<http://iflastandards.info/ns/unimarc/terms/viscol#z> <http://www.w3.org/2004/02/skos/core#scopeNote> "Includes sepia, tinted, etc."@en .
+<http://iflastandards.info/ns/unimarc/terms/viscol#u> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/viscol#u> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/viscol#> .
+<http://iflastandards.info/ns/unimarc/terms/viscol#u> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/viscol#u> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7762> .
+<http://iflastandards.info/ns/unimarc/terms/viscol#u> <http://www.w3.org/2004/02/skos/core#prefLabel> "unknown"@en .
+<http://iflastandards.info/ns/unimarc/terms/viscol#u> <http://www.w3.org/2004/02/skos/core#notation> "u"@en .
+<http://metadataregistry.org/uri/RegStatus/1001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://metadataregistry.org/uri/RegStatus/1001> <http://www.w3.org/2004/02/skos/core#prefLabel> "Published"@en .

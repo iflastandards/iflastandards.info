@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+<!-- Scheme: UNIMARC: Graphics: Functional designation -->
+    <skos:ConceptScheme rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicsfd#">
+        <dc:title>UNIMARC: Graphics: Functional designation</dc:title>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicsfd#aa"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicsfd#an"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicsfd#ag"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicsfd#aj"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicsfd#ai"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicsfd#af"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicsfd#ak"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicsfd#ab"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicsfd#vv"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicsfd#xx"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicsfd#zz"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicsfd#as"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicsfd#ah"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicsfd#ae"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicsfd#ad"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicsfd#au"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicsfd#ac"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicsfd#uu"/>
+    </skos:ConceptScheme>
+
+<!-- Concept: architectural drawing  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicsfd#aa" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicsfd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6348"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicsfd#"/>
+      <skos:prefLabel xml:lang="en">architectural drawing</skos:prefLabel>
+      <skos:notation xml:lang="en">aa</skos:notation>
+      <skos:prefLabel xml:lang="it">disegno architettonico</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">desenho de arquitectura</skos:prefLabel>
+      <skos:definition xml:lang="en">Graphic delineation made for the design and construction (or documentation of design and construction) of sites, structures, buildings, details, fixtures, furnishings, and decorations, as well as other objects designed by an architect or architectural office.</skos:definition>
+    </skos:Concept>
+<!-- Concept: calendar  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicsfd#an" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicsfd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6359"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicsfd#"/>
+      <skos:prefLabel xml:lang="en">calendar</skos:prefLabel>
+      <skos:notation xml:lang="en">an</skos:notation>
+      <skos:definition xml:lang="en">A table showing the months, days, of the week, and dates of a given year.</skos:definition>
+      <skos:prefLabel xml:lang="pt">calendário</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">calendario</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: chart  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicsfd#ag" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicsfd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6354"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicsfd#"/>
+      <skos:prefLabel xml:lang="en">chart</skos:prefLabel>
+      <skos:notation xml:lang="en">ag</skos:notation>
+      <skos:definition xml:lang="en">An opaque sheet that exhibits information in a graphic or tabular form.</skos:definition>
+      <skos:scopeNote xml:lang="en">E.g. a wall chart.</skos:scopeNote>
+      <skos:prefLabel xml:lang="pt">diagrama</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">diagramma</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: ephemera  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicsfd#aj" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicsfd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6357"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicsfd#"/>
+      <skos:prefLabel xml:lang="en">ephemera</skos:prefLabel>
+      <skos:notation xml:lang="en">aj</skos:notation>
+      <skos:definition xml:lang="en">Transient everyday items, usually printed and on paper, that are manufactured for a specific limited use, then often thrown away.</skos:definition>
+      <skos:scopeNote xml:lang="en">Also included everyday items that are meant to be saved, at least for a while.</skos:scopeNote>
+      <skos:prefLabel xml:lang="pt">ephemera </skos:prefLabel>
+      <skos:prefLabel xml:lang="it">ephemera</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: flash card  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicsfd#ai" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicsfd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6356"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicsfd#"/>
+      <skos:prefLabel xml:lang="en">flash card</skos:prefLabel>
+      <skos:notation xml:lang="en">ai</skos:notation>
+      <skos:definition xml:lang="en">A card or other opaque material printed with words, numerals, or pictures and designed for rapid display.</skos:definition>
+      <skos:scopeNote xml:lang="en">Activity cards are included here.</skos:scopeNote>
+      <skos:prefLabel xml:lang="pt">ficha de visualização rápida</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">flash card</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: greetings card  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicsfd#af" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicsfd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6353"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicsfd#"/>
+      <skos:prefLabel xml:lang="en">greetings card</skos:prefLabel>
+      <skos:notation xml:lang="en">af</skos:notation>
+      <skos:definition xml:lang="en">Card sent or given on special occasions; usually bearing messages of good will.</skos:definition>
+      <skos:prefLabel xml:lang="pt">cartão de felicitações</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">diglietto di auguri</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: illustration  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicsfd#ak" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicsfd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6358"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicsfd#"/>
+      <skos:prefLabel xml:lang="en">illustration</skos:prefLabel>
+      <skos:notation xml:lang="en">ak</skos:notation>
+      <skos:definition xml:lang="en">A picture, design, engraving or other graphic image printed with or inserted in the text of a book or other publication used to complement or clarify the content of the text.</skos:definition>
+    </skos:Concept>
+<!-- Concept: item cover  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicsfd#ab" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicsfd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6349"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicsfd#"/>
+      <skos:prefLabel xml:lang="en">item cover</skos:prefLabel>
+      <skos:notation xml:lang="en">ab</skos:notation>
+      <skos:definition xml:lang="en">Cover forming the binding or outer enclosure of an item, i.e. hardback or paperback book covers, record sleeves, etc.</skos:definition>
+      <skos:scopeNote xml:lang="en">Covers may be detached or attached to the item.</skos:scopeNote>
+      <skos:prefLabel xml:lang="pt">material de protecção</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">copertina del documento</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: mixed  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicsfd#vv" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicsfd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6363"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicsfd#"/>
+      <skos:prefLabel xml:lang="en">mixed</skos:prefLabel>
+      <skos:notation xml:lang="en">vv</skos:notation>
+      <skos:prefLabel xml:lang="pt">misto</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">composito</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: not applicable  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicsfd#xx" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicsfd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6364"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicsfd#"/>
+      <skos:prefLabel xml:lang="en">not applicable</skos:prefLabel>
+      <skos:notation xml:lang="en">xx</skos:notation>
+      <skos:prefLabel xml:lang="pt">não aplicável</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">non applicabile</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: other  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicsfd#zz" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicsfd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6365"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicsfd#"/>
+      <skos:prefLabel xml:lang="en">other</skos:prefLabel>
+      <skos:notation xml:lang="en">zz</skos:notation>
+      <skos:prefLabel xml:lang="pt">outro</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">altro</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: place card  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicsfd#as" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicsfd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6360"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicsfd#"/>
+      <skos:prefLabel xml:lang="en">place card</skos:prefLabel>
+      <skos:notation xml:lang="en">as</skos:notation>
+      <skos:definition xml:lang="en">Decorated card that marks a place reserved for occupancy.</skos:definition>
+      <skos:prefLabel xml:lang="pt">marcador de lugar</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">biglietti segnaposto</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: playing cards  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicsfd#ah" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicsfd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6355"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicsfd#"/>
+      <skos:prefLabel xml:lang="en">playing cards</skos:prefLabel>
+      <skos:notation xml:lang="en">ah</skos:notation>
+      <skos:definition xml:lang="en">Cards made in sets of a designated number of cards and marked for use in playing one or more games or telling fortunes; marks may follow a standard suit and rank system or may be special designs.</skos:definition>
+      <skos:prefLabel xml:lang="pt">cartas de jogar</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">carte da gioco</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: postcard  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicsfd#ae" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicsfd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6352"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicsfd#"/>
+      <skos:prefLabel xml:lang="en">postcard</skos:prefLabel>
+      <skos:notation xml:lang="en">ae</skos:notation>
+      <skos:definition xml:lang="en">Card with a graphic scene on one side, on which a message may be written or printed for mailing without an envelope.</skos:definition>
+      <skos:prefLabel xml:lang="pt">postal</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">cartolina</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: poster  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicsfd#ad" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicsfd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6351"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicsfd#"/>
+      <skos:prefLabel xml:lang="en">poster</skos:prefLabel>
+      <skos:notation xml:lang="en">ad</skos:notation>
+      <skos:definition xml:lang="en">Single or multi-sheet chiefly pictorial notice made for posting, usually in a public place, to attract attention to events, activities, causes, goods, or services.</skos:definition>
+      <skos:scopeNote xml:lang="en">The purely decorative posters made since about 1960 are included.</skos:scopeNote>
+      <skos:prefLabel xml:lang="pt">cartaz</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">poster</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: santino  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicsfd#au" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicsfd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6361"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicsfd#"/>
+      <skos:prefLabel xml:lang="en">santino</skos:prefLabel>
+      <skos:notation xml:lang="en">au</skos:notation>
+      <skos:definition xml:lang="en">Printed card which has, on one side, the picture of a holy or sacred subject and, on the other side a prayer or an appeal formula.</skos:definition>
+      <skos:prefLabel xml:lang="pt">santinho</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">santino</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: sticker  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicsfd#ac" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicsfd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6350"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicsfd#"/>
+      <skos:prefLabel xml:lang="en">sticker</skos:prefLabel>
+      <skos:notation xml:lang="en">ac</skos:notation>
+      <skos:definition xml:lang="en">Message or design on slips of paper that are gummed or otherwise treated to adhere to a surface.</skos:definition>
+      <skos:scopeNote xml:lang="en">Also included book owners' identification labels (ex libris); usually intended for attaching inside a book. Book plates may be attached or detached.</skos:scopeNote>
+      <skos:prefLabel xml:lang="pt">etiquetas colantes</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">sticker</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: unknown  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicsfd#uu" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicsfd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6362"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicsfd#"/>
+      <skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+      <skos:notation xml:lang="en">uu</skos:notation>
+      <skos:prefLabel xml:lang="pt">desconhecido</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">sconosciuto</skos:prefLabel>
+    </skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

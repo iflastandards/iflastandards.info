@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+<!-- Scheme: UNIMARC: Cartographic materials: Planet -->
+    <skos:ConceptScheme rdf:about="http://iflastandards.info/ns/unimarc/terms/planet#">
+        <dc:title>UNIMARC: Cartographic materials: Planet</dc:title>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/planet#ea"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/planet#ju"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/planet#ma"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/planet#me"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/planet#ne"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/planet#zz"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/planet#pl"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/planet#sa"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/planet#ur"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/planet#ve"/>
+    </skos:ConceptScheme>
+
+<!-- Concept: Earth  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/planet#ea" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/planet#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6413"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/planet#"/>
+      <skos:prefLabel xml:lang="en">Earth</skos:prefLabel>
+      <skos:notation xml:lang="en">ea</skos:notation>
+    </skos:Concept>
+<!-- Concept: Jupiter  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/planet#ju" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/planet#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6414"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/planet#"/>
+      <skos:prefLabel xml:lang="en">Jupiter</skos:prefLabel>
+      <skos:notation xml:lang="en">ju</skos:notation>
+    </skos:Concept>
+<!-- Concept: Mars  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/planet#ma" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/planet#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6415"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/planet#"/>
+      <skos:prefLabel xml:lang="en">Mars</skos:prefLabel>
+      <skos:notation xml:lang="en">ma</skos:notation>
+    </skos:Concept>
+<!-- Concept: Mercury  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/planet#me" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/planet#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6416"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/planet#"/>
+      <skos:prefLabel xml:lang="en">Mercury</skos:prefLabel>
+      <skos:notation xml:lang="en">me</skos:notation>
+    </skos:Concept>
+<!-- Concept: Neptune  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/planet#ne" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/planet#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6417"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/planet#"/>
+      <skos:prefLabel xml:lang="en">Neptune</skos:prefLabel>
+      <skos:notation xml:lang="en">ne</skos:notation>
+    </skos:Concept>
+<!-- Concept: Other  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/planet#zz" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/planet#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6422"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/planet#"/>
+      <skos:prefLabel xml:lang="en">Other</skos:prefLabel>
+      <skos:definition xml:lang="en">A planet other than Earth, Jupiter, Mars, Mercury, Neptune, Pluto, Saturn, Uranus, or Venus.</skos:definition>
+      <skos:notation xml:lang="en">zz</skos:notation>
+    </skos:Concept>
+<!-- Concept: Pluto  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/planet#pl" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/planet#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6418"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/planet#"/>
+      <skos:prefLabel xml:lang="en">Pluto</skos:prefLabel>
+      <skos:notation xml:lang="en">pl</skos:notation>
+    </skos:Concept>
+<!-- Concept: Saturn  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/planet#sa" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/planet#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6419"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/planet#"/>
+      <skos:prefLabel xml:lang="en">Saturn</skos:prefLabel>
+      <skos:notation xml:lang="en">sa</skos:notation>
+    </skos:Concept>
+<!-- Concept: Uranus  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/planet#ur" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/planet#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6420"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/planet#"/>
+      <skos:prefLabel xml:lang="en">Uranus</skos:prefLabel>
+      <skos:notation xml:lang="en">ur</skos:notation>
+    </skos:Concept>
+<!-- Concept: Venus  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/planet#ve" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/planet#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6421"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/planet#"/>
+      <skos:prefLabel xml:lang="en">Venus</skos:prefLabel>
+      <skos:notation xml:lang="en">ve</skos:notation>
+    </skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+<!-- Scheme: UNIMARC: Visual projections, etc.: Form of release - visual projection, motion picture -->
+    <skos:ConceptScheme rdf:about="http://iflastandards.info/ns/unimarc/terms/visfor#">
+        <dc:title>UNIMARC: Visual projections, etc.: Form of release - visual projection, motion picture</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: film cartridge  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/visfor#b" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/visfor#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7777"/>
+      <skos:prefLabel xml:lang="en">film cartridge</skos:prefLabel>
+      <skos:notation xml:lang="en">b</skos:notation>
+    </skos:Concept>
+<!-- Concept: film cassette  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/visfor#c" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/visfor#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7778"/>
+      <skos:prefLabel xml:lang="en">film cassette</skos:prefLabel>
+      <skos:notation xml:lang="en">c</skos:notation>
+    </skos:Concept>
+<!-- Concept: film reel  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/visfor#a" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/visfor#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7776"/>
+      <skos:prefLabel xml:lang="en">film reel</skos:prefLabel>
+      <skos:notation xml:lang="en">a</skos:notation>
+    </skos:Concept>
+<!-- Concept: film strip roll  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/visfor#j" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/visfor#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7783"/>
+      <skos:prefLabel xml:lang="en">film strip roll</skos:prefLabel>
+      <skos:notation xml:lang="en">j</skos:notation>
+    </skos:Concept>
+<!-- Concept: filmslip  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/visfor#h" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/visfor#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7781"/>
+      <skos:prefLabel xml:lang="en">filmslip</skos:prefLabel>
+      <skos:notation xml:lang="en">h</skos:notation>
+    </skos:Concept>
+<!-- Concept: filmstrip cartridge  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/visfor#g" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/visfor#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7780"/>
+      <skos:prefLabel xml:lang="en">filmstrip cartridge</skos:prefLabel>
+      <skos:notation xml:lang="en">g</skos:notation>
+    </skos:Concept>
+<!-- Concept: not a motion picture or visual projection  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/visfor#x" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/visfor#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7787"/>
+      <skos:prefLabel xml:lang="en">not a motion picture or visual projection</skos:prefLabel>
+      <skos:notation xml:lang="en">x</skos:notation>
+    </skos:Concept>
+<!-- Concept: other film type  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/visfor#d" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/visfor#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7779"/>
+      <skos:prefLabel xml:lang="en">other film type</skos:prefLabel>
+      <skos:notation xml:lang="en">d</skos:notation>
+    </skos:Concept>
+<!-- Concept: other filmstrip type  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/visfor#i" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/visfor#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7782"/>
+      <skos:prefLabel xml:lang="en">other filmstrip type</skos:prefLabel>
+      <skos:notation xml:lang="en">i</skos:notation>
+    </skos:Concept>
+<!-- Concept: other forms of release  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/visfor#z" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/visfor#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7788"/>
+      <skos:prefLabel xml:lang="en">other forms of release</skos:prefLabel>
+      <skos:notation xml:lang="en">z</skos:notation>
+    </skos:Concept>
+<!-- Concept: slide, slide set, stereograph  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/visfor#k" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/visfor#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7784"/>
+      <skos:prefLabel xml:lang="en">slide, slide set, stereograph</skos:prefLabel>
+      <skos:notation xml:lang="en">k</skos:notation>
+    </skos:Concept>
+<!-- Concept: transparency  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/visfor#l" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/visfor#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7891"/>
+      <skos:prefLabel xml:lang="en">transparency</skos:prefLabel>
+      <skos:notation xml:lang="en">l</skos:notation>
+    </skos:Concept>
+<!-- Concept: transparency (deprecated)  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/visfor#1" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/visfor#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1008"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7785"/>
+      <skos:prefLabel xml:lang="en">transparency (deprecated)</skos:prefLabel>
+      <skos:notation xml:lang="en">1</skos:notation>
+    </skos:Concept>
+<!-- Concept: unknown  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/visfor#u" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/visfor#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7786"/>
+      <skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+      <skos:notation xml:lang="en">u</skos:notation>
+    </skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1008">
+        <skos:prefLabel xml:lang="en">Deprecated</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

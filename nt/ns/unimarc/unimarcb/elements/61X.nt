@@ -1,0 +1,230 @@
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> <http://purl.org/dc/elements/1.1/title> "UNIMARC/B elements 61X"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__3> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__3> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__3> <http://metadataregistry.org/uri/profile/regap/name> "hasAuthorityRecordNumberInHierarchicalGeographicalNameUsedAsSubject"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__3> <http://www.w3.org/2000/01/rdf-schema#label> "has Authority record number in Hierarchical geographical name used as subject"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__3> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <u61x:hasAuthorityRecordNumberInHierarchicalGeographicalNameUsedAsSubject.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__3> <http://www.w3.org/2004/02/skos/core#definition> "The control number."@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U615__3> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U615__3> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U615__3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U615__3> <http://metadataregistry.org/uri/profile/regap/name> "hasAuthorityRecordNumberInSubjectCategoryProvisional"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U615__3> <http://www.w3.org/2000/01/rdf-schema#label> "has Authority record number in Subject category (provisional)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U615__3> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <u61x:hasAuthorityRecordNumberInSubjectCategoryProvisional.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U615__3> <http://www.w3.org/2004/02/skos/core#definition> "The control number."@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__3> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__3> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__3> <http://metadataregistry.org/uri/profile/regap/name> "hasAuthorityRecordNumberInTrademarkUsedAsSubject"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__3> <http://www.w3.org/2000/01/rdf-schema#label> "has Authority record number in Trademark used as subject"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__3> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <u61x:hasAuthorityRecordNumberInTrademarkUsedAsSubject.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__3> <http://www.w3.org/2004/02/skos/core#definition> "The control number."@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__z> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__z> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__z> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__z> <http://metadataregistry.org/uri/profile/regap/name> "hasChronologicalSubdivisionInTrademarkUsedAsSubject"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__z> <http://www.w3.org/2000/01/rdf-schema#label> "has Chronological subdivision in Trademark used as subject"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__z> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <u61x:hasChronologicalSubdivisionInTrademarkUsedAsSubject.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__z> <http://www.w3.org/2004/02/skos/core#definition> "A term added to a subject heading to specify the period in time in relation to a trademark which the subject heading represents."@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__d> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__d> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__d> <http://metadataregistry.org/uri/profile/regap/name> "hasCityEtcInHierarchicalGeographicalNameUsedAsSubject"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__d> <http://www.w3.org/2000/01/rdf-schema#label> "has City, etc. in Hierarchical geographical name used as subject"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__d> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <u61x:hasCityEtcInHierarchicalGeographicalNameUsedAsSubject.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__d> <http://www.w3.org/2004/02/skos/core#definition> "The name of a city, town, commune, village or other distinct populated area not defined as a subsection of a larger one."@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__a> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__a> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__a> <http://metadataregistry.org/uri/profile/regap/name> "hasCountryNationStateInHierarchicalGeographicalNameUsedAsSubject"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__a> <http://www.w3.org/2000/01/rdf-schema#label> "has Country (nation state) in Hierarchical geographical name used as subject"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__a> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <u61x:hasCountryNationStateInHierarchicalGeographicalNameUsedAsSubject.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__a> <http://www.w3.org/2004/02/skos/core#definition> "Country."@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__f> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__f> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__f> <http://metadataregistry.org/uri/profile/regap/name> "hasDateInHierarchicalGeographicalNameUsedAsSubject"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__f> <http://www.w3.org/2000/01/rdf-schema#label> "has Date in Hierarchical geographical name used as subject"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__f> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <u61x:hasDateInHierarchicalGeographicalNameUsedAsSubject.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__f> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__f> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__f> <http://metadataregistry.org/uri/profile/regap/name> "hasDatesInTrademarkUsedAsSubject"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__f> <http://www.w3.org/2000/01/rdf-schema#label> "has Dates in Trademark used as subject"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__f> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <u61x:hasDatesInTrademarkUsedAsSubject.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__f> <http://www.w3.org/2004/02/skos/core#definition> "The dates between which a particular trademark was in use."@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__a> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__a> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__a> <http://metadataregistry.org/uri/profile/regap/name> "hasEntryElementInTrademarkUsedAsSubject"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__a> <http://www.w3.org/2000/01/rdf-schema#label> "has Entry element in Trademark used as subject"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__a> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <u61x:hasEntryElementInTrademarkUsedAsSubject.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__a> <http://www.w3.org/2004/02/skos/core#definition> "The trademark name in access point form."@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__n> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__n> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__n> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__n> <http://metadataregistry.org/uri/profile/regap/name> "hasExtraterrestrialAreasInHierarchicalGeographicalNameUsedAsSubject"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__n> <http://www.w3.org/2000/01/rdf-schema#label> "has Extraterrestrial areas in Hierarchical geographical name used as subject"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__n> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <u61x:hasExtraterrestrialAreasInHierarchicalGeographicalNameUsedAsSubject.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__n> <http://www.w3.org/2004/02/skos/core#definition> "Any extraterrestrial entity or space, and the geographic features of such entities."@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__i> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__i> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__i> <http://metadataregistry.org/uri/profile/regap/name> "hasFinalDateInHierarchicalGeographicalNameUsedAsSubject"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__i> <http://www.w3.org/2000/01/rdf-schema#label> "has Final date in Hierarchical geographical name used as subject"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__i> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <u61x:hasFinalDateInHierarchicalGeographicalNameUsedAsSubject.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__j> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__j> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__j> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__j> <http://metadataregistry.org/uri/profile/regap/name> "hasFormSubdivisionInTrademarkUsedAsSubject"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__j> <http://www.w3.org/2000/01/rdf-schema#label> "has Form subdivision in Trademark used as subject"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__j> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <u61x:hasFormSubdivisionInTrademarkUsedAsSubject.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__j> <http://www.w3.org/2004/02/skos/core#definition> "A term added to a subject heading to further specify the kind(s) or genre(s) of material."@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__o> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__o> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__o> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__o> <http://metadataregistry.org/uri/profile/regap/name> "hasGeographicalAreasSuchAsWorldHemisphereContinentLargerAreaThanCountryInHierarchicalGeographicalNameUsedAsSubject"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__o> <http://www.w3.org/2000/01/rdf-schema#label> "has Geographical areas such as world, hemisphere, continent: larger area than country in Hierarchical geographical name used as subject"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__o> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <u61x:hasGeographicalAreasSuchAsWorldHemisphereContinentLargerAreaThanCountryInHierarchicalGeographicalNameUsedAsSubject.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__o> <http://www.w3.org/2004/02/skos/core#definition> "Geographical areas."@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__o> <http://www.w3.org/2004/02/skos/core#scopeNote> "Includes world, hemisphere, continent: larger area than country."@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__y> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__y> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__y> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__y> <http://metadataregistry.org/uri/profile/regap/name> "hasGeographicalSubdivisionInTrademarkUsedAsSubject"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__y> <http://www.w3.org/2000/01/rdf-schema#label> "has Geographical subdivision in Trademark used as subject"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__y> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <u61x:hasGeographicalSubdivisionInTrademarkUsedAsSubject.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__y> <http://www.w3.org/2004/02/skos/core#definition> "A term added to a subject heading to specify a place in relation to a trademark which the subject heading represents."@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__c> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__c> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__c> <http://metadataregistry.org/uri/profile/regap/name> "hasIntermediatePoliticalJurisdictionInHierarchicalGeographicalNameUsedAsSubject"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__c> <http://www.w3.org/2000/01/rdf-schema#label> "has Intermediate political jurisdiction. in Hierarchical geographical name used as subject"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__c> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <u61x:hasIntermediatePoliticalJurisdictionInHierarchicalGeographicalNameUsedAsSubject.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__c> <http://www.w3.org/2004/02/skos/core#definition> "Second-order or lower political jurisdiction, but not including cities, etc."@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__h> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__h> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__h> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__h> <http://metadataregistry.org/uri/profile/regap/name> "hasOccasionInHierarchicalGeographicalNameUsedAsSubject"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__h> <http://www.w3.org/2000/01/rdf-schema#label> "has Occasion in Hierarchical geographical name used as subject"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__h> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <u61x:hasOccasionInHierarchicalGeographicalNameUsedAsSubject.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__m> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__m> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__m> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__m> <http://metadataregistry.org/uri/profile/regap/name> "hasOtherGeographicalRegionsOrFeaturesInHierarchicalGeographicalNameUsedAsSubject"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__m> <http://www.w3.org/2000/01/rdf-schema#label> "has Other geographical regions or features in Hierarchical geographical name used as subject"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__m> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <u61x:hasOtherGeographicalRegionsOrFeaturesInHierarchicalGeographicalNameUsedAsSubject.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__m> <http://www.w3.org/2004/02/skos/core#definition> "Terrestrial non-jurisdictional geographic entities."@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__m> <http://www.w3.org/2004/02/skos/core#scopeNote> "Includes oceans, islands, mountains, etc."@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__c> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__c> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__c> <http://metadataregistry.org/uri/profile/regap/name> "hasQualificationInTrademarkUsedAsSubject"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__c> <http://www.w3.org/2000/01/rdf-schema#label> "has Qualification in Trademark used as subject"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__c> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <u61x:hasQualificationInTrademarkUsedAsSubject.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__c> <http://www.w3.org/2004/02/skos/core#definition> "Any addition to the name of the trademark added by the cataloguer."@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__g> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__g> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__g> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__g> <http://metadataregistry.org/uri/profile/regap/name> "hasSeasonInHierarchicalGeographicalNameUsedAsSubject"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__g> <http://www.w3.org/2000/01/rdf-schema#label> "has Season in Hierarchical geographical name used as subject"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__g> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <u61x:hasSeasonInHierarchicalGeographicalNameUsedAsSubject.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__b> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__b> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__b> <http://metadataregistry.org/uri/profile/regap/name> "hasStateOrProvinceEtcInHierarchicalGeographicalNameUsedAsSubject"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__b> <http://www.w3.org/2000/01/rdf-schema#label> "has State or province, etc. in Hierarchical geographical name used as subject"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__b> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <u61x:hasStateOrProvinceEtcInHierarchicalGeographicalNameUsedAsSubject.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__b> <http://www.w3.org/2004/02/skos/core#definition> "First-order political jurisdiction below a country."@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U615__n> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U615__n> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U615__n> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U615__n> <http://metadataregistry.org/uri/profile/regap/name> "hasSubjectCategoryCodeInSubjectCategoryProvisional"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U615__n> <http://www.w3.org/2000/01/rdf-schema#label> "has Subject category code in Subject category (provisional)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U615__n> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <u61x:hasSubjectCategoryCodeInSubjectCategoryProvisional.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U615__n> <http://www.w3.org/2004/02/skos/core#definition> "A coded representation of a subject category."@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U615__a> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U615__a> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U615__a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U615__a> <http://metadataregistry.org/uri/profile/regap/name> "hasSubjectCategoryEntryElementTextInSubjectCategoryProvisional"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U615__a> <http://www.w3.org/2000/01/rdf-schema#label> "has Subject category entry element text in Subject category (provisional)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U615__a> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <u61x:hasSubjectCategoryEntryElementTextInSubjectCategoryProvisional.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U615__a> <http://www.w3.org/2004/02/skos/core#definition> "The term in the form prescribed by the system of subject categories used."@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U615__m> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U615__m> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U615__m> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U615__m> <http://metadataregistry.org/uri/profile/regap/name> "hasSubjectCategorySubdivisionCodeInSubjectCategoryProvisional"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U615__m> <http://www.w3.org/2000/01/rdf-schema#label> "has Subject category subdivision code in Subject category (provisional)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U615__m> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <u61x:hasSubjectCategorySubdivisionCodeInSubjectCategoryProvisional.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U615__m> <http://www.w3.org/2004/02/skos/core#definition> "A coded representation of a subject category subdivision."@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U615__x> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U615__x> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U615__x> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U615__x> <http://metadataregistry.org/uri/profile/regap/name> "hasSubjectCategorySubdivisionTextInSubjectCategoryProvisional"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U615__x> <http://www.w3.org/2000/01/rdf-schema#label> "has Subject category subdivision text in Subject category (provisional)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U615__x> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <u61x:hasSubjectCategorySubdivisionTextInSubjectCategoryProvisional.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U615__x> <http://www.w3.org/2004/02/skos/core#definition> "The term added to the subject category to specify a particular aspect of the subject category."@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U6100_a> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U6100_a> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U6100_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U6100_a> <http://metadataregistry.org/uri/profile/regap/name> "hasSubjectTermInUncontrolledSubjectTermsNoLevelSpecified"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U6100_a> <http://www.w3.org/2000/01/rdf-schema#label> "has Subject term in Uncontrolled subject terms (No level specified)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U6100_a> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <u61x:hasSubjectTermInUncontrolledSubjectTermsNoLevelSpecified.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U6101_a> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U6101_a> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U6101_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U6101_a> <http://metadataregistry.org/uri/profile/regap/name> "hasSubjectTermInUncontrolledSubjectTermsPrimaryTerm"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U6101_a> <http://www.w3.org/2000/01/rdf-schema#label> "has Subject term in Uncontrolled subject terms (Primary term)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U6101_a> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <u61x:hasSubjectTermInUncontrolledSubjectTermsPrimaryTerm.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U6102_a> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U6102_a> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U6102_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U6102_a> <http://metadataregistry.org/uri/profile/regap/name> "hasSubjectTermInUncontrolledSubjectTermsSecondaryTerm"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U6102_a> <http://www.w3.org/2000/01/rdf-schema#label> "has Subject term in Uncontrolled subject terms (Secondary term)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U6102_a> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <u61x:hasSubjectTermInUncontrolledSubjectTermsSecondaryTerm.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__k> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__k> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__k> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__k> <http://metadataregistry.org/uri/profile/regap/name> "hasSubsectionOfCityEtcInHierarchicalGeographicalNameUsedAsSubject"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__k> <http://www.w3.org/2000/01/rdf-schema#label> "has Subsection of city, etc. in Hierarchical geographical name used as subject"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__k> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <u61x:hasSubsectionOfCityEtcInHierarchicalGeographicalNameUsedAsSubject.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__k> <http://www.w3.org/2004/02/skos/core#definition> "Smaller unit within a populated place."@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__k> <http://www.w3.org/2004/02/skos/core#scopeNote> "Includes, e.g. boroughs, neighbourhoods, streets."@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__2> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__2> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__2> <http://metadataregistry.org/uri/profile/regap/name> "hasSystemCodeInHierarchicalGeographicalNameUsedAsSubject"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__2> <http://www.w3.org/2000/01/rdf-schema#label> "has System code in Hierarchical geographical name used as subject"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__2> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <u61x:hasSystemCodeInHierarchicalGeographicalNameUsedAsSubject.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__2> <http://www.w3.org/2004/02/skos/core#definition> "An identification in coded form of the system from which the subject category is derived."@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U615__2> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U615__2> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U615__2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U615__2> <http://metadataregistry.org/uri/profile/regap/name> "hasSystemCodeInSubjectCategoryProvisional"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U615__2> <http://www.w3.org/2000/01/rdf-schema#label> "has System code in Subject category (provisional)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U615__2> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <u61x:hasSystemCodeInSubjectCategoryProvisional.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U615__2> <http://www.w3.org/2004/02/skos/core#definition> "An identification in coded form of the system from which the subject category is derived."@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__2> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__2> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__2> <http://metadataregistry.org/uri/profile/regap/name> "hasSystemCodeInTrademarkUsedAsSubject"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__2> <http://www.w3.org/2000/01/rdf-schema#label> "has System code in Trademark used as subject"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__2> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <u61x:hasSystemCodeInTrademarkUsedAsSubject.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__2> <http://www.w3.org/2004/02/skos/core#definition> "An identification in coded form of the system from which the subject category is derived."@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__x> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__x> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__x> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__x> <http://metadataregistry.org/uri/profile/regap/name> "hasTopicalSubdivisionInTrademarkUsedAsSubject"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__x> <http://www.w3.org/2000/01/rdf-schema#label> "has Topical subdivision in Trademark used as subject"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__x> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <u61x:hasTopicalSubdivisionInTrademarkUsedAsSubject.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__x> <http://www.w3.org/2004/02/skos/core#definition> "A term added to a subject heading to further specify the topic the heading represents."@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__e> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__e> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__e> <http://metadataregistry.org/uri/profile/regap/name> "hasVenueInHierarchicalGeographicalNameUsedAsSubject"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__e> <http://www.w3.org/2000/01/rdf-schema#label> "has Venue in Hierarchical geographical name used as subject"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__e> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <u61x:hasVenueInHierarchicalGeographicalNameUsedAsSubject.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__e> <http://www.w3.org/2004/02/skos/core#definition> "Named buildings, urban spaces, vehicles, etc."@en .
+<http://metadataregistry.org/uri/RegStatus/1001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://metadataregistry.org/uri/RegStatus/1001> <http://www.w3.org/2004/02/skos/core#prefLabel> "Published"@en .

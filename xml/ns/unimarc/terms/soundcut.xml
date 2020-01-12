@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+<!-- Scheme: UNIMARC: Sound recordings: Kind of cutting -->
+    <skos:ConceptScheme rdf:about="http://iflastandards.info/ns/unimarc/terms/soundcut">
+        <dc:title>UNIMARC: Sound recordings: Kind of cutting</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: lateral or combined cutting  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/soundcut#a" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundcut"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7490"/>
+      <skos:prefLabel xml:lang="en">lateral or combined cutting</skos:prefLabel>
+      <skos:notation xml:lang="en">a </skos:notation>
+    </skos:Concept>
+<!-- Concept: not applicable  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/soundcut#x" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundcut"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7493"/>
+      <skos:prefLabel xml:lang="en">not applicable</skos:prefLabel>
+      <skos:notation xml:lang="en">x </skos:notation>
+    </skos:Concept>
+<!-- Concept: unknown  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/soundcut#u" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundcut"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7492"/>
+      <skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+      <skos:notation xml:lang="en">u </skos:notation>
+    </skos:Concept>
+<!-- Concept: vertical (hill and dale) cutting  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/soundcut#b" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundcut"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7491"/>
+      <skos:prefLabel xml:lang="en">vertical (hill and dale) cutting</skos:prefLabel>
+      <skos:notation xml:lang="en">b </skos:notation>
+    </skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

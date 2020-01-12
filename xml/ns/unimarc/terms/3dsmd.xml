@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+<!-- Scheme: UNIMARC: Three-dimensional artefacts and realia: Specific material designation -->
+    <skos:ConceptScheme rdf:about="http://iflastandards.info/ns/unimarc/terms/3dsmd#">
+        <dc:title>UNIMARC: Three-dimensional artefacts and realia: Specific material designation</dc:title>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#aj"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#bj"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#ao"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#bg"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#ak"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#bd"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#ba"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#ar"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#ad"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#ae"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#al"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#ap"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#be"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#bi"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#ah"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#ab"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#bf"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#bh"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#ag"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#af"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#vv"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#as"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#at"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#zz"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#bb"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#bc"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#az"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#ac"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#aa"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#an"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#ai"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#aq"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#am"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#uu"/>
+    </skos:ConceptScheme>
+
+<!-- Concept: arms  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/3dsmd#aj" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6505"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <skos:prefLabel xml:lang="en">arms</skos:prefLabel>
+      <skos:notation xml:lang="en">aj</skos:notation>
+      <skos:prefLabel xml:lang="pt">armas</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">stemma</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: artefacts  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/3dsmd#bj" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6526"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <skos:prefLabel xml:lang="en">artefacts</skos:prefLabel>
+      <skos:notation xml:lang="en">bj</skos:notation>
+      <skos:prefLabel xml:lang="pt">artefactos</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">artefatto</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: clothes  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/3dsmd#ao" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6510"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <skos:prefLabel xml:lang="en">clothes</skos:prefLabel>
+      <skos:notation xml:lang="en">o</skos:notation>
+      <skos:prefLabel xml:lang="pt">vestuário</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">vestiti</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: coins  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/3dsmd#bg" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6523"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <skos:prefLabel xml:lang="en">coins</skos:prefLabel>
+      <skos:notation xml:lang="en">bg</skos:notation>
+      <skos:prefLabel xml:lang="pt">moedas</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">monete</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: containers  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/3dsmd#ak" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6506"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <skos:prefLabel xml:lang="en">containers</skos:prefLabel>
+      <skos:notation xml:lang="en">ak</skos:notation>
+      <skos:prefLabel xml:lang="pt">recipientes</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">contenitori</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: design objects  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/3dsmd#bd" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6520"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <skos:prefLabel xml:lang="en">design objects</skos:prefLabel>
+      <skos:notation xml:lang="en">bd</skos:notation>
+      <skos:prefLabel xml:lang="pt">objectos de design</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">materiale decorato</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: dioramas  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/3dsmd#ba" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6517"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <skos:prefLabel xml:lang="en">dioramas</skos:prefLabel>
+      <skos:notation xml:lang="en">ba</skos:notation>
+      <skos:prefLabel xml:lang="pt">dioramas</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">diorama</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: dolls  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/3dsmd#ar" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6513"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <skos:prefLabel xml:lang="en">dolls</skos:prefLabel>
+      <skos:notation xml:lang="en">ar</skos:notation>
+      <skos:prefLabel xml:lang="pt">bonecas</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">bambole</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: fauna  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/3dsmd#ad" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6499"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <skos:prefLabel xml:lang="en">fauna</skos:prefLabel>
+      <skos:notation xml:lang="en">a</skos:notation>
+      <skos:prefLabel xml:lang="pt">fauna</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">fauna</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: flora  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/3dsmd#ae" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6500"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <skos:prefLabel xml:lang="en">flora</skos:prefLabel>
+      <skos:notation xml:lang="en">ae</skos:notation>
+      <skos:prefLabel xml:lang="pt">flora</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">flora</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: furniture  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/3dsmd#al" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6507"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <skos:prefLabel xml:lang="en">furniture</skos:prefLabel>
+      <skos:notation xml:lang="en">al</skos:notation>
+      <skos:prefLabel xml:lang="pt">mobiliário</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">mobilio</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: games and recreation  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/3dsmd#ap" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6511"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <skos:prefLabel xml:lang="en">games and recreation</skos:prefLabel>
+      <skos:notation xml:lang="en">ap</skos:notation>
+      <skos:prefLabel xml:lang="pt">jogos e entretenhimento</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">giochi</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: industrial production  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/3dsmd#be" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6521"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <skos:prefLabel xml:lang="en">industrial production</skos:prefLabel>
+      <skos:notation xml:lang="en">be</skos:notation>
+      <skos:prefLabel xml:lang="pt">produção industrial</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">prodotto in serie</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: jewellery  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/3dsmd#bi" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6525"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <skos:prefLabel xml:lang="en">jewellery</skos:prefLabel>
+      <skos:notation xml:lang="en">bi</skos:notation>
+      <skos:prefLabel xml:lang="pt">joalharia</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">gioielli</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: jigsaws  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/3dsmd#ah" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6503"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <skos:prefLabel xml:lang="en">jigsaws</skos:prefLabel>
+      <skos:notation xml:lang="en">ah</skos:notation>
+      <skos:prefLabel xml:lang="pt">puzzles</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">giochi di pazienza</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: laboratory and construction kits  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/3dsmd#ab" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6497"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <skos:prefLabel xml:lang="en">laboratory and construction kits</skos:prefLabel>
+      <skos:notation xml:lang="en">ab</skos:notation>
+      <skos:prefLabel xml:lang="pt">conjunto de laboratório e construção</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">kit di laboratorio e costruzione</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: machines  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/3dsmd#bf" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6522"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <skos:prefLabel xml:lang="en">machines</skos:prefLabel>
+      <skos:notation xml:lang="en">bf</skos:notation>
+      <skos:prefLabel xml:lang="pt">máquinas</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">macchine</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: medals  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/3dsmd#bh" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6524"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <skos:prefLabel xml:lang="en">medals</skos:prefLabel>
+      <skos:notation xml:lang="en">bh</skos:notation>
+      <skos:prefLabel xml:lang="pt">medalhas</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">medaglie</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: microscope slides  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/3dsmd#ag" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6502"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <skos:prefLabel xml:lang="en">microscope slides</skos:prefLabel>
+      <skos:notation xml:lang="en">ag</skos:notation>
+      <skos:prefLabel xml:lang="pt">lamelas de microscópio</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">vetrini per microscopio</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: minerals  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/3dsmd#af" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6501"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <skos:prefLabel xml:lang="en">minerals</skos:prefLabel>
+      <skos:notation xml:lang="en">af</skos:notation>
+      <skos:prefLabel xml:lang="pt">minerais</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">minerali</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: mixed  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/3dsmd#vv" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6528"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <skos:prefLabel xml:lang="en">mixed</skos:prefLabel>
+      <skos:notation xml:lang="en">vv</skos:notation>
+      <skos:prefLabel xml:lang="pt">misto</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">composito</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: models  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/3dsmd#as" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6514"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <skos:prefLabel xml:lang="en">models</skos:prefLabel>
+      <skos:notation xml:lang="en">as</skos:notation>
+      <skos:prefLabel xml:lang="pt">maquetas</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">modelli</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: models for making   -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/3dsmd#at" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6515"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <skos:prefLabel xml:lang="en">models for making </skos:prefLabel>
+      <skos:notation xml:lang="en">at</skos:notation>
+      <skos:prefLabel xml:lang="pt">modelos de fabrico</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">modelli per assemblamento</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: other  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/3dsmd#zz" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6529"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <skos:prefLabel xml:lang="en">other</skos:prefLabel>
+      <skos:notation xml:lang="en">zz</skos:notation>
+      <skos:prefLabel xml:lang="pt">outro</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">altro</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: replicas  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/3dsmd#bb" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6518"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <skos:prefLabel xml:lang="en">replicas</skos:prefLabel>
+      <skos:notation xml:lang="en">bb</skos:notation>
+      <skos:prefLabel xml:lang="pt">réplicas</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">riproduzioni</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: sculptures  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/3dsmd#bc" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6519"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <skos:prefLabel xml:lang="en">sculptures</skos:prefLabel>
+      <skos:notation xml:lang="en">bc</skos:notation>
+      <skos:prefLabel xml:lang="pt">esculturas</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">sculture</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: seals  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/3dsmd#az" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6516"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <skos:prefLabel xml:lang="en">seals</skos:prefLabel>
+      <skos:notation xml:lang="en">az</skos:notation>
+      <skos:prefLabel xml:lang="pt">selos</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">sigilli</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: specimens  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/3dsmd#ac" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6498"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <skos:prefLabel xml:lang="en">specimens</skos:prefLabel>
+      <skos:notation xml:lang="en">ac</skos:notation>
+      <skos:prefLabel xml:lang="pt">espécimes</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">campioni</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: study kits  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/3dsmd#aa" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6496"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <skos:prefLabel xml:lang="en">study kits</skos:prefLabel>
+      <skos:notation xml:lang="en">aa</skos:notation>
+      <skos:prefLabel xml:lang="pt">conjunto de estudo</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">kit di studio</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: textiles  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/3dsmd#an" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6509"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <skos:prefLabel xml:lang="en">textiles</skos:prefLabel>
+      <skos:notation xml:lang="en">an</skos:notation>
+      <skos:prefLabel xml:lang="pt">têxteis</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">tessuto</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: tools and equipment  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/3dsmd#ai" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6504"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <skos:prefLabel xml:lang="en">tools and equipment</skos:prefLabel>
+      <skos:notation xml:lang="en">ai</skos:notation>
+      <skos:prefLabel xml:lang="it">strumenti e attrezzature</skos:prefLabel>
+      <skos:altLabel xml:lang="pt">ferramentas e equipamento</skos:altLabel>
+      <skos:prefLabel xml:lang="pt">utensílios e equipamento</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: toys  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/3dsmd#aq" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6512"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <skos:prefLabel xml:lang="en">toys</skos:prefLabel>
+      <skos:notation xml:lang="en">aq</skos:notation>
+      <skos:prefLabel xml:lang="pt">brinquedos</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">giocattoli</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: transport  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/3dsmd#am" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6508"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <skos:prefLabel xml:lang="en">transport</skos:prefLabel>
+      <skos:notation xml:lang="en">am</skos:notation>
+      <skos:prefLabel xml:lang="pt">equipamento de transporte</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">mezzi di trasporto</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: unknown  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/3dsmd#uu" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6527"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dsmd#"/>
+      <skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+      <skos:notation xml:lang="en">uu</skos:notation>
+      <skos:prefLabel xml:lang="pt">desconhecido</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">sconosciuto</skos:prefLabel>
+    </skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

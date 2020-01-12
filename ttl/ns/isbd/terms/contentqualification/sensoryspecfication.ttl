@@ -1,0 +1,64 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix reg: <http://metadataregistry.org/uri/profile/regap/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://iflastandards.info/ns/isbd/terms/contentqualification/sensoryspecfication>
+    dc:title "ISBD Content Qualification of Sensory Specification" ;
+    a skos:ConceptScheme ;
+    skos:hasTopConcept <http://iflastandards.info/ns/isbd/terms/contentqualification/sensoryspecfication/T1001>, <http://iflastandards.info/ns/isbd/terms/contentqualification/sensoryspecfication/T1002>, <http://iflastandards.info/ns/isbd/terms/contentqualification/sensoryspecfication/T1003>, <http://iflastandards.info/ns/isbd/terms/contentqualification/sensoryspecfication/T1004>, <http://iflastandards.info/ns/isbd/terms/contentqualification/sensoryspecfication/T1005> .
+
+<http://iflastandards.info/ns/isbd/terms/contentqualification/sensoryspecfication/T1001>
+    reg:identifier <http://metadataregistry.org/concepts/1227> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:altLabel "auditif"@fr, "auditiva"@es, "auditive"@fr, "auditivo"@es, "slušna"@hr, "slušni"@hr ;
+    skos:definition "Ar dzirdi uztverams saturs."@lv, "Contenido para que se perciba a través de la audición."@es, "Content that is intended to be perceived through hearing."@en, "Contenu prévu pour être perçu par le sens de l’ouïe."@fr, "Un contenuto che è destinato ad essere percepito tramite l’udito."@it, "Содержание, предназначенное для восприятия с помощью слуха."@ru, "съдържание, предназначено да се възприема със слух."@bg, "设计通过听力被感知的内容。"@zh ;
+    skos:inScheme <http://iflastandards.info/ns/isbd/terms/contentqualification/sensoryspecfication> ;
+    skos:prefLabel "aural"@en, "dzirdes"@lv, "uditivo"@it, "слухов"@bg, "слуховой"@ru, "听觉"@zh ;
+    skos:topConceptOf <http://iflastandards.info/ns/isbd/terms/contentqualification/sensoryspecfication> .
+
+<http://iflastandards.info/ns/isbd/terms/contentqualification/sensoryspecfication/T1002>
+    reg:identifier <http://metadataregistry.org/concepts/1228> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:altLabel "gustatif"@fr, "gustativa"@es, "gustative"@fr, "gustativna"@hr, "gustativni"@hr, "gustativo"@es ;
+    skos:definition "Ar garšu uztverams saturs."@lv, "Contenido para que se perciba a través del gusto."@es, "Content that is intended to be perceived through taste."@en, "Contenu prévu pour être perçu par le sens du goût."@fr, "Un contenuto che è destinato ad essere percepito tramite il gusto."@it, "Содержание, предназначенное для восприятия с помощью вкуса."@ru, "съдържание, предназначено да се възприема с вкус."@bg, "设计通过味道被感知的内容。"@zh ;
+    skos:inScheme <http://iflastandards.info/ns/isbd/terms/contentqualification/sensoryspecfication> ;
+    skos:prefLabel "garšas"@lv, "gustativo"@it, "gustatory"@en, "вкусов"@bg, "вкусовой"@ru, "味觉"@zh ;
+    skos:topConceptOf <http://iflastandards.info/ns/isbd/terms/contentqualification/sensoryspecfication> .
+
+<http://iflastandards.info/ns/isbd/terms/contentqualification/sensoryspecfication/T1003>
+    reg:identifier <http://metadataregistry.org/concepts/1229> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:altLabel "olfactif"@fr, "olfactive"@fr, "olfaktivna"@hr, "olfaktivni"@hr, "olfativa"@es, "olfativo"@es ;
+    skos:definition "Ar ožu uztverams saturs."@lv, "Contenido para que se perciba a través del olfato."@es, "Contenu prévu pour être perçu par le sens de l’odorat."@fr, "Un contenuto che è destinato ad essere percepito tramite l’olfatto."@it, "Содержание, предназначенное для восприятия с помощью обоняния."@ru, "съдържание, предназначено да се възприема с обоняние."@bg, "设计通过气味被感知的内容。"@zh ;
+    skos:inScheme <http://iflastandards.info/ns/isbd/terms/contentqualification/sensoryspecfication> ;
+    skos:prefLabel "Content that is intended to be perceived through smell."@en, "olfactory"@en, "olfattivo"@it, "ožas"@lv, "обонятелен"@bg, "обонятельный"@ru, "嗅觉"@zh ;
+    skos:topConceptOf <http://iflastandards.info/ns/isbd/terms/contentqualification/sensoryspecfication> .
+
+<http://iflastandards.info/ns/isbd/terms/contentqualification/sensoryspecfication/T1004>
+    reg:identifier <http://metadataregistry.org/concepts/1230> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:altLabel "taktilna"@hr, "taktilni"@hr ;
+    skos:definition "Ar tausti uztverams saturs."@lv, "Contenido para que se perciba a través del tacto."@es, "Content that is intended to be perceived through touch."@en, "Contenu prévu pour être perçu par le sens du toucher."@fr, "Un contenuto che è destinato ad essere percepito tramite il tatto."@it, "Содержание, предназначенное для восприятия с помощью осязания."@ru, "съдържание, предназначено да се възприема с осезание."@bg, "设计通过接触被感知的内容。"@zh ;
+    skos:inScheme <http://iflastandards.info/ns/isbd/terms/contentqualification/sensoryspecfication> ;
+    skos:prefLabel "tactile"@en, "tactile"@fr, "tattile"@it, "taustes"@lv, "táctil"@es, "тактилен"@bg, "тактильный"@ru, "触觉"@zh ;
+    skos:topConceptOf <http://iflastandards.info/ns/isbd/terms/contentqualification/sensoryspecfication> .
+
+<http://iflastandards.info/ns/isbd/terms/contentqualification/sensoryspecfication/T1005>
+    reg:identifier <http://metadataregistry.org/concepts/1231> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:altLabel "visuel"@fr, "visuelle"@fr, "vizualna"@hr, "vizualni"@hr ;
+    skos:definition "Ar redzi uztverams saturs."@lv, "Contenido para que se perciba a través de la vista."@es, "Content that is intended to be perceived through sight."@en, "Contenu prévu pour être perçu par le sens de la vue."@fr, "Un contenuto che è destinato ad essere percepito tramite la vista."@it, "Содержание, предназначенное для восприятия с помощью зрения."@ru, "съдържание, предназначено да се възприема със зрение."@bg, "设计通过视力被感知的内容。"@zh ;
+    skos:inScheme <http://iflastandards.info/ns/isbd/terms/contentqualification/sensoryspecfication> ;
+    skos:prefLabel "redzes"@lv, "visivo"@it, "visual"@en, "visual"@es, "визуален"@bg, "визуальный"@ru, "视觉"@zh ;
+    skos:topConceptOf <http://iflastandards.info/ns/isbd/terms/contentqualification/sensoryspecfication> .
+
+<http://metadataregistry.org/uri/RegStatus/1001>
+    a skos:Concept ;
+    skos:prefLabel "Published"@en .
+

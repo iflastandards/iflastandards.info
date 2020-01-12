@@ -1,0 +1,545 @@
+{
+    "@context": "http://iflastandards.info/ns/unimarc/terms/Contexts/concepts_langmap.jsonld",
+    "@graph": [
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/3dsmd#",
+            "@type": "ConceptScheme",
+            "title": {
+                "en": "UNIMARC: Three-dimensional artefacts and realia: Specific material designation"
+            },
+            "description": {
+                "en": "The specific material designation that describes the special class of material (usually the class of physical object) to which the three-dimensional artefact or realis item belongs."
+            },
+            "prefix": "",
+            "token": "3dsmd",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "label": "Published"
+            },
+            "omr_api": "http://api.metadataregistry.org/vocabularies/337",
+            "omr_home": "http://metadataregistry.org/vocabularies/337",
+            "count": 34,
+            "languages": [
+                {
+                    "code": "en",
+                    "lang": "English",
+                    "version": "Release 1"
+                }
+            ],
+            "dateOfPublication": "January 11, 2020"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/3dsmd#aa",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6496",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/3dsmd#",
+            "notation": {
+                "en": "aa"
+            },
+            "prefLabel": {
+                "en": "study kits",
+                "pt": "conjunto de estudo",
+                "it": "kit di studio"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/3dsmd#ab",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6497",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/3dsmd#",
+            "notation": {
+                "en": "ab"
+            },
+            "prefLabel": {
+                "en": "laboratory and construction kits",
+                "pt": "conjunto de laboratório e construção",
+                "it": "kit di laboratorio e costruzione"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/3dsmd#ac",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6498",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/3dsmd#",
+            "notation": {
+                "en": "ac"
+            },
+            "prefLabel": {
+                "en": "specimens",
+                "pt": "espécimes",
+                "it": "campioni"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/3dsmd#ad",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6499",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/3dsmd#",
+            "notation": {
+                "en": "a"
+            },
+            "prefLabel": {
+                "en": "fauna",
+                "pt": "fauna",
+                "it": "fauna"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/3dsmd#ae",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6500",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/3dsmd#",
+            "notation": {
+                "en": "ae"
+            },
+            "prefLabel": {
+                "en": "flora",
+                "pt": "flora",
+                "it": "flora"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/3dsmd#af",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6501",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/3dsmd#",
+            "notation": {
+                "en": "af"
+            },
+            "prefLabel": {
+                "en": "minerals",
+                "pt": "minerais",
+                "it": "minerali"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/3dsmd#ag",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6502",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/3dsmd#",
+            "notation": {
+                "en": "ag"
+            },
+            "prefLabel": {
+                "en": "microscope slides",
+                "pt": "lamelas de microscópio",
+                "it": "vetrini per microscopio"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/3dsmd#ah",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6503",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/3dsmd#",
+            "notation": {
+                "en": "ah"
+            },
+            "prefLabel": {
+                "en": "jigsaws",
+                "pt": "puzzles",
+                "it": "giochi di pazienza"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/3dsmd#ai",
+            "@type": "Concept",
+            "altLabel": {
+                "pt": "ferramentas e equipamento"
+            },
+            "api": "http://api.metadataregistry.org/concepts/6504",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/3dsmd#",
+            "notation": {
+                "en": "ai"
+            },
+            "prefLabel": {
+                "en": "tools and equipment",
+                "it": "strumenti e attrezzature",
+                "pt": "utensílios e equipamento"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/3dsmd#aj",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6505",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/3dsmd#",
+            "notation": {
+                "en": "aj"
+            },
+            "prefLabel": {
+                "en": "arms",
+                "pt": "armas",
+                "it": "stemma"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/3dsmd#ak",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6506",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/3dsmd#",
+            "notation": {
+                "en": "ak"
+            },
+            "prefLabel": {
+                "en": "containers",
+                "pt": "recipientes",
+                "it": "contenitori"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/3dsmd#al",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6507",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/3dsmd#",
+            "notation": {
+                "en": "al"
+            },
+            "prefLabel": {
+                "en": "furniture",
+                "pt": "mobiliário",
+                "it": "mobilio"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/3dsmd#am",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6508",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/3dsmd#",
+            "notation": {
+                "en": "am"
+            },
+            "prefLabel": {
+                "en": "transport",
+                "pt": "equipamento de transporte",
+                "it": "mezzi di trasporto"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/3dsmd#an",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6509",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/3dsmd#",
+            "notation": {
+                "en": "an"
+            },
+            "prefLabel": {
+                "en": "textiles",
+                "pt": "têxteis",
+                "it": "tessuto"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/3dsmd#ao",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6510",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/3dsmd#",
+            "notation": {
+                "en": "o"
+            },
+            "prefLabel": {
+                "en": "clothes",
+                "pt": "vestuário",
+                "it": "vestiti"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/3dsmd#ap",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6511",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/3dsmd#",
+            "notation": {
+                "en": "ap"
+            },
+            "prefLabel": {
+                "en": "games and recreation",
+                "pt": "jogos e entretenhimento",
+                "it": "giochi"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/3dsmd#aq",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6512",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/3dsmd#",
+            "notation": {
+                "en": "aq"
+            },
+            "prefLabel": {
+                "en": "toys",
+                "pt": "brinquedos",
+                "it": "giocattoli"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/3dsmd#ar",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6513",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/3dsmd#",
+            "notation": {
+                "en": "ar"
+            },
+            "prefLabel": {
+                "en": "dolls",
+                "pt": "bonecas",
+                "it": "bambole"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/3dsmd#as",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6514",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/3dsmd#",
+            "notation": {
+                "en": "as"
+            },
+            "prefLabel": {
+                "en": "models",
+                "pt": "maquetas",
+                "it": "modelli"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/3dsmd#at",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6515",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/3dsmd#",
+            "notation": {
+                "en": "at"
+            },
+            "prefLabel": {
+                "en": "models for making ",
+                "pt": "modelos de fabrico",
+                "it": "modelli per assemblamento"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/3dsmd#az",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6516",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/3dsmd#",
+            "notation": {
+                "en": "az"
+            },
+            "prefLabel": {
+                "en": "seals",
+                "pt": "selos",
+                "it": "sigilli"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/3dsmd#ba",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6517",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/3dsmd#",
+            "notation": {
+                "en": "ba"
+            },
+            "prefLabel": {
+                "en": "dioramas",
+                "pt": "dioramas",
+                "it": "diorama"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/3dsmd#bb",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6518",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/3dsmd#",
+            "notation": {
+                "en": "bb"
+            },
+            "prefLabel": {
+                "en": "replicas",
+                "pt": "réplicas",
+                "it": "riproduzioni"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/3dsmd#bc",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6519",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/3dsmd#",
+            "notation": {
+                "en": "bc"
+            },
+            "prefLabel": {
+                "en": "sculptures",
+                "pt": "esculturas",
+                "it": "sculture"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/3dsmd#bd",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6520",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/3dsmd#",
+            "notation": {
+                "en": "bd"
+            },
+            "prefLabel": {
+                "en": "design objects",
+                "pt": "objectos de design",
+                "it": "materiale decorato"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/3dsmd#be",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6521",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/3dsmd#",
+            "notation": {
+                "en": "be"
+            },
+            "prefLabel": {
+                "en": "industrial production",
+                "pt": "produção industrial",
+                "it": "prodotto in serie"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/3dsmd#bf",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6522",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/3dsmd#",
+            "notation": {
+                "en": "bf"
+            },
+            "prefLabel": {
+                "en": "machines",
+                "pt": "máquinas",
+                "it": "macchine"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/3dsmd#bg",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6523",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/3dsmd#",
+            "notation": {
+                "en": "bg"
+            },
+            "prefLabel": {
+                "en": "coins",
+                "pt": "moedas",
+                "it": "monete"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/3dsmd#bh",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6524",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/3dsmd#",
+            "notation": {
+                "en": "bh"
+            },
+            "prefLabel": {
+                "en": "medals",
+                "pt": "medalhas",
+                "it": "medaglie"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/3dsmd#bi",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6525",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/3dsmd#",
+            "notation": {
+                "en": "bi"
+            },
+            "prefLabel": {
+                "en": "jewellery",
+                "pt": "joalharia",
+                "it": "gioielli"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/3dsmd#bj",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6526",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/3dsmd#",
+            "notation": {
+                "en": "bj"
+            },
+            "prefLabel": {
+                "en": "artefacts",
+                "pt": "artefactos",
+                "it": "artefatto"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/3dsmd#uu",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6527",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/3dsmd#",
+            "notation": {
+                "en": "uu"
+            },
+            "prefLabel": {
+                "en": "unknown",
+                "pt": "desconhecido",
+                "it": "sconosciuto"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/3dsmd#vv",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6528",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/3dsmd#",
+            "notation": {
+                "en": "vv"
+            },
+            "prefLabel": {
+                "en": "mixed",
+                "pt": "misto",
+                "it": "composito"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/3dsmd#zz",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6529",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/3dsmd#",
+            "notation": {
+                "en": "zz"
+            },
+            "prefLabel": {
+                "en": "other",
+                "pt": "outro",
+                "it": "altro"
+            },
+            "status": "Published"
+        }
+    ]
+}

@@ -1,0 +1,135 @@
+{
+    "@context": "http://iflastandards.info/ns/isbd/terms/contentqualification/Contexts/concepts_langmap.jsonld",
+    "@graph": [
+        {
+            "@id": "http://iflastandards.info/ns/isbd/terms/contentqualification/motion",
+            "@type": "ConceptScheme",
+            "title": {
+                "en": "ISBD Content Qualification of Motion"
+            },
+            "description": {
+                "en": "Content qualification sub-categories for the perceived presence or absence of movement in the image content of a resource which expand the content form category of image."
+            },
+            "prefix": "",
+            "token": "motion",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "label": "Published"
+            },
+            "omr_api": "http://api.metadataregistry.org/vocabularies/116",
+            "omr_home": "http://metadataregistry.org/vocabularies/116",
+            "count": 2,
+            "languages": [
+                {
+                    "code": "bg",
+                    "lang": "Bulgarian",
+                    "version": "Release 1"
+                },
+                {
+                    "code": "en",
+                    "lang": "English",
+                    "version": "Release 1"
+                },
+                {
+                    "code": "fr",
+                    "lang": "French",
+                    "version": "Release 1"
+                },
+                {
+                    "code": "hr",
+                    "lang": "Croatian",
+                    "version": "Release 1"
+                },
+                {
+                    "code": "it",
+                    "lang": "Italian",
+                    "version": "Release 1"
+                },
+                {
+                    "code": "lv",
+                    "lang": "Latvian",
+                    "version": "Release 1"
+                },
+                {
+                    "code": "ru",
+                    "lang": "Russian",
+                    "version": "Release 1"
+                },
+                {
+                    "code": "sr",
+                    "lang": "Serbian",
+                    "version": "Release 1"
+                },
+                {
+                    "code": "zh",
+                    "lang": "Chinese",
+                    "version": "Release 1"
+                }
+            ],
+            "dateOfPublication": "January 11, 2020"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/isbd/terms/contentqualification/motion/T1001",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/1223",
+            "definition": {
+                "en": "Image content that is perceived to be in motion, usually by means of a quick succession of images.",
+                "es": "Contenido de imagen que se percibe en movimiento, generalmente por medio de una sucesión rápida de imágenes.",
+                "it": "Il contenuto di un’immagine che è percepita come in moto, di solito per una rapida successione di immagini.",
+                "bg": "изображение, чието съдържание се възприема като движещо се, обикновено чрез бърза смяна на изображения.",
+                "ru": "Изображение, содержание которого воспринимается в движении, обычно посредством быстрой смены изображений.",
+                "sr": "Slikovni sadržaj koji treba da omogući doživljaj pokreta, obično brzim nizanjem slika jedne za drugom.",
+                "zh": "被感觉到运动的图像内容，通常是以前后相继一系列图像的方式。",
+                "lv": "Attēla saturs, uztverams kustībā, parasti ar ātru attēlu\r\nnomaiņu.",
+                "fr": "Contenu image perçu comme étant en mouvement, habituellement rendu au moyen d’une succession rapide d’images."
+            },
+            "inScheme": "http://iflastandards.info/ns/isbd/terms/contentqualification/motion",
+            "prefLabel": {
+                "en": "moving",
+                "es": "en movimiento",
+                "hr": "pokretna",
+                "it": "in movimento",
+                "bg": "движещо се",
+                "ru": "движущееся",
+                "sr": "pokretni",
+                "zh": "运动",
+                "lv": "kustīgs",
+                "fr": "animée"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/isbd/terms/contentqualification/motion/T1002",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/1224",
+            "definition": {
+                "es": "Contenido de imagen que se percibe como estática.",
+                "it": "Il contenuto di un’immagine che è percepita come statica.",
+                "bg": "изображение, чието съдържание се възприема като статично.",
+                "ru": "Изображение, содержание которого воспринимается как статическое.",
+                "sr": "Slikovni sadržaj koji treba da se doživi kao statičan.",
+                "zh": "被感觉到静止的图像内容。",
+                "lv": "Attēla saturs, uztverams kā statisks.",
+                "en": "Image content that is perceived to be static.",
+                "fr": "Contenu image perçu comme étant statique."
+            },
+            "inScheme": "http://iflastandards.info/ns/isbd/terms/contentqualification/motion",
+            "prefLabel": {
+                "en": [
+                    "still",
+                    "Image content that is perceived to be static."
+                ],
+                "es": "fija",
+                "hr": "nepokretna",
+                "it": "fissa",
+                "bg": "неподвижно",
+                "ru": "неподвижное",
+                "sr": "nepokretni",
+                "zh": "静止",
+                "lv": "nekustīgs",
+                "fr": "fixe"
+            },
+            "status": "Published"
+        }
+    ]
+}

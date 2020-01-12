@@ -1,0 +1,58 @@
+<http://iflastandards.info/ns/unimarc/terms/visacc#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<http://iflastandards.info/ns/unimarc/terms/visacc#> <http://purl.org/dc/elements/1.1/title> "UNIMARC: Visual projections, etc.: Accompanying material" .
+<http://iflastandards.info/ns/unimarc/terms/visacc#f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/visacc#f> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/visacc#> .
+<http://iflastandards.info/ns/unimarc/terms/visacc#f> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/visacc#f> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7834> .
+<http://iflastandards.info/ns/unimarc/terms/visacc#f> <http://www.w3.org/2004/02/skos/core#prefLabel> "instructional materials"@en .
+<http://iflastandards.info/ns/unimarc/terms/visacc#f> <http://www.w3.org/2004/02/skos/core#notation> "f"@en .
+<http://iflastandards.info/ns/unimarc/terms/visacc#e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/visacc#e> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/visacc#> .
+<http://iflastandards.info/ns/unimarc/terms/visacc#e> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/visacc#e> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7833> .
+<http://iflastandards.info/ns/unimarc/terms/visacc#e> <http://www.w3.org/2004/02/skos/core#prefLabel> "lobby cards"@en .
+<http://iflastandards.info/ns/unimarc/terms/visacc#e> <http://www.w3.org/2004/02/skos/core#notation> "e"@en .
+<http://iflastandards.info/ns/unimarc/terms/visacc#z> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/visacc#z> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/visacc#> .
+<http://iflastandards.info/ns/unimarc/terms/visacc#z> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/visacc#z> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7837> .
+<http://iflastandards.info/ns/unimarc/terms/visacc#z> <http://www.w3.org/2004/02/skos/core#prefLabel> "other accompanying material"@en .
+<http://iflastandards.info/ns/unimarc/terms/visacc#z> <http://www.w3.org/2004/02/skos/core#notation> "z"@en .
+<http://iflastandards.info/ns/unimarc/terms/visacc#c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/visacc#c> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/visacc#> .
+<http://iflastandards.info/ns/unimarc/terms/visacc#c> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/visacc#c> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7831> .
+<http://iflastandards.info/ns/unimarc/terms/visacc#c> <http://www.w3.org/2004/02/skos/core#prefLabel> "posters"@en .
+<http://iflastandards.info/ns/unimarc/terms/visacc#c> <http://www.w3.org/2004/02/skos/core#notation> "c"@en .
+<http://iflastandards.info/ns/unimarc/terms/visacc#d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/visacc#d> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/visacc#> .
+<http://iflastandards.info/ns/unimarc/terms/visacc#d> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/visacc#d> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7832> .
+<http://iflastandards.info/ns/unimarc/terms/visacc#d> <http://www.w3.org/2004/02/skos/core#prefLabel> "programmes and pressbooks"@en .
+<http://iflastandards.info/ns/unimarc/terms/visacc#d> <http://www.w3.org/2004/02/skos/core#notation> "d"@en .
+<http://iflastandards.info/ns/unimarc/terms/visacc#g> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/visacc#g> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/visacc#> .
+<http://iflastandards.info/ns/unimarc/terms/visacc#g> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/visacc#g> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7835> .
+<http://iflastandards.info/ns/unimarc/terms/visacc#g> <http://www.w3.org/2004/02/skos/core#prefLabel> "score or other music format"@en .
+<http://iflastandards.info/ns/unimarc/terms/visacc#g> <http://www.w3.org/2004/02/skos/core#notation> "g"@en .
+<http://iflastandards.info/ns/unimarc/terms/visacc#b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/visacc#b> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/visacc#> .
+<http://iflastandards.info/ns/unimarc/terms/visacc#b> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/visacc#b> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7830> .
+<http://iflastandards.info/ns/unimarc/terms/visacc#b> <http://www.w3.org/2004/02/skos/core#prefLabel> "script material"@en .
+<http://iflastandards.info/ns/unimarc/terms/visacc#b> <http://www.w3.org/2004/02/skos/core#notation> "b"@en .
+<http://iflastandards.info/ns/unimarc/terms/visacc#h> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/visacc#h> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/visacc#> .
+<http://iflastandards.info/ns/unimarc/terms/visacc#h> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/visacc#h> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7836> .
+<http://iflastandards.info/ns/unimarc/terms/visacc#h> <http://www.w3.org/2004/02/skos/core#prefLabel> "set or costume designs"@en .
+<http://iflastandards.info/ns/unimarc/terms/visacc#h> <http://www.w3.org/2004/02/skos/core#notation> "h"@en .
+<http://iflastandards.info/ns/unimarc/terms/visacc#a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/visacc#a> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/visacc#> .
+<http://iflastandards.info/ns/unimarc/terms/visacc#a> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/visacc#a> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7829> .
+<http://iflastandards.info/ns/unimarc/terms/visacc#a> <http://www.w3.org/2004/02/skos/core#prefLabel> "stills"@en .
+<http://iflastandards.info/ns/unimarc/terms/visacc#a> <http://www.w3.org/2004/02/skos/core#notation> "a"@en .
+<http://metadataregistry.org/uri/RegStatus/1001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://metadataregistry.org/uri/RegStatus/1001> <http://www.w3.org/2004/02/skos/core#prefLabel> "Published"@en .

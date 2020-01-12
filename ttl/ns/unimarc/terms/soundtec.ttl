@@ -1,0 +1,53 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix reg: <http://metadataregistry.org/uri/profile/regap/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://iflastandards.info/ns/unimarc/terms/soundtec#>
+    dc:title "UNIMARC: Sound recordings: Recording technique" ;
+    a skos:ConceptScheme .
+
+<http://iflastandards.info/ns/unimarc/terms/soundtec#a\u00A0>
+    reg:identifier <http://metadataregistry.org/concepts/7517> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/soundtec#> ;
+    skos:notation "a "@en ;
+    skos:prefLabel "acoustic"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/soundtec#b\u00A0>
+    reg:identifier <http://metadataregistry.org/concepts/7518> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/soundtec#> ;
+    skos:notation "b "@en ;
+    skos:prefLabel "electric"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/soundtec#c\u00A0>
+    reg:identifier <http://metadataregistry.org/concepts/7519> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/soundtec#> ;
+    skos:notation "c "@en ;
+    skos:prefLabel "digital"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/soundtec#u\u00A0>
+    reg:identifier <http://metadataregistry.org/concepts/7520> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/soundtec#> ;
+    skos:notation "u "@en ;
+    skos:prefLabel "unknown"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/soundtec#z\u00A0>
+    reg:identifier <http://metadataregistry.org/concepts/7521> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/soundtec#> ;
+    skos:notation "z "@en ;
+    skos:prefLabel "other"@en .
+
+<http://metadataregistry.org/uri/RegStatus/1001>
+    a skos:Concept ;
+    skos:prefLabel "Published"@en .
+

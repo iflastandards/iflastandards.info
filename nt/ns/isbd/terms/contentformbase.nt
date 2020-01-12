@@ -1,0 +1,95 @@
+<http://iflastandards.info/ns/isbd/terms/contentformbase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase> <http://purl.org/dc/elements/1.1/title> "ISBD Content Form Qualified Base" .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1002> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/isbd/terms/contentformbase> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1002> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1002> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/8679> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1002> <http://www.w3.org/2004/02/skos/core#prefLabel> "image (moving ; 2-dimensional)"@en .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1002> <http://www.w3.org/2004/02/skos/core#definition> "Content expressed through line, shape, shading, etc. that is perceived to be in motion, usually by means of a quick succession of images, and in two dimensions."@en .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1002> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://iflastandards.info/ns/isbd/terms/contentform/T1002> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1003> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/isbd/terms/contentformbase> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1003> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1003> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/8680> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1003> <http://www.w3.org/2004/02/skos/core#prefLabel> "image (moving ; 3-dimensional)"@en .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1003> <http://www.w3.org/2004/02/skos/core#definition> "Content expressed through line, shape, shading, etc. that is perceived to be in motion, usually by means of a quick succession of images, and in three dimensions."@en .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1003> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://iflastandards.info/ns/isbd/terms/contentform/T1002> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1009> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/isbd/terms/contentformbase> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1009> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1009> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/8686> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1009> <http://www.w3.org/2004/02/skos/core#prefLabel> "image (still ; 2-dimensional ; tactile)"@en .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1009> <http://www.w3.org/2004/02/skos/core#definition> "Content expressed through line, shape, shading, etc. that is perceived to be static and in two dimensions, and intended to be perceived through touch."@en .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1009> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://iflastandards.info/ns/isbd/terms/contentform/T1002> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1004> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/isbd/terms/contentformbase> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1004> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1004> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/8681> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1004> <http://www.w3.org/2004/02/skos/core#prefLabel> "image (still ; 2-dimensional ; visual)"@en .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1004> <http://www.w3.org/2004/02/skos/core#definition> "Content expressed through line, shape, shading, etc. that is perceived to be static and in two dimensions, and intended to be perceived through sight."@en .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1004> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://iflastandards.info/ns/isbd/terms/contentform/T1002> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1005> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/isbd/terms/contentformbase> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1005> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1005> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/8682> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1005> <http://www.w3.org/2004/02/skos/core#prefLabel> "image (still ; 3-dimensional)"@en .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1005> <http://www.w3.org/2004/02/skos/core#definition> "Content expressed through line, shape, shading, etc. that is perceived to be static and in three dimensions."@en .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1005> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://iflastandards.info/ns/isbd/terms/contentform/T1002> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1013> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/isbd/terms/contentformbase> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1013> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1013> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/8690> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1013> <http://www.w3.org/2004/02/skos/core#prefLabel> "movement (notated ; tactile)"@en .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1013> <http://www.w3.org/2004/02/skos/core#definition> "Content expressed through motion, i.e. the act or process of changing the position of an object or person, and through a notational system for artistic purposes intended to be perceived through touch."@en .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1013> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://iflastandards.info/ns/isbd/terms/contentform/T1003> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1008> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/isbd/terms/contentformbase> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1008> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1008> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/8685> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1008> <http://www.w3.org/2004/02/skos/core#prefLabel> "movement (notated)"@en .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1008> <http://www.w3.org/2004/02/skos/core#definition> "Content expressed through motion, i.e. the act or process of changing the position of an object or person, and through a notational system for artistic purposes intended to be perceived visually."@en .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1008> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://iflastandards.info/ns/isbd/terms/contentform/T1003> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1012> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/isbd/terms/contentformbase> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1012> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1012> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/8689> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1012> <http://www.w3.org/2004/02/skos/core#prefLabel> "music (notated ; tactile)"@en .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1012> <http://www.w3.org/2004/02/skos/core#definition> "Content expressed through ordered tones or sounds in succession, in combination, and in temporal relationships to produce a composition, and through a notational system for artistic purposes intended to be perceived through touch."@en .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1012> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://iflastandards.info/ns/isbd/terms/contentform/T1004> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1007> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/isbd/terms/contentformbase> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1007> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1007> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/8684> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1007> <http://www.w3.org/2004/02/skos/core#prefLabel> "music (notated)"@en .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1007> <http://www.w3.org/2004/02/skos/core#definition> "Content expressed through ordered tones or sounds in succession, in combination, and in temporal relationships to produce a composition, and through a notational system for artistic purposes intended to be perceived visually."@en .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1007> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://iflastandards.info/ns/isbd/terms/contentform/T1004> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1001> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/isbd/terms/contentformbase> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1001> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1001> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/8678> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1001> <http://www.w3.org/2004/02/skos/core#prefLabel> "music (performed)"@en .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1001> <http://www.w3.org/2004/02/skos/core#definition> "Content expressed through ordered tones or sounds in succession, in combination, and in temporal relationships to produce a composition, expressed in an audible form, at a given time, and recorded in a resource."@en .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1001> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://iflastandards.info/ns/isbd/terms/contentform/T1004> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1010> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/isbd/terms/contentformbase> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1010> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1010> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/8687> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1010> <http://www.w3.org/2004/02/skos/core#prefLabel> "object (tactile)"@en .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1010> <http://www.w3.org/2004/02/skos/core#definition> "Content expressed through three-dimensional material, either naturally occurring entities, or human-made/machine-manufactured artefacts, and intended to be perceived through touch."@en .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1010> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://iflastandards.info/ns/isbd/terms/contentform/T1005> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1011> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/isbd/terms/contentformbase> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1011> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1011> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/8688> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1011> <http://www.w3.org/2004/02/skos/core#prefLabel> "text (tactile)"@en .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1011> <http://www.w3.org/2004/02/skos/core#definition> "Content expressed through written words, symbols and numbers, and intended to be perceived through touch."@en .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1011> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://iflastandards.info/ns/isbd/terms/contentform/T1009> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1006> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/isbd/terms/contentformbase> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1006> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1006> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/8683> .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1006> <http://www.w3.org/2004/02/skos/core#prefLabel> "text (visual)"@en .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1006> <http://www.w3.org/2004/02/skos/core#definition> "Content expressed through written words, symbols and numbers, and intended to be perceived through sight."@en .
+<http://iflastandards.info/ns/isbd/terms/contentformbase/T1006> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://iflastandards.info/ns/isbd/terms/contentform/T1009> .
+<http://metadataregistry.org/uri/RegStatus/1001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://metadataregistry.org/uri/RegStatus/1001> <http://www.w3.org/2004/02/skos/core#prefLabel> "Published"@en .

@@ -1,0 +1,207 @@
+{
+    "@context": "http://iflastandards.info/ns/unimarc/terms/Contexts/concepts_langmap.jsonld",
+    "@graph": [
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/cartrel#",
+            "@type": "ConceptScheme",
+            "title": {
+                "en": "UNIMARC: Cartographic materials: Relief"
+            },
+            "description": {
+                "en": "The type of relief of a cartographic item."
+            },
+            "prefix": "",
+            "token": "cartrel",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "label": "Published"
+            },
+            "omr_api": "http://api.metadataregistry.org/vocabularies/394",
+            "omr_home": "http://metadataregistry.org/vocabularies/394",
+            "count": 13,
+            "languages": [
+                {
+                    "code": "en",
+                    "lang": "English",
+                    "version": "Release 1"
+                }
+            ],
+            "dateOfPublication": "January 11, 2020"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/cartrel#a",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7590",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/cartrel#",
+            "notation": {
+                "en": "a"
+            },
+            "prefLabel": {
+                "en": "contours"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/cartrel#b",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7591",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/cartrel#",
+            "notation": {
+                "en": "b"
+            },
+            "prefLabel": {
+                "en": "continuous tone shaded relief"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/cartrel#c",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7592",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/cartrel#",
+            "notation": {
+                "en": "c"
+            },
+            "prefLabel": {
+                "en": "hypsometric tints - layer method"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/cartrel#d",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7593",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/cartrel#",
+            "notation": {
+                "en": "d"
+            },
+            "prefLabel": {
+                "en": "hachures"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/cartrel#e",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7594",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/cartrel#",
+            "notation": {
+                "en": "e"
+            },
+            "prefLabel": {
+                "en": "bathymetry - soundings"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/cartrel#f",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7595",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/cartrel#",
+            "notation": {
+                "en": "f"
+            },
+            "prefLabel": {
+                "en": "form lines"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/cartrel#g",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7596",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/cartrel#",
+            "notation": {
+                "en": "g"
+            },
+            "prefLabel": {
+                "en": "spot heights"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/cartrel#h",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7597",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/cartrel#",
+            "notation": {
+                "en": "h"
+            },
+            "prefLabel": {
+                "en": "other methods in colour"
+            },
+            "scopeNote": {
+                "en": "E.g. in the style of Imhof."
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/cartrel#i",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7598",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/cartrel#",
+            "notation": {
+                "en": "i"
+            },
+            "prefLabel": {
+                "en": "pictorially"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/cartrel#j",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7599",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/cartrel#",
+            "notation": {
+                "en": "j"
+            },
+            "prefLabel": {
+                "en": "landforms"
+            },
+            "scopeNote": {
+                "en": "E.g. in the style of Lobeck, Raisz, Fenneman."
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/cartrel#k",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7600",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/cartrel#",
+            "notation": {
+                "en": "k"
+            },
+            "prefLabel": {
+                "en": "bathymetry - isolines"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/cartrel#x",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7601",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/cartrel#",
+            "notation": {
+                "en": "x"
+            },
+            "prefLabel": {
+                "en": "not applicable"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/cartrel#z",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7602",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/cartrel#",
+            "notation": {
+                "en": "z"
+            },
+            "prefLabel": {
+                "en": "other methods of relief representation"
+            },
+            "status": "Published"
+        }
+    ]
+}

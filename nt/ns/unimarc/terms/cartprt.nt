@@ -1,0 +1,139 @@
+<http://iflastandards.info/ns/unimarc/terms/cartprt#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#> <http://purl.org/dc/elements/1.1/title> "UNIMARC: Cartographic materials: Presentation technique" .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#aa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#aa> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/cartprt#> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#aa> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#aa> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7617> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#aa> <http://www.w3.org/2004/02/skos/core#prefLabel> "anaglyphic"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#aa> <http://www.w3.org/2004/02/skos/core#notation> "aa"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#am> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#am> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/cartprt#> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#am> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#am> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7628> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#am> <http://www.w3.org/2004/02/skos/core#prefLabel> "anamorphic"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#am> <http://www.w3.org/2004/02/skos/core#notation> "am"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ai> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ai> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/cartprt#> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ai> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ai> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7625> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ai> <http://www.w3.org/2004/02/skos/core#prefLabel> "chorochromatic"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ai> <http://www.w3.org/2004/02/skos/core#notation> "ai"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ah> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ah> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/cartprt#> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ah> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ah> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7624> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ah> <http://www.w3.org/2004/02/skos/core#prefLabel> "choropleth"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ah> <http://www.w3.org/2004/02/skos/core#notation> "ah"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#aj> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#aj> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/cartprt#> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#aj> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#aj> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7626> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#aj> <http://www.w3.org/2004/02/skos/core#prefLabel> "dasymetric"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#aj> <http://www.w3.org/2004/02/skos/core#notation> "aj"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ad> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/cartprt#> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ad> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ad> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7620> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ad> <http://www.w3.org/2004/02/skos/core#prefLabel> "diagram map"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ad> <http://www.w3.org/2004/02/skos/core#notation> "ad"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ag> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/cartprt#> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ag> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ag> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7623> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ag> <http://www.w3.org/2004/02/skos/core#prefLabel> "diagrammatric map"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ag> <http://www.w3.org/2004/02/skos/core#altLabel> "cartogram map"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ag> <http://www.w3.org/2004/02/skos/core#notation> "ag"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#af> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#af> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/cartprt#> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#af> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#af> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7622> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#af> <http://www.w3.org/2004/02/skos/core#prefLabel> "dot map"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#af> <http://www.w3.org/2004/02/skos/core#notation> "af"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ae> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/cartprt#> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ae> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ae> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7621> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ae> <http://www.w3.org/2004/02/skos/core#prefLabel> "flowline map, flow map"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ae> <http://www.w3.org/2004/02/skos/core#notation> "ae"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ak> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ak> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/cartprt#> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ak> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ak> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7627> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ak> <http://www.w3.org/2004/02/skos/core#prefLabel> "isopleth"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ak> <http://www.w3.org/2004/02/skos/core#notation> "ak"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#as> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#as> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/cartprt#> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#as> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#as> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7634> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#as> <http://www.w3.org/2004/02/skos/core#prefLabel> "map view"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#as> <http://www.w3.org/2004/02/skos/core#notation> "as"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ap> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/cartprt#> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ap> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ap> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7631> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ap> <http://www.w3.org/2004/02/skos/core#prefLabel> "mental or cognitive map"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ap> <http://www.w3.org/2004/02/skos/core#notation> "ap"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#dd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#dd> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/cartprt#> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#dd> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#dd> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7638> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#dd> <http://www.w3.org/2004/02/skos/core#prefLabel> "not screened"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#dd> <http://www.w3.org/2004/02/skos/core#notation> "dd"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#da> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#da> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/cartprt#> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#da> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#da> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7635> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#da> <http://www.w3.org/2004/02/skos/core#prefLabel> "picto map"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#da> <http://www.w3.org/2004/02/skos/core#notation> "da"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#an> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#an> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/cartprt#> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#an> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#an> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7629> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#an> <http://www.w3.org/2004/02/skos/core#prefLabel> "pictorial map"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#an> <http://www.w3.org/2004/02/skos/core#notation> "an"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ac> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ac> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/cartprt#> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ac> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ac> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7619> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ac> <http://www.w3.org/2004/02/skos/core#prefLabel> "planimetric"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ac> <http://www.w3.org/2004/02/skos/core#notation> "ac"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ab> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ab> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/cartprt#> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ab> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ab> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7618> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ab> <http://www.w3.org/2004/02/skos/core#prefLabel> "polarized"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ab> <http://www.w3.org/2004/02/skos/core#notation> "ab"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#db> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#db> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/cartprt#> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#db> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#db> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7636> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#db> <http://www.w3.org/2004/02/skos/core#prefLabel> "random dot map"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#db> <http://www.w3.org/2004/02/skos/core#notation> "db"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#dc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#dc> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/cartprt#> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#dc> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#dc> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7637> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#dc> <http://www.w3.org/2004/02/skos/core#prefLabel> "screened"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#dc> <http://www.w3.org/2004/02/skos/core#notation> "dc"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ao> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ao> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/cartprt#> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ao> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ao> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7630> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ao> <http://www.w3.org/2004/02/skos/core#prefLabel> "spatial model on two dimensional surface"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ao> <http://www.w3.org/2004/02/skos/core#notation> "ao"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#aq> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#aq> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/cartprt#> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#aq> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#aq> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7632> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#aq> <http://www.w3.org/2004/02/skos/core#prefLabel> "views with horizon showing"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#aq> <http://www.w3.org/2004/02/skos/core#notation> "aq"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#aq> <http://www.w3.org/2004/02/skos/core#scopeNote> "Includes bird's eye views and panoramas."@en .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ar> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/cartprt#> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ar> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ar> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7633> .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ar> <http://www.w3.org/2004/02/skos/core#prefLabel> "views without horizon showing"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ar> <http://www.w3.org/2004/02/skos/core#notation> "ar"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ar> <http://www.w3.org/2004/02/skos/core#scopeNote> "Includes bird's eye views and panoramas."@en .
+<http://metadataregistry.org/uri/RegStatus/1001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://metadataregistry.org/uri/RegStatus/1001> <http://www.w3.org/2004/02/skos/core#prefLabel> "Published"@en .

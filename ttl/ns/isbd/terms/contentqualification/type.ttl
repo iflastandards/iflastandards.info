@@ -1,0 +1,46 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix reg: <http://metadataregistry.org/uri/profile/regap/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://iflastandards.info/ns/isbd/terms/contentqualification/type>
+    dc:title "ISBD Content Qualification of Type" ;
+    a skos:ConceptScheme ;
+    skos:hasTopConcept <http://iflastandards.info/ns/isbd/terms/contentqualification/type/T1001>, <http://iflastandards.info/ns/isbd/terms/contentqualification/type/T1002>, <http://iflastandards.info/ns/isbd/terms/contentqualification/type/T1003> .
+
+<http://iflastandards.info/ns/isbd/terms/contentqualification/type/T1001>
+    reg:identifier <http://metadataregistry.org/concepts/1220> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:altLabel "cartográfica"@es, "cartográfico"@es, "kartografska"@hr, "kartografski"@hr ;
+    skos:definition "Content representing the whole or part of the Earth or any celestial body at any scale."@en, "Contenu représentant la totalité ou une partie de la Terre ou de tout corps céleste à une échelle quelconque."@fr, "Sadržaj koji predstavlja Zemlju u celini ili neki njen deo, ili bilo koje nebesko telo u bilo kojoj razmeri."@sr, "Saturs, kas atspoguļo Zemes virsmu vai virsmas daļu, vai citu debess ķermeni jebkurā mērogā."@lv, "Un contenuto che rappresenta l’intera Terra o parte di essa, o qualsiasi corpo celeste a qualunque scala."@it, "Содержание, отражающее поверхность или часть поверхности Земли или другого небесного тела в любом масштабе."@ru, "Съдържание, което представя повърхността или част от повърхността на Земята или на друго небесно тяло в какъвто и да е мащаб."@bg, "用任何比例尺表示地球或任何天体的整体或部分的内容。"@zh ;
+    skos:inScheme <http://iflastandards.info/ns/isbd/terms/contentqualification/type> ;
+    skos:prefLabel "Contenido que representa la totalidad o parte de la Tierra o de cualquier cuerpo celeste a cualquier escala."@es, "cartografico"@it, "cartographic"@en, "cartographique"@fr, "картографический"@ru, "картографски"@bg, "地图型"@zh ;
+    skos:scopeNote "Comprend cartes, atlas, globes, maquettes, etc."@fr, "Ietver kartes, atlantus, globusus, reljefa modeļus, u.c."@lv, "Include le carte geografiche, gli atlanti, i globi, i modelli in rilievo, etc."@it, "Includes maps, atlases, globes, relief models, etc."@en, "Incluye mapas, atlas, globos, modelos en relieve, etc."@es, "Uključuje geografske karte, atlase, globuse, reljefne modele i tako dalje."@sr, "Включает в себя карты, атласы, глобусы, модели рельефа и т.п."@ru, "Включва карти, атласи, глобуси, модели на релеф и др."@bg, "包括地图、地图册、球仪、地形模型等。"@zh ;
+    skos:topConceptOf <http://iflastandards.info/ns/isbd/terms/contentqualification/type> .
+
+<http://iflastandards.info/ns/isbd/terms/contentqualification/type/T1002>
+    reg:identifier <http://metadataregistry.org/concepts/1221> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:altLabel "notada"@es, "notado"@es, "notirana"@hr, "notirani"@hr, "noté"@fr, "notée"@fr ;
+    skos:definition "Contenido expresado a través de un sistema de notación con fines artísticos (por ejemplo, la música, la danza, la puesta en escena) destinado a percibirse visualmente."@es, "Content expressed through a notational system for artistic purposes (e.g. music, dance, staging) intended to be perceived visually."@en, "Contenu exprimé à des fins artistiques selon un système de notation (par exemple, musique, danse, mise en scène) et prévu pour être perçu visuellement."@fr, "Saturs, izteikts ar nosacītu zīmju apzīmēšanas sistēmu mākslinieciskā nolūkā (piem., mūzika, deja, inscenējums), paredzēts vizuālai uztverei."@lv, "Un contenuto espresso mediante un sistema di notazione, a scopi artistici p.e. la musica, la danza, la rappresentazione scenica), destinato a essere percepito visivamente."@it, "Содержание, выраженное через определенную систему знаков с художественными целями (ноты, обозначение танцевальных и сценических движений), предназначенное для зрительного восприятия."@ru, "Съдържание, изразено чрез система за нотиране за художествени цели (напр. музика, танц и сценична постановка), предназначено за визуално възприемане."@bg, "通过艺术（例如音乐、舞蹈、舞台）记谱系统来表示、用于视觉感知的内容。"@zh ;
+    skos:inScheme <http://iflastandards.info/ns/isbd/terms/contentqualification/type> ;
+    skos:prefLabel "notated"@en, "notato"@it, "знаковый"@ru, "нотиран"@bg, "记谱型"@zh ;
+    skos:topConceptOf <http://iflastandards.info/ns/isbd/terms/contentqualification/type> .
+
+<http://iflastandards.info/ns/isbd/terms/contentqualification/type/T1003>
+    reg:identifier <http://metadataregistry.org/concepts/1222> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:altLabel "interpretada"@es, "interpretado"@es, "interprété"@fr, "interprétée"@fr, "izvedbena"@hr, "izvedbeni"@hr ;
+    skos:definition "Contenido expresado en forma audible o visible, en un momento dado, y grabado en un recurso."@es, "Content expressed in an audible or visible form, at a given time, and recorded in a resource."@en, "Contenu exprimé sous une forme audible ou visible, à un moment déterminé, et enregistré dans une ressource"@fr, "Saturs, izteikts dzirdamā vai redzamā formā noteiktā laikā un ierakstīts resursā. "@lv, "Un contenuto espresso in forma uditiva o visibile, in un dato tempo, e registrato in una risorsa."@it, "Содержание, выраженное в видимой или слышимой форме в определенное время и записанное в ресурсе."@ru, "Съдържание, изразено в определен момент във форма, която може да се види или чуе и записано в ресурс."@bg, "以听觉或视觉形式表示、在指定时间并且录制于一种资源中的内容。"@zh ;
+    skos:inScheme <http://iflastandards.info/ns/isbd/terms/contentqualification/type> ;
+    skos:prefLabel "eseguito"@it, "performed"@en, "изпълнителски"@bg, "исполнительский"@ru, "表演型"@zh ;
+    skos:scopeNote "Comprend les interprétations enregistrées de musique ou de mouvements, la musique générée par ordinateur, etc."@fr, "Ietver ierakstīto mūzikas vai kustības izpildījumu, ar datoru radītu mūziku, u.c."@lv, "Include le esecuzioni registrate di musica o di movimento, la musica generata via computer, etc."@it, "Includes recorded performances of music or movement, computer-generated music, etc."@en, "Incluye las grabaciones de interpretaciones de música o movimiento, música generada por ordenador, etc."@es, "Включает в себя записанное исполнение музыки или движения, компьютерную музыку и т. п."@ru, "Включва записани изпълнения на музика или движение, компютърна музика и др."@bg, "包括录制的音乐或运动的表演、计算机生成的音乐等。"@zh ;
+    skos:topConceptOf <http://iflastandards.info/ns/isbd/terms/contentqualification/type> .
+
+<http://metadataregistry.org/uri/RegStatus/1001>
+    a skos:Concept ;
+    skos:prefLabel "Published"@en .
+

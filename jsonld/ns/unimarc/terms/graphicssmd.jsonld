@@ -1,0 +1,233 @@
+{
+    "@context": "http://iflastandards.info/ns/unimarc/terms/Contexts/concepts_langmap.jsonld",
+    "@graph": [
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicssmd#",
+            "@type": "ConceptScheme",
+            "title": {
+                "en": "UNIMARC: Graphics: Specific material designation"
+            },
+            "description": {
+                "en": "The specific material designation that describes the special class of material (usually  the class of physical object) to which the non-projected graphic item belongs."
+            },
+            "prefix": "",
+            "token": "graphicssmd",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "label": "Published"
+            },
+            "omr_api": "http://api.metadataregistry.org/vocabularies/320",
+            "omr_home": "http://metadataregistry.org/vocabularies/320",
+            "count": 11,
+            "languages": [
+                {
+                    "code": "en",
+                    "lang": "English",
+                    "version": "Release 1"
+                }
+            ],
+            "dateOfPublication": "January 11, 2020"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicssmd#a",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6185",
+            "definition": {
+                "en": "An original work created by affixing various materials (paper, wood, newspaper, cloth, etc.) to a surface."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicssmd#",
+            "notation": {
+                "en": "a"
+            },
+            "prefLabel": {
+                "en": "collage",
+                "pt": "colagem",
+                "it": "collage"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicssmd#b",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6191",
+            "definition": {
+                "en": "An original visual representation (other than a print or painting) made with pencil, pen, chalk, or other writing instrument on paper or similar non-rigid support."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicssmd#",
+            "notation": {
+                "en": "b"
+            },
+            "prefLabel": {
+                "en": "drawing",
+                "pt": "desenho",
+                "it": "disegno"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicssmd#c",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6223",
+            "definition": {
+                "en": "An original visual representation produced by applying paint to a surface."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicssmd#",
+            "notation": {
+                "en": "c"
+            },
+            "prefLabel": {
+                "en": "painting",
+                "pt": "pintura",
+                "it": "pittura"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicssmd#d",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6224",
+            "definition": {
+                "en": "Any picture produced in imitation of another picture through the use of a photographic process to transfer the image to a printing surface."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicssmd#",
+            "notation": {
+                "en": "d"
+            },
+            "prefLabel": {
+                "en": "photomechanical reproduction",
+                "pt": "reprodução fotomecânica",
+                "it": "riproduzione fotomeccanica"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicssmd#e",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6225",
+            "definition": {
+                "en": "A piece of film, a glass plate, or paper on which appears a \"negative\" image, i.e. directly opposite to a \"positive\" image (photoprint), slide, or transparency. Used to produce a positive print."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicssmd#",
+            "notation": {
+                "en": "e"
+            },
+            "prefLabel": {
+                "en": "photonegative",
+                "pt": "negativo fotográfico",
+                "it": "fotonegativo"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicssmd#f",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6226",
+            "definition": {
+                "en": "A positive image made either directly or indirectly on a sensitised surface by the action of light or other radiant energy."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicssmd#",
+            "notation": {
+                "en": "f"
+            },
+            "prefLabel": {
+                "en": "photoprint",
+                "pt": "positivo fotográfico",
+                "it": "riproduzione fotografica"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicssmd#h",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6227",
+            "definition": {
+                "en": "A two-dimensional visual representation accessible to the naked eye and generally on an opaque backing."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicssmd#",
+            "notation": {
+                "en": "h"
+            },
+            "prefLabel": {
+                "en": "picture",
+                "pt": "imagem",
+                "it": "immagine"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicssmd#i",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6228",
+            "definition": {
+                "en": "A design or picture transferred from an engraved plate, wood block, lithographic stone, or other medium."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicssmd#",
+            "notation": {
+                "en": "i"
+            },
+            "prefLabel": {
+                "en": "print",
+                "pt": "gravura",
+                "it": "stampa"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicssmd#k",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6229",
+            "definition": {
+                "en": "A cross section, detail, diagram, elevation, perspective, plan, working plan, etc., made for use in an engineering or other technical context."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicssmd#",
+            "notation": {
+                "en": "k"
+            },
+            "prefLabel": {
+                "en": "technical drawing",
+                "pt": "desenho técnico",
+                "it": "disegno tecnico"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicssmd#m",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6230",
+            "definition": {
+                "en": "Any plate, mould, matrix, die etc. which allows the reproduction of the same impression."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicssmd#",
+            "notation": {
+                "en": "m"
+            },
+            "prefLabel": {
+                "en": "master",
+                "pt": "matriz",
+                "it": "master"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicssmd#z",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6231",
+            "definition": {
+                "en": "Types other than collage, drawing, painting, photomechanical reproduction, photonegative, photoprint, picture, print, technical drawing, master."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicssmd#",
+            "notation": {
+                "en": "z"
+            },
+            "prefLabel": {
+                "en": "other non-projected graphic type",
+                "pt": "outro material gráfico não-projectável",
+                "it": "altro tipo di documento grafico non proiettabile"
+            },
+            "scopeNote": {
+                "en": "Includes mixed media productions made by a combination of freehand and printing techniques when one or the other does not predominate. In some cases, where mixed media are applied, one must decide whether the creator intends the item to be a photoprint (even though it is painted over the photographic image). Hand colouring is considered a technique applied to a printing process; this aspect is not included here. Computer-produced graphics and the various duplication masters (including spirit masters and transparency masters) are included here."
+            },
+            "status": "Published"
+        }
+    ]
+}

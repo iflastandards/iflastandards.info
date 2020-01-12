@@ -1,0 +1,87 @@
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/> <http://purl.org/dc/elements/1.1/title> "UNIMARC/B elements 67X"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U676__3> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U676__3> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U676__3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U676__3> <http://metadataregistry.org/uri/profile/regap/name> "hasClassificationRecordNumberInDeweyDecimalClassification"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U676__3> <http://www.w3.org/2000/01/rdf-schema#label> "has Classification record number in Dewey Decimal Classification"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U676__3> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/hasClassificationRecordNumberInDeweyDecimalClassification.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U676__3> <http://www.w3.org/2004/02/skos/core#definition> "The control number."@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U675__3> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U675__3> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U675__3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U675__3> <http://metadataregistry.org/uri/profile/regap/name> "hasClassificationRecordNumberInUniversalDecimalClassificationUdc"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U675__3> <http://www.w3.org/2000/01/rdf-schema#label> "has Classification record number in Universal Decimal Classification (UDC)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U675__3> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/hasClassificationRecordNumberInUniversalDecimalClassificationUdc.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U675__3> <http://www.w3.org/2004/02/skos/core#definition> "The control number."@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U676__v> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U676__v> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U676__v> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U676__v> <http://metadataregistry.org/uri/profile/regap/name> "hasEditionInDeweyDecimalClassification"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U676__v> <http://www.w3.org/2000/01/rdf-schema#label> "has Edition in Dewey Decimal Classification"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U676__v> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/hasEditionInDeweyDecimalClassification.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U676__v> <http://www.w3.org/2004/02/skos/core#definition> "The number of the edition used."@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U675__v> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U675__v> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U675__v> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U675__v> <http://metadataregistry.org/uri/profile/regap/name> "hasEditionInUniversalDecimalClassificationUdc"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U675__v> <http://www.w3.org/2000/01/rdf-schema#label> "has Edition in Universal Decimal Classification (UDC)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U675__v> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/hasEditionInUniversalDecimalClassificationUdc.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U675__v> <http://www.w3.org/2004/02/skos/core#definition> "An identification of the edition from which the UDC number is taken."@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U676__z> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U676__z> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U676__z> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U676__z> <http://metadataregistry.org/uri/profile/regap/name> "hasLanguageOfEditionInDeweyDecimalClassification"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U676__z> <http://www.w3.org/2000/01/rdf-schema#label> "has Language of edition in Dewey Decimal Classification"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U676__z> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/hasLanguageOfEditionInDeweyDecimalClassification.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U676__z> <http://www.w3.org/2004/02/skos/core#definition> "The language in coded form of the edition from which the DDC number is taken."@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U675__z> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U675__z> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U675__z> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U675__z> <http://metadataregistry.org/uri/profile/regap/name> "hasLanguageOfEditionInUniversalDecimalClassificationUdc"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U675__z> <http://www.w3.org/2000/01/rdf-schema#label> "has Language of edition in Universal Decimal Classification (UDC)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U675__z> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/hasLanguageOfEditionInUniversalDecimalClassificationUdc.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U675__z> <http://www.w3.org/2004/02/skos/core#definition> "The language in coded form of the edition from which the UDC number is taken."@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U670__z> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U670__z> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U670__z> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U670__z> <http://metadataregistry.org/uri/profile/regap/name> "hasLanguageOfTermsInPrecis"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U670__z> <http://www.w3.org/2000/01/rdf-schema#label> "has Language of terms in Precis"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U670__z> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/hasLanguageOfTermsInPrecis.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U670__z> <http://www.w3.org/2004/02/skos/core#definition> "The language of the terms used in the string."@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U676__a> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U676__a> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U676__a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U676__a> <http://metadataregistry.org/uri/profile/regap/name> "hasNumberInDeweyDecimalClassification"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U676__a> <http://www.w3.org/2000/01/rdf-schema#label> "has Number in Dewey Decimal Classification"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U676__a> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/hasNumberInDeweyDecimalClassification.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U676__a> <http://www.w3.org/2004/02/skos/core#definition> "The number as taken from the Dewey Decimal Classification schedules."@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U675__a> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U675__a> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U675__a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U675__a> <http://metadataregistry.org/uri/profile/regap/name> "hasNumberInUniversalDecimalClassificationUdc"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U675__a> <http://www.w3.org/2000/01/rdf-schema#label> "has Number in Universal Decimal Classification (UDC)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U675__a> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/hasNumberInUniversalDecimalClassificationUdc.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U675__a> <http://www.w3.org/2004/02/skos/core#definition> "The class number as taken from the UDC schedules."@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U670__e> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U670__e> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U670__e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U670__e> <http://metadataregistry.org/uri/profile/regap/name> "hasReferenceIndicatorNumberInPrecis"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U670__e> <http://www.w3.org/2000/01/rdf-schema#label> "has Reference indicator number in Precis"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U670__e> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/hasReferenceIndicatorNumberInPrecis.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U670__e> <http://www.w3.org/2004/02/skos/core#definition> "A Reference Indication Number (RIN)."@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U670__c> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U670__c> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U670__c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U670__c> <http://metadataregistry.org/uri/profile/regap/name> "hasStringInPrecis"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U670__c> <http://www.w3.org/2000/01/rdf-schema#label> "has String in Precis"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U670__c> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/hasStringInPrecis.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U670__c> <http://www.w3.org/2004/02/skos/core#definition> "A sequence of subject index terms in which each term is preceded by a code which determines how it should appear in entries generated by the computer in printed indexes, COM output, card catalogues, etc."@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U670__b> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U670__b> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U670__b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U670__b> <http://metadataregistry.org/uri/profile/regap/name> "hasSubjectIndicatorNumberInPrecis"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U670__b> <http://www.w3.org/2000/01/rdf-schema#label> "has Subject indicator number in Precis"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U670__b> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/hasSubjectIndicatorNumberInPrecis.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U670__b> <http://www.w3.org/2004/02/skos/core#definition> "The Subject Indicator Number (SIN)."@en .
+<http://metadataregistry.org/uri/RegStatus/1001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://metadataregistry.org/uri/RegStatus/1001> <http://www.w3.org/2004/02/skos/core#prefLabel> "Published"@en .

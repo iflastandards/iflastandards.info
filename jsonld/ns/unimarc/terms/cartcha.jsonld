@@ -1,0 +1,71 @@
+{
+    "@context": "http://iflastandards.info/ns/unimarc/terms/Contexts/concepts_langmap.jsonld",
+    "@graph": [
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/cartcha#",
+            "@type": "ConceptScheme",
+            "title": {
+                "en": "UNIMARC: Cartographic materials: Character"
+            },
+            "description": {
+                "en": "The character of a cartographic Image."
+            },
+            "prefix": "",
+            "token": "cartcha",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "label": "Published"
+            },
+            "omr_api": "http://api.metadataregistry.org/vocabularies/395",
+            "omr_home": "http://metadataregistry.org/vocabularies/395",
+            "count": 3,
+            "languages": [
+                {
+                    "code": "en",
+                    "lang": "English",
+                    "version": "Release 1"
+                }
+            ],
+            "dateOfPublication": "January 11, 2020"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/cartcha#a",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7603",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/cartcha#",
+            "notation": {
+                "en": "a"
+            },
+            "prefLabel": {
+                "en": "non-photographic image"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/cartcha#b",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7604",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/cartcha#",
+            "notation": {
+                "en": "b"
+            },
+            "prefLabel": {
+                "en": "photographic image"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/cartcha#c",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7605",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/cartcha#",
+            "notation": {
+                "en": "c"
+            },
+            "prefLabel": {
+                "en": "remote sensing image"
+            },
+            "status": "Published"
+        }
+    ]
+}

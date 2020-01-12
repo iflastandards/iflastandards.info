@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+<!-- Scheme: UNIMARC: Continuing resources: Frequency of issue -->
+    <skos:ConceptScheme rdf:about="http://iflastandards.info/ns/unimarc/terms/continuingfreq#">
+        <dc:title>UNIMARC: Continuing resources: Frequency of issue</dc:title>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/continuingfreq#k"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/continuingfreq#l"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/continuingfreq#g"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/continuingfreq#d"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/continuingfreq#p"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/continuingfreq#a"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/continuingfreq#f"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/continuingfreq#y"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/continuingfreq#z"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/continuingfreq#h"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/continuingfreq#j"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/continuingfreq#e"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/continuingfreq#b"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/continuingfreq#o"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/continuingfreq#n"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/continuingfreq#i"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/continuingfreq#m"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/continuingfreq#u"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/continuingfreq#c"/>
+    </skos:ConceptScheme>
+
+<!-- Concept: annual  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/continuingfreq#k" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/continuingfreq#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6376"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/continuingfreq#"/>
+      <skos:prefLabel xml:lang="en">annual</skos:prefLabel>
+      <skos:notation xml:lang="en">k</skos:notation>
+      <skos:prefLabel xml:lang="pt">anual</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">annuale</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: biennial (every two years)  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/continuingfreq#l" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/continuingfreq#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6377"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/continuingfreq#"/>
+      <skos:prefLabel xml:lang="en">biennial (every two years)</skos:prefLabel>
+      <skos:notation xml:lang="en">l</skos:notation>
+      <skos:prefLabel xml:lang="pt">bienal (de dois em dois anos)</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">biennale (ogni due anni)</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: bimonthly (every two months)  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/continuingfreq#g" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/continuingfreq#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6372"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/continuingfreq#"/>
+      <skos:prefLabel xml:lang="en">bimonthly (every two months)</skos:prefLabel>
+      <skos:notation xml:lang="en">g</skos:notation>
+      <skos:prefLabel xml:lang="pt">bimestral (de dois em dois meses)</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">bimestrale (ogni due mesi)</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: biweekly (every two weeks)  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/continuingfreq#d" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/continuingfreq#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6369"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/continuingfreq#"/>
+      <skos:prefLabel xml:lang="en">biweekly (every two weeks)</skos:prefLabel>
+      <skos:notation xml:lang="en">d</skos:notation>
+      <skos:prefLabel xml:lang="pt">quinzenal (de duas em duas semanas)</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">bisettimanale (ogni due settimane)</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: continuously updated  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/continuingfreq#p" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/continuingfreq#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6381"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/continuingfreq#"/>
+      <skos:prefLabel xml:lang="en">continuously updated</skos:prefLabel>
+      <skos:notation xml:lang="en">p</skos:notation>
+      <skos:prefLabel xml:lang="pt">em actualização permanente</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">continuamente aggiornato</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: daily  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/continuingfreq#a" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/continuingfreq#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6366"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/continuingfreq#"/>
+      <skos:prefLabel xml:lang="en">daily</skos:prefLabel>
+      <skos:notation xml:lang="en">a</skos:notation>
+      <skos:prefLabel xml:lang="pt">diária</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">giornaliera</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: monthly  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/continuingfreq#f" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/continuingfreq#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6371"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/continuingfreq#"/>
+      <skos:prefLabel xml:lang="en">monthly</skos:prefLabel>
+      <skos:notation xml:lang="en">f</skos:notation>
+      <skos:prefLabel xml:lang="pt">mensal</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">mensile</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: no frequency (i.e. irregular)  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/continuingfreq#y" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/continuingfreq#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6383"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/continuingfreq#"/>
+      <skos:prefLabel xml:lang="en">no frequency (i.e. irregular)</skos:prefLabel>
+      <skos:notation xml:lang="en">y</skos:notation>
+      <skos:prefLabel xml:lang="pt">sem periodicidade (i.é, irregular)</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">nessuna frequenza (irregolare)</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: other  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/continuingfreq#z" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/continuingfreq#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6384"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/continuingfreq#"/>
+      <skos:prefLabel xml:lang="en">other</skos:prefLabel>
+      <skos:notation xml:lang="en">z</skos:notation>
+      <skos:prefLabel xml:lang="pt">outra</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">altro</skos:prefLabel>
+      <skos:definition xml:lang="en">Frequency of issue other than daily, semiweekly (twice a week), three times a week, weekly, biweekly (every two weeks), semimonthly (twice a month), three times a month, monthly, bimonthly (every two months), quarterly, three times a year, semiannual (twice a year), annual, biennial (every two years), triennial (every three years), continuously updated, no frequency (i.e. irregular).</skos:definition>
+    </skos:Concept>
+<!-- Concept: quarterly  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/continuingfreq#h" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/continuingfreq#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6373"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/continuingfreq#"/>
+      <skos:prefLabel xml:lang="en">quarterly</skos:prefLabel>
+      <skos:notation xml:lang="en">h</skos:notation>
+      <skos:prefLabel xml:lang="pt">trimestral</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">trimestrale</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: semiannual (twice a year)  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/continuingfreq#j" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/continuingfreq#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6375"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/continuingfreq#"/>
+      <skos:prefLabel xml:lang="en">semiannual (twice a year)</skos:prefLabel>
+      <skos:notation xml:lang="en">j</skos:notation>
+      <skos:prefLabel xml:lang="pt">semestral (duas vezes por ano)</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">semiannuale (due volte all'anno)</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: semimonthly (twice a month)  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/continuingfreq#e" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/continuingfreq#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6370"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/continuingfreq#"/>
+      <skos:prefLabel xml:lang="en">semimonthly (twice a month)</skos:prefLabel>
+      <skos:notation xml:lang="en">e</skos:notation>
+      <skos:prefLabel xml:lang="pt">bimensal (duas vezes por mês)</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">quindicinale (due volte al mese)</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: semiweekly (twice a week)  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/continuingfreq#b" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/continuingfreq#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6367"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/continuingfreq#"/>
+      <skos:prefLabel xml:lang="en">semiweekly (twice a week)</skos:prefLabel>
+      <skos:notation xml:lang="en">b</skos:notation>
+      <skos:prefLabel xml:lang="pt">bissemanal (duas vezes por semana)</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">semisettimanale (due volte a settimana)</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: three times a month  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/continuingfreq#o" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/continuingfreq#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6380"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/continuingfreq#"/>
+      <skos:prefLabel xml:lang="en">three times a month</skos:prefLabel>
+      <skos:notation xml:lang="en">o</skos:notation>
+      <skos:prefLabel xml:lang="pt">três vezes por mês</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">tre volte al mese</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: three times a week  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/continuingfreq#n" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/continuingfreq#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6379"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/continuingfreq#"/>
+      <skos:prefLabel xml:lang="en">three times a week</skos:prefLabel>
+      <skos:notation xml:lang="en">n</skos:notation>
+      <skos:prefLabel xml:lang="it">tre volte a settimana</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">três vezes por semana</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: three times a year  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/continuingfreq#i" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/continuingfreq#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6374"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/continuingfreq#"/>
+      <skos:prefLabel xml:lang="en">three times a year</skos:prefLabel>
+      <skos:notation xml:lang="en">i</skos:notation>
+      <skos:prefLabel xml:lang="pt">quadrimestral (três vezes por ano)</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">tre volte all'anno</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: triennial (every three years)  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/continuingfreq#m" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/continuingfreq#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6378"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/continuingfreq#"/>
+      <skos:prefLabel xml:lang="en">triennial (every three years)</skos:prefLabel>
+      <skos:note xml:lang="en">m</skos:note>
+      <skos:prefLabel xml:lang="pt">trienal (de três em três anos)</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">triennale (ogni tre anni)</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: unknown  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/continuingfreq#u" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/continuingfreq#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6382"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/continuingfreq#"/>
+      <skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+      <skos:notation xml:lang="en">u</skos:notation>
+      <skos:prefLabel xml:lang="pt">desconhecida</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">sconosciuto</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: weekly  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/continuingfreq#c" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/continuingfreq#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6368"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/continuingfreq#"/>
+      <skos:prefLabel xml:lang="en">weekly</skos:prefLabel>
+      <skos:notation xml:lang="en">c</skos:notation>
+      <skos:prefLabel xml:lang="pt">semanal</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">settimanale</skos:prefLabel>
+    </skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

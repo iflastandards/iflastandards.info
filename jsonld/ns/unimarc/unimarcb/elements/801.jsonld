@@ -1,0 +1,636 @@
+{
+    "@context": "http://iflastandards.info/ns/unimarc/unimarcb/elements/Contexts/elements_langmap.jsonld",
+    "@graph": [
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/",
+            "@type": "ElementSet",
+            "title": {
+                "en": "UNIMARC/B elements 801"
+            },
+            "description": {
+                "en": ""
+            },
+            "prefix": "",
+            "token": "ub801",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "label": "Published"
+            },
+            "omr_api": "http://api.metadataregistry.org/elementsets/121",
+            "omr_home": "http://metadataregistry.org/elementsets/121",
+            "count": 24,
+            "languages": [
+                {
+                    "code": "en",
+                    "lang": "English",
+                    "version": "Release 1"
+                }
+            ],
+            "dateOfPublication": "January 11, 2020"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/U801_02",
+            "@type": "Property",
+            "description": {
+                "en": [
+                    "The name of the format used for the machine-readable record."
+                ]
+            },
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/",
+                "url": "http://metadataregistry.org/schema/show/id/121.html",
+                "label": "UNIMARC/B elements 801"
+            },
+            "label": {
+                "en": "has System code in Originating source (Original cataloguing agency)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/hasSystemCodeInOriginatingSourceOriginalCataloguingAgency.en",
+            "name": "hasSystemCodeInOriginatingSourceOriginalCataloguingAgency",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/21905.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/U801_0a",
+            "@type": "Property",
+            "description": {
+                "en": [
+                    "The country of the issuing agency."
+                ]
+            },
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/",
+                "url": "http://metadataregistry.org/schema/show/id/121.html",
+                "label": "UNIMARC/B elements 801"
+            },
+            "label": {
+                "en": "has Country in Originating source (Original cataloguing agency)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/hasCountryInOriginatingSourceOriginalCataloguingAgency.en",
+            "name": "hasCountryInOriginatingSourceOriginalCataloguingAgency",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/21906.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/U801_0b",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/",
+                "url": "http://metadataregistry.org/schema/show/id/121.html",
+                "label": "UNIMARC/B elements 801"
+            },
+            "label": {
+                "en": "has Agency in Originating source (Original cataloguing agency)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/hasAgencyInOriginatingSourceOriginalCataloguingAgency.en",
+            "name": "hasAgencyInOriginatingSourceOriginalCataloguingAgency",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/21907.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/U801_0c",
+            "@type": "Property",
+            "description": {
+                "en": [
+                    "Indication when a modification was made or a record was issued."
+                ]
+            },
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/",
+                "url": "http://metadataregistry.org/schema/show/id/121.html",
+                "label": "UNIMARC/B elements 801"
+            },
+            "label": {
+                "en": "has Date of transaction in Originating source (Original cataloguing agency)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/hasDateOfTransactionInOriginatingSourceOriginalCataloguingAgency.en",
+            "name": "hasDateOfTransactionInOriginatingSourceOriginalCataloguingAgency",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/21908.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/U801_0g",
+            "@type": "Property",
+            "description": {
+                "en": [
+                    "The cataloguing code used for bibliographic description and access."
+                ]
+            },
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/",
+                "url": "http://metadataregistry.org/schema/show/id/121.html",
+                "label": "UNIMARC/B elements 801"
+            },
+            "label": {
+                "en": "has Cataloguing rules (descriptive conventions) in Originating source (Original cataloguing agency)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/hasCataloguingRulesDescriptiveConventionsInOriginatingSourceOriginalCataloguingAgency.en",
+            "name": "hasCataloguingRulesDescriptiveConventionsInOriginatingSourceOriginalCataloguingAgency",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/21909.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/U801_0h",
+            "@type": "Property",
+            "description": {
+                "en": [
+                    "The original control number when a record’s Record Identifier has been overwritten."
+                ]
+            },
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/",
+                "url": "http://metadataregistry.org/schema/show/id/121.html",
+                "label": "UNIMARC/B elements 801"
+            },
+            "label": {
+                "en": "has Original control number in Originating source (Original cataloguing agency)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/hasOriginalControlNumberInOriginatingSourceOriginalCataloguingAgency.en",
+            "name": "hasOriginalControlNumberInOriginatingSourceOriginalCataloguingAgency",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/21910.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/U801_12",
+            "@type": "Property",
+            "description": {
+                "en": [
+                    "The name of the format used for the machine-readable record."
+                ]
+            },
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/",
+                "url": "http://metadataregistry.org/schema/show/id/121.html",
+                "label": "UNIMARC/B elements 801"
+            },
+            "label": {
+                "en": "has System code in Originating source (Transcribing agency)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/hasSystemCodeInOriginatingSourceTranscribingAgency.en",
+            "name": "hasSystemCodeInOriginatingSourceTranscribingAgency",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/21911.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/U801_1a",
+            "@type": "Property",
+            "description": {
+                "en": [
+                    "The country of the issuing agency."
+                ]
+            },
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/",
+                "url": "http://metadataregistry.org/schema/show/id/121.html",
+                "label": "UNIMARC/B elements 801"
+            },
+            "label": {
+                "en": "has Country in Originating source (Transcribing agency)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/hasCountryInOriginatingSourceTranscribingAgency.en",
+            "name": "hasCountryInOriginatingSourceTranscribingAgency",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/21912.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/U801_1b",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/",
+                "url": "http://metadataregistry.org/schema/show/id/121.html",
+                "label": "UNIMARC/B elements 801"
+            },
+            "label": {
+                "en": "has Agency in Originating source (Transcribing agency)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/hasAgencyInOriginatingSourceTranscribingAgency.en",
+            "name": "hasAgencyInOriginatingSourceTranscribingAgency",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/21913.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/U801_1c",
+            "@type": "Property",
+            "description": {
+                "en": [
+                    "Indication when a modification was made or a record was issued."
+                ]
+            },
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/",
+                "url": "http://metadataregistry.org/schema/show/id/121.html",
+                "label": "UNIMARC/B elements 801"
+            },
+            "label": {
+                "en": "has Date of transaction in Originating source (Transcribing agency)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/hasDateOfTransactionInOriginatingSourceTranscribingAgency.en",
+            "name": "hasDateOfTransactionInOriginatingSourceTranscribingAgency",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/21914.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/U801_1g",
+            "@type": "Property",
+            "description": {
+                "en": [
+                    "The cataloguing code used for bibliographic description and access."
+                ]
+            },
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/",
+                "url": "http://metadataregistry.org/schema/show/id/121.html",
+                "label": "UNIMARC/B elements 801"
+            },
+            "label": {
+                "en": "has Cataloguing rules (descriptive conventions) in Originating source (Transcribing agency)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/hasCataloguingRulesDescriptiveConventionsInOriginatingSourceTranscribingAgency.en",
+            "name": "hasCataloguingRulesDescriptiveConventionsInOriginatingSourceTranscribingAgency",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/21915.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/U801_1h",
+            "@type": "Property",
+            "description": {
+                "en": [
+                    "The original control number when a record’s Record Identifier has been overwritten."
+                ]
+            },
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/",
+                "url": "http://metadataregistry.org/schema/show/id/121.html",
+                "label": "UNIMARC/B elements 801"
+            },
+            "label": {
+                "en": "has Original control number in Originating source (Transcribing agency)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/hasOriginalControlNumberInOriginatingSourceTranscribingAgency.en",
+            "name": "hasOriginalControlNumberInOriginatingSourceTranscribingAgency",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/21916.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/U801_22",
+            "@type": "Property",
+            "description": {
+                "en": [
+                    "The name of the format used for the machine-readable record."
+                ]
+            },
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/",
+                "url": "http://metadataregistry.org/schema/show/id/121.html",
+                "label": "UNIMARC/B elements 801"
+            },
+            "label": {
+                "en": "has System code in Originating source (Modifying agency)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/hasSystemCodeInOriginatingSourceModifyingAgency.en",
+            "name": "hasSystemCodeInOriginatingSourceModifyingAgency",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/21917.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/U801_2a",
+            "@type": "Property",
+            "description": {
+                "en": [
+                    "The country of the issuing agency."
+                ]
+            },
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/",
+                "url": "http://metadataregistry.org/schema/show/id/121.html",
+                "label": "UNIMARC/B elements 801"
+            },
+            "label": {
+                "en": "has Country in Originating source (Modifying agency)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/hasCountryInOriginatingSourceModifyingAgency.en",
+            "name": "hasCountryInOriginatingSourceModifyingAgency",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/21918.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/U801_2b",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/",
+                "url": "http://metadataregistry.org/schema/show/id/121.html",
+                "label": "UNIMARC/B elements 801"
+            },
+            "label": {
+                "en": "has Agency in Originating source (Modifying agency)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/hasAgencyInOriginatingSourceModifyingAgency.en",
+            "name": "hasAgencyInOriginatingSourceModifyingAgency",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/21919.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/U801_2c",
+            "@type": "Property",
+            "description": {
+                "en": [
+                    "Indication when a modification was made or a record was issued."
+                ]
+            },
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/",
+                "url": "http://metadataregistry.org/schema/show/id/121.html",
+                "label": "UNIMARC/B elements 801"
+            },
+            "label": {
+                "en": "has Date of transaction in Originating source (Modifying agency)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/hasDateOfTransactionInOriginatingSourceModifyingAgency.en",
+            "name": "hasDateOfTransactionInOriginatingSourceModifyingAgency",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/21920.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/U801_2g",
+            "@type": "Property",
+            "description": {
+                "en": [
+                    "The cataloguing code used for bibliographic description and access."
+                ]
+            },
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/",
+                "url": "http://metadataregistry.org/schema/show/id/121.html",
+                "label": "UNIMARC/B elements 801"
+            },
+            "label": {
+                "en": "has Cataloguing rules (descriptive conventions) in Originating source (Modifying agency)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/hasCataloguingRulesDescriptiveConventionsInOriginatingSourceModifyingAgency.en",
+            "name": "hasCataloguingRulesDescriptiveConventionsInOriginatingSourceModifyingAgency",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/21921.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/U801_2h",
+            "@type": "Property",
+            "description": {
+                "en": [
+                    "The original control number when a record’s Record Identifier has been overwritten."
+                ]
+            },
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/",
+                "url": "http://metadataregistry.org/schema/show/id/121.html",
+                "label": "UNIMARC/B elements 801"
+            },
+            "label": {
+                "en": "has Original control number in Originating source (Modifying agency)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/hasOriginalControlNumberInOriginatingSourceModifyingAgency.en",
+            "name": "hasOriginalControlNumberInOriginatingSourceModifyingAgency",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/21922.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/U801_32",
+            "@type": "Property",
+            "description": {
+                "en": [
+                    "The name of the format used for the machine-readable record."
+                ]
+            },
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/",
+                "url": "http://metadataregistry.org/schema/show/id/121.html",
+                "label": "UNIMARC/B elements 801"
+            },
+            "label": {
+                "en": "has System code in Originating source (Issuing agency)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/hasSystemCodeInOriginatingSourceIssuingAgency.en",
+            "name": "hasSystemCodeInOriginatingSourceIssuingAgency",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/21923.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/U801_3a",
+            "@type": "Property",
+            "description": {
+                "en": [
+                    "The country of the issuing agency."
+                ]
+            },
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/",
+                "url": "http://metadataregistry.org/schema/show/id/121.html",
+                "label": "UNIMARC/B elements 801"
+            },
+            "label": {
+                "en": "has Country in Originating source (Issuing agency)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/hasCountryInOriginatingSourceIssuingAgency.en",
+            "name": "hasCountryInOriginatingSourceIssuingAgency",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/21924.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/U801_3b",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/",
+                "url": "http://metadataregistry.org/schema/show/id/121.html",
+                "label": "UNIMARC/B elements 801"
+            },
+            "label": {
+                "en": "has Agency in Originating source (Issuing agency)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/hasAgencyInOriginatingSourceIssuingAgency.en",
+            "name": "hasAgencyInOriginatingSourceIssuingAgency",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/21925.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/U801_3c",
+            "@type": "Property",
+            "description": {
+                "en": [
+                    "Indication when a modification was made or a record was issued."
+                ]
+            },
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/",
+                "url": "http://metadataregistry.org/schema/show/id/121.html",
+                "label": "UNIMARC/B elements 801"
+            },
+            "label": {
+                "en": "has Date of transaction in Originating source (Issuing agency)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/hasDateOfTransactionInOriginatingSourceIssuingAgency.en",
+            "name": "hasDateOfTransactionInOriginatingSourceIssuingAgency",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/21926.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/U801_3g",
+            "@type": "Property",
+            "description": {
+                "en": [
+                    "The cataloguing code used for bibliographic description and access."
+                ]
+            },
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/",
+                "url": "http://metadataregistry.org/schema/show/id/121.html",
+                "label": "UNIMARC/B elements 801"
+            },
+            "label": {
+                "en": "has Cataloguing rules (descriptive conventions) in Originating source (Issuing agency)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/hasCataloguingRulesDescriptiveConventionsInOriginatingSourceIssuingAgency.en",
+            "name": "hasCataloguingRulesDescriptiveConventionsInOriginatingSourceIssuingAgency",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/21927.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/U801_3h",
+            "@type": "Property",
+            "description": {
+                "en": [
+                    "The original control number when a record’s Record Identifier has been overwritten."
+                ]
+            },
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/",
+                "url": "http://metadataregistry.org/schema/show/id/121.html",
+                "label": "UNIMARC/B elements 801"
+            },
+            "label": {
+                "en": "has Original control number in Originating source (Issuing agency)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/801/hasOriginalControlNumberInOriginatingSourceIssuingAgency.en",
+            "name": "hasOriginalControlNumberInOriginatingSourceIssuingAgency",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/21928.html"
+        }
+    ]
+}

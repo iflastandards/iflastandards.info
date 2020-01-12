@@ -1,0 +1,409 @@
+{
+    "@context": "http://iflastandards.info/ns/unimarc/terms/Contexts/concepts_langmap.jsonld",
+    "@graph": [
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicstp#",
+            "@type": "ConceptScheme",
+            "title": {
+                "en": "UNIMARC: Graphics: Technique (prints) "
+            },
+            "description": {
+                "en": "The technique in which prints are executed. "
+            },
+            "prefix": "",
+            "token": "graphicstp",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "label": "Published"
+            },
+            "omr_api": "http://api.metadataregistry.org/vocabularies/404",
+            "omr_home": "http://metadataregistry.org/vocabularies/404",
+            "count": 29,
+            "languages": [
+                {
+                    "code": "en",
+                    "lang": "English",
+                    "version": "Release 1"
+                }
+            ],
+            "dateOfPublication": "January 11, 2020"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicstp#ba",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7727",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicstp#",
+            "notation": {
+                "en": "ba"
+            },
+            "prefLabel": {
+                "en": "woodcut"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicstp#bb",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7728",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicstp#",
+            "notation": {
+                "en": "bb"
+            },
+            "prefLabel": {
+                "en": "chiaroscuro woodcut"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicstp#bc",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7729",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicstp#",
+            "notation": {
+                "en": "bc"
+            },
+            "prefLabel": {
+                "en": "white-line woodcut"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicstp#bd",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7730",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicstp#",
+            "notation": {
+                "en": "bd"
+            },
+            "prefLabel": {
+                "en": "camaiu"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicstp#be",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7731",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicstp#",
+            "notation": {
+                "en": "be"
+            },
+            "prefLabel": {
+                "en": "heliogravure"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicstp#bf",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7732",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicstp#",
+            "notation": {
+                "en": "bf"
+            },
+            "prefLabel": {
+                "en": "chromolithography"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicstp#bg",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7733",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicstp#",
+            "notation": {
+                "en": "bg"
+            },
+            "prefLabel": {
+                "en": "lino-cut"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicstp#bh",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7734",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicstp#",
+            "notation": {
+                "en": "bh"
+            },
+            "prefLabel": {
+                "en": "etching"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicstp#bi",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7735",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicstp#",
+            "notation": {
+                "en": "bi"
+            },
+            "prefLabel": {
+                "en": "lithography"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicstp#bj",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7736",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicstp#",
+            "notation": {
+                "en": "bj"
+            },
+            "prefLabel": {
+                "en": "photolithography"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicstp#bk",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7737",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicstp#",
+            "notation": {
+                "en": "bk"
+            },
+            "prefLabel": {
+                "en": "zincography"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicstp#bl",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7738",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicstp#",
+            "notation": {
+                "en": "bl"
+            },
+            "prefLabel": {
+                "en": "algraphy"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicstp#bm",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7739",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicstp#",
+            "notation": {
+                "en": "bm"
+            },
+            "prefLabel": {
+                "en": "aquatint"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicstp#bn",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7740",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicstp#",
+            "notation": {
+                "en": "bn"
+            },
+            "prefLabel": {
+                "en": "reservage (sugar aquatint)"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicstp#ca",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7741",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicstp#",
+            "notation": {
+                "en": "ca"
+            },
+            "prefLabel": {
+                "en": "vernis-mou (soft ground etching or tracing)"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicstp#cb",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7742",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicstp#",
+            "notation": {
+                "en": "cb"
+            },
+            "prefLabel": {
+                "en": "engraving"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicstp#cc",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7743",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicstp#",
+            "notation": {
+                "en": "cc"
+            },
+            "prefLabel": {
+                "en": "engraving in the crayon manner"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicstp#cd",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7744",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicstp#",
+            "notation": {
+                "en": "cd"
+            },
+            "prefLabel": {
+                "en": "burin engraving"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicstp#ce",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7745",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicstp#",
+            "notation": {
+                "en": "ce"
+            },
+            "prefLabel": {
+                "en": "drypoint"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicstp#cf",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7746",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicstp#",
+            "notation": {
+                "en": "cf"
+            },
+            "prefLabel": {
+                "en": "mezzotinta (mezzotint)"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicstp#cg",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7747",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicstp#",
+            "notation": {
+                "en": "cg"
+            },
+            "prefLabel": {
+                "en": "monotype"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicstp#ch",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7748",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicstp#",
+            "notation": {
+                "en": "ch"
+            },
+            "prefLabel": {
+                "en": "silkscreen"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicstp#ci",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7749",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicstp#",
+            "notation": {
+                "en": "ci"
+            },
+            "prefLabel": {
+                "en": "steel engraving"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicstp#cj",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7750",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicstp#",
+            "notation": {
+                "en": "cj"
+            },
+            "prefLabel": {
+                "en": "computer graphics"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicstp#ck",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7751",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicstp#",
+            "notation": {
+                "en": "ck"
+            },
+            "prefLabel": {
+                "en": "photocopying"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicstp#uu",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7752",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicstp#",
+            "notation": {
+                "en": "uu"
+            },
+            "prefLabel": {
+                "en": "unknown"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicstp#vv",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7753",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicstp#",
+            "notation": {
+                "en": "vv"
+            },
+            "prefLabel": {
+                "en": "mixed"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicstp#xx",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7754",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicstp#",
+            "notation": {
+                "en": "xx"
+            },
+            "prefLabel": {
+                "en": "not applicable"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicstp#zz",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7755",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicstp#",
+            "notation": {
+                "en": "zz"
+            },
+            "prefLabel": {
+                "en": "other"
+            },
+            "status": "Published"
+        }
+    ]
+}

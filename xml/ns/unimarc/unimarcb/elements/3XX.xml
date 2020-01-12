@@ -1,0 +1,1782 @@
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF
+    xml:base="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+<!-- Element Set: UNIMARC/B elements 3XX -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/">
+  <dc:title xml:lang="en">UNIMARC/B elements 3XX</dc:title>
+</rdf:Description>
+
+<!-- Properties -->
+
+<!-- Property: has Action agent in Action note -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U318__k">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasActionAgentInActionNote</reg:name>
+  <rdfs:label xml:lang="en">has Action agent in Action note</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasActionAgentInActionNote.en" />
+</rdf:Description>
+
+<!-- Property: has Action identification in Action note -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U318__b">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasActionIdentificationInActionNote</reg:name>
+  <rdfs:label xml:lang="en">has Action identification in Action note</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasActionIdentificationInActionNote.en" />
+</rdf:Description>
+
+<!-- Property: has Action. in Action note -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U318__a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasActionInActionNote</reg:name>
+  <rdfs:label xml:lang="en">has Action. in Action note</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasActionInActionNote.en" />
+</rdf:Description>
+
+<!-- Property: has Action interval in Action note -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U318__d">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasActionIntervalInActionNote</reg:name>
+  <rdfs:label xml:lang="en">has Action interval in Action note</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasActionIntervalInActionNote.en" />
+</rdf:Description>
+
+<!-- Property: has Authorisation in Action note -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U318__f">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasAuthorisationInActionNote</reg:name>
+  <rdfs:label xml:lang="en">has Authorisation in Action note</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasAuthorisationInActionNote.en" />
+</rdf:Description>
+
+<!-- Property: has Body granting the degree in Dissertation (thesis) note (No information available) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U328__e">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasBodyGrantingTheDegreeInDissertationThesisNoteNoInformationAvailable</reg:name>
+  <rdfs:label xml:lang="en">has Body granting the degree in Dissertation (thesis) note (No information available)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasBodyGrantingTheDegreeInDissertationThesisNoteNoInformationAvailable.en" />
+</rdf:Description>
+
+<!-- Property: has Body granting the degree in Dissertation (thesis) note (Not structured) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U328_1e">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasBodyGrantingTheDegreeInDissertationThesisNoteNotStructured</reg:name>
+  <rdfs:label xml:lang="en">has Body granting the degree in Dissertation (thesis) note (Not structured)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasBodyGrantingTheDegreeInDissertationThesisNoteNotStructured.en" />
+</rdf:Description>
+
+<!-- Property: has Body granting the degree in Dissertation (thesis) note (Structured) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U328_0e">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasBodyGrantingTheDegreeInDissertationThesisNoteStructured</reg:name>
+  <rdfs:label xml:lang="en">has Body granting the degree in Dissertation (thesis) note (Structured)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasBodyGrantingTheDegreeInDissertationThesisNoteStructured.en" />
+</rdf:Description>
+
+<!-- Property: has Contingency for action in Action note -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U318__e">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasContingencyForActionInActionNote</reg:name>
+  <rdfs:label xml:lang="en">has Contingency for action in Action note</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasContingencyForActionInActionNote.en" />
+</rdf:Description>
+
+<!-- Property: has Country of award in Awards note -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U334__d">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasCountryOfAwardInAwardsNote</reg:name>
+  <rdfs:label xml:lang="en">has Country of award in Awards note</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasCountryOfAwardInAwardsNote.en" />
+</rdf:Description>
+
+<!-- Property: has Date of degree in Dissertation (thesis) note (No information available) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U328__d">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasDateOfDegreeInDissertationThesisNoteNoInformationAvailable</reg:name>
+  <rdfs:label xml:lang="en">has Date of degree in Dissertation (thesis) note (No information available)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasDateOfDegreeInDissertationThesisNoteNoInformationAvailable.en" />
+</rdf:Description>
+
+<!-- Property: has Date of degree in Dissertation (thesis) note (Not structured) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U328_1d">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasDateOfDegreeInDissertationThesisNoteNotStructured</reg:name>
+  <rdfs:label xml:lang="en">has Date of degree in Dissertation (thesis) note (Not structured)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasDateOfDegreeInDissertationThesisNoteNotStructured.en" />
+</rdf:Description>
+
+<!-- Property: has Date of degree in Dissertation (thesis) note (Structured) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U328_0d">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasDateOfDegreeInDissertationThesisNoteStructured</reg:name>
+  <rdfs:label xml:lang="en">has Date of degree in Dissertation (thesis) note (Structured)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasDateOfDegreeInDissertationThesisNoteStructured.en" />
+</rdf:Description>
+
+<!-- Property: has Dates of coverage in External indexes/abstracts/references note (Bibliography, catalogue citation) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U3211_b">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasDatesOfCoverageInExternalIndexesAbstractsReferencesNoteBibliographyCatalogueCitation</reg:name>
+  <rdfs:label xml:lang="en">has Dates of coverage in External indexes/abstracts/references note (Bibliography, catalogue citation)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasDatesOfCoverageInExternalIndexesAbstractsReferencesNoteBibliographyCatalogueCitation.en" />
+</rdf:Description>
+
+<!-- Property: has Dates of coverage in External indexes/abstracts/references note (Indexing, abstracting coverage) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U3210_b">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasDatesOfCoverageInExternalIndexesAbstractsReferencesNoteIndexingAbstractingCoverage</reg:name>
+  <rdfs:label xml:lang="en">has Dates of coverage in External indexes/abstracts/references note (Indexing, abstracting coverage)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasDatesOfCoverageInExternalIndexesAbstractsReferencesNoteIndexingAbstractingCoverage.en" />
+</rdf:Description>
+
+<!-- Property: has Dates of coverage in External indexes/abstracts/references note (No information provided) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U321__b">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasDatesOfCoverageInExternalIndexesAbstractsReferencesNoteNoInformationProvided</reg:name>
+  <rdfs:label xml:lang="en">has Dates of coverage in External indexes/abstracts/references note (No information provided)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasDatesOfCoverageInExternalIndexesAbstractsReferencesNoteNoInformationProvided.en" />
+</rdf:Description>
+
+<!-- Property: has Dates of frequency in Frequency statement note (continuing resources) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U326__b">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasDatesOfFrequencyInFrequencyStatementNoteContinuingResources</reg:name>
+  <rdfs:label xml:lang="en">has Dates of frequency in Frequency statement note (continuing resources)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasDatesOfFrequencyInFrequencyStatementNoteContinuingResources.en" />
+</rdf:Description>
+
+<!-- Property: has Discipline of degree in Dissertation (thesis) note (No information available) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U328__c">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasDisciplineOfDegreeInDissertationThesisNoteNoInformationAvailable</reg:name>
+  <rdfs:label xml:lang="en">has Discipline of degree in Dissertation (thesis) note (No information available)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasDisciplineOfDegreeInDissertationThesisNoteNoInformationAvailable.en" />
+</rdf:Description>
+
+<!-- Property: has Discipline of degree in Dissertation (thesis) note (Not structured) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U328_1c">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasDisciplineOfDegreeInDissertationThesisNoteNotStructured</reg:name>
+  <rdfs:label xml:lang="en">has Discipline of degree in Dissertation (thesis) note (Not structured)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasDisciplineOfDegreeInDissertationThesisNoteNotStructured.en" />
+</rdf:Description>
+
+<!-- Property: has Discipline of degree in Dissertation (thesis) note (Structured) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U328_0c">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasDisciplineOfDegreeInDissertationThesisNoteStructured</reg:name>
+  <rdfs:label xml:lang="en">has Discipline of degree in Dissertation (thesis) note (Structured)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasDisciplineOfDegreeInDissertationThesisNoteStructured.en" />
+</rdf:Description>
+
+<!-- Property: has Dissertation or thesis details and type of degree in Dissertation (thesis) note (No information available) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U328__b">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasDissertationOrThesisDetailsAndTypeOfDegreeInDissertationThesisNoteNoInformationAvailable</reg:name>
+  <rdfs:label xml:lang="en">has Dissertation or thesis details and type of degree in Dissertation (thesis) note (No information available)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasDissertationOrThesisDetailsAndTypeOfDegreeInDissertationThesisNoteNoInformationAvailable.en" />
+</rdf:Description>
+
+<!-- Property: has Dissertation or thesis details and type of degree in Dissertation (thesis) note (Not structured) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U328_1b">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasDissertationOrThesisDetailsAndTypeOfDegreeInDissertationThesisNoteNotStructured</reg:name>
+  <rdfs:label xml:lang="en">has Dissertation or thesis details and type of degree in Dissertation (thesis) note (Not structured)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasDissertationOrThesisDetailsAndTypeOfDegreeInDissertationThesisNoteNotStructured.en" />
+</rdf:Description>
+
+<!-- Property: has Dissertation or thesis details and type of degree in Dissertation (thesis) note (Structured) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U328_0b">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasDissertationOrThesisDetailsAndTypeOfDegreeInDissertationThesisNoteStructured</reg:name>
+  <rdfs:label xml:lang="en">has Dissertation or thesis details and type of degree in Dissertation (thesis) note (Structured)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasDissertationOrThesisDetailsAndTypeOfDegreeInDissertationThesisNoteStructured.en" />
+</rdf:Description>
+
+<!-- Property: has Extent in Action note -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U318__n">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasExtentInActionNote</reg:name>
+  <rdfs:label xml:lang="en">has Extent in Action note</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasExtentInActionNote.en" />
+</rdf:Description>
+
+<!-- Property: has Frequency in Frequency statement note (continuing resources) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U326__a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasFrequencyInFrequencyStatementNoteContinuingResources</reg:name>
+  <rdfs:label xml:lang="en">has Frequency in Frequency statement note (continuing resources)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasFrequencyInFrequencyStatementNoteContinuingResources.en" />
+</rdf:Description>
+
+<!-- Property: has Institution and copy to which the field applies in Action note -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U318__5">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasInstitutionAndCopyToWhichTheFieldAppliesInActionNote</reg:name>
+  <rdfs:label xml:lang="en">has Institution and copy to which the field applies in Action note</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasInstitutionAndCopyToWhichTheFieldAppliesInActionNote.en" />
+</rdf:Description>
+
+<!-- Property: has Institution to which field applies in External indexes/abstracts/references note (Bibliography, catalogue citation) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U3211_5">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasInstitutionToWhichFieldAppliesInExternalIndexesAbstractsReferencesNoteBibliographyCatalogueCitation</reg:name>
+  <rdfs:label xml:lang="en">has Institution to which field applies in External indexes/abstracts/references note (Bibliography, catalogue citation)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasInstitutionToWhichFieldAppliesInExternalIndexesAbstractsReferencesNoteBibliographyCatalogueCitation.en" />
+</rdf:Description>
+
+<!-- Property: has Institution to which field applies in External indexes/abstracts/references note (Indexing, abstracting coverage) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U3210_5">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasInstitutionToWhichFieldAppliesInExternalIndexesAbstractsReferencesNoteIndexingAbstractingCoverage</reg:name>
+  <rdfs:label xml:lang="en">has Institution to which field applies in External indexes/abstracts/references note (Indexing, abstracting coverage)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasInstitutionToWhichFieldAppliesInExternalIndexesAbstractsReferencesNoteIndexingAbstractingCoverage.en" />
+</rdf:Description>
+
+<!-- Property: has Institution to which field applies in External indexes/abstracts/references note (No information provided) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U321__5">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasInstitutionToWhichFieldAppliesInExternalIndexesAbstractsReferencesNoteNoInformationProvided</reg:name>
+  <rdfs:label xml:lang="en">has Institution to which field applies in External indexes/abstracts/references note (No information provided)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasInstitutionToWhichFieldAppliesInExternalIndexesAbstractsReferencesNoteNoInformationProvided.en" />
+</rdf:Description>
+
+<!-- Property: has Institution to which the field applies in Note relating to the copy in hand -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U316__5">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasInstitutionToWhichTheFieldAppliesInNoteRelatingToTheCopyInHand</reg:name>
+  <rdfs:label xml:lang="en">has Institution to which the field applies in Note relating to the copy in hand</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasInstitutionToWhichTheFieldAppliesInNoteRelatingToTheCopyInHand.en" />
+</rdf:Description>
+
+<!-- Property: has Institution to which the field applies in Provenance note -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U317__5">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasInstitutionToWhichTheFieldAppliesInProvenanceNote</reg:name>
+  <rdfs:label xml:lang="en">has Institution to which the field applies in Provenance note</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasInstitutionToWhichTheFieldAppliesInProvenanceNote.en" />
+</rdf:Description>
+
+<!-- Property: has Interfield linking data in External indexes/abstracts/references note (Bibliography, catalogue citation) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U3211_6">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasInterfieldLinkingDataInExternalIndexesAbstractsReferencesNoteBibliographyCatalogueCitation</reg:name>
+  <rdfs:label xml:lang="en">has Interfield linking data in External indexes/abstracts/references note (Bibliography, catalogue citation)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasInterfieldLinkingDataInExternalIndexesAbstractsReferencesNoteBibliographyCatalogueCitation.en" />
+</rdf:Description>
+
+<!-- Property: has Interfield linking data in External indexes/abstracts/references note (Indexing, abstracting coverage) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U3210_6">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasInterfieldLinkingDataInExternalIndexesAbstractsReferencesNoteIndexingAbstractingCoverage</reg:name>
+  <rdfs:label xml:lang="en">has Interfield linking data in External indexes/abstracts/references note (Indexing, abstracting coverage)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasInterfieldLinkingDataInExternalIndexesAbstractsReferencesNoteIndexingAbstractingCoverage.en" />
+</rdf:Description>
+
+<!-- Property: has Interfield linking data in External indexes/abstracts/references note (No information provided) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U321__6">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasInterfieldLinkingDataInExternalIndexesAbstractsReferencesNoteNoInformationProvided</reg:name>
+  <rdfs:label xml:lang="en">has Interfield linking data in External indexes/abstracts/references note (No information provided)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasInterfieldLinkingDataInExternalIndexesAbstractsReferencesNoteNoInformationProvided.en" />
+</rdf:Description>
+
+<!-- Property: has Interfield linking data in Note relating to the copy in hand -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U316__6">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasInterfieldLinkingDataInNoteRelatingToTheCopyInHand</reg:name>
+  <rdfs:label xml:lang="en">has Interfield linking data in Note relating to the copy in hand</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasInterfieldLinkingDataInNoteRelatingToTheCopyInHand.en" />
+</rdf:Description>
+
+<!-- Property: has Interfield linking data in Provenance note -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U317__6">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasInterfieldLinkingDataInProvenanceNote</reg:name>
+  <rdfs:label xml:lang="en">has Interfield linking data in Provenance note</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasInterfieldLinkingDataInProvenanceNote.en" />
+</rdf:Description>
+
+<!-- Property: has International standard number in External indexes/abstracts/references note (Bibliography, catalogue citation) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U3211_x">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasInternationalStandardNumberInExternalIndexesAbstractsReferencesNoteBibliographyCatalogueCitation</reg:name>
+  <rdfs:label xml:lang="en">has International standard number in External indexes/abstracts/references note (Bibliography, catalogue citation)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasInternationalStandardNumberInExternalIndexesAbstractsReferencesNoteBibliographyCatalogueCitation.en" />
+</rdf:Description>
+
+<!-- Property: has International standard number in External indexes/abstracts/references note (Indexing, abstracting coverage) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U3210_x">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasInternationalStandardNumberInExternalIndexesAbstractsReferencesNoteIndexingAbstractingCoverage</reg:name>
+  <rdfs:label xml:lang="en">has International standard number in External indexes/abstracts/references note (Indexing, abstracting coverage)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasInternationalStandardNumberInExternalIndexesAbstractsReferencesNoteIndexingAbstractingCoverage.en" />
+</rdf:Description>
+
+<!-- Property: has International standard number in External indexes/abstracts/references note (No information provided) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U321__x">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasInternationalStandardNumberInExternalIndexesAbstractsReferencesNoteNoInformationProvided</reg:name>
+  <rdfs:label xml:lang="en">has International standard number in External indexes/abstracts/references note (No information provided)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasInternationalStandardNumberInExternalIndexesAbstractsReferencesNoteNoInformationProvided.en" />
+</rdf:Description>
+
+<!-- Property: has Jurisdiction in Action note -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U318__h">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasJurisdictionInActionNote</reg:name>
+  <rdfs:label xml:lang="en">has Jurisdiction in Action note</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasJurisdictionInActionNote.en" />
+</rdf:Description>
+
+<!-- Property: has Location within source in External indexes/abstracts/references note (Bibliography, catalogue citation) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U3211_c">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasLocationWithinSourceInExternalIndexesAbstractsReferencesNoteBibliographyCatalogueCitation</reg:name>
+  <rdfs:label xml:lang="en">has Location within source in External indexes/abstracts/references note (Bibliography, catalogue citation)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasLocationWithinSourceInExternalIndexesAbstractsReferencesNoteBibliographyCatalogueCitation.en" />
+</rdf:Description>
+
+<!-- Property: has Location within source in External indexes/abstracts/references note (Indexing, abstracting coverage) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U3210_c">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasLocationWithinSourceInExternalIndexesAbstractsReferencesNoteIndexingAbstractingCoverage</reg:name>
+  <rdfs:label xml:lang="en">has Location within source in External indexes/abstracts/references note (Indexing, abstracting coverage)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasLocationWithinSourceInExternalIndexesAbstractsReferencesNoteIndexingAbstractingCoverage.en" />
+</rdf:Description>
+
+<!-- Property: has Location within source in External indexes/abstracts/references note (No information provided) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U321__c">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasLocationWithinSourceInExternalIndexesAbstractsReferencesNoteNoInformationProvided</reg:name>
+  <rdfs:label xml:lang="en">has Location within source in External indexes/abstracts/references note (No information provided)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasLocationWithinSourceInExternalIndexesAbstractsReferencesNoteNoInformationProvided.en" />
+</rdf:Description>
+
+<!-- Property: has Medium in Acquisition information note -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U345__c">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasMediumInAcquisitionInformationNote</reg:name>
+  <rdfs:label xml:lang="en">has Medium in Acquisition information note</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasMediumInAcquisitionInformationNote.en" />
+</rdf:Description>
+
+<!-- Property: has Method of action in Action note -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U318__i">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasMethodOfActionInActionNote</reg:name>
+  <rdfs:label xml:lang="en">has Method of action in Action note</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasMethodOfActionInActionNote.en" />
+</rdf:Description>
+
+<!-- Property: has Name of award in Awards note -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U334__b">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasNameOfAwardInAwardsNote</reg:name>
+  <rdfs:label xml:lang="en">has Name of award in Awards note</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasNameOfAwardInAwardsNote.en" />
+</rdf:Description>
+
+<!-- Property: has Name of source in External indexes/abstracts/references note (Bibliography, catalogue citation) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U3211_a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasNameOfSourceInExternalIndexesAbstractsReferencesNoteBibliographyCatalogueCitation</reg:name>
+  <rdfs:label xml:lang="en">has Name of source in External indexes/abstracts/references note (Bibliography, catalogue citation)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasNameOfSourceInExternalIndexesAbstractsReferencesNoteBibliographyCatalogueCitation.en" />
+</rdf:Description>
+
+<!-- Property: has Name of source in External indexes/abstracts/references note (Indexing, abstracting coverage) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U3210_a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasNameOfSourceInExternalIndexesAbstractsReferencesNoteIndexingAbstractingCoverage</reg:name>
+  <rdfs:label xml:lang="en">has Name of source in External indexes/abstracts/references note (Indexing, abstracting coverage)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasNameOfSourceInExternalIndexesAbstractsReferencesNoteIndexingAbstractingCoverage.en" />
+</rdf:Description>
+
+<!-- Property: has Name of source in External indexes/abstracts/references note (No information provided) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U321__a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasNameOfSourceInExternalIndexesAbstractsReferencesNoteNoInformationProvided</reg:name>
+  <rdfs:label xml:lang="en">has Name of source in External indexes/abstracts/references note (No information provided)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasNameOfSourceInExternalIndexesAbstractsReferencesNoteNoInformationProvided.en" />
+</rdf:Description>
+
+<!-- Property: has Non-public note in Action note -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U318__p">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasNon-PublicNoteInActionNote</reg:name>
+  <rdfs:label xml:lang="en">has Non-public note in Action note</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasNon-PublicNoteInActionNote.en" />
+</rdf:Description>
+
+<!-- Property: has Other information concerning a subdivision in Contents note (Contents note is complete) (Structured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U32711z">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasOtherInformationConcerningASubdivisionInContentsNoteContentsNoteIsCompleteStructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Other information concerning a subdivision in Contents note (Contents note is complete) (Structured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasOtherInformationConcerningASubdivisionInContentsNoteContentsNoteIsCompleteStructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Other information concerning a subdivision in Contents note (Contents note is complete) (Unstructured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U3271_z">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasOtherInformationConcerningASubdivisionInContentsNoteContentsNoteIsCompleteUnstructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Other information concerning a subdivision in Contents note (Contents note is complete) (Unstructured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasOtherInformationConcerningASubdivisionInContentsNoteContentsNoteIsCompleteUnstructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Other information concerning a subdivision in Contents note (Contents note is not complete) (Structured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U32701z">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasOtherInformationConcerningASubdivisionInContentsNoteContentsNoteIsNotCompleteStructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Other information concerning a subdivision in Contents note (Contents note is not complete) (Structured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasOtherInformationConcerningASubdivisionInContentsNoteContentsNoteIsNotCompleteStructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Other information concerning a subdivision in Contents note (Contents note is not complete) (Unstructured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U3270_z">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasOtherInformationConcerningASubdivisionInContentsNoteContentsNoteIsNotCompleteUnstructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Other information concerning a subdivision in Contents note (Contents note is not complete) (Unstructured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasOtherInformationConcerningASubdivisionInContentsNoteContentsNoteIsNotCompleteUnstructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Other information concerning a subdivision in Contents note (Undetermined) (Structured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U327_1z">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasOtherInformationConcerningASubdivisionInContentsNoteUndeterminedStructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Other information concerning a subdivision in Contents note (Undetermined) (Structured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasOtherInformationConcerningASubdivisionInContentsNoteUndeterminedStructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Other information concerning a subdivision in Contents note (Undetermined) (Unstructured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U327__z">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasOtherInformationConcerningASubdivisionInContentsNoteUndeterminedUnstructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Other information concerning a subdivision in Contents note (Undetermined) (Unstructured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasOtherInformationConcerningASubdivisionInContentsNoteUndeterminedUnstructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Preferred citation in Preferred citation of described materials -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U332__a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasPreferredCitationInPreferredCitationOfDescribedMaterials</reg:name>
+  <rdfs:label xml:lang="en">has Preferred citation in Preferred citation of described materials</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasPreferredCitationInPreferredCitationOfDescribedMaterials.en" />
+</rdf:Description>
+
+<!-- Property: has Public note in Action note -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U318__r">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasPublicNoteInActionNote</reg:name>
+  <rdfs:label xml:lang="en">has Public note in Action note</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasPublicNoteInActionNote.en" />
+</rdf:Description>
+
+<!-- Property: has Sequence of pages or first pages of a subdivision in Contents note (Contents note is complete) (Structured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U32711p">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasSequenceOfPagesOrFirstPagesOfASubdivisionInContentsNoteContentsNoteIsCompleteStructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Sequence of pages or first pages of a subdivision in Contents note (Contents note is complete) (Structured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasSequenceOfPagesOrFirstPagesOfASubdivisionInContentsNoteContentsNoteIsCompleteStructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Sequence of pages or first pages of a subdivision in Contents note (Contents note is complete) (Unstructured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U3271_p">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasSequenceOfPagesOrFirstPagesOfASubdivisionInContentsNoteContentsNoteIsCompleteUnstructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Sequence of pages or first pages of a subdivision in Contents note (Contents note is complete) (Unstructured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasSequenceOfPagesOrFirstPagesOfASubdivisionInContentsNoteContentsNoteIsCompleteUnstructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Sequence of pages or first pages of a subdivision in Contents note (Contents note is not complete) (Structured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U32701p">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasSequenceOfPagesOrFirstPagesOfASubdivisionInContentsNoteContentsNoteIsNotCompleteStructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Sequence of pages or first pages of a subdivision in Contents note (Contents note is not complete) (Structured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasSequenceOfPagesOrFirstPagesOfASubdivisionInContentsNoteContentsNoteIsNotCompleteStructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Sequence of pages or first pages of a subdivision in Contents note (Contents note is not complete) (Unstructured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U3270_p">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasSequenceOfPagesOrFirstPagesOfASubdivisionInContentsNoteContentsNoteIsNotCompleteUnstructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Sequence of pages or first pages of a subdivision in Contents note (Contents note is not complete) (Unstructured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasSequenceOfPagesOrFirstPagesOfASubdivisionInContentsNoteContentsNoteIsNotCompleteUnstructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Sequence of pages or first pages of a subdivision in Contents note (Undetermined) (Structured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U327_1p">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasSequenceOfPagesOrFirstPagesOfASubdivisionInContentsNoteUndeterminedStructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Sequence of pages or first pages of a subdivision in Contents note (Undetermined) (Structured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasSequenceOfPagesOrFirstPagesOfASubdivisionInContentsNoteUndeterminedStructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Sequence of pages or first pages of a subdivision in Contents note (Undetermined) (Unstructured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U327__p">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasSequenceOfPagesOrFirstPagesOfASubdivisionInContentsNoteUndeterminedUnstructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Sequence of pages or first pages of a subdivision in Contents note (Undetermined) (Unstructured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasSequenceOfPagesOrFirstPagesOfASubdivisionInContentsNoteUndeterminedUnstructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Site of action in Action note -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U318__j">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasSiteOfActionInActionNote</reg:name>
+  <rdfs:label xml:lang="en">has Site of action in Action note</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasSiteOfActionInActionNote.en" />
+</rdf:Description>
+
+<!-- Property: has Source for acquisition/subscription address in Acquisition information note -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U345__a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasSourceForAcquisitionSubscriptionAddressInAcquisitionInformationNote</reg:name>
+  <rdfs:label xml:lang="en">has Source for acquisition/subscription address in Acquisition information note</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasSourceForAcquisitionSubscriptionAddressInAcquisitionInformationNote.en" />
+</rdf:Description>
+
+<!-- Property: has Status in Action note -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U318__l">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasStatusInActionNote</reg:name>
+  <rdfs:label xml:lang="en">has Status in Action note</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasStatusInActionNote.en" />
+</rdf:Description>
+
+<!-- Property: has Stock number in Acquisition information note -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U345__b">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasStockNumberInAcquisitionInformationNote</reg:name>
+  <rdfs:label xml:lang="en">has Stock number in Acquisition information note</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasStockNumberInAcquisitionInformationNote.en" />
+</rdf:Description>
+
+<!-- Property: has Terms of availability in Acquisition information note -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U345__d">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTermsOfAvailabilityInAcquisitionInformationNote</reg:name>
+  <rdfs:label xml:lang="en">has Terms of availability in Acquisition information note</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTermsOfAvailabilityInAcquisitionInformationNote.en" />
+</rdf:Description>
+
+<!-- Property: has Text of awards note in Awards note -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U334__a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTextOfAwardsNoteInAwardsNote</reg:name>
+  <rdfs:label xml:lang="en">has Text of awards note in Awards note</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTextOfAwardsNoteInAwardsNote.en" />
+</rdf:Description>
+
+<!-- Property: has Text of note in Cast note (projected and video material and sound recordings) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U323__a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTextOfNoteInCastNoteProjectedAndVideoMaterialAndSoundRecordings</reg:name>
+  <rdfs:label xml:lang="en">has Text of note in Cast note (projected and video material and sound recordings)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTextOfNoteInCastNoteProjectedAndVideoMaterialAndSoundRecordings.en" />
+</rdf:Description>
+
+<!-- Property: has Text of note in Contents note (Contents note is complete) (Structured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U32711a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTextOfNoteInContentsNoteContentsNoteIsCompleteStructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Text of note in Contents note (Contents note is complete) (Structured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTextOfNoteInContentsNoteContentsNoteIsCompleteStructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Text of note in Contents note (Contents note is complete) (Unstructured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U3271_a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTextOfNoteInContentsNoteContentsNoteIsCompleteUnstructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Text of note in Contents note (Contents note is complete) (Unstructured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTextOfNoteInContentsNoteContentsNoteIsCompleteUnstructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Text of note in Contents note (Contents note is not complete) (Structured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U32701a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTextOfNoteInContentsNoteContentsNoteIsNotCompleteStructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Text of note in Contents note (Contents note is not complete) (Structured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTextOfNoteInContentsNoteContentsNoteIsNotCompleteStructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Text of note in Contents note (Contents note is not complete) (Unstructured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U3270_a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTextOfNoteInContentsNoteContentsNoteIsNotCompleteUnstructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Text of note in Contents note (Contents note is not complete) (Unstructured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTextOfNoteInContentsNoteContentsNoteIsNotCompleteUnstructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Text of note in Contents note (Undetermined) (Structured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U327_1a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTextOfNoteInContentsNoteUndeterminedStructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Text of note in Contents note (Undetermined) (Structured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTextOfNoteInContentsNoteUndeterminedStructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Text of note in Contents note (Undetermined) (Unstructured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U327__a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTextOfNoteInContentsNoteUndeterminedUnstructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Text of note in Contents note (Undetermined) (Unstructured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTextOfNoteInContentsNoteUndeterminedUnstructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Text of note in Credits note (projected and video material and sound recordings) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U322__a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTextOfNoteInCreditsNoteProjectedAndVideoMaterialAndSoundRecordings</reg:name>
+  <rdfs:label xml:lang="en">has Text of note in Credits note (projected and video material and sound recordings)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTextOfNoteInCreditsNoteProjectedAndVideoMaterialAndSoundRecordings.en" />
+</rdf:Description>
+
+<!-- Property: has Text of note in Dissertation (thesis) note (No information available) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U328__a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTextOfNoteInDissertationThesisNoteNoInformationAvailable</reg:name>
+  <rdfs:label xml:lang="en">has Text of note in Dissertation (thesis) note (No information available)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTextOfNoteInDissertationThesisNoteNoInformationAvailable.en" />
+</rdf:Description>
+
+<!-- Property: has Text of note in Dissertation (thesis) note (Not structured) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U328_1a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTextOfNoteInDissertationThesisNoteNotStructured</reg:name>
+  <rdfs:label xml:lang="en">has Text of note in Dissertation (thesis) note (Not structured)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTextOfNoteInDissertationThesisNoteNotStructured.en" />
+</rdf:Description>
+
+<!-- Property: has Text of note in Dissertation (thesis) note (Structured) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U328_0a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTextOfNoteInDissertationThesisNoteStructured</reg:name>
+  <rdfs:label xml:lang="en">has Text of note in Dissertation (thesis) note (Structured)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTextOfNoteInDissertationThesisNoteStructured.en" />
+</rdf:Description>
+
+<!-- Property: has Text of note in General notes -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U300__a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdfs:label xml:lang="en">has Text of note in General notes</rdfs:label>
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTextOfNoteInGeneralNotes</reg:name>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTextOfNoteInGeneralNotes.en" />
+</rdf:Description>
+
+<!-- Property: has Text of note in General notes pertaining to descriptive information -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U303__a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTextOfNoteInGeneralNotesPertainingToDescriptiveInformation</reg:name>
+  <rdfs:label xml:lang="en">has Text of note in General notes pertaining to descriptive information</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTextOfNoteInGeneralNotesPertainingToDescriptiveInformation.en" />
+</rdf:Description>
+
+<!-- Property: has Text of note in Internal bibliographies/indexes note -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U320__a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTextOfNoteInInternalBibliographiesIndexesNote</reg:name>
+  <rdfs:label xml:lang="en">has Text of note in Internal bibliographies/indexes note</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTextOfNoteInInternalBibliographiesIndexesNote.en" />
+</rdf:Description>
+
+<!-- Property: has Text of note in Note relating to the copy in hand -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U316__a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTextOfNoteInNoteRelatingToTheCopyInHand</reg:name>
+  <rdfs:label xml:lang="en">has Text of note in Note relating to the copy in hand</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTextOfNoteInNoteRelatingToTheCopyInHand.en" />
+</rdf:Description>
+
+<!-- Property: has Text of note in Notes pertaining to binding and availability -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U310__a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTextOfNoteInNotesPertainingToBindingAndAvailability</reg:name>
+  <rdfs:label xml:lang="en">has Text of note in Notes pertaining to binding and availability</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTextOfNoteInNotesPertainingToBindingAndAvailability.en" />
+</rdf:Description>
+
+<!-- Property: has Text of note in Notes pertaining to coded information -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U302__a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTextOfNoteInNotesPertainingToCodedInformation</reg:name>
+  <rdfs:label xml:lang="en">has Text of note in Notes pertaining to coded information</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTextOfNoteInNotesPertainingToCodedInformation.en" />
+</rdf:Description>
+
+<!-- Property: has Text of note in Notes pertaining to edition and bibliographic history -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U305__a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTextOfNoteInNotesPertainingToEditionAndBibliographicHistory</reg:name>
+  <rdfs:label xml:lang="en">has Text of note in Notes pertaining to edition and bibliographic history</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTextOfNoteInNotesPertainingToEditionAndBibliographicHistory.en" />
+</rdf:Description>
+
+<!-- Property: has Text of note in Notes pertaining to identification numbers -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U301__a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTextOfNoteInNotesPertainingToIdentificationNumbers</reg:name>
+  <rdfs:label xml:lang="en">has Text of note in Notes pertaining to identification numbers</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTextOfNoteInNotesPertainingToIdentificationNumbers.en" />
+</rdf:Description>
+
+<!-- Property: has Text of note in Notes pertaining to linking fields -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U311__a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTextOfNoteInNotesPertainingToLinkingFields</reg:name>
+  <rdfs:label xml:lang="en">has Text of note in Notes pertaining to linking fields</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTextOfNoteInNotesPertainingToLinkingFields.en" />
+</rdf:Description>
+
+<!-- Property: has Text of note in Notes pertaining to material (or type of publication) specific information -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U315__a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTextOfNoteInNotesPertainingToMaterialOrTypeOfPublicationSpecificInformation</reg:name>
+  <rdfs:label xml:lang="en">has Text of note in Notes pertaining to material (or type of publication) specific information</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTextOfNoteInNotesPertainingToMaterialOrTypeOfPublicationSpecificInformation.en" />
+</rdf:Description>
+
+<!-- Property: has Text of note in Notes pertaining to physical description -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U307__a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTextOfNoteInNotesPertainingToPhysicalDescription</reg:name>
+  <rdfs:label xml:lang="en">has Text of note in Notes pertaining to physical description</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTextOfNoteInNotesPertainingToPhysicalDescription.en" />
+</rdf:Description>
+
+<!-- Property: has Text of note in Notes pertaining to publication, distribution, etc. -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U306__a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTextOfNoteInNotesPertainingToPublicationDistributionEtc</reg:name>
+  <rdfs:label xml:lang="en">has Text of note in Notes pertaining to publication, distribution, etc.</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTextOfNoteInNotesPertainingToPublicationDistributionEtc.en" />
+</rdf:Description>
+
+<!-- Property: has Text of note in Notes pertaining to related titles -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U312__a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTextOfNoteInNotesPertainingToRelatedTitles</reg:name>
+  <rdfs:label xml:lang="en">has Text of note in Notes pertaining to related titles</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTextOfNoteInNotesPertainingToRelatedTitles.en" />
+</rdf:Description>
+
+<!-- Property: has Text of note in Notes pertaining to responsibility -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U314__a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTextOfNoteInNotesPertainingToResponsibility</reg:name>
+  <rdfs:label xml:lang="en">has Text of note in Notes pertaining to responsibility</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTextOfNoteInNotesPertainingToResponsibility.en" />
+</rdf:Description>
+
+<!-- Property: has Text of note in Notes pertaining to series -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U308__a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTextOfNoteInNotesPertainingToSeries</reg:name>
+  <rdfs:label xml:lang="en">has Text of note in Notes pertaining to series</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTextOfNoteInNotesPertainingToSeries.en" />
+</rdf:Description>
+
+<!-- Property: has Text of note in Notes pertaining to subject access -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U313__a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTextOfNoteInNotesPertainingToSubjectAccess</reg:name>
+  <rdfs:label xml:lang="en">has Text of note in Notes pertaining to subject access</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTextOfNoteInNotesPertainingToSubjectAccess.en" />
+</rdf:Description>
+
+<!-- Property: has Text of note in Notes pertaining to title and statement of responsibility -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U304__a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTextOfNoteInNotesPertainingToTitleAndStatementOfResponsibility</reg:name>
+  <rdfs:label xml:lang="en">has Text of note in Notes pertaining to title and statement of responsibility</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTextOfNoteInNotesPertainingToTitleAndStatementOfResponsibility.en" />
+</rdf:Description>
+
+<!-- Property: has Text of note in Original version note -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U324__a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTextOfNoteInOriginalVersionNote</reg:name>
+  <rdfs:label xml:lang="en">has Text of note in Original version note</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTextOfNoteInOriginalVersionNote.en" />
+</rdf:Description>
+
+<!-- Property: has Text of note in Provenance note -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U317__a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTextOfNoteInProvenanceNote</reg:name>
+  <rdfs:label xml:lang="en">has Text of note in Provenance note</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTextOfNoteInProvenanceNote.en" />
+</rdf:Description>
+
+<!-- Property: has Text of note in Reproduction note (The item in hand is an original; the note describes an available reproduction) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U3251_a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTextOfNoteInReproductionNoteTheItemInHandIsAnOriginal;TheNoteDescribesAnAvailableReproduction</reg:name>
+  <rdfs:label xml:lang="en">has Text of note in Reproduction note (The item in hand is an original; the note describes an available reproduction)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTextOfNoteInReproductionNoteTheItemInHandIsAnOriginal;TheNoteDescribesAnAvailableReproduction.en" />
+</rdf:Description>
+
+<!-- Property: has Text of note in Reproduction note (The item in hand is a reproduction; the note describes that reproduction) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U325__a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTextOfNoteInReproductionNoteTheItemInHandIsAReproduction;TheNoteDescribesThatReproduction</reg:name>
+  <rdfs:label xml:lang="en">has Text of note in Reproduction note (The item in hand is a reproduction; the note describes that reproduction)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTextOfNoteInReproductionNoteTheItemInHandIsAReproduction;TheNoteDescribesThatReproduction.en" />
+</rdf:Description>
+
+<!-- Property: has Text of note in Summary or abstract -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U330__a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTextOfNoteInSummaryOrAbstract</reg:name>
+  <rdfs:label xml:lang="en">has Text of note in Summary or abstract</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTextOfNoteInSummaryOrAbstract.en" />
+</rdf:Description>
+
+<!-- Property: has Text of note in System requirements note (electronic resources) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U337__a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTextOfNoteInSystemRequirementsNoteElectronicResources</reg:name>
+  <rdfs:label xml:lang="en">has Text of note in System requirements note (electronic resources)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTextOfNoteInSystemRequirementsNoteElectronicResources.en" />
+</rdf:Description>
+
+<!-- Property: has Text of note in Type of electronic resource note -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U336__a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTextOfNoteInTypeOfElectronicResourceNote</reg:name>
+  <rdfs:label xml:lang="en">has Text of note in Type of electronic resource note</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTextOfNoteInTypeOfElectronicResourceNote.en" />
+</rdf:Description>
+
+<!-- Property: has Text of note in Users/intended audience note -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U333__a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTextOfNoteInUsersIntendedAudienceNote</reg:name>
+  <rdfs:label xml:lang="en">has Text of note in Users/intended audience note</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTextOfNoteInUsersIntendedAudienceNote.en" />
+</rdf:Description>
+
+<!-- Property: has Text preceding or following the note in Dissertation (thesis) note (No information available) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U328__z">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTextPrecedingOrFollowingTheNoteInDissertationThesisNoteNoInformationAvailable</reg:name>
+  <rdfs:label xml:lang="en">has Text preceding or following the note in Dissertation (thesis) note (No information available)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTextPrecedingOrFollowingTheNoteInDissertationThesisNoteNoInformationAvailable.en" />
+</rdf:Description>
+
+<!-- Property: has Text preceding or following the note in Dissertation (thesis) note (Not structured) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U328_1z">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTextPrecedingOrFollowingTheNoteInDissertationThesisNoteNotStructured</reg:name>
+  <rdfs:label xml:lang="en">has Text preceding or following the note in Dissertation (thesis) note (Not structured)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTextPrecedingOrFollowingTheNoteInDissertationThesisNoteNotStructured.en" />
+</rdf:Description>
+
+<!-- Property: has Text preceding or following the note in Dissertation (thesis) note (Structured) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U328_0z">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTextPrecedingOrFollowingTheNoteInDissertationThesisNoteStructured</reg:name>
+  <rdfs:label xml:lang="en">has Text preceding or following the note in Dissertation (thesis) note (Structured)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTextPrecedingOrFollowingTheNoteInDissertationThesisNoteStructured.en" />
+</rdf:Description>
+
+<!-- Property: has Time of action in Action note -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U318__c">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTimeOfActionInActionNote</reg:name>
+  <rdfs:label xml:lang="en">has Time of action in Action note</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTimeOfActionInActionNote.en" />
+</rdf:Description>
+
+<!-- Property: has Title of level 1 subdivision in Contents note (Contents note is complete) (Structured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U32711b">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTitleOfLevel1SubdivisionInContentsNoteContentsNoteIsCompleteStructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Title of level 1 subdivision in Contents note (Contents note is complete) (Structured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTitleOfLevel1SubdivisionInContentsNoteContentsNoteIsCompleteStructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Title of level 1 subdivision in Contents note (Contents note is complete) (Unstructured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U3271_b">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTitleOfLevel1SubdivisionInContentsNoteContentsNoteIsCompleteUnstructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Title of level 1 subdivision in Contents note (Contents note is complete) (Unstructured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTitleOfLevel1SubdivisionInContentsNoteContentsNoteIsCompleteUnstructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Title of level 1 subdivision in Contents note (Contents note is not complete) (Structured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U32701b">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTitleOfLevel1SubdivisionInContentsNoteContentsNoteIsNotCompleteStructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Title of level 1 subdivision in Contents note (Contents note is not complete) (Structured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTitleOfLevel1SubdivisionInContentsNoteContentsNoteIsNotCompleteStructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Title of level 1 subdivision in Contents note (Contents note is not complete) (Unstructured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U3270_b">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTitleOfLevel1SubdivisionInContentsNoteContentsNoteIsNotCompleteUnstructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Title of level 1 subdivision in Contents note (Contents note is not complete) (Unstructured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTitleOfLevel1SubdivisionInContentsNoteContentsNoteIsNotCompleteUnstructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Title of level 1 subdivision in Contents note (Undetermined) (Structured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U327_1b">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTitleOfLevel1SubdivisionInContentsNoteUndeterminedStructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Title of level 1 subdivision in Contents note (Undetermined) (Structured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTitleOfLevel1SubdivisionInContentsNoteUndeterminedStructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Title of level 1 subdivision in Contents note (Undetermined) (Unstructured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U327__b">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTitleOfLevel1SubdivisionInContentsNoteUndeterminedUnstructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Title of level 1 subdivision in Contents note (Undetermined) (Unstructured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTitleOfLevel1SubdivisionInContentsNoteUndeterminedUnstructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Title of level 2 subdivision in Contents note (Contents note is complete) (Structured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U32711c">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTitleOfLevel2SubdivisionInContentsNoteContentsNoteIsCompleteStructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Title of level 2 subdivision in Contents note (Contents note is complete) (Structured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTitleOfLevel2SubdivisionInContentsNoteContentsNoteIsCompleteStructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Title of level 2 subdivision in Contents note (Contents note is complete) (Unstructured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U3271_c">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTitleOfLevel2SubdivisionInContentsNoteContentsNoteIsCompleteUnstructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Title of level 2 subdivision in Contents note (Contents note is complete) (Unstructured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTitleOfLevel2SubdivisionInContentsNoteContentsNoteIsCompleteUnstructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Title of level 2 subdivision in Contents note (Contents note is not complete) (Structured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U32701c">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTitleOfLevel2SubdivisionInContentsNoteContentsNoteIsNotCompleteStructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Title of level 2 subdivision in Contents note (Contents note is not complete) (Structured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTitleOfLevel2SubdivisionInContentsNoteContentsNoteIsNotCompleteStructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Title of level 2 subdivision in Contents note (Contents note is not complete) (Unstructured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U3270_c">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTitleOfLevel2SubdivisionInContentsNoteContentsNoteIsNotCompleteUnstructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Title of level 2 subdivision in Contents note (Contents note is not complete) (Unstructured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTitleOfLevel2SubdivisionInContentsNoteContentsNoteIsNotCompleteUnstructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Title of level 2 subdivision in Contents note (Undetermined) (Structured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U327_1c">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTitleOfLevel2SubdivisionInContentsNoteUndeterminedStructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Title of level 2 subdivision in Contents note (Undetermined) (Structured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTitleOfLevel2SubdivisionInContentsNoteUndeterminedStructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Title of level 2 subdivision in Contents note (Undetermined) (Unstructured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U327__c">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTitleOfLevel2SubdivisionInContentsNoteUndeterminedUnstructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Title of level 2 subdivision in Contents note (Undetermined) (Unstructured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTitleOfLevel2SubdivisionInContentsNoteUndeterminedUnstructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Title of level 3 subdivision in Contents note (Contents note is complete) (Structured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U32711d">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTitleOfLevel3SubdivisionInContentsNoteContentsNoteIsCompleteStructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Title of level 3 subdivision in Contents note (Contents note is complete) (Structured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTitleOfLevel3SubdivisionInContentsNoteContentsNoteIsCompleteStructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Title of level 3 subdivision in Contents note (Contents note is complete) (Unstructured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U3271_d">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTitleOfLevel3SubdivisionInContentsNoteContentsNoteIsCompleteUnstructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Title of level 3 subdivision in Contents note (Contents note is complete) (Unstructured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTitleOfLevel3SubdivisionInContentsNoteContentsNoteIsCompleteUnstructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Title of level 3 subdivision in Contents note (Contents note is not complete) (Structured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U32701d">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTitleOfLevel3SubdivisionInContentsNoteContentsNoteIsNotCompleteStructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Title of level 3 subdivision in Contents note (Contents note is not complete) (Structured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTitleOfLevel3SubdivisionInContentsNoteContentsNoteIsNotCompleteStructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Title of level 3 subdivision in Contents note (Contents note is not complete) (Unstructured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U3270_d">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTitleOfLevel3SubdivisionInContentsNoteContentsNoteIsNotCompleteUnstructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Title of level 3 subdivision in Contents note (Contents note is not complete) (Unstructured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTitleOfLevel3SubdivisionInContentsNoteContentsNoteIsNotCompleteUnstructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Title of level 3 subdivision in Contents note (Undetermined) (Structured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U327_1d">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTitleOfLevel3SubdivisionInContentsNoteUndeterminedStructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Title of level 3 subdivision in Contents note (Undetermined) (Structured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTitleOfLevel3SubdivisionInContentsNoteUndeterminedStructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Title of level 3 subdivision in Contents note (Undetermined) (Unstructured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U327__d">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTitleOfLevel3SubdivisionInContentsNoteUndeterminedUnstructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Title of level 3 subdivision in Contents note (Undetermined) (Unstructured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTitleOfLevel3SubdivisionInContentsNoteUndeterminedUnstructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Title of level 4 subdivision in Contents note (Contents note is complete) (Structured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U32711e">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTitleOfLevel4SubdivisionInContentsNoteContentsNoteIsCompleteStructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Title of level 4 subdivision in Contents note (Contents note is complete) (Structured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTitleOfLevel4SubdivisionInContentsNoteContentsNoteIsCompleteStructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Title of level 4 subdivision in Contents note (Contents note is complete) (Unstructured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U3271_e">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTitleOfLevel4SubdivisionInContentsNoteContentsNoteIsCompleteUnstructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Title of level 4 subdivision in Contents note (Contents note is complete) (Unstructured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTitleOfLevel4SubdivisionInContentsNoteContentsNoteIsCompleteUnstructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Title of level 4 subdivision in Contents note (Contents note is not complete) (Structured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U32701e">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTitleOfLevel4SubdivisionInContentsNoteContentsNoteIsNotCompleteStructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Title of level 4 subdivision in Contents note (Contents note is not complete) (Structured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTitleOfLevel4SubdivisionInContentsNoteContentsNoteIsNotCompleteStructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Title of level 4 subdivision in Contents note (Contents note is not complete) (Unstructured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U3270_e">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTitleOfLevel4SubdivisionInContentsNoteContentsNoteIsNotCompleteUnstructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Title of level 4 subdivision in Contents note (Contents note is not complete) (Unstructured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTitleOfLevel4SubdivisionInContentsNoteContentsNoteIsNotCompleteUnstructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Title of level 4 subdivision in Contents note (Undetermined) (Structured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U327_1e">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTitleOfLevel4SubdivisionInContentsNoteUndeterminedStructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Title of level 4 subdivision in Contents note (Undetermined) (Structured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTitleOfLevel4SubdivisionInContentsNoteUndeterminedStructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Title of level 4 subdivision in Contents note (Undetermined) (Unstructured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U327__e">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTitleOfLevel4SubdivisionInContentsNoteUndeterminedUnstructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Title of level 4 subdivision in Contents note (Undetermined) (Unstructured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTitleOfLevel4SubdivisionInContentsNoteUndeterminedUnstructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Title of level 5 subdivision in Contents note (Contents note is complete) (Structured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U32711f">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTitleOfLevel5SubdivisionInContentsNoteContentsNoteIsCompleteStructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Title of level 5 subdivision in Contents note (Contents note is complete) (Structured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTitleOfLevel5SubdivisionInContentsNoteContentsNoteIsCompleteStructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Title of level 5 subdivision in Contents note (Contents note is complete) (Unstructured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U3271_f">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTitleOfLevel5SubdivisionInContentsNoteContentsNoteIsCompleteUnstructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Title of level 5 subdivision in Contents note (Contents note is complete) (Unstructured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTitleOfLevel5SubdivisionInContentsNoteContentsNoteIsCompleteUnstructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Title of level 5 subdivision in Contents note (Contents note is not complete) (Structured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U32701f">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTitleOfLevel5SubdivisionInContentsNoteContentsNoteIsNotCompleteStructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Title of level 5 subdivision in Contents note (Contents note is not complete) (Structured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTitleOfLevel5SubdivisionInContentsNoteContentsNoteIsNotCompleteStructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Title of level 5 subdivision in Contents note (Contents note is not complete) (Unstructured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U3270_f">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTitleOfLevel5SubdivisionInContentsNoteContentsNoteIsNotCompleteUnstructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Title of level 5 subdivision in Contents note (Contents note is not complete) (Unstructured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTitleOfLevel5SubdivisionInContentsNoteContentsNoteIsNotCompleteUnstructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Title of level 5 subdivision in Contents note (Undetermined) (Structured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U327_1f">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTitleOfLevel5SubdivisionInContentsNoteUndeterminedStructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Title of level 5 subdivision in Contents note (Undetermined) (Structured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTitleOfLevel5SubdivisionInContentsNoteUndeterminedStructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Title of level 5 subdivision in Contents note (Undetermined) (Unstructured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U327__f">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTitleOfLevel5SubdivisionInContentsNoteUndeterminedUnstructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Title of level 5 subdivision in Contents note (Undetermined) (Unstructured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTitleOfLevel5SubdivisionInContentsNoteUndeterminedUnstructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Title of level 6 subdivision in Contents note (Contents note is complete) (Structured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U32711g">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTitleOfLevel6SubdivisionInContentsNoteContentsNoteIsCompleteStructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Title of level 6 subdivision in Contents note (Contents note is complete) (Structured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTitleOfLevel6SubdivisionInContentsNoteContentsNoteIsCompleteStructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Title of level 6 subdivision in Contents note (Contents note is complete) (Unstructured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U3271_g">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTitleOfLevel6SubdivisionInContentsNoteContentsNoteIsCompleteUnstructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Title of level 6 subdivision in Contents note (Contents note is complete) (Unstructured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTitleOfLevel6SubdivisionInContentsNoteContentsNoteIsCompleteUnstructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Title of level 6 subdivision in Contents note (Contents note is not complete) (Structured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U32701g">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTitleOfLevel6SubdivisionInContentsNoteContentsNoteIsNotCompleteStructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Title of level 6 subdivision in Contents note (Contents note is not complete) (Structured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTitleOfLevel6SubdivisionInContentsNoteContentsNoteIsNotCompleteStructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Title of level 6 subdivision in Contents note (Contents note is not complete) (Unstructured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U3270_g">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTitleOfLevel6SubdivisionInContentsNoteContentsNoteIsNotCompleteUnstructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Title of level 6 subdivision in Contents note (Contents note is not complete) (Unstructured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTitleOfLevel6SubdivisionInContentsNoteContentsNoteIsNotCompleteUnstructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Title of level 6 subdivision in Contents note (Undetermined) (Structured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U327_1g">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTitleOfLevel6SubdivisionInContentsNoteUndeterminedStructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Title of level 6 subdivision in Contents note (Undetermined) (Structured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTitleOfLevel6SubdivisionInContentsNoteUndeterminedStructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Title of level 6 subdivision in Contents note (Undetermined) (Unstructured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U327__g">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTitleOfLevel6SubdivisionInContentsNoteUndeterminedUnstructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Title of level 6 subdivision in Contents note (Undetermined) (Unstructured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTitleOfLevel6SubdivisionInContentsNoteUndeterminedUnstructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Title of level 7 subdivision in Contents note (Contents note is complete) (Structured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U32711h">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTitleOfLevel7SubdivisionInContentsNoteContentsNoteIsCompleteStructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Title of level 7 subdivision in Contents note (Contents note is complete) (Structured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTitleOfLevel7SubdivisionInContentsNoteContentsNoteIsCompleteStructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Title of level 7 subdivision in Contents note (Contents note is complete) (Unstructured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U3271_h">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTitleOfLevel7SubdivisionInContentsNoteContentsNoteIsCompleteUnstructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Title of level 7 subdivision in Contents note (Contents note is complete) (Unstructured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTitleOfLevel7SubdivisionInContentsNoteContentsNoteIsCompleteUnstructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Title of level 7 subdivision in Contents note (Contents note is not complete) (Structured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U32701h">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTitleOfLevel7SubdivisionInContentsNoteContentsNoteIsNotCompleteStructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Title of level 7 subdivision in Contents note (Contents note is not complete) (Structured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTitleOfLevel7SubdivisionInContentsNoteContentsNoteIsNotCompleteStructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Title of level 7 subdivision in Contents note (Contents note is not complete) (Unstructured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U3270_h">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTitleOfLevel7SubdivisionInContentsNoteContentsNoteIsNotCompleteUnstructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Title of level 7 subdivision in Contents note (Contents note is not complete) (Unstructured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTitleOfLevel7SubdivisionInContentsNoteContentsNoteIsNotCompleteUnstructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Title of level 7 subdivision in Contents note (Undetermined) (Structured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U327_1h">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTitleOfLevel7SubdivisionInContentsNoteUndeterminedStructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Title of level 7 subdivision in Contents note (Undetermined) (Structured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTitleOfLevel7SubdivisionInContentsNoteUndeterminedStructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Title of level 7 subdivision in Contents note (Undetermined) (Unstructured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U327__h">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTitleOfLevel7SubdivisionInContentsNoteUndeterminedUnstructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Title of level 7 subdivision in Contents note (Undetermined) (Unstructured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTitleOfLevel7SubdivisionInContentsNoteUndeterminedUnstructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Title of level 8 subdivision in Contents note (Contents note is complete) (Structured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U32711i">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTitleOfLevel8SubdivisionInContentsNoteContentsNoteIsCompleteStructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Title of level 8 subdivision in Contents note (Contents note is complete) (Structured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTitleOfLevel8SubdivisionInContentsNoteContentsNoteIsCompleteStructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Title of level 8 subdivision in Contents note (Contents note is complete) (Unstructured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U3271_i">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTitleOfLevel8SubdivisionInContentsNoteContentsNoteIsCompleteUnstructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Title of level 8 subdivision in Contents note (Contents note is complete) (Unstructured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTitleOfLevel8SubdivisionInContentsNoteContentsNoteIsCompleteUnstructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Title of level 8 subdivision in Contents note (Contents note is not complete) (Structured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U32701i">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTitleOfLevel8SubdivisionInContentsNoteContentsNoteIsNotCompleteStructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Title of level 8 subdivision in Contents note (Contents note is not complete) (Structured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTitleOfLevel8SubdivisionInContentsNoteContentsNoteIsNotCompleteStructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Title of level 8 subdivision in Contents note (Contents note is not complete) (Unstructured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U3270_i">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTitleOfLevel8SubdivisionInContentsNoteContentsNoteIsNotCompleteUnstructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Title of level 8 subdivision in Contents note (Contents note is not complete) (Unstructured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTitleOfLevel8SubdivisionInContentsNoteContentsNoteIsNotCompleteUnstructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Title of level 8 subdivision in Contents note (Undetermined) (Structured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U327_1i">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTitleOfLevel8SubdivisionInContentsNoteUndeterminedStructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Title of level 8 subdivision in Contents note (Undetermined) (Structured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTitleOfLevel8SubdivisionInContentsNoteUndeterminedStructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Title of level 8 subdivision in Contents note (Undetermined) (Unstructured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U327__i">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTitleOfLevel8SubdivisionInContentsNoteUndeterminedUnstructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Title of level 8 subdivision in Contents note (Undetermined) (Unstructured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTitleOfLevel8SubdivisionInContentsNoteUndeterminedUnstructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Title of other edition of dissertation or thesis in Dissertation (thesis) note (No information available) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U328__t">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTitleOfOtherEditionOfDissertationOrThesisInDissertationThesisNoteNoInformationAvailable</reg:name>
+  <rdfs:label xml:lang="en">has Title of other edition of dissertation or thesis in Dissertation (thesis) note (No information available)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTitleOfOtherEditionOfDissertationOrThesisInDissertationThesisNoteNoInformationAvailable.en" />
+</rdf:Description>
+
+<!-- Property: has Title of other edition of dissertation or thesis in Dissertation (thesis) note (Not structured) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U328_1t">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTitleOfOtherEditionOfDissertationOrThesisInDissertationThesisNoteNotStructured</reg:name>
+  <rdfs:label xml:lang="en">has Title of other edition of dissertation or thesis in Dissertation (thesis) note (Not structured)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTitleOfOtherEditionOfDissertationOrThesisInDissertationThesisNoteNotStructured.en" />
+</rdf:Description>
+
+<!-- Property: has Title of other edition of dissertation or thesis in Dissertation (thesis) note (Structured) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U328_0t">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTitleOfOtherEditionOfDissertationOrThesisInDissertationThesisNoteStructured</reg:name>
+  <rdfs:label xml:lang="en">has Title of other edition of dissertation or thesis in Dissertation (thesis) note (Structured)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTitleOfOtherEditionOfDissertationOrThesisInDissertationThesisNoteStructured.en" />
+</rdf:Description>
+
+<!-- Property: has Type of unit in Action note -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U318__o">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTypeOfUnitInActionNote</reg:name>
+  <rdfs:label xml:lang="en">has Type of unit in Action note</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasTypeOfUnitInActionNote.en" />
+</rdf:Description>
+
+<!-- Property: has Uniform Resource Identifier (URI) in Action note -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U318__u">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasUniformResourceIdentifierUriInActionNote</reg:name>
+  <rdfs:label xml:lang="en">has Uniform Resource Identifier (URI) in Action note</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasUniformResourceIdentifierUriInActionNote.en" />
+</rdf:Description>
+
+<!-- Property: has Uniform Resource Identifier (URI). in Contents note (Contents note is complete) (Structured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U32711u">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasUniformResourceIdentifierUriInContentsNoteContentsNoteIsCompleteStructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Uniform Resource Identifier (URI). in Contents note (Contents note is complete) (Structured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasUniformResourceIdentifierUriInContentsNoteContentsNoteIsCompleteStructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Uniform Resource Identifier (URI). in Contents note (Contents note is complete) (Unstructured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U3271_u">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasUniformResourceIdentifierUriInContentsNoteContentsNoteIsCompleteUnstructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Uniform Resource Identifier (URI). in Contents note (Contents note is complete) (Unstructured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasUniformResourceIdentifierUriInContentsNoteContentsNoteIsCompleteUnstructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Uniform Resource Identifier (URI). in Contents note (Contents note is not complete) (Structured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U32701u">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasUniformResourceIdentifierUriInContentsNoteContentsNoteIsNotCompleteStructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Uniform Resource Identifier (URI). in Contents note (Contents note is not complete) (Structured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasUniformResourceIdentifierUriInContentsNoteContentsNoteIsNotCompleteStructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Uniform Resource Identifier (URI). in Contents note (Contents note is not complete) (Unstructured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U3270_u">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasUniformResourceIdentifierUriInContentsNoteContentsNoteIsNotCompleteUnstructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Uniform Resource Identifier (URI). in Contents note (Contents note is not complete) (Unstructured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasUniformResourceIdentifierUriInContentsNoteContentsNoteIsNotCompleteUnstructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Uniform Resource Identifier (URI). in Contents note (Undetermined) (Structured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U327_1u">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasUniformResourceIdentifierUriInContentsNoteUndeterminedStructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Uniform Resource Identifier (URI). in Contents note (Undetermined) (Structured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasUniformResourceIdentifierUriInContentsNoteUndeterminedStructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Uniform Resource Identifier (URI). in Contents note (Undetermined) (Unstructured note) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U327__u">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasUniformResourceIdentifierUriInContentsNoteUndeterminedUnstructuredNote</reg:name>
+  <rdfs:label xml:lang="en">has Uniform Resource Identifier (URI). in Contents note (Undetermined) (Unstructured note)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasUniformResourceIdentifierUriInContentsNoteUndeterminedUnstructuredNote.en" />
+</rdf:Description>
+
+<!-- Property: has Uniform Resource Identifier (URI) in External indexes/abstracts/references note (Bibliography, catalogue citation) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U3211_u">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasUniformResourceIdentifierUriInExternalIndexesAbstractsReferencesNoteBibliographyCatalogueCitation</reg:name>
+  <rdfs:label xml:lang="en">has Uniform Resource Identifier (URI) in External indexes/abstracts/references note (Bibliography, catalogue citation)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasUniformResourceIdentifierUriInExternalIndexesAbstractsReferencesNoteBibliographyCatalogueCitation.en" />
+</rdf:Description>
+
+<!-- Property: has Uniform Resource Identifier (URI) in External indexes/abstracts/references note (Indexing, abstracting coverage) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U3210_u">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasUniformResourceIdentifierUriInExternalIndexesAbstractsReferencesNoteIndexingAbstractingCoverage</reg:name>
+  <rdfs:label xml:lang="en">has Uniform Resource Identifier (URI) in External indexes/abstracts/references note (Indexing, abstracting coverage)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasUniformResourceIdentifierUriInExternalIndexesAbstractsReferencesNoteIndexingAbstractingCoverage.en" />
+</rdf:Description>
+
+<!-- Property: has Uniform Resource Identifier (URI) in External indexes/abstracts/references note (No information provided) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U321__u">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasUniformResourceIdentifierUriInExternalIndexesAbstractsReferencesNoteNoInformationProvided</reg:name>
+  <rdfs:label xml:lang="en">has Uniform Resource Identifier (URI) in External indexes/abstracts/references note (No information provided)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasUniformResourceIdentifierUriInExternalIndexesAbstractsReferencesNoteNoInformationProvided.en" />
+</rdf:Description>
+
+<!-- Property: has Uniform Resource Identifier (URI) in Note relating to the copy in hand -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U316__u">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasUniformResourceIdentifierUriInNoteRelatingToTheCopyInHand</reg:name>
+  <rdfs:label xml:lang="en">has Uniform Resource Identifier (URI) in Note relating to the copy in hand</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasUniformResourceIdentifierUriInNoteRelatingToTheCopyInHand.en" />
+</rdf:Description>
+
+<!-- Property: has Uniform Resource Identifier (URI) in Provenance note -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U317__u">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasUniformResourceIdentifierUriInProvenanceNote</reg:name>
+  <rdfs:label xml:lang="en">has Uniform Resource Identifier (URI) in Provenance note</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasUniformResourceIdentifierUriInProvenanceNote.en" />
+</rdf:Description>
+
+<!-- Property: has Uniform Resource Identifier (URI) in System requirements note (electronic resources) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U337__u">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasUniformResourceIdentifierUriInSystemRequirementsNoteElectronicResources</reg:name>
+  <rdfs:label xml:lang="en">has Uniform Resource Identifier (URI) in System requirements note (electronic resources)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasUniformResourceIdentifierUriInSystemRequirementsNoteElectronicResources.en" />
+</rdf:Description>
+
+<!-- Property: has Year of award in Awards note -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/U334__c">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasYearOfAwardInAwardsNote</reg:name>
+  <rdfs:label xml:lang="en">has Year of award in Awards note</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/3XX/hasYearOfAwardInAwardsNote.en" />
+</rdf:Description>
+
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+</rdf:RDF>

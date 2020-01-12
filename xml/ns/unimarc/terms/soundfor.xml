@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+<!-- Scheme: UNIMARC: Sound recordings: Form of release -->
+    <skos:ConceptScheme rdf:about="http://iflastandards.info/ns/unimarc/terms/soundfor#">
+        <dc:title>UNIMARC: Sound recordings: Form of release</dc:title>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundfor#f"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundfor#a"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundfor#h"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundfor#z"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundfor#g"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundfor#d"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundfor#c"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundfor#b"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundfor#e"/>
+    </skos:ConceptScheme>
+
+<!-- Concept: cylinder  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/soundfor#f" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundfor#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6434"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundfor#"/>
+      <skos:prefLabel xml:lang="en">cylinder</skos:prefLabel>
+      <skos:notation xml:lang="en">f</skos:notation>
+      <skos:prefLabel xml:lang="pt">cilindro</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">cilindro</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: disc  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/soundfor#a" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundfor#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6429"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundfor#"/>
+      <skos:prefLabel xml:lang="en">disc</skos:prefLabel>
+      <skos:notation xml:lang="en">a</skos:notation>
+      <skos:prefLabel xml:lang="pt">disco</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">disco sonoro</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: film (sound film)  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/soundfor#h" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundfor#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6436"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundfor#"/>
+      <skos:prefLabel xml:lang="en">film (sound film)</skos:prefLabel>
+      <skos:notation xml:lang="en">h</skos:notation>
+      <skos:prefLabel xml:lang="pt">filme (som de filme)</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">film (film sonoro)</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: other  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/soundfor#z" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundfor#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6437"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundfor#"/>
+      <skos:prefLabel xml:lang="en">other</skos:prefLabel>
+      <skos:notation xml:lang="en">z</skos:notation>
+      <skos:definition xml:lang="en">Form of release of sound recording other than disc, open reel tape, cassette tape, cartridge tape, wire recording, cylinder, player-piano or player organ roll, or film.</skos:definition>
+      <skos:prefLabel xml:lang="pt">outro</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">altro</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: roll (player piano or player organ)  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/soundfor#g" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundfor#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6435"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundfor#"/>
+      <skos:prefLabel xml:lang="en">roll (player piano or player organ)</skos:prefLabel>
+      <skos:notation xml:lang="en">g</skos:notation>
+      <skos:prefLabel xml:lang="pt">rolo (piano ou orgão)</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">rullo</skos:prefLabel>
+      <skos:altLabel xml:lang="en">player piano or player organ roll</skos:altLabel>
+    </skos:Concept>
+<!-- Concept: tape (cartridge)  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/soundfor#d" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundfor#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6432"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundfor#"/>
+      <skos:prefLabel xml:lang="en">tape (cartridge)</skos:prefLabel>
+      <skos:notation xml:lang="en">d</skos:notation>
+      <skos:prefLabel xml:lang="pt">fita (cartucho)</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">audiocartuccia</skos:prefLabel>
+      <skos:altLabel xml:lang="en">cartridge tape</skos:altLabel>
+    </skos:Concept>
+<!-- Concept: tape (cassette)  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/soundfor#c" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundfor#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6431"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundfor#"/>
+      <skos:prefLabel xml:lang="en">tape (cassette)</skos:prefLabel>
+      <skos:notation xml:lang="en">c</skos:notation>
+      <skos:prefLabel xml:lang="pt">fita (cassete)</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">audiocassetta</skos:prefLabel>
+      <skos:altLabel xml:lang="en">cassette tape</skos:altLabel>
+    </skos:Concept>
+<!-- Concept: tape (open reel)  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/soundfor#b" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundfor#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6430"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundfor#"/>
+      <skos:prefLabel xml:lang="en">tape (open reel)</skos:prefLabel>
+      <skos:notation xml:lang="en">b</skos:notation>
+      <skos:prefLabel xml:lang="pt">fita (bobine aberta)</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">audiobobina</skos:prefLabel>
+      <skos:altLabel xml:lang="en">open reel tape</skos:altLabel>
+    </skos:Concept>
+<!-- Concept: wire recording  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/soundfor#e" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundfor#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6433"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundfor#"/>
+      <skos:prefLabel xml:lang="en">wire recording</skos:prefLabel>
+      <skos:notation xml:lang="en">e</skos:notation>
+      <skos:prefLabel xml:lang="pt">gravação em fio de aço</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">registrazione su filo</skos:prefLabel>
+    </skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

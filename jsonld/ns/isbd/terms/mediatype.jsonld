@@ -1,0 +1,402 @@
+{
+    "@context": "http://iflastandards.info/ns/isbd/terms/Contexts/concepts_langmap.jsonld",
+    "@graph": [
+        {
+            "@id": "http://iflastandards.info/ns/isbd/terms/mediatype",
+            "@type": "ConceptScheme",
+            "title": {
+                "en": "ISBD Media Type"
+            },
+            "description": {
+                "en": "Media type categories record the type or types of carrier used to convey the content of the resource. Categories generally reflect the format of the storage medium and housing of a carrier in combination with the type of intermediation device required to render, view, run, etc., the content of a resource."
+            },
+            "prefix": "",
+            "token": "mediatype",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "label": "Published"
+            },
+            "omr_api": "http://api.metadataregistry.org/vocabularies/114",
+            "omr_home": "http://metadataregistry.org/vocabularies/114",
+            "count": 10,
+            "languages": [
+                {
+                    "code": "en",
+                    "lang": "English",
+                    "version": "Release 1"
+                },
+                {
+                    "code": "es",
+                    "lang": "Spanish",
+                    "version": "Release 1"
+                },
+                {
+                    "code": "fr",
+                    "lang": "French",
+                    "version": "Release 1"
+                },
+                {
+                    "code": "hr",
+                    "lang": "Croatian",
+                    "version": "Release 1"
+                },
+                {
+                    "code": "it",
+                    "lang": "Italian",
+                    "version": "Release 1"
+                },
+                {
+                    "code": "lv",
+                    "lang": "Latvian",
+                    "version": "Release 1"
+                },
+                {
+                    "code": "ru",
+                    "lang": "Russian",
+                    "version": "Release 1"
+                },
+                {
+                    "code": "sr",
+                    "lang": "Serbian",
+                    "version": "Release 1"
+                },
+                {
+                    "code": "zh",
+                    "lang": "Chinese",
+                    "version": "Release 1"
+                }
+            ],
+            "dateOfPublication": "January 11, 2020"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/isbd/terms/mediatype/T1001",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/1211",
+            "definition": {
+                "en": "Media used to store recorded sound, designed for use with a playback device such as a turntable, audiocassette player, CD player, MP3 player, or iPod.",
+                "es": "Medios utilizados para almacenar sonido grabado, diseñado para su uso con un dispositivo de reproducción como un tocadiscos, reproductor de audiocasete, reproductor de CD, reproductor de MP3 o iPod.",
+                "it": "Supporti per la memorizzazione di suoni registrati, che si usano con dispositivi per la riproduzione (playback device), come un giradischi, un lettore per audiocassette, un lettore CD, un lettore MP3, o un iPod.",
+                "bg": "Средства, използвани за съхраняване на звукозапис, предназначени за ползване с възпроизвеждащи устройства като грамофон, касетофон, CD плеър, MP3 плеър или iPod.",
+                "sr": "Medij koji se koristi za pohranjivanje snimljenog zvuka, namenjenog za korišćenje pomoću uređaja za reprodukciju, kao što je gramofon, kasetofon, CD plejer, MP3 plejer ili iPod. ",
+                "zh": "用于储存录音的载体，设计要用转盘、卡式磁带播放器、激光唱片播放器、MP3播放器或iPod等回放设备。",
+                "lv": "Mediji/datneši, izmantojami ierakstītās mūzikas glabāšanai, paredzēti lietot ar atskaņošanas ierīci, kā piem., atskaņotāju, kasešu magnetofonu, CD atskaņotāju, MP3 atskaņotāju vai iPod.",
+                "fr": "Support utilisé pour stocker du son enregistré et conçu pour être utilisé au moyen d’un dispositif de lecture tel que platine, lecteur de cassette audio, de CD, MP3 ou iPod."
+            },
+            "inScheme": "http://iflastandards.info/ns/isbd/terms/mediatype",
+            "prefLabel": {
+                "en": "audio",
+                "es": "audio",
+                "hr": "audio",
+                "it": "audio",
+                "bg": "аудио",
+                "ru": "аудио",
+                "sr": "audio",
+                "zh": "音频",
+                "lv": "audio",
+                "fr": "audio"
+            },
+            "scopeNote": {
+                "en": "Includes media used to store digitally encoded as well as analogue sound.",
+                "es": "Incluye los medios utilizados para almacenar tanto sonido codificado digitalmente como sonido analógico. ",
+                "it": "Include i supporti per la memorizzazione di suoni codificati sia in forma digitale sia in forma analogica.",
+                "bg": "Включва средства за съхраняване както на цифрово кодиран, така и на аналогов звук.",
+                "sr": "Podrazumeva i medije koji se koriste za pohranjivanje digitalno i analogno kodiranog zvuka.",
+                "zh": "既包括储存数字编码声音的载体，也包括储存模拟声音的载体。",
+                "lv": "Ietver medijus/datnešus, kas izmantojami digitāli kodētas, kā arī analogas skaņas glabāšanai.",
+                "fr": "Ce terme recouvre des supports utilisés pour stocker du son encodé de manière numérique aussi bien qu’analogique."
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/isbd/terms/mediatype/T1002",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/1212",
+            "definition": {
+                "en": "Media used to store electronic files, designed for use with a computer.",
+                "es": "Medio utilizado para almacenar los archivos electrónicos, diseñado para su uso con un ordenador.",
+                "it": "Supporti per la memorizzazione di file elettronici, da usare con un computer.",
+                "bg": "Средства, използвани за съхраняване на електронни файлове, предназначени за ползване с компютър.",
+                "ru": "Средства, используемые для хранения электронных файлов, предназначенные для использования с помощью компьютера.",
+                "sr": "Medij koji se koristi za pohranjivanje elektronskih dokumenata, namenjenih za korišćenje pomoću računara.",
+                "zh": "用于储存电子文件的载体，设计要用计算机来使用。",
+                "lv": "Mediji/datneši, izmantojami elektronisko datņu glabāšanai, paredzēti lietot ar datoru.",
+                "fr": "Support utilisé pour stocker des fichiers électroniques et conçu pour être utilisé au moyen d’un ordinateur."
+            },
+            "inScheme": "http://iflastandards.info/ns/isbd/terms/mediatype",
+            "prefLabel": {
+                "en": "electronic",
+                "es": "electrónico",
+                "hr": "elektronički",
+                "it": "elettronico",
+                "bg": "електронен",
+                "ru": "электронный",
+                "sr": "elektronski",
+                "zh": "电子",
+                "lv": "elektronisks",
+                "fr": "électronique"
+            },
+            "scopeNote": {
+                "en": "Includes media that are accessed remotely through file servers, as well as direct-access media such as computer tapes and disks.",
+                "es": "Incluye los medios a los que se accede de forma remota a través de servidores de archivos, así como medios de acceso directo, tales como cintas y discos de ordenador.",
+                "it": "Include i supporti ad accesso remoto via server e i supporti ad accesso diretto, come nastri e dischi magnetici per computer.",
+                "bg": "Включва както средства, достъпни от отдалечени сървъри, така и средства с пряк достъп като компютърни ленти и дискове.",
+                "ru": "Включают как средства, доступные с отдаленных серверов, так и средства прямого доступа, такие как компьютерные ленты и диски.",
+                "sr": "Podrazumeva medije kojima se pristupa daljinski preko servera, kao i one sa direktnim pristupom, kao što su računarske trake i diskete.",
+                "zh": "既包括通过远程文件服务器访问的载体，也包括计算机磁带和磁盘等直接访问的载体。",
+                "lv": "Ietver medijus/datnešus, kas pieejami no attālinātiem datņu serveriem, kā arī no tiešās piekļuves, kā datorlentes un diski.",
+                "fr": "Ce terme recouvre aussi bien des supports accessibles à distance par des serveurs que des supports en accès local comme des bandes ou des disques."
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/isbd/terms/mediatype/T1003",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/1213",
+            "definition": {
+                "en": "Media used to store reduced-size images, not readable to the human eye, and designed for use with a device such as a microfilm or microfiche reader.",
+                "es": "Medio utilizado para almacenar imágenes de tamaño reducido, no legible para el ojo humano y diseñado para su uso con un dispositivo como un lector de microfilm o microficha.",
+                "it": "Supporti per la memorizzazione di immagini di dimensioni ridotte, non leggibili dall’occhio umano, da usare con dispositivi come un lettore di microfilm o di microfiche.",
+                "bg": "Средства, използвани за съхраняване на намалени изображения, които не могат да се четат с невъоръжено око и са предназначени за използване с помощта на устройство като апарат за четене на микрофилм или микрофиш.",
+                "ru": "Средства, используемые для хранения уменьшенных изображений, не читаемых человеческим глазом и предназначенные для использования с помощью устройств, таких как аппарат для чтения микрофильмов или микрофиш.",
+                "sr": "Medij koji se koristi za pohranjivanje umanjenih slika koje ne mogu da se čitaju golim okom i namenjene za korišćenje pomoću uređaja kao što su čitač mikrofilma i čitač mikrofiša.",
+                "zh": "用于储存肉眼不可阅读的缩小尺寸图像的载体，设计要用缩微胶卷阅读器或者缩微平片阅读器来使用。",
+                "lv": "Mediji/datneši, izmantojami pamazinātu attēlu glabāšanai, kas nav labi salasāmi un paredzēti lietot ar ierīci, kā mikrofilmu vai mikrofišu lasītāju.",
+                "fr": "Support utilisé pour stocker des images en réduction non lisibles à l’œil nu, et conçu pour être utilisé au moyen d’un dispositif tel qu’un lecteur de microfilm ou de microfiche. "
+            },
+            "inScheme": "http://iflastandards.info/ns/isbd/terms/mediatype",
+            "prefLabel": {
+                "en": "microform",
+                "es": "microforma",
+                "hr": "mikrooblik",
+                "it": "microforma",
+                "bg": "микроформа",
+                "ru": "микроформа",
+                "sr": "mikrooblik",
+                "zh": "缩微",
+                "lv": "mikroforma",
+                "fr": "microforme"
+            },
+            "scopeNote": {
+                "en": "Includes both transparent and opaque micrographic media.",
+                "es": "Incluye tanto los medios micrográficos transparentes como los opacos.",
+                "it": "Include i supporti micrografici per trasparenti e per opachi.",
+                "bg": "Включва както прозрачни, така и непрозрачни микрографски средства.",
+                "ru": "Включает как прозрачные, так и непрозрачные микрографические средства.",
+                "sr": "Podrazumeva prozirne i neprozirne mikro medije.",
+                "zh": "包括透明的和不透明的缩微载体。",
+                "lv": "Ietver gan caurspīdīgus un gan gaismas necaurlaidīgus mikrografikas medijus/datnešus.",
+                "fr": "Ce terme recouvre des supports micrographiques aussi bien transparents qu’opaques."
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/isbd/terms/mediatype/T1004",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/1214",
+            "definition": {
+                "en": "Media used to store minute objects, designed for use with a device such as a microscope to reveal details invisible to the naked eye.",
+                "es": "Medio utilizado para almacenar objetos diminutos, diseñados para su uso con un dispositivo como un microscopio para revelar detalles invisibles a simple vista.",
+                "it": "Supporti per la memorizzazione di oggetti minuti, da usare con dispositivi come un microscopio per rivelare dettagli non visibili a occhio nudo.",
+                "bg": "Средства, използвани за съхраняване на миниатюрни обекти, предназначени за използване с устройство като микроскоп, за да се видят детайли, които са невидими за невъоръжено око.",
+                "ru": "Средства, используемые для хранения мелких объектов, предназначенные для использования с помощью устройств, таких как микроскоп, чтобы можно было увидеть детали, недоступные невооруженному глазу.",
+                "sr": "Medij koji se koristi za pohranjivanje sitnih objekata namenjenih za korišćenje pomoću uređaja kao što je mikroskop kako bi mogli da se vide detalji nevidljivi golim okom.",
+                "zh": "用于储存微型物体的载体，设计要用显微镜等设备来揭示肉眼不可见的细节。",
+                "lv": "Mediji/datneši, izmantojami ļoti sīku objektu glabāšanai, paredzēti lietot ar tādu ierīci kā mikroskops, lai atklātu detaļas, kas nav saskatāmas ar neapbruņotu aci.",
+                "fr": "Support utilisé pour stocker de minuscules objets, et conçu pour être utilisé au moyen d’un dispositif tel qu’un microscope afin de révéler des détails invisibles à l’œil nu."
+            },
+            "inScheme": "http://iflastandards.info/ns/isbd/terms/mediatype",
+            "prefLabel": {
+                "en": "microscopic",
+                "es": "microscópico",
+                "hr": "mikroskopski",
+                "it": "microscopico",
+                "bg": "микроскопски",
+                "ru": "микроскопический",
+                "sr": "mikroskopski",
+                "zh": "显微",
+                "lv": "mikroskopisks",
+                "fr": "microscopique"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/isbd/terms/mediatype/T1005",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/1215",
+            "definition": {
+                "en": "Media used to store moving or still images, designed for use with a projection device such as a motion picture film projector, slide projector, or overhead projector.",
+                "es": "Medios utilizados para almacenar imágenes fijas o en movimiento, diseñado para su uso con un dispositivo de proyección como un proyector de película de cine en movimiento, proyector de diapositivas o retroproyector.",
+                "it": "Supporti per la memorizzazione di immagini fisse o in movimento, da usare con dispositivi per la proiezione, come un proiettore di film, un proiettore di diapositive, una lavagna luminosa.",
+                "bg": "Средства, използвани за съхраняване на движещи се или неподвижни изображения, предназначени за ползване с устройство за прожектиране като проектор за филми, диапроектор или проекционен апарат.",
+                "ru": "Средства, используемые для хранения неподвижного или движущегося изображений, предназначенные для использования с помощью проекционного оборудования, такого как кинопроектор, диапроектор или проекционный аппарат.",
+                "sr": "Medij koji se koristi za pohranjivanje pokretnih ili nepokretnih slika, namenjenih za korišćenje pomoću uređaja za projektovanje, kao što je kinoprojektor, dijaprojektor ili grafoskop.",
+                "zh": "用于储存运动或静止图像的载体，设计要用电影胶片投影仪、幻灯投影仪等投影设备来使用。",
+                "lv": "Mediji/datneši, izmantojami nekustīgo vai kustīgo attēlu glabāšanai, paredzēti lietot ar projicēšanas ierīci, kā projektoru, diaprojektoru vai kodoskopu."
+            },
+            "inScheme": "http://iflastandards.info/ns/isbd/terms/mediatype",
+            "prefLabel": {
+                "en": "projected",
+                "es": "proyectado",
+                "hr": "projiciran",
+                "it": "proiettato",
+                "bg": "проекционен",
+                "ru": "проекционный",
+                "sr": "projektovan",
+                "zh": "投影",
+                "lv": "projicējams"
+            },
+            "scopeNote": {
+                "en": [
+                    "Includes media designed to project both two-dimensional and three-dimensional images.",
+                    "包括设计用于投射二维和三维图像的载体。"
+                ],
+                "es": "Incluye los medios diseñados tanto para imágenes bidimensionales como tridimensionales.",
+                "it": "Include i supporti per la proiezione di immagini bidimensionali e tridimensionali.",
+                "bg": "Включва средства, предназначени за прожектиране както на двуизмерни, така и на триизмерни изображения.",
+                "ru": "Включаются средства, предназначенные для проецирования как двухмерных, так и трехмерных изображений.",
+                "sr": "Podrazumeva medije namenjene za projektovanje i dvodimenzionalnih i trodimenzionalnih slika.",
+                "lv": "Ietver medijus/datnešus, kas paredzēti gan divdimensiju, gan trīsdimensiju attēlu projicēšanai."
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/isbd/terms/mediatype/T1006",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/1216",
+            "definition": {
+                "en": "Media used to store pairs of still images, designed for use with a device such as a stereoscope or stereograph viewer to give the effect of three dimensions.",
+                "es": "Medios utilizados para almacenar parejas de imágenes fijas, diseñados para su uso con un dispositivo como un estereoscopio o visor estereográfico para dar efecto tridimensional.",
+                "it": "Supporti per la memorizzazione di coppie di immagini fisse, da usare con dispositivi come un visore stereoscopico o stereografico per produrre l’effetto della tridimensionalità.",
+                "bg": "Средства, използвани за съхраняване на двойки неподвижни изображения с устройство като стереоскоп или стереограф, за да се създаде ефект на триизмерност.",
+                "ru": "Средства, используемые для хранения парного неподвижного изображения, предназначенные для использования с помощью устройств, таких как стереоскоп или стереографический аппарат для получения эффекта трехмерности.",
+                "sr": "Medij koji se koristi za pohranjivanje parova nepokretnih slika, namenjenih za korišćenje pomoću uređaja kao što je stereoskop ili stereograf kako bi se postigao efekat trodimenzionalnosti.",
+                "zh": "用于储存成对静止图像的载体，设计要用立体镜或立体画观看器等设备来使用，以产生三维效果。",
+                "lv": "Mediji/datneši, izmantojami nekustīgu pāra attēlu glabāšanai, paredzēti lietot ar stereoskopu vai stereogrāfa ierīci, lai sniegtu trīsdimensiju efektu.",
+                "fr": "Support utilisé pour stocker des paires d’images fixes, et conçu pour être utilisé au moyen d’un dispositif tel qu’un stéréoscope ou un visualiseur de stéréogrammes afin de donner l’illusion des trois dimensions."
+            },
+            "inScheme": "http://iflastandards.info/ns/isbd/terms/mediatype",
+            "prefLabel": {
+                "en": "stereographic",
+                "es": "estereográfico",
+                "hr": "stereografski",
+                "it": "stereografico",
+                "bg": "стереографски",
+                "ru": "стереографический",
+                "sr": "stereografski",
+                "zh": "立体",
+                "lv": "stereogrāfisks",
+                "fr": "stéréoscopique"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/isbd/terms/mediatype/T1007",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/1217",
+            "definition": {
+                "en": "Media used to store moving or still images, designed for use with a playback device such as a videocassette player or DVD player.",
+                "es": "Medio utilizado para almacenar imágenes fijas o en movimiento, diseñado para su uso con un dispositivo de reproducción como un reproductor de cintas de vídeo o un reproductor de DVD.",
+                "it": "Supporti per la memorizzazione di immagini fisse o in movimento, da usare con dispositivi per la riproduzione (playback device), come un lettore di videocassette o di DVD.",
+                "bg": "Средства, използвани за съхраняване на движещи се или неподвижни изображения, предназначени за използване с възпроизвеждащо устройство като видео или DVD плеър.",
+                "ru": "Средства, используемые для хранения неподвижного или движущегося изображения, предназначенные для использования с помощью воспроизводящих устройств, таких как кассетный видео плеер или DVD плеер.",
+                "sr": "Medij koji se koristi za pohranjivanje pokretnih ili nepokretnih slika, namenjenih za korišćenje pomoću uređaja za reprodukovanje, kao što je video plejer ili DVD plejer.",
+                "zh": "用于储存运动或静止图像的载体，设计要用卡式录像带播放器或DVD播放器等设备来使用。",
+                "lv": "Mediji/datneši, izmantojami kustīgu vai nekustīgu attēlu glabāšanai, paredzēti lietot ar atskaņošanas ierīci, kā video kasešu atskaņotāju vai DVD atskaņotāju.",
+                "fr": "Support utilisé pour stocker des images fixes ou animées, et conçu pour être utilisé au moyen d’un dispositif de lecture tel qu’un lecteur de cassette vidéo ou de DVD."
+            },
+            "inScheme": "http://iflastandards.info/ns/isbd/terms/mediatype",
+            "prefLabel": {
+                "en": "video",
+                "es": "vídeo",
+                "hr": "video",
+                "it": "video",
+                "bg": "видео",
+                "ru": "видео",
+                "sr": "video",
+                "zh": "视频",
+                "lv": "video",
+                "fr": "vidéo"
+            },
+            "scopeNote": {
+                "en": "Includes media used to store digitally encoded as well as analogue images.",
+                "es": "Incluye los medios utilizados para almacenar tanto imágenes codificadas digitalmente como imágenes analógicas.",
+                "it": "Include i supporti per la memorizzazione di immagini codificate sia in forma digitale sia in forma analogica.",
+                "bg": "Включва средства за съхраняване както на цифрово кодирани, така и на аналогови изображения.",
+                "ru": "Включают средства, используемые для хранения изображений как в цифровом, так и в аналоговом формате.",
+                "sr": "Podrazumeva i medije koji se koriste za pohranjivanje digitalno kodiranih kao i analognih slika.",
+                "zh": "包括储存数字编码的和模拟的图像的载体。",
+                "lv": "Ietver medijus/datnešus, kas izmantojami digitāli kodēto, kā arī analogo attēlu glabāšanai.",
+                "fr": "Ce terme recouvre des supports conçus pour stocker de l’image encodée de manière numérique aussi bien qu’analogique."
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/isbd/terms/mediatype/T1008",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/1218",
+            "definition": {
+                "en": "Media where three or more media types are applicable.",
+                "es": "Medio en el que son aplicables tres o más tipos de medios.",
+                "zh": "对于由混合载体组成、三种或更多载体类型适用的资源。",
+                "it": "Supporto per il quale tre o più tipi di supporto sono applicabili.",
+                "fr": "Terme utilisé pour des ressources composées de différents supports, auxquelles s’appliquent au moins trois types de médiation."
+            },
+            "inScheme": "http://iflastandards.info/ns/isbd/terms/mediatype",
+            "prefLabel": {
+                "en": "multiple media",
+                "es": "múltiples medios",
+                "hr": "viševrsni mediji",
+                "it": "supporti multipli",
+                "bg": "различни средства",
+                "ru": "разные средства",
+                "sr": "viševrsni oblik",
+                "zh": "多载体",
+                "fr": "multisupport"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/isbd/terms/mediatype/T1009",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/1219",
+            "definition": {
+                "en": "Media other than audio, electronic, microform, microscopic, projected, stereographic, or video, or multiple media.",
+                "es": "Medio diferente al audio, electrónico, microforma, microscópico, proyectado, estereográfico, vídeo o múltiples medios.",
+                "it": "Supporto diverso da  audio, elettronico, microforma, microscopico, proiettato, stereografico, video  o supporti multipli.",
+                "fr": "Terme utilisé pour des ressources dont le type de médiation est autre que : audio, électronique, microforme, microscopique, projeté(e), stéréographique, vidéo ou multisupport. "
+            },
+            "inScheme": "http://iflastandards.info/ns/isbd/terms/mediatype",
+            "prefLabel": {
+                "en": "other media",
+                "es": "otros medios",
+                "hr": "drugi mediji",
+                "it": "altri supporti",
+                "bg": "други средства",
+                "ru": "другое средство",
+                "sr": "drugi medij",
+                "zh": "其他载体",
+                "fr": "type de médiation non défini"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/isbd/terms/mediatype/T1010",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/3372",
+            "definition": {
+                "en": "Media for which no mediation device is necessary.",
+                "es": "Medio que no requiere dispositivo de intermediación",
+                "it": "Supporto per il quale non è necessario nessun dispositivo di mediazione."
+            },
+            "inScheme": "http://iflastandards.info/ns/isbd/terms/mediatype",
+            "prefLabel": {
+                "en": "unmediated",
+                "es": "sin mediación",
+                "hr": "neposredovan",
+                "it": "senza mediazione",
+                "bg": "без устройство"
+            },
+            "status": "Published"
+        }
+    ]
+}

@@ -1,0 +1,202 @@
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#> <http://purl.org/dc/elements/1.1/title> "UNIMARC: Graphics: Functional designation" .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/graphicsfd#aa> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/graphicsfd#an> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/graphicsfd#ag> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/graphicsfd#aj> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/graphicsfd#ai> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/graphicsfd#af> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/graphicsfd#ak> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/graphicsfd#ab> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/graphicsfd#vv> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/graphicsfd#xx> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/graphicsfd#zz> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/graphicsfd#as> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/graphicsfd#ah> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/graphicsfd#ae> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/graphicsfd#ad> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/graphicsfd#au> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/graphicsfd#ac> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/graphicsfd#uu> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#aa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#aa> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#aa> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#aa> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6348> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#aa> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#aa> <http://www.w3.org/2004/02/skos/core#prefLabel> "architectural drawing"@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#aa> <http://www.w3.org/2004/02/skos/core#notation> "aa"@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#aa> <http://www.w3.org/2004/02/skos/core#prefLabel> "disegno architettonico"@it .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#aa> <http://www.w3.org/2004/02/skos/core#prefLabel> "desenho de arquitectura"@pt .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#aa> <http://www.w3.org/2004/02/skos/core#definition> "Graphic delineation made for the design and construction (or documentation of design and construction) of sites, structures, buildings, details, fixtures, furnishings, and decorations, as well as other objects designed by an architect or architectural office."@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#an> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#an> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#an> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#an> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6359> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#an> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#an> <http://www.w3.org/2004/02/skos/core#prefLabel> "calendar"@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#an> <http://www.w3.org/2004/02/skos/core#notation> "an"@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#an> <http://www.w3.org/2004/02/skos/core#definition> "A table showing the months, days, of the week, and dates of a given year."@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#an> <http://www.w3.org/2004/02/skos/core#prefLabel> "calend\u00E1rio"@pt .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#an> <http://www.w3.org/2004/02/skos/core#prefLabel> "calendario"@it .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ag> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ag> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ag> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6354> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ag> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ag> <http://www.w3.org/2004/02/skos/core#prefLabel> "chart"@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ag> <http://www.w3.org/2004/02/skos/core#notation> "ag"@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ag> <http://www.w3.org/2004/02/skos/core#definition> "An opaque sheet that exhibits information in a graphic or tabular form."@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ag> <http://www.w3.org/2004/02/skos/core#scopeNote> "E.g. a wall chart."@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ag> <http://www.w3.org/2004/02/skos/core#prefLabel> "diagrama"@pt .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ag> <http://www.w3.org/2004/02/skos/core#prefLabel> "diagramma"@it .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#aj> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#aj> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#aj> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#aj> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6357> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#aj> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#aj> <http://www.w3.org/2004/02/skos/core#prefLabel> "ephemera"@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#aj> <http://www.w3.org/2004/02/skos/core#notation> "aj"@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#aj> <http://www.w3.org/2004/02/skos/core#definition> "Transient everyday items, usually printed and on paper, that are manufactured for a specific limited use, then often thrown away."@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#aj> <http://www.w3.org/2004/02/skos/core#scopeNote> "Also included everyday items that are meant to be saved, at least for a while."@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#aj> <http://www.w3.org/2004/02/skos/core#prefLabel> "ephemera "@pt .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#aj> <http://www.w3.org/2004/02/skos/core#prefLabel> "ephemera"@it .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ai> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ai> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ai> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ai> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6356> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ai> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ai> <http://www.w3.org/2004/02/skos/core#prefLabel> "flash card"@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ai> <http://www.w3.org/2004/02/skos/core#notation> "ai"@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ai> <http://www.w3.org/2004/02/skos/core#definition> "A card or other opaque material printed with words, numerals, or pictures and designed for rapid display."@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ai> <http://www.w3.org/2004/02/skos/core#scopeNote> "Activity cards are included here."@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ai> <http://www.w3.org/2004/02/skos/core#prefLabel> "ficha de visualiza\u00E7\u00E3o r\u00E1pida"@pt .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ai> <http://www.w3.org/2004/02/skos/core#prefLabel> "flash card"@it .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#af> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#af> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#af> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#af> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6353> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#af> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#af> <http://www.w3.org/2004/02/skos/core#prefLabel> "greetings card"@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#af> <http://www.w3.org/2004/02/skos/core#notation> "af"@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#af> <http://www.w3.org/2004/02/skos/core#definition> "Card sent or given on special occasions; usually bearing messages of good will."@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#af> <http://www.w3.org/2004/02/skos/core#prefLabel> "cart\u00E3o de felicita\u00E7\u00F5es"@pt .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#af> <http://www.w3.org/2004/02/skos/core#prefLabel> "diglietto di auguri"@it .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ak> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ak> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ak> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ak> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6358> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ak> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ak> <http://www.w3.org/2004/02/skos/core#prefLabel> "illustration"@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ak> <http://www.w3.org/2004/02/skos/core#notation> "ak"@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ak> <http://www.w3.org/2004/02/skos/core#definition> "A picture, design, engraving or other graphic image printed with or inserted in the text of a book or other publication used to complement or clarify the content of the text."@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ab> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ab> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ab> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ab> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6349> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ab> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ab> <http://www.w3.org/2004/02/skos/core#prefLabel> "item cover"@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ab> <http://www.w3.org/2004/02/skos/core#notation> "ab"@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ab> <http://www.w3.org/2004/02/skos/core#definition> "Cover forming the binding or outer enclosure of an item, i.e. hardback or paperback book covers, record sleeves, etc."@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ab> <http://www.w3.org/2004/02/skos/core#scopeNote> "Covers may be detached or attached to the item."@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ab> <http://www.w3.org/2004/02/skos/core#prefLabel> "material de protec\u00E7\u00E3o"@pt .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ab> <http://www.w3.org/2004/02/skos/core#prefLabel> "copertina del documento"@it .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#vv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#vv> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#vv> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#vv> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6363> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#vv> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#vv> <http://www.w3.org/2004/02/skos/core#prefLabel> "mixed"@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#vv> <http://www.w3.org/2004/02/skos/core#notation> "vv"@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#vv> <http://www.w3.org/2004/02/skos/core#prefLabel> "misto"@pt .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#vv> <http://www.w3.org/2004/02/skos/core#prefLabel> "composito"@it .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#xx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#xx> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#xx> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#xx> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6364> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#xx> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#xx> <http://www.w3.org/2004/02/skos/core#prefLabel> "not applicable"@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#xx> <http://www.w3.org/2004/02/skos/core#notation> "xx"@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#xx> <http://www.w3.org/2004/02/skos/core#prefLabel> "n\u00E3o aplic\u00E1vel"@pt .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#xx> <http://www.w3.org/2004/02/skos/core#prefLabel> "non applicabile"@it .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#zz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#zz> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#zz> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#zz> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6365> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#zz> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#zz> <http://www.w3.org/2004/02/skos/core#prefLabel> "other"@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#zz> <http://www.w3.org/2004/02/skos/core#notation> "zz"@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#zz> <http://www.w3.org/2004/02/skos/core#prefLabel> "outro"@pt .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#zz> <http://www.w3.org/2004/02/skos/core#prefLabel> "altro"@it .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#as> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#as> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#as> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#as> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6360> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#as> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#as> <http://www.w3.org/2004/02/skos/core#prefLabel> "place card"@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#as> <http://www.w3.org/2004/02/skos/core#notation> "as"@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#as> <http://www.w3.org/2004/02/skos/core#definition> "Decorated card that marks a place reserved for occupancy."@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#as> <http://www.w3.org/2004/02/skos/core#prefLabel> "marcador de lugar"@pt .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#as> <http://www.w3.org/2004/02/skos/core#prefLabel> "biglietti segnaposto"@it .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ah> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ah> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ah> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ah> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6355> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ah> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ah> <http://www.w3.org/2004/02/skos/core#prefLabel> "playing cards"@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ah> <http://www.w3.org/2004/02/skos/core#notation> "ah"@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ah> <http://www.w3.org/2004/02/skos/core#definition> "Cards made in sets of a designated number of cards and marked for use in playing one or more games or telling fortunes; marks may follow a standard suit and rank system or may be special designs."@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ah> <http://www.w3.org/2004/02/skos/core#prefLabel> "cartas de jogar"@pt .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ah> <http://www.w3.org/2004/02/skos/core#prefLabel> "carte da gioco"@it .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ae> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ae> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ae> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6352> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ae> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ae> <http://www.w3.org/2004/02/skos/core#prefLabel> "postcard"@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ae> <http://www.w3.org/2004/02/skos/core#notation> "ae"@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ae> <http://www.w3.org/2004/02/skos/core#definition> "Card with a graphic scene on one side, on which a message may be written or printed for mailing without an envelope."@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ae> <http://www.w3.org/2004/02/skos/core#prefLabel> "postal"@pt .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ae> <http://www.w3.org/2004/02/skos/core#prefLabel> "cartolina"@it .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ad> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ad> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ad> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6351> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ad> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ad> <http://www.w3.org/2004/02/skos/core#prefLabel> "poster"@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ad> <http://www.w3.org/2004/02/skos/core#notation> "ad"@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ad> <http://www.w3.org/2004/02/skos/core#definition> "Single or multi-sheet chiefly pictorial notice made for posting, usually in a public place, to attract attention to events, activities, causes, goods, or services."@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ad> <http://www.w3.org/2004/02/skos/core#scopeNote> "The purely decorative posters made since about 1960 are included."@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ad> <http://www.w3.org/2004/02/skos/core#prefLabel> "cartaz"@pt .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ad> <http://www.w3.org/2004/02/skos/core#prefLabel> "poster"@it .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#au> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#au> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#au> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#au> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6361> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#au> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#au> <http://www.w3.org/2004/02/skos/core#prefLabel> "santino"@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#au> <http://www.w3.org/2004/02/skos/core#notation> "au"@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#au> <http://www.w3.org/2004/02/skos/core#definition> "Printed card which has, on one side, the picture of a holy or sacred subject and, on the other side a prayer or an appeal formula."@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#au> <http://www.w3.org/2004/02/skos/core#prefLabel> "santinho"@pt .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#au> <http://www.w3.org/2004/02/skos/core#prefLabel> "santino"@it .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ac> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ac> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ac> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ac> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6350> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ac> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ac> <http://www.w3.org/2004/02/skos/core#prefLabel> "sticker"@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ac> <http://www.w3.org/2004/02/skos/core#notation> "ac"@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ac> <http://www.w3.org/2004/02/skos/core#definition> "Message or design on slips of paper that are gummed or otherwise treated to adhere to a surface."@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ac> <http://www.w3.org/2004/02/skos/core#scopeNote> "Also included book owners' identification labels (ex libris); usually intended for attaching inside a book. Book plates may be attached or detached."@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ac> <http://www.w3.org/2004/02/skos/core#prefLabel> "etiquetas colantes"@pt .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#ac> <http://www.w3.org/2004/02/skos/core#prefLabel> "sticker"@it .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#uu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#uu> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#uu> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#uu> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6362> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#uu> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/graphicsfd#> .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#uu> <http://www.w3.org/2004/02/skos/core#prefLabel> "unknown"@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#uu> <http://www.w3.org/2004/02/skos/core#notation> "uu"@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#uu> <http://www.w3.org/2004/02/skos/core#prefLabel> "desconhecido"@pt .
+<http://iflastandards.info/ns/unimarc/terms/graphicsfd#uu> <http://www.w3.org/2004/02/skos/core#prefLabel> "sconosciuto"@it .
+<http://metadataregistry.org/uri/RegStatus/1001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://metadataregistry.org/uri/RegStatus/1001> <http://www.w3.org/2004/02/skos/core#prefLabel> "Published"@en .

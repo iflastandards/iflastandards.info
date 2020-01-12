@@ -1,0 +1,84 @@
+<http://iflastandards.info/ns/unimarc/terms/tac#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<http://iflastandards.info/ns/unimarc/terms/tac#> <http://purl.org/dc/elements/1.1/title> "UNIMARC: Target audience" .
+<http://iflastandards.info/ns/unimarc/terms/tac#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/tac#m> .
+<http://iflastandards.info/ns/unimarc/terms/tac#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/tac/#k> .
+<http://iflastandards.info/ns/unimarc/terms/tac#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/tac#d> .
+<http://iflastandards.info/ns/unimarc/terms/tac#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/tac#a> .
+<http://iflastandards.info/ns/unimarc/terms/tac#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/tac#b> .
+<http://iflastandards.info/ns/unimarc/terms/tac#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/tac#c> .
+<http://iflastandards.info/ns/unimarc/terms/tac#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/tac#u> .
+<http://iflastandards.info/ns/unimarc/terms/tac#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/tac#e> .
+<http://iflastandards.info/ns/unimarc/terms/tac#m> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/tac#m> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/tac#> .
+<http://iflastandards.info/ns/unimarc/terms/tac#m> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/tac#m> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6346> .
+<http://iflastandards.info/ns/unimarc/terms/tac#m> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/tac#> .
+<http://iflastandards.info/ns/unimarc/terms/tac#m> <http://www.w3.org/2004/02/skos/core#prefLabel> "adult, general "@en .
+<http://iflastandards.info/ns/unimarc/terms/tac#m> <http://www.w3.org/2004/02/skos/core#notation> "m"@en .
+<http://iflastandards.info/ns/unimarc/terms/tac#m> <http://www.w3.org/2004/02/skos/core#prefLabel> "adulti in generale"@it .
+<http://iflastandards.info/ns/unimarc/terms/tac#m> <http://www.w3.org/2004/02/skos/core#prefLabel> "adulto, grande p\u00FAblico"@pt .
+<http://iflastandards.info/ns/unimarc/terms/tac/#k> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/tac/#k> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/tac#> .
+<http://iflastandards.info/ns/unimarc/terms/tac/#k> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/tac/#k> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6345> .
+<http://iflastandards.info/ns/unimarc/terms/tac/#k> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/tac#> .
+<http://iflastandards.info/ns/unimarc/terms/tac/#k> <http://www.w3.org/2004/02/skos/core#prefLabel> "adult, serious"@en .
+<http://iflastandards.info/ns/unimarc/terms/tac/#k> <http://www.w3.org/2004/02/skos/core#notation> "k"@en .
+<http://iflastandards.info/ns/unimarc/terms/tac/#k> <http://www.w3.org/2004/02/skos/core#prefLabel> "adulti, serio"@it .
+<http://iflastandards.info/ns/unimarc/terms/tac/#k> <http://www.w3.org/2004/02/skos/core#prefLabel> "adulto, p\u00FAblico especializado"@pt .
+<http://iflastandards.info/ns/unimarc/terms/tac#d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/tac#d> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/tac#> .
+<http://iflastandards.info/ns/unimarc/terms/tac#d> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/tac#d> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6343> .
+<http://iflastandards.info/ns/unimarc/terms/tac#d> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/tac#> .
+<http://iflastandards.info/ns/unimarc/terms/tac#d> <http://www.w3.org/2004/02/skos/core#prefLabel> "children, ages 9-14"@en .
+<http://iflastandards.info/ns/unimarc/terms/tac#d> <http://www.w3.org/2004/02/skos/core#notation> "d"@en .
+<http://iflastandards.info/ns/unimarc/terms/tac#d> <http://www.w3.org/2004/02/skos/core#prefLabel> "pre-adolescente (9-14 anni)"@it .
+<http://iflastandards.info/ns/unimarc/terms/tac#d> <http://www.w3.org/2004/02/skos/core#prefLabel> "infantil, idades 9-14"@pt .
+<http://iflastandards.info/ns/unimarc/terms/tac#a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/tac#a> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/tac#> .
+<http://iflastandards.info/ns/unimarc/terms/tac#a> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/tac#a> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6340> .
+<http://iflastandards.info/ns/unimarc/terms/tac#a> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/tac#> .
+<http://iflastandards.info/ns/unimarc/terms/tac#a> <http://www.w3.org/2004/02/skos/core#prefLabel> "juvenile, general"@en .
+<http://iflastandards.info/ns/unimarc/terms/tac#a> <http://www.w3.org/2004/02/skos/core#notation> "a"@en .
+<http://iflastandards.info/ns/unimarc/terms/tac#a> <http://www.w3.org/2004/02/skos/core#prefLabel> "giovani in generale"@it .
+<http://iflastandards.info/ns/unimarc/terms/tac#a> <http://www.w3.org/2004/02/skos/core#prefLabel> "juvenil, geral"@pt .
+<http://iflastandards.info/ns/unimarc/terms/tac#b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/tac#b> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/tac#> .
+<http://iflastandards.info/ns/unimarc/terms/tac#b> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/tac#b> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6341> .
+<http://iflastandards.info/ns/unimarc/terms/tac#b> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/tac#> .
+<http://iflastandards.info/ns/unimarc/terms/tac#b> <http://www.w3.org/2004/02/skos/core#prefLabel> "pre-primary, ages 0-5"@en .
+<http://iflastandards.info/ns/unimarc/terms/tac#b> <http://www.w3.org/2004/02/skos/core#notation> "b"@en .
+<http://iflastandards.info/ns/unimarc/terms/tac#b> <http://www.w3.org/2004/02/skos/core#prefLabel> "prescolastici (0-5 anni)"@it .
+<http://iflastandards.info/ns/unimarc/terms/tac#b> <http://www.w3.org/2004/02/skos/core#prefLabel> "pr\u00E9-prim\u00E1ria, idades 0-5"@pt .
+<http://iflastandards.info/ns/unimarc/terms/tac#c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/tac#c> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/tac#> .
+<http://iflastandards.info/ns/unimarc/terms/tac#c> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/tac#c> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6342> .
+<http://iflastandards.info/ns/unimarc/terms/tac#c> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/tac#> .
+<http://iflastandards.info/ns/unimarc/terms/tac#c> <http://www.w3.org/2004/02/skos/core#prefLabel> "primary, ages 5-10"@en .
+<http://iflastandards.info/ns/unimarc/terms/tac#c> <http://www.w3.org/2004/02/skos/core#notation> "c"@en .
+<http://iflastandards.info/ns/unimarc/terms/tac#c> <http://www.w3.org/2004/02/skos/core#prefLabel> "primaria (5-10 anni)"@it .
+<http://iflastandards.info/ns/unimarc/terms/tac#c> <http://www.w3.org/2004/02/skos/core#prefLabel> "prim\u00E1ria, idades 5-10"@pt .
+<http://iflastandards.info/ns/unimarc/terms/tac#u> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/tac#u> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/tac#> .
+<http://iflastandards.info/ns/unimarc/terms/tac#u> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/tac#u> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6347> .
+<http://iflastandards.info/ns/unimarc/terms/tac#u> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/tac#> .
+<http://iflastandards.info/ns/unimarc/terms/tac#u> <http://www.w3.org/2004/02/skos/core#prefLabel> "unknown"@en .
+<http://iflastandards.info/ns/unimarc/terms/tac#u> <http://www.w3.org/2004/02/skos/core#notation> "u"@en .
+<http://iflastandards.info/ns/unimarc/terms/tac#u> <http://www.w3.org/2004/02/skos/core#prefLabel> "sconosciuto"@it .
+<http://iflastandards.info/ns/unimarc/terms/tac#u> <http://www.w3.org/2004/02/skos/core#prefLabel> "desconhecido"@pt .
+<http://iflastandards.info/ns/unimarc/terms/tac#e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/tac#e> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/tac#> .
+<http://iflastandards.info/ns/unimarc/terms/tac#e> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/tac#e> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6344> .
+<http://iflastandards.info/ns/unimarc/terms/tac#e> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/tac#> .
+<http://iflastandards.info/ns/unimarc/terms/tac#e> <http://www.w3.org/2004/02/skos/core#prefLabel> "young adult, ages 14-20"@en .
+<http://iflastandards.info/ns/unimarc/terms/tac#e> <http://www.w3.org/2004/02/skos/core#notation> "e"@en .
+<http://iflastandards.info/ns/unimarc/terms/tac#e> <http://www.w3.org/2004/02/skos/core#prefLabel> "adolescente (14-20 anni)"@it .
+<http://iflastandards.info/ns/unimarc/terms/tac#e> <http://www.w3.org/2004/02/skos/core#prefLabel> "jovem adulto, idades 14-20"@pt .
+<http://metadataregistry.org/uri/RegStatus/1001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://metadataregistry.org/uri/RegStatus/1001> <http://www.w3.org/2004/02/skos/core#prefLabel> "Published"@en .

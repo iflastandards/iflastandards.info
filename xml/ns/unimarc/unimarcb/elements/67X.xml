@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF
+    xml:base="http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+<!-- Element Set: UNIMARC/B elements 67X -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/">
+  <dc:title xml:lang="en">UNIMARC/B elements 67X</dc:title>
+</rdf:Description>
+
+<!-- Properties -->
+
+<!-- Property: has Classification record number in Dewey Decimal Classification -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U676__3">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasClassificationRecordNumberInDeweyDecimalClassification</reg:name>
+  <rdfs:label xml:lang="en">has Classification record number in Dewey Decimal Classification</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/hasClassificationRecordNumberInDeweyDecimalClassification.en" />
+  <skos:definition xml:lang="en">The control number.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Classification record number in Universal Decimal Classification (UDC) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U675__3">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasClassificationRecordNumberInUniversalDecimalClassificationUdc</reg:name>
+  <rdfs:label xml:lang="en">has Classification record number in Universal Decimal Classification (UDC)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/hasClassificationRecordNumberInUniversalDecimalClassificationUdc.en" />
+  <skos:definition xml:lang="en">The control number.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Edition in Dewey Decimal Classification -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U676__v">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasEditionInDeweyDecimalClassification</reg:name>
+  <rdfs:label xml:lang="en">has Edition in Dewey Decimal Classification</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/hasEditionInDeweyDecimalClassification.en" />
+  <skos:definition xml:lang="en">The number of the edition used.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Edition in Universal Decimal Classification (UDC) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U675__v">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasEditionInUniversalDecimalClassificationUdc</reg:name>
+  <rdfs:label xml:lang="en">has Edition in Universal Decimal Classification (UDC)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/hasEditionInUniversalDecimalClassificationUdc.en" />
+  <skos:definition xml:lang="en">An identification of the edition from which the UDC number is taken.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Language of edition in Dewey Decimal Classification -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U676__z">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasLanguageOfEditionInDeweyDecimalClassification</reg:name>
+  <rdfs:label xml:lang="en">has Language of edition in Dewey Decimal Classification</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/hasLanguageOfEditionInDeweyDecimalClassification.en" />
+  <skos:definition xml:lang="en">The language in coded form of the edition from which the DDC number is taken.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Language of edition in Universal Decimal Classification (UDC) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U675__z">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasLanguageOfEditionInUniversalDecimalClassificationUdc</reg:name>
+  <rdfs:label xml:lang="en">has Language of edition in Universal Decimal Classification (UDC)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/hasLanguageOfEditionInUniversalDecimalClassificationUdc.en" />
+  <skos:definition xml:lang="en">The language in coded form of the edition from which the UDC number is taken.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Language of terms in Precis -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U670__z">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasLanguageOfTermsInPrecis</reg:name>
+  <rdfs:label xml:lang="en">has Language of terms in Precis</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/hasLanguageOfTermsInPrecis.en" />
+  <skos:definition xml:lang="en">The language of the terms used in the string.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Number in Dewey Decimal Classification -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U676__a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasNumberInDeweyDecimalClassification</reg:name>
+  <rdfs:label xml:lang="en">has Number in Dewey Decimal Classification</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/hasNumberInDeweyDecimalClassification.en" />
+  <skos:definition xml:lang="en">The number as taken from the Dewey Decimal Classification schedules.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Number in Universal Decimal Classification (UDC) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U675__a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasNumberInUniversalDecimalClassificationUdc</reg:name>
+  <rdfs:label xml:lang="en">has Number in Universal Decimal Classification (UDC)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/hasNumberInUniversalDecimalClassificationUdc.en" />
+  <skos:definition xml:lang="en">The class number as taken from the UDC schedules.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Reference indicator number in Precis -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U670__e">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasReferenceIndicatorNumberInPrecis</reg:name>
+  <rdfs:label xml:lang="en">has Reference indicator number in Precis</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/hasReferenceIndicatorNumberInPrecis.en" />
+  <skos:definition xml:lang="en">A Reference Indication Number (RIN).</skos:definition>
+</rdf:Description>
+
+<!-- Property: has String in Precis -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U670__c">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasStringInPrecis</reg:name>
+  <rdfs:label xml:lang="en">has String in Precis</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/hasStringInPrecis.en" />
+  <skos:definition xml:lang="en">A sequence of subject index terms in which each term is preceded by a code which determines how it should appear in entries generated by the computer in printed indexes, COM output, card catalogues, etc.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Subject indicator number in Precis -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/U670__b">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasSubjectIndicatorNumberInPrecis</reg:name>
+  <rdfs:label xml:lang="en">has Subject indicator number in Precis</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/67X/hasSubjectIndicatorNumberInPrecis.en" />
+  <skos:definition xml:lang="en">The Subject Indicator Number (SIN).</skos:definition>
+</rdf:Description>
+
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+</rdf:RDF>

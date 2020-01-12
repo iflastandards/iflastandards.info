@@ -1,0 +1,77 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix reg: <http://metadataregistry.org/uri/profile/regap/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#>
+    dc:title "UNIMARC: Graphics: Primary support material" ;
+    a skos:ConceptScheme ;
+    skos:hasTopConcept <http://iflastandards.info/ns/unimarc/terms/graphicspsm#a>, <http://iflastandards.info/ns/unimarc/terms/graphicspsm#b>, <http://iflastandards.info/ns/unimarc/terms/graphicspsm#c>, <http://iflastandards.info/ns/unimarc/terms/graphicspsm#d>, <http://iflastandards.info/ns/unimarc/terms/graphicspsm#e>, <http://iflastandards.info/ns/unimarc/terms/graphicspsm#f>, <http://iflastandards.info/ns/unimarc/terms/graphicspsm#g> .
+
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#a>
+    reg:identifier <http://metadataregistry.org/concepts/6232> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/graphicspsm#> ;
+    skos:notation "a"@en ;
+    skos:prefLabel "canvas"@en, "tela"@it, "tela"@pt ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/graphicspsm#> .
+
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#b>
+    reg:identifier <http://metadataregistry.org/concepts/6233> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/graphicspsm#> ;
+    skos:notation "b"@en ;
+    skos:prefLabel "bristol board"@en, "cartolina bristol"@pt, "cartone bristol"@it ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/graphicspsm#> .
+
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#c>
+    reg:identifier <http://metadataregistry.org/concepts/6234> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/graphicspsm#> ;
+    skos:notation "c"@en ;
+    skos:prefLabel "cardboard/illustration board"@en, "cartone/cartone illustrato"@it, "cartão/cartolina de desenho"@pt ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/graphicspsm#> .
+
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#d>
+    reg:identifier <http://metadataregistry.org/concepts/6235> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/graphicspsm#> ;
+    skos:notation "d"@en ;
+    skos:prefLabel "glass"@en, "vetro"@it, "vidro"@pt ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/graphicspsm#> .
+
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#e>
+    reg:identifier <http://metadataregistry.org/concepts/6236> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/graphicspsm#> ;
+    skos:notation "e"@en ;
+    skos:prefLabel "sintetico"@it, "sintéticos"@pt, "synthetics"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/graphicspsm#> .
+
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#f>
+    reg:identifier <http://metadataregistry.org/concepts/6237> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/graphicspsm#> ;
+    skos:notation "f"@en ;
+    skos:prefLabel "peles"@pt, "pelle"@it, "skins"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/graphicspsm#> .
+
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#g>
+    reg:identifier <http://metadataregistry.org/concepts/6238> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/graphicspsm#> ;
+    skos:notation "g"@en ;
+    skos:prefLabel "tessuto"@it, "textiles"@en, "têxteis"@pt ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/graphicspsm#> .
+
+<http://metadataregistry.org/uri/RegStatus/1001>
+    a skos:Concept ;
+    skos:prefLabel "Published"@en .
+

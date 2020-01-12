@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+<!-- Scheme: FRSAD User Tasks -->
+    <skos:ConceptScheme rdf:about="http://iflastandards.info/ns/fr/frsad/frsadusertask">
+        <dc:title>FRSAD User Tasks</dc:title>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/fr/frsad/frsadusertask#T1004"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/fr/frsad/frsadusertask#T1001"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/fr/frsad/frsadusertask#T1002"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/fr/frsad/frsadusertask#T1003"/>
+    </skos:ConceptScheme>
+
+<!-- Concept: explore  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/fr/frsad/frsadusertask#T1004" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/fr/frsad/frsadusertask"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/1243"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/fr/frsad/frsadusertask"/>
+      <skos:prefLabel xml:lang="en">explore</skos:prefLabel>
+      <skos:definition xml:lang="en">Explore relationships between subjects and. or, their appellations (e.g., to explore relationships in order to understand the structure of a subject domain and its terminology).</skos:definition>
+    </skos:Concept>
+<!-- Concept: find  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/fr/frsad/frsadusertask#T1001" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/fr/frsad/frsadusertask"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/1240"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/fr/frsad/frsadusertask"/>
+      <skos:prefLabel xml:lang="en">find</skos:prefLabel>
+      <skos:definition xml:lang="en">Find one or more subjects and, or, their appellations, that correspond(s) to the user’s stated criteria, using attributes and relationships.</skos:definition>
+    </skos:Concept>
+<!-- Concept: identify  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/fr/frsad/frsadusertask#T1002" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/fr/frsad/frsadusertask"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/1241"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/fr/frsad/frsadusertask"/>
+      <skos:prefLabel xml:lang="en">identify</skos:prefLabel>
+      <skos:definition xml:lang="en">Identify a subject and, or, its appellation based on its attributes or relationships (i.e., to distinguish between two or more subjects or appellations with similar characteristics and to confirm that the appropriate subject or appellation has been found).</skos:definition>
+    </skos:Concept>
+<!-- Concept: select  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/fr/frsad/frsadusertask#T1003" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/fr/frsad/frsadusertask"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/1242"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/fr/frsad/frsadusertask"/>
+      <skos:prefLabel xml:lang="en">select</skos:prefLabel>
+      <skos:definition xml:lang="en">Select a subject and, or, its appellation appropriate to the user's needs (i.e., to choose or reject based on the user's requirements and needs).</skos:definition>
+    </skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

@@ -1,0 +1,190 @@
+{
+    "@context": "http://iflastandards.info/ns/unimarc/terms/Contexts/concepts_langmap.jsonld",
+    "@graph": [
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundtyp#",
+            "@type": "ConceptScheme",
+            "title": {
+                "en": "UNIMARC: Sound recordings: Type of recording"
+            },
+            "description": {
+                "en": "The type of sound recording disc, cylinder or tape."
+            },
+            "prefix": "",
+            "token": "soundtyp",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "label": "Published"
+            },
+            "omr_api": "http://api.metadataregistry.org/vocabularies/383",
+            "omr_home": "http://metadataregistry.org/vocabularies/383",
+            "count": 11,
+            "languages": [
+                {
+                    "code": "en",
+                    "lang": "English",
+                    "version": "Release 1"
+                }
+            ],
+            "dateOfPublication": "January 11, 2020"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundtyp#a ",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7495",
+            "definition": {
+                "en": "Unique, cut on the spot."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundtyp#",
+            "notation": {
+                "en": "a "
+            },
+            "prefLabel": {
+                "en": "instantaneous"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundtyp#b ",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7496",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundtyp#",
+            "notation": {
+                "en": "b "
+            },
+            "prefLabel": {
+                "en": "mass produced"
+            },
+            "scopeNote": {
+                "en": "Includes most commercial discs or tapes."
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundtyp#c ",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7497",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundtyp#",
+            "notation": {
+                "en": "c "
+            },
+            "prefLabel": {
+                "en": "master tape"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundtyp#d ",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7498",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundtyp#",
+            "notation": {
+                "en": "d "
+            },
+            "prefLabel": {
+                "en": "tape duplication master"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundtyp#e ",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7499",
+            "definition": {
+                "en": "Negative."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundtyp#",
+            "notation": {
+                "en": "e "
+            },
+            "prefLabel": {
+                "en": "disc master"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundtyp#f ",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7500",
+            "definition": {
+                "en": "Positive."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundtyp#",
+            "notation": {
+                "en": "f "
+            },
+            "prefLabel": {
+                "en": "mother"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundtyp#g ",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7501",
+            "definition": {
+                "en": "Negative."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundtyp#",
+            "notation": {
+                "en": "g "
+            },
+            "prefLabel": {
+                "en": "stamper"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundtyp#h ",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7502",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundtyp#",
+            "notation": {
+                "en": "h "
+            },
+            "prefLabel": {
+                "en": "test pressing"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundtyp#u ",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7503",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundtyp#",
+            "notation": {
+                "en": "u "
+            },
+            "prefLabel": {
+                "en": "unknown"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundtyp#x",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7504",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundtyp#",
+            "notation": {
+                "en": "x"
+            },
+            "prefLabel": {
+                "en": "not applicable"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundtyp#z",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7505",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundtyp#",
+            "notation": {
+                "en": "z"
+            },
+            "prefLabel": {
+                "en": "other"
+            },
+            "status": "Published"
+        }
+    ]
+}

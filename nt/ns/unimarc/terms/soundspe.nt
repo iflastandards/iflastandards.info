@@ -1,0 +1,135 @@
+<http://iflastandards.info/ns/unimarc/terms/soundspe#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#> <http://purl.org/dc/elements/1.1/title> "UNIMARC: Sound recordings: Speed" .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#k\u00A0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#k\u00A0> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/soundspe#> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#k\u00A0> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#k\u00A0> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7580> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#k\u00A0> <http://www.w3.org/2004/02/skos/core#prefLabel> "1 \u215E in. per second"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#k\u00A0> <http://www.w3.org/2004/02/skos/core#notation> "k\u00A0"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#k\u00A0> <http://www.w3.org/2004/02/skos/core#definition> "Speed of sound recording tapes of 1 \u215E inches per second."@en .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#h\u00A0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#h\u00A0> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/soundspe#> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#h\u00A0> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#h\u00A0> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7578> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#h\u00A0> <http://www.w3.org/2004/02/skos/core#prefLabel> "1 in. per second (120 rpm)"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#h\u00A0> <http://www.w3.org/2004/02/skos/core#notation> "h\u00A0"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#h\u00A0> <http://www.w3.org/2004/02/skos/core#definition> "Speed of sound recording cylinders of 1 inch per second or 120 revolutions per minute."@en .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#g\u00A0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#g\u00A0> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/soundspe#> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#g\u00A0> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#g\u00A0> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7577> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#g\u00A0> <http://www.w3.org/2004/02/skos/core#prefLabel> "1.4 m. per second"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#g\u00A0> <http://www.w3.org/2004/02/skos/core#notation> "g\u00A0"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#g\u00A0> <http://www.w3.org/2004/02/skos/core#definition> "Speed of sound recording discs and compact discs of 1.4 metres per second."@en .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#o\u00A0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#o\u00A0> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/soundspe#> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#o\u00A0> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#o\u00A0> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7584> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#o\u00A0> <http://www.w3.org/2004/02/skos/core#prefLabel> "15 in. per second"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#o\u00A0> <http://www.w3.org/2004/02/skos/core#notation> "o\u00A0"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#o\u00A0> <http://www.w3.org/2004/02/skos/core#definition> "Speed of sound recording tapes of 15 inches per second."@en .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#l\u00A0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#l\u00A0> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/soundspe#> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#l\u00A0> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#l\u00A0> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7581> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#l\u00A0> <http://www.w3.org/2004/02/skos/core#prefLabel> "15/16 in. per second"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#l\u00A0> <http://www.w3.org/2004/02/skos/core#notation> "l\u00A0"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#l\u00A0> <http://www.w3.org/2004/02/skos/core#definition> "Speed of sound recording tapes of 15/16 inches per second."@en .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#a\u00A0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#a\u00A0> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/soundspe#> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#a\u00A0> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#a\u00A0> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7572> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#a\u00A0> <http://www.w3.org/2004/02/skos/core#prefLabel> "16 \u2154 rpm"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#a\u00A0> <http://www.w3.org/2004/02/skos/core#notation> "a\u00A0"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#a\u00A0> <http://www.w3.org/2004/02/skos/core#definition> "Speed of sound recording discs of 16 \u2154 revolutions per minute."@en .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#i\u00A0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#i\u00A0> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/soundspe#> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#i\u00A0> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#i\u00A0> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7579> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#i\u00A0> <http://www.w3.org/2004/02/skos/core#prefLabel> "160 rpm"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#i\u00A0> <http://www.w3.org/2004/02/skos/core#notation> "i\u00A0"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#i\u00A0> <http://www.w3.org/2004/02/skos/core#definition> "Speed of sound recording cylinders of 160 revolutions per minute."@en .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#m\u00A0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#m\u00A0> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/soundspe#> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#m\u00A0> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#m\u00A0> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7582> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#m\u00A0> <http://www.w3.org/2004/02/skos/core#prefLabel> "3 \u00BE in. per second"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#m\u00A0> <http://www.w3.org/2004/02/skos/core#notation> "m\u00A0"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#m\u00A0> <http://www.w3.org/2004/02/skos/core#definition> "Speed of sound recording tapes of 3 \u00BE inches per second."@en .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#p\u00A0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#p\u00A0> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/soundspe#> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#p\u00A0> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#p\u00A0> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7585> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#p\u00A0> <http://www.w3.org/2004/02/skos/core#prefLabel> "30 in. per second"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#p\u00A0> <http://www.w3.org/2004/02/skos/core#notation> "p\u00A0"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#p\u00A0> <http://www.w3.org/2004/02/skos/core#definition> "Speed of sound recording tapes of 30 inches per second."@en .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#b\u00A0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#b\u00A0> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/soundspe#> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#b\u00A0> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#b\u00A0> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7573> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#b\u00A0> <http://www.w3.org/2004/02/skos/core#prefLabel> "33 \u2153 rpm"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#b\u00A0> <http://www.w3.org/2004/02/skos/core#notation> "b\u00A0"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#b\u00A0> <http://www.w3.org/2004/02/skos/core#definition> "Speed of sound recording discs of 33 \u2153 revolutions per minute."@en .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#r\u00A0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#r\u00A0> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/soundspe#> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#r\u00A0> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#r\u00A0> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7587> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#r\u00A0> <http://www.w3.org/2004/02/skos/core#prefLabel> "4/10 in. per second"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#r\u00A0> <http://www.w3.org/2004/02/skos/core#notation> "r\u00A0"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#r\u00A0> <http://www.w3.org/2004/02/skos/core#definition> "Speed of sound recording tapes of 4/10 inches per second."@en .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#c\u00A0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#c\u00A0> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/soundspe#> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#c\u00A0> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#c\u00A0> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7574> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#c\u00A0> <http://www.w3.org/2004/02/skos/core#prefLabel> "45 rpm"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#c\u00A0> <http://www.w3.org/2004/02/skos/core#notation> "c\u00A0"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#c\u00A0> <http://www.w3.org/2004/02/skos/core#definition> "Speed of sound recording discs of 45 revolutions per minute."@en .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#n\u00A0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#n\u00A0> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/soundspe#> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#n\u00A0> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#n\u00A0> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7583> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#n\u00A0> <http://www.w3.org/2004/02/skos/core#prefLabel> "7 \u00BD in. per second"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#n\u00A0> <http://www.w3.org/2004/02/skos/core#notation> "n\u00A0"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#n\u00A0> <http://www.w3.org/2004/02/skos/core#definition> "Speed of sound recording tapes of 7 \u00BD inches per second."@en .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#d\u00A0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#d\u00A0> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/soundspe#> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#d\u00A0> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#d\u00A0> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7575> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#d\u00A0> <http://www.w3.org/2004/02/skos/core#prefLabel> "78 rpm"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#d\u00A0> <http://www.w3.org/2004/02/skos/core#notation> "d\u00A0"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#d\u00A0> <http://www.w3.org/2004/02/skos/core#definition> "Speed of sound recording discs of 78 revolutions per minute."@en .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#e\u00A0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#e\u00A0> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/soundspe#> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#e\u00A0> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#e\u00A0> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7576> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#e\u00A0> <http://www.w3.org/2004/02/skos/core#prefLabel> "8 rpm"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#e\u00A0> <http://www.w3.org/2004/02/skos/core#notation> "e\u00A0"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#e\u00A0> <http://www.w3.org/2004/02/skos/core#definition> "Speed of sound recording discs of 8 revolutions per minute."@en .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#q\u00A0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#q\u00A0> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/soundspe#> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#q\u00A0> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#q\u00A0> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7586> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#q\u00A0> <http://www.w3.org/2004/02/skos/core#prefLabel> "8/10 in. per second"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#q\u00A0> <http://www.w3.org/2004/02/skos/core#notation> "q\u00A0"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#q\u00A0> <http://www.w3.org/2004/02/skos/core#definition> "Speed of sound recording tapes of 8/10 inches per second."@en .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#x\u00A0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#x\u00A0> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/soundspe#> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#x\u00A0> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#x\u00A0> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7570> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#x\u00A0> <http://www.w3.org/2004/02/skos/core#prefLabel> "not applicable"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#x\u00A0> <http://www.w3.org/2004/02/skos/core#notation> "x\u00A0"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#z\u00A0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#z\u00A0> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/soundspe#> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#z\u00A0> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#z\u00A0> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7571> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#z\u00A0> <http://www.w3.org/2004/02/skos/core#prefLabel> "other"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#z\u00A0> <http://www.w3.org/2004/02/skos/core#notation> "z\u00A0"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#z\u00A0> <http://www.w3.org/2004/02/skos/core#scopeNote> "For example, non-standardized speed for microgrooves before 1906."@en .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#u\u00A0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#u\u00A0> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/soundspe#> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#u\u00A0> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#u\u00A0> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7569> .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#u\u00A0> <http://www.w3.org/2004/02/skos/core#prefLabel> "unknown"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundspe#u\u00A0> <http://www.w3.org/2004/02/skos/core#notation> "u\u00A0"@en .
+<http://metadataregistry.org/uri/RegStatus/1001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://metadataregistry.org/uri/RegStatus/1001> <http://www.w3.org/2004/02/skos/core#prefLabel> "Published"@en .

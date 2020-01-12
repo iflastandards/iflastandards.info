@@ -1,0 +1,145 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix reg: <http://metadataregistry.org/uri/profile/regap/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://iflastandards.info/ns/unimarc/terms/ter#>
+    dc:title "UNIMARC: Type of electronic resource" ;
+    a skos:ConceptScheme ;
+    skos:hasTopConcept <http://iflastandards.info/ns/unimarc/terms/ter#a>, <http://iflastandards.info/ns/unimarc/terms/ter#b>, <http://iflastandards.info/ns/unimarc/terms/ter#c>, <http://iflastandards.info/ns/unimarc/terms/ter#d>, <http://iflastandards.info/ns/unimarc/terms/ter#e>, <http://iflastandards.info/ns/unimarc/terms/ter#f>, <http://iflastandards.info/ns/unimarc/terms/ter#g>, <http://iflastandards.info/ns/unimarc/terms/ter#h>, <http://iflastandards.info/ns/unimarc/terms/ter#i>, <http://iflastandards.info/ns/unimarc/terms/ter#j>, <http://iflastandards.info/ns/unimarc/terms/ter#u>, <http://iflastandards.info/ns/unimarc/terms/ter#v>, <http://iflastandards.info/ns/unimarc/terms/ter#z> .
+
+<http://iflastandards.info/ns/unimarc/terms/ter#a>
+    reg:identifier <http://metadataregistry.org/concepts/6483> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:definition "A data file that contains mostly numbers or representation by numbers, such as records containing information on student test scores, information on football team statistics, etc.  The information may be original surveys or information that has been summarized or statistically manipulated."@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/ter#> ;
+    skos:notation "a"@en ;
+    skos:prefLabel "dati numerici"@it, "numeric"@en, "numérico"@pt ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/ter#> .
+
+<http://iflastandards.info/ns/unimarc/terms/ter#b>
+    reg:identifier <http://metadataregistry.org/concepts/6484> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:definition "A data file that contains an ordered set of instructions directing the computer to perform basic operations and identifying the information and mechanisms required."@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/ter#> ;
+    skos:notation "b"@en ;
+    skos:prefLabel "computer program"@en, "programas de computador"@pt, "programma informatico"@it ;
+    skos:scopeNote "Includes videogame and microcomputer software and computer models."@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/ter#> .
+
+<http://iflastandards.info/ns/unimarc/terms/ter#c>
+    reg:identifier <http://metadataregistry.org/concepts/6485> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:definition "A data file that contains pictorial or graphic information that can be manipulated in conjunction with other types of files to produce graphic patterns that can be used to interpret and give meaning to the information."@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/ter#> ;
+    skos:notation "c"@en ;
+    skos:prefLabel "dati grafici"@it, "figurativo"@pt, "representational"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/ter#> .
+
+<http://iflastandards.info/ns/unimarc/terms/ter#d>
+    reg:identifier <http://metadataregistry.org/concepts/6486> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:definition "A data file that contains mostly alphabetic information (words or sentences) converted into a coded format that can be processed, sorted, and manipulated by machine, and then retrieved in many optional formats."@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/ter#> ;
+    skos:notation "d"@en ;
+    skos:prefLabel "dati testuali"@it, "text"@en, "texto"@pt ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/ter#> .
+
+<http://iflastandards.info/ns/unimarc/terms/ter#e>
+    reg:identifier <http://metadataregistry.org/concepts/6487> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:definition "The resource consists of data with bibliographic citations. This includes data from library catalogs or citation databases. The data may be in a structured or unstructured form."@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/ter#> ;
+    skos:notation "e"@en ;
+    skos:prefLabel "bibliographic data"@en, "dados bibliográficos"@pt, "dati bibliografici"@it ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/ter#> .
+
+<http://iflastandards.info/ns/unimarc/terms/ter#f>
+    reg:identifier <http://metadataregistry.org/concepts/6488> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:definition "The resource contains information for a computer to produce fonts."@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/ter#> ;
+    skos:notation "f"@en ;
+    skos:prefLabel "font"@en, "fonte"@pt, "set di caratteri"@it ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/ter#> .
+
+<http://iflastandards.info/ns/unimarc/terms/ter#g>
+    reg:identifier <http://metadataregistry.org/concepts/6489> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:definition "The resource is a game, intended for recreational or educational use. Generally games consist of text and software."@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/ter#> ;
+    skos:notation "g"@en ;
+    skos:prefLabel "game"@en, "gioco"@it, "jogo"@pt ;
+    skos:scopeNote "Includes videogames."@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/ter#> .
+
+<http://iflastandards.info/ns/unimarc/terms/ter#h>
+    reg:identifier <http://metadataregistry.org/concepts/6490> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:definition "The resource consists of data encoding sounds produced by the computer."@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/ter#> ;
+    skos:notation "h"@en ;
+    skos:prefLabel "som"@pt, "sound"@en, "suono"@it ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/ter#> .
+
+<http://iflastandards.info/ns/unimarc/terms/ter#i>
+    reg:identifier <http://metadataregistry.org/concepts/6491> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:definition "The resource supports navigation through and manipulation of many kinds of media (i.e. audio, video, etc.)"@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/ter#> ;
+    skos:notation "i"@en ;
+    skos:prefLabel "interactive multimedia"@en, "multimedia interactivo"@pt, "multimediale interattivo"@it ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/ter#> .
+
+<http://iflastandards.info/ns/unimarc/terms/ter#j>
+    reg:identifier <http://metadataregistry.org/concepts/6492> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:definition "The resource is an online system or service and may contain non-bibliographic information. An online system or service supports system-based user interaction."@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/ter#> ;
+    skos:notation "j"@en ;
+    skos:prefLabel "online system or service"@en, "serviço ou sistema em linha"@pt, "sistema o servizio on line"@it ;
+    skos:scopeNote "Examples include online library systems; FTP sites; electronic bulletin boards; discussion groups/lists; World Wide Web sites, network information centres."@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/ter#> .
+
+<http://iflastandards.info/ns/unimarc/terms/ter#u>
+    reg:identifier <http://metadataregistry.org/concepts/6493> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/ter#> ;
+    skos:notation "u"@en ;
+    skos:prefLabel "desconhecido"@pt, "sconosciuto"@it, "unknown"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/ter#> .
+
+<http://iflastandards.info/ns/unimarc/terms/ter#v>
+    reg:identifier <http://metadataregistry.org/concepts/6494> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:definition "A data file with different types of content."@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/ter#> ;
+    skos:notation "v"@en ;
+    skos:prefLabel "combination"@en, "combinazione"@it, "combinação"@pt ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/ter#> .
+
+<http://iflastandards.info/ns/unimarc/terms/ter#z>
+    reg:identifier <http://metadataregistry.org/concepts/6495> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/ter#> ;
+    skos:notation "z"@en ;
+    skos:prefLabel "altro"@it, "other"@en, "outro"@pt ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/ter#> .
+
+<http://metadataregistry.org/uri/RegStatus/1001>
+    a skos:Concept ;
+    skos:prefLabel "Published"@en .
+

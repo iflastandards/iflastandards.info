@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+<!-- Scheme: UNIMARC: Electronic resources: Specific material designation -->
+    <skos:ConceptScheme rdf:about="http://iflastandards.info/ns/unimarc/terms/elecsmd#">
+        <dc:title>UNIMARC: Electronic resources: Specific material designation</dc:title>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/elecsmd#a"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/elecsmd#b"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/elecsmd#j"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/elecsmd#f"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/elecsmd#m"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/elecsmd#c"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/elecsmd#o"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/elecsmd#h"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/elecsmd#r"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/elecsmd#z"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/elecsmd#u"/>
+    </skos:ConceptScheme>
+
+<!-- Concept: cartridge magnetic tape  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/elecsmd#a" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/elecsmd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6472"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/elecsmd#"/>
+      <skos:prefLabel xml:lang="en">cartridge magnetic tape</skos:prefLabel>
+      <skos:notation xml:lang="en">a</skos:notation>
+    </skos:Concept>
+<!-- Concept: computer chip in cartridge  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/elecsmd#b" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/elecsmd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6473"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/elecsmd#"/>
+      <skos:prefLabel xml:lang="en">computer chip in cartridge</skos:prefLabel>
+      <skos:notation xml:lang="en">b</skos:notation>
+    </skos:Concept>
+<!-- Concept: computer floppy disk  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/elecsmd#j" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/elecsmd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6477"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/elecsmd#"/>
+      <skos:prefLabel xml:lang="en">computer floppy disk</skos:prefLabel>
+      <skos:notation xml:lang="en">j</skos:notation>
+    </skos:Concept>
+<!-- Concept: computer magnetic cassette tape  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/elecsmd#f" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/elecsmd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6475"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/elecsmd#"/>
+      <skos:prefLabel xml:lang="en">computer magnetic cassette tape</skos:prefLabel>
+      <skos:notation xml:lang="en">f</skos:notation>
+    </skos:Concept>
+<!-- Concept: computer magneto-optical disk  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/elecsmd#m" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/elecsmd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6478"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/elecsmd#"/>
+      <skos:prefLabel xml:lang="en">computer magneto-optical disk</skos:prefLabel>
+      <skos:notation xml:lang="en">m</skos:notation>
+    </skos:Concept>
+<!-- Concept: computer optical disc cartridge  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/elecsmd#c" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/elecsmd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6474"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/elecsmd#"/>
+      <skos:prefLabel xml:lang="en">computer optical disc cartridge</skos:prefLabel>
+      <skos:notation xml:lang="en">c</skos:notation>
+    </skos:Concept>
+<!-- Concept: computer optical disk  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/elecsmd#o" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/elecsmd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6479"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/elecsmd#"/>
+      <skos:prefLabel xml:lang="en">computer optical disk</skos:prefLabel>
+      <skos:notation xml:lang="en">o</skos:notation>
+    </skos:Concept>
+<!-- Concept: magnetic tape for main-frame computers  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/elecsmd#h" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/elecsmd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6476"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/elecsmd#"/>
+      <skos:prefLabel xml:lang="en">magnetic tape for main-frame computers</skos:prefLabel>
+      <skos:notation xml:lang="en">h</skos:notation>
+    </skos:Concept>
+<!-- Concept: online system  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/elecsmd#r" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/elecsmd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6480"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/elecsmd#"/>
+      <skos:prefLabel xml:lang="en">online system</skos:prefLabel>
+      <skos:notation xml:lang="en">r</skos:notation>
+    </skos:Concept>
+<!-- Concept: other  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/elecsmd#z" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/elecsmd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6482"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/elecsmd#"/>
+      <skos:prefLabel xml:lang="en">other</skos:prefLabel>
+      <skos:notation xml:lang="en">z</skos:notation>
+    </skos:Concept>
+<!-- Concept: unknown  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/elecsmd#u" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/elecsmd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6481"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/elecsmd#"/>
+      <skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+      <skos:notation xml:lang="en">u</skos:notation>
+    </skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

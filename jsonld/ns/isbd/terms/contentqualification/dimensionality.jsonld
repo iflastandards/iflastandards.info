@@ -1,0 +1,132 @@
+{
+    "@context": "http://iflastandards.info/ns/isbd/terms/contentqualification/Contexts/concepts_langmap.jsonld",
+    "@graph": [
+        {
+            "@id": "http://iflastandards.info/ns/isbd/terms/contentqualification/dimensionality",
+            "@type": "ConceptScheme",
+            "title": {
+                "en": "ISBD Content Qualification of Dimensionality"
+            },
+            "description": {
+                "en": "Content qualification sub-categories for the number of spatial dimensions in which the image content of a resource is intended to be perceived which expand the content form category of image."
+            },
+            "prefix": "",
+            "token": "dimensionality",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "label": "Published"
+            },
+            "omr_api": "http://api.metadataregistry.org/vocabularies/117",
+            "omr_home": "http://metadataregistry.org/vocabularies/117",
+            "count": 2,
+            "languages": [
+                {
+                    "code": "bg",
+                    "lang": "Bulgarian",
+                    "version": "Release 1"
+                },
+                {
+                    "code": "en",
+                    "lang": "English",
+                    "version": "Release 1"
+                },
+                {
+                    "code": "fr",
+                    "lang": "French",
+                    "version": "Release 1"
+                },
+                {
+                    "code": "hr",
+                    "lang": "Croatian",
+                    "version": "Release 1"
+                },
+                {
+                    "code": "it",
+                    "lang": "Italian",
+                    "version": "Release 1"
+                },
+                {
+                    "code": "lv",
+                    "lang": "Latvian",
+                    "version": "Release 1"
+                },
+                {
+                    "code": "ru",
+                    "lang": "Russian",
+                    "version": "Release 1"
+                },
+                {
+                    "code": "sr",
+                    "lang": "Serbian",
+                    "version": "Release 1"
+                },
+                {
+                    "code": "zh",
+                    "lang": "Chinese",
+                    "version": "Release 1"
+                }
+            ],
+            "dateOfPublication": "January 11, 2020"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/isbd/terms/contentqualification/dimensionality/T1001",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/1225",
+            "definition": {
+                "en": "Image content that is intended to be perceived in two dimensions.",
+                "es": "Contenido de imagen para que se perciba en dos dimensiones.",
+                "it": "Il contenuto di un’immagine che si intende far percepire in due dimensioni.",
+                "bg": "съдържание на изображение, предназначено да се възприема в две измерения.",
+                "ru": "Изображение, содержание которого предназначено для восприятия в двух измерениях.",
+                "sr": "Slikovni sadržaj koji treba da se doživi u dve dimenzije.",
+                "zh": "设计以二维被感知的图像内容。",
+                "lv": "Attēla saturs, uztverams divās dimensijās.",
+                "fr": "Contenu image prévu pour être perçu en deux dimensions."
+            },
+            "inScheme": "http://iflastandards.info/ns/isbd/terms/contentqualification/dimensionality",
+            "prefLabel": {
+                "en": "2-dimensional",
+                "es": "bidimensional",
+                "hr": "dvodimenzionalna",
+                "it": "bidimensionale",
+                "bg": "двуизмерно",
+                "ru": "двухмерное",
+                "sr": "dvodimenzionalni",
+                "zh": "2维",
+                "lv": "divdimensiju",
+                "fr": "bidimensionnelle"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/isbd/terms/contentqualification/dimensionality/T1002",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/1226",
+            "definition": {
+                "en": "Image content that is intended to be perceived in three dimensions.",
+                "es": "Contenido de imagen para que se perciba en tres dimensiones.",
+                "it": "Il contenuto di un’immagine che si intende far percepire in tre dimensioni.",
+                "bg": "съдържание на изображение, предназначено да се възприема в три измерения.",
+                "ru": "Изображение, содержание которого предназначено для восприятия в трех измерениях.",
+                "sr": "Slikovni sadržaj koji treba da se doživi u tri dimenzije.",
+                "zh": "设计以三维被感知的图像内容。",
+                "lv": "Attēla saturs, uztverams trīs dimensijās.",
+                "fr": "Contenu image prévu pour être perçu en trois dimensions."
+            },
+            "inScheme": "http://iflastandards.info/ns/isbd/terms/contentqualification/dimensionality",
+            "prefLabel": {
+                "en": "3-dimensional",
+                "es": "tridimensional",
+                "hr": "trodimenzionalna",
+                "it": "tridimensionale",
+                "bg": "триизмерно",
+                "ru": "трехмерное",
+                "sr": "trodimenzionalni",
+                "zh": "3维",
+                "lv": "trīsdimensiju",
+                "fr": "tridimensionnelle"
+            },
+            "status": "Published"
+        }
+    ]
+}

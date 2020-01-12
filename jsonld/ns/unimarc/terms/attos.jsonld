@@ -1,0 +1,80 @@
+{
+    "@context": "http://iflastandards.info/ns/unimarc/terms/Contexts/concepts_langmap.jsonld",
+    "@graph": [
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/attos#",
+            "@type": "ConceptScheme",
+            "title": {
+                "en": "UNIMARC: Cartographic materials: Attitude of sensor"
+            },
+            "description": {
+                "en": "The attitude of a sensed image resulting from the angle of an aerial photography or remote sensing sensor. "
+            },
+            "prefix": "",
+            "token": "attos",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "label": "Published"
+            },
+            "omr_api": "http://api.metadataregistry.org/vocabularies/330",
+            "omr_home": "http://metadataregistry.org/vocabularies/330",
+            "count": 3,
+            "languages": [
+                {
+                    "code": "en",
+                    "lang": "English",
+                    "version": "Release 1"
+                }
+            ],
+            "dateOfPublication": "January 11, 2020"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/attos#a",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6426",
+            "definition": {
+                "en": "Low oblique attitude."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/attos#",
+            "notation": {
+                "en": "a"
+            },
+            "prefLabel": {
+                "en": "low oblique"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/attos#b",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6427",
+            "definition": {
+                "en": "High oblique attitude."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/attos#",
+            "notation": {
+                "en": "b"
+            },
+            "prefLabel": {
+                "en": "high oblique"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/attos#c",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6428",
+            "definition": {
+                "en": "Vertical attitude."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/attos#",
+            "notation": {
+                "en": "c"
+            },
+            "prefLabel": {
+                "en": "vertical"
+            },
+            "status": "Published"
+        }
+    ]
+}

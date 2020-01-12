@@ -1,0 +1,148 @@
+<http://iflastandards.info/ns/unimarc/terms/ter#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<http://iflastandards.info/ns/unimarc/terms/ter#> <http://purl.org/dc/elements/1.1/title> "UNIMARC: Type of electronic resource" .
+<http://iflastandards.info/ns/unimarc/terms/ter#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/ter#e> .
+<http://iflastandards.info/ns/unimarc/terms/ter#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/ter#v> .
+<http://iflastandards.info/ns/unimarc/terms/ter#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/ter#b> .
+<http://iflastandards.info/ns/unimarc/terms/ter#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/ter#f> .
+<http://iflastandards.info/ns/unimarc/terms/ter#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/ter#g> .
+<http://iflastandards.info/ns/unimarc/terms/ter#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/ter#i> .
+<http://iflastandards.info/ns/unimarc/terms/ter#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/ter#a> .
+<http://iflastandards.info/ns/unimarc/terms/ter#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/ter#j> .
+<http://iflastandards.info/ns/unimarc/terms/ter#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/ter#z> .
+<http://iflastandards.info/ns/unimarc/terms/ter#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/ter#c> .
+<http://iflastandards.info/ns/unimarc/terms/ter#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/ter#h> .
+<http://iflastandards.info/ns/unimarc/terms/ter#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/ter#d> .
+<http://iflastandards.info/ns/unimarc/terms/ter#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/ter#u> .
+<http://iflastandards.info/ns/unimarc/terms/ter#e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/ter#e> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/ter#> .
+<http://iflastandards.info/ns/unimarc/terms/ter#e> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/ter#e> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6487> .
+<http://iflastandards.info/ns/unimarc/terms/ter#e> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/ter#> .
+<http://iflastandards.info/ns/unimarc/terms/ter#e> <http://www.w3.org/2004/02/skos/core#prefLabel> "bibliographic data"@en .
+<http://iflastandards.info/ns/unimarc/terms/ter#e> <http://www.w3.org/2004/02/skos/core#notation> "e"@en .
+<http://iflastandards.info/ns/unimarc/terms/ter#e> <http://www.w3.org/2004/02/skos/core#definition> "The resource consists of data with bibliographic citations. This includes data from library catalogs or citation databases. The data may be in a structured or unstructured form."@en .
+<http://iflastandards.info/ns/unimarc/terms/ter#e> <http://www.w3.org/2004/02/skos/core#prefLabel> "dados bibliogr\u00E1ficos"@pt .
+<http://iflastandards.info/ns/unimarc/terms/ter#e> <http://www.w3.org/2004/02/skos/core#prefLabel> "dati bibliografici"@it .
+<http://iflastandards.info/ns/unimarc/terms/ter#v> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/ter#v> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/ter#> .
+<http://iflastandards.info/ns/unimarc/terms/ter#v> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/ter#v> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6494> .
+<http://iflastandards.info/ns/unimarc/terms/ter#v> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/ter#> .
+<http://iflastandards.info/ns/unimarc/terms/ter#v> <http://www.w3.org/2004/02/skos/core#prefLabel> "combination"@en .
+<http://iflastandards.info/ns/unimarc/terms/ter#v> <http://www.w3.org/2004/02/skos/core#notation> "v"@en .
+<http://iflastandards.info/ns/unimarc/terms/ter#v> <http://www.w3.org/2004/02/skos/core#definition> "A data file with different types of content."@en .
+<http://iflastandards.info/ns/unimarc/terms/ter#v> <http://www.w3.org/2004/02/skos/core#prefLabel> "combina\u00E7\u00E3o"@pt .
+<http://iflastandards.info/ns/unimarc/terms/ter#v> <http://www.w3.org/2004/02/skos/core#prefLabel> "combinazione"@it .
+<http://iflastandards.info/ns/unimarc/terms/ter#b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/ter#b> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/ter#> .
+<http://iflastandards.info/ns/unimarc/terms/ter#b> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/ter#b> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6484> .
+<http://iflastandards.info/ns/unimarc/terms/ter#b> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/ter#> .
+<http://iflastandards.info/ns/unimarc/terms/ter#b> <http://www.w3.org/2004/02/skos/core#prefLabel> "computer program"@en .
+<http://iflastandards.info/ns/unimarc/terms/ter#b> <http://www.w3.org/2004/02/skos/core#notation> "b"@en .
+<http://iflastandards.info/ns/unimarc/terms/ter#b> <http://www.w3.org/2004/02/skos/core#definition> "A data file that contains an ordered set of instructions directing the computer to perform basic operations and identifying the information and mechanisms required."@en .
+<http://iflastandards.info/ns/unimarc/terms/ter#b> <http://www.w3.org/2004/02/skos/core#scopeNote> "Includes videogame and microcomputer software and computer models."@en .
+<http://iflastandards.info/ns/unimarc/terms/ter#b> <http://www.w3.org/2004/02/skos/core#prefLabel> "programma informatico"@it .
+<http://iflastandards.info/ns/unimarc/terms/ter#b> <http://www.w3.org/2004/02/skos/core#prefLabel> "programas de computador"@pt .
+<http://iflastandards.info/ns/unimarc/terms/ter#f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/ter#f> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/ter#> .
+<http://iflastandards.info/ns/unimarc/terms/ter#f> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/ter#f> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6488> .
+<http://iflastandards.info/ns/unimarc/terms/ter#f> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/ter#> .
+<http://iflastandards.info/ns/unimarc/terms/ter#f> <http://www.w3.org/2004/02/skos/core#prefLabel> "font"@en .
+<http://iflastandards.info/ns/unimarc/terms/ter#f> <http://www.w3.org/2004/02/skos/core#notation> "f"@en .
+<http://iflastandards.info/ns/unimarc/terms/ter#f> <http://www.w3.org/2004/02/skos/core#definition> "The resource contains information for a computer to produce fonts."@en .
+<http://iflastandards.info/ns/unimarc/terms/ter#f> <http://www.w3.org/2004/02/skos/core#prefLabel> "fonte"@pt .
+<http://iflastandards.info/ns/unimarc/terms/ter#f> <http://www.w3.org/2004/02/skos/core#prefLabel> "set di caratteri"@it .
+<http://iflastandards.info/ns/unimarc/terms/ter#g> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/ter#g> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/ter#> .
+<http://iflastandards.info/ns/unimarc/terms/ter#g> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/ter#g> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6489> .
+<http://iflastandards.info/ns/unimarc/terms/ter#g> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/ter#> .
+<http://iflastandards.info/ns/unimarc/terms/ter#g> <http://www.w3.org/2004/02/skos/core#prefLabel> "game"@en .
+<http://iflastandards.info/ns/unimarc/terms/ter#g> <http://www.w3.org/2004/02/skos/core#notation> "g"@en .
+<http://iflastandards.info/ns/unimarc/terms/ter#g> <http://www.w3.org/2004/02/skos/core#definition> "The resource is a game, intended for recreational or educational use. Generally games consist of text and software."@en .
+<http://iflastandards.info/ns/unimarc/terms/ter#g> <http://www.w3.org/2004/02/skos/core#scopeNote> "Includes videogames."@en .
+<http://iflastandards.info/ns/unimarc/terms/ter#g> <http://www.w3.org/2004/02/skos/core#prefLabel> "jogo"@pt .
+<http://iflastandards.info/ns/unimarc/terms/ter#g> <http://www.w3.org/2004/02/skos/core#prefLabel> "gioco"@it .
+<http://iflastandards.info/ns/unimarc/terms/ter#i> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/ter#i> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/ter#> .
+<http://iflastandards.info/ns/unimarc/terms/ter#i> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/ter#i> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6491> .
+<http://iflastandards.info/ns/unimarc/terms/ter#i> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/ter#> .
+<http://iflastandards.info/ns/unimarc/terms/ter#i> <http://www.w3.org/2004/02/skos/core#prefLabel> "interactive multimedia"@en .
+<http://iflastandards.info/ns/unimarc/terms/ter#i> <http://www.w3.org/2004/02/skos/core#notation> "i"@en .
+<http://iflastandards.info/ns/unimarc/terms/ter#i> <http://www.w3.org/2004/02/skos/core#definition> "The resource supports navigation through and manipulation of many kinds of media (i.e. audio, video, etc.)"@en .
+<http://iflastandards.info/ns/unimarc/terms/ter#i> <http://www.w3.org/2004/02/skos/core#prefLabel> "multimedia interactivo"@pt .
+<http://iflastandards.info/ns/unimarc/terms/ter#i> <http://www.w3.org/2004/02/skos/core#prefLabel> "multimediale interattivo"@it .
+<http://iflastandards.info/ns/unimarc/terms/ter#a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/ter#a> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/ter#> .
+<http://iflastandards.info/ns/unimarc/terms/ter#a> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/ter#a> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6483> .
+<http://iflastandards.info/ns/unimarc/terms/ter#a> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/ter#> .
+<http://iflastandards.info/ns/unimarc/terms/ter#a> <http://www.w3.org/2004/02/skos/core#prefLabel> "numeric"@en .
+<http://iflastandards.info/ns/unimarc/terms/ter#a> <http://www.w3.org/2004/02/skos/core#notation> "a"@en .
+<http://iflastandards.info/ns/unimarc/terms/ter#a> <http://www.w3.org/2004/02/skos/core#definition> "A data file that contains mostly numbers or representation by numbers, such as records containing information on student test scores, information on football team statistics, etc.  The information may be original surveys or information that has been summarized or statistically manipulated."@en .
+<http://iflastandards.info/ns/unimarc/terms/ter#a> <http://www.w3.org/2004/02/skos/core#prefLabel> "num\u00E9rico"@pt .
+<http://iflastandards.info/ns/unimarc/terms/ter#a> <http://www.w3.org/2004/02/skos/core#prefLabel> "dati numerici"@it .
+<http://iflastandards.info/ns/unimarc/terms/ter#j> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/ter#j> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/ter#> .
+<http://iflastandards.info/ns/unimarc/terms/ter#j> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/ter#j> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6492> .
+<http://iflastandards.info/ns/unimarc/terms/ter#j> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/ter#> .
+<http://iflastandards.info/ns/unimarc/terms/ter#j> <http://www.w3.org/2004/02/skos/core#prefLabel> "online system or service"@en .
+<http://iflastandards.info/ns/unimarc/terms/ter#j> <http://www.w3.org/2004/02/skos/core#notation> "j"@en .
+<http://iflastandards.info/ns/unimarc/terms/ter#j> <http://www.w3.org/2004/02/skos/core#definition> "The resource is an online system or service and may contain non-bibliographic information. An online system or service supports system-based user interaction."@en .
+<http://iflastandards.info/ns/unimarc/terms/ter#j> <http://www.w3.org/2004/02/skos/core#scopeNote> "Examples include online library systems; FTP sites; electronic bulletin boards; discussion groups/lists; World Wide Web sites, network information centres."@en .
+<http://iflastandards.info/ns/unimarc/terms/ter#j> <http://www.w3.org/2004/02/skos/core#prefLabel> "servi\u00E7o ou sistema em linha"@pt .
+<http://iflastandards.info/ns/unimarc/terms/ter#j> <http://www.w3.org/2004/02/skos/core#prefLabel> "sistema o servizio on line"@it .
+<http://iflastandards.info/ns/unimarc/terms/ter#z> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/ter#z> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/ter#> .
+<http://iflastandards.info/ns/unimarc/terms/ter#z> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/ter#z> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6495> .
+<http://iflastandards.info/ns/unimarc/terms/ter#z> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/ter#> .
+<http://iflastandards.info/ns/unimarc/terms/ter#z> <http://www.w3.org/2004/02/skos/core#prefLabel> "other"@en .
+<http://iflastandards.info/ns/unimarc/terms/ter#z> <http://www.w3.org/2004/02/skos/core#notation> "z"@en .
+<http://iflastandards.info/ns/unimarc/terms/ter#z> <http://www.w3.org/2004/02/skos/core#prefLabel> "outro"@pt .
+<http://iflastandards.info/ns/unimarc/terms/ter#z> <http://www.w3.org/2004/02/skos/core#prefLabel> "altro"@it .
+<http://iflastandards.info/ns/unimarc/terms/ter#c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/ter#c> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/ter#> .
+<http://iflastandards.info/ns/unimarc/terms/ter#c> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/ter#c> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6485> .
+<http://iflastandards.info/ns/unimarc/terms/ter#c> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/ter#> .
+<http://iflastandards.info/ns/unimarc/terms/ter#c> <http://www.w3.org/2004/02/skos/core#prefLabel> "representational"@en .
+<http://iflastandards.info/ns/unimarc/terms/ter#c> <http://www.w3.org/2004/02/skos/core#notation> "c"@en .
+<http://iflastandards.info/ns/unimarc/terms/ter#c> <http://www.w3.org/2004/02/skos/core#definition> "A data file that contains pictorial or graphic information that can be manipulated in conjunction with other types of files to produce graphic patterns that can be used to interpret and give meaning to the information."@en .
+<http://iflastandards.info/ns/unimarc/terms/ter#c> <http://www.w3.org/2004/02/skos/core#prefLabel> "figurativo"@pt .
+<http://iflastandards.info/ns/unimarc/terms/ter#c> <http://www.w3.org/2004/02/skos/core#prefLabel> "dati grafici"@it .
+<http://iflastandards.info/ns/unimarc/terms/ter#h> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/ter#h> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/ter#> .
+<http://iflastandards.info/ns/unimarc/terms/ter#h> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/ter#h> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6490> .
+<http://iflastandards.info/ns/unimarc/terms/ter#h> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/ter#> .
+<http://iflastandards.info/ns/unimarc/terms/ter#h> <http://www.w3.org/2004/02/skos/core#prefLabel> "sound"@en .
+<http://iflastandards.info/ns/unimarc/terms/ter#h> <http://www.w3.org/2004/02/skos/core#notation> "h"@en .
+<http://iflastandards.info/ns/unimarc/terms/ter#h> <http://www.w3.org/2004/02/skos/core#definition> "The resource consists of data encoding sounds produced by the computer."@en .
+<http://iflastandards.info/ns/unimarc/terms/ter#h> <http://www.w3.org/2004/02/skos/core#prefLabel> "som"@pt .
+<http://iflastandards.info/ns/unimarc/terms/ter#h> <http://www.w3.org/2004/02/skos/core#prefLabel> "suono"@it .
+<http://iflastandards.info/ns/unimarc/terms/ter#d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/ter#d> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/ter#> .
+<http://iflastandards.info/ns/unimarc/terms/ter#d> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/ter#d> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6486> .
+<http://iflastandards.info/ns/unimarc/terms/ter#d> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/ter#> .
+<http://iflastandards.info/ns/unimarc/terms/ter#d> <http://www.w3.org/2004/02/skos/core#prefLabel> "text"@en .
+<http://iflastandards.info/ns/unimarc/terms/ter#d> <http://www.w3.org/2004/02/skos/core#notation> "d"@en .
+<http://iflastandards.info/ns/unimarc/terms/ter#d> <http://www.w3.org/2004/02/skos/core#definition> "A data file that contains mostly alphabetic information (words or sentences) converted into a coded format that can be processed, sorted, and manipulated by machine, and then retrieved in many optional formats."@en .
+<http://iflastandards.info/ns/unimarc/terms/ter#d> <http://www.w3.org/2004/02/skos/core#prefLabel> "texto"@pt .
+<http://iflastandards.info/ns/unimarc/terms/ter#d> <http://www.w3.org/2004/02/skos/core#prefLabel> "dati testuali"@it .
+<http://iflastandards.info/ns/unimarc/terms/ter#u> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/ter#u> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/ter#> .
+<http://iflastandards.info/ns/unimarc/terms/ter#u> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/ter#u> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6493> .
+<http://iflastandards.info/ns/unimarc/terms/ter#u> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/ter#> .
+<http://iflastandards.info/ns/unimarc/terms/ter#u> <http://www.w3.org/2004/02/skos/core#prefLabel> "unknown"@en .
+<http://iflastandards.info/ns/unimarc/terms/ter#u> <http://www.w3.org/2004/02/skos/core#notation> "u"@en .
+<http://iflastandards.info/ns/unimarc/terms/ter#u> <http://www.w3.org/2004/02/skos/core#prefLabel> "desconhecido"@pt .
+<http://iflastandards.info/ns/unimarc/terms/ter#u> <http://www.w3.org/2004/02/skos/core#prefLabel> "sconosciuto"@it .
+<http://metadataregistry.org/uri/RegStatus/1001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://metadataregistry.org/uri/RegStatus/1001> <http://www.w3.org/2004/02/skos/core#prefLabel> "Published"@en .

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+<!-- Scheme: UNIMARC: Cartographic materials: Altitude of sensor -->
+    <skos:ConceptScheme rdf:about="http://iflastandards.info/ns/unimarc/terms/altos#">
+        <dc:title>UNIMARC: Cartographic materials: Altitude of sensor</dc:title>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/altos#b"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/altos#c"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/altos#a"/>
+    </skos:ConceptScheme>
+
+<!-- Concept: aerial  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/altos#b" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/altos#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6424"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/altos#"/>
+      <skos:prefLabel xml:lang="en">aerial</skos:prefLabel>
+      <skos:notation xml:lang="en">b</skos:notation>
+      <skos:definition xml:lang="en">Aerial altitude.</skos:definition>
+    </skos:Concept>
+<!-- Concept: space  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/altos#c" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/altos#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6425"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/altos#"/>
+      <skos:prefLabel xml:lang="en">space</skos:prefLabel>
+      <skos:notation xml:lang="en">c</skos:notation>
+      <skos:definition xml:lang="en">Altitude of space.</skos:definition>
+    </skos:Concept>
+<!-- Concept: terrestrial  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/altos#a" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/altos#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6423"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/altos#"/>
+      <skos:prefLabel xml:lang="en">terrestrial</skos:prefLabel>
+      <skos:notation xml:lang="en">a</skos:notation>
+      <skos:definition xml:lang="en">Terrestrial altitude.</skos:definition>
+    </skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

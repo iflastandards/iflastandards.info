@@ -1,0 +1,22 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix reg: <http://metadataregistry.org/uri/profile/regap/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/830/>
+    dc:title "UNIMARC/B elements 830"@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/830/U830__a>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/830/hasTextOfNoteInGeneralCataloguer'SNote.en> ;
+    reg:name "hasTextOfNoteInGeneralCataloguer'SNote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/830/> ;
+    rdfs:label "has Text of note in General cataloguer's note"@en .
+
+<http://metadataregistry.org/uri/RegStatus/1001>
+    a skos:Concept ;
+    skos:prefLabel "Published"@en .
+

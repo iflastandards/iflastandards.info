@@ -1,0 +1,101 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix reg: <http://metadataregistry.org/uri/profile/regap/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://iflastandards.info/ns/unimarc/terms/soundrep#>
+    dc:title "UNIMARC: Sound recordings: Special reproduction characteristics" ;
+    a skos:ConceptScheme .
+
+<http://iflastandards.info/ns/unimarc/terms/soundrep#a\u00A0>
+    reg:identifier <http://metadataregistry.org/concepts/7506> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/soundrep#> ;
+    skos:notation "a "@en ;
+    skos:prefLabel "NAB standard"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/soundrep#b\u00A0>
+    reg:identifier <http://metadataregistry.org/concepts/7507> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/soundrep#> ;
+    skos:notation "b "@en ;
+    skos:prefLabel "CCIR/IEC standard"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/soundrep#c\u00A0>
+    reg:identifier <http://metadataregistry.org/concepts/7508> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/soundrep#> ;
+    skos:notation "c "@en ;
+    skos:prefLabel "DBX processed"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/soundrep#d\u00A0>
+    reg:identifier <http://metadataregistry.org/concepts/7509> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/soundrep#> ;
+    skos:notation "d "@en ;
+    skos:prefLabel "digital (compact disc)"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/soundrep#e\u00A0>
+    reg:identifier <http://metadataregistry.org/concepts/7510> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/soundrep#> ;
+    skos:notation "e "@en ;
+    skos:prefLabel "Dolby‑A encoded"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/soundrep#f\u00A0>
+    reg:identifier <http://metadataregistry.org/concepts/7511> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/soundrep#> ;
+    skos:notation "f "@en ;
+    skos:prefLabel "Dolby‑B encoded"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/soundrep#g\u00A0>
+    reg:identifier <http://metadataregistry.org/concepts/7512> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/soundrep#> ;
+    skos:notation "g "@en ;
+    skos:prefLabel "Dolby‑C encoded"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/soundrep#h\u00A0>
+    reg:identifier <http://metadataregistry.org/concepts/7513> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/soundrep#> ;
+    skos:notation "h "@en ;
+    skos:prefLabel "CX encoded"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/soundrep#u\u00A0>
+    reg:identifier <http://metadataregistry.org/concepts/7515> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/soundrep#> ;
+    skos:notation "u "@en ;
+    skos:prefLabel "unknown"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/soundrep#x\u00A0>
+    reg:identifier <http://metadataregistry.org/concepts/7514> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/soundrep#> ;
+    skos:notation "x "@en ;
+    skos:prefLabel "not applicable"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/soundrep#z\u00A0>
+    reg:identifier <http://metadataregistry.org/concepts/7516> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/soundrep#> ;
+    skos:notation "z "@en ;
+    skos:prefLabel "other"@en .
+
+<http://metadataregistry.org/uri/RegStatus/1001>
+    a skos:Concept ;
+    skos:prefLabel "Published"@en .
+

@@ -1,0 +1,3032 @@
+{
+    "@context": "http://metadataregistry.org/uri/schema/Contexts/elements_langmap.jsonld",
+    "@graph": [
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/",
+            "@type": "ElementSet",
+            "title": {
+                "en": "Test (do not use)"
+            },
+            "description": {
+                "en": ""
+            },
+            "prefix": "",
+            "token": "unib",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "label": "Deprecated"
+            },
+            "omr_api": "http://api.metadataregistry.org/elementsets/101",
+            "omr_home": "http://metadataregistry.org/elementsets/101",
+            "count": 150,
+            "languages": [
+                {
+                    "code": "en",
+                    "lang": "English",
+                    "version": "Release 1"
+                }
+            ],
+            "dateOfPublication": "January 11, 2020"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1010_a",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest1"
+            },
+            "name": "UniTest1",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16579.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1010_b",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest2"
+            },
+            "name": "UniTest2",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16580.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1010_c",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest3"
+            },
+            "name": "UniTest3",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16581.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1010_d",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest4"
+            },
+            "name": "UniTest4",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16582.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1010_e",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest5"
+            },
+            "name": "UniTest5",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16583.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1010_f",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest6"
+            },
+            "name": "UniTest6",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16584.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1010_g",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest7"
+            },
+            "name": "UniTest7",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16585.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1010_h",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest8"
+            },
+            "name": "UniTest8",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16586.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1010_i",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest9"
+            },
+            "name": "UniTest9",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16587.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1010_j",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest10"
+            },
+            "name": "UniTest10",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16588.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1011_a",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest11"
+            },
+            "name": "UniTest11",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16589.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1011_b",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest12"
+            },
+            "name": "UniTest12",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16590.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1011_c",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest13"
+            },
+            "name": "UniTest13",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16591.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1011_d",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest14"
+            },
+            "name": "UniTest14",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16592.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1011_e",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest15"
+            },
+            "name": "UniTest15",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16593.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1011_f",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest16"
+            },
+            "name": "UniTest16",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16594.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1011_g",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest17"
+            },
+            "name": "UniTest17",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16595.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1011_h",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest18"
+            },
+            "name": "UniTest18",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16596.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1011_i",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest19"
+            },
+            "name": "UniTest19",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16597.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1011_j",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest20"
+            },
+            "name": "UniTest20",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16598.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1012_a",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest21"
+            },
+            "name": "UniTest21",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16599.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1012_b",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest22"
+            },
+            "name": "UniTest22",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16600.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1012_c",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest23"
+            },
+            "name": "UniTest23",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16601.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1012_d",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest24"
+            },
+            "name": "UniTest24",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16602.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1012_e",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest25"
+            },
+            "name": "UniTest25",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16603.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1012_f",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest26"
+            },
+            "name": "UniTest26",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16604.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1012_g",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest27"
+            },
+            "name": "UniTest27",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16605.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1012_h",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest28"
+            },
+            "name": "UniTest28",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16606.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1012_i",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest29"
+            },
+            "name": "UniTest29",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16607.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1012_j",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest30"
+            },
+            "name": "UniTest30",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16608.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B102__2",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest31"
+            },
+            "name": "UniTest31",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16612.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B102__a",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest32"
+            },
+            "name": "UniTest32",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16609.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B102__b",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest33"
+            },
+            "name": "UniTest33",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16610.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B102__c",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest34"
+            },
+            "name": "UniTest34",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16611.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B106__a",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest35"
+            },
+            "name": "UniTest35",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16613.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1230_a",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest36"
+            },
+            "name": "UniTest36",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16614.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1230_b",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest37"
+            },
+            "name": "UniTest37",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16615.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1230_c",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest38"
+            },
+            "name": "UniTest38",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16616.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1230_d",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest39"
+            },
+            "name": "UniTest39",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16617.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1230_e",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest40"
+            },
+            "name": "UniTest40",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16618.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1230_f",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest41"
+            },
+            "name": "UniTest41",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16619.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1230_g",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest42"
+            },
+            "name": "UniTest42",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16620.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1230_h",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest43"
+            },
+            "name": "UniTest43",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16621.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1230_i",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest44"
+            },
+            "name": "UniTest44",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16622.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1230_j",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest45"
+            },
+            "name": "UniTest45",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16623.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1230_k",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest46"
+            },
+            "name": "UniTest46",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16624.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1230_m",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest47"
+            },
+            "name": "UniTest47",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16625.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1230_n",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest48"
+            },
+            "name": "UniTest48",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16626.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1230_o",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest49"
+            },
+            "name": "UniTest49",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16627.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1230_p",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest50"
+            },
+            "name": "UniTest50",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16628.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1231_a",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest51"
+            },
+            "name": "UniTest51",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16629.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1231_b",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest52"
+            },
+            "name": "UniTest52",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16630.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1231_c",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest53"
+            },
+            "name": "UniTest53",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16631.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1231_d",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest54"
+            },
+            "name": "UniTest54",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16632.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1231_e",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest55"
+            },
+            "name": "UniTest55",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16633.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1231_f",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest56"
+            },
+            "name": "UniTest56",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16634.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1231_g",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest57"
+            },
+            "name": "UniTest57",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16635.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1231_h",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest58"
+            },
+            "name": "UniTest58",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16636.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1231_i",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest59"
+            },
+            "name": "UniTest59",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16637.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1231_j",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest60"
+            },
+            "name": "UniTest60",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16638.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1231_k",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest61"
+            },
+            "name": "UniTest61",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16639.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1231_m",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest62"
+            },
+            "name": "UniTest62",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16640.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1231_n",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest63"
+            },
+            "name": "UniTest63",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16641.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1231_o",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest64"
+            },
+            "name": "UniTest64",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16642.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1231_p",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest65"
+            },
+            "name": "UniTest65",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16643.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1232_a",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest66"
+            },
+            "name": "UniTest66",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16644.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1232_b",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest67"
+            },
+            "name": "UniTest67",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16645.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1232_c",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest68"
+            },
+            "name": "UniTest68",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16646.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1232_d",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest69"
+            },
+            "name": "UniTest69",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16647.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1232_e",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest70"
+            },
+            "name": "UniTest70",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16648.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1232_f",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest71"
+            },
+            "name": "UniTest71",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16649.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1232_g",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest72"
+            },
+            "name": "UniTest72",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16650.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1232_h",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest73"
+            },
+            "name": "UniTest73",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16651.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1232_i",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest74"
+            },
+            "name": "UniTest74",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16652.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1232_j",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest75"
+            },
+            "name": "UniTest75",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16653.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1232_k",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest76"
+            },
+            "name": "UniTest76",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16654.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1232_m",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest77"
+            },
+            "name": "UniTest77",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16655.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1232_n",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest78"
+            },
+            "name": "UniTest78",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16656.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1232_o",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest79"
+            },
+            "name": "UniTest79",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16657.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1232_p",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest80"
+            },
+            "name": "UniTest80",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16658.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1233_a",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest81"
+            },
+            "name": "UniTest81",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16659.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1233_b",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest82"
+            },
+            "name": "UniTest82",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16660.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1233_c",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest83"
+            },
+            "name": "UniTest83",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16661.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1233_d",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest84"
+            },
+            "name": "UniTest84",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16662.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1233_e",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest85"
+            },
+            "name": "UniTest85",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16663.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1233_f",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest86"
+            },
+            "name": "UniTest86",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16664.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1233_g",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest87"
+            },
+            "name": "UniTest87",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16665.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1233_h",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest88"
+            },
+            "name": "UniTest88",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16666.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1233_i",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest89"
+            },
+            "name": "UniTest89",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16667.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1233_j",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest90"
+            },
+            "name": "UniTest90",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16668.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1233_k",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest91"
+            },
+            "name": "UniTest91",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16669.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1233_m",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest92"
+            },
+            "name": "UniTest92",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16670.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1233_n",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest93"
+            },
+            "name": "UniTest93",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16671.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1233_o",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest94"
+            },
+            "name": "UniTest94",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16672.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1233_p",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest95"
+            },
+            "name": "UniTest95",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16673.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1234_a",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest96"
+            },
+            "name": "UniTest96",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16674.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1234_b",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest97"
+            },
+            "name": "UniTest97",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16675.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1234_c",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest98"
+            },
+            "name": "UniTest98",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16676.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1234_d",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest99"
+            },
+            "name": "UniTest99",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16677.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1234_e",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest100"
+            },
+            "name": "UniTest100",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16678.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1234_f",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest101"
+            },
+            "name": "UniTest101",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16679.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1234_g",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest102"
+            },
+            "name": "UniTest102",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16680.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1234_h",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest103"
+            },
+            "name": "UniTest103",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16681.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1234_i",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest104"
+            },
+            "name": "UniTest104",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16682.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1234_j",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest105"
+            },
+            "name": "UniTest105",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16683.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1234_k",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest106"
+            },
+            "name": "UniTest106",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16684.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1234_m",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest107"
+            },
+            "name": "UniTest107",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16685.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1234_n",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest108"
+            },
+            "name": "UniTest108",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16686.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1234_o",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest109"
+            },
+            "name": "UniTest109",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16687.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1234_p",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest110"
+            },
+            "name": "UniTest110",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16688.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B124__a",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest111"
+            },
+            "name": "UniTest111",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16689.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B124__b",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest112"
+            },
+            "name": "UniTest112",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16690.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B124__c",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest113"
+            },
+            "name": "UniTest113",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16691.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B124__d",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest114"
+            },
+            "name": "UniTest114",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16692.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B124__e",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest115"
+            },
+            "name": "UniTest115",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16693.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B124__f",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest116"
+            },
+            "name": "UniTest116",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16694.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B124__g",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest117"
+            },
+            "name": "UniTest117",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16695.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B125__b",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest118"
+            },
+            "name": "UniTest118",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16696.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B125__c",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest119"
+            },
+            "name": "UniTest119",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16697.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B127__a",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest120"
+            },
+            "name": "UniTest120",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16698.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B128__a",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest121"
+            },
+            "name": "UniTest121",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16699.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B128__b",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest122"
+            },
+            "name": "UniTest122",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16700.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B128__c",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest123"
+            },
+            "name": "UniTest123",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16701.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B128__d",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest124"
+            },
+            "name": "UniTest124",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16702.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B131__a",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest125"
+            },
+            "name": "UniTest125",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16703.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B131__b",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest126"
+            },
+            "name": "UniTest126",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16704.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B131__c",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest127"
+            },
+            "name": "UniTest127",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16705.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B131__d",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest128"
+            },
+            "name": "UniTest128",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16706.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B131__e",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest129"
+            },
+            "name": "UniTest129",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16707.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B131__f",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest130"
+            },
+            "name": "UniTest130",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16708.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B131__g",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest131"
+            },
+            "name": "UniTest131",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16709.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B131__h",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest132"
+            },
+            "name": "UniTest132",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16710.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B131__i",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest133"
+            },
+            "name": "UniTest133",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16711.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B131__j",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest134"
+            },
+            "name": "UniTest134",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16712.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B131__k",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest135"
+            },
+            "name": "UniTest135",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16713.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B131__l",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest136"
+            },
+            "name": "UniTest136",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16714.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B141__5",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest137"
+            },
+            "name": "UniTest137",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16718.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B141__c",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest138"
+            },
+            "name": "UniTest138",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16715.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B141__d",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest139"
+            },
+            "name": "UniTest139",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16716.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B141__f",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest140"
+            },
+            "name": "UniTest140",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16717.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1450_a",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest142"
+            },
+            "name": "UniTest142",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16719.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B14501a",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest141"
+            },
+            "name": "UniTest141",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16720.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1451_a",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest144"
+            },
+            "name": "UniTest144",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16721.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B14511a",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest143"
+            },
+            "name": "UniTest143",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16722.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B146__a",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest150"
+            },
+            "name": "UniTest150",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16723.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B146_1a",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest149"
+            },
+            "name": "UniTest149",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16724.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1460_a",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest146"
+            },
+            "name": "UniTest146",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16725.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B14601a",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest145"
+            },
+            "name": "UniTest145",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16726.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B1461_a",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest148"
+            },
+            "name": "UniTest148",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16727.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unib/B14611a",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unib/",
+                "url": "http://metadataregistry.org/schema/show/id/101.html",
+                "label": "Test (do not use)"
+            },
+            "label": {
+                "en": "UniTest147"
+            },
+            "name": "UniTest147",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
+                "url": "http://metadataregistry.org/concept/show/id/419.html",
+                "label": "Deprecated"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/16728.html"
+        }
+    ]
+}

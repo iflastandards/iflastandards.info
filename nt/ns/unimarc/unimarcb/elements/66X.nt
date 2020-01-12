@@ -1,0 +1,16 @@
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/66X/> <http://purl.org/dc/elements/1.1/title> "UNIMARC/B elements 66X"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/66X/U660__a> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/66X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/66X/U660__a> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/66X/U660__a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/66X/U660__a> <http://metadataregistry.org/uri/profile/regap/name> "hasCodeInGeographicAreaCode"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/66X/U660__a> <http://www.w3.org/2000/01/rdf-schema#label> "has Code in Geographic area code"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/66X/U660__a> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <ub6xx:hasCodeInGeographicAreaCode.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/66X/U660__a> <http://www.w3.org/2004/02/skos/core#definition> "Geographic area code."@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/66X/U661__a> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/66X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/66X/U661__a> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/66X/U661__a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/66X/U661__a> <http://metadataregistry.org/uri/profile/regap/name> "hasTimePeriodCodeInTimePeriodCode"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/66X/U661__a> <http://www.w3.org/2000/01/rdf-schema#label> "has Time period code in Time period code"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/66X/U661__a> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/66X/hasTimePeriodCodeInTimePeriodCode.en> .
+<http://metadataregistry.org/uri/RegStatus/1001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://metadataregistry.org/uri/RegStatus/1001> <http://www.w3.org/2004/02/skos/core#prefLabel> "Published"@en .

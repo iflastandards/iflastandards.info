@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+<!-- Scheme: UNIMARC: Cartographic materials: Map projection -->
+    <skos:ConceptScheme rdf:about="http://iflastandards.info/ns/unimarc/terms/cartpro#">
+        <dc:title>UNIMARC: Cartographic materials: Map projection</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: Aitoff  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartpro#aa" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartpro#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7841"/>
+      <skos:prefLabel xml:lang="en">Aitoff</skos:prefLabel>
+      <skos:notation xml:lang="en">aa</skos:notation>
+      <skos:definition xml:lang="en">Azimuthal projection</skos:definition>
+    </skos:Concept>
+<!-- Concept: Albers equal area  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartpro#ca" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartpro#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7865"/>
+      <skos:prefLabel xml:lang="en">Albers equal area</skos:prefLabel>
+      <skos:notation xml:lang="en">ca</skos:notation>
+      <skos:definition xml:lang="en">Conic projection</skos:definition>
+    </skos:Concept>
+<!-- Concept: armadillo  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartpro#da" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartpro#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7876"/>
+      <skos:prefLabel xml:lang="en">armadillo</skos:prefLabel>
+      <skos:notation xml:lang="en">da</skos:notation>
+    </skos:Concept>
+<!-- Concept: azimuthal equal area  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartpro#ag" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartpro#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7847"/>
+      <skos:prefLabel xml:lang="en">azimuthal equal area</skos:prefLabel>
+      <skos:notation xml:lang="en">ag</skos:notation>
+      <skos:definition xml:lang="en">Azimuthal projection</skos:definition>
+    </skos:Concept>
+<!-- Concept: azimuthal equidistant  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartpro#ae" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartpro#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7845"/>
+      <skos:prefLabel xml:lang="en">azimuthal equidistant</skos:prefLabel>
+      <skos:notation xml:lang="en">ae</skos:notation>
+      <skos:definition xml:lang="en">Azimuthal projection</skos:definition>
+    </skos:Concept>
+<!-- Concept: azimuthal, other known specific type  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartpro#az" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartpro#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7849"/>
+      <skos:prefLabel xml:lang="en">azimuthal, other known specific type</skos:prefLabel>
+      <skos:notation xml:lang="en">az</skos:notation>
+      <skos:definition xml:lang="en">Azimuthal projection</skos:definition>
+    </skos:Concept>
+<!-- Concept: azimuthal, specific type unknown  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartpro#au" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartpro#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7848"/>
+      <skos:prefLabel xml:lang="en">azimuthal, specific type unknown</skos:prefLabel>
+      <skos:notation xml:lang="en">au</skos:notation>
+      <skos:definition xml:lang="en">Azimuthal projection</skos:definition>
+    </skos:Concept>
+<!-- Concept: Bonne  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartpro#cb" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartpro#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7866"/>
+      <skos:prefLabel xml:lang="en">Bonne</skos:prefLabel>
+      <skos:notation xml:lang="en">cb</skos:notation>
+      <skos:definition xml:lang="en">Conic projection</skos:definition>
+    </skos:Concept>
+<!-- Concept: butterfly  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartpro#db" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartpro#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7877"/>
+      <skos:prefLabel xml:lang="en">butterfly</skos:prefLabel>
+      <skos:notation xml:lang="en">db</skos:notation>
+    </skos:Concept>
+<!-- Concept: Cassini's  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartpro#bk" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartpro#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7860"/>
+      <skos:prefLabel xml:lang="en">Cassini's</skos:prefLabel>
+      <skos:notation xml:lang="en">bk</skos:notation>
+      <skos:definition xml:lang="en">Cylindrical projection</skos:definition>
+    </skos:Concept>
+<!-- Concept: conic (simple)  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartpro#cd" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartpro#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7868"/>
+      <skos:prefLabel xml:lang="en">conic (simple)</skos:prefLabel>
+      <skos:notation xml:lang="en">cd</skos:notation>
+      <skos:definition xml:lang="en">Conic projection</skos:definition>
+    </skos:Concept>
+<!-- Concept: conic, other known specific type  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartpro#cz" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartpro#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7875"/>
+      <skos:prefLabel xml:lang="en">conic, other known specific type</skos:prefLabel>
+      <skos:notation xml:lang="en">cz</skos:notation>
+      <skos:definition xml:lang="en">Conic projection</skos:definition>
+    </skos:Concept>
+<!-- Concept: conic, specific type unknown  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartpro#cu" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartpro#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7874"/>
+      <skos:prefLabel xml:lang="en">conic, specific type unknown</skos:prefLabel>
+      <skos:notation xml:lang="en">cu</skos:notation>
+      <skos:definition xml:lang="en">Conic projection</skos:definition>
+    </skos:Concept>
+<!-- Concept: cordiform  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartpro#dh" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartpro#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7883"/>
+      <skos:prefLabel xml:lang="en">cordiform</skos:prefLabel>
+      <skos:notation xml:lang="en">dh</skos:notation>
+    </skos:Concept>
+<!-- Concept: cylindrical, other known specific type  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartpro#bz" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartpro#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7864"/>
+      <skos:prefLabel xml:lang="en">cylindrical, other known specific type</skos:prefLabel>
+      <skos:notation xml:lang="en">bz</skos:notation>
+      <skos:definition xml:lang="en">Cylindrical projection</skos:definition>
+    </skos:Concept>
+<!-- Concept: cylindrical, specific  type unknown  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartpro#bu" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartpro#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7863"/>
+      <skos:prefLabel xml:lang="en">cylindrical, specific  type unknown</skos:prefLabel>
+      <skos:notation xml:lang="en">bu</skos:notation>
+      <skos:definition xml:lang="en">Cylindrical projection</skos:definition>
+    </skos:Concept>
+<!-- Concept: De Lisle  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartpro#cf" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartpro#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7870"/>
+      <skos:prefLabel xml:lang="en">De Lisle</skos:prefLabel>
+      <skos:notation xml:lang="en">cf</skos:notation>
+      <skos:definition xml:lang="en">Conic projection</skos:definition>
+    </skos:Concept>
+<!-- Concept: dimaxion  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartpro#dg" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartpro#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7882"/>
+      <skos:prefLabel xml:lang="en">dimaxion</skos:prefLabel>
+      <skos:notation xml:lang="en">dg</skos:notation>
+    </skos:Concept>
+<!-- Concept: Eckert  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartpro#dc" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartpro#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7878"/>
+      <skos:prefLabel xml:lang="en">Eckert</skos:prefLabel>
+      <skos:notation xml:lang="en">dc</skos:notation>
+    </skos:Concept>
+<!-- Concept: Gall  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartpro#ba" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartpro#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7850"/>
+      <skos:prefLabel xml:lang="en">Gall</skos:prefLabel>
+      <skos:notation xml:lang="en">ba</skos:notation>
+      <skos:definition xml:lang="en">Cylindrical projection</skos:definition>
+    </skos:Concept>
+<!-- Concept: Gauss  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartpro#bi" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartpro#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7858"/>
+      <skos:prefLabel xml:lang="en">Gauss</skos:prefLabel>
+      <skos:notation xml:lang="en">bi</skos:notation>
+      <skos:definition xml:lang="en">Cylindrical projection</skos:definition>
+    </skos:Concept>
+<!-- Concept: gnomonic  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartpro#ab" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartpro#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7842"/>
+      <skos:prefLabel xml:lang="en">gnomonic</skos:prefLabel>
+      <skos:notation xml:lang="en">ab</skos:notation>
+      <skos:definition xml:lang="en">Azimuthal projection</skos:definition>
+    </skos:Concept>
+<!-- Concept: Goode's homolographic  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartpro#bb" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartpro#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7851"/>
+      <skos:prefLabel xml:lang="en">Goode's homolographic</skos:prefLabel>
+      <skos:notation xml:lang="en">bb</skos:notation>
+      <skos:definition xml:lang="en">Cylindrical projection</skos:definition>
+    </skos:Concept>
+<!-- Concept: Goode's homolosine  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartpro#dd" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartpro#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7879"/>
+      <skos:prefLabel xml:lang="en">Goode's homolosine</skos:prefLabel>
+      <skos:notation xml:lang="en">dd</skos:notation>
+    </skos:Concept>
+<!-- Concept: Laborde  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartpro#bl" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartpro#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7861"/>
+      <skos:prefLabel xml:lang="en">Laborde</skos:prefLabel>
+      <skos:notation xml:lang="en">bl</skos:notation>
+      <skos:definition xml:lang="en">Cylindrical projection</skos:definition>
+    </skos:Concept>
+<!-- Concept: Lambert's azimuthal equal area  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartpro#ac" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartpro#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7843"/>
+      <skos:prefLabel xml:lang="en">Lambert's azimuthal equal area</skos:prefLabel>
+      <skos:notation xml:lang="en">ac</skos:notation>
+      <skos:definition xml:lang="en">Azimuthal projection</skos:definition>
+    </skos:Concept>
+<!-- Concept: Lambert's conformal conic  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartpro#cc" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartpro#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7867"/>
+      <skos:prefLabel xml:lang="en">Lambert's conformal conic</skos:prefLabel>
+      <skos:notation xml:lang="en">cc</skos:notation>
+      <skos:definition xml:lang="en">Conic projection</skos:definition>
+    </skos:Concept>
+<!-- Concept: Lambert's cylindrical equal area  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartpro#bc" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartpro#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7852"/>
+      <skos:prefLabel xml:lang="en">Lambert's cylindrical equal area</skos:prefLabel>
+      <skos:notation xml:lang="en">bc</skos:notation>
+      <skos:definition xml:lang="en">Cylindrical projection</skos:definition>
+    </skos:Concept>
+<!-- Concept: Mercator  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartpro#bd" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartpro#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7853"/>
+      <skos:prefLabel xml:lang="en">Mercator</skos:prefLabel>
+      <skos:notation xml:lang="en">bd</skos:notation>
+      <skos:definition xml:lang="en">Cylindrical projection</skos:definition>
+    </skos:Concept>
+<!-- Concept: Miller  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartpro#be" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartpro#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7854"/>
+      <skos:prefLabel xml:lang="en">Miller</skos:prefLabel>
+      <skos:notation xml:lang="en">be</skos:notation>
+      <skos:definition xml:lang="en">Cylindrical projection</skos:definition>
+    </skos:Concept>
+<!-- Concept: Miller's bipolar  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartpro#de" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartpro#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7880"/>
+      <skos:prefLabel xml:lang="en">Miller's bipolar</skos:prefLabel>
+      <skos:notation xml:lang="en">de</skos:notation>
+    </skos:Concept>
+<!-- Concept: Miller's bipolar oblique conformal conic  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartpro#ce" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartpro#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7869"/>
+      <skos:prefLabel xml:lang="en">Miller's bipolar oblique conformal conic</skos:prefLabel>
+      <skos:notation xml:lang="en">ce</skos:notation>
+      <skos:definition xml:lang="en">Conic projection</skos:definition>
+    </skos:Concept>
+<!-- Concept: Mollweide  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartpro#bf" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartpro#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7855"/>
+      <skos:prefLabel xml:lang="en">Mollweide</skos:prefLabel>
+      <skos:notation xml:lang="en">bf</skos:notation>
+      <skos:definition xml:lang="en">Cylindrical projection</skos:definition>
+    </skos:Concept>
+<!-- Concept: not applicable  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartpro#xx" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartpro#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7886"/>
+      <skos:prefLabel xml:lang="en">not applicable</skos:prefLabel>
+      <skos:notation xml:lang="en">xx</skos:notation>
+    </skos:Concept>
+<!-- Concept: Oblique Mercator  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartpro#bm" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartpro#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7862"/>
+      <skos:prefLabel xml:lang="en">Oblique Mercator</skos:prefLabel>
+      <skos:notation xml:lang="en">bm</skos:notation>
+      <skos:definition xml:lang="en">Cylindrical projection</skos:definition>
+    </skos:Concept>
+<!-- Concept: orthographic  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartpro#ad" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartpro#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7844"/>
+      <skos:prefLabel xml:lang="en">orthographic</skos:prefLabel>
+      <skos:notation xml:lang="en">ad</skos:notation>
+      <skos:definition xml:lang="en">Azimuthal projection</skos:definition>
+    </skos:Concept>
+<!-- Concept: other known type  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartpro#zz" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartpro#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7887"/>
+      <skos:prefLabel xml:lang="en">other known type</skos:prefLabel>
+      <skos:notation xml:lang="en">zz</skos:notation>
+    </skos:Concept>
+<!-- Concept: Plate Carree  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartpro#bj" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartpro#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7859"/>
+      <skos:prefLabel xml:lang="en">Plate Carree</skos:prefLabel>
+      <skos:notation xml:lang="en">bj</skos:notation>
+      <skos:definition xml:lang="en">Cylindrical projection</skos:definition>
+    </skos:Concept>
+<!-- Concept: polyconic  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartpro#cp" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartpro#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7873"/>
+      <skos:prefLabel xml:lang="en">polyconic</skos:prefLabel>
+      <skos:notation xml:lang="en">cp</skos:notation>
+      <skos:definition xml:lang="en">Conic projection</skos:definition>
+    </skos:Concept>
+<!-- Concept: polyhedric  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartpro#di" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartpro#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7884"/>
+      <skos:prefLabel xml:lang="en">polyhedric</skos:prefLabel>
+      <skos:notation xml:lang="en">di</skos:notation>
+    </skos:Concept>
+<!-- Concept: projection of the International Map  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartpro#cg" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartpro#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7871"/>
+      <skos:prefLabel xml:lang="en">projection of the International Map</skos:prefLabel>
+      <skos:notation xml:lang="en">cg</skos:notation>
+      <skos:definition xml:lang="en">Conic projection</skos:definition>
+    </skos:Concept>
+<!-- Concept: sinusoidal  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartpro#bg" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartpro#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7856"/>
+      <skos:prefLabel xml:lang="en">sinusoidal</skos:prefLabel>
+      <skos:notation xml:lang="en">bg</skos:notation>
+      <skos:definition xml:lang="en">Cylindrical projection</skos:definition>
+    </skos:Concept>
+<!-- Concept: stereographic  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartpro#af" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartpro#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7846"/>
+      <skos:prefLabel xml:lang="en">stereographic</skos:prefLabel>
+      <skos:notation xml:lang="en">af</skos:notation>
+      <skos:definition xml:lang="en">Azimuthal projection</skos:definition>
+    </skos:Concept>
+<!-- Concept: Tissot's conformal conic  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartpro#ch" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartpro#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7872"/>
+      <skos:prefLabel xml:lang="en">Tissot's conformal conic</skos:prefLabel>
+      <skos:notation xml:lang="en">ch</skos:notation>
+      <skos:definition xml:lang="en">Conic projection</skos:definition>
+    </skos:Concept>
+<!-- Concept: transverse Mercator  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartpro#bh" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartpro#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7857"/>
+      <skos:prefLabel xml:lang="en">transverse Mercator</skos:prefLabel>
+      <skos:notation xml:lang="en">bh</skos:notation>
+      <skos:definition xml:lang="en">Cylindrical projection</skos:definition>
+    </skos:Concept>
+<!-- Concept: type of projection  unknown  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartpro#uu" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartpro#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7885"/>
+      <skos:prefLabel xml:lang="en">type of projection  unknown</skos:prefLabel>
+      <skos:notation xml:lang="en">uu</skos:notation>
+    </skos:Concept>
+<!-- Concept: Van der Griten  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartpro#df" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartpro#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7881"/>
+      <skos:prefLabel xml:lang="en">Van der Griten</skos:prefLabel>
+      <skos:notation xml:lang="en">df</skos:notation>
+    </skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

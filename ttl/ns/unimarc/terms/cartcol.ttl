@@ -1,0 +1,32 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix reg: <http://metadataregistry.org/uri/profile/regap/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://iflastandards.info/ns/unimarc/terms/cartcol#>
+    dc:title "UNIMARC: Cartographic materials: Colour indicator" ;
+    a skos:ConceptScheme ;
+    skos:hasTopConcept <http://iflastandards.info/ns/unimarc/terms/cartcol#a>, <http://iflastandards.info/ns/unimarc/terms/cartcol#b> .
+
+<http://iflastandards.info/ns/unimarc/terms/cartcol#a>
+    reg:identifier <http://metadataregistry.org/concepts/7588> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/cartcol#> ;
+    skos:notation "a"@en ;
+    skos:prefLabel "one colour"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/cartcol#> .
+
+<http://iflastandards.info/ns/unimarc/terms/cartcol#b>
+    reg:identifier <http://metadataregistry.org/concepts/7589> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/cartcol#> ;
+    skos:notation "b"@en ;
+    skos:prefLabel "multi-colour"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/cartcol#> .
+
+<http://metadataregistry.org/uri/RegStatus/1001>
+    a skos:Concept ;
+    skos:prefLabel "Published"@en .
+

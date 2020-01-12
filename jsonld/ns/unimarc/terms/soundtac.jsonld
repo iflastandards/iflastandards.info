@@ -1,0 +1,175 @@
+{
+    "@context": "http://iflastandards.info/ns/unimarc/terms/Contexts/concepts_langmap.jsonld",
+    "@graph": [
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundtac#",
+            "@type": "ConceptScheme",
+            "title": {
+                "en": "UNIMARC: Sound recordings: Tape configuration"
+            },
+            "description": {
+                "en": "The tape configuration of a sound recording."
+            },
+            "prefix": "",
+            "token": "soundtac",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "label": "Published"
+            },
+            "omr_api": "http://api.metadataregistry.org/vocabularies/391",
+            "omr_home": "http://metadataregistry.org/vocabularies/391",
+            "count": 11,
+            "languages": [
+                {
+                    "code": "en",
+                    "lang": "English",
+                    "version": "Release 1"
+                }
+            ],
+            "dateOfPublication": "January 11, 2020"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundtac#a ",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7558",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundtac#",
+            "notation": {
+                "en": "a "
+            },
+            "prefLabel": {
+                "en": "full (1) track"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundtac#b ",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7559",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundtac#",
+            "notation": {
+                "en": "b "
+            },
+            "prefLabel": {
+                "en": "half (2) track"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundtac#c ",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7560",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundtac#",
+            "notation": {
+                "en": "c "
+            },
+            "prefLabel": {
+                "en": "quarter (4) track"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundtac#d ",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7561",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundtac#",
+            "notation": {
+                "en": "d "
+            },
+            "prefLabel": {
+                "en": "eight track"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundtac#e ",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7562",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundtac#",
+            "notation": {
+                "en": "e "
+            },
+            "prefLabel": {
+                "en": "twelve track"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundtac#f ",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7563",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundtac#",
+            "notation": {
+                "en": "f "
+            },
+            "prefLabel": {
+                "en": "sixteen track"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundtac#g ",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7564",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundtac#",
+            "notation": {
+                "en": "g "
+            },
+            "prefLabel": {
+                "en": "twenty‑four track"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundtac#h ",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7565",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundtac#",
+            "notation": {
+                "en": "h "
+            },
+            "prefLabel": {
+                "en": "six track"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundtac#u ",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7566",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundtac#",
+            "notation": {
+                "en": "u "
+            },
+            "prefLabel": {
+                "en": "unknown"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundtac#x ",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7567",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundtac#",
+            "notation": {
+                "en": "x "
+            },
+            "prefLabel": {
+                "en": "recording not a tape"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundtac#z ",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7568",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundtac#",
+            "notation": {
+                "en": "z "
+            },
+            "prefLabel": {
+                "en": "other"
+            },
+            "status": "Published"
+        }
+    ]
+}

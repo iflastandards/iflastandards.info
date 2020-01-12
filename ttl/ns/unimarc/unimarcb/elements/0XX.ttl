@@ -1,0 +1,1877 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix reg: <http://metadataregistry.org/uri/profile/regap/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/>
+    dc:title "UNIMARC/B elements 0XX"@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U010__6>
+    reg:name "hasInterfieldLinkingDataInInternationalStandardBookNumber"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Interfield linking data in International Standard Book Number"@en ;
+    skos:definition "Information allowing the field to be linked for processing purposes to other fields in the record, and a code indicating the reason for the link."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U010__a>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasNumberIsbnInInternationalStandardBookNumber.en> ;
+    reg:name "hasNumberIsbnInInternationalStandardBookNumber"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Number (ISBN) in International Standard Book Number"@en ;
+    skos:definition "A correctly applied ISBN."@en ;
+    skos:scopeNote "Includes hyphens."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U010__b>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasQualificationInInternationalStandardBookNumber.en> ;
+    reg:name "hasQualificationInInternationalStandardBookNumber"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Qualification in International Standard Book Number"@en ;
+    skos:definition "An indication of the scope of the ISBN, usually the name of a publisher, an indication of the binding of the item, or an indication of the relationship of an ISBN to a set or to a particular volume."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U010__d>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasTermsOfAvailabilityAndOrPriceInInternationalStandardBookNumber.en> ;
+    reg:name "hasTermsOfAvailabilityAndOrPriceInInternationalStandardBookNumber"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Terms of availability and/or price in International Standard Book Number"@en ;
+    skos:definition "The price of the item and any comment on its availability."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U010__z>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasErroneousIsbnInInternationalStandardBookNumber.en> ;
+    reg:name "hasErroneousIsbnInInternationalStandardBookNumber"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Erroneous ISBN in International Standard Book Number"@en ;
+    skos:definition "An ISBN that has been identified as being erroneously applied to an item or is otherwise invalid."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U0110_a>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasNumberIssnInIssnContinuingResourceOfInternationalOrNationalInterest.en> ;
+    reg:name "hasNumberIssnInIssnContinuingResourceOfInternationalOrNationalInterest"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Number (ISSN) in ISSN (Continuing resource of international or national interest)"@en ;
+    skos:definition "A correctly applied ISSN."@en ;
+    skos:scopeNote "Includes the hyphen between the fourth and fifth digits."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U0110_b>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasQualificationInIssnContinuingResourceOfInternationalOrNationalInterest.en> ;
+    reg:name "hasQualificationInIssnContinuingResourceOfInternationalOrNationalInterest"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Qualification in ISSN (Continuing resource of international or national interest)"@en ;
+    skos:definition "Information to distinguish between ISSNs."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U0110_d>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasTermsOfAvailabilityAndOrPriceInIssnContinuingResourceOfInternationalOrNationalInterest.en> ;
+    reg:name "hasTermsOfAvailabilityAndOrPriceInIssnContinuingResourceOfInternationalOrNationalInterest"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Terms of availability and/or price in ISSN (Continuing resource of international or national interest)"@en ;
+    skos:definition "The price of the item and any comment on its availability."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U0110_f>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasIssnLOrLinkingIssnInIssnContinuingResourceOfInternationalOrNationalInterest.en> ;
+    reg:name "hasIssnLOrLinkingIssnInIssnContinuingResourceOfInternationalOrNationalInterest"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "ISSN-l or linking ISSN in ISSN (Continuing resource of international or national interest)"@en ;
+    skos:definition "An ISSN designated by the ISSN network to link together various medium versions of a continuing resource."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U0110_g>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasCancelledIssnLInIssnContinuingResourceOfInternationalOrNationalInterest.en> ;
+    reg:name "hasCancelledIssnLInIssnContinuingResourceOfInternationalOrNationalInterest"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Cancelled ISSN-l in ISSN (Continuing resource of international or national interest)"@en ;
+    skos:definition "An ISSN-L incorrectly designated to a continuing resource."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U0110_y>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasCancelledIssnInIssnContinuingResourceOfInternationalOrNationalInterest.en> ;
+    reg:name "hasCancelledIssnInIssnContinuingResourceOfInternationalOrNationalInterest"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Cancelled ISSN in ISSN (Continuing resource of international or national interest)"@en ;
+    skos:definition "Any ISSN that was formerly valid but which has been cancelled by an ISSN centre."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U0110_z>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasErroneousIssnOrIssnLInIssnContinuingResourceOfInternationalOrNationalInterest.en> ;
+    reg:name "hasErroneousIssnOrIssnLInIssnContinuingResourceOfInternationalOrNationalInterest"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Erroneous ISSN or ISSN-l in ISSN (Continuing resource of international or national interest)"@en ;
+    skos:definition "Any incorrect ISSN or ISSN-L."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U0111_a>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasNumberIssnInIssnContinuingResourceOfLocalInterest.en> ;
+    reg:name "hasNumberIssnInIssnContinuingResourceOfLocalInterest"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Number (ISSN) in ISSN (Continuing resource of local interest)"@en ;
+    skos:definition "A correctly applied ISSN."@en ;
+    skos:scopeNote "Includes the hyphen between the fourth and fifth digits."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U0111_b>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasQualificationInIssnContinuingResourceOfLocalInterest.en> ;
+    reg:name "hasQualificationInIssnContinuingResourceOfLocalInterest"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Qualification in ISSN (Continuing resource of local interest)"@en ;
+    skos:definition "Information to distinguish between ISSNs."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U0111_d>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasTermsOfAvailabilityAndOrPriceInIssnContinuingResourceOfLocalInterest.en> ;
+    reg:name "hasTermsOfAvailabilityAndOrPriceInIssnContinuingResourceOfLocalInterest"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Terms of availability and/or price in ISSN (Continuing resource of local interest)"@en ;
+    skos:definition "The price of the item and any comment on its availability."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U0111_f>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasIssnLOrLinkingIssnInIssnContinuingResourceOfLocalInterest.en> ;
+    reg:name "hasIssnLOrLinkingIssnInIssnContinuingResourceOfLocalInterest"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "ISSN-l or linking ISSN in ISSN (Continuing resource of local interest)"@en ;
+    skos:definition "An ISSN designated by the ISSN network to link together various medium versions of a continuing resource."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U0111_g>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasCancelledIssnLInIssnContinuingResourceOfLocalInterest.en> ;
+    reg:name "hasCancelledIssnLInIssnContinuingResourceOfLocalInterest"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Cancelled ISSN-l in ISSN (Continuing resource of local interest)"@en ;
+    skos:definition "An ISSN-L incorrectly designated to a continuing resource."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U0111_y>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasCancelledIssnInIssnContinuingResourceOfLocalInterest.en> ;
+    reg:name "hasCancelledIssnInIssnContinuingResourceOfLocalInterest"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Cancelled ISSN in ISSN (Continuing resource of local interest)"@en ;
+    skos:definition "Any ISSN that was formerly valid but which has been cancelled by an ISSN centre."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U0111_z>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasErroneousIssnOrIssnLInIssnContinuingResourceOfLocalInterest.en> ;
+    reg:name "hasErroneousIssnOrIssnLInIssnContinuingResourceOfLocalInterest"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Erroneous ISSN or ISSN-l in ISSN (Continuing resource of local interest)"@en ;
+    skos:definition "Any incorrect ISSN or ISSN-L."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U011__a>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasNumberIssnInIssnLevelNotSpecifiedNotApplicable.en> ;
+    reg:name "hasNumberIssnInIssnLevelNotSpecifiedNotApplicable"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Number (ISSN) in ISSN (Level not specified / not applicable)"@en ;
+    skos:definition "A correctly applied ISSN."@en ;
+    skos:scopeNote "Includes the hyphen between the fourth and fifth digits."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U011__b>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasQualificationInIssnLevelNotSpecifiedNotApplicable.en> ;
+    reg:name "hasQualificationInIssnLevelNotSpecifiedNotApplicable"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Qualification in ISSN (Level not specified / not applicable)"@en ;
+    skos:definition "Information to distinguish between ISSNs."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U011__d>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasTermsOfAvailabilityAndOrPriceInIssnLevelNotSpecifiedNotApplicable.en> ;
+    reg:name "hasTermsOfAvailabilityAndOrPriceInIssnLevelNotSpecifiedNotApplicable"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Terms of availability and/or price in ISSN (Level not specified / not applicable)"@en ;
+    skos:definition "The price of the item and any comment on its availability."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U011__f>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasIssnLOrLinkingIssnInIssnLevelNotSpecifiedNotApplicable.en> ;
+    reg:name "hasIssnLOrLinkingIssnInIssnLevelNotSpecifiedNotApplicable"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "ISSN-l or linking ISSN in ISSN (Level not specified / not applicable)"@en ;
+    skos:definition "An ISSN designated by the ISSN network to link together various medium versions of a continuing resource."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U011__g>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasCancelledIssnLInIssnLevelNotSpecifiedNotApplicable.en> ;
+    reg:name "hasCancelledIssnLInIssnLevelNotSpecifiedNotApplicable"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Cancelled ISSN-l in ISSN (Level not specified / not applicable)"@en ;
+    skos:definition "An ISSN-L incorrectly designated to a continuing resource."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U011__y>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasCancelledIssnInIssnLevelNotSpecifiedNotApplicable.en> ;
+    reg:name "hasCancelledIssnInIssnLevelNotSpecifiedNotApplicable"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Cancelled ISSN in ISSN (Level not specified / not applicable)"@en ;
+    skos:definition "Any ISSN that was formerly valid but which has been cancelled by an ISSN centre."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U011__z>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasErroneousIssnOrIssnLInIssnLevelNotSpecifiedNotApplicable.en> ;
+    reg:name "hasErroneousIssnOrIssnLInIssnLevelNotSpecifiedNotApplicable"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Erroneous ISSN or ISSN-l in ISSN (Level not specified / not applicable)"@en ;
+    skos:definition "Any incorrect ISSN or ISSN-L."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U012__2>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasFingerprintSystemCodeInFingerprintIdentifier.en> ;
+    reg:name "hasFingerprintSystemCodeInFingerprintIdentifier"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Fingerprint system code in Fingerprint identifier"@en ;
+    skos:definition "An identification of the system from which fingerprint identifier is derived."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U012__5>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasInstitutionToWhichTheFieldAppliesInFingerprintIdentifier.en> ;
+    reg:name "hasInstitutionToWhichTheFieldAppliesInFingerprintIdentifier"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Institution to which the field applies in Fingerprint identifier"@en ;
+    skos:definition "Name of institution."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U012__a>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasFingerprintInFingerprintIdentifier.en> ;
+    reg:name "hasFingerprintInFingerprintIdentifier"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Fingerprint in Fingerprint identifier"@en ;
+    skos:definition "Calculated Fingerprint Identifier."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U013__6>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasInterfieldLinkingDataInInternationalStandardMusicNumberIsmn.en> ;
+    reg:name "hasInterfieldLinkingDataInInternationalStandardMusicNumberIsmn"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Interfield linking data in International Standard Music Number (ISMN)"@en ;
+    skos:definition "Information allowing the field to be linked for processing purposes to other fields in the record, and a code indicating the reason for the link."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U013__a>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasNumberIsmnInInternationalStandardMusicNumberIsmn.en> ;
+    reg:name "hasNumberIsmnInInternationalStandardMusicNumberIsmn"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Number (ISMN) in International Standard Music Number (ISMN)"@en ;
+    skos:definition "A correctly applied ISMN."@en ;
+    skos:scopeNote "Includes hyphens."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U013__b>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasQualificationInInternationalStandardMusicNumberIsmn.en> ;
+    reg:name "hasQualificationInInternationalStandardMusicNumberIsmn"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Qualification in International Standard Music Number (ISMN)"@en ;
+    skos:definition "An indication of the scope of the ISMN, usually the name of a publisher, an indication of the binding of the item, or an indication of the relationship of an ISMN to a set or to a particular volume."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U013__d>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasTermsOfAvailabilityAndOrPriceInInternationalStandardMusicNumberIsmn.en> ;
+    reg:name "hasTermsOfAvailabilityAndOrPriceInInternationalStandardMusicNumberIsmn"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Terms of availability and/or price in International Standard Music Number (ISMN)"@en ;
+    skos:definition "The price of the item and any comment on its availability."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U013__z>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasErroneousIsmnInInternationalStandardMusicNumberIsmn.en> ;
+    reg:name "hasErroneousIsmnInInternationalStandardMusicNumberIsmn"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Erroneous ISMN in International Standard Music Number (ISMN)"@en ;
+    skos:definition "An ISMN that has been identified as being erroneously applied to an item or is otherwise invalid."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U014__2>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasSystemCodeInArticleIdentifier.en> ;
+    reg:name "hasSystemCodeInArticleIdentifier"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "System code in Article identifier"@en ;
+    skos:definition "Identification of the system under which the identifier was constructed."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U014__a>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasArticleIdentifierInArticleIdentifier.en> ;
+    reg:name "hasArticleIdentifierInArticleIdentifier"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Article identifier in Article identifier"@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U014__z>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasErroneousArticleIdentifierInArticleIdentifier.en> ;
+    reg:name "hasErroneousArticleIdentifierInArticleIdentifier"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Erroneous article identifier in Article identifier"@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U015__a>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasInterfieldLinkingDataInInternationalStandardBookNumber.en> ;
+    reg:name "hasNumberIsrnInInternationalStandardTechnicalReportNumberIsrn"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Number (ISRN) in International Standard Technical Report Number (ISRN)"@en ;
+    skos:definition "A correctly applied ISRN."@en ;
+    skos:scopeNote "Includes hyphens."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U015__b>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasQualificationInInternationalStandardTechnicalReportNumberIsrn.en> ;
+    reg:name "hasQualificationInInternationalStandardTechnicalReportNumberIsrn"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Qualification in International Standard Technical Report Number (ISRN)"@en ;
+    skos:definition "An indication of the scope of the ISRN, usually the name of a publisher, an indication of the binding of the item, or an indication of the relationship of an ISRN to a set or to a particular volume."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U015__d>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasTermsOfAvailabilityAndOrPriceInInternationalStandardTechnicalReportNumberIsrn.en> ;
+    reg:name "hasTermsOfAvailabilityAndOrPriceInInternationalStandardTechnicalReportNumberIsrn"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Terms of availability and/or price in International Standard Technical Report Number (ISRN)"@en ;
+    skos:definition "The price of the item and any comment on its availability."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U015__z>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasCancelledInvalidErroneousIsrnInInternationalStandardTechnicalReportNumberIsrn.en> ;
+    reg:name "hasCancelledInvalidErroneousIsrnInInternationalStandardTechnicalReportNumberIsrn"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Cancelled/invalid/erroneous ISRN in International Standard Technical Report Number (ISRN)"@en ;
+    skos:definition "An ISRN that has been identified as being erroneously applied to an item or is otherwise invalid."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U016__a>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasNumberIsrcInInternationalStandardRecordingCodeIsrc.en> ;
+    reg:name "hasNumberIsrcInInternationalStandardRecordingCodeIsrc"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Number (ISRC) in International Standard Recording Code (ISRC)"@en ;
+    skos:definition "A correctly applied ISRC."@en ;
+    skos:scopeNote "Includes hyphens."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U016__b>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasQualificationInInternationalStandardRecordingCodeIsrc.en> ;
+    reg:name "hasQualificationInInternationalStandardRecordingCodeIsrc"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Qualification in International Standard Recording Code (ISRC)"@en ;
+    skos:definition "An indication of the scope of the ISRC, usually an indication of the relationship of an ISRC to a particular expression."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U016__d>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasTermsOfAvailabilityAndOrPriceObsoleteInInternationalStandardRecordingCodeIsrc.en> ;
+    reg:name "hasTermsOfAvailabilityAndOrPriceObsoleteInInternationalStandardRecordingCodeIsrc"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Terms of availability and/or price [obsolete] in International Standard Recording Code (ISRC)"@en ;
+    skos:scopeNote "The ISRC does not identify a manifestation."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U016__z>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasErroneousIsrcInInternationalStandardRecordingCodeIsrc.en> ;
+    reg:name "hasErroneousIsrcInInternationalStandardRecordingCodeIsrc"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Erroneous ISRC in International Standard Recording Code (ISRC)"@en ;
+    skos:definition "An ISRC that has been identified as being erroneously applied to a recording or is otherwise invalid."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U017702>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasSourceOfCodeInOtherStandardIdentifierSourceSpecifiedInSubfield$6NoInformationProvided.en> ;
+    reg:name "hasSourceOfCodeInOtherStandardIdentifierSourceSpecifiedInSubfield$6NoInformationProvided"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Source of code in Other standard identifier (Source specified in subfield $6) (No information provided)"@en ;
+    skos:definition "Type of code."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U01770a>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasStandardNumberInOtherStandardIdentifierSourceSpecifiedInSubfield$2NoInformationProvided.en> ;
+    reg:name "hasStandardNumberInOtherStandardIdentifierSourceSpecifiedInSubfield$2NoInformationProvided"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Standard number in Other standard identifier (Source specified in subfield $2) (No information provided)"@en ;
+    skos:definition "A correctly formatted standard number or code."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U01770b>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasQualificationInOtherStandardIdentifierSourceSpecifiedInSubfield$3NoInformationProvided.en> ;
+    reg:name "hasQualificationInOtherStandardIdentifierSourceSpecifiedInSubfield$3NoInformationProvided"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Qualification in Other standard identifier (Source specified in subfield $3) (No information provided)"@en ;
+    skos:definition "An indication of the scope of the number or code, usually the name of a publisher, an indication of the binding of the item, or an indication of the relationship of a number or code to a set or to a particular volume."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U01770d>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasTermsOfAvailabilityAndOrPriceInOtherStandardIdentifierSourceSpecifiedInSubfield$4NoInformationProvided.en> ;
+    reg:name "hasTermsOfAvailabilityAndOrPriceInOtherStandardIdentifierSourceSpecifiedInSubfield$4NoInformationProvided"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Terms of availability and/or price in Other standard identifier (Source specified in subfield $4) (No information provided)"@en ;
+    skos:definition "The price of the item and any comment on its availability."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U01770z>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasErroneousNumberOrCodeInOtherStandardIdentifierSourceSpecifiedInSubfield$5NoInformationProvided.en> ;
+    reg:name "hasErroneousNumberOrCodeInOtherStandardIdentifierSourceSpecifiedInSubfield$5NoInformationProvided"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Erroneous number or code in Other standard identifier (Source specified in subfield $5) (No information provided)"@en ;
+    skos:definition "A number or code that has been identified as being erroneously applied to an item or is otherwise invalid."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U017712>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasSourceOfCodeInOtherStandardIdentifierSourceSpecifiedInSubfield$6NoDifference.en> ;
+    reg:name "hasSourceOfCodeInOtherStandardIdentifierSourceSpecifiedInSubfield$6NoDifference"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Source of code in Other standard identifier (Source specified in subfield $6) (No difference)"@en ;
+    skos:definition "Type of code."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U01771a>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasStandardNumberInOtherStandardIdentifierSourceSpecifiedInSubfield$2NoDifference.en> ;
+    reg:name "hasStandardNumberInOtherStandardIdentifierSourceSpecifiedInSubfield$2NoDifference"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Standard number in Other standard identifier (Source specified in subfield $2) (No difference)"@en ;
+    skos:definition "A correctly formatted standard number or code."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U01771b>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasQualificationInOtherStandardIdentifierSourceSpecifiedInSubfield$3NoDifference.en> ;
+    reg:name "hasQualificationInOtherStandardIdentifierSourceSpecifiedInSubfield$3NoDifference"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Qualification in Other standard identifier (Source specified in subfield $3) (No difference)"@en ;
+    skos:definition "An indication of the scope of the number or code, usually the name of a publisher, an indication of the binding of the item, or an indication of the relationship of a number or code to a set or to a particular volume."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U01771d>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasTermsOfAvailabilityAndOrPriceInOtherStandardIdentifierSourceSpecifiedInSubfield$4NoDifference.en> ;
+    reg:name "hasTermsOfAvailabilityAndOrPriceInOtherStandardIdentifierSourceSpecifiedInSubfield$4NoDifference"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Terms of availability and/or price in Other standard identifier (Source specified in subfield $4) (No difference)"@en ;
+    skos:definition "The price of the item and any comment on its availability."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U01771z>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasErroneousNumberOrCodeInOtherStandardIdentifierSourceSpecifiedInSubfield$5NoDifference.en> ;
+    reg:name "hasErroneousNumberOrCodeInOtherStandardIdentifierSourceSpecifiedInSubfield$5NoDifference"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Erroneous number or code in Other standard identifier (Source specified in subfield $5) (No difference)"@en ;
+    skos:definition "A number or code that has been identified as being erroneously applied to an item or is otherwise invalid."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U017722>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasSourceOfCodeInOtherStandardIdentifierSourceSpecifiedInSubfield$6Difference.en> ;
+    reg:name "hasSourceOfCodeInOtherStandardIdentifierSourceSpecifiedInSubfield$6Difference"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Source of code in Other standard identifier (Source specified in subfield $6) (Difference)"@en ;
+    skos:definition "Type of code."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U01772a>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasStandardNumberInOtherStandardIdentifierSourceSpecifiedInSubfield$2Difference.en> ;
+    reg:name "hasStandardNumberInOtherStandardIdentifierSourceSpecifiedInSubfield$2Difference"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Standard number in Other standard identifier (Source specified in subfield $2) (Difference)"@en ;
+    skos:definition "A correctly formatted standard number or code."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U01772b>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasQualificationInOtherStandardIdentifierSourceSpecifiedInSubfield$3Difference.en> ;
+    reg:name "hasQualificationInOtherStandardIdentifierSourceSpecifiedInSubfield$3Difference"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Qualification in Other standard identifier (Source specified in subfield $3) (Difference)"@en ;
+    skos:definition "An indication of the scope of the number or code, usually the name of a publisher, an indication of the binding of the item, or an indication of the relationship of a number or code to a set or to a particular volume."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U01772d>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasTermsOfAvailabilityAndOrPriceInOtherStandardIdentifierSourceSpecifiedInSubfield$4Difference.en> ;
+    reg:name "hasTermsOfAvailabilityAndOrPriceInOtherStandardIdentifierSourceSpecifiedInSubfield$4Difference"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Terms of availability and/or price in Other standard identifier (Source specified in subfield $4) (Difference)"@en ;
+    skos:definition "The price of the item and any comment on its availability."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U01772z>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasErroneousNumberOrCodeInOtherStandardIdentifierSourceSpecifiedInSubfield$5Difference.en> ;
+    reg:name "hasErroneousNumberOrCodeInOtherStandardIdentifierSourceSpecifiedInSubfield$5Difference"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Erroneous number or code in Other standard identifier (Source specified in subfield $5) (Difference)"@en ;
+    skos:definition "A number or code that has been identified as being erroneously applied to an item or is otherwise invalid."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U017802>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasSourceOfCodeInOtherStandardIdentifierUnspecifiedTypeOfStandardNumberNoInformationProvided.en> ;
+    reg:name "hasSourceOfCodeInOtherStandardIdentifierUnspecifiedTypeOfStandardNumberNoInformationProvided"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Source of code in Other standard identifier (Unspecified type of standard number) (No information provided)"@en ;
+    skos:definition "Type of code."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U01780a>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasStandardNumberInOtherStandardIdentifierUnspecifiedTypeOfStandardNumberNoInformationProvided.en> ;
+    reg:name "hasStandardNumberInOtherStandardIdentifierUnspecifiedTypeOfStandardNumberNoInformationProvided"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Standard number in Other standard identifier (Unspecified type of standard number) (No information provided)"@en ;
+    skos:definition "A correctly formatted standard number or code."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U01780b>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasQualificationInOtherStandardIdentifierUnspecifiedTypeOfStandardNumberNoInformationProvided.en> ;
+    reg:name "hasQualificationInOtherStandardIdentifierUnspecifiedTypeOfStandardNumberNoInformationProvided"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Qualification in Other standard identifier (Unspecified type of standard number) (No information provided)"@en ;
+    skos:definition "An indication of the scope of the number or code, usually the name of a publisher, an indication of the binding of the item, or an indication of the relationship of a number or code to a set or to a particular volume."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U01780d>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasTermsOfAvailabilityAndOrPriceInOtherStandardIdentifierUnspecifiedTypeOfStandardNumberNoInformationProvided.en> ;
+    reg:name "hasTermsOfAvailabilityAndOrPriceInOtherStandardIdentifierUnspecifiedTypeOfStandardNumberNoInformationProvided"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Terms of availability and/or price in Other standard identifier (Unspecified type of standard number) (No information provided)"@en ;
+    skos:definition "The price of the item and any comment on its availability."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U01780z>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasErroneousNumberOrCodeInOtherStandardIdentifierUnspecifiedTypeOfStandardNumberNoInformationProvided.en> ;
+    reg:name "hasErroneousNumberOrCodeInOtherStandardIdentifierUnspecifiedTypeOfStandardNumberNoInformationProvided"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Erroneous number or code in Other standard identifier (Unspecified type of standard number) (No information provided)"@en ;
+    skos:definition "A number or code that has been identified as being erroneously applied to an item or is otherwise invalid."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U017812>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasSourceOfCodeInOtherStandardIdentifierUnspecifiedTypeOfStandardNumberNoDifference.en> ;
+    reg:name "hasSourceOfCodeInOtherStandardIdentifierUnspecifiedTypeOfStandardNumberNoDifference"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Source of code in Other standard identifier (Unspecified type of standard number) (No difference)"@en ;
+    skos:definition "Type of code."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U01781a>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasStandardNumberInOtherStandardIdentifierUnspecifiedTypeOfStandardNumberNoDifference.en> ;
+    reg:name "hasStandardNumberInOtherStandardIdentifierUnspecifiedTypeOfStandardNumberNoDifference"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Standard number in Other standard identifier (Unspecified type of standard number) (No difference)"@en ;
+    skos:definition "A correctly formatted standard number or code."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U01781b>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasQualificationInOtherStandardIdentifierUnspecifiedTypeOfStandardNumberNoDifference.en> ;
+    reg:name "hasQualificationInOtherStandardIdentifierUnspecifiedTypeOfStandardNumberNoDifference"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Qualification in Other standard identifier (Unspecified type of standard number) (No difference)"@en ;
+    skos:definition "An indication of the scope of the number or code, usually the name of a publisher, an indication of the binding of the item, or an indication of the relationship of a number or code to a set or to a particular volume."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U01781d>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasTermsOfAvailabilityAndOrPriceInOtherStandardIdentifierUnspecifiedTypeOfStandardNumberNoDifference.en> ;
+    reg:name "hasTermsOfAvailabilityAndOrPriceInOtherStandardIdentifierUnspecifiedTypeOfStandardNumberNoDifference"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Terms of availability and/or price in Other standard identifier (Unspecified type of standard number) (No difference)"@en ;
+    skos:definition "The price of the item and any comment on its availability."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U01781z>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasErroneousNumberOrCodeInOtherStandardIdentifierUnspecifiedTypeOfStandardNumberNoDifference.en> ;
+    reg:name "hasErroneousNumberOrCodeInOtherStandardIdentifierUnspecifiedTypeOfStandardNumberNoDifference"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Erroneous number or code in Other standard identifier (Unspecified type of standard number) (No difference)"@en ;
+    skos:definition "A number or code that has been identified as being erroneously applied to an item or is otherwise invalid."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U017822>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasSourceOfCodeInOtherStandardIdentifierUnspecifiedTypeOfStandardNumberDifference.en> ;
+    reg:name "hasSourceOfCodeInOtherStandardIdentifierUnspecifiedTypeOfStandardNumberDifference"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Source of code in Other standard identifier (Unspecified type of standard number) (Difference)"@en ;
+    skos:definition "Type of code."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U01782a>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasStandardNumberInOtherStandardIdentifierUnspecifiedTypeOfStandardNumberDifference.en> ;
+    reg:name "hasStandardNumberInOtherStandardIdentifierUnspecifiedTypeOfStandardNumberDifference"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Standard number in Other standard identifier (Unspecified type of standard number) (Difference)"@en ;
+    skos:definition "A correctly formatted standard number or code."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U01782b>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasQualificationInOtherStandardIdentifierUnspecifiedTypeOfStandardNumberDifference.en> ;
+    reg:name "hasQualificationInOtherStandardIdentifierUnspecifiedTypeOfStandardNumberDifference"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Qualification in Other standard identifier (Unspecified type of standard number) (Difference)"@en ;
+    skos:definition "An indication of the scope of the number or code, usually the name of a publisher, an indication of the binding of the item, or an indication of the relationship of a number or code to a set or to a particular volume."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U01782d>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasTermsOfAvailabilityAndOrPriceInOtherStandardIdentifierUnspecifiedTypeOfStandardNumberDifference.en> ;
+    reg:name "hasTermsOfAvailabilityAndOrPriceInOtherStandardIdentifierUnspecifiedTypeOfStandardNumberDifference"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Terms of availability and/or price in Other standard identifier (Unspecified type of standard number) (Difference)"@en ;
+    skos:definition "The price of the item and any comment on its availability."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U01782z>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasErroneousNumberOrCodeInOtherStandardIdentifierUnspecifiedTypeOfStandardNumberDifference.en> ;
+    reg:name "hasErroneousNumberOrCodeInOtherStandardIdentifierUnspecifiedTypeOfStandardNumberDifference"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Erroneous number or code in Other standard identifier (Unspecified type of standard number) (Difference)"@en ;
+    skos:definition "A number or code that has been identified as being erroneously applied to an item or is otherwise invalid."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U020__a>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasCountryCodeInNationalBibliographyNumber.en> ;
+    reg:name "hasCountryCodeInNationalBibliographyNumber"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Country code in National bibliography number"@en ;
+    skos:definition "An identification of the country of the national bibliography."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U020__b>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasNumberInNationalBibliographyNumber.en> ;
+    reg:name "hasNumberInNationalBibliographyNumber"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Number in National bibliography number"@en ;
+    skos:definition "The number as assigned by the agency."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U020__z>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasErroneousNumberInNationalBibliographyNumber.en> ;
+    reg:name "hasErroneousNumberInNationalBibliographyNumber"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Erroneous number in National bibliography number"@en ;
+    skos:definition "A number erroneously assigned."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U021__a>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasCountryCodeInLegalDepositNumber.en> ;
+    reg:name "hasCountryCodeInLegalDepositNumber"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Country code in Legal deposit number"@en ;
+    skos:definition "An identification of the country of the legal deposit agency assigning the number."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U021__b>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasNumberInLegalDepositNumber.en> ;
+    reg:name "hasNumberInLegalDepositNumber"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Number in Legal deposit number"@en ;
+    skos:definition "Number as assigned by the agency."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U021__z>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasErroneousNumberInLegalDepositNumber.en> ;
+    reg:name "hasErroneousNumberInLegalDepositNumber"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Erroneous number in Legal deposit number"@en ;
+    skos:definition "A number erroneously assigned to an item."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U022__a>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasCountryCodeInGovernmentPublicationNumber.en> ;
+    reg:name "hasCountryCodeInGovernmentPublicationNumber"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Country code in Government publication number"@en ;
+    skos:definition "An identification of the country in which the item is published."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U022__b>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasNumberInGovernmentPublicationNumber.en> ;
+    reg:name "hasNumberInGovernmentPublicationNumber"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Number in Government publication number"@en ;
+    skos:definition "The number as assigned by the government body."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U022__z>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasErroneousNumberInGovernmentPublicationNumber.en> ;
+    reg:name "hasErroneousNumberInGovernmentPublicationNumber"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Erroneous number in Government publication number"@en ;
+    skos:definition "A number erroneously assigned to a government publication."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U033__a>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasPersistentRecordIdentifierInOtherSystemPersistentRecordIdentifier.en> ;
+    reg:name "hasPersistentRecordIdentifierInOtherSystemPersistentRecordIdentifier"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Persistent record identifier in Other system persistent record identifier"@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U033__z>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasCancelledOrInvalidPersistentRecordIdentifierInOtherSystemPersistentRecordIdentifier.en> ;
+    reg:name "hasCancelledOrInvalidPersistentRecordIdentifierInOtherSystemPersistentRecordIdentifier"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Cancelled or invalid persistent record identifier in Other system persistent record identifier"@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U035__a>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasSystemControlNumberInOtherSystemControlNumbers.en> ;
+    reg:name "hasSystemControlNumberInOtherSystemControlNumbers"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "System control number in Other system control numbers"@en ;
+    skos:definition "The organisation in parentheses followed by the system control number for the record in that organisation’s database."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U035__z>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasCancelledOrInvalidControlNumberInOtherSystemControlNumbers.en> ;
+    reg:name "hasCancelledOrInvalidControlNumberInOtherSystemControlNumbers"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Cancelled or invalid control number in Other system control numbers"@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U036__2>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasSystemCodeForMusicalNotationInMusicIncipit.en> ;
+    reg:name "hasSystemCodeForMusicalNotationInMusicIncipit"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "System code for musical notation in Music incipit"@en ;
+    skos:definition "A code that specifies the system used to code the musical notation."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U036__a>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasNumberOfWorkInMusicIncipit.en> ;
+    reg:name "hasNumberOfWorkInMusicIncipit"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Number of work in Music incipit"@en ;
+    skos:definition "A code indicating the work to which the incipit refers, if a set of compositions (e.g. six sonatas) is entirely described in a single record, without the use of piece-analytic level records."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U036__b>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasNumberOfMovementInMusicIncipit.en> ;
+    reg:name "hasNumberOfMovementInMusicIncipit"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Number of movement in Music incipit"@en ;
+    skos:definition "A code indicating the movement within a work to which the incipit refers."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U036__c>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasNumberOfIncipitInMusicIncipit.en> ;
+    reg:name "hasNumberOfIncipitInMusicIncipit"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Number of incipit in Music incipit"@en ;
+    skos:definition "A code distinguishing different incipits referring to the same movement."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U036__d>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasVoiceInstrumentInMusicIncipit.en> ;
+    reg:name "hasVoiceInstrumentInMusicIncipit"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Voice/instrument in Music incipit"@en ;
+    skos:definition "The voice or instrument."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U036__e>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasRoleInMusicIncipit.en> ;
+    reg:name "hasRoleInMusicIncipit"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Role in Music incipit"@en ;
+    skos:definition "The name of the character singing the incipit."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U036__f>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasMovementCaptionHeadingInMusicIncipit.en> ;
+    reg:name "hasMovementCaptionHeadingInMusicIncipit"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Movement caption/heading in Music incipit"@en ;
+    skos:definition "Caption or heading of the movement, as it appears on the source."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U036__g>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasKeyOrModeInMusicIncipit.en> ;
+    reg:name "hasKeyOrModeInMusicIncipit"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Key or mode in Music incipit"@en ;
+    skos:definition "The key or mode of the movement."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U036__m>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasClefInMusicIncipit.en> ;
+    reg:name "hasClefInMusicIncipit"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Clef in Music incipit"@en ;
+    skos:definition "A code indicating the clef."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U036__n>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasKeySignatureInMusicIncipit.en> ;
+    reg:name "hasKeySignatureInMusicIncipit"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Key signature in Music incipit"@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U036__o>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasTimeSignatureInMusicIncipit.en> ;
+    reg:name "hasTimeSignatureInMusicIncipit"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Time signature in Music incipit"@en ;
+    skos:definition "The time value or mensuration sign reported on the staff."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U036__p>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasMusicalNotationInMusicIncipit.en> ;
+    reg:name "hasMusicalNotationInMusicIncipit"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Musical notation in Music incipit"@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U036__q>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasCommentsFreeTextInMusicIncipit.en> ;
+    reg:name "hasCommentsFreeTextInMusicIncipit"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Comments (free text) in Music incipit"@en ;
+    skos:definition "Free-text note."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U036__r>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasCodifiedNoteInMusicIncipit.en> ;
+    reg:name "hasCodifiedNoteInMusicIncipit"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Codified note in Music incipit"@en ;
+    skos:definition "A code indicating a comment note."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U036__t>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasTextIncipitInMusicIncipit.en> ;
+    reg:name "hasTextIncipitInMusicIncipit"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Text incipit in Music incipit"@en ;
+    skos:definition "The literary text (if present) as it appears on the source."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U036__u>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasUniformResourceIdentifierInMusicIncipit.en> ;
+    reg:name "hasUniformResourceIdentifierInMusicIncipit"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Uniform Resource Identifier in Music incipit"@en ;
+    skos:definition "The Uniform Resource Identifier (URI) which provides electronic access data to an incipit in digital format."@en ;
+    skos:scopeNote "Includes a URL or URN."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U036__z>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasLanguageOfTextInMusicIncipit.en> ;
+    reg:name "hasLanguageOfTextInMusicIncipit"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Language of text in Music incipit"@en ;
+    skos:definition "Coded identification of the language of the incipit."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U040__a>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasCodenInCodenSerials.en> ;
+    reg:name "hasCodenInCodenSerials"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "CODEN in CODEN (serials)"@en ;
+    skos:definition "The six character code of which the last character is an alphanumeric digit."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U040__z>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasErroneousCodenInCodenSerials.en> ;
+    reg:name "hasErroneousCodenInCodenSerials"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Erroneous CODEN in CODEN (serials)"@en ;
+    skos:definition "A CODEN that has been identified as being erroneously applied to an item or is otherwise invalid."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07100a>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasPublishersNumberInPublishersNumberSoundRecordingIssueNumberDoNotMakeANote.en> ;
+    reg:name "hasPublishersNumberInPublishersNumberSoundRecordingIssueNumberDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Publisher's number in Publisher's number (Sound recording: issue number) (Do not make a note)"@en ;
+    skos:definition "The number as assigned by the agency."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07100b>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasSourceInPublishersNumberSoundRecordingIssueNumberDoNotMakeANote.en> ;
+    reg:name "hasSourceInPublishersNumberSoundRecordingIssueNumberDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Source in Publisher's number (Sound recording: issue number) (Do not make a note)"@en ;
+    skos:definition "The agency which assigned the number."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07100c>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasQualificationInPublishersNumberSoundRecordingIssueNumberDoNotMakeANote.en> ;
+    reg:name "hasQualificationInPublishersNumberSoundRecordingIssueNumberDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Qualification in Publisher's number (Sound recording: issue number) (Do not make a note)"@en ;
+    skos:definition "Information to distinguish between numbers if a record contains more than one publisher number."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07100d>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasTermsOfAvailabilityAndOrPriceInPublishersNumberSoundRecordingIssueNumberDoNotMakeANote.en> ;
+    reg:name "hasTermsOfAvailabilityAndOrPriceInPublishersNumberSoundRecordingIssueNumberDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Terms of availability and/or price in Publisher's number (Sound recording: issue number) (Do not make a note)"@en ;
+    skos:definition "The price of the item and any comment on its availability."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07100z>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasErroneousPublishersNumberInPublishersNumberSoundRecordingIssueNumberDoNotMakeANote.en> ;
+    reg:name "hasErroneousPublishersNumberInPublishersNumberSoundRecordingIssueNumberDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Erroneous publisher's number in Publisher's number (Sound recording: issue number) (Do not make a note)"@en ;
+    skos:definition "A publisher's number that has been identified as being erroneously applied to an item or otherwise invalid."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07101a>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasPublishersNumberInPublishersNumberSoundRecordingIssueNumberMakeANote.en> ;
+    reg:name "hasPublishersNumberInPublishersNumberSoundRecordingIssueNumberMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Publisher's number in Publisher's number (Sound recording: issue number) (Make a note)"@en ;
+    skos:definition "The number as assigned by the agency."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07101b>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasSourceInPublishersNumberSoundRecordingIssueNumberMakeANote.en> ;
+    reg:name "hasSourceInPublishersNumberSoundRecordingIssueNumberMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Source in Publisher's number (Sound recording: issue number) (Make a note)"@en ;
+    skos:definition "The agency which assigned the number."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07101c>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasQualificationInPublishersNumberSoundRecordingIssueNumberMakeANote.en> ;
+    reg:name "hasQualificationInPublishersNumberSoundRecordingIssueNumberMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Qualification in Publisher's number (Sound recording: issue number) (Make a note)"@en ;
+    skos:definition "Information to distinguish between numbers if a record contains more than one publisher number."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07101d>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasTermsOfAvailabilityAndOrPriceInPublishersNumberSoundRecordingIssueNumberMakeANote.en> ;
+    reg:name "hasTermsOfAvailabilityAndOrPriceInPublishersNumberSoundRecordingIssueNumberMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Terms of availability and/or price in Publisher's number (Sound recording: issue number) (Make a note)"@en ;
+    skos:definition "The price of the item and any comment on its availability."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07101z>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasErroneousPublishersNumberInPublishersNumberSoundRecordingIssueNumberMakeANote.en> ;
+    reg:name "hasErroneousPublishersNumberInPublishersNumberSoundRecordingIssueNumberMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Erroneous publisher's number in Publisher's number (Sound recording: issue number) (Make a note)"@en ;
+    skos:definition "A publisher's number that has been identified as being erroneously applied to an item or otherwise invalid."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07110a>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasPublishersNumberInPublishersNumberSoundRecordingMatrixNumberDoNotMakeANote.en> ;
+    reg:name "hasPublishersNumberInPublishersNumberSoundRecordingMatrixNumberDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Publisher's number in Publisher's number (Sound recording: matrix number) (Do not make a note)"@en ;
+    skos:definition "The number as assigned by the agency."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07110b>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasSourceInPublishersNumberSoundRecordingMatrixNumberDoNotMakeANote.en> ;
+    reg:name "hasSourceInPublishersNumberSoundRecordingMatrixNumberDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Source in Publisher's number (Sound recording: matrix number) (Do not make a note)"@en ;
+    skos:definition "The agency which assigned the number."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07110c>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasQualificationInPublishersNumberSoundRecordingMatrixNumberDoNotMakeANote.en> ;
+    reg:name "hasQualificationInPublishersNumberSoundRecordingMatrixNumberDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Qualification in Publisher's number (Sound recording: matrix number) (Do not make a note)"@en ;
+    skos:definition "Information to distinguish between numbers if a record contains more than one publisher number."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07110d>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasTermsOfAvailabilityAndOrPriceInPublishersNumberSoundRecordingMatrixNumberDoNotMakeANote.en> ;
+    reg:name "hasTermsOfAvailabilityAndOrPriceInPublishersNumberSoundRecordingMatrixNumberDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Terms of availability and/or price in Publisher's number (Sound recording: matrix number) (Do not make a note)"@en ;
+    skos:definition "The price of the item and any comment on its availability."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07110z>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasErroneousPublishersNumberInPublishersNumberSoundRecordingMatrixNumberDoNotMakeANote.en> ;
+    reg:name "hasErroneousPublishersNumberInPublishersNumberSoundRecordingMatrixNumberDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Erroneous publisher's number in Publisher's number (Sound recording: matrix number) (Do not make a note)"@en ;
+    skos:definition "A publisher's number that has been identified as being erroneously applied to an item or otherwise invalid."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07111a>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasPublishersNumberInPublishersNumberSoundRecordingMatrixNumberMakeANote.en> ;
+    reg:name "hasPublishersNumberInPublishersNumberSoundRecordingMatrixNumberMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Publisher's number in Publisher's number (Sound recording: matrix number) (Make a note)"@en ;
+    skos:definition "The number as assigned by the agency."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07111b>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasSourceInPublishersNumberSoundRecordingMatrixNumberMakeANote.en> ;
+    reg:name "hasSourceInPublishersNumberSoundRecordingMatrixNumberMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Source in Publisher's number (Sound recording: matrix number) (Make a note)"@en ;
+    skos:definition "The agency which assigned the number."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07111c>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasQualificationInPublishersNumberSoundRecordingMatrixNumberMakeANote.en> ;
+    reg:name "hasQualificationInPublishersNumberSoundRecordingMatrixNumberMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Qualification in Publisher's number (Sound recording: matrix number) (Make a note)"@en ;
+    skos:definition "Information to distinguish between numbers if a record contains more than one publisher number."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07111d>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasTermsOfAvailabilityAndOrPriceInPublishersNumberSoundRecordingMatrixNumberMakeANote.en> ;
+    reg:name "hasTermsOfAvailabilityAndOrPriceInPublishersNumberSoundRecordingMatrixNumberMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Terms of availability and/or price in Publisher's number (Sound recording: matrix number) (Make a note)"@en ;
+    skos:definition "The price of the item and any comment on its availability."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07111z>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasErroneousPublishersNumberInPublishersNumberSoundRecordingMatrixNumberMakeANote.en> ;
+    reg:name "hasErroneousPublishersNumberInPublishersNumberSoundRecordingMatrixNumberMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Erroneous publisher's number in Publisher's number (Sound recording: matrix number) (Make a note)"@en ;
+    skos:definition "A publisher's number that has been identified as being erroneously applied to an item or otherwise invalid."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07120a>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasPublishersNumberInPublishersNumberPrintedMusicPlateNumberDoNotMakeANote.en> ;
+    reg:name "hasPublishersNumberInPublishersNumberPrintedMusicPlateNumberDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Publisher's number in Publisher's number (Printed music: plate number) (Do not make a note)"@en ;
+    skos:definition "The number as assigned by the agency."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07120b>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasSourceInPublishersNumberPrintedMusicPlateNumberDoNotMakeANote.en> ;
+    reg:name "hasSourceInPublishersNumberPrintedMusicPlateNumberDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Source in Publisher's number (Printed music: plate number) (Do not make a note)"@en ;
+    skos:definition "The agency which assigned the number."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07120c>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasQualificationInPublishersNumberPrintedMusicPlateNumberDoNotMakeANote.en> ;
+    reg:name "hasQualificationInPublishersNumberPrintedMusicPlateNumberDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Qualification in Publisher's number (Printed music: plate number) (Do not make a note)"@en ;
+    skos:definition "Information to distinguish between numbers if a record contains more than one publisher number."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07120d>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasTermsOfAvailabilityAndOrPriceInPublishersNumberPrintedMusicPlateNumberDoNotMakeANote.en> ;
+    reg:name "hasTermsOfAvailabilityAndOrPriceInPublishersNumberPrintedMusicPlateNumberDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Terms of availability and/or price in Publisher's number (Printed music: plate number) (Do not make a note)"@en ;
+    skos:definition "The price of the item and any comment on its availability."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07120z>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasErroneousPublishersNumberInPublishersNumberPrintedMusicPlateNumberDoNotMakeANote.en> ;
+    reg:name "hasErroneousPublishersNumberInPublishersNumberPrintedMusicPlateNumberDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Erroneous publisher's number in Publisher's number (Printed music: plate number) (Do not make a note)"@en ;
+    skos:definition "A publisher's number that has been identified as being erroneously applied to an item or otherwise invalid."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07121a>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasPublishersNumberInPublishersNumberPrintedMusicPlateNumberMakeANote.en> ;
+    reg:name "hasPublishersNumberInPublishersNumberPrintedMusicPlateNumberMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Publisher's number in Publisher's number (Printed music: plate number) (Make a note)"@en ;
+    skos:definition "The number as assigned by the agency."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07121b>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasSourceInPublishersNumberPrintedMusicPlateNumberMakeANote.en> ;
+    reg:name "hasSourceInPublishersNumberPrintedMusicPlateNumberMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Source in Publisher's number (Printed music: plate number) (Make a note)"@en ;
+    skos:definition "The agency which assigned the number."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07121c>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasQualificationInPublishersNumberPrintedMusicPlateNumberMakeANote.en> ;
+    reg:name "hasQualificationInPublishersNumberPrintedMusicPlateNumberMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Qualification in Publisher's number (Printed music: plate number) (Make a note)"@en ;
+    skos:definition "Information to distinguish between numbers if a record contains more than one publisher number."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07121d>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasTermsOfAvailabilityAndOrPriceInPublishersNumberPrintedMusicPlateNumberMakeANote.en> ;
+    reg:name "hasTermsOfAvailabilityAndOrPriceInPublishersNumberPrintedMusicPlateNumberMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Terms of availability and/or price in Publisher's number (Printed music: plate number) (Make a note)"@en ;
+    skos:definition "The price of the item and any comment on its availability."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07121z>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasErroneousPublishersNumberInPublishersNumberPrintedMusicPlateNumberMakeANote.en> ;
+    reg:name "hasErroneousPublishersNumberInPublishersNumberPrintedMusicPlateNumberMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Erroneous publisher's number in Publisher's number (Printed music: plate number) (Make a note)"@en ;
+    skos:definition "A publisher's number that has been identified as being erroneously applied to an item or otherwise invalid."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07130a>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasPublishersNumberInPublishersNumberPrintedMusicOtherPublishersNumberDoNotMakeANote.en> ;
+    reg:name "hasPublishersNumberInPublishersNumberPrintedMusicOtherPublishersNumberDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Publisher's number in Publisher's number (Printed music: other publisher's number) (Do not make a note)"@en ;
+    skos:definition "The number as assigned by the agency."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07130b>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasSourceInPublishersNumberPrintedMusicOtherPublishersNumberDoNotMakeANote.en> ;
+    reg:name "hasSourceInPublishersNumberPrintedMusicOtherPublishersNumberDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Source in Publisher's number (Printed music: other publisher's number) (Do not make a note)"@en ;
+    skos:definition "The agency which assigned the number."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07130c>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasQualificationInPublishersNumberPrintedMusicOtherPublishersNumberDoNotMakeANote.en> ;
+    reg:name "hasQualificationInPublishersNumberPrintedMusicOtherPublishersNumberDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Qualification in Publisher's number (Printed music: other publisher's number) (Do not make a note)"@en ;
+    skos:definition "Information to distinguish between numbers if a record contains more than one publisher number."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07130d>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasTermsOfAvailabilityAndOrPriceInPublishersNumberPrintedMusicOtherPublishersNumberDoNotMakeANote.en> ;
+    reg:name "hasTermsOfAvailabilityAndOrPriceInPublishersNumberPrintedMusicOtherPublishersNumberDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Terms of availability and/or price in Publisher's number (Printed music: other publisher's number) (Do not make a note)"@en ;
+    skos:definition "The price of the item and any comment on its availability."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07130z>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasErroneousPublishersNumberInPublishersNumberPrintedMusicOtherPublishersNumberDoNotMakeANote.en> ;
+    reg:name "hasErroneousPublishersNumberInPublishersNumberPrintedMusicOtherPublishersNumberDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Erroneous publisher's number in Publisher's number (Printed music: other publisher's number) (Do not make a note)"@en ;
+    skos:definition "A publisher's number that has been identified as being erroneously applied to an item or otherwise invalid."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07131a>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasPublishersNumberInPublishersNumberPrintedMusicOtherPublishersNumberMakeANote.en> ;
+    reg:name "hasPublishersNumberInPublishersNumberPrintedMusicOtherPublishersNumberMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Publisher's number in Publisher's number (Printed music: other publisher's number) (Make a note)"@en ;
+    skos:definition "The number as assigned by the agency."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07131b>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasSourceInPublishersNumberPrintedMusicOtherPublishersNumberMakeANote.en> ;
+    reg:name "hasSourceInPublishersNumberPrintedMusicOtherPublishersNumberMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Source in Publisher's number (Printed music: other publisher's number) (Make a note)"@en ;
+    skos:definition "The agency which assigned the number."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07131c>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasQualificationInPublishersNumberPrintedMusicOtherPublishersNumberMakeANote.en> ;
+    reg:name "hasQualificationInPublishersNumberPrintedMusicOtherPublishersNumberMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Qualification in Publisher's number (Printed music: other publisher's number) (Make a note)"@en ;
+    skos:definition "Information to distinguish between numbers if a record contains more than one publisher number."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07131d>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasTermsOfAvailabilityAndOrPriceInPublishersNumberPrintedMusicOtherPublishersNumberMakeANote.en> ;
+    reg:name "hasTermsOfAvailabilityAndOrPriceInPublishersNumberPrintedMusicOtherPublishersNumberMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Terms of availability and/or price in Publisher's number (Printed music: other publisher's number) (Make a note)"@en ;
+    skos:definition "The price of the item and any comment on its availability."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07131z>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasErroneousPublishersNumberInPublishersNumberPrintedMusicOtherPublishersNumberMakeANote.en> ;
+    reg:name "hasErroneousPublishersNumberInPublishersNumberPrintedMusicOtherPublishersNumberMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Erroneous publisher's number in Publisher's number (Printed music: other publisher's number) (Make a note)"@en ;
+    skos:definition "A publisher's number that has been identified as being erroneously applied to an item or otherwise invalid."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07140a>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasPublishersNumberInPublishersNumberVideoRecordingNumberDoNotMakeANote.en> ;
+    reg:name "hasPublishersNumberInPublishersNumberVideoRecordingNumberDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Publisher's number in Publisher's number (Video recording number) (Do not make a note)"@en ;
+    skos:definition "The number as assigned by the agency."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07140b>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasSourceInPublishersNumberVideoRecordingNumberDoNotMakeANote.en> ;
+    reg:name "hasSourceInPublishersNumberVideoRecordingNumberDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Source in Publisher's number (Video recording number) (Do not make a note)"@en ;
+    skos:definition "The agency which assigned the number."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07140c>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasQualificationInPublishersNumberVideoRecordingNumberDoNotMakeANote.en> ;
+    reg:name "hasQualificationInPublishersNumberVideoRecordingNumberDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Qualification in Publisher's number (Video recording number) (Do not make a note)"@en ;
+    skos:definition "Information to distinguish between numbers if a record contains more than one publisher number."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07140d>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasTermsOfAvailabilityAndOrPriceInPublishersNumberVideoRecordingNumberDoNotMakeANote.en> ;
+    reg:name "hasTermsOfAvailabilityAndOrPriceInPublishersNumberVideoRecordingNumberDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Terms of availability and/or price in Publisher's number (Video recording number) (Do not make a note)"@en ;
+    skos:definition "The price of the item and any comment on its availability."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07140z>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasErroneousPublishersNumberInPublishersNumberVideoRecordingNumberDoNotMakeANote.en> ;
+    reg:name "hasErroneousPublishersNumberInPublishersNumberVideoRecordingNumberDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Erroneous publisher's number in Publisher's number (Video recording number) (Do not make a note)"@en ;
+    skos:definition "A publisher's number that has been identified as being erroneously applied to an item or otherwise invalid."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07141a>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasPublishersNumberInPublishersNumberVideoRecordingNumberMakeANote.en> ;
+    reg:name "hasPublishersNumberInPublishersNumberVideoRecordingNumberMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Publisher's number in Publisher's number (Video recording number) (Make a note)"@en ;
+    skos:definition "The number as assigned by the agency."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07141b>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasSourceInPublishersNumberVideoRecordingNumberMakeANote.en> ;
+    reg:name "hasSourceInPublishersNumberVideoRecordingNumberMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Source in Publisher's number (Video recording number) (Make a note)"@en ;
+    skos:definition "The agency which assigned the number."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07141c>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasQualificationInPublishersNumberVideoRecordingNumberMakeANote.en> ;
+    reg:name "hasQualificationInPublishersNumberVideoRecordingNumberMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Qualification in Publisher's number (Video recording number) (Make a note)"@en ;
+    skos:definition "Information to distinguish between numbers if a record contains more than one publisher number."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07141d>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasTermsOfAvailabilityAndOrPriceInPublishersNumberVideoRecordingNumberMakeANote.en> ;
+    reg:name "hasTermsOfAvailabilityAndOrPriceInPublishersNumberVideoRecordingNumberMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Terms of availability and/or price in Publisher's number (Video recording number) (Make a note)"@en ;
+    skos:definition "The price of the item and any comment on its availability."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07141z>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasErroneousPublishersNumberInPublishersNumberVideoRecordingNumberMakeANote.en> ;
+    reg:name "hasErroneousPublishersNumberInPublishersNumberVideoRecordingNumberMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Erroneous publisher's number in Publisher's number (Video recording number) (Make a note)"@en ;
+    skos:definition "A publisher's number that has been identified as being erroneously applied to an item or otherwise invalid."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07150a>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasPublishersNumberInPublishersNumberOtherTypeOfPublishersNumberDoNotMakeANote.en> ;
+    reg:name "hasPublishersNumberInPublishersNumberOtherTypeOfPublishersNumberDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Publisher's number in Publisher's number (Other type of publisher's number) (Do not make a note)"@en ;
+    skos:definition "The number as assigned by the agency."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07150b>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasSourceInPublishersNumberOtherTypeOfPublishersNumberDoNotMakeANote.en> ;
+    reg:name "hasSourceInPublishersNumberOtherTypeOfPublishersNumberDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Source in Publisher's number (Other type of publisher's number) (Do not make a note)"@en ;
+    skos:definition "The agency which assigned the number."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07150c>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasQualificationInPublishersNumberOtherTypeOfPublishersNumberDoNotMakeANote.en> ;
+    reg:name "hasQualificationInPublishersNumberOtherTypeOfPublishersNumberDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Qualification in Publisher's number (Other type of publisher's number) (Do not make a note)"@en ;
+    skos:definition "Information to distinguish between numbers if a record contains more than one publisher number."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07150d>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasTermsOfAvailabilityAndOrPriceInPublishersNumberOtherTypeOfPublishersNumberDoNotMakeANote.en> ;
+    reg:name "hasTermsOfAvailabilityAndOrPriceInPublishersNumberOtherTypeOfPublishersNumberDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Terms of availability and/or price in Publisher's number (Other type of publisher's number) (Do not make a note)"@en ;
+    skos:definition "The price of the item and any comment on its availability."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07150z>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasErroneousPublishersNumberInPublishersNumberOtherTypeOfPublishersNumberDoNotMakeANote.en> ;
+    reg:name "hasErroneousPublishersNumberInPublishersNumberOtherTypeOfPublishersNumberDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Erroneous publisher's number in Publisher's number (Other type of publisher's number) (Do not make a note)"@en ;
+    skos:definition "A publisher's number that has been identified as being erroneously applied to an item or otherwise invalid."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07151a>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasPublishersNumberInPublishersNumberOtherTypeOfPublishersNumberMakeANote.en> ;
+    reg:name "hasPublishersNumberInPublishersNumberOtherTypeOfPublishersNumberMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Publisher's number in Publisher's number (Other type of publisher's number) (Make a note)"@en ;
+    skos:definition "The number as assigned by the agency."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07151b>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasSourceInPublishersNumberOtherTypeOfPublishersNumberMakeANote.en> ;
+    reg:name "hasSourceInPublishersNumberOtherTypeOfPublishersNumberMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Source in Publisher's number (Other type of publisher's number) (Make a note)"@en ;
+    skos:definition "The agency which assigned the number."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07151c>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasQualificationInPublishersNumberOtherTypeOfPublishersNumberMakeANote.en> ;
+    reg:name "hasQualificationInPublishersNumberOtherTypeOfPublishersNumberMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Qualification in Publisher's number (Other type of publisher's number) (Make a note)"@en ;
+    skos:definition "Information to distinguish between numbers if a record contains more than one publisher number."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07151d>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasTermsOfAvailabilityAndOrPriceInPublishersNumberOtherTypeOfPublishersNumberMakeANote.en> ;
+    reg:name "hasTermsOfAvailabilityAndOrPriceInPublishersNumberOtherTypeOfPublishersNumberMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Terms of availability and/or price in Publisher's number (Other type of publisher's number) (Make a note)"@en ;
+    skos:definition "The price of the item and any comment on its availability."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07151z>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasErroneousPublishersNumberInPublishersNumberOtherTypeOfPublishersNumberMakeANote.en> ;
+    reg:name "hasErroneousPublishersNumberInPublishersNumberOtherTypeOfPublishersNumberMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Erroneous publisher's number in Publisher's number (Other type of publisher's number) (Make a note)"@en ;
+    skos:definition "A publisher's number that has been identified as being erroneously applied to an item or otherwise invalid."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07160a>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasPublishersNumberInPublishersNumberElectronicResourceNumberDoNotMakeANote.en> ;
+    reg:name "hasPublishersNumberInPublishersNumberElectronicResourceNumberDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Publisher's number in Publisher's number (Electronic resource number) (Do not make a note)"@en ;
+    skos:definition "The number as assigned by the agency."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07160b>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasSourceInPublishersNumberElectronicResourceNumberDoNotMakeANote.en> ;
+    reg:name "hasSourceInPublishersNumberElectronicResourceNumberDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Source in Publisher's number (Electronic resource number) (Do not make a note)"@en ;
+    skos:definition "The agency which assigned the number."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07160c>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasQualificationInPublishersNumberElectronicResourceNumberDoNotMakeANote.en> ;
+    reg:name "hasQualificationInPublishersNumberElectronicResourceNumberDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Qualification in Publisher's number (Electronic resource number) (Do not make a note)"@en ;
+    skos:definition "Information to distinguish between numbers if a record contains more than one publisher number."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07160d>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasTermsOfAvailabilityAndOrPriceInPublishersNumberElectronicResourceNumberDoNotMakeANote.en> ;
+    reg:name "hasTermsOfAvailabilityAndOrPriceInPublishersNumberElectronicResourceNumberDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Terms of availability and/or price in Publisher's number (Electronic resource number) (Do not make a note)"@en ;
+    skos:definition "The price of the item and any comment on its availability."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07160z>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasErroneousPublishersNumberInPublishersNumberElectronicResourceNumberDoNotMakeANote.en> ;
+    reg:name "hasErroneousPublishersNumberInPublishersNumberElectronicResourceNumberDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Erroneous publisher's number in Publisher's number (Electronic resource number) (Do not make a note)"@en ;
+    skos:definition "A publisher's number that has been identified as being erroneously applied to an item or otherwise invalid."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07161a>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasPublishersNumberInPublishersNumberElectronicResourceNumberMakeANote.en> ;
+    reg:name "hasPublishersNumberInPublishersNumberElectronicResourceNumberMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Publisher's number in Publisher's number (Electronic resource number) (Make a note)"@en ;
+    skos:definition "The number as assigned by the agency."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07161b>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasSourceInPublishersNumberElectronicResourceNumberMakeANote.en> ;
+    reg:name "hasSourceInPublishersNumberElectronicResourceNumberMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Source in Publisher's number (Electronic resource number) (Make a note)"@en ;
+    skos:definition "The agency which assigned the number."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07161c>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasQualificationInPublishersNumberElectronicResourceNumberMakeANote.en> ;
+    reg:name "hasQualificationInPublishersNumberElectronicResourceNumberMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Qualification in Publisher's number (Electronic resource number) (Make a note)"@en ;
+    skos:definition "Information to distinguish between numbers if a record contains more than one publisher number."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07161d>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasTermsOfAvailabilityAndOrPriceInPublishersNumberElectronicResourceNumberMakeANote.en> ;
+    reg:name "hasTermsOfAvailabilityAndOrPriceInPublishersNumberElectronicResourceNumberMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Terms of availability and/or price in Publisher's number (Electronic resource number) (Make a note)"@en ;
+    skos:definition "The price of the item and any comment on its availability."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U07161z>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasErroneousPublishersNumberInPublishersNumberElectronicResourceNumberMakeANote.en> ;
+    reg:name "hasErroneousPublishersNumberInPublishersNumberElectronicResourceNumberMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Erroneous publisher's number in Publisher's number (Electronic resource number) (Make a note)"@en ;
+    skos:definition "A publisher's number that has been identified as being erroneously applied to an item or otherwise invalid."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U072_0a>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasStandardNumberInUniversalProductCodeUpcNoInformationProvided.en> ;
+    reg:name "hasStandardNumberInUniversalProductCodeUpcNoInformationProvided"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Standard number in Universal product code (UPC) (No information provided)"@en ;
+    skos:definition "A correctly formatted standard number or code."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U072_0b>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasQualificationInUniversalProductCodeUpcNoInformationProvided.en> ;
+    reg:name "hasQualificationInUniversalProductCodeUpcNoInformationProvided"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Qualification in Universal product code (UPC) (No information provided)"@en ;
+    skos:definition "An indication of the scope of the number or code, usually the name of a publisher, an indication of the binding of the item, or an indication of the relationship of a number or code to a set or to a particular volume."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U072_0c>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasAdditionalCodesFollowingStandardNumberOrCodesInUniversalProductCodeUpcNoInformationProvided.en> ;
+    reg:name "hasAdditionalCodesFollowingStandardNumberOrCodesInUniversalProductCodeUpcNoInformationProvided"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Additional codes following standard number or codes in Universal product code (UPC) (No information provided)"@en ;
+    skos:definition "Any coded suffix to the identifier."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U072_0d>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasTermsOfAvailabilityAndOrPriceInUniversalProductCodeUpcNoInformationProvided.en> ;
+    reg:name "hasTermsOfAvailabilityAndOrPriceInUniversalProductCodeUpcNoInformationProvided"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Terms of availability and/or price in Universal product code (UPC) (No information provided)"@en ;
+    skos:definition "The price of the item and any comment on its availability."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U072_0z>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasErroneousNumberOrCodeInUniversalProductCodeUpcNoInformationProvided.en> ;
+    reg:name "hasErroneousNumberOrCodeInUniversalProductCodeUpcNoInformationProvided"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Erroneous number or code in Universal product code (UPC) (No information provided)"@en ;
+    skos:definition "A number or code that has been identified as being erroneously applied to an item or is otherwise invalid."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U072_1a>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasStandardNumberInUniversalProductCodeUpcNoDifference.en> ;
+    reg:name "hasStandardNumberInUniversalProductCodeUpcNoDifference"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Standard number in Universal product code (UPC) (No difference)"@en ;
+    skos:definition "A correctly formatted standard number or code."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U072_1b>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasQualificationInUniversalProductCodeUpcNoDifference.en> ;
+    reg:name "hasQualificationInUniversalProductCodeUpcNoDifference"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Qualification in Universal product code (UPC) (No difference)"@en ;
+    skos:definition "An indication of the scope of the number or code, usually the name of a publisher, an indication of the binding of the item, or an indication of the relationship of a number or code to a set or to a particular volume."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U072_1c>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasAdditionalCodesFollowingStandardNumberOrCodesInUniversalProductCodeUpcNoDifference.en> ;
+    reg:name "hasAdditionalCodesFollowingStandardNumberOrCodesInUniversalProductCodeUpcNoDifference"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Additional codes following standard number or codes in Universal product code (UPC) (No difference)"@en ;
+    skos:definition "Any coded suffix to the identifier."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U072_1d>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasTermsOfAvailabilityAndOrPriceInUniversalProductCodeUpcNoDifference.en> ;
+    reg:name "hasTermsOfAvailabilityAndOrPriceInUniversalProductCodeUpcNoDifference"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Terms of availability and/or price in Universal product code (UPC) (No difference)"@en ;
+    skos:definition "The price of the item and any comment on its availability."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U072_1z>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasErroneousNumberOrCodeInUniversalProductCodeUpcNoDifference.en> ;
+    reg:name "hasErroneousNumberOrCodeInUniversalProductCodeUpcNoDifference"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Erroneous number or code in Universal product code (UPC) (No difference)"@en ;
+    skos:definition "A number or code that has been identified as being erroneously applied to an item or is otherwise invalid."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U072_2a>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasStandardNumberInUniversalProductCodeUpcDifference.en> ;
+    reg:name "hasStandardNumberInUniversalProductCodeUpcDifference"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Standard number in Universal product code (UPC) (Difference)"@en ;
+    skos:definition "A correctly formatted standard number or code."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U072_2b>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasQualificationInUniversalProductCodeUpcDifference.en> ;
+    reg:name "hasQualificationInUniversalProductCodeUpcDifference"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Qualification in Universal product code (UPC) (Difference)"@en ;
+    skos:definition "An indication of the scope of the number or code, usually the name of a publisher, an indication of the binding of the item, or an indication of the relationship of a number or code to a set or to a particular volume."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U072_2c>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasAdditionalCodesFollowingStandardNumberOrCodesInUniversalProductCodeUpcDifference.en> ;
+    reg:name "hasAdditionalCodesFollowingStandardNumberOrCodesInUniversalProductCodeUpcDifference"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Additional codes following standard number or codes in Universal product code (UPC) (Difference)"@en ;
+    skos:definition "Any coded suffix to the identifier."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U072_2d>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasTermsOfAvailabilityAndOrPriceInUniversalProductCodeUpcDifference.en> ;
+    reg:name "hasTermsOfAvailabilityAndOrPriceInUniversalProductCodeUpcDifference"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Terms of availability and/or price in Universal product code (UPC) (Difference)"@en ;
+    skos:definition "The price of the item and any comment on its availability."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U072_2z>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasErroneousNumberOrCodeInUniversalProductCodeUpcDifference.en> ;
+    reg:name "hasErroneousNumberOrCodeInUniversalProductCodeUpcDifference"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Erroneous number or code in Universal product code (UPC) (Difference)"@en ;
+    skos:definition "A number or code that has been identified as being erroneously applied to an item or is otherwise invalid."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U073_0a>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasStandardNumberInInternationalArticleNumberEanNoInformationProvided.en> ;
+    reg:name "hasStandardNumberInInternationalArticleNumberEanNoInformationProvided"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Standard number in International article number (EAN) (No information provided)"@en ;
+    skos:definition "A correctly formatted standard number or code."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U073_0b>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasQualificationInInternationalArticleNumberEanNoInformationProvided.en> ;
+    reg:name "hasQualificationInInternationalArticleNumberEanNoInformationProvided"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Qualification in International article number (EAN) (No information provided)"@en ;
+    skos:definition "An indication of the scope of the number or code, usually the name of a publisher, an indication of the binding of the item, or an indication of the relationship of a number or code to a set or to a particular volume."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U073_0c>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasAdditionalCodesFollowingStandardNumberOrCodesInInternationalArticleNumberEanNoInformationProvided.en> ;
+    reg:name "hasAdditionalCodesFollowingStandardNumberOrCodesInInternationalArticleNumberEanNoInformationProvided"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Additional codes following standard number or codes in International article number (EAN) (No information provided)"@en ;
+    skos:definition "Any coded suffix to the identifier."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U073_0d>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasTermsOfAvailabilityAndOrPriceInInternationalArticleNumberEanNoInformationProvided.en> ;
+    reg:name "hasTermsOfAvailabilityAndOrPriceInInternationalArticleNumberEanNoInformationProvided"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Terms of availability and/or price in International article number (EAN) (No information provided)"@en ;
+    skos:definition "The price of the item and any comment on its availability."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U073_0z>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasErroneousNumberOrCodeInInternationalArticleNumberEanNoInformationProvided.en> ;
+    reg:name "hasErroneousNumberOrCodeInInternationalArticleNumberEanNoInformationProvided"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Erroneous number or code in International article number (EAN) (No information provided)"@en ;
+    skos:definition "A number or code that has been identified as being erroneously applied to an item or is otherwise invalid."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U073_1a>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasStandardNumberInInternationalArticleNumberEanNoDifference.en> ;
+    reg:name "hasStandardNumberInInternationalArticleNumberEanNoDifference"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Standard number in International article number (EAN) (No difference)"@en ;
+    skos:definition "A correctly formatted standard number or code."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U073_1b>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasQualificationInInternationalArticleNumberEanNoDifference.en> ;
+    reg:name "hasQualificationInInternationalArticleNumberEanNoDifference"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Qualification in International article number (EAN) (No difference)"@en ;
+    skos:definition "An indication of the scope of the number or code, usually the name of a publisher, an indication of the binding of the item, or an indication of the relationship of a number or code to a set or to a particular volume."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U073_1c>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasAdditionalCodesFollowingStandardNumberOrCodesInInternationalArticleNumberEanNoDifference.en> ;
+    reg:name "hasAdditionalCodesFollowingStandardNumberOrCodesInInternationalArticleNumberEanNoDifference"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Additional codes following standard number or codes in International article number (EAN) (No difference)"@en ;
+    skos:definition "Any coded suffix to the identifier."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U073_1d>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasTermsOfAvailabilityAndOrPriceInInternationalArticleNumberEanNoDifference.en> ;
+    reg:name "hasTermsOfAvailabilityAndOrPriceInInternationalArticleNumberEanNoDifference"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Terms of availability and/or price in International article number (EAN) (No difference)"@en ;
+    skos:definition "The price of the item and any comment on its availability."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U073_1z>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasErroneousNumberOrCodeInInternationalArticleNumberEanNoDifference.en> ;
+    reg:name "hasErroneousNumberOrCodeInInternationalArticleNumberEanNoDifference"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Erroneous number or code in International article number (EAN) (No difference)"@en ;
+    skos:definition "A number or code that has been identified as being erroneously applied to an item or is otherwise invalid."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U073_2a>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasStandardNumberInInternationalArticleNumberEanDifference.en> ;
+    reg:name "hasStandardNumberInInternationalArticleNumberEanDifference"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Standard number in International article number (EAN) (Difference)"@en ;
+    skos:definition "A correctly formatted standard number or code."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U073_2b>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasQualificationInInternationalArticleNumberEanDifference.en> ;
+    reg:name "hasQualificationInInternationalArticleNumberEanDifference"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Qualification in International article number (EAN) (Difference)"@en ;
+    skos:definition "An indication of the scope of the number or code, usually the name of a publisher, an indication of the binding of the item, or an indication of the relationship of a number or code to a set or to a particular volume."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U073_2c>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasAdditionalCodesFollowingStandardNumberOrCodesInInternationalArticleNumberEanDifference.en> ;
+    reg:name "hasAdditionalCodesFollowingStandardNumberOrCodesInInternationalArticleNumberEanDifference"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Additional codes following standard number or codes in International article number (EAN) (Difference)"@en ;
+    skos:definition "Any coded suffix to the identifier."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U073_2d>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasTermsOfAvailabilityAndOrPriceInInternationalArticleNumberEanDifference.en> ;
+    reg:name "hasTermsOfAvailabilityAndOrPriceInInternationalArticleNumberEanDifference"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Terms of availability and/or price in International article number (EAN) (Difference)"@en ;
+    skos:definition "The price of the item and any comment on its availability."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/U073_2z>
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/hasErroneousNumberOrCodeInInternationalArticleNumberEanDifference.en> ;
+    reg:name "hasErroneousNumberOrCodeInInternationalArticleNumberEanDifference"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/0XX/> ;
+    rdfs:label "Erroneous number or code in International article number (EAN) (Difference)"@en ;
+    skos:definition "A number or code that has been identified as being erroneously applied to an item or is otherwise invalid."@en .
+
+<http://metadataregistry.org/uri/RegStatus/1001>
+    a skos:Concept ;
+    skos:prefLabel "Published"@en .
+

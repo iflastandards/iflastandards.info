@@ -1,0 +1,303 @@
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/> <http://purl.org/dc/elements/1.1/title> "UNIMARC/B elements 47X"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0a> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0a> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0a> <http://metadataregistry.org/uri/profile/regap/name> "hasAuthorInItemReviewedDoNotMakeANote"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0a> <http://www.w3.org/2000/01/rdf-schema#label> "has Author in Item reviewed (Do not make a note)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0a> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasAuthorInItemReviewedDoNotMakeANote.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1a> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1a> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1a> <http://metadataregistry.org/uri/profile/regap/name> "hasAuthorInItemReviewedMakeANote"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1a> <http://www.w3.org/2000/01/rdf-schema#label> "has Author in Item reviewed (Make a note)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1a> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasAuthorInItemReviewedMakeANote.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_03> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_03> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_03> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_03> <http://metadataregistry.org/uri/profile/regap/name> "hasAuthorityRecordNumberInItemReviewedDoNotMakeANote"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_03> <http://www.w3.org/2000/01/rdf-schema#label> "has Authority record number in Item reviewed (Do not make a note)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_03> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasAuthorityRecordNumberInItemReviewedDoNotMakeANote.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_13> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_13> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_13> <http://metadataregistry.org/uri/profile/regap/name> "hasAuthorityRecordNumberInItemReviewedMakeANote"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_13> <http://www.w3.org/2000/01/rdf-schema#label> "has Authority record number in Item reviewed (Make a note)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_13> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasAuthorityRecordNumberInItemReviewedMakeANote.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_00> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_00> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_00> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_00> <http://metadataregistry.org/uri/profile/regap/name> "hasBibliographicRecordIdentifierInItemReviewedDoNotMakeANote"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_00> <http://www.w3.org/2000/01/rdf-schema#label> "has Bibliographic record identifier in Item reviewed (Do not make a note)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_00> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasBibliographicRecordIdentifierInItemReviewedDoNotMakeANote.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_10> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_10> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_10> <http://metadataregistry.org/uri/profile/regap/name> "hasBibliographicRecordIdentifierInItemReviewedMakeANote"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_10> <http://www.w3.org/2000/01/rdf-schema#label> "has Bibliographic record identifier in Item reviewed (Make a note)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_10> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasBibliographicRecordIdentifierInItemReviewedMakeANote.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0z> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0z> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0z> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0z> <http://metadataregistry.org/uri/profile/regap/name> "hasCodenInItemReviewedDoNotMakeANote"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0z> <http://www.w3.org/2000/01/rdf-schema#label> "has CODEN in Item reviewed (Do not make a note)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0z> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasCodenInItemReviewedDoNotMakeANote.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1z> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1z> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1z> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1z> <http://metadataregistry.org/uri/profile/regap/name> "hasCodenInItemReviewedMakeANote"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1z> <http://www.w3.org/2000/01/rdf-schema#label> "has CODEN in Item reviewed (Make a note)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1z> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasCodenInItemReviewedMakeANote.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0d> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0d> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0d> <http://metadataregistry.org/uri/profile/regap/name> "hasDateOfPublicationInItemReviewedDoNotMakeANote"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0d> <http://www.w3.org/2000/01/rdf-schema#label> "has Date of publication in Item reviewed (Do not make a note)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0d> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasDateOfPublicationInItemReviewedDoNotMakeANote.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1d> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1d> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1d> <http://metadataregistry.org/uri/profile/regap/name> "hasDateOfPublicationInItemReviewedMakeANote"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1d> <http://www.w3.org/2000/01/rdf-schema#label> "has Date of publication in Item reviewed (Make a note)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1d> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasDateOfPublicationInItemReviewedMakeANote.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0e> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0e> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0e> <http://metadataregistry.org/uri/profile/regap/name> "hasEditionStatementInItemReviewedDoNotMakeANote"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0e> <http://www.w3.org/2000/01/rdf-schema#label> "has Edition statement in Item reviewed (Do not make a note)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0e> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasEditionStatementInItemReviewedDoNotMakeANote.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1e> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1e> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1e> <http://metadataregistry.org/uri/profile/regap/name> "hasEditionStatementInItemReviewedMakeANote"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1e> <http://www.w3.org/2000/01/rdf-schema#label> "has Edition statement in Item reviewed (Make a note)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1e> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasEditionStatementInItemReviewedMakeANote.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0f> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0f> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0f> <http://metadataregistry.org/uri/profile/regap/name> "hasFirstStatementOfResponsibilityInItemReviewedDoNotMakeANote"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0f> <http://www.w3.org/2000/01/rdf-schema#label> "has First statement of responsibility in Item reviewed (Do not make a note)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0f> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasFirstStatementOfResponsibilityInItemReviewedDoNotMakeANote.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1f> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1f> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1f> <http://metadataregistry.org/uri/profile/regap/name> "hasFirstStatementOfResponsibilityInItemReviewedMakeANote"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1f> <http://www.w3.org/2000/01/rdf-schema#label> "has First statement of responsibility in Item reviewed (Make a note)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1f> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasFirstStatementOfResponsibilityInItemReviewedMakeANote.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0b> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0b> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0b> <http://metadataregistry.org/uri/profile/regap/name> "hasGeneralMaterialDesignationInItemReviewedDoNotMakeANote"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0b> <http://www.w3.org/2000/01/rdf-schema#label> "has General material designation in Item reviewed (Do not make a note)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0b> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasGeneralMaterialDesignationInItemReviewedDoNotMakeANote.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1b> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1b> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1b> <http://metadataregistry.org/uri/profile/regap/name> "hasGeneralMaterialDesignationInItemReviewedMakeANote"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1b> <http://www.w3.org/2000/01/rdf-schema#label> "has General material designation in Item reviewed (Make a note)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1b> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasGeneralMaterialDesignationInItemReviewedMakeANote.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_05> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_05> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_05> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_05> <http://metadataregistry.org/uri/profile/regap/name> "hasInstitutionToWhichFieldAppliesInItemReviewedDoNotMakeANote"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_05> <http://www.w3.org/2000/01/rdf-schema#label> "has Institution to which field applies in Item reviewed (Do not make a note)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_05> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasInstitutionToWhichFieldAppliesInItemReviewedDoNotMakeANote.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_15> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_15> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_15> <http://metadataregistry.org/uri/profile/regap/name> "hasInstitutionToWhichFieldAppliesInItemReviewedMakeANote"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_15> <http://www.w3.org/2000/01/rdf-schema#label> "has Institution to which field applies in Item reviewed (Make a note)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_15> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasInstitutionToWhichFieldAppliesInItemReviewedMakeANote.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0y> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0y> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0y> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0y> <http://metadataregistry.org/uri/profile/regap/name> "hasInternationalStandardBookNumberInItemReviewedDoNotMakeANote"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0y> <http://www.w3.org/2000/01/rdf-schema#label> "has International Standard Book Number in Item reviewed (Do not make a note)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0y> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasInternationalStandardBookNumberInItemReviewedDoNotMakeANote.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1y> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1y> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1y> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1y> <http://metadataregistry.org/uri/profile/regap/name> "hasInternationalStandardBookNumberInItemReviewedMakeANote"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1y> <http://www.w3.org/2000/01/rdf-schema#label> "has International Standard Book Number in Item reviewed (Make a note)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1y> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasInternationalStandardBookNumberInItemReviewedMakeANote.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0m> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0m> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0m> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0m> <http://metadataregistry.org/uri/profile/regap/name> "hasInternationalStandardMusicNumberInItemReviewedDoNotMakeANote"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0m> <http://www.w3.org/2000/01/rdf-schema#label> "has International Standard Music Number in Item reviewed (Do not make a note)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0m> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasInternationalStandardMusicNumberInItemReviewedDoNotMakeANote.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1m> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1m> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1m> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1m> <http://metadataregistry.org/uri/profile/regap/name> "hasInternationalStandardMusicNumberInItemReviewedMakeANote"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1m> <http://www.w3.org/2000/01/rdf-schema#label> "has International Standard Music Number in Item reviewed (Make a note)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1m> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasInternationalStandardMusicNumberInItemReviewedMakeANote.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0x> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0x> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0x> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0x> <http://metadataregistry.org/uri/profile/regap/name> "hasIssnInItemReviewedDoNotMakeANote"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0x> <http://www.w3.org/2000/01/rdf-schema#label> "has ISSN in Item reviewed (Do not make a note)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0x> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasIssnInItemReviewedDoNotMakeANote.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1x> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1x> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1x> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1x> <http://metadataregistry.org/uri/profile/regap/name> "hasIssnInItemReviewedMakeANote"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1x> <http://www.w3.org/2000/01/rdf-schema#label> "has ISSN in Item reviewed (Make a note)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1x> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasIssnInItemReviewedMakeANote.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_01> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_01> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_01> <http://metadataregistry.org/uri/profile/regap/name> "hasLinkingDataInItemReviewedDoNotMakeANote"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_01> <http://www.w3.org/2000/01/rdf-schema#label> "has Linking data in Item reviewed (Do not make a note)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_01> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasLinkingDataInItemReviewedDoNotMakeANote.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_11> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_11> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_11> <http://metadataregistry.org/uri/profile/regap/name> "hasLinkingDataInItemReviewedMakeANote"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_11> <http://www.w3.org/2000/01/rdf-schema#label> "has Linking data in Item reviewed (Make a note)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_11> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasLinkingDataInItemReviewedMakeANote.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0n> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0n> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0n> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0n> <http://metadataregistry.org/uri/profile/regap/name> "hasNameOfPublisherDistributorEtcInItemReviewedDoNotMakeANote"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0n> <http://www.w3.org/2000/01/rdf-schema#label> "has Name of publisher, distributor, etc. in Item reviewed (Do not make a note)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0n> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasNameOfPublisherDistributorEtcInItemReviewedDoNotMakeANote.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1n> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1n> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1n> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1n> <http://metadataregistry.org/uri/profile/regap/name> "hasNameOfPublisherDistributorEtcInItemReviewedMakeANote"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1n> <http://www.w3.org/2000/01/rdf-schema#label> "has Name of publisher, distributor, etc. in Item reviewed (Make a note)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1n> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasNameOfPublisherDistributorEtcInItemReviewedMakeANote.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0i> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0i> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0i> <http://metadataregistry.org/uri/profile/regap/name> "hasNameOfSectionOrPartInItemReviewedDoNotMakeANote"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0i> <http://www.w3.org/2000/01/rdf-schema#label> "has Name of section or part in Item reviewed (Do not make a note)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0i> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasNameOfSectionOrPartInItemReviewedDoNotMakeANote.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1i> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1i> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1i> <http://metadataregistry.org/uri/profile/regap/name> "hasNameOfSectionOrPartInItemReviewedMakeANote"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1i> <http://www.w3.org/2000/01/rdf-schema#label> "has Name of section or part in Item reviewed (Make a note)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1i> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasNameOfSectionOrPartInItemReviewedMakeANote.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0h> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0h> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0h> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0h> <http://metadataregistry.org/uri/profile/regap/name> "hasNumberOfSectionOrPartInItemReviewedDoNotMakeANote"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0h> <http://www.w3.org/2000/01/rdf-schema#label> "has Number of section or part in Item reviewed (Do not make a note)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0h> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasNumberOfSectionOrPartInItemReviewedDoNotMakeANote.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1h> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1h> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1h> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1h> <http://metadataregistry.org/uri/profile/regap/name> "hasNumberOfSectionOrPartInItemReviewedMakeANote"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1h> <http://www.w3.org/2000/01/rdf-schema#label> "has Number of section or part in Item reviewed (Make a note)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1h> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasNumberOfSectionOrPartInItemReviewedMakeANote.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0o> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0o> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0o> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0o> <http://metadataregistry.org/uri/profile/regap/name> "hasOtherTitleInformationInItemReviewedDoNotMakeANote"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0o> <http://www.w3.org/2000/01/rdf-schema#label> "has Other title information in Item reviewed (Do not make a note)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0o> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasOtherTitleInformationInItemReviewedDoNotMakeANote.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1o> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1o> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1o> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1o> <http://metadataregistry.org/uri/profile/regap/name> "hasOtherTitleInformationInItemReviewedMakeANote"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1o> <http://www.w3.org/2000/01/rdf-schema#label> "has Other title information in Item reviewed (Make a note)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1o> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasOtherTitleInformationInItemReviewedMakeANote.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0l> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0l> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0l> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0l> <http://metadataregistry.org/uri/profile/regap/name> "hasParallelTitleInItemReviewedDoNotMakeANote"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0l> <http://www.w3.org/2000/01/rdf-schema#label> "has Parallel title in Item reviewed (Do not make a note)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0l> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasParallelTitleInItemReviewedDoNotMakeANote.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1l> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1l> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1l> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1l> <http://metadataregistry.org/uri/profile/regap/name> "hasParallelTitleInItemReviewedMakeANote"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1l> <http://www.w3.org/2000/01/rdf-schema#label> "has Parallel title in Item reviewed (Make a note)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1l> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasParallelTitleInItemReviewedMakeANote.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0p> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0p> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0p> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0p> <http://metadataregistry.org/uri/profile/regap/name> "hasPhysicalDescriptionInItemReviewedDoNotMakeANote"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0p> <http://www.w3.org/2000/01/rdf-schema#label> "has Physical description in Item reviewed (Do not make a note)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0p> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasPhysicalDescriptionInItemReviewedDoNotMakeANote.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1p> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1p> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1p> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1p> <http://metadataregistry.org/uri/profile/regap/name> "hasPhysicalDescriptionInItemReviewedMakeANote"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1p> <http://www.w3.org/2000/01/rdf-schema#label> "has Physical description in Item reviewed (Make a note)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1p> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasPhysicalDescriptionInItemReviewedMakeANote.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0c> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0c> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0c> <http://metadataregistry.org/uri/profile/regap/name> "hasPlaceOfPublicationInItemReviewedDoNotMakeANote"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0c> <http://www.w3.org/2000/01/rdf-schema#label> "has Place of publication in Item reviewed (Do not make a note)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0c> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasPlaceOfPublicationInItemReviewedDoNotMakeANote.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1c> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1c> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1c> <http://metadataregistry.org/uri/profile/regap/name> "hasPlaceOfPublicationInItemReviewedMakeANote"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1c> <http://www.w3.org/2000/01/rdf-schema#label> "has Place of publication in Item reviewed (Make a note)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1c> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasPlaceOfPublicationInItemReviewedMakeANote.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0s> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0s> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0s> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0s> <http://metadataregistry.org/uri/profile/regap/name> "hasSeriesStatementInItemReviewedDoNotMakeANote"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0s> <http://www.w3.org/2000/01/rdf-schema#label> "has Series statement in Item reviewed (Do not make a note)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0s> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasSeriesStatementInItemReviewedDoNotMakeANote.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1s> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1s> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1s> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1s> <http://metadataregistry.org/uri/profile/regap/name> "hasSeriesStatementInItemReviewedMakeANote"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1s> <http://www.w3.org/2000/01/rdf-schema#label> "has Series statement in Item reviewed (Make a note)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1s> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasSeriesStatementInItemReviewedMakeANote.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0g> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0g> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0g> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0g> <http://metadataregistry.org/uri/profile/regap/name> "hasSubsequentStatementOfResponsibilityInItemReviewedDoNotMakeANote"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0g> <http://www.w3.org/2000/01/rdf-schema#label> "has Subsequent statement of responsibility in Item reviewed (Do not make a note)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0g> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasSubsequentStatementOfResponsibilityInItemReviewedDoNotMakeANote.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1g> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1g> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1g> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1g> <http://metadataregistry.org/uri/profile/regap/name> "hasSubsequentStatementOfResponsibilityInItemReviewedMakeANote"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1g> <http://www.w3.org/2000/01/rdf-schema#label> "has Subsequent statement of responsibility in Item reviewed (Make a note)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1g> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasSubsequentStatementOfResponsibilityInItemReviewedMakeANote.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0t> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0t> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0t> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0t> <http://metadataregistry.org/uri/profile/regap/name> "hasTitleInItemReviewedDoNotMakeANote"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0t> <http://www.w3.org/2000/01/rdf-schema#label> "has Title in Item reviewed (Do not make a note)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0t> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasTitleInItemReviewedDoNotMakeANote.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1t> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1t> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1t> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1t> <http://metadataregistry.org/uri/profile/regap/name> "hasTitleInItemReviewedMakeANote"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1t> <http://www.w3.org/2000/01/rdf-schema#label> "has Title in Item reviewed (Make a note)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1t> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasTitleInItemReviewedMakeANote.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0u> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0u> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0u> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0u> <http://metadataregistry.org/uri/profile/regap/name> "hasUniformResourceIdentifierInItemReviewedDoNotMakeANote"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0u> <http://www.w3.org/2000/01/rdf-schema#label> "has Uniform Resource Identifier in Item reviewed (Do not make a note)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0u> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasUniformResourceIdentifierInItemReviewedDoNotMakeANote.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1u> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1u> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1u> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1u> <http://metadataregistry.org/uri/profile/regap/name> "hasUniformResourceIdentifierInItemReviewedMakeANote"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1u> <http://www.w3.org/2000/01/rdf-schema#label> "has Uniform Resource Identifier in Item reviewed (Make a note)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1u> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasUniformResourceIdentifierInItemReviewedMakeANote.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0v> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0v> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0v> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0v> <http://metadataregistry.org/uri/profile/regap/name> "hasVolumeNumberInItemReviewedDoNotMakeANote"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0v> <http://www.w3.org/2000/01/rdf-schema#label> "has Volume number in Item reviewed (Do not make a note)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0v> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasVolumeNumberInItemReviewedDoNotMakeANote.en> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1v> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1v> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1v> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1v> <http://metadataregistry.org/uri/profile/regap/name> "hasVolumeNumberInItemReviewedMakeANote"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1v> <http://www.w3.org/2000/01/rdf-schema#label> "has Volume number in Item reviewed (Make a note)"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1v> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasVolumeNumberInItemReviewedMakeANote.en> .
+<http://metadataregistry.org/uri/RegStatus/1001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://metadataregistry.org/uri/RegStatus/1001> <http://www.w3.org/2004/02/skos/core#prefLabel> "Published"@en .

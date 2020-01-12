@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+<!-- Scheme: UNIMARC: Cartographic materials: Colour indicator -->
+    <skos:ConceptScheme rdf:about="http://iflastandards.info/ns/unimarc/terms/cartcol#">
+        <dc:title>UNIMARC: Cartographic materials: Colour indicator</dc:title>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartcol#b"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartcol#a"/>
+    </skos:ConceptScheme>
+
+<!-- Concept: multi-colour  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartcol#b" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartcol#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7589"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartcol#"/>
+      <skos:prefLabel xml:lang="en">multi-colour</skos:prefLabel>
+      <skos:notation xml:lang="en">b</skos:notation>
+    </skos:Concept>
+<!-- Concept: one colour  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartcol#a" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartcol#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7588"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartcol#"/>
+      <skos:prefLabel xml:lang="en">one colour</skos:prefLabel>
+      <skos:notation xml:lang="en">a</skos:notation>
+    </skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

@@ -1,0 +1,119 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix reg: <http://metadataregistry.org/uri/profile/regap/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://iflastandards.info/ns/unimarc/terms/cartrel#>
+    dc:title "UNIMARC: Cartographic materials: Relief" ;
+    a skos:ConceptScheme .
+
+<http://iflastandards.info/ns/unimarc/terms/cartrel#a>
+    reg:identifier <http://metadataregistry.org/concepts/7590> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/cartrel#> ;
+    skos:notation "a"@en ;
+    skos:prefLabel "contours"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/cartrel#b>
+    reg:identifier <http://metadataregistry.org/concepts/7591> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/cartrel#> ;
+    skos:notation "b"@en ;
+    skos:prefLabel "continuous tone shaded relief"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/cartrel#c>
+    reg:identifier <http://metadataregistry.org/concepts/7592> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/cartrel#> ;
+    skos:notation "c"@en ;
+    skos:prefLabel "hypsometric tints - layer method"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/cartrel#d>
+    reg:identifier <http://metadataregistry.org/concepts/7593> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/cartrel#> ;
+    skos:notation "d"@en ;
+    skos:prefLabel "hachures"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/cartrel#e>
+    reg:identifier <http://metadataregistry.org/concepts/7594> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/cartrel#> ;
+    skos:notation "e"@en ;
+    skos:prefLabel "bathymetry - soundings"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/cartrel#f>
+    reg:identifier <http://metadataregistry.org/concepts/7595> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/cartrel#> ;
+    skos:notation "f"@en ;
+    skos:prefLabel "form lines"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/cartrel#g>
+    reg:identifier <http://metadataregistry.org/concepts/7596> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/cartrel#> ;
+    skos:notation "g"@en ;
+    skos:prefLabel "spot heights"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/cartrel#h>
+    reg:identifier <http://metadataregistry.org/concepts/7597> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/cartrel#> ;
+    skos:notation "h"@en ;
+    skos:prefLabel "other methods in colour"@en ;
+    skos:scopeNote "E.g. in the style of Imhof."@en .
+
+<http://iflastandards.info/ns/unimarc/terms/cartrel#i>
+    reg:identifier <http://metadataregistry.org/concepts/7598> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/cartrel#> ;
+    skos:notation "i"@en ;
+    skos:prefLabel "pictorially"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/cartrel#j>
+    reg:identifier <http://metadataregistry.org/concepts/7599> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/cartrel#> ;
+    skos:notation "j"@en ;
+    skos:prefLabel "landforms"@en ;
+    skos:scopeNote "E.g. in the style of Lobeck, Raisz, Fenneman."@en .
+
+<http://iflastandards.info/ns/unimarc/terms/cartrel#k>
+    reg:identifier <http://metadataregistry.org/concepts/7600> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/cartrel#> ;
+    skos:notation "k"@en ;
+    skos:prefLabel "bathymetry - isolines"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/cartrel#x>
+    reg:identifier <http://metadataregistry.org/concepts/7601> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/cartrel#> ;
+    skos:notation "x"@en ;
+    skos:prefLabel "not applicable"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/cartrel#z>
+    reg:identifier <http://metadataregistry.org/concepts/7602> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/cartrel#> ;
+    skos:notation "z"@en ;
+    skos:prefLabel "other methods of relief representation"@en .
+
+<http://metadataregistry.org/uri/RegStatus/1001>
+    a skos:Concept ;
+    skos:prefLabel "Published"@en .
+

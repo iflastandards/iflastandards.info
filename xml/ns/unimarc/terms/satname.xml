@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+<!-- Scheme: UNIMARC: Cartographic materials: Name of satellite -->
+    <skos:ConceptScheme rdf:about="http://iflastandards.info/ns/unimarc/terms/satname#">
+        <dc:title>UNIMARC: Cartographic materials: Name of satellite</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: ATS  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/satname#ab" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/satname#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7646"/>
+      <skos:prefLabel xml:lang="en">ATS</skos:prefLabel>
+      <skos:notation xml:lang="en">ab</skos:notation>
+      <skos:definition xml:lang="en">Meteorological satellite.</skos:definition>
+    </skos:Concept>
+<!-- Concept: ERTS  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/satname#ga" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/satname#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7650"/>
+      <skos:prefLabel xml:lang="en">ERTS</skos:prefLabel>
+      <skos:notation xml:lang="en">ga</skos:notation>
+      <skos:definition xml:lang="en">Earth resources satellite.</skos:definition>
+    </skos:Concept>
+<!-- Concept: Explorer I  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/satname#ma" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/satname#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7657"/>
+      <skos:prefLabel xml:lang="en">Explorer I</skos:prefLabel>
+      <skos:notation xml:lang="en">ma</skos:notation>
+      <skos:definition xml:lang="en">Space observing satellite.</skos:definition>
+    </skos:Concept>
+<!-- Concept: Explorer II  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/satname#mb" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/satname#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7658"/>
+      <skos:prefLabel xml:lang="en">Explorer II</skos:prefLabel>
+      <skos:notation xml:lang="en">mb</skos:notation>
+      <skos:definition xml:lang="en">Space observing satellite.</skos:definition>
+    </skos:Concept>
+<!-- Concept: Landsat I  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/satname#gb" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/satname#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7651"/>
+      <skos:prefLabel xml:lang="en">Landsat I</skos:prefLabel>
+      <skos:notation xml:lang="en">gb</skos:notation>
+      <skos:definition xml:lang="en">Earth resources satellite.</skos:definition>
+    </skos:Concept>
+<!-- Concept: Landsat II  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/satname#gc" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/satname#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7652"/>
+      <skos:prefLabel xml:lang="en">Landsat II</skos:prefLabel>
+      <skos:notation xml:lang="en">gc</skos:notation>
+      <skos:definition xml:lang="en">Earth resources satellite.</skos:definition>
+    </skos:Concept>
+<!-- Concept: Landsat III  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/satname#gd" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/satname#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7653"/>
+      <skos:prefLabel xml:lang="en">Landsat III</skos:prefLabel>
+      <skos:notation xml:lang="en">gd</skos:notation>
+      <skos:definition xml:lang="en">Earth resources satellite.</skos:definition>
+    </skos:Concept>
+<!-- Concept: METEOSAT  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/satname#ae" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/satname#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7649"/>
+      <skos:prefLabel xml:lang="en">METEOSAT</skos:prefLabel>
+      <skos:notation xml:lang="en">ae</skos:notation>
+      <skos:definition xml:lang="en">Meteorological satellite.</skos:definition>
+    </skos:Concept>
+<!-- Concept: Nimbus  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/satname#ad" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/satname#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7648"/>
+      <skos:prefLabel xml:lang="en">Nimbus</skos:prefLabel>
+      <skos:notation xml:lang="en">ad</skos:notation>
+      <skos:definition xml:lang="en">Meteorological satellite.</skos:definition>
+    </skos:Concept>
+<!-- Concept: NOAA  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/satname#ac" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/satname#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7647"/>
+      <skos:prefLabel xml:lang="en">NOAA</skos:prefLabel>
+      <skos:notation xml:lang="en">ac</skos:notation>
+      <skos:definition xml:lang="en">Meteorological satellite.</skos:definition>
+    </skos:Concept>
+<!-- Concept: Seasat  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/satname#ge" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/satname#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7654"/>
+      <skos:prefLabel xml:lang="en">Seasat</skos:prefLabel>
+      <skos:notation xml:lang="en">ge</skos:notation>
+      <skos:definition xml:lang="en">Earth resources satellite.</skos:definition>
+    </skos:Concept>
+<!-- Concept: Skylab  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/satname#gf" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/satname#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7655"/>
+      <skos:prefLabel xml:lang="en">Skylab</skos:prefLabel>
+      <skos:notation xml:lang="en">gf</skos:notation>
+      <skos:definition xml:lang="en">Earth resources satellite.</skos:definition>
+    </skos:Concept>
+<!-- Concept: Spacelab  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/satname#gg" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/satname#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7656"/>
+      <skos:prefLabel xml:lang="en">Spacelab</skos:prefLabel>
+      <skos:notation xml:lang="en">gg</skos:notation>
+      <skos:definition xml:lang="en">Earth resources satellite.</skos:definition>
+    </skos:Concept>
+<!-- Concept: Tiros  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/satname#aa" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/satname#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7645"/>
+      <skos:prefLabel xml:lang="en">Tiros</skos:prefLabel>
+      <skos:notation xml:lang="en">aa</skos:notation>
+      <skos:definition xml:lang="en">Meteorological satellite.</skos:definition>
+    </skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

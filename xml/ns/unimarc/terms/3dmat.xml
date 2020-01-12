@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+<!-- Scheme: UNIMARC: Three-dimensional artefacts and realia: Material -->
+    <skos:ConceptScheme rdf:about="http://iflastandards.info/ns/unimarc/terms/3dmat#">
+        <dc:title>UNIMARC: Three-dimensional artefacts and realia: Material</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: [obsolete]  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/3dmat#de" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dmat#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1008"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7683"/>
+      <skos:prefLabel xml:lang="en">[obsolete]</skos:prefLabel>
+      <skos:notation xml:lang="en">de</skos:notation>
+      <skos:editorialNote xml:lang="en">Recode as da.</skos:editorialNote>
+    </skos:Concept>
+<!-- Concept: basalt  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/3dmat#dd" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dmat#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7682"/>
+      <skos:prefLabel xml:lang="en">basalt</skos:prefLabel>
+      <skos:notation xml:lang="en">dd</skos:notation>
+    </skos:Concept>
+<!-- Concept: bronze  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/3dmat#fc" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dmat#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7689"/>
+      <skos:prefLabel xml:lang="en">bronze</skos:prefLabel>
+      <skos:notation xml:lang="en">fc</skos:notation>
+    </skos:Concept>
+<!-- Concept: cardboard  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/3dmat#eb" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dmat#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7686"/>
+      <skos:prefLabel xml:lang="en">cardboard</skos:prefLabel>
+      <skos:notation xml:lang="en">eb</skos:notation>
+    </skos:Concept>
+<!-- Concept: ceramic  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/3dmat#af" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dmat#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7674"/>
+      <skos:prefLabel xml:lang="en">ceramic</skos:prefLabel>
+      <skos:notation xml:lang="en">af</skos:notation>
+    </skos:Concept>
+<!-- Concept: clay  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/3dmat#ac" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dmat#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7671"/>
+      <skos:prefLabel xml:lang="en">clay</skos:prefLabel>
+      <skos:notation xml:lang="en">ac</skos:notation>
+    </skos:Concept>
+<!-- Concept: copper  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/3dmat#fd" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dmat#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7690"/>
+      <skos:prefLabel xml:lang="en">copper</skos:prefLabel>
+      <skos:notation xml:lang="en">fd</skos:notation>
+    </skos:Concept>
+<!-- Concept: glass  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/3dmat#ah" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dmat#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7676"/>
+      <skos:prefLabel xml:lang="en">glass</skos:prefLabel>
+      <skos:notation xml:lang="en">ah</skos:notation>
+    </skos:Concept>
+<!-- Concept: ivory  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/3dmat#ca" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dmat#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7678"/>
+      <skos:prefLabel xml:lang="en">ivory</skos:prefLabel>
+      <skos:notation xml:lang="en">ca</skos:notation>
+    </skos:Concept>
+<!-- Concept: majolica  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/3dmat#ad" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dmat#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7672"/>
+      <skos:prefLabel xml:lang="en">majolica</skos:prefLabel>
+      <skos:notation xml:lang="en">ad</skos:notation>
+    </skos:Concept>
+<!-- Concept: marble  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/3dmat#dc" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dmat#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7681"/>
+      <skos:prefLabel xml:lang="en">marble</skos:prefLabel>
+      <skos:notation xml:lang="en">dc</skos:notation>
+    </skos:Concept>
+<!-- Concept: metal  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/3dmat#fb" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dmat#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7688"/>
+      <skos:prefLabel xml:lang="en">metal</skos:prefLabel>
+      <skos:notation xml:lang="en">fb</skos:notation>
+    </skos:Concept>
+<!-- Concept: mixed  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/3dmat#vv" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dmat#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7695"/>
+      <skos:prefLabel xml:lang="en">mixed</skos:prefLabel>
+      <skos:notation xml:lang="en">vv</skos:notation>
+    </skos:Concept>
+<!-- Concept: other  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/3dmat#zz" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dmat#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7696"/>
+      <skos:prefLabel xml:lang="en">other</skos:prefLabel>
+      <skos:notation xml:lang="en">zz</skos:notation>
+    </skos:Concept>
+<!-- Concept: paper  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/3dmat#ea" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dmat#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7685"/>
+      <skos:prefLabel xml:lang="en">paper</skos:prefLabel>
+      <skos:notation xml:lang="en">ea</skos:notation>
+    </skos:Concept>
+<!-- Concept: plaster  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/3dmat#ag" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dmat#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7675"/>
+      <skos:prefLabel xml:lang="en">plaster</skos:prefLabel>
+      <skos:notation xml:lang="en">ag</skos:notation>
+    </skos:Concept>
+<!-- Concept: plastic  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/3dmat#ia" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dmat#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7693"/>
+      <skos:prefLabel xml:lang="en">plastic</skos:prefLabel>
+      <skos:notation xml:lang="en">ia</skos:notation>
+    </skos:Concept>
+<!-- Concept: porcelain  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/3dmat#ae" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dmat#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7673"/>
+      <skos:prefLabel xml:lang="en">porcelain</skos:prefLabel>
+      <skos:notation xml:lang="en">ae</skos:notation>
+    </skos:Concept>
+<!-- Concept: porphyry  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/3dmat#df" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dmat#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7684"/>
+      <skos:prefLabel xml:lang="en">porphyry</skos:prefLabel>
+      <skos:notation xml:lang="en">df</skos:notation>
+    </skos:Concept>
+<!-- Concept: precious metals  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/3dmat#fa" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dmat#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7687"/>
+      <skos:prefLabel xml:lang="en">precious metals</skos:prefLabel>
+      <skos:notation xml:lang="en">fa</skos:notation>
+    </skos:Concept>
+<!-- Concept: precious stones  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/3dmat#db" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dmat#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7680"/>
+      <skos:prefLabel xml:lang="en">precious stones</skos:prefLabel>
+      <skos:notation xml:lang="en">db</skos:notation>
+    </skos:Concept>
+<!-- Concept: stone  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/3dmat#da" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dmat#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7679"/>
+      <skos:prefLabel xml:lang="en">stone</skos:prefLabel>
+      <skos:notation xml:lang="en">da</skos:notation>
+    </skos:Concept>
+<!-- Concept: synthetics  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/3dmat#ga" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dmat#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7691"/>
+      <skos:prefLabel xml:lang="en">synthetics</skos:prefLabel>
+      <skos:notation xml:lang="en">ga</skos:notation>
+    </skos:Concept>
+<!-- Concept: terra-cotta  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/3dmat#aa" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dmat#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7669"/>
+      <skos:prefLabel xml:lang="en">terra-cotta</skos:prefLabel>
+      <skos:notation xml:lang="en">aa</skos:notation>
+    </skos:Concept>
+<!-- Concept: textile  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/3dmat#ha" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dmat#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7692"/>
+      <skos:prefLabel xml:lang="en">textile</skos:prefLabel>
+      <skos:notation xml:lang="en">ha</skos:notation>
+    </skos:Concept>
+<!-- Concept: unknown  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/3dmat#uu" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dmat#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7694"/>
+      <skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+      <skos:notation xml:lang="en">uu</skos:notation>
+    </skos:Concept>
+<!-- Concept: wax  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/3dmat#ab" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dmat#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7670"/>
+      <skos:prefLabel xml:lang="en">wax</skos:prefLabel>
+      <skos:notation xml:lang="en">ab</skos:notation>
+    </skos:Concept>
+<!-- Concept: wood  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/3dmat#ba" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/3dmat#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7677"/>
+      <skos:prefLabel xml:lang="en">wood</skos:prefLabel>
+      <skos:notation xml:lang="en">ba</skos:notation>
+    </skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1008">
+        <skos:prefLabel xml:lang="en">Deprecated</skos:prefLabel>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

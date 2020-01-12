@@ -1,0 +1,117 @@
+<http://iflastandards.info/ns/unimarc/terms/sounddim#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#> <http://purl.org/dc/elements/1.1/title> "UNIMARC: Sound recordings: Dimensions" .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/sounddim#d> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/sounddim#e> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/sounddim#g> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/sounddim#f> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/sounddim/#s> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/sounddim#j> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/sounddim#a> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/sounddim#h> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/sounddim#o> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/sounddim#b> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/sounddim#c> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/sounddim#x> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/sounddim#z> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/sounddim#u> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#d> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/sounddim#> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#d> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#d> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6441> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#d> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/sounddim#> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#d> <http://www.w3.org/2004/02/skos/core#prefLabel> "10 in."@en .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#d> <http://www.w3.org/2004/02/skos/core#notation> "d"@en .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#e> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/sounddim#> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#e> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#e> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6442> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#e> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/sounddim#> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#e> <http://www.w3.org/2004/02/skos/core#prefLabel> "12 in."@en .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#e> <http://www.w3.org/2004/02/skos/core#notation> "e"@en .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#g> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#g> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/sounddim#> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#g> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#g> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6444> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#g> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/sounddim#> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#g> <http://www.w3.org/2004/02/skos/core#prefLabel> "14 in."@en .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#g> <http://www.w3.org/2004/02/skos/core#notation> "g"@en .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#f> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/sounddim#> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#f> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#f> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6443> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#f> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/sounddim#> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#f> <http://www.w3.org/2004/02/skos/core#prefLabel> "16 in."@en .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#f> <http://www.w3.org/2004/02/skos/core#notation> "f"@en .
+<http://iflastandards.info/ns/unimarc/terms/sounddim/#s> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim/#s> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/sounddim#> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim/#s> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim/#s> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6448> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim/#s> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/sounddim#> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim/#s> <http://www.w3.org/2004/02/skos/core#prefLabel> "2 3/4 x 4 in."@en .
+<http://iflastandards.info/ns/unimarc/terms/sounddim/#s> <http://www.w3.org/2004/02/skos/core#notation> "s"@en .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#j> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#j> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/sounddim#> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#j> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#j> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6446> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#j> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/sounddim#> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#j> <http://www.w3.org/2004/02/skos/core#prefLabel> "3 7/8 x 2 1/2 in."@en .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#j> <http://www.w3.org/2004/02/skos/core#notation> "j"@en .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#a> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/sounddim#> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#a> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#a> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6438> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#a> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/sounddim#> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#a> <http://www.w3.org/2004/02/skos/core#prefLabel> "3 in."@en .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#a> <http://www.w3.org/2004/02/skos/core#notation> "a"@en .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#h> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#h> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/sounddim#> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#h> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#h> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6445> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#h> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/sounddim#> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#h> <http://www.w3.org/2004/02/skos/core#prefLabel> "4 3/4 in."@en .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#h> <http://www.w3.org/2004/02/skos/core#notation> "h"@en .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#o> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#o> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/sounddim#> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#o> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#o> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6447> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#o> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/sounddim#> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#o> <http://www.w3.org/2004/02/skos/core#prefLabel> "5 1/4 x 3 7/8 in."@en .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#o> <http://www.w3.org/2004/02/skos/core#notation> "o"@en .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#b> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/sounddim#> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#b> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#b> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6439> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#b> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/sounddim#> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#b> <http://www.w3.org/2004/02/skos/core#prefLabel> "5 in."@en .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#b> <http://www.w3.org/2004/02/skos/core#notation> "b"@en .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#c> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/sounddim#> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#c> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#c> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6440> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#c> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/sounddim#> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#c> <http://www.w3.org/2004/02/skos/core#prefLabel> "7 in."@en .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#c> <http://www.w3.org/2004/02/skos/core#notation> "c"@en .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#x> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#x> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/sounddim#> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#x> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#x> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6450> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#x> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/sounddim#> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#x> <http://www.w3.org/2004/02/skos/core#prefLabel> "not applicable"@en .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#x> <http://www.w3.org/2004/02/skos/core#notation> "x"@en .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#z> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#z> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/sounddim#> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#z> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#z> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6451> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#z> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/sounddim#> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#z> <http://www.w3.org/2004/02/skos/core#prefLabel> "other"@en .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#z> <http://www.w3.org/2004/02/skos/core#notation> "z"@en .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#z> <http://www.w3.org/2004/02/skos/core#definition> "Dimensions of sound recording other than 3 in., 4 3/4 in., 5 in., 7 in., 10 in., 12 in., 14 in, 16 in., 2 3/4 x 4 in., 3 7/8 x 2 1/2 in., and 5 1/4 x 3 7/8 in."@en .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#u> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#u> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/sounddim#> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#u> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#u> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6449> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#u> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/sounddim#> .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#u> <http://www.w3.org/2004/02/skos/core#prefLabel> "unknown"@en .
+<http://iflastandards.info/ns/unimarc/terms/sounddim#u> <http://www.w3.org/2004/02/skos/core#notation> "u"@en .
+<http://metadataregistry.org/uri/RegStatus/1001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://metadataregistry.org/uri/RegStatus/1001> <http://www.w3.org/2004/02/skos/core#prefLabel> "Published"@en .

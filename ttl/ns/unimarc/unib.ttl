@@ -1,0 +1,1064 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix reg: <http://metadataregistry.org/uri/profile/regap/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://iflastandards.info/ns/unimarc/unib/>
+    dc:title "Test (do not use)"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1010_a>
+    reg:name "UniTest1"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest1"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1010_b>
+    reg:name "UniTest2"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest2"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1010_c>
+    reg:name "UniTest3"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest3"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1010_d>
+    reg:name "UniTest4"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest4"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1010_e>
+    reg:name "UniTest5"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest5"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1010_f>
+    reg:name "UniTest6"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest6"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1010_g>
+    reg:name "UniTest7"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest7"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1010_h>
+    reg:name "UniTest8"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest8"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1010_i>
+    reg:name "UniTest9"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest9"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1010_j>
+    reg:name "UniTest10"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest10"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1011_a>
+    reg:name "UniTest11"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest11"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1011_b>
+    reg:name "UniTest12"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest12"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1011_c>
+    reg:name "UniTest13"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest13"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1011_d>
+    reg:name "UniTest14"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest14"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1011_e>
+    reg:name "UniTest15"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest15"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1011_f>
+    reg:name "UniTest16"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest16"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1011_g>
+    reg:name "UniTest17"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest17"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1011_h>
+    reg:name "UniTest18"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest18"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1011_i>
+    reg:name "UniTest19"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest19"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1011_j>
+    reg:name "UniTest20"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest20"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1012_a>
+    reg:name "UniTest21"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest21"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1012_b>
+    reg:name "UniTest22"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest22"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1012_c>
+    reg:name "UniTest23"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest23"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1012_d>
+    reg:name "UniTest24"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest24"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1012_e>
+    reg:name "UniTest25"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest25"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1012_f>
+    reg:name "UniTest26"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest26"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1012_g>
+    reg:name "UniTest27"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest27"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1012_h>
+    reg:name "UniTest28"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest28"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1012_i>
+    reg:name "UniTest29"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest29"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1012_j>
+    reg:name "UniTest30"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest30"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B102__2>
+    reg:name "UniTest31"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest31"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B102__a>
+    reg:name "UniTest32"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest32"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B102__b>
+    reg:name "UniTest33"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest33"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B102__c>
+    reg:name "UniTest34"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest34"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B106__a>
+    reg:name "UniTest35"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest35"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1230_a>
+    reg:name "UniTest36"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest36"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1230_b>
+    reg:name "UniTest37"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest37"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1230_c>
+    reg:name "UniTest38"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest38"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1230_d>
+    reg:name "UniTest39"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest39"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1230_e>
+    reg:name "UniTest40"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest40"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1230_f>
+    reg:name "UniTest41"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest41"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1230_g>
+    reg:name "UniTest42"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest42"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1230_h>
+    reg:name "UniTest43"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest43"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1230_i>
+    reg:name "UniTest44"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest44"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1230_j>
+    reg:name "UniTest45"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest45"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1230_k>
+    reg:name "UniTest46"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest46"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1230_m>
+    reg:name "UniTest47"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest47"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1230_n>
+    reg:name "UniTest48"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest48"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1230_o>
+    reg:name "UniTest49"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest49"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1230_p>
+    reg:name "UniTest50"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest50"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1231_a>
+    reg:name "UniTest51"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest51"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1231_b>
+    reg:name "UniTest52"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest52"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1231_c>
+    reg:name "UniTest53"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest53"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1231_d>
+    reg:name "UniTest54"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest54"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1231_e>
+    reg:name "UniTest55"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest55"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1231_f>
+    reg:name "UniTest56"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest56"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1231_g>
+    reg:name "UniTest57"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest57"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1231_h>
+    reg:name "UniTest58"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest58"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1231_i>
+    reg:name "UniTest59"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest59"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1231_j>
+    reg:name "UniTest60"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest60"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1231_k>
+    reg:name "UniTest61"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest61"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1231_m>
+    reg:name "UniTest62"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest62"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1231_n>
+    reg:name "UniTest63"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest63"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1231_o>
+    reg:name "UniTest64"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest64"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1231_p>
+    reg:name "UniTest65"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest65"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1232_a>
+    reg:name "UniTest66"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest66"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1232_b>
+    reg:name "UniTest67"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest67"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1232_c>
+    reg:name "UniTest68"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest68"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1232_d>
+    reg:name "UniTest69"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest69"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1232_e>
+    reg:name "UniTest70"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest70"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1232_f>
+    reg:name "UniTest71"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest71"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1232_g>
+    reg:name "UniTest72"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest72"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1232_h>
+    reg:name "UniTest73"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest73"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1232_i>
+    reg:name "UniTest74"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest74"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1232_j>
+    reg:name "UniTest75"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest75"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1232_k>
+    reg:name "UniTest76"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest76"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1232_m>
+    reg:name "UniTest77"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest77"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1232_n>
+    reg:name "UniTest78"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest78"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1232_o>
+    reg:name "UniTest79"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest79"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1232_p>
+    reg:name "UniTest80"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest80"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1233_a>
+    reg:name "UniTest81"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest81"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1233_b>
+    reg:name "UniTest82"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest82"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1233_c>
+    reg:name "UniTest83"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest83"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1233_d>
+    reg:name "UniTest84"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest84"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1233_e>
+    reg:name "UniTest85"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest85"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1233_f>
+    reg:name "UniTest86"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest86"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1233_g>
+    reg:name "UniTest87"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest87"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1233_h>
+    reg:name "UniTest88"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest88"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1233_i>
+    reg:name "UniTest89"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest89"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1233_j>
+    reg:name "UniTest90"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest90"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1233_k>
+    reg:name "UniTest91"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest91"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1233_m>
+    reg:name "UniTest92"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest92"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1233_n>
+    reg:name "UniTest93"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest93"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1233_o>
+    reg:name "UniTest94"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest94"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1233_p>
+    reg:name "UniTest95"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest95"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1234_a>
+    reg:name "UniTest96"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest96"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1234_b>
+    reg:name "UniTest97"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest97"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1234_c>
+    reg:name "UniTest98"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest98"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1234_d>
+    reg:name "UniTest99"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest99"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1234_e>
+    reg:name "UniTest100"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest100"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1234_f>
+    reg:name "UniTest101"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest101"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1234_g>
+    reg:name "UniTest102"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest102"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1234_h>
+    reg:name "UniTest103"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest103"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1234_i>
+    reg:name "UniTest104"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest104"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1234_j>
+    reg:name "UniTest105"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest105"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1234_k>
+    reg:name "UniTest106"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest106"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1234_m>
+    reg:name "UniTest107"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest107"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1234_n>
+    reg:name "UniTest108"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest108"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1234_o>
+    reg:name "UniTest109"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest109"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1234_p>
+    reg:name "UniTest110"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest110"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B124__a>
+    reg:name "UniTest111"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest111"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B124__b>
+    reg:name "UniTest112"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest112"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B124__c>
+    reg:name "UniTest113"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest113"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B124__d>
+    reg:name "UniTest114"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest114"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B124__e>
+    reg:name "UniTest115"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest115"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B124__f>
+    reg:name "UniTest116"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest116"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B124__g>
+    reg:name "UniTest117"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest117"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B125__b>
+    reg:name "UniTest118"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest118"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B125__c>
+    reg:name "UniTest119"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest119"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B127__a>
+    reg:name "UniTest120"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest120"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B128__a>
+    reg:name "UniTest121"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest121"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B128__b>
+    reg:name "UniTest122"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest122"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B128__c>
+    reg:name "UniTest123"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest123"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B128__d>
+    reg:name "UniTest124"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest124"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B131__a>
+    reg:name "UniTest125"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest125"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B131__b>
+    reg:name "UniTest126"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest126"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B131__c>
+    reg:name "UniTest127"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest127"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B131__d>
+    reg:name "UniTest128"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest128"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B131__e>
+    reg:name "UniTest129"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest129"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B131__f>
+    reg:name "UniTest130"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest130"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B131__g>
+    reg:name "UniTest131"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest131"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B131__h>
+    reg:name "UniTest132"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest132"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B131__i>
+    reg:name "UniTest133"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest133"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B131__j>
+    reg:name "UniTest134"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest134"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B131__k>
+    reg:name "UniTest135"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest135"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B131__l>
+    reg:name "UniTest136"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest136"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B141__5>
+    reg:name "UniTest137"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest137"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B141__c>
+    reg:name "UniTest138"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest138"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B141__d>
+    reg:name "UniTest139"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest139"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B141__f>
+    reg:name "UniTest140"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest140"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B14501a>
+    reg:name "UniTest141"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest141"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1450_a>
+    reg:name "UniTest142"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest142"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B14511a>
+    reg:name "UniTest143"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest143"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1451_a>
+    reg:name "UniTest144"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest144"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B14601a>
+    reg:name "UniTest145"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest145"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1460_a>
+    reg:name "UniTest146"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest146"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B14611a>
+    reg:name "UniTest147"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest147"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B1461_a>
+    reg:name "UniTest148"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest148"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B146_1a>
+    reg:name "UniTest149"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest149"@en .
+
+<http://iflastandards.info/ns/unimarc/unib/B146__a>
+    reg:name "UniTest150"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unib/> ;
+    rdfs:label "UniTest150"@en .
+
+<http://metadataregistry.org/uri/RegStatus/1008>
+    a skos:Concept ;
+    skos:prefLabel "Deprecated"@en .
+

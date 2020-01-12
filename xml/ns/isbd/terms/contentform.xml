@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+<!-- Scheme: ISBD Content Form -->
+    <skos:ConceptScheme rdf:about="http://iflastandards.info/ns/isbd/terms/contentform">
+        <dc:title>ISBD Content Form</dc:title>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/isbd/terms/contentform/T1001"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/isbd/terms/contentform/T1002"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/isbd/terms/contentform/T1003"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/isbd/terms/contentform/T1010"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/isbd/terms/contentform/T1004"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/isbd/terms/contentform/T1005"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/isbd/terms/contentform/T1011"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/isbd/terms/contentform/T1006"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/isbd/terms/contentform/T1007"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/isbd/terms/contentform/T1008"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/isbd/terms/contentform/T1009"/>
+    </skos:ConceptScheme>
+
+<!-- Concept: dataset  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/isbd/terms/contentform/T1001" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/isbd/terms/contentform"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/1200"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/isbd/terms/contentform"/>
+      <skos:prefLabel xml:lang="en">dataset</skos:prefLabel>
+      <skos:definition xml:lang="en">Content expressed by digitally-encoded data intended to be processed by a computer.</skos:definition>
+      <skos:scopeNote xml:lang="en">Examples include numeric data, environmental data, etc., used by applications software to calculate averages, correlations, etc., or to produce models, etc., but not normally displayed in its raw form. Excluded are digitally recorded music, language, sounds, computer-reproduced images and text.</skos:scopeNote>
+      <skos:prefLabel xml:lang="es">conjunto de datos</skos:prefLabel>
+      <skos:definition xml:lang="es">Contenido expresado por datos codificados digitalmente para que sean procesados por un ordenador.</skos:definition>
+      <skos:prefLabel xml:lang="es">Ejemplos son los datos numéricos, datos medioambientales, etc., utilizados por las aplicaciones de software para el cálculo de promedios, correlaciones, etc., o para producir modelos, etc., pero normalmente no se muestran en su forma pura. Se excluyen las grabaciones digitales de música, la lengua, sonidos, imágenes reproducidas por ordenador y texto.</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">skup podataka</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">dataset</skos:prefLabel>
+      <skos:definition xml:lang="it">Un contenuto espresso mediante dati codificati in forma digitale, destinati all’elaborazione via computer.</skos:definition>
+      <skos:scopeNote xml:lang="it">Gli esempi includono i dati numerici, i dati ambientali, etc., che si usano nelle applicazioni software per calcolare medie matematiche, correlazioni, etc., o per produrre modelli, etc., ma che non si visualizzano normalmente in forma grezza. Si escludono la musica registrata in forma digitale, il linguaggio, i suoni, le immagini riprodotte al computer e i testi.</skos:scopeNote>
+      <skos:prefLabel xml:lang="bg">набор от данни</skos:prefLabel>
+      <skos:definition xml:lang="bg">Съдържание, изразено с цифрово кодирани данни, предназначени за компютърна обработка.</skos:definition>
+      <skos:scopeNote xml:lang="bg">Примерите включват цифрови данни, данни за околната среда и др., използвани от компютърни приложения за изчисляване на средни стойности, корелации и др. или за създаване на модели, които обаче обикновено не се представят в суров вид. Не се включват цифрови музикални записи, реч, звуци, изображения, възпроизвеждани чрез компютър и текст.</skos:scopeNote>
+      <skos:prefLabel xml:lang="ru">электронные данные</skos:prefLabel>
+      <skos:definition xml:lang="ru">Содержание, выраженное посредством данных в цифровой кодировке, предназначенных для компьютерной обработки.</skos:definition>
+      <skos:scopeNote xml:lang="ru">Примеры включают числовые данные, данные о природных явлениях и т. п., используемые компьютерными программами для вычисления средних значений, взаимосвязей и т.п., или для построения моделей, и т. п., но, как правило, не предназначенные для вывода в необработанном виде. Не включают ни цифровую музыкальную звукозапись (см. музыка), ни речь (см. устная речь), ни другие звуки (см. звуки), ни воспроизводимые компьютером изображения (см. изображения), ни текстовой материал (см. текст).</skos:scopeNote>
+      <skos:prefLabel xml:lang="sr">skup podataka</skos:prefLabel>
+      <skos:scopeNote xml:lang="sr">Takvi primeri su numerički podaci, ekološki podaci i slično, koje koriste računarski programi za izračunavanje prosečnih vrednosti, korelacije i drugo, ili za stvaranje modela i slično, ali, po pravilu, ne i za njihovo prikazivanje u izvornom obliku. Isključuje digitalno zabeleženu muziku, jezik, zvukove, računarski reprodukovane slike i tekst.</skos:scopeNote>
+      <skos:definition xml:lang="sr">Sadržaj izražen digitalno kodiranim podacima predviđenim za obradu posredstvom računara.</skos:definition>
+      <skos:scopeNote xml:lang="es">Ejemplos son los datos numéricos, datos medioambientales, etc., utilizados por las aplicaciones de software para el cálculo de promedios, correlaciones, etc., o para producir modelos, etc., pero normalmente no se muestran en su forma pura. Se excluyen las grabaciones digitales de música, la lengua, sonidos, imágenes reproducidas por ordenador y texto.</skos:scopeNote>
+      <skos:prefLabel xml:lang="zh">数据集</skos:prefLabel>
+      <skos:definition xml:lang="zh">用于计算机处理的数字编码数据表示的内容。</skos:definition>
+      <skos:scopeNote xml:lang="zh">例如数值数据、环境数据等被应用软件用来计算平均数、相关度等或者生成模型等，它们一般不以其原始形式进行显示。不包括以数字方式记录的音乐[见 音乐]、语言[见 言谈]、声音[见 声音]、计算机制作的图像[见 图像]和文字资料[见 文字资料]。</skos:scopeNote>
+      <skos:prefLabel xml:lang="lv">datu kopa</skos:prefLabel>
+      <skos:definition xml:lang="lv">Saturs, izteikts ar digitāli kodētiem datiem, kas paredzēti
+apstrādei datoros.</skos:definition>
+      <skos:scopeNote xml:lang="lv">Piemēri ietver skaitliskos datus, vides datus, u.c., izmantošanai programmatūrām, lai aprēķinātu vidējos rādītājus, korelāciju, utt., vai modeļu radīšanai, utt., bet parasti nav attēloti to neapstrādātajā formā. Neietver digitāli ierakstītu mūziku, valodu, skaņas, ar datoru reproducētus attēlus un tekstu.</skos:scopeNote>
+      <skos:prefLabel xml:lang="fr">données</skos:prefLabel>
+      <skos:definition xml:lang="fr">Contenu exprimé sous la forme de données encodées de manière numérique prévues pour être traitées par un ordinateur.</skos:definition>
+      <skos:scopeNote xml:lang="fr">Par exemple, des données numériques, des données environnementales, etc. utilisées par des logiciels d’application pour calculer des moyennes, des corrélations, etc. ou bien pour produire des modèles, etc., mais qui ne sont normalement pas prévues pour être affichées sous leur forme brute. En sont exclus : la musique enregistrée sous forme numérique, le langage, les sons, les images numériques  et le texte.</skos:scopeNote>
+    </skos:Concept>
+<!-- Concept: image  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/isbd/terms/contentform/T1002" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/isbd/terms/contentform"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/1201"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/isbd/terms/contentform"/>
+      <skos:prefLabel xml:lang="en">image</skos:prefLabel>
+      <skos:definition xml:lang="en">Content expressed through line, shape, shading, etc. An image can be still or moving, in two or three dimensions.</skos:definition>
+      <skos:scopeNote xml:lang="en">Examples include art reproductions, maps, raised relief maps, photographs, remote-sensing images, stereographs, motion pictures, and lithographs.</skos:scopeNote>
+      <skos:prefLabel xml:lang="es">imagen</skos:prefLabel>
+      <skos:definition xml:lang="es">Contenido expresado a través de líneas, formas, sombras, etc. Una imagen puede ser fija o en movimiento, en dos o tres dimensiones.</skos:definition>
+      <skos:scopeNote xml:lang="es">Como ejemplos se incluyen reproducciones de arte, mapas, fotografías, imágenes de teledetección, estereográficas, películas y litografías.</skos:scopeNote>
+      <skos:prefLabel xml:lang="hr">slika</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">immagine</skos:prefLabel>
+      <skos:definition xml:lang="it">Un contenuto espresso mediante linee, forme, ombre, etc. Un’immagine può essere fissa o in movimento, a due o a tre dimensioni.</skos:definition>
+      <skos:scopeNote xml:lang="it">Gli esempi includono le riproduzioni d’arte, le carte geografiche, le carte geografiche in rilievo, le fotografie, le immagini di telerilevamento, gli stereogrammi, i film e le litografie.</skos:scopeNote>
+      <skos:prefLabel xml:lang="bg">изображение</skos:prefLabel>
+      <skos:definition xml:lang="bg">Съдържание, изразено чрез линия, форма, щрих и др., предназначено за визуално възприемане. Изображението може да бъде неподвижно или движещо се, двуизмерно или триизмерно.</skos:definition>
+      <skos:scopeNote xml:lang="bg">Примерите включват художествени репродукции, карти, фотографии, изображения, получени с дистанционно измерване, стереографи, кинофилми и литографии.</skos:scopeNote>
+      <skos:prefLabel xml:lang="ru">изображение</skos:prefLabel>
+      <skos:definition xml:lang="ru">Содержание, выраженное линией, формой, штриховкой и т.п., предназначенное для зрительного восприятия. Изображение может быть неподвижным или движущимся, двухмерным или трехмерным.</skos:definition>
+      <skos:scopeNote xml:lang="ru">Примеры включают репродукции произведений искусства, карты, фотографии, дистанционные сенсорные изображения, стереографии, кинофильмы и литографии.</skos:scopeNote>
+      <skos:definition xml:lang="sr">Sadržaj izražen linijom, oblikom, senčenjem i slično, namenjen vizuelnom doživljaju.</skos:definition>
+      <skos:scopeNote xml:lang="sr">Slika može da bude nepokretna i pokretna, dvodimenzionalna ili trodimenzionalna. Primeri za to su umetničke reprodukcije, karte, fotografije, slike dobijene daljinskom detekcijom, stereografije, filmovi i litografije.</skos:scopeNote>
+      <skos:prefLabel xml:lang="sr">slika</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">图像</skos:prefLabel>
+      <skos:definition xml:lang="zh">用于视觉感知的、通过线条、形状、阴影等表示的内容。图像可以是静止的或运动的，可以是二维的或三维的。</skos:definition>
+      <skos:scopeNote xml:lang="zh">例如艺术复制品、地图、照片、遥感影像、立体图、电影和版画。</skos:scopeNote>
+      <skos:prefLabel xml:lang="lv">attēls</skos:prefLabel>
+      <skos:definition xml:lang="lv">Saturs, izteikts ar līniju, kontūru, ēnojumu, utt., paredzēts vizuālai uztverei. Attēls var būt nekustīgs vai kustīgs, divdimensiju vai trīsdimensiju.</skos:definition>
+      <skos:scopeNote xml:lang="lv">Piemēri ietver mākslas darbu reprodukcijas, kartes, fotogrāfijas, tālizpētes attēlus, stenogrāfijas, kinofilmas un litogrāfijas.</skos:scopeNote>
+      <skos:prefLabel xml:lang="fr">image</skos:prefLabel>
+      <skos:definition xml:lang="fr">Contenu exprimé sous la forme de lignes, formes, ombrages, etc. ; une image peut être fixe ou animée, en deux ou trois dimensions.</skos:definition>
+      <skos:scopeNote xml:lang="fr">Par exemple, des reproductions d’art, des cartes, des cartes en relief, des photographies, des images de télédétection, des vues stéréoscopiques, des films cinématographiques et des lithographies.</skos:scopeNote>
+    </skos:Concept>
+<!-- Concept: movement  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/isbd/terms/contentform/T1003" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/isbd/terms/contentform"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/1202"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/isbd/terms/contentform"/>
+      <skos:prefLabel xml:lang="en">movement</skos:prefLabel>
+      <skos:definition xml:lang="en">Content expressed through motion, i.e. the act or process of changing the position of an object or person.</skos:definition>
+      <skos:scopeNote xml:lang="en">Examples include dance notation, stage actions, or choreography, but exclude moving images, such as motion pictures.</skos:scopeNote>
+      <skos:prefLabel xml:lang="es">movimiento</skos:prefLabel>
+      <skos:definition xml:lang="es">Contenido expresado a través del movimiento, es decir, el acto o proceso de cambio en la posición de un objeto o persona.</skos:definition>
+      <skos:scopeNote xml:lang="es">Como ejemplos se incluyen la notación de la danza, puesta en escena, o coreografía, pero se excluyen las imágenes en movimiento tales como películas.</skos:scopeNote>
+      <skos:prefLabel xml:lang="hr">pokret</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">movimento</skos:prefLabel>
+      <skos:definition xml:lang="it">Un contenuto espresso mediante il moto, p.e. l’atto o il processo tramite il quale si cambia la posizione di un oggetto o di una persona.</skos:definition>
+      <skos:scopeNote xml:lang="it">Gli esempi includono la notazione della danza, l’azione scenica o la coreografia, ma escludono le immagini in movimento, come i film.</skos:scopeNote>
+      <skos:prefLabel xml:lang="bg">движение</skos:prefLabel>
+      <skos:definition xml:lang="bg">Съдържание, изразено чрез движение, т.е. действие или процес на промяна на местоположението на предмет или лице.</skos:definition>
+      <skos:scopeNote xml:lang="bg">Примерите включват танцопис, сценични действия или хореография, но изключват движещи се изображения като кинофилми.</skos:scopeNote>
+      <skos:prefLabel xml:lang="ru">движение</skos:prefLabel>
+      <skos:definition xml:lang="ru">Содержание, выраженное посредством движения, т.е. действия или процесса перемещения предмета или лица.</skos:definition>
+      <skos:scopeNote xml:lang="ru">Примеры включают запись движений танца, сценических действий или хореографии, но не включают движущиеся изображения, такие как кинофильмы.</skos:scopeNote>
+      <skos:prefLabel xml:lang="sr">pokret</skos:prefLabel>
+      <skos:definition xml:lang="sr">Sadržaj izražen pomoću kretanja to jest, postupak ili proces promene položaja objekta ili osobe.</skos:definition>
+      <skos:scopeNote xml:lang="sr">Primeri za to su beleženje igre, scenskih pokreta ili koreografije, ali ne i pokretne slike, kao što su filmovi.</skos:scopeNote>
+      <skos:prefLabel xml:lang="zh">运动</skos:prefLabel>
+      <skos:definition xml:lang="zh">通过运动（即改变物体或人的位置的动作或过程）表示的内容。</skos:definition>
+      <skos:scopeNote xml:lang="zh">例如舞谱、舞台动作、编舞，但是不包括电影等运动的图像。</skos:scopeNote>
+      <skos:prefLabel xml:lang="lv">kustība</skos:prefLabel>
+      <skos:definition xml:lang="lv">Saturs, izteikts ar kustību, t.i. objekta vai personas stāvokļa izmaiņas darbību vai procesu.</skos:definition>
+      <skos:scopeNote xml:lang="lv">Piemēri ietver deju notāciju, inscenējumu vai horeogrāfiju, bet neietver kustīgus attēlus, tādus kā kinofilmas.</skos:scopeNote>
+      <skos:prefLabel xml:lang="fr">mouvement</skos:prefLabel>
+      <skos:definition xml:lang="fr">Contenu exprimé sous la forme de mouvement, c’est-à-dire l’action ou le processus de changer la position d’un objet ou d’une personne.</skos:definition>
+      <skos:scopeNote xml:lang="fr">Par exemple, une notation chorégraphique, des indications scéniques ou une chorégraphie. En sont exclues les images animées telles que les films cinématographiques.</skos:scopeNote>
+    </skos:Concept>
+<!-- Concept: multiple content forms  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/isbd/terms/contentform/T1010" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/isbd/terms/contentform"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/1209"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/isbd/terms/contentform"/>
+      <skos:prefLabel xml:lang="en">multiple content forms</skos:prefLabel>
+      <skos:definition xml:lang="en">Mixed content where three or more forms are applicable.</skos:definition>
+      <skos:prefLabel xml:lang="es">múltiples formas del contenido</skos:prefLabel>
+      <skos:definition xml:lang="es">Contenido mixto en el que se aplican tres o más formas.</skos:definition>
+      <skos:prefLabel xml:lang="hr">viševrsni oblici sadržaja</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">forme di contenuto multiple</skos:prefLabel>
+      <skos:definition xml:lang="it">Un contenuto misto al quale si applicano tre o più forme.</skos:definition>
+      <skos:prefLabel xml:lang="bg">различни форми на съдържанието</skos:prefLabel>
+      <skos:definition xml:lang="bg">Смесено съдържание, към което са приложими три или повече форми.</skos:definition>
+      <skos:prefLabel xml:lang="ru">разные формы содержания</skos:prefLabel>
+      <skos:definition xml:lang="ru">Смешанное содержание, когда применимы три или более терминов формы.</skos:definition>
+      <skos:prefLabel xml:lang="sr">viševrsni oblik</skos:prefLabel>
+      <skos:definition xml:lang="sr">Kombinovani sadržaj koga mogu da čine
+tri ili više oblika.</skos:definition>
+      <skos:prefLabel xml:lang="zh">多内容形式</skos:prefLabel>
+      <skos:definition xml:lang="zh">在三种或更多种形式适用时的混合内容。</skos:definition>
+      <skos:prefLabel xml:lang="lv">salikta satura formas</skos:prefLabel>
+      <skos:definition xml:lang="lv">Jaukts saturs, kurā lietojamas trīs vai vairākas formas.</skos:definition>
+      <skos:prefLabel xml:lang="fr">multimédia</skos:prefLabel>
+      <skos:definition xml:lang="fr">Contenu mixte auquel s’appliquent au moins trois formes du contenu.</skos:definition>
+    </skos:Concept>
+<!-- Concept: music  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/isbd/terms/contentform/T1004" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/isbd/terms/contentform"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/1203"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/isbd/terms/contentform"/>
+      <skos:prefLabel xml:lang="en">music</skos:prefLabel>
+      <skos:definition xml:lang="en">Content expressed through ordered tones or sounds in succession, in combination, and in temporal relationships to produce a composition. Music can be written (notation), performed, or recorded in analogue or digital formats as vocal, instrumental, or mechanical sounds having rhythm, melody, or harmony.</skos:definition>
+      <skos:scopeNote xml:lang="en">Examples include written music, such as scores or parts, and recorded music, such as concert performances, opera, and studio recordings.</skos:scopeNote>
+      <skos:prefLabel xml:lang="es">música</skos:prefLabel>
+      <skos:definition xml:lang="es">Contenido expresado a través de tonos o sonidos ordenados en sucesión, en combinación y en relaciones temporales para producir una composición. La música puede ser escrita (notación), interpretada o grabada en formatos analógico o digital, como sonidos vocales, instrumentales o mecánicos con ritmo, melodía o armonía.</skos:definition>
+      <skos:scopeNote xml:lang="es">Como ejemplos se incluyen la música escrita, como las partituras o partes y la música grabada, como los conciertos, ópera y grabaciones de estudio.</skos:scopeNote>
+      <skos:prefLabel xml:lang="hr">glazba</skos:prefLabel>
+      <skos:definition xml:lang="it">Un contenuto espresso mediante toni o suoni ordinati in successione, in combinazione e in relazione temporale, in modo da produrre una composizione; la musica può essere scritta (notazione), eseguita, o registrata in forma analogica o digitale, consistendo in suoni vocali, strumentali o meccanici dotati di ritmo, melodia, o armonia.</skos:definition>
+      <skos:prefLabel xml:lang="it">musica</skos:prefLabel>
+      <skos:scopeNote xml:lang="it">Gli esempi includono la musica scritta, come le partiture o le parti, e la musica registrata, come le esecuzioni in forma di concerto, l’opera, e le registrazioni in studio.</skos:scopeNote>
+      <skos:prefLabel xml:lang="bg">музика</skos:prefLabel>
+      <skos:definition xml:lang="bg">Съдържание, изразено чрез тонове или звуци, подредени в последователност, съчетание и временни взаимовръзки, за да се получи композиция. Музиката може да бъде нотирана, изпълнявана или записана в аналогов или дигитален формат като вокални, инструментални или механични звуци с ритъм, мелодия или хармония.</skos:definition>
+      <skos:scopeNote xml:lang="bg">Примерите включват нотирана музика (партитури или партии) и музикални звукозаписи (концертни изпълнения, опери и студийни записи).</skos:scopeNote>
+      <skos:prefLabel xml:lang="ru">музыка</skos:prefLabel>
+      <skos:definition xml:lang="ru">Содержание, выраженное посредством упорядоченных тонов и звуков в последовательности, в сочетании и во временном взаимоотношении, чтобы воспроизвести композицию. Музыка может быть записанной с помощью знаков (ноты), исполняемой либо записанной в аналоговом или цифровом форматах в виде вокальных, инструментальных или механических звуков, обладающих ритмом, мелодией или гармонией.</skos:definition>
+      <skos:scopeNote xml:lang="ru">Примеры включают ноты, например, партитуры и партии, а также музыкальные звукозаписи, например, концерты, оперы и студийные записи.</skos:scopeNote>
+      <skos:prefLabel xml:lang="sr">muzika</skos:prefLabel>
+      <skos:definition xml:lang="sr">Sadržaj izražen pomoću kombinovanih tonova ili zvukova poređanih u određenom redosledu i u određenim vremenskim odnosima kako bi produkovali kompoziciju. Muzika može da bude pisana (notacija), izvedena ili snimljena u analognim ili digitalnim oblicima kao vokalni, instrumentalni ili mehanički zvukovi koji imaju ritam, melodiju ili harmoniju.</skos:definition>
+      <skos:scopeNote xml:lang="sr">Primeri za to su napisana muzika, kao što su deonice ili partiture, snimljena muzika, kao što su izvođenje koncerata, opera i studijsko snimanje.</skos:scopeNote>
+      <skos:prefLabel xml:lang="zh">音乐</skos:prefLabel>
+      <skos:definition xml:lang="zh">通过有序的音调或声音，以前后相继方式、以组合方式和以时间关系表示的内容，用以产生出一部作品。音乐可以是书写的（乐谱）、演出的、或者被记录成模拟的或数字的格式，可以是有节奏、旋律或和声的人声、乐器或者机械声音。</skos:definition>
+      <skos:scopeNote xml:lang="zh">例如总谱或分谱等书写的音乐以及音乐会演奏、歌剧和录音棚录音等录制的音乐。</skos:scopeNote>
+      <skos:prefLabel xml:lang="lv">mūzika</skos:prefLabel>
+      <skos:definition xml:lang="lv">Saturs, izteikts ar toņu vai skaņu secības palīdzību, kombinācijā un īslaicīgās attiecībās, lai radītu kompozīciju. Mūzika var tikt pierakstīta (notis), izpildīta vai ierakstīta analogā vai digitālā formātā kā balss, instrumentālas vai mehāniskas skaņas, kam piemīt ritms, melodija vai harmonija.</skos:definition>
+      <skos:scopeNote xml:lang="lv">Piemēri ietver notis, kā piem., partitūras un partijas, un mūzikas ierakstus, kā piem., koncerti, operas un studiju ieraksti.</skos:scopeNote>
+      <skos:prefLabel xml:lang="fr">musique</skos:prefLabel>
+      <skos:definition xml:lang="fr">Contenu exprimé sous la forme de notes ordonnées ou de sons successifs, combinés entre eux ou reliés dans le temps pour produire une composition ; la musique peut être écrite (notation musicale), interprétée ou enregistrée dans des formats analogiques ou numériques sous une forme vocale, instrumentale ou sous la forme de sons mécaniques ayant rythme, mélodie ou harmonie.</skos:definition>
+      <skos:scopeNote xml:lang="fr">Par exemple, la musique écrite, telle que partitions ou parties et la musique enregistrée, telle que concerts, opéra et enregistrements en studio.</skos:scopeNote>
+    </skos:Concept>
+<!-- Concept: object  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/isbd/terms/contentform/T1005" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/isbd/terms/contentform"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/1204"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/isbd/terms/contentform"/>
+      <skos:prefLabel xml:lang="en">object</skos:prefLabel>
+      <skos:definition xml:lang="en">Content expressed through three-dimensional material, either naturally occurring entities, or human-made/machine-manufactured artefacts.</skos:definition>
+      <skos:scopeNote xml:lang="en">Also referred to as three-dimensional structures or realia, examples of artefacts include sculpture, models, games, jigsaw puzzles, coins, toys, buildings, equipment, clothing, cultural, and other items. Naturally occurring entities include fossils, rocks, insects, biological specimens on slides, etc. Cartographic objects include globes, relief models, and cross-sections intended to be viewed from the side in three-dimensional form, but not raised relief maps.</skos:scopeNote>
+      <skos:prefLabel xml:lang="es">objeto</skos:prefLabel>
+      <skos:definition xml:lang="es">Contenido expresado a través de material tridimensional, ya sean entidades de origen natural o artefactos creados a mano o fabricados a máquina.</skos:definition>
+      <skos:scopeNote xml:lang="es">También conocidos como estructuras tridimensionales o realia, como ejemplos de artefactos se incluyen esculturas, modelos, juegos, rompecabezas, monedas, juguetes, edificios, equipos, ropa, objetos culturales y otros artículos. Las entidades de origen natural son, entre otras, fósiles, rocas, insectos, muestras biológicas en diapositivas, etc. Como objetos cartográficos se incluyen globos, modelos en relieve y las secciones transversales destinadas a verse de lado en forma tridimensional.</skos:scopeNote>
+      <skos:prefLabel xml:lang="hr">objekt</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">oggetto</skos:prefLabel>
+      <skos:definition xml:lang="it">Un contenuto espresso sia mediante cose e organismi naturali, sia mediante prodotti realizzati dall’uomo o dalla macchina.</skos:definition>
+      <skos:scopeNote xml:lang="it">Gli esempi, che comprendono anche le strutture tridimensionali o realia, includono le sculture, i modelli, i giochi, le monete, i giocattoli, le costruzioni, le attrezzature, i capi di vestiario, i manufatti e altri articoli. Le cose e gli organismi naturali includono i fossili, le rocce, gli insetti, i campioni biologici su vetrino, etc.; gli oggetti cartografici includono i globi, i modelli in rilievo e le sezioni trasversali a vista laterale tridimensionale diverse dalle carte geografiche in rilievo.</skos:scopeNote>
+      <skos:prefLabel xml:lang="bg">предмет</skos:prefLabel>
+      <skos:definition xml:lang="bg">Съдържание, изразено чрез триизмерен материал, което може да бъде както природен обект, така и създаден от човек или произведен от машина артефакт.</skos:definition>
+      <skos:scopeNote xml:lang="bg">Артефакти са и триизмерни структури или реалии и включват скулптури, модели, игри, пъзели, монети, играчки, сгради, съоръжения, облекло, предмети на културата и др. Природните обекти включват изкопаеми, скали, насекоми, биологични образци на слайдове и др. Картографските обекти включват глобуси, релефни модели и напречни разрези, предназначени за гледане отстрани в триизмерен формат.</skos:scopeNote>
+      <skos:prefLabel xml:lang="ru">объект</skos:prefLabel>
+      <skos:definition xml:lang="ru">Содержание, выраженное посредством трехмерного материала, как природные образования, так и сделанные человеком/ выполненные машиной артефакты.</skos:definition>
+      <skos:prefLabel xml:lang="sr">objekat</skos:prefLabel>
+      <skos:definition xml:lang="sr">Sadržaj izražen pomoću trodimenzionalne građe, bilo da su to prirodni entiteti ili artefakta koja je napravio čovek ili proizvela mašina.</skos:definition>
+      <skos:prefLabel xml:lang="zh">实物</skos:prefLabel>
+      <skos:definition xml:lang="zh">通过三维材料（或者是自然出现的实体，或者是人造/机器制造的物品）表示的内容。</skos:definition>
+      <skos:scopeNote xml:lang="zh">也称为为三维结构或三维实物，人工物品例如雕塑、模型、游戏、拼图、硬币、玩具、建筑、设备、衣物、文物等。自然出现的实体例如化石、岩石、昆虫、生物样品幻灯片等。地图资料实物包括三维形式的球仪、地形模型以及用于从侧面观看的横截面。</skos:scopeNote>
+      <skos:prefLabel xml:lang="lv">objekts</skos:prefLabel>
+      <skos:definition xml:lang="lv">Saturs, izteikts trīsdimensiju materiālā, vai nu dabiski veidotas entītijas vai cilvēka radīti/ar mašīnu apstrādāti artefakti.</skos:definition>
+      <skos:prefLabel xml:lang="fr">objet</skos:prefLabel>
+      <skos:definition xml:lang="fr">Contenu exprimé sous la forme d’entités naturelles ou d’artefacts fabriqués manuellement ou mécaniquement.</skos:definition>
+      <skos:scopeNote xml:lang="fr">Également identifiés par des expressions telles que structures tridimensionnelles ou realia, les artefacts comprennent : sculptures, maquettes, jeux, monnaies, jouets, bâtiments, équipement, habillement, objets culturels et autres ; les objets naturels comprennent : fossiles, cailloux, insectes, spécimens biologiques sur lame, etc. ; les objets cartographiques comprennent : globes, maquettes et coupes transversales prévues pour être regardées en trois dimensions mais non les cartes en relief.</skos:scopeNote>
+    </skos:Concept>
+<!-- Concept: other content form  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/isbd/terms/contentform/T1011" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/isbd/terms/contentform"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/1210"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/isbd/terms/contentform"/>
+      <skos:prefLabel xml:lang="en">other content form</skos:prefLabel>
+      <skos:definition xml:lang="en">Content expressed in a form other than dataset, image, movement, music, object, program, sounds, spoken word, or text, or in multiple content forms.</skos:definition>
+      <skos:prefLabel xml:lang="es">otra forma del contenido</skos:prefLabel>
+      <skos:definition xml:lang="es">Contenido expresado en una forma diferente a la de conjunto de datos, imagen, movimiento, música, objeto, programa, sonidos, palabra hablada, texto o múltiples formas del contenido.</skos:definition>
+      <skos:prefLabel xml:lang="hr">drugi oblik sadržaja</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">altra forma di contenuto</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">друга форма на съдържанието</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">другая форма содержания</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">drugi oblik sadržaja</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">其他内容形式</skos:prefLabel>
+      <skos:prefLabel xml:lang="lv">satura cita forma</skos:prefLabel>
+      <skos:definition xml:lang="it">Contenuto espresso mediante una  forma diversa da dataset, immagine, movimento, musica, oggetto, programma, suoni, parlato, testo, o  da forme di contenuto multiple.</skos:definition>
+      <skos:prefLabel xml:lang="fr">forme du contenu non définie</skos:prefLabel>
+      <skos:definition xml:lang="fr">Contenu exprimé sous une forme autre que : données, image, mouvement, musique, objet, programme, son, parole énoncée, texte ou multimédia.</skos:definition>
+    </skos:Concept>
+<!-- Concept: program  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/isbd/terms/contentform/T1006" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/isbd/terms/contentform"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/1205"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/isbd/terms/contentform"/>
+      <skos:prefLabel xml:lang="en">program</skos:prefLabel>
+      <skos:definition xml:lang="en">Content expressed through digitally-encoded instructions intended to be processed and performed by a computer.</skos:definition>
+      <skos:scopeNote xml:lang="en">Examples include operating systems, application software, etc.</skos:scopeNote>
+      <skos:prefLabel xml:lang="es">programa</skos:prefLabel>
+      <skos:definition xml:lang="es">Contenido expresado a través de instrucciones codificadas digitalmente destinado a ser procesado e interpretado por ordenador.</skos:definition>
+      <skos:prefLabel xml:lang="es">Como ejemplos se incluyen sistemas operativos, aplicaciones de software, etc.</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">program</skos:prefLabel>
+      <skos:scopeNote xml:lang="es">Como ejemplos se incluyen sistemas operativos, aplicaciones de software, etc. </skos:scopeNote>
+      <skos:prefLabel xml:lang="it">programma</skos:prefLabel>
+      <skos:definition xml:lang="it">Un contenuto espresso mediante istruzioni codificate in forma digitale, destinato all’elaborazione e all’esecuzione via computer.</skos:definition>
+      <skos:scopeNote xml:lang="it">Gli esempi includono i sistemi operativi, le applicazioni software, etc.</skos:scopeNote>
+      <skos:prefLabel xml:lang="bg">програма</skos:prefLabel>
+      <skos:definition xml:lang="bg">Съдържание, изразено чрез цифрово кодирани инструкции, предназначени за обработка и изпълнение от компютър.</skos:definition>
+      <skos:scopeNote xml:lang="bg">Примерите включват операционни системи, приложен софтуер и др.</skos:scopeNote>
+      <skos:prefLabel xml:lang="ru">программа</skos:prefLabel>
+      <skos:definition xml:lang="ru">Содержание, выраженное посредством инструкций в цифровой кодировке, предназначенных для обработки и выполнения компьютером.</skos:definition>
+      <skos:scopeNote xml:lang="ru">Примеры включают операционные системы, прикладное программное обеспечение и т.п.</skos:scopeNote>
+      <skos:prefLabel xml:lang="sr">program</skos:prefLabel>
+      <skos:definition xml:lang="sr">Sadržaj izražen pomoću digitalno kodiranih instrukcija namenjenih za računarsku obradu i prikaz.</skos:definition>
+      <skos:scopeNote xml:lang="sr">Primeri za to su operativni sistemi, aplikativni programi i tako dalje.</skos:scopeNote>
+      <skos:prefLabel xml:lang="zh">程序</skos:prefLabel>
+      <skos:definition xml:lang="zh">通过用于计算机处理或执行的数字编码指令所表示的内容。</skos:definition>
+      <skos:scopeNote xml:lang="zh">例如操作系统、应用软件等。</skos:scopeNote>
+      <skos:prefLabel xml:lang="lv">programma</skos:prefLabel>
+      <skos:definition xml:lang="lv">Saturs, izteikts ar digitāli kodētām instrukcijām, kas paredzēts apstrādei un izpildei ar datoru. </skos:definition>
+      <skos:scopeNote xml:lang="lv">Piemēri ietver operētājsistēmas, lietojumprogrammatūras, utt.</skos:scopeNote>
+      <skos:prefLabel xml:lang="fr">programme</skos:prefLabel>
+      <skos:definition xml:lang="fr">Contenu exprimé sous la forme d’instructions encodées de manière numérique prévues pour être analysées et traitées par un ordinateur.</skos:definition>
+      <skos:scopeNote xml:lang="fr">Par exemple, des systèmes d’exploitation, des logiciels d’application, etc.</skos:scopeNote>
+    </skos:Concept>
+<!-- Concept: sounds  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/isbd/terms/contentform/T1007" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/isbd/terms/contentform"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/1206"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/isbd/terms/contentform"/>
+      <skos:prefLabel xml:lang="en">sounds</skos:prefLabel>
+      <skos:definition xml:lang="en">Content expressed through sounds made by animals, birds, naturally occurring sources of noise, or such sounds simulated by the human voice or digital (or analogue) media.</skos:definition>
+      <skos:scopeNote xml:lang="en">Examples include recordings of bird songs, animal calls, and sound effects, but exclude recorded music, and recorded human speech.</skos:scopeNote>
+      <skos:prefLabel xml:lang="es">sonidos</skos:prefLabel>
+      <skos:definition xml:lang="es">Contenido expresado a través de sonidos de animales, aves, ruidos de origen natural, o sonidos simulados por la voz humana o medio digital (o analógico).</skos:definition>
+      <skos:scopeNote xml:lang="es">Como ejemplos se incluyen grabaciones de cantos de aves, reclamos de animales y efectos de sonido, pero se excluye la música grabada y grabaciones de voz humana.</skos:scopeNote>
+      <skos:prefLabel xml:lang="hr">zvukovi</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">suoni</skos:prefLabel>
+      <skos:definition xml:lang="it">Un contenuto espresso mediante suoni prodotti da animali, uccelli, fonti sonore naturali, oppure mediante suoni simulati dalla voce umana o da strumenti digitali (o analogici).</skos:definition>
+      <skos:scopeNote xml:lang="it">Gli esempi includono le registrazioni del canto degli uccelli, i richiami degli animali e gli effetti sonori, ma escludono la musica registrata e il linguaggio umano registrato.</skos:scopeNote>
+      <skos:prefLabel xml:lang="bg">звуци</skos:prefLabel>
+      <skos:definition xml:lang="bg">Съдържание, изразено чрез звуци, произведени от животни, птици, естествени източници на шум или подобни звуци, уподобявани от човешки глас или от дигитално (или аналогово) средство.</skos:definition>
+      <skos:scopeNote xml:lang="bg">Примерите включват записи на птичи песни, животински звуци и звукови ефекти, но не включват музикални звукозаписи и записи на човешка реч.</skos:scopeNote>
+      <skos:prefLabel xml:lang="ru">эвуки</skos:prefLabel>
+      <skos:definition xml:lang="ru">Содержание, выраженное посредством звуков, производимых животными, птицами, природными источниками звуков, или подобные звуки, воспроизводимые человеческим голосом или электронными (либо аналоговыми) средствами.</skos:definition>
+      <skos:scopeNote xml:lang="ru">Примеры включают записи песен птиц, криков животных, шумовых эффектов, но не включают ни записанную музыку, ни записанную человеческую речь.</skos:scopeNote>
+      <skos:prefLabel xml:lang="sr">zvukovi</skos:prefLabel>
+      <skos:definition xml:lang="sr">Sadržaj izražen zvukovima koje proizvode životinje, ptice, drugi izvori zvuka u prirodi ili takvim zvukovima koji se oponašaju ljudskim glasom ili digitalnim (ili analognim) medijem.</skos:definition>
+      <skos:scopeNote xml:lang="sr">Takvi primeri su snimak pesme ptica, životinjski zov i zvučni efekti, ali ne i muzički snimci i govor ljudi.</skos:scopeNote>
+      <skos:prefLabel xml:lang="zh">声音</skos:prefLabel>
+      <skos:definition xml:lang="zh">通过动物、鸟、自然出现的噪声源或者由人声或数字（或模拟）媒体模仿的此类声音表示的内容。</skos:definition>
+      <skos:scopeNote xml:lang="zh">例如鸟鸣、动物嚎叫的录音和声音效果，但是不包括录制的音乐和录制的人类讲话。</skos:scopeNote>
+      <skos:prefLabel xml:lang="lv">skaņas</skos:prefLabel>
+      <skos:definition xml:lang="lv">Saturs, izteikts ar skaņu starpniecību, ko rada dzīvnieki, putni, dabiski skaņu avoti vai tamlīdzīgas skaņas, ko rada cilvēks ar balsi vai ar digitāliem (vai analogiem) medijiem/datnešiem.</skos:definition>
+      <skos:scopeNote xml:lang="lv">Piemēri ietver putnu dziesmu ierakstus, dzīvnieku kliedzienus un trokšņu efektus, bet neietver ierakstītu mūziku un ierakstītu cilvēka runu.</skos:scopeNote>
+      <skos:prefLabel xml:lang="fr">son</skos:prefLabel>
+      <skos:definition xml:lang="fr">Contenu exprimé sous la forme de sons émis par des animaux, des oiseaux, des sources sonores naturelles ou la simulation de ces sons produite par la voix humaine ou un média numérique (ou analogique).</skos:definition>
+      <skos:scopeNote xml:lang="fr">Par exemple, des enregistrements de chants d’oiseaux, des cris d’animaux et des effets sonores à l’exception des enregistrements de musique et des enregistrements de discours humain.</skos:scopeNote>
+    </skos:Concept>
+<!-- Concept: spoken word  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/isbd/terms/contentform/T1008" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/isbd/terms/contentform"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/1207"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/isbd/terms/contentform"/>
+      <skos:prefLabel xml:lang="en">spoken word</skos:prefLabel>
+      <skos:definition xml:lang="en">Content expressed through the sound of the human voice talking.</skos:definition>
+      <skos:scopeNote xml:lang="en">Examples include talking books, radio broadcasts, oral history recordings, and audio recordings of plays, whether recorded in analogue or digital format.</skos:scopeNote>
+      <skos:prefLabel xml:lang="es">palabra hablada</skos:prefLabel>
+      <skos:definition xml:lang="es">Contenido expresado a través del sonido de la voz humana al hablar.</skos:definition>
+      <skos:scopeNote xml:lang="es">Como ejemplos se incluyen libros hablados, emisiones de radio, grabaciones de historia oral y grabaciones de audio de obras, ya sean grabaciones en formato analógico o digital.
+</skos:scopeNote>
+      <skos:prefLabel xml:lang="hr">izgovorena riječ</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">parlato</skos:prefLabel>
+      <skos:definition xml:lang="it">Un contenuto espresso mediante il suono della voce umana che parla.</skos:definition>
+      <skos:scopeNote xml:lang="it">Gli esempi includono i libri parlanti, le trasmissioni radiofoniche, le registrazioni di racconti orali e le registrazioni audio di opere teatrali, sia in forma analogica che in forma digitale.</skos:scopeNote>
+      <skos:prefLabel xml:lang="bg">говор</skos:prefLabel>
+      <skos:definition xml:lang="bg">Съдържание, изразено чрез звука от гласа на говорещ човек.</skos:definition>
+      <skos:scopeNote xml:lang="bg">Примерите включват говорещи книги, радиопредавания, звукозаписи на устна история, звукозаписи на пиеси, записани както в аналогов, така и в дигитален формат.</skos:scopeNote>
+      <skos:prefLabel xml:lang="ru">устная речь</skos:prefLabel>
+      <skos:definition xml:lang="ru">Содержание, выраженное посредством звука голоса говорящего человека.</skos:definition>
+      <skos:scopeNote xml:lang="ru">Примеры включают звуковые книги, радиопередачи, звукозаписи устных рассказов, аудиозаписи пьес, записанных как в аналоговом, так и в цифровом формате.</skos:scopeNote>
+      <skos:prefLabel xml:lang="sr">živa reč</skos:prefLabel>
+      <skos:definition xml:lang="sr">Sadržaj izražen ljudskim govorom.</skos:definition>
+      <skos:scopeNote xml:lang="sr">Takvi primeri su čitanje knjiga, radio emitovanje, snimljena usmena istorija i audio snimci pozorišnih komada, u analognom ili digitalnom obliku.</skos:scopeNote>
+      <skos:prefLabel xml:lang="zh">言谈</skos:prefLabel>
+      <skos:definition xml:lang="zh">通过人声谈话的声音表示出来的内容。</skos:definition>
+      <skos:scopeNote xml:lang="zh">例如有声图书、无线电广播、口述历史录音、戏剧的录音，不管是用模拟格式还是用数字格式录音的。</skos:scopeNote>
+      <skos:prefLabel xml:lang="lv">mutvārdi</skos:prefLabel>
+      <skos:definition xml:lang="lv">Saturs, izteikts ar runājoša cilvēka balss skaņu.</skos:definition>
+      <skos:scopeNote xml:lang="lv">Piemēri ietver klausāmgrāmatas, radioraidījumus, mutvārdu vēstures ierakstus, lugu audio ierakstus, kas ierakstīti digitālā vai analogā formātā.</skos:scopeNote>
+      <skos:prefLabel xml:lang="fr">parole énoncée</skos:prefLabel>
+      <skos:definition xml:lang="fr">Contenu exprimé sous la forme de mots prononcés par une voix humaine.</skos:definition>
+      <skos:scopeNote xml:lang="fr">Par exemple, livres parlés, émissions radiophoniques, enregistrements de récits oraux et enregistrements sonores de pièces de théâtre, que l’enregistrement soit analogique ou numérique.</skos:scopeNote>
+    </skos:Concept>
+<!-- Concept: text  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/isbd/terms/contentform/T1009" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/isbd/terms/contentform"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/1208"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/isbd/terms/contentform"/>
+      <skos:prefLabel xml:lang="en">text</skos:prefLabel>
+      <skos:definition xml:lang="en">Content expressed through written words, symbols and numbers.</skos:definition>
+      <skos:scopeNote xml:lang="en">Examples include books (printed or electronic), correspondence, databases of journals, and microfilmed newspapers.</skos:scopeNote>
+      <skos:prefLabel xml:lang="es">texto</skos:prefLabel>
+      <skos:definition xml:lang="es">Contenido expresado a través de palabras, símbolos y números escritos.</skos:definition>
+      <skos:scopeNote xml:lang="es">Como ejemplos se incluyen libros (impresos o electrónicos), correspondencia, bases de datos de revistas y periódicos microfilmados.</skos:scopeNote>
+      <skos:prefLabel xml:lang="hr">tekst</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">testo</skos:prefLabel>
+      <skos:definition xml:lang="it">Un contenuto espresso mediante parole, simboli e numeri scritti.</skos:definition>
+      <skos:scopeNote xml:lang="it">Gli esempi includono i libri (a stampa oppure elettronici), le corrispondenze, i database di periodici scientifici e i giornali in microfilm.</skos:scopeNote>
+      <skos:prefLabel xml:lang="bg">текст</skos:prefLabel>
+      <skos:definition xml:lang="bg">Съдържание, изразено чрез записани думи, символи и цифри.</skos:definition>
+      <skos:scopeNote xml:lang="bg">Примерите включват книги (печатни и електронни), кореспонденция, бази данни на списания и микрофилмирани вестници.</skos:scopeNote>
+      <skos:prefLabel xml:lang="ru">текст</skos:prefLabel>
+      <skos:definition xml:lang="ru">Содержание, выраженное посредством записанных слов, символов или чисел.</skos:definition>
+      <skos:scopeNote xml:lang="ru">Примеры включают книги (печатные и электронные), переписку, базы данных журналов и микрофильмированные газеты.</skos:scopeNote>
+      <skos:prefLabel xml:lang="zh">文字资料</skos:prefLabel>
+      <skos:definition xml:lang="zh">通过书写单词、符号和数字表示的内容。</skos:definition>
+      <skos:scopeNote xml:lang="zh">例如图书（印刷的或电子的）、书信、期刊数据库、缩微复制的报纸等。</skos:scopeNote>
+      <skos:prefLabel xml:lang="lv">teksts</skos:prefLabel>
+      <skos:definition xml:lang="lv">Saturs, izteikts ar pierakstītiem vārdiem, simboliem un
+cipariem.</skos:definition>
+      <skos:scopeNote xml:lang="lv">Piemēri ietver grāmatas (iespiestās vai elektroniskās), saraksti, žurnālu datubāzes un mikrofilmētus laikrakstus.</skos:scopeNote>
+      <skos:prefLabel xml:lang="fr">texte</skos:prefLabel>
+      <skos:definition xml:lang="fr">Contenu exprimé sous la forme de mots écrits, de symboles et de chiffres.</skos:definition>
+      <skos:scopeNote xml:lang="fr">Par exemple, livres (imprimés ou électroniques), correspondances, bases de données de revues et journaux microfilmés.</skos:scopeNote>
+    </skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

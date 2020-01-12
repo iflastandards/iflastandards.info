@@ -1,0 +1,136 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix reg: <http://metadataregistry.org/uri/profile/regap/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://iflastandards.info/ns/unimarc/terms/vispfv#>
+    dc:title "UNIMARC: Visual projections, etc.: Presentation format - videorecording" ;
+    a skos:ConceptScheme .
+
+<http://iflastandards.info/ns/unimarc/terms/vispfv#a>
+    reg:identifier <http://metadataregistry.org/concepts/7815> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:definition "Home video format introduced in 1975 by Sony Corporation."@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/vispfv#> ;
+    skos:notation "a"@en ;
+    skos:prefLabel "Beta (videocassette)"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/vispfv#b>
+    reg:identifier <http://metadataregistry.org/concepts/7816> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:definition "Home video format developed by Japan Victor Corporation (JVC) and marketed in 1977."@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/vispfv#> ;
+    skos:notation "b"@en ;
+    skos:prefLabel "VHS (videocassette)"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/vispfv#c>
+    reg:identifier <http://metadataregistry.org/concepts/7817> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:definition "Video format using Sony's trademark name, referring to its tape threading path in a U-shape. Also known as \"U type standard\"."@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/vispfv#> ;
+    skos:notation "c"@en ;
+    skos:prefLabel "U-matic (videocassette)"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/vispfv#d>
+    reg:identifier <http://metadataregistry.org/concepts/7818> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:definition "The standard ½-inch reel-to-reel helical scan videotape format. Named for the Japanese standards committee (the Electronics Industries Association of Japan) which set the standard for ½ inch video tape recorders manufactured since 1969."@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/vispfv#> ;
+    skos:notation "d"@en ;
+    skos:prefLabel "EIAJ (reel)"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/vispfv#e>
+    reg:identifier <http://metadataregistry.org/concepts/7819> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:definition "Video format using one recording head,  with tape speed at 9.61 inches per second.  This is the broadcast standard in most countries. Type C equipment and technology is made by Sony, RCA, and others."@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/vispfv#> ;
+    skos:notation "e"@en ;
+    skos:prefLabel "Type C (reel)"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/vispfv#f>
+    reg:identifier <http://metadataregistry.org/concepts/7820> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:definition "Video system using four recording heads, developed by Ampex in the 1950s."@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/vispfv#> ;
+    skos:notation "f"@en ;
+    skos:prefLabel "Quadruplex (reel)"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/vispfv#g>
+    reg:identifier <http://metadataregistry.org/concepts/7821> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:definition "A grooveless, smooth round plastic disc with a mirror-like surface, usually 12\" in diameter, on both sides of which is stored video information. The disk is read by a weak laser beam. This system became available to the public in 1978 and is currently used in home and industrial applications."@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/vispfv#> ;
+    skos:notation "g"@en ;
+    skos:prefLabel "Laser optical (Reflective) videodisc"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/vispfv#h>
+    reg:identifier <http://metadataregistry.org/concepts/7822> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:definition "A grooved, plastic disk, usually 12\" in diameter, containing information recorded as deep pits in the bottom of the grooves, and played by an electronic stylus. In 1984 RCA, the manufacturer of CED videodisc players, announced its decision to cease production."@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/vispfv#> ;
+    skos:notation "h"@en ;
+    skos:prefLabel "CED (capacitance electronic disk) videodisc"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/vispfv#i>
+    reg:identifier <http://metadataregistry.org/concepts/7823> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:definition "Home video format developed in Europe by Philips since 1980. Reversible."@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/vispfv#> ;
+    skos:notation "i"@en ;
+    skos:prefLabel "V2000 (videocassette)"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/vispfv#j>
+    reg:identifier <http://metadataregistry.org/concepts/7824> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:definition "Home video format."@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/vispfv#> ;
+    skos:notation "j"@en ;
+    skos:prefLabel "Video8 (videocassette)"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/vispfv#k>
+    reg:identifier <http://metadataregistry.org/concepts/7825> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:definition "Digital Versatile Disc."@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/vispfv#> ;
+    skos:notation "k"@en ;
+    skos:prefLabel "DVD-Video"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/vispfv#u>
+    reg:identifier <http://metadataregistry.org/concepts/7826> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/vispfv#> ;
+    skos:notation "u"@en ;
+    skos:prefLabel "unknown"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/vispfv#x>
+    reg:identifier <http://metadataregistry.org/concepts/7827> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/vispfv#> ;
+    skos:notation "x"@en ;
+    skos:prefLabel "not a videorecording"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/vispfv#z>
+    reg:identifier <http://metadataregistry.org/concepts/7828> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/vispfv#> ;
+    skos:notation "z"@en ;
+    skos:prefLabel "other"@en .
+
+<http://metadataregistry.org/uri/RegStatus/1001>
+    a skos:Concept ;
+    skos:prefLabel "Published"@en .
+

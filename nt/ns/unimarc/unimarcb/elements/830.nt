@@ -1,0 +1,9 @@
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/830/> <http://purl.org/dc/elements/1.1/title> "UNIMARC/B elements 830"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/830/U830__a> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/unimarc/unimarcb/elements/830/> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/830/U830__a> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/830/U830__a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/830/U830__a> <http://metadataregistry.org/uri/profile/regap/name> "hasTextOfNoteInGeneralCataloguer'SNote"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/830/U830__a> <http://www.w3.org/2000/01/rdf-schema#label> "has Text of note in General cataloguer's note"@en .
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/830/U830__a> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/unimarc/unimarcb/elements/830/hasTextOfNoteInGeneralCataloguer'SNote.en> .
+<http://metadataregistry.org/uri/RegStatus/1001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://metadataregistry.org/uri/RegStatus/1001> <http://www.w3.org/2004/02/skos/core#prefLabel> "Published"@en .

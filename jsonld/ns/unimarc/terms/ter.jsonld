@@ -1,0 +1,274 @@
+{
+    "@context": "http://iflastandards.info/ns/unimarc/terms/Contexts/concepts_langmap.jsonld",
+    "@graph": [
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/ter#",
+            "@type": "ConceptScheme",
+            "title": {
+                "en": "UNIMARC: Type of electronic resource"
+            },
+            "description": {
+                "en": "The type of data file."
+            },
+            "prefix": "",
+            "token": "ter",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "label": "Published"
+            },
+            "omr_api": "http://api.metadataregistry.org/vocabularies/336",
+            "omr_home": "http://metadataregistry.org/vocabularies/336",
+            "count": 13,
+            "languages": [
+                {
+                    "code": "en",
+                    "lang": "English",
+                    "version": "Release 1"
+                },
+                {
+                    "code": "it",
+                    "lang": "Italian",
+                    "version": "Release 1"
+                }
+            ],
+            "dateOfPublication": "January 11, 2020"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/ter#a",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6483",
+            "definition": {
+                "en": "A data file that contains mostly numbers or representation by numbers, such as records containing information on student test scores, information on football team statistics, etc.  The information may be original surveys or information that has been summarized or statistically manipulated."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/ter#",
+            "notation": {
+                "en": "a"
+            },
+            "prefLabel": {
+                "en": "numeric",
+                "pt": "numérico",
+                "it": "dati numerici"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/ter#b",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6484",
+            "definition": {
+                "en": "A data file that contains an ordered set of instructions directing the computer to perform basic operations and identifying the information and mechanisms required."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/ter#",
+            "notation": {
+                "en": "b"
+            },
+            "prefLabel": {
+                "en": "computer program",
+                "it": "programma informatico",
+                "pt": "programas de computador"
+            },
+            "scopeNote": {
+                "en": "Includes videogame and microcomputer software and computer models."
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/ter#c",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6485",
+            "definition": {
+                "en": "A data file that contains pictorial or graphic information that can be manipulated in conjunction with other types of files to produce graphic patterns that can be used to interpret and give meaning to the information."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/ter#",
+            "notation": {
+                "en": "c"
+            },
+            "prefLabel": {
+                "en": "representational",
+                "pt": "figurativo",
+                "it": "dati grafici"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/ter#d",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6486",
+            "definition": {
+                "en": "A data file that contains mostly alphabetic information (words or sentences) converted into a coded format that can be processed, sorted, and manipulated by machine, and then retrieved in many optional formats."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/ter#",
+            "notation": {
+                "en": "d"
+            },
+            "prefLabel": {
+                "en": "text",
+                "pt": "texto",
+                "it": "dati testuali"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/ter#e",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6487",
+            "definition": {
+                "en": "The resource consists of data with bibliographic citations. This includes data from library catalogs or citation databases. The data may be in a structured or unstructured form."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/ter#",
+            "notation": {
+                "en": "e"
+            },
+            "prefLabel": {
+                "en": "bibliographic data",
+                "pt": "dados bibliográficos",
+                "it": "dati bibliografici"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/ter#f",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6488",
+            "definition": {
+                "en": "The resource contains information for a computer to produce fonts."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/ter#",
+            "notation": {
+                "en": "f"
+            },
+            "prefLabel": {
+                "en": "font",
+                "pt": "fonte",
+                "it": "set di caratteri"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/ter#g",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6489",
+            "definition": {
+                "en": "The resource is a game, intended for recreational or educational use. Generally games consist of text and software."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/ter#",
+            "notation": {
+                "en": "g"
+            },
+            "prefLabel": {
+                "en": "game",
+                "pt": "jogo",
+                "it": "gioco"
+            },
+            "scopeNote": {
+                "en": "Includes videogames."
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/ter#h",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6490",
+            "definition": {
+                "en": "The resource consists of data encoding sounds produced by the computer."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/ter#",
+            "notation": {
+                "en": "h"
+            },
+            "prefLabel": {
+                "en": "sound",
+                "pt": "som",
+                "it": "suono"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/ter#i",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6491",
+            "definition": {
+                "en": "The resource supports navigation through and manipulation of many kinds of media (i.e. audio, video, etc.)"
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/ter#",
+            "notation": {
+                "en": "i"
+            },
+            "prefLabel": {
+                "en": "interactive multimedia",
+                "pt": "multimedia interactivo",
+                "it": "multimediale interattivo"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/ter#j",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6492",
+            "definition": {
+                "en": "The resource is an online system or service and may contain non-bibliographic information. An online system or service supports system-based user interaction."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/ter#",
+            "notation": {
+                "en": "j"
+            },
+            "prefLabel": {
+                "en": "online system or service",
+                "pt": "serviço ou sistema em linha",
+                "it": "sistema o servizio on line"
+            },
+            "scopeNote": {
+                "en": "Examples include online library systems; FTP sites; electronic bulletin boards; discussion groups/lists; World Wide Web sites, network information centres."
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/ter#u",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6493",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/ter#",
+            "notation": {
+                "en": "u"
+            },
+            "prefLabel": {
+                "en": "unknown",
+                "pt": "desconhecido",
+                "it": "sconosciuto"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/ter#v",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6494",
+            "definition": {
+                "en": "A data file with different types of content."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/ter#",
+            "notation": {
+                "en": "v"
+            },
+            "prefLabel": {
+                "en": "combination",
+                "pt": "combinação",
+                "it": "combinazione"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/ter#z",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6495",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/ter#",
+            "notation": {
+                "en": "z"
+            },
+            "prefLabel": {
+                "en": "other",
+                "pt": "outro",
+                "it": "altro"
+            },
+            "status": "Published"
+        }
+    ]
+}

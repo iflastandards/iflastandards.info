@@ -1,0 +1,1651 @@
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF
+    xml:base="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+<!-- Element Set: UNIMARC/B elements 2XX -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/">
+  <dc:title xml:lang="en">UNIMARC/B elements 2XX</dc:title>
+</rdf:Description>
+
+<!-- Properties -->
+
+<!-- Property: has Accompanying material in Physical description -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U215__e">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasAccompanyingMaterialInPhysicalDescription</reg:name>
+  <rdfs:label xml:lang="en">has Accompanying material in Physical description</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasAccompanyingMaterialInPhysicalDescription.en" />
+  <skos:definition xml:lang="en">A brief description of any material accompanying the item being described, which is intended to be used with the item.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Address of manufacturer in Publication, distribution, etc. (Current or latest publisher) (Not published or publically distributed) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U21011f">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasAddressOfManufacturerInPublicationDistributionEtcCurrentOrLatestPublisherNotPublishedOrPublicallyDistributed</reg:name>
+  <rdfs:label xml:lang="en">has Address of manufacturer in Publication, distribution, etc. (Current or latest publisher) (Not published or publically distributed)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasAddressOfManufacturerInPublicationDistributionEtcCurrentOrLatestPublisherNotPublishedOrPublicallyDistributed.en" />
+  <skos:definition xml:lang="en">The full postal address of the manufacturer.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Address of manufacturer in Publication, distribution, etc. (Current or latest publisher) (Produced in multiple copies, usually published or publically distributed) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2101_f">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasAddressOfManufacturerInPublicationDistributionEtcCurrentOrLatestPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed</reg:name>
+  <rdfs:label xml:lang="en">has Address of manufacturer in Publication, distribution, etc. (Current or latest publisher) (Produced in multiple copies, usually published or publically distributed)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasAddressOfManufacturerInPublicationDistributionEtcCurrentOrLatestPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed.en" />
+  <skos:definition xml:lang="en">The full postal address of the manufacturer.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Address of manufacturer in Publication, distribution, etc. (Intervening publisher) (Not published or publically distributed) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U21001f">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasAddressOfManufacturerInPublicationDistributionEtcInterveningPublisherNotPublishedOrPublicallyDistributed</reg:name>
+  <rdfs:label xml:lang="en">has Address of manufacturer in Publication, distribution, etc. (Intervening publisher) (Not published or publically distributed)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasAddressOfManufacturerInPublicationDistributionEtcInterveningPublisherNotPublishedOrPublicallyDistributed.en" />
+  <skos:definition xml:lang="en">The full postal address of the manufacturer.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Address of manufacturer in Publication, distribution, etc. (Intervening publisher) (Produced in multiple copies, usually published or publically distributed) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2100_f">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasAddressOfManufacturerInPublicationDistributionEtcInterveningPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed</reg:name>
+  <rdfs:label xml:lang="en">has Address of manufacturer in Publication, distribution, etc. (Intervening publisher) (Produced in multiple copies, usually published or publically distributed)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasAddressOfManufacturerInPublicationDistributionEtcInterveningPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed.en" />
+  <skos:definition xml:lang="en">The full postal address of the manufacturer.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Address of manufacturer in Publication, distribution, etc. (Not applicable / earliest available publisher) (Not published or publically distributed) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U210_1f">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasAddressOfManufacturerInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherNotPublishedOrPublicallyDistributed</reg:name>
+  <rdfs:label xml:lang="en">has Address of manufacturer in Publication, distribution, etc. (Not applicable / earliest available publisher) (Not published or publically distributed)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasAddressOfManufacturerInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherNotPublishedOrPublicallyDistributed.en" />
+  <skos:definition xml:lang="en">The full postal address of the manufacturer.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Address of manufacturer in Publication, distribution, etc. (Not applicable / earliest available publisher) (Produced in multiple copies, usually published or publically distributed) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U210__f">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasAddressOfManufacturerInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed</reg:name>
+  <rdfs:label xml:lang="en">has Address of manufacturer in Publication, distribution, etc. (Not applicable / earliest available publisher) (Produced in multiple copies, usually published or publically distributed)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasAddressOfManufacturerInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed.en" />
+  <skos:definition xml:lang="en">The full postal address of the manufacturer.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Address of publisher, distributor, etc. in Publication, distribution, etc. (Current or latest publisher) (Not published or publically distributed) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U21011b">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasAddressOfPublisherDistributorEtcInPublicationDistributionEtcCurrentOrLatestPublisherNotPublishedOrPublicallyDistributed</reg:name>
+  <rdfs:label xml:lang="en">has Address of publisher, distributor, etc. in Publication, distribution, etc. (Current or latest publisher) (Not published or publically distributed)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasAddressOfPublisherDistributorEtcInPublicationDistributionEtcCurrentOrLatestPublisherNotPublishedOrPublicallyDistributed.en" />
+  <skos:definition xml:lang="en">The full postal address of a publisher, scriptorium or distributor.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Address of publisher, distributor, etc. in Publication, distribution, etc. (Current or latest publisher) (Produced in multiple copies, usually published or publically distributed) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2101_b">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasAddressOfPublisherDistributorEtcInPublicationDistributionEtcCurrentOrLatestPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed</reg:name>
+  <rdfs:label xml:lang="en">has Address of publisher, distributor, etc. in Publication, distribution, etc. (Current or latest publisher) (Produced in multiple copies, usually published or publically distributed)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasAddressOfPublisherDistributorEtcInPublicationDistributionEtcCurrentOrLatestPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed.en" />
+  <skos:definition xml:lang="en">The full postal address of a publisher, scriptorium or distributor.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Address of publisher, distributor, etc. in Publication, distribution, etc. (Intervening publisher) (Not published or publically distributed) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U21001b">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasAddressOfPublisherDistributorEtcInPublicationDistributionEtcInterveningPublisherNotPublishedOrPublicallyDistributed</reg:name>
+  <rdfs:label xml:lang="en">has Address of publisher, distributor, etc. in Publication, distribution, etc. (Intervening publisher) (Not published or publically distributed)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasAddressOfPublisherDistributorEtcInPublicationDistributionEtcInterveningPublisherNotPublishedOrPublicallyDistributed.en" />
+  <skos:definition xml:lang="en">The full postal address of a publisher, scriptorium or distributor.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Address of publisher, distributor, etc. in Publication, distribution, etc. (Intervening publisher) (Produced in multiple copies, usually published or publically distributed) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2100_b">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasAddressOfPublisherDistributorEtcInPublicationDistributionEtcInterveningPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed</reg:name>
+  <rdfs:label xml:lang="en">has Address of publisher, distributor, etc. in Publication, distribution, etc. (Intervening publisher) (Produced in multiple copies, usually published or publically distributed)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasAddressOfPublisherDistributorEtcInPublicationDistributionEtcInterveningPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed.en" />
+  <skos:definition xml:lang="en">The full postal address of a publisher, scriptorium or distributor.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Address of publisher, distributor, etc. in Publication, distribution, etc. (Not applicable / earliest available publisher) (Not published or publically distributed) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U210_1b">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasAddressOfPublisherDistributorEtcInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherNotPublishedOrPublicallyDistributed</reg:name>
+  <rdfs:label xml:lang="en">has Address of publisher, distributor, etc. in Publication, distribution, etc. (Not applicable / earliest available publisher) (Not published or publically distributed)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasAddressOfPublisherDistributorEtcInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherNotPublishedOrPublicallyDistributed.en" />
+  <skos:definition xml:lang="en">The full postal address of a publisher, scriptorium or distributor.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Address of publisher, distributor, etc. in Publication, distribution, etc. (Not applicable / earliest available publisher) (Produced in multiple copies, usually published or publically distributed) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U210__b">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasAddressOfPublisherDistributorEtcInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed</reg:name>
+  <rdfs:label xml:lang="en">has Address of publisher, distributor, etc. in Publication, distribution, etc. (Not applicable / earliest available publisher) (Produced in multiple copies, usually published or publically distributed)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasAddressOfPublisherDistributorEtcInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed.en" />
+  <skos:definition xml:lang="en">The full postal address of a publisher, scriptorium or distributor.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Arrangement in Organization and arrangement of materials -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U251__b">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasArrangementInOrganizationAndArrangementOfMaterials</reg:name>
+  <rdfs:label xml:lang="en">has Arrangement in Organization and arrangement of materials</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasArrangementInOrganizationAndArrangementOfMaterials.en" />
+  <skos:definition xml:lang="en">Terms used to describe the pattern of arrangement of materials within a unit.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Bulk dates in Title and statement of responsibility (Title is not significant) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2000_k">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasBulkDatesInTitleAndStatementOfResponsibilityTitleIsNotSignificant</reg:name>
+  <rdfs:label xml:lang="en">has Bulk dates in Title and statement of responsibility (Title is not significant)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasBulkDatesInTitleAndStatementOfResponsibilityTitleIsNotSignificant.en" />
+  <skos:definition xml:lang="en">Dates pertaining to the majority of the materials in the unit.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Bulk dates in Title and statement of responsibility (Title is not significant) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2001_k">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasBulkDatesInTitleAndStatementOfResponsibilityTitleIsNotSignificant</reg:name>
+  <rdfs:label xml:lang="en">has Bulk dates in Title and statement of responsibility (Title is not significant)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasBulkDatesInTitleAndStatementOfResponsibilityTitleIsNotSignificant.en" />
+  <skos:definition xml:lang="en">Dates pertaining to the majority of the materials in the unit.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Date in Projected publication date -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U211__a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasDateInProjectedPublicationDate</reg:name>
+  <rdfs:label xml:lang="en">has Date in Projected publication date</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasDateInProjectedPublicationDate.en" />
+</rdf:Description>
+
+<!-- Property: has Date of manufacture in Publication, distribution, etc. (Current or latest publisher) (Not published or publically distributed) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U21011h">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasDateOfManufactureInPublicationDistributionEtcCurrentOrLatestPublisherNotPublishedOrPublicallyDistributed</reg:name>
+  <rdfs:label xml:lang="en">has Date of manufacture in Publication, distribution, etc. (Current or latest publisher) (Not published or publically distributed)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasDateOfManufactureInPublicationDistributionEtcCurrentOrLatestPublisherNotPublishedOrPublicallyDistributed.en" />
+  <skos:definition xml:lang="en">The date of manufacture of an item or assembling of a manuscript.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Date of manufacture in Publication, distribution, etc. (Current or latest publisher) (Produced in multiple copies, usually published or publically distributed) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2101_h">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasDateOfManufactureInPublicationDistributionEtcCurrentOrLatestPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed</reg:name>
+  <rdfs:label xml:lang="en">has Date of manufacture in Publication, distribution, etc. (Current or latest publisher) (Produced in multiple copies, usually published or publically distributed)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasDateOfManufactureInPublicationDistributionEtcCurrentOrLatestPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed.en" />
+  <skos:definition xml:lang="en">The date of manufacture of an item or assembling of a manuscript.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Date of manufacture in Publication, distribution, etc. (Intervening publisher) (Not published or publically distributed) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U21001h">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasDateOfManufactureInPublicationDistributionEtcInterveningPublisherNotPublishedOrPublicallyDistributed</reg:name>
+  <rdfs:label xml:lang="en">has Date of manufacture in Publication, distribution, etc. (Intervening publisher) (Not published or publically distributed)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasDateOfManufactureInPublicationDistributionEtcInterveningPublisherNotPublishedOrPublicallyDistributed.en" />
+  <skos:definition xml:lang="en">The date of manufacture of an item or assembling of a manuscript.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Date of manufacture in Publication, distribution, etc. (Intervening publisher) (Produced in multiple copies, usually published or publically distributed) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2100_h">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasDateOfManufactureInPublicationDistributionEtcInterveningPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed</reg:name>
+  <rdfs:label xml:lang="en">has Date of manufacture in Publication, distribution, etc. (Intervening publisher) (Produced in multiple copies, usually published or publically distributed)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasDateOfManufactureInPublicationDistributionEtcInterveningPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed.en" />
+  <skos:definition xml:lang="en">The date of manufacture of an item or assembling of a manuscript.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Date of manufacture in Publication, distribution, etc. (Not applicable / earliest available publisher) (Not published or publically distributed) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U210_1h">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasDateOfManufactureInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherNotPublishedOrPublicallyDistributed</reg:name>
+  <rdfs:label xml:lang="en">has Date of manufacture in Publication, distribution, etc. (Not applicable / earliest available publisher) (Not published or publically distributed)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasDateOfManufactureInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherNotPublishedOrPublicallyDistributed.en" />
+  <skos:definition xml:lang="en">The date of manufacture of an item or assembling of a manuscript.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Date of manufacture in Publication, distribution, etc. (Not applicable / earliest available publisher) (Produced in multiple copies, usually published or publically distributed) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U210__h">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasDateOfManufactureInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed</reg:name>
+  <rdfs:label xml:lang="en">has Date of manufacture in Publication, distribution, etc. (Not applicable / earliest available publisher) (Produced in multiple copies, usually published or publically distributed)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasDateOfManufactureInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed.en" />
+  <skos:definition xml:lang="en">The date of manufacture of an item or assembling of a manuscript.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Date of publication, distribution, etc. in Publication, distribution, etc. (Current or latest publisher) (Not published or publically distributed) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U21011d">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasDateOfPublicationDistributionEtcInPublicationDistributionEtcCurrentOrLatestPublisherNotPublishedOrPublicallyDistributed</reg:name>
+  <rdfs:label xml:lang="en">has Date of publication, distribution, etc. in Publication, distribution, etc. (Current or latest publisher) (Not published or publically distributed)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasDateOfPublicationDistributionEtcInPublicationDistributionEtcCurrentOrLatestPublisherNotPublishedOrPublicallyDistributed.en" />
+  <skos:definition xml:lang="en">The date or approximate date of publication, the writing of a manuscript, production of an art work, etc., or a copyright date or date of manufacture, or the time period that specifies the part of the bibliographic item to which it applies.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Date of publication, distribution, etc. in Publication, distribution, etc. (Current or latest publisher) (Produced in multiple copies, usually published or publically distributed) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2101_d">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasDateOfPublicationDistributionEtcInPublicationDistributionEtcCurrentOrLatestPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed</reg:name>
+  <rdfs:label xml:lang="en">has Date of publication, distribution, etc. in Publication, distribution, etc. (Current or latest publisher) (Produced in multiple copies, usually published or publically distributed)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasDateOfPublicationDistributionEtcInPublicationDistributionEtcCurrentOrLatestPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed.en" />
+  <skos:definition xml:lang="en">The date or approximate date of publication, the writing of a manuscript, production of an art work, etc., or a copyright date or date of manufacture, or the time period that specifies the part of the bibliographic item to which it applies.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Date of publication, distribution, etc. in Publication, distribution, etc. (Intervening publisher) (Not published or publically distributed) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U21001d">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasDateOfPublicationDistributionEtcInPublicationDistributionEtcInterveningPublisherNotPublishedOrPublicallyDistributed</reg:name>
+  <rdfs:label xml:lang="en">has Date of publication, distribution, etc. in Publication, distribution, etc. (Intervening publisher) (Not published or publically distributed)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasDateOfPublicationDistributionEtcInPublicationDistributionEtcInterveningPublisherNotPublishedOrPublicallyDistributed.en" />
+  <skos:definition xml:lang="en">The date or approximate date of publication, the writing of a manuscript, production of an art work, etc., or a copyright date or date of manufacture, or the time period that specifies the part of the bibliographic item to which it applies.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Date of publication, distribution, etc. in Publication, distribution, etc. (Intervening publisher) (Produced in multiple copies, usually published or publically distributed) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2100_d">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasDateOfPublicationDistributionEtcInPublicationDistributionEtcInterveningPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed</reg:name>
+  <rdfs:label xml:lang="en">has Date of publication, distribution, etc. in Publication, distribution, etc. (Intervening publisher) (Produced in multiple copies, usually published or publically distributed)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasDateOfPublicationDistributionEtcInPublicationDistributionEtcInterveningPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed.en" />
+  <skos:definition xml:lang="en">The date or approximate date of publication, the writing of a manuscript, production of an art work, etc., or a copyright date or date of manufacture, or the time period that specifies the part of the bibliographic item to which it applies.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Date of publication, distribution, etc. in Publication, distribution, etc. (Not applicable / earliest available publisher) (Not published or publically distributed) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U210_1d">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasDateOfPublicationDistributionEtcInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherNotPublishedOrPublicallyDistributed</reg:name>
+  <rdfs:label xml:lang="en">has Date of publication, distribution, etc. in Publication, distribution, etc. (Not applicable / earliest available publisher) (Not published or publically distributed)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasDateOfPublicationDistributionEtcInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherNotPublishedOrPublicallyDistributed.en" />
+  <skos:definition xml:lang="en">The date or approximate date of publication, the writing of a manuscript, production of an art work, etc., or a copyright date or date of manufacture, or the time period that specifies the part of the bibliographic item to which it applies.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Date of publication, distribution, etc. in Publication, distribution, etc. (Not applicable / earliest available publisher) (Produced in multiple copies, usually published or publically distributed) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U210__d">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasDateOfPublicationDistributionEtcInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed</reg:name>
+  <rdfs:label xml:lang="en">has Date of publication, distribution, etc. in Publication, distribution, etc. (Not applicable / earliest available publisher) (Produced in multiple copies, usually published or publically distributed)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasDateOfPublicationDistributionEtcInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed.en" />
+  <skos:definition xml:lang="en">The date or approximate date of publication, the writing of a manuscript, production of an art work, etc., or a copyright date or date of manufacture, or the time period that specifies the part of the bibliographic item to which it applies.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Designation and extent of file in Material specific area: electronic resource characteristics -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U230__a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasDesignationAndExtentOfFileInMaterialSpecificAreaElectronicResourceCharacteristics</reg:name>
+  <rdfs:label xml:lang="en">has Designation and extent of file in Material specific area: electronic resource characteristics</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasDesignationAndExtentOfFileInMaterialSpecificAreaElectronicResourceCharacteristics.en" />
+  <skos:definition xml:lang="en">Designation and extent of file</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Dimensions in Physical description -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U215__d">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasDimensionsInPhysicalDescription</reg:name>
+  <rdfs:label xml:lang="en">has Dimensions in Physical description</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasDimensionsInPhysicalDescription.en" />
+  <skos:definition xml:lang="en">The linear measurements of an item and/or (in the case of an item which requires equipment for its use) dimensions relevant to the use of the item, and/or the bibliographic format of older printed books.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Edition statement in Edition statement -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U205__a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasEditionStatementInEditionStatement</reg:name>
+  <rdfs:label xml:lang="en">has Edition statement in Edition statement</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasEditionStatementInEditionStatement.en" />
+  <skos:definition xml:lang="en">A word, phrase or group of characters in a formal statement, identifying an item as a member of an edition.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has First statement of responsibility in Title and statement of responsibility (Title is not significant) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2000_f">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasFirstStatementOfResponsibilityInTitleAndStatementOfResponsibilityTitleIsNotSignificant</reg:name>
+  <rdfs:label xml:lang="en">has First statement of responsibility in Title and statement of responsibility (Title is not significant)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasFirstStatementOfResponsibilityInTitleAndStatementOfResponsibilityTitleIsNotSignificant.en" />
+  <skos:definition xml:lang="en">The first statement of responsibility for a title, or for a numbered or named part of a work.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has First statement of responsibility in Title and statement of responsibility (Title is significant) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2001_f">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasFirstStatementOfResponsibilityInTitleAndStatementOfResponsibilityTitleIsSignificant</reg:name>
+  <rdfs:label xml:lang="en">has First statement of responsibility in Title and statement of responsibility (Title is significant)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasFirstStatementOfResponsibilityInTitleAndStatementOfResponsibilityTitleIsSignificant.en" />
+  <skos:definition xml:lang="en">The first statement of responsibility for a title, or for a numbered or named part of a work.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has General material designation in Title and statement of responsibility (Title is not significant) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2000_b">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasGeneralMaterialDesignationInTitleAndStatementOfResponsibilityTitleIsNotSignificant</reg:name>
+  <rdfs:label xml:lang="en">has General material designation in Title and statement of responsibility (Title is not significant)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasGeneralMaterialDesignationInTitleAndStatementOfResponsibilityTitleIsNotSignificant.en" />
+  <skos:definition xml:lang="en">Text of general material designation.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has General material designation in Title and statement of responsibility (Title is significant) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2001_b">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasGeneralMaterialDesignationInTitleAndStatementOfResponsibilityTitleIsSignificant</reg:name>
+  <rdfs:label xml:lang="en">has General material designation in Title and statement of responsibility (Title is significant)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasGeneralMaterialDesignationInTitleAndStatementOfResponsibilityTitleIsSignificant.en" />
+  <skos:definition xml:lang="en">Text of general material designation.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Inclusive dates in Title and statement of responsibility (Title is not significant) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2000_j">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasInclusiveDatesInTitleAndStatementOfResponsibilityTitleIsNotSignificant</reg:name>
+  <rdfs:label xml:lang="en">has Inclusive dates in Title and statement of responsibility (Title is not significant)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasInclusiveDatesInTitleAndStatementOfResponsibilityTitleIsNotSignificant.en" />
+  <skos:definition xml:lang="en">The time period, that relates to the creation, assembly, accumulation, and/or maintenance and use of the materials in the unit.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Inclusive dates in Title and statement of responsibility (Title is not significant) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2001_j">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasInclusiveDatesInTitleAndStatementOfResponsibilityTitleIsNotSignificant</reg:name>
+  <rdfs:label xml:lang="en">has Inclusive dates in Title and statement of responsibility (Title is not significant)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasInclusiveDatesInTitleAndStatementOfResponsibilityTitleIsNotSignificant.en" />
+  <skos:definition xml:lang="en">The time period, that relates to the creation, assembly, accumulation, and/or maintenance and use of the materials in the unit.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Institution to which field applies in Title and statement of responsibility (Title is not significant) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2000_5">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasInstitutionToWhichFieldAppliesInTitleAndStatementOfResponsibilityTitleIsNotSignificant</reg:name>
+  <rdfs:label xml:lang="en">has Institution to which field applies in Title and statement of responsibility (Title is not significant)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasInstitutionToWhichFieldAppliesInTitleAndStatementOfResponsibilityTitleIsNotSignificant.en" />
+  <skos:definition xml:lang="en">Applicable institution.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Institution to which field applies in Title and statement of responsibility (Title is significant) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2001_5">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasInstitutionToWhichFieldAppliesInTitleAndStatementOfResponsibilityTitleIsSignificant</reg:name>
+  <rdfs:label xml:lang="en">has Institution to which field applies in Title and statement of responsibility (Title is significant)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasInstitutionToWhichFieldAppliesInTitleAndStatementOfResponsibilityTitleIsSignificant.en" />
+  <skos:definition xml:lang="en">Applicable institution.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has ISSN of series in Series (No established form) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2251_x">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasIssnOfSeriesInSeriesNoEstablishedForm</reg:name>
+  <rdfs:label xml:lang="en">has ISSN of series in Series (No established form)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasIssnOfSeriesInSeriesNoEstablishedForm.en" />
+  <skos:definition xml:lang="en">The ISSN of the series.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has ISSN of series in Series (Not the same as the established form) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2250_x">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasIssnOfSeriesInSeriesNotTheSameAsTheEstablishedForm</reg:name>
+  <rdfs:label xml:lang="en">has ISSN of series in Series (Not the same as the established form)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasIssnOfSeriesInSeriesNotTheSameAsTheEstablishedForm.en" />
+  <skos:definition xml:lang="en">The ISSN of the series.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has ISSN of series in Series (Same as the established form) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2252_x">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasIssnOfSeriesInSeriesSameAsTheEstablishedForm</reg:name>
+  <rdfs:label xml:lang="en">has ISSN of series in Series (Same as the established form)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasIssnOfSeriesInSeriesSameAsTheEstablishedForm.en" />
+  <skos:definition xml:lang="en">The ISSN of the series.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Issue statement in Edition statement -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U205__b">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasIssueStatementInEditionStatement</reg:name>
+  <rdfs:label xml:lang="en">has Issue statement in Edition statement</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasIssueStatementInEditionStatement.en" />
+  <skos:definition xml:lang="en">An edition statement relating to an issue or an additional edition statement which is formally identified as constituting an edition within an edition, or has significant differences in content from other issues of the larger edition to which it belongs, or is an alternative designation for the edition.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Language of parallel title in Series (No established form) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2251_z">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasLanguageOfParallelTitleInSeriesNoEstablishedForm</reg:name>
+  <rdfs:label xml:lang="en">has Language of parallel title in Series (No established form)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasLanguageOfParallelTitleInSeriesNoEstablishedForm.en" />
+  <skos:definition xml:lang="en">Coded identification of the language of a parallel title.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Language of parallel title in Series (Not the same as the established form) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2250_z">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasLanguageOfParallelTitleInSeriesNotTheSameAsTheEstablishedForm</reg:name>
+  <rdfs:label xml:lang="en">has Language of parallel title in Series (Not the same as the established form)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasLanguageOfParallelTitleInSeriesNotTheSameAsTheEstablishedForm.en" />
+  <skos:definition xml:lang="en">Coded identification of the language of a parallel title.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Language of parallel title in Series (Same as the established form) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2252_z">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasLanguageOfParallelTitleInSeriesSameAsTheEstablishedForm</reg:name>
+  <rdfs:label xml:lang="en">has Language of parallel title in Series (Same as the established form)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasLanguageOfParallelTitleInSeriesSameAsTheEstablishedForm.en" />
+  <skos:definition xml:lang="en">Coded identification of the language of a parallel title.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Language of parallel title proper in Title and statement of responsibility (Title is not significant) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2000_z">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasLanguageOfParallelTitleProperInTitleAndStatementOfResponsibilityTitleIsNotSignificant</reg:name>
+  <rdfs:label xml:lang="en">has Language of parallel title proper in Title and statement of responsibility (Title is not significant)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasLanguageOfParallelTitleProperInTitleAndStatementOfResponsibilityTitleIsNotSignificant.en" />
+  <skos:definition xml:lang="en">Language of a parallel title.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Language of parallel title proper in Title and statement of responsibility (Title is significant) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2001_z">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasLanguageOfParallelTitleProperInTitleAndStatementOfResponsibilityTitleIsSignificant</reg:name>
+  <rdfs:label xml:lang="en">has Language of parallel title proper in Title and statement of responsibility (Title is significant)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasLanguageOfParallelTitleProperInTitleAndStatementOfResponsibilityTitleIsSignificant.en" />
+  <skos:definition xml:lang="en">Language of a parallel title.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Level in Organization and arrangement of materials -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U251__c">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasLevelInOrganizationAndArrangementOfMaterials</reg:name>
+  <rdfs:label xml:lang="en">has Level in Organization and arrangement of materials</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasLevelInOrganizationAndArrangementOfMaterials.en" />
+  <skos:definition xml:lang="en">Term used to identify hierarchical position of the described materials in the whole hierarchy of description.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Mathematical data statement in Material specific area: cartographic resources - mathematical data (Structured) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2060_a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasMathematicalDataStatementInMaterialSpecificAreaCartographicResources-MathematicalDataStructured</reg:name>
+  <rdfs:label xml:lang="en">has Mathematical data statement in Material specific area: cartographic resources - mathematical data (Structured)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasMathematicalDataStatementInMaterialSpecificAreaCartographicResources-MathematicalDataStructured.en" />
+  <skos:definition xml:lang="en">The text of the statements of scale, projection, coordinates, equinoxes and epochs including ISBD punctuation.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Mathematical data statement in Material specific area: cartographic resources - mathematical data (Unstructured) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U206__a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasMathematicalDataStatementInMaterialSpecificAreaCartographicResources-MathematicalDataUnstructured</reg:name>
+  <rdfs:label xml:lang="en">has Mathematical data statement in Material specific area: cartographic resources - mathematical data (Unstructured)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasMathematicalDataStatementInMaterialSpecificAreaCartographicResources-MathematicalDataUnstructured.en" />
+  <skos:definition xml:lang="en">The text of the statements of scale, projection, coordinates, equinoxes and epochs.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Name of a part in Series (No established form) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2251_i">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasNameOfAPartInSeriesNoEstablishedForm</reg:name>
+  <rdfs:label xml:lang="en">has Name of a part in Series (No established form)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasNameOfAPartInSeriesNoEstablishedForm.en" />
+  <skos:definition xml:lang="en">The section or part name of the subseries.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Name of a part in Series (Not the same as the established form) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2250_i">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasNameOfAPartInSeriesNotTheSameAsTheEstablishedForm</reg:name>
+  <rdfs:label xml:lang="en">has Name of a part in Series (Not the same as the established form)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasNameOfAPartInSeriesNotTheSameAsTheEstablishedForm.en" />
+  <skos:definition xml:lang="en">The section or part name of the subseries.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Name of a part in Series (Same as the established form) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2252_i">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasNameOfAPartInSeriesSameAsTheEstablishedForm</reg:name>
+  <rdfs:label xml:lang="en">has Name of a part in Series (Same as the established form)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasNameOfAPartInSeriesSameAsTheEstablishedForm.en" />
+  <skos:definition xml:lang="en">The section or part name of the subseries.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Name of a part in Title and statement of responsibility (Title is not significant) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2000_i">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasNameOfAPartInTitleAndStatementOfResponsibilityTitleIsNotSignificant</reg:name>
+  <rdfs:label xml:lang="en">has Name of a part in Title and statement of responsibility (Title is not significant)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasNameOfAPartInTitleAndStatementOfResponsibilityTitleIsNotSignificant.en" />
+  <skos:definition xml:lang="en">The section or part name for items which are identified by a common name and a subsection name.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Name of a part in Title and statement of responsibility (Title is significant) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2001_i">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasNameOfAPartInTitleAndStatementOfResponsibilityTitleIsSignificant</reg:name>
+  <rdfs:label xml:lang="en">has Name of a part in Title and statement of responsibility (Title is significant)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasNameOfAPartInTitleAndStatementOfResponsibilityTitleIsSignificant.en" />
+  <skos:definition xml:lang="en">The section or part name for items which are identified by a common name and a subsection name.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Name of manufacturer in Publication, distribution, etc. (Current or latest publisher) (Not published or publically distributed) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U21011g">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasNameOfManufacturerInPublicationDistributionEtcCurrentOrLatestPublisherNotPublishedOrPublicallyDistributed</reg:name>
+  <rdfs:label xml:lang="en">has Name of manufacturer in Publication, distribution, etc. (Current or latest publisher) (Not published or publically distributed)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasNameOfManufacturerInPublicationDistributionEtcCurrentOrLatestPublisherNotPublishedOrPublicallyDistributed.en" />
+  <skos:definition xml:lang="en">The name of the manufacturer (e.g. printer) or the person or institution collecting different units to produce a composite manuscript.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Name of manufacturer in Publication, distribution, etc. (Current or latest publisher) (Produced in multiple copies, usually published or publically distributed) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2101_g">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasNameOfManufacturerInPublicationDistributionEtcCurrentOrLatestPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed</reg:name>
+  <rdfs:label xml:lang="en">has Name of manufacturer in Publication, distribution, etc. (Current or latest publisher) (Produced in multiple copies, usually published or publically distributed)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasNameOfManufacturerInPublicationDistributionEtcCurrentOrLatestPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed.en" />
+  <skos:definition xml:lang="en">The name of the manufacturer (e.g. printer) or the person or institution collecting different units to produce a composite manuscript.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Name of manufacturer in Publication, distribution, etc. (Intervening publisher) (Not published or publically distributed) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U21001g">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasNameOfManufacturerInPublicationDistributionEtcInterveningPublisherNotPublishedOrPublicallyDistributed</reg:name>
+  <rdfs:label xml:lang="en">has Name of manufacturer in Publication, distribution, etc. (Intervening publisher) (Not published or publically distributed)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasNameOfManufacturerInPublicationDistributionEtcInterveningPublisherNotPublishedOrPublicallyDistributed.en" />
+  <skos:definition xml:lang="en">The name of the manufacturer (e.g. printer) or the person or institution collecting different units to produce a composite manuscript.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Name of manufacturer in Publication, distribution, etc. (Intervening publisher) (Produced in multiple copies, usually published or publically distributed) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2100_g">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasNameOfManufacturerInPublicationDistributionEtcInterveningPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed</reg:name>
+  <rdfs:label xml:lang="en">has Name of manufacturer in Publication, distribution, etc. (Intervening publisher) (Produced in multiple copies, usually published or publically distributed)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasNameOfManufacturerInPublicationDistributionEtcInterveningPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed.en" />
+  <skos:definition xml:lang="en">The name of the manufacturer (e.g. printer) or the person or institution collecting different units to produce a composite manuscript.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Name of manufacturer in Publication, distribution, etc. (Not applicable / earliest available publisher) (Not published or publically distributed) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U210_1g">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasNameOfManufacturerInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherNotPublishedOrPublicallyDistributed</reg:name>
+  <rdfs:label xml:lang="en">has Name of manufacturer in Publication, distribution, etc. (Not applicable / earliest available publisher) (Not published or publically distributed)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasNameOfManufacturerInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherNotPublishedOrPublicallyDistributed.en" />
+  <skos:definition xml:lang="en">The name of the manufacturer (e.g. printer) or the person or institution collecting different units to produce a composite manuscript.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Name of manufacturer in Publication, distribution, etc. (Not applicable / earliest available publisher) (Produced in multiple copies, usually published or publically distributed) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U210__g">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasNameOfManufacturerInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed</reg:name>
+  <rdfs:label xml:lang="en">has Name of manufacturer in Publication, distribution, etc. (Not applicable / earliest available publisher) (Produced in multiple copies, usually published or publically distributed)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasNameOfManufacturerInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed.en" />
+  <skos:definition xml:lang="en">The name of the manufacturer (e.g. printer) or the person or institution collecting different units to produce a composite manuscript.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Name of publisher, distributor, etc. in Publication, distribution, etc. (Current or latest publisher) (Not published or publically distributed) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U21011c">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasNameOfPublisherDistributorEtcInPublicationDistributionEtcCurrentOrLatestPublisherNotPublishedOrPublicallyDistributed</reg:name>
+  <rdfs:label xml:lang="en">has Name of publisher, distributor, etc. in Publication, distribution, etc. (Current or latest publisher) (Not published or publically distributed)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasNameOfPublisherDistributorEtcInPublicationDistributionEtcCurrentOrLatestPublisherNotPublishedOrPublicallyDistributed.en" />
+  <skos:definition xml:lang="en">The name of the publisher or distributor.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Name of publisher, distributor, etc. in Publication, distribution, etc. (Current or latest publisher) (Produced in multiple copies, usually published or publically distributed) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2101_c">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasNameOfPublisherDistributorEtcInPublicationDistributionEtcCurrentOrLatestPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed</reg:name>
+  <rdfs:label xml:lang="en">has Name of publisher, distributor, etc. in Publication, distribution, etc. (Current or latest publisher) (Produced in multiple copies, usually published or publically distributed)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasNameOfPublisherDistributorEtcInPublicationDistributionEtcCurrentOrLatestPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed.en" />
+  <skos:definition xml:lang="en">The name of the publisher or distributor.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Name of publisher, distributor, etc. in Publication, distribution, etc. (Intervening publisher) (Not published or publically distributed) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U21001c">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasNameOfPublisherDistributorEtcInPublicationDistributionEtcInterveningPublisherNotPublishedOrPublicallyDistributed</reg:name>
+  <rdfs:label xml:lang="en">has Name of publisher, distributor, etc. in Publication, distribution, etc. (Intervening publisher) (Not published or publically distributed)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasNameOfPublisherDistributorEtcInPublicationDistributionEtcInterveningPublisherNotPublishedOrPublicallyDistributed.en" />
+  <skos:definition xml:lang="en">The name of the publisher or distributor.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Name of publisher, distributor, etc. in Publication, distribution, etc. (Intervening publisher) (Produced in multiple copies, usually published or publically distributed) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2100_c">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasNameOfPublisherDistributorEtcInPublicationDistributionEtcInterveningPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed</reg:name>
+  <rdfs:label xml:lang="en">has Name of publisher, distributor, etc. in Publication, distribution, etc. (Intervening publisher) (Produced in multiple copies, usually published or publically distributed)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasNameOfPublisherDistributorEtcInPublicationDistributionEtcInterveningPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed.en" />
+  <skos:definition xml:lang="en">The name of the publisher or distributor.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Name of publisher, distributor, etc. in Publication, distribution, etc. (Not applicable / earliest available publisher) (Not published or publically distributed) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U210_1c">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasNameOfPublisherDistributorEtcInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherNotPublishedOrPublicallyDistributed</reg:name>
+  <rdfs:label xml:lang="en">has Name of publisher, distributor, etc. in Publication, distribution, etc. (Not applicable / earliest available publisher) (Not published or publically distributed)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasNameOfPublisherDistributorEtcInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherNotPublishedOrPublicallyDistributed.en" />
+  <skos:definition xml:lang="en">The name of the publisher or distributor.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Name of publisher, distributor, etc. in Publication, distribution, etc. (Not applicable / earliest available publisher) (Produced in multiple copies, usually published or publically distributed) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U210__c">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasNameOfPublisherDistributorEtcInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed</reg:name>
+  <rdfs:label xml:lang="en">has Name of publisher, distributor, etc. in Publication, distribution, etc. (Not applicable / earliest available publisher) (Produced in multiple copies, usually published or publically distributed)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasNameOfPublisherDistributorEtcInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed.en" />
+  <skos:definition xml:lang="en">The name of the publisher or distributor.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Numbering: dates and volume designations in Material specific area: numbering of continuing resources (Formatted) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U207_0a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasNumberingDatesAndVolumeDesignationsInMaterialSpecificAreaNumberingOfContinuingResourcesFormatted</reg:name>
+  <rdfs:label xml:lang="en">has Numbering: dates and volume designations in Material specific area: numbering of continuing resources (Formatted)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasNumberingDatesAndVolumeDesignationsInMaterialSpecificAreaNumberingOfContinuingResourcesFormatted.en" />
+  <skos:definition xml:lang="en">The numbering and/or dates of coverage.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Numbering: dates and volume designations in Material specific area: numbering of continuing resources (Not formatted) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U207_1a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasNumberingDatesAndVolumeDesignationsInMaterialSpecificAreaNumberingOfContinuingResourcesNotFormatted</reg:name>
+  <rdfs:label xml:lang="en">has Numbering: dates and volume designations in Material specific area: numbering of continuing resources (Not formatted)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasNumberingDatesAndVolumeDesignationsInMaterialSpecificAreaNumberingOfContinuingResourcesNotFormatted.en" />
+  <skos:definition xml:lang="en">The numbering and/or dates of coverage.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Number of a part in Series (No established form) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2251_h">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasNumberOfAPartInSeriesNoEstablishedForm</reg:name>
+  <rdfs:label xml:lang="en">has Number of a part in Series (No established form)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasNumberOfAPartInSeriesNoEstablishedForm.en" />
+  <skos:definition xml:lang="en">The section or part number of the series.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Number of a part in Series (Not the same as the established form) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2250_h">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasNumberOfAPartInSeriesNotTheSameAsTheEstablishedForm</reg:name>
+  <rdfs:label xml:lang="en">has Number of a part in Series (Not the same as the established form)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasNumberOfAPartInSeriesNotTheSameAsTheEstablishedForm.en" />
+  <skos:definition xml:lang="en">The section or part number of the series.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Number of a part in Series (Same as the established form) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2252_h">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasNumberOfAPartInSeriesSameAsTheEstablishedForm</reg:name>
+  <rdfs:label xml:lang="en">has Number of a part in Series (Same as the established form)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasNumberOfAPartInSeriesSameAsTheEstablishedForm.en" />
+  <skos:definition xml:lang="en">The section or part number of the series.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Number of a part in Title and statement of responsibility (Title is not significant) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2000_h">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasNumberOfAPartInTitleAndStatementOfResponsibilityTitleIsNotSignificant</reg:name>
+  <rdfs:label xml:lang="en">has Number of a part in Title and statement of responsibility (Title is not significant)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasNumberOfAPartInTitleAndStatementOfResponsibilityTitleIsNotSignificant.en" />
+  <skos:definition xml:lang="en">The section or part numbering for items that are identified by a common name and a subsection name.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Number of a part in Title and statement of responsibility (Title is significant) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2001_h">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasNumberOfAPartInTitleAndStatementOfResponsibilityTitleIsSignificant</reg:name>
+  <rdfs:label xml:lang="en">has Number of a part in Title and statement of responsibility (Title is significant)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasNumberOfAPartInTitleAndStatementOfResponsibilityTitleIsSignificant.en" />
+  <skos:definition xml:lang="en">The section or part numbering for items that are identified by a common name and a subsection name.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Organization in Organization and arrangement of materials -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U251__a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasOrganizationInOrganizationAndArrangementOfMaterials</reg:name>
+  <rdfs:label xml:lang="en">has Organization in Organization and arrangement of materials</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasOrganizationInOrganizationAndArrangementOfMaterials.en" />
+  <skos:definition xml:lang="en">Manner in which the materials being described have been subdivided into smaller units.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Other physical details in Physical description -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U215__c">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasOtherPhysicalDetailsInPhysicalDescription</reg:name>
+  <rdfs:label xml:lang="en">has Other physical details in Physical description</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasOtherPhysicalDetailsInPhysicalDescription.en" />
+  <skos:definition xml:lang="en">Physical data about an item.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Other title information in Series (No established form) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2251_e">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasOtherTitleInformationInSeriesNoEstablishedForm</reg:name>
+  <rdfs:label xml:lang="en">has Other title information in Series (No established form)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasOtherTitleInformationInSeriesNoEstablishedForm.en" />
+  <skos:definition xml:lang="en">Subtitles and other title information that appear on the item subordinate to the series title or parallel series title or to the name of a part.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Other title information in Series (Not the same as the established form) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2250_e">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasOtherTitleInformationInSeriesNotTheSameAsTheEstablishedForm</reg:name>
+  <rdfs:label xml:lang="en">has Other title information in Series (Not the same as the established form)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasOtherTitleInformationInSeriesNotTheSameAsTheEstablishedForm.en" />
+  <skos:definition xml:lang="en">Subtitles and other title information that appear on the item subordinate to the series title or parallel series title or to the name of a part.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Other title information in Series (Same as the established form) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2252_e">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasOtherTitleInformationInSeriesSameAsTheEstablishedForm</reg:name>
+  <rdfs:label xml:lang="en">has Other title information in Series (Same as the established form)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasOtherTitleInformationInSeriesSameAsTheEstablishedForm.en" />
+  <skos:definition xml:lang="en">Subtitles and other title information that appear on the item subordinate to the series title or parallel series title or to the name of a part.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Other title information in Title and statement of responsibility (Title is not significant) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2000_e">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasOtherTitleInformationInTitleAndStatementOfResponsibilityTitleIsNotSignificant</reg:name>
+  <rdfs:label xml:lang="en">has Other title information in Title and statement of responsibility (Title is not significant)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasOtherTitleInformationInTitleAndStatementOfResponsibilityTitleIsNotSignificant.en" />
+  <skos:definition xml:lang="en">Subtitles and other title information that appear subordinate to the title proper on an item.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Other title information in Title and statement of responsibility (Title is significant) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2001_e">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasOtherTitleInformationInTitleAndStatementOfResponsibilityTitleIsSignificant</reg:name>
+  <rdfs:label xml:lang="en">has Other title information in Title and statement of responsibility (Title is significant)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasOtherTitleInformationInTitleAndStatementOfResponsibilityTitleIsSignificant.en" />
+  <skos:definition xml:lang="en">Subtitles and other title information that appear subordinate to the title proper on an item.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Parallel edition statement in Edition statement -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U205__d">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasParallelEditionStatementInEditionStatement</reg:name>
+  <rdfs:label xml:lang="en">has Parallel edition statement in Edition statement</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasParallelEditionStatementInEditionStatement.en" />
+  <skos:definition xml:lang="en">The statement of an edition in a language and/or script other than the edition statement.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Parallel printed music specific statement(s) in Material specific area: printed music specific statement -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U208__d">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasParallelPrintedMusicSpecificStatementsInMaterialSpecificAreaPrintedMusicSpecificStatement</reg:name>
+  <rdfs:label xml:lang="en">has Parallel printed music specific statement(s) in Material specific area: printed music specific statement</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasParallelPrintedMusicSpecificStatementsInMaterialSpecificAreaPrintedMusicSpecificStatement.en" />
+  <skos:definition xml:lang="en">Any additional statements in a different language and/or script.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Parallel series title in Series (No established form) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2251_d">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasParallelSeriesTitleInSeriesNoEstablishedForm</reg:name>
+  <rdfs:label xml:lang="en">has Parallel series title in Series (No established form)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasParallelSeriesTitleInSeriesNoEstablishedForm.en" />
+  <skos:definition xml:lang="en">The title of the series in another language and/or script.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Parallel series title in Series (Not the same as the established form) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2250_d">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasParallelSeriesTitleInSeriesNotTheSameAsTheEstablishedForm</reg:name>
+  <rdfs:label xml:lang="en">has Parallel series title in Series (Not the same as the established form)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasParallelSeriesTitleInSeriesNotTheSameAsTheEstablishedForm.en" />
+  <skos:definition xml:lang="en">The title of the series in another language and/or script.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Parallel series title in Series (Same as the established form) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2252_d">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasParallelSeriesTitleInSeriesSameAsTheEstablishedForm</reg:name>
+  <rdfs:label xml:lang="en">has Parallel series title in Series (Same as the established form)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasParallelSeriesTitleInSeriesSameAsTheEstablishedForm.en" />
+  <skos:definition xml:lang="en">The title of the series in another language and/or script.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Parallel title proper in Title and statement of responsibility (Title is not significant) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2000_d">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasParallelTitleProperInTitleAndStatementOfResponsibilityTitleIsNotSignificant</reg:name>
+  <rdfs:label xml:lang="en">has Parallel title proper in Title and statement of responsibility (Title is not significant)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasParallelTitleProperInTitleAndStatementOfResponsibilityTitleIsNotSignificant.en" />
+  <skos:definition xml:lang="en">The title proper in another language and/or script.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Parallel title proper in Title and statement of responsibility (Title is significant) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2001_d">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasParallelTitleProperInTitleAndStatementOfResponsibilityTitleIsSignificant</reg:name>
+  <rdfs:label xml:lang="en">has Parallel title proper in Title and statement of responsibility (Title is significant)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasParallelTitleProperInTitleAndStatementOfResponsibilityTitleIsSignificant.en" />
+  <skos:definition xml:lang="en">The title proper in another language and/or script.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Place of manufacture in Publication, distribution, etc. (Current or latest publisher) (Not published or publically distributed) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U21011e">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasPlaceOfManufactureInPublicationDistributionEtcCurrentOrLatestPublisherNotPublishedOrPublicallyDistributed</reg:name>
+  <rdfs:label xml:lang="en">has Place of manufacture in Publication, distribution, etc. (Current or latest publisher) (Not published or publically distributed)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasPlaceOfManufactureInPublicationDistributionEtcCurrentOrLatestPublisherNotPublishedOrPublicallyDistributed.en" />
+  <skos:definition xml:lang="en">The place of printing of a book or the place where a composite manuscript has been collected or bound together.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Place of manufacture in Publication, distribution, etc. (Current or latest publisher) (Produced in multiple copies, usually published or publically distributed) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2101_e">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasPlaceOfManufactureInPublicationDistributionEtcCurrentOrLatestPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed</reg:name>
+  <rdfs:label xml:lang="en">has Place of manufacture in Publication, distribution, etc. (Current or latest publisher) (Produced in multiple copies, usually published or publically distributed)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasPlaceOfManufactureInPublicationDistributionEtcCurrentOrLatestPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed.en" />
+  <skos:definition xml:lang="en">The place of printing of a book or the place where a composite manuscript has been collected or bound together.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Place of manufacture in Publication, distribution, etc. (Intervening publisher) (Not published or publically distributed) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U21001e">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasPlaceOfManufactureInPublicationDistributionEtcInterveningPublisherNotPublishedOrPublicallyDistributed</reg:name>
+  <rdfs:label xml:lang="en">has Place of manufacture in Publication, distribution, etc. (Intervening publisher) (Not published or publically distributed)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasPlaceOfManufactureInPublicationDistributionEtcInterveningPublisherNotPublishedOrPublicallyDistributed.en" />
+  <skos:definition xml:lang="en">The place of printing of a book or the place where a composite manuscript has been collected or bound together.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Place of manufacture in Publication, distribution, etc. (Intervening publisher) (Produced in multiple copies, usually published or publically distributed) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2100_e">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasPlaceOfManufactureInPublicationDistributionEtcInterveningPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed</reg:name>
+  <rdfs:label xml:lang="en">has Place of manufacture in Publication, distribution, etc. (Intervening publisher) (Produced in multiple copies, usually published or publically distributed)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasPlaceOfManufactureInPublicationDistributionEtcInterveningPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed.en" />
+  <skos:definition xml:lang="en">The place of printing of a book or the place where a composite manuscript has been collected or bound together.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Place of manufacture in Publication, distribution, etc. (Not applicable / earliest available publisher) (Not published or publically distributed) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U210_1e">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasPlaceOfManufactureInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherNotPublishedOrPublicallyDistributed</reg:name>
+  <rdfs:label xml:lang="en">has Place of manufacture in Publication, distribution, etc. (Not applicable / earliest available publisher) (Not published or publically distributed)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasPlaceOfManufactureInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherNotPublishedOrPublicallyDistributed.en" />
+  <skos:definition xml:lang="en">The place of printing of a book or the place where a composite manuscript has been collected or bound together.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Place of manufacture in Publication, distribution, etc. (Not applicable / earliest available publisher) (Produced in multiple copies, usually published or publically distributed) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U210__e">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasPlaceOfManufactureInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed</reg:name>
+  <rdfs:label xml:lang="en">has Place of manufacture in Publication, distribution, etc. (Not applicable / earliest available publisher) (Produced in multiple copies, usually published or publically distributed)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasPlaceOfManufactureInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed.en" />
+  <skos:definition xml:lang="en">The place of printing of a book or the place where a composite manuscript has been collected or bound together.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Place of publication, distribution, etc. in Publication, distribution, etc. (Current or latest publisher) (Not published or publically distributed) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U21011a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasPlaceOfPublicationDistributionEtcInPublicationDistributionEtcCurrentOrLatestPublisherNotPublishedOrPublicallyDistributed</reg:name>
+  <rdfs:label xml:lang="en">has Place of publication, distribution, etc. in Publication, distribution, etc. (Current or latest publisher) (Not published or publically distributed)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasPlaceOfPublicationDistributionEtcInPublicationDistributionEtcCurrentOrLatestPublisherNotPublishedOrPublicallyDistributed.en" />
+  <skos:definition xml:lang="en">transcribed in the form and order as they appear in the colophon.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Place of publication, distribution, etc. in Publication, distribution, etc. (Current or latest publisher) (Produced in multiple copies, usually published or publically distributed) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2101_a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasPlaceOfPublicationDistributionEtcInPublicationDistributionEtcCurrentOrLatestPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed</reg:name>
+  <rdfs:label xml:lang="en">has Place of publication, distribution, etc. in Publication, distribution, etc. (Current or latest publisher) (Produced in multiple copies, usually published or publically distributed)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasPlaceOfPublicationDistributionEtcInPublicationDistributionEtcCurrentOrLatestPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed.en" />
+  <skos:definition xml:lang="en">The town or other locality where the item is published or distributed or, in the case of a manuscript, written.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Place of publication, distribution, etc. in Publication, distribution, etc. (Intervening publisher) (Not published or publically distributed) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U21001a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasPlaceOfPublicationDistributionEtcInPublicationDistributionEtcInterveningPublisherNotPublishedOrPublicallyDistributed</reg:name>
+  <rdfs:label xml:lang="en">has Place of publication, distribution, etc. in Publication, distribution, etc. (Intervening publisher) (Not published or publically distributed)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasPlaceOfPublicationDistributionEtcInPublicationDistributionEtcInterveningPublisherNotPublishedOrPublicallyDistributed.en" />
+  <skos:definition xml:lang="en">The town or other locality where the item is published or distributed or, in the case of a manuscript, written.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Place of publication, distribution, etc. in Publication, distribution, etc. (Intervening publisher) (Produced in multiple copies, usually published or publically distributed) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2100_a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasPlaceOfPublicationDistributionEtcInPublicationDistributionEtcInterveningPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed</reg:name>
+  <rdfs:label xml:lang="en">has Place of publication, distribution, etc. in Publication, distribution, etc. (Intervening publisher) (Produced in multiple copies, usually published or publically distributed)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasPlaceOfPublicationDistributionEtcInPublicationDistributionEtcInterveningPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed.en" />
+  <skos:definition xml:lang="en">The town or other locality where the item is published or distributed or, in the case of a manuscript, written.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Place of publication, distribution, etc. in Publication, distribution, etc. (Not applicable / earliest available publisher) (Not published or publically distributed) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U210_1a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasPlaceOfPublicationDistributionEtcInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherNotPublishedOrPublicallyDistributed</reg:name>
+  <rdfs:label xml:lang="en">has Place of publication, distribution, etc. in Publication, distribution, etc. (Not applicable / earliest available publisher) (Not published or publically distributed)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasPlaceOfPublicationDistributionEtcInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherNotPublishedOrPublicallyDistributed.en" />
+  <skos:definition xml:lang="en">The town or other locality where the item is published or distributed or, in the case of a manuscript, written.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Place of publication, distribution, etc. in Publication, distribution, etc. (Not applicable / earliest available publisher) (Produced in multiple copies, usually published or publically distributed) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U210__a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasPlaceOfPublicationDistributionEtcInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed</reg:name>
+  <rdfs:label xml:lang="en">has Place of publication, distribution, etc. in Publication, distribution, etc. (Not applicable / earliest available publisher) (Produced in multiple copies, usually published or publically distributed)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasPlaceOfPublicationDistributionEtcInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed.en" />
+  <skos:definition xml:lang="en">The town or other locality where the item is published or distributed or, in the case of a manuscript, written.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Printed music specific statement in Material specific area: printed music specific statement -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U208__a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasPrintedMusicSpecificStatementInMaterialSpecificAreaPrintedMusicSpecificStatement</reg:name>
+  <rdfs:label xml:lang="en">has Printed music specific statement in Material specific area: printed music specific statement</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasPrintedMusicSpecificStatementInMaterialSpecificAreaPrintedMusicSpecificStatement.en" />
+  <skos:definition xml:lang="en">The statement related to the particular format of the item in hand.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Printing and/or publishing information transcribed as found in the colophon in Publication, distribution, etc. (Current or latest publisher) (Not published or publically distributed) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U21011s">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasPrintingAndOrPublishingInformationTranscribedAsFoundInTheColophonInPublicationDistributionEtcCurrentOrLatestPublisherNotPublishedOrPublicallyDistributed</reg:name>
+  <rdfs:label xml:lang="en">has Printing and/or publishing information transcribed as found in the colophon in Publication, distribution, etc. (Current or latest publisher) (Not published or publically distributed)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasPrintingAndOrPublishingInformationTranscribedAsFoundInTheColophonInPublicationDistributionEtcCurrentOrLatestPublisherNotPublishedOrPublicallyDistributed.en" />
+  <skos:definition xml:lang="en">The place and/or date of the printing and/or publishing, and/or the name of the printer and/or publisher of an older monographic publication, transcribed in the form and order as they appear in the colophon.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Printing and/or publishing information transcribed as found in the colophon in Publication, distribution, etc. (Current or latest publisher) (Produced in multiple copies, usually published or publically distributed) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2101_s">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasPrintingAndOrPublishingInformationTranscribedAsFoundInTheColophonInPublicationDistributionEtcCurrentOrLatestPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed</reg:name>
+  <rdfs:label xml:lang="en">has Printing and/or publishing information transcribed as found in the colophon in Publication, distribution, etc. (Current or latest publisher) (Produced in multiple copies, usually published or publically distributed)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasPrintingAndOrPublishingInformationTranscribedAsFoundInTheColophonInPublicationDistributionEtcCurrentOrLatestPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed.en" />
+  <skos:definition xml:lang="en">The place and/or date of the printing and/or publishing, and/or the name of the printer and/or publisher of an older monographic publication, transcribed in the form and order as they appear in the colophon.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Printing and/or publishing information transcribed as found in the colophon in Publication, distribution, etc. (Intervening publisher) (Not published or publically distributed) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U21001s">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasPrintingAndOrPublishingInformationTranscribedAsFoundInTheColophonInPublicationDistributionEtcInterveningPublisherNotPublishedOrPublicallyDistributed</reg:name>
+  <rdfs:label xml:lang="en">has Printing and/or publishing information transcribed as found in the colophon in Publication, distribution, etc. (Intervening publisher) (Not published or publically distributed)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasPrintingAndOrPublishingInformationTranscribedAsFoundInTheColophonInPublicationDistributionEtcInterveningPublisherNotPublishedOrPublicallyDistributed.en" />
+  <skos:definition xml:lang="en">The place and/or date of the printing and/or publishing, and/or the name of the printer and/or publisher of an older monographic publication, transcribed in the form and order as they appear in the colophon.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Printing and/or publishing information transcribed as found in the colophon in Publication, distribution, etc. (Intervening publisher) (Produced in multiple copies, usually published or publically distributed) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2100_s">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasPrintingAndOrPublishingInformationTranscribedAsFoundInTheColophonInPublicationDistributionEtcInterveningPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed</reg:name>
+  <rdfs:label xml:lang="en">has Printing and/or publishing information transcribed as found in the colophon in Publication, distribution, etc. (Intervening publisher) (Produced in multiple copies, usually published or publically distributed)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasPrintingAndOrPublishingInformationTranscribedAsFoundInTheColophonInPublicationDistributionEtcInterveningPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed.en" />
+  <skos:definition xml:lang="en">The place and/or date of the printing and/or publishing, and/or the name of the printer and/or publisher of an older monographic publication, transcribed in the form and order as they appear in the colophon.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Printing and/or publishing information transcribed as found in the colophon in Publication, distribution, etc. (Not applicable / earliest available publisher) (Not published or publically distributed) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U210_1s">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasPrintingAndOrPublishingInformationTranscribedAsFoundInTheColophonInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherNotPublishedOrPublicallyDistributed</reg:name>
+  <rdfs:label xml:lang="en">has Printing and/or publishing information transcribed as found in the colophon in Publication, distribution, etc. (Not applicable / earliest available publisher) (Not published or publically distributed)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasPrintingAndOrPublishingInformationTranscribedAsFoundInTheColophonInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherNotPublishedOrPublicallyDistributed.en" />
+  <skos:definition xml:lang="en">The place and/or date of the printing and/or publishing, and/or the name of the printer and/or publisher of an older monographic publication, transcribed in the form and order as they appear in the colophon.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Printing and/or publishing information transcribed as found in the colophon in Publication, distribution, etc. (Not applicable / earliest available publisher) (Produced in multiple copies, usually published or publically distributed) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U210__s">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasPrintingAndOrPublishingInformationTranscribedAsFoundInTheColophonInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed</reg:name>
+  <rdfs:label xml:lang="en">has Printing and/or publishing information transcribed as found in the colophon in Publication, distribution, etc. (Not applicable / earliest available publisher) (Produced in multiple copies, usually published or publically distributed)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasPrintingAndOrPublishingInformationTranscribedAsFoundInTheColophonInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed.en" />
+  <skos:definition xml:lang="en">The place and/or date of the printing and/or publishing, and/or the name of the printer and/or publisher of an older monographic publication, transcribed in the form and order as they appear in the colophon.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Printing and/or publishing information transcribed as found in the main source of information in Publication, distribution, etc. (Current or latest publisher) (Not published or publically distributed) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U21011r">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasPrintingAndOrPublishingInformationTranscribedAsFoundInTheMainSourceOfInformationInPublicationDistributionEtcCurrentOrLatestPublisherNotPublishedOrPublicallyDistributed</reg:name>
+  <rdfs:label xml:lang="en">has Printing and/or publishing information transcribed as found in the main source of information in Publication, distribution, etc. (Current or latest publisher) (Not published or publically distributed)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasPrintingAndOrPublishingInformationTranscribedAsFoundInTheMainSourceOfInformationInPublicationDistributionEtcCurrentOrLatestPublisherNotPublishedOrPublicallyDistributed.en" />
+  <skos:definition xml:lang="en">The place and/or date of publishing and/or printing, and/or the name of publisher and/printer, and other information relating to publication and/or printing, transcribed in the form and order as they appear on the title page or its substitute.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Printing and/or publishing information transcribed as found in the main source of information in Publication, distribution, etc. (Current or latest publisher) (Produced in multiple copies, usually published or publically distributed) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2101_r">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasPrintingAndOrPublishingInformationTranscribedAsFoundInTheMainSourceOfInformationInPublicationDistributionEtcCurrentOrLatestPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed</reg:name>
+  <rdfs:label xml:lang="en">has Printing and/or publishing information transcribed as found in the main source of information in Publication, distribution, etc. (Current or latest publisher) (Produced in multiple copies, usually published or publically distributed)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasPrintingAndOrPublishingInformationTranscribedAsFoundInTheMainSourceOfInformationInPublicationDistributionEtcCurrentOrLatestPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed.en" />
+  <skos:definition xml:lang="en">The place and/or date of publishing and/or printing, and/or the name of publisher and/printer, and other information relating to publication and/or printing, transcribed in the form and order as they appear on the title page or its substitute.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Printing and/or publishing information transcribed as found in the main source of information in Publication, distribution, etc. (Intervening publisher) (Not published or publically distributed) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U21001r">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasPrintingAndOrPublishingInformationTranscribedAsFoundInTheMainSourceOfInformationInPublicationDistributionEtcInterveningPublisherNotPublishedOrPublicallyDistributed</reg:name>
+  <rdfs:label xml:lang="en">has Printing and/or publishing information transcribed as found in the main source of information in Publication, distribution, etc. (Intervening publisher) (Not published or publically distributed)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasPrintingAndOrPublishingInformationTranscribedAsFoundInTheMainSourceOfInformationInPublicationDistributionEtcInterveningPublisherNotPublishedOrPublicallyDistributed.en" />
+  <skos:definition xml:lang="en">The place and/or date of publishing and/or printing, and/or the name of publisher and/printer, and other information relating to publication and/or printing, transcribed in the form and order as they appear on the title page or its substitute.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Printing and/or publishing information transcribed as found in the main source of information in Publication, distribution, etc. (Intervening publisher) (Produced in multiple copies, usually published or publically distributed) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2100_r">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasPrintingAndOrPublishingInformationTranscribedAsFoundInTheMainSourceOfInformationInPublicationDistributionEtcInterveningPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed</reg:name>
+  <rdfs:label xml:lang="en">has Printing and/or publishing information transcribed as found in the main source of information in Publication, distribution, etc. (Intervening publisher) (Produced in multiple copies, usually published or publically distributed)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasPrintingAndOrPublishingInformationTranscribedAsFoundInTheMainSourceOfInformationInPublicationDistributionEtcInterveningPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed.en" />
+  <skos:definition xml:lang="en">The place and/or date of publishing and/or printing, and/or the name of publisher and/printer, and other information relating to publication and/or printing, transcribed in the form and order as they appear on the title page or its substitute.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Printing and/or publishing information transcribed as found in the main source of information in Publication, distribution, etc. (Not applicable / earliest available publisher) (Not published or publically distributed) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U210_1r">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasPrintingAndOrPublishingInformationTranscribedAsFoundInTheMainSourceOfInformationInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherNotPublishedOrPublicallyDistributed</reg:name>
+  <rdfs:label xml:lang="en">has Printing and/or publishing information transcribed as found in the main source of information in Publication, distribution, etc. (Not applicable / earliest available publisher) (Not published or publically distributed)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasPrintingAndOrPublishingInformationTranscribedAsFoundInTheMainSourceOfInformationInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherNotPublishedOrPublicallyDistributed.en" />
+  <skos:definition xml:lang="en">The place and/or date of publishing and/or printing, and/or the name of publisher and/printer, and other information relating to publication and/or printing, transcribed in the form and order as they appear on the title page or its substitute.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Printing and/or publishing information transcribed as found in the main source of information in Publication, distribution, etc. (Not applicable / earliest available publisher) (Produced in multiple copies, usually published or publically distributed) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U210__r">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasPrintingAndOrPublishingInformationTranscribedAsFoundInTheMainSourceOfInformationInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed</reg:name>
+  <rdfs:label xml:lang="en">has Printing and/or publishing information transcribed as found in the main source of information in Publication, distribution, etc. (Not applicable / earliest available publisher) (Produced in multiple copies, usually published or publically distributed)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasPrintingAndOrPublishingInformationTranscribedAsFoundInTheMainSourceOfInformationInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed.en" />
+  <skos:definition xml:lang="en">The place and/or date of publishing and/or printing, and/or the name of publisher and/printer, and other information relating to publication and/or printing, transcribed in the form and order as they appear on the title page or its substitute.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Right ascension and declination in Material specific area: cartographic resources - mathematical data (Structured) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2060_e">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasRightAscensionAndDeclinationInMaterialSpecificAreaCartographicResources-MathematicalDataStructured</reg:name>
+  <rdfs:label xml:lang="en">has Right ascension and declination in Material specific area: cartographic resources - mathematical data (Structured)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasRightAscensionAndDeclinationInMaterialSpecificAreaCartographicResources-MathematicalDataStructured.en" />
+</rdf:Description>
+
+<!-- Property: has Right ascension and declination in Material specific area: cartographic resources - mathematical data (Unstructured) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U206__e">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasRightAscensionAndDeclinationInMaterialSpecificAreaCartographicResources-MathematicalDataUnstructured</reg:name>
+  <rdfs:label xml:lang="en">has Right ascension and declination in Material specific area: cartographic resources - mathematical data (Unstructured)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasRightAscensionAndDeclinationInMaterialSpecificAreaCartographicResources-MathematicalDataUnstructured.en" />
+</rdf:Description>
+
+<!-- Property: has Series title in Series (No established form) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2251_a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasSeriesTitleInSeriesNoEstablishedForm</reg:name>
+  <rdfs:label xml:lang="en">has Series title in Series (No established form)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasSeriesTitleInSeriesNoEstablishedForm.en" />
+  <skos:definition xml:lang="en">The title of the series in the form in which it appears on the item being recorded.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Series title in Series (Not the same as the established form) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2250_a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasSeriesTitleInSeriesNotTheSameAsTheEstablishedForm</reg:name>
+  <rdfs:label xml:lang="en">has Series title in Series (Not the same as the established form)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasSeriesTitleInSeriesNotTheSameAsTheEstablishedForm.en" />
+  <skos:definition xml:lang="en">The title of the series in the form in which it appears on the item being recorded.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Series title in Series (Same as the established form) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2252_a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasSeriesTitleInSeriesSameAsTheEstablishedForm</reg:name>
+  <rdfs:label xml:lang="en">has Series title in Series (Same as the established form)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasSeriesTitleInSeriesSameAsTheEstablishedForm.en" />
+  <skos:definition xml:lang="en">The title of the series in the form in which it appears on the item being recorded.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Source of numbering information in Material specific area: numbering of continuing resources (Formatted) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U207_0z">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasSourceOfNumberingInformationInMaterialSpecificAreaNumberingOfContinuingResourcesFormatted</reg:name>
+  <rdfs:label xml:lang="en">has Source of numbering information in Material specific area: numbering of continuing resources (Formatted)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasSourceOfNumberingInformationInMaterialSpecificAreaNumberingOfContinuingResourcesFormatted.en" />
+  <skos:definition xml:lang="en">A note on the source of numbering information when it is not taken from the item itself.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Source of numbering information in Material specific area: numbering of continuing resources (Not formatted) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U207_1z">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasSourceOfNumberingInformationInMaterialSpecificAreaNumberingOfContinuingResourcesNotFormatted</reg:name>
+  <rdfs:label xml:lang="en">has Source of numbering information in Material specific area: numbering of continuing resources (Not formatted)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasSourceOfNumberingInformationInMaterialSpecificAreaNumberingOfContinuingResourcesNotFormatted.en" />
+  <skos:definition xml:lang="en">A note on the source of numbering information when it is not taken from the item itself.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Specific material designation and extent of item in Physical description -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U215__a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasSpecificMaterialDesignationAndExtentOfItemInPhysicalDescription</reg:name>
+  <rdfs:label xml:lang="en">has Specific material designation and extent of item in Physical description</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasSpecificMaterialDesignationAndExtentOfItemInPhysicalDescription.en" />
+  <skos:definition xml:lang="en">The name of the specific type of material to which the item belongs and/or an indication of the number of pieces or constituent parts.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Statement of coordinates in Material specific area: cartographic resources - mathematical data (Structured) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2060_d">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasStatementOfCoordinatesInMaterialSpecificAreaCartographicResources-MathematicalDataStructured</reg:name>
+  <rdfs:label xml:lang="en">has Statement of coordinates in Material specific area: cartographic resources - mathematical data (Structured)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasStatementOfCoordinatesInMaterialSpecificAreaCartographicResources-MathematicalDataStructured.en" />
+</rdf:Description>
+
+<!-- Property: has Statement of coordinates in Material specific area: cartographic resources - mathematical data (Unstructured) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U206__d">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasStatementOfCoordinatesInMaterialSpecificAreaCartographicResources-MathematicalDataUnstructured</reg:name>
+  <rdfs:label xml:lang="en">has Statement of coordinates in Material specific area: cartographic resources - mathematical data (Unstructured)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasStatementOfCoordinatesInMaterialSpecificAreaCartographicResources-MathematicalDataUnstructured.en" />
+</rdf:Description>
+
+<!-- Property: has Statement of equinox in Material specific area: cartographic resources - mathematical data (Structured) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2060_f">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasStatementOfEquinoxInMaterialSpecificAreaCartographicResources-MathematicalDataStructured</reg:name>
+  <rdfs:label xml:lang="en">has Statement of equinox in Material specific area: cartographic resources - mathematical data (Structured)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasStatementOfEquinoxInMaterialSpecificAreaCartographicResources-MathematicalDataStructured.en" />
+</rdf:Description>
+
+<!-- Property: has Statement of equinox in Material specific area: cartographic resources - mathematical data (Unstructured) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U206__f">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasStatementOfEquinoxInMaterialSpecificAreaCartographicResources-MathematicalDataUnstructured</reg:name>
+  <rdfs:label xml:lang="en">has Statement of equinox in Material specific area: cartographic resources - mathematical data (Unstructured)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasStatementOfEquinoxInMaterialSpecificAreaCartographicResources-MathematicalDataUnstructured.en" />
+</rdf:Description>
+
+<!-- Property: has Statement of projection in Material specific area: cartographic resources - mathematical data (Structured) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2060_c">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasStatementOfProjectionInMaterialSpecificAreaCartographicResources-MathematicalDataStructured</reg:name>
+  <rdfs:label xml:lang="en">has Statement of projection in Material specific area: cartographic resources - mathematical data (Structured)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasStatementOfProjectionInMaterialSpecificAreaCartographicResources-MathematicalDataStructured.en" />
+</rdf:Description>
+
+<!-- Property: has Statement of projection in Material specific area: cartographic resources - mathematical data (Unstructured) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U206__c">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasStatementOfProjectionInMaterialSpecificAreaCartographicResources-MathematicalDataUnstructured</reg:name>
+  <rdfs:label xml:lang="en">has Statement of projection in Material specific area: cartographic resources - mathematical data (Unstructured)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasStatementOfProjectionInMaterialSpecificAreaCartographicResources-MathematicalDataUnstructured.en" />
+</rdf:Description>
+
+<!-- Property: has Statement of responsibility in Series (No established form) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2251_f">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasStatementOfResponsibilityInSeriesNoEstablishedForm</reg:name>
+  <rdfs:label xml:lang="en">has Statement of responsibility in Series (No established form)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasStatementOfResponsibilityInSeriesNoEstablishedForm.en" />
+  <skos:definition xml:lang="en">The statement of responsibility for a series title or paralle series title or for a numbered or named part within the series.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Statement of responsibility in Series (Not the same as the established form) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2250_f">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasStatementOfResponsibilityInSeriesNotTheSameAsTheEstablishedForm</reg:name>
+  <rdfs:label xml:lang="en">has Statement of responsibility in Series (Not the same as the established form)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasStatementOfResponsibilityInSeriesNotTheSameAsTheEstablishedForm.en" />
+  <skos:definition xml:lang="en">The statement of responsibility for a series title or paralle series title or for a numbered or named part within the series.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Statement of responsibility in Series (Same as the established form) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2252_f">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasStatementOfResponsibilityInSeriesSameAsTheEstablishedForm</reg:name>
+  <rdfs:label xml:lang="en">has Statement of responsibility in Series (Same as the established form)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasStatementOfResponsibilityInSeriesSameAsTheEstablishedForm.en" />
+  <skos:definition xml:lang="en">The statement of responsibility for a series title or paralle series title or for a numbered or named part within the series.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Statement of responsibility relating to edition in Edition statement -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U205__f">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasStatementOfResponsibilityRelatingToEditionInEditionStatement</reg:name>
+  <rdfs:label xml:lang="en">has Statement of responsibility relating to edition in Edition statement</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasStatementOfResponsibilityRelatingToEditionInEditionStatement.en" />
+  <skos:definition xml:lang="en">The first of any statements of responsibility relating to the edition.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Statement of scale in Material specific area: cartographic resources - mathematical data (Structured) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2060_b">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasStatementOfScaleInMaterialSpecificAreaCartographicResources-MathematicalDataStructured</reg:name>
+  <rdfs:label xml:lang="en">has Statement of scale in Material specific area: cartographic resources - mathematical data (Structured)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasStatementOfScaleInMaterialSpecificAreaCartographicResources-MathematicalDataStructured.en" />
+</rdf:Description>
+
+<!-- Property: has Statement of scale in Material specific area: cartographic resources - mathematical data (Unstructured) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U206__b">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasStatementOfScaleInMaterialSpecificAreaCartographicResources-MathematicalDataUnstructured</reg:name>
+  <rdfs:label xml:lang="en">has Statement of scale in Material specific area: cartographic resources - mathematical data (Unstructured)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasStatementOfScaleInMaterialSpecificAreaCartographicResources-MathematicalDataUnstructured.en" />
+</rdf:Description>
+
+<!-- Property: has Subsequent statement of responsibility in Edition statement -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U205__g">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasSubsequentStatementOfResponsibilityInEditionStatement</reg:name>
+  <rdfs:label xml:lang="en">has Subsequent statement of responsibility in Edition statement</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasSubsequentStatementOfResponsibilityInEditionStatement.en" />
+  <skos:definition xml:lang="en">Any subsequent statement of responsibility relating to the edition.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Subsequent statement of responsibility in Title and statement of responsibility (Title is not significant) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2000_g">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasSubsequentStatementOfResponsibilityInTitleAndStatementOfResponsibilityTitleIsNotSignificant</reg:name>
+  <rdfs:label xml:lang="en">has Subsequent statement of responsibility in Title and statement of responsibility (Title is not significant)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasSubsequentStatementOfResponsibilityInTitleAndStatementOfResponsibilityTitleIsNotSignificant.en" />
+  <skos:definition xml:lang="en">A statement of responsibility after the first statement of responsibility and relating to the same title.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Subsequent statement of responsibility in Title and statement of responsibility (Title is significant) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2001_g">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasSubsequentStatementOfResponsibilityInTitleAndStatementOfResponsibilityTitleIsSignificant</reg:name>
+  <rdfs:label xml:lang="en">has Subsequent statement of responsibility in Title and statement of responsibility (Title is significant)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasSubsequentStatementOfResponsibilityInTitleAndStatementOfResponsibilityTitleIsSignificant.en" />
+  <skos:definition xml:lang="en">A statement of responsibility after the first statement of responsibility and relating to the same title.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Title page information following the title proper (for older monographic publications) in Title and statement of responsibility (Title is not significant) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2000_r">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTitlePageInformationFollowingTheTitleProperForOlderMonographicPublicationsInTitleAndStatementOfResponsibilityTitleIsNotSignificant</reg:name>
+  <rdfs:label xml:lang="en">has Title page information following the title proper (for older monographic publications) in Title and statement of responsibility (Title is not significant)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasTitlePageInformationFollowingTheTitleProperForOlderMonographicPublicationsInTitleAndStatementOfResponsibilityTitleIsNotSignificant.en" />
+  <skos:definition xml:lang="en">The remaining information present on the title page or its substitute.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Title page information following the title proper (for older monographic publications) in Title and statement of responsibility (Title is not significant) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2001_r">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTitlePageInformationFollowingTheTitleProperForOlderMonographicPublicationsInTitleAndStatementOfResponsibilityTitleIsNotSignificant</reg:name>
+  <rdfs:label xml:lang="en">has Title page information following the title proper (for older monographic publications) in Title and statement of responsibility (Title is not significant)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasTitlePageInformationFollowingTheTitleProperForOlderMonographicPublicationsInTitleAndStatementOfResponsibilityTitleIsNotSignificant.en" />
+  <skos:definition xml:lang="en">The remaining information present on the title page or its substitute.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Title proper by another author in Title and statement of responsibility (Title is not significant) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2000_c">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTitleProperByAnotherAuthorInTitleAndStatementOfResponsibilityTitleIsNotSignificant</reg:name>
+  <rdfs:label xml:lang="en">has Title proper by another author in Title and statement of responsibility (Title is not significant)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasTitleProperByAnotherAuthorInTitleAndStatementOfResponsibilityTitleIsNotSignificant.en" />
+  <skos:definition xml:lang="en">The chief title of a work by an author other than the one responsible for the first title when they are both contained in the same item and when there is no collective title.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Title proper by another author in Title and statement of responsibility (Title is significant) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2001_c">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTitleProperByAnotherAuthorInTitleAndStatementOfResponsibilityTitleIsSignificant</reg:name>
+  <rdfs:label xml:lang="en">has Title proper by another author in Title and statement of responsibility (Title is significant)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasTitleProperByAnotherAuthorInTitleAndStatementOfResponsibilityTitleIsSignificant.en" />
+  <skos:definition xml:lang="en">The chief title of a work by an author other than the one responsible for the first title when they are both contained in the same item and when there is no collective title.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Title proper in Title and statement of responsibility (Title is not significant) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2000_a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdfs:label xml:lang="en">has Title proper in Title and statement of responsibility (Title is not significant)</rdfs:label>
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTitleProperInTitleAndStatementOfResponsibilityTitleIsNotSignificant</reg:name>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasTitleProperInTitleAndStatementOfResponsibilityTitleIsNotSignificant.en" />
+  <skos:definition xml:lang="en">The chief title of the item.</skos:definition>
+  <skos:scopeNote xml:lang="en">Includes alternative title but excludes other title information (e.g. subtitles) and parallel titles.</skos:scopeNote>
+</rdf:Description>
+
+<!-- Property: has Title proper in Title and statement of responsibility (Title is significant) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2001_a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasTitleProperInTitleAndStatementOfResponsibilityTitleIsSignificant</reg:name>
+  <rdfs:label xml:lang="en">has Title proper in Title and statement of responsibility (Title is significant)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasTitleProperInTitleAndStatementOfResponsibilityTitleIsSignificant.en" />
+  <skos:definition xml:lang="en">The chief title of the item.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Volume designation in Series (No established form) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2251_v">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasVolumeDesignationInSeriesNoEstablishedForm</reg:name>
+  <rdfs:label xml:lang="en">has Volume designation in Series (No established form)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasVolumeDesignationInSeriesNoEstablishedForm.en" />
+  <skos:definition xml:lang="en">The number of the item being recorded within the series.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Volume designation in Series (Not the same as the established form) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2250_v">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasVolumeDesignationInSeriesNotTheSameAsTheEstablishedForm</reg:name>
+  <rdfs:label xml:lang="en">has Volume designation in Series (Not the same as the established form)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasVolumeDesignationInSeriesNotTheSameAsTheEstablishedForm.en" />
+  <skos:definition xml:lang="en">The number of the item being recorded within the series.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Volume designation in Series (Same as the established form) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2252_v">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasVolumeDesignationInSeriesSameAsTheEstablishedForm</reg:name>
+  <rdfs:label xml:lang="en">has Volume designation in Series (Same as the established form)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasVolumeDesignationInSeriesSameAsTheEstablishedForm.en" />
+  <skos:definition xml:lang="en">The number of the item being recorded within the series.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Volume designation in Title and statement of responsibility (Title is not significant) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2000_v">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasVolumeDesignationInTitleAndStatementOfResponsibilityTitleIsNotSignificant</reg:name>
+  <rdfs:label xml:lang="en">has Volume designation in Title and statement of responsibility (Title is not significant)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasVolumeDesignationInTitleAndStatementOfResponsibilityTitleIsNotSignificant.en" />
+  <skos:definition xml:lang="en">A particular part of an item that is related to another item.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Volume designation in Title and statement of responsibility (Title is significant) -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2001_v">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasVolumeDesignationInTitleAndStatementOfResponsibilityTitleIsSignificant</reg:name>
+  <rdfs:label xml:lang="en">has Volume designation in Title and statement of responsibility (Title is significant)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasVolumeDesignationInTitleAndStatementOfResponsibilityTitleIsSignificant.en" />
+  <skos:definition xml:lang="en">A particular part of an item that is related to another item.</skos:definition>
+</rdf:Description>
+
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+</rdf:RDF>

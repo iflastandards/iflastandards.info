@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+<!-- Scheme: UNIMARC: Cartographic materials: Form of item -->
+    <skos:ConceptScheme rdf:about="http://iflastandards.info/ns/unimarc/terms/cartfor#">
+        <dc:title>UNIMARC: Cartographic materials: Form of item</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: atlas  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartfor#a" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartfor#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7606"/>
+      <skos:prefLabel xml:lang="en">atlas</skos:prefLabel>
+      <skos:notation xml:lang="en">a</skos:notation>
+    </skos:Concept>
+<!-- Concept: diagram  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartfor#b" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartfor#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7607"/>
+      <skos:prefLabel xml:lang="en">diagram</skos:prefLabel>
+      <skos:notation xml:lang="en">b</skos:notation>
+    </skos:Concept>
+<!-- Concept: globe  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartfor#c" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartfor#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7608"/>
+      <skos:prefLabel xml:lang="en">globe</skos:prefLabel>
+      <skos:notation xml:lang="en">c</skos:notation>
+    </skos:Concept>
+<!-- Concept: map  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartfor#d" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartfor#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7609"/>
+      <skos:prefLabel xml:lang="en">map</skos:prefLabel>
+      <skos:notation xml:lang="en">d</skos:notation>
+    </skos:Concept>
+<!-- Concept: model  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartfor#e" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartfor#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7610"/>
+      <skos:prefLabel xml:lang="en">model</skos:prefLabel>
+      <skos:notation xml:lang="en">e</skos:notation>
+    </skos:Concept>
+<!-- Concept: other  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartfor#z" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartfor#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7616"/>
+      <skos:prefLabel xml:lang="en">other</skos:prefLabel>
+      <skos:notation xml:lang="en">z</skos:notation>
+    </skos:Concept>
+<!-- Concept: plan  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartfor#j" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartfor#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7615"/>
+      <skos:prefLabel xml:lang="en">plan</skos:prefLabel>
+      <skos:notation xml:lang="en">j</skos:notation>
+    </skos:Concept>
+<!-- Concept: profile  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartfor#f" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartfor#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7611"/>
+      <skos:prefLabel xml:lang="en">profile</skos:prefLabel>
+      <skos:notation xml:lang="en">f</skos:notation>
+    </skos:Concept>
+<!-- Concept: remote sensing image  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartfor#g" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartfor#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7612"/>
+      <skos:prefLabel xml:lang="en">remote sensing image</skos:prefLabel>
+      <skos:notation xml:lang="en">g</skos:notation>
+    </skos:Concept>
+<!-- Concept: section  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartfor#h" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartfor#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7613"/>
+      <skos:prefLabel xml:lang="en">section</skos:prefLabel>
+      <skos:notation xml:lang="en">h</skos:notation>
+    </skos:Concept>
+<!-- Concept: view  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/cartfor#i" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/cartfor#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7614"/>
+      <skos:prefLabel xml:lang="en">view</skos:prefLabel>
+      <skos:notation xml:lang="en">i</skos:notation>
+    </skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

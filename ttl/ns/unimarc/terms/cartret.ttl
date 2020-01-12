@@ -1,0 +1,103 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix reg: <http://metadataregistry.org/uri/profile/regap/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://iflastandards.info/ns/unimarc/terms/cartret#>
+    dc:title "UNIMARC: Cartographic materials: Recording technique for remote sensing image" ;
+    a skos:ConceptScheme .
+
+<http://iflastandards.info/ns/unimarc/terms/cartret#aa>
+    reg:identifier <http://metadataregistry.org/concepts/7659> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:definition "Light emission technique."@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/cartret#> ;
+    skos:notation "aa"@en ;
+    skos:prefLabel "video recording"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/cartret#ab>
+    reg:identifier <http://metadataregistry.org/concepts/7660> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:definition "Light emission technique."@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/cartret#> ;
+    skos:notation "ab"@en ;
+    skos:prefLabel "false colour photography"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/cartret#ac>
+    reg:identifier <http://metadataregistry.org/concepts/7661> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:definition "Light emission technique."@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/cartret#> ;
+    skos:notation "ac"@en ;
+    skos:prefLabel "multispectral photography"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/cartret#ad>
+    reg:identifier <http://metadataregistry.org/concepts/7662> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:definition "Light emission technique."@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/cartret#> ;
+    skos:notation "ad"@en ;
+    skos:prefLabel "multispectral scanning"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/cartret#av>
+    reg:identifier <http://metadataregistry.org/concepts/7663> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:definition "Light emission technique."@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/cartret#> ;
+    skos:notation "av"@en ;
+    skos:prefLabel "combination of various light emission techniques"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/cartret#da>
+    reg:identifier <http://metadataregistry.org/concepts/7664> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:definition "Thermal infrared scanning technique."@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/cartret#> ;
+    skos:notation "da"@en ;
+    skos:prefLabel "infrared line scanning"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/cartret#dv>
+    reg:identifier <http://metadataregistry.org/concepts/7665> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:definition "Thermal infrared scanning technique."@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/cartret#> ;
+    skos:notation "dv"@en ;
+    skos:prefLabel "combination of various thermal infrared scanning techniques"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/cartret#ga>
+    reg:identifier <http://metadataregistry.org/concepts/7666> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:definition "Microwave emission technique."@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/cartret#> ;
+    skos:notation "ga"@en ;
+    skos:prefLabel "Sidelooking Airborne Radar (SLAR)"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/cartret#gb>
+    reg:identifier <http://metadataregistry.org/concepts/7667> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:definition "Microwave emission technique."@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/cartret#> ;
+    skos:notation "gb"@en ;
+    skos:prefLabel "Synthetic Aperture Radar (SAR)"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/cartret#gc>
+    reg:identifier <http://metadataregistry.org/concepts/7668> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:definition "Microwave emission technique."@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/cartret#> ;
+    skos:notation "gc"@en ;
+    skos:prefLabel "passive microwave mapping"@en .
+
+<http://metadataregistry.org/uri/RegStatus/1001>
+    a skos:Concept ;
+    skos:prefLabel "Published"@en .
+

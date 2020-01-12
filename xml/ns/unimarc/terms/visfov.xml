@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+<!-- Scheme: UNIMARC: Visual projections, etc.: Form of release - videorecording -->
+    <skos:ConceptScheme rdf:about="http://iflastandards.info/ns/unimarc/terms/visfov#">
+        <dc:title>UNIMARC: Visual projections, etc.: Form of release - videorecording</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: electronic videorecording (EVR)  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/visfov#e" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/visfov#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7812"/>
+      <skos:prefLabel xml:lang="en">electronic videorecording (EVR)</skos:prefLabel>
+      <skos:notation xml:lang="en">e</skos:notation>
+      <skos:definition xml:lang="en">An obsolete form of video recording on 16mm film.</skos:definition>
+    </skos:Concept>
+<!-- Concept: not a videorecording  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/visfov#x" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/visfov#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7813"/>
+      <skos:prefLabel xml:lang="en">not a videorecording</skos:prefLabel>
+      <skos:notation xml:lang="en">x</skos:notation>
+    </skos:Concept>
+<!-- Concept: other videotype  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/visfov#z" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/visfov#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7814"/>
+      <skos:prefLabel xml:lang="en">other videotype</skos:prefLabel>
+      <skos:notation xml:lang="en">z</skos:notation>
+    </skos:Concept>
+<!-- Concept: videocartridge  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/visfov#a" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/visfov#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7808"/>
+      <skos:prefLabel xml:lang="en">videocartridge</skos:prefLabel>
+      <skos:notation xml:lang="en">a</skos:notation>
+    </skos:Concept>
+<!-- Concept: videocassette  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/visfov#c" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/visfov#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7810"/>
+      <skos:prefLabel xml:lang="en">videocassette</skos:prefLabel>
+      <skos:notation xml:lang="en">c</skos:notation>
+    </skos:Concept>
+<!-- Concept: videodisc  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/visfov#b" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/visfov#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7809"/>
+      <skos:prefLabel xml:lang="en">videodisc</skos:prefLabel>
+      <skos:notation xml:lang="en">b</skos:notation>
+    </skos:Concept>
+<!-- Concept: videoreel  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/visfov#d" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/visfov#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7811"/>
+      <skos:prefLabel xml:lang="en">videoreel</skos:prefLabel>
+      <skos:notation xml:lang="en">d</skos:notation>
+    </skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

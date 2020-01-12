@@ -1,0 +1,37 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix reg: <http://metadataregistry.org/uri/profile/regap/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://iflastandards.info/ns/unimarc/terms/satcat#>
+    dc:title "UNIMARC: Cartographic materials: Category of satellite" ;
+    a skos:ConceptScheme .
+
+<http://iflastandards.info/ns/unimarc/terms/satcat#a>
+    reg:identifier <http://metadataregistry.org/concepts/7642> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/satcat#> ;
+    skos:notation "a"@en ;
+    skos:prefLabel "meteorological"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/satcat#b>
+    reg:identifier <http://metadataregistry.org/concepts/7643> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/satcat#> ;
+    skos:notation "b"@en ;
+    skos:prefLabel "earth resources"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/satcat#c>
+    reg:identifier <http://metadataregistry.org/concepts/7644> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/satcat#> ;
+    skos:notation "c"@en ;
+    skos:prefLabel "space observing"@en .
+
+<http://metadataregistry.org/uri/RegStatus/1001>
+    a skos:Concept ;
+    skos:prefLabel "Published"@en .
+

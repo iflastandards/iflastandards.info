@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF
+    xml:base="http://iflastandards.info/ns/unimarc/unimarcb/elements/68X/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+<!-- Element Set: UNIMARC/B elements 68X -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/68X/">
+  <dc:title xml:lang="en">UNIMARC/B elements 68X</dc:title>
+</rdf:Description>
+
+<!-- Properties -->
+
+<!-- Property: has Book number in Library of Congress Classification -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/68X/U680__b">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/68X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasBookNumberInLibraryOfCongressClassification</reg:name>
+  <rdfs:label xml:lang="en">has Book number in Library of Congress Classification</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/68X/hasBookNumberInLibraryOfCongressClassification.en" />
+  <skos:definition xml:lang="en">The individual book number applied by the cataloguing agency.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Book number in Other class numbers -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/68X/U686__b">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/68X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasBookNumberInOtherClassNumbers</reg:name>
+  <rdfs:label xml:lang="en">has Book number in Other class numbers</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/68X/hasBookNumberInOtherClassNumbers.en" />
+  <skos:definition xml:lang="en">The book number applied by the assigning agency.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Classification record number in Library of Congress Classification -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/68X/U680__3">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/68X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasClassificationRecordNumberInLibraryOfCongressClassification</reg:name>
+  <rdfs:label xml:lang="en">has Classification record number in Library of Congress Classification</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/68X/hasClassificationRecordNumberInLibraryOfCongressClassification.en" />
+  <skos:definition xml:lang="en">The control number.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Classification record number in Other class numbers -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/68X/U686__3">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/68X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasClassificationRecordNumberInOtherClassNumbers</reg:name>
+  <rdfs:label xml:lang="en">has Classification record number in Other class numbers</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/68X/hasClassificationRecordNumberInOtherClassNumbers.en" />
+  <skos:definition xml:lang="en">The control number</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Classification subdivision in Other class numbers -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/68X/U686__c">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/68X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasClassificationSubdivisionInOtherClassNumbers</reg:name>
+  <rdfs:label xml:lang="en">has Classification subdivision in Other class numbers</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/68X/hasClassificationSubdivisionInOtherClassNumbers.en" />
+  <skos:definition xml:lang="en">A subdivision of the class number taken from the classification scheme.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Class number in Library of Congress Classification -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/68X/U680__a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/68X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasClassNumberInLibraryOfCongressClassification</reg:name>
+  <rdfs:label xml:lang="en">has Class number in Library of Congress Classification</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/68X/hasClassNumberInLibraryOfCongressClassification.en" />
+  <skos:definition xml:lang="en">The class number taken from the Library of Congress classification schedules.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Class number in Other class numbers -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/68X/U686__a">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/68X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasClassNumberInOtherClassNumbers</reg:name>
+  <rdfs:label xml:lang="en">has Class number in Other class numbers</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/68X/hasClassNumberInOtherClassNumbers.en" />
+  <skos:definition xml:lang="en">The class number taken from the classification scheme.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has Edition in Other class numbers -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/68X/U686__v">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/68X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasEditionInOtherClassNumbers</reg:name>
+  <rdfs:label xml:lang="en">has Edition in Other class numbers</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/68X/hasEditionInOtherClassNumbers.en" />
+  <skos:definition xml:lang="en">The number of the scheme edition used.</skos:definition>
+</rdf:Description>
+
+<!-- Property: has System code in Other class numbers -->
+<rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/unimarcb/elements/68X/U686__2">
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/68X/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <reg:name xml:lang="en">hasSystemCodeInOtherClassNumbers</reg:name>
+  <rdfs:label xml:lang="en">has System code in Other class numbers</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/68X/hasSystemCodeInOtherClassNumbers.en" />
+  <skos:definition xml:lang="en">A code for the classification scheme used in formulating the number.</skos:definition>
+</rdf:Description>
+
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+</rdf:RDF>

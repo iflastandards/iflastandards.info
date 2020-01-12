@@ -1,0 +1,99 @@
+<http://iflastandards.info/ns/unimarc/terms/soundfor#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#> <http://purl.org/dc/elements/1.1/title> "UNIMARC: Sound recordings: Form of release" .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/soundfor#f> .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/soundfor#a> .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/soundfor#h> .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/soundfor#z> .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/soundfor#g> .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/soundfor#d> .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/soundfor#c> .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/soundfor#b> .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/soundfor#e> .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#f> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/soundfor#> .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#f> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#f> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6434> .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#f> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/soundfor#> .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#f> <http://www.w3.org/2004/02/skos/core#prefLabel> "cylinder"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#f> <http://www.w3.org/2004/02/skos/core#notation> "f"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#f> <http://www.w3.org/2004/02/skos/core#prefLabel> "cilindro"@pt .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#f> <http://www.w3.org/2004/02/skos/core#prefLabel> "cilindro"@it .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#a> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/soundfor#> .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#a> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#a> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6429> .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#a> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/soundfor#> .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#a> <http://www.w3.org/2004/02/skos/core#prefLabel> "disc"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#a> <http://www.w3.org/2004/02/skos/core#notation> "a"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#a> <http://www.w3.org/2004/02/skos/core#prefLabel> "disco"@pt .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#a> <http://www.w3.org/2004/02/skos/core#prefLabel> "disco sonoro"@it .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#h> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#h> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/soundfor#> .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#h> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#h> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6436> .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#h> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/soundfor#> .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#h> <http://www.w3.org/2004/02/skos/core#prefLabel> "film (sound film)"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#h> <http://www.w3.org/2004/02/skos/core#notation> "h"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#h> <http://www.w3.org/2004/02/skos/core#prefLabel> "filme (som de filme)"@pt .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#h> <http://www.w3.org/2004/02/skos/core#prefLabel> "film (film sonoro)"@it .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#z> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#z> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/soundfor#> .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#z> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#z> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6437> .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#z> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/soundfor#> .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#z> <http://www.w3.org/2004/02/skos/core#prefLabel> "other"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#z> <http://www.w3.org/2004/02/skos/core#notation> "z"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#z> <http://www.w3.org/2004/02/skos/core#definition> "Form of release of sound recording other than disc, open reel tape, cassette tape, cartridge tape, wire recording, cylinder, player-piano or player organ roll, or film."@en .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#z> <http://www.w3.org/2004/02/skos/core#prefLabel> "outro"@pt .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#z> <http://www.w3.org/2004/02/skos/core#prefLabel> "altro"@it .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#g> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#g> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/soundfor#> .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#g> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#g> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6435> .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#g> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/soundfor#> .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#g> <http://www.w3.org/2004/02/skos/core#prefLabel> "roll (player piano or player organ)"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#g> <http://www.w3.org/2004/02/skos/core#notation> "g"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#g> <http://www.w3.org/2004/02/skos/core#prefLabel> "rolo (piano ou org\u00E3o)"@pt .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#g> <http://www.w3.org/2004/02/skos/core#prefLabel> "rullo"@it .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#g> <http://www.w3.org/2004/02/skos/core#altLabel> "player piano or player organ roll"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#d> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/soundfor#> .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#d> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#d> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6432> .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#d> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/soundfor#> .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#d> <http://www.w3.org/2004/02/skos/core#prefLabel> "tape (cartridge)"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#d> <http://www.w3.org/2004/02/skos/core#notation> "d"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#d> <http://www.w3.org/2004/02/skos/core#prefLabel> "fita (cartucho)"@pt .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#d> <http://www.w3.org/2004/02/skos/core#prefLabel> "audiocartuccia"@it .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#d> <http://www.w3.org/2004/02/skos/core#altLabel> "cartridge tape"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#c> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/soundfor#> .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#c> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#c> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6431> .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#c> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/soundfor#> .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#c> <http://www.w3.org/2004/02/skos/core#prefLabel> "tape (cassette)"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#c> <http://www.w3.org/2004/02/skos/core#notation> "c"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#c> <http://www.w3.org/2004/02/skos/core#prefLabel> "fita (cassete)"@pt .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#c> <http://www.w3.org/2004/02/skos/core#prefLabel> "audiocassetta"@it .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#c> <http://www.w3.org/2004/02/skos/core#altLabel> "cassette tape"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#b> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/soundfor#> .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#b> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#b> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6430> .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#b> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/soundfor#> .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#b> <http://www.w3.org/2004/02/skos/core#prefLabel> "tape (open reel)"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#b> <http://www.w3.org/2004/02/skos/core#notation> "b"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#b> <http://www.w3.org/2004/02/skos/core#prefLabel> "fita (bobine aberta)"@pt .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#b> <http://www.w3.org/2004/02/skos/core#prefLabel> "audiobobina"@it .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#b> <http://www.w3.org/2004/02/skos/core#altLabel> "open reel tape"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#e> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/soundfor#> .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#e> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#e> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6433> .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#e> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/soundfor#> .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#e> <http://www.w3.org/2004/02/skos/core#prefLabel> "wire recording"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#e> <http://www.w3.org/2004/02/skos/core#notation> "e"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#e> <http://www.w3.org/2004/02/skos/core#prefLabel> "grava\u00E7\u00E3o em fio de a\u00E7o"@pt .
+<http://iflastandards.info/ns/unimarc/terms/soundfor#e> <http://www.w3.org/2004/02/skos/core#prefLabel> "registrazione su filo"@it .
+<http://metadataregistry.org/uri/RegStatus/1001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://metadataregistry.org/uri/RegStatus/1001> <http://www.w3.org/2004/02/skos/core#prefLabel> "Published"@en .

@@ -1,0 +1,28 @@
+<http://iflastandards.info/ns/unimarc/terms/soundcut> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<http://iflastandards.info/ns/unimarc/terms/soundcut> <http://purl.org/dc/elements/1.1/title> "UNIMARC: Sound recordings: Kind of cutting" .
+<http://iflastandards.info/ns/unimarc/terms/soundcut#a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/soundcut#a> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/soundcut> .
+<http://iflastandards.info/ns/unimarc/terms/soundcut#a> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/soundcut#a> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7490> .
+<http://iflastandards.info/ns/unimarc/terms/soundcut#a> <http://www.w3.org/2004/02/skos/core#prefLabel> "lateral or combined cutting"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundcut#a> <http://www.w3.org/2004/02/skos/core#notation> "a\u00A0"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundcut#x> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/soundcut#x> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/soundcut> .
+<http://iflastandards.info/ns/unimarc/terms/soundcut#x> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/soundcut#x> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7493> .
+<http://iflastandards.info/ns/unimarc/terms/soundcut#x> <http://www.w3.org/2004/02/skos/core#prefLabel> "not applicable"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundcut#x> <http://www.w3.org/2004/02/skos/core#notation> "x\u00A0"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundcut#u> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/soundcut#u> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/soundcut> .
+<http://iflastandards.info/ns/unimarc/terms/soundcut#u> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/soundcut#u> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7492> .
+<http://iflastandards.info/ns/unimarc/terms/soundcut#u> <http://www.w3.org/2004/02/skos/core#prefLabel> "unknown"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundcut#u> <http://www.w3.org/2004/02/skos/core#notation> "u\u00A0"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundcut#b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/soundcut#b> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/soundcut> .
+<http://iflastandards.info/ns/unimarc/terms/soundcut#b> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/soundcut#b> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7491> .
+<http://iflastandards.info/ns/unimarc/terms/soundcut#b> <http://www.w3.org/2004/02/skos/core#prefLabel> "vertical (hill and dale) cutting"@en .
+<http://iflastandards.info/ns/unimarc/terms/soundcut#b> <http://www.w3.org/2004/02/skos/core#notation> "b\u00A0"@en .
+<http://metadataregistry.org/uri/RegStatus/1001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://metadataregistry.org/uri/RegStatus/1001> <http://www.w3.org/2004/02/skos/core#prefLabel> "Published"@en .

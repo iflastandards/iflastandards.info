@@ -1,0 +1,307 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix reg: <http://metadataregistry.org/uri/profile/regap/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/>
+    dc:title "UNIMARC/B elements 61X"@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U6100_a>
+    reg:lexicalAlias <u61x:hasSubjectTermInUncontrolledSubjectTermsNoLevelSpecified.en> ;
+    reg:name "hasSubjectTermInUncontrolledSubjectTermsNoLevelSpecified"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> ;
+    rdfs:label "has Subject term in Uncontrolled subject terms (No level specified)"@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U6101_a>
+    reg:lexicalAlias <u61x:hasSubjectTermInUncontrolledSubjectTermsPrimaryTerm.en> ;
+    reg:name "hasSubjectTermInUncontrolledSubjectTermsPrimaryTerm"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> ;
+    rdfs:label "has Subject term in Uncontrolled subject terms (Primary term)"@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U6102_a>
+    reg:lexicalAlias <u61x:hasSubjectTermInUncontrolledSubjectTermsSecondaryTerm.en> ;
+    reg:name "hasSubjectTermInUncontrolledSubjectTermsSecondaryTerm"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> ;
+    rdfs:label "has Subject term in Uncontrolled subject terms (Secondary term)"@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U615__2>
+    reg:lexicalAlias <u61x:hasSystemCodeInSubjectCategoryProvisional.en> ;
+    reg:name "hasSystemCodeInSubjectCategoryProvisional"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> ;
+    rdfs:label "has System code in Subject category (provisional)"@en ;
+    skos:definition "An identification in coded form of the system from which the subject category is derived."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U615__3>
+    reg:lexicalAlias <u61x:hasAuthorityRecordNumberInSubjectCategoryProvisional.en> ;
+    reg:name "hasAuthorityRecordNumberInSubjectCategoryProvisional"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> ;
+    rdfs:label "has Authority record number in Subject category (provisional)"@en ;
+    skos:definition "The control number."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U615__a>
+    reg:lexicalAlias <u61x:hasSubjectCategoryEntryElementTextInSubjectCategoryProvisional.en> ;
+    reg:name "hasSubjectCategoryEntryElementTextInSubjectCategoryProvisional"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> ;
+    rdfs:label "has Subject category entry element text in Subject category (provisional)"@en ;
+    skos:definition "The term in the form prescribed by the system of subject categories used."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U615__m>
+    reg:lexicalAlias <u61x:hasSubjectCategorySubdivisionCodeInSubjectCategoryProvisional.en> ;
+    reg:name "hasSubjectCategorySubdivisionCodeInSubjectCategoryProvisional"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> ;
+    rdfs:label "has Subject category subdivision code in Subject category (provisional)"@en ;
+    skos:definition "A coded representation of a subject category subdivision."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U615__n>
+    reg:lexicalAlias <u61x:hasSubjectCategoryCodeInSubjectCategoryProvisional.en> ;
+    reg:name "hasSubjectCategoryCodeInSubjectCategoryProvisional"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> ;
+    rdfs:label "has Subject category code in Subject category (provisional)"@en ;
+    skos:definition "A coded representation of a subject category."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U615__x>
+    reg:lexicalAlias <u61x:hasSubjectCategorySubdivisionTextInSubjectCategoryProvisional.en> ;
+    reg:name "hasSubjectCategorySubdivisionTextInSubjectCategoryProvisional"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> ;
+    rdfs:label "has Subject category subdivision text in Subject category (provisional)"@en ;
+    skos:definition "The term added to the subject category to specify a particular aspect of the subject category."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__2>
+    reg:lexicalAlias <u61x:hasSystemCodeInTrademarkUsedAsSubject.en> ;
+    reg:name "hasSystemCodeInTrademarkUsedAsSubject"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> ;
+    rdfs:label "has System code in Trademark used as subject"@en ;
+    skos:definition "An identification in coded form of the system from which the subject category is derived."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__3>
+    reg:lexicalAlias <u61x:hasAuthorityRecordNumberInTrademarkUsedAsSubject.en> ;
+    reg:name "hasAuthorityRecordNumberInTrademarkUsedAsSubject"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> ;
+    rdfs:label "has Authority record number in Trademark used as subject"@en ;
+    skos:definition "The control number."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__a>
+    reg:lexicalAlias <u61x:hasEntryElementInTrademarkUsedAsSubject.en> ;
+    reg:name "hasEntryElementInTrademarkUsedAsSubject"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> ;
+    rdfs:label "has Entry element in Trademark used as subject"@en ;
+    skos:definition "The trademark name in access point form."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__c>
+    reg:lexicalAlias <u61x:hasQualificationInTrademarkUsedAsSubject.en> ;
+    reg:name "hasQualificationInTrademarkUsedAsSubject"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> ;
+    rdfs:label "has Qualification in Trademark used as subject"@en ;
+    skos:definition "Any addition to the name of the trademark added by the cataloguer."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__f>
+    reg:lexicalAlias <u61x:hasDatesInTrademarkUsedAsSubject.en> ;
+    reg:name "hasDatesInTrademarkUsedAsSubject"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> ;
+    rdfs:label "has Dates in Trademark used as subject"@en ;
+    skos:definition "The dates between which a particular trademark was in use."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__j>
+    reg:lexicalAlias <u61x:hasFormSubdivisionInTrademarkUsedAsSubject.en> ;
+    reg:name "hasFormSubdivisionInTrademarkUsedAsSubject"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> ;
+    rdfs:label "has Form subdivision in Trademark used as subject"@en ;
+    skos:definition "A term added to a subject heading to further specify the kind(s) or genre(s) of material."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__x>
+    reg:lexicalAlias <u61x:hasTopicalSubdivisionInTrademarkUsedAsSubject.en> ;
+    reg:name "hasTopicalSubdivisionInTrademarkUsedAsSubject"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> ;
+    rdfs:label "has Topical subdivision in Trademark used as subject"@en ;
+    skos:definition "A term added to a subject heading to further specify the topic the heading represents."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__y>
+    reg:lexicalAlias <u61x:hasGeographicalSubdivisionInTrademarkUsedAsSubject.en> ;
+    reg:name "hasGeographicalSubdivisionInTrademarkUsedAsSubject"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> ;
+    rdfs:label "has Geographical subdivision in Trademark used as subject"@en ;
+    skos:definition "A term added to a subject heading to specify a place in relation to a trademark which the subject heading represents."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U616__z>
+    reg:lexicalAlias <u61x:hasChronologicalSubdivisionInTrademarkUsedAsSubject.en> ;
+    reg:name "hasChronologicalSubdivisionInTrademarkUsedAsSubject"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> ;
+    rdfs:label "has Chronological subdivision in Trademark used as subject"@en ;
+    skos:definition "A term added to a subject heading to specify the period in time in relation to a trademark which the subject heading represents."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__2>
+    reg:lexicalAlias <u61x:hasSystemCodeInHierarchicalGeographicalNameUsedAsSubject.en> ;
+    reg:name "hasSystemCodeInHierarchicalGeographicalNameUsedAsSubject"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> ;
+    rdfs:label "has System code in Hierarchical geographical name used as subject"@en ;
+    skos:definition "An identification in coded form of the system from which the subject category is derived."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__3>
+    reg:lexicalAlias <u61x:hasAuthorityRecordNumberInHierarchicalGeographicalNameUsedAsSubject.en> ;
+    reg:name "hasAuthorityRecordNumberInHierarchicalGeographicalNameUsedAsSubject"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> ;
+    rdfs:label "has Authority record number in Hierarchical geographical name used as subject"@en ;
+    skos:definition "The control number."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__a>
+    reg:lexicalAlias <u61x:hasCountryNationStateInHierarchicalGeographicalNameUsedAsSubject.en> ;
+    reg:name "hasCountryNationStateInHierarchicalGeographicalNameUsedAsSubject"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> ;
+    rdfs:label "has Country (nation state) in Hierarchical geographical name used as subject"@en ;
+    skos:definition "Country."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__b>
+    reg:lexicalAlias <u61x:hasStateOrProvinceEtcInHierarchicalGeographicalNameUsedAsSubject.en> ;
+    reg:name "hasStateOrProvinceEtcInHierarchicalGeographicalNameUsedAsSubject"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> ;
+    rdfs:label "has State or province, etc. in Hierarchical geographical name used as subject"@en ;
+    skos:definition "First-order political jurisdiction below a country."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__c>
+    reg:lexicalAlias <u61x:hasIntermediatePoliticalJurisdictionInHierarchicalGeographicalNameUsedAsSubject.en> ;
+    reg:name "hasIntermediatePoliticalJurisdictionInHierarchicalGeographicalNameUsedAsSubject"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> ;
+    rdfs:label "has Intermediate political jurisdiction. in Hierarchical geographical name used as subject"@en ;
+    skos:definition "Second-order or lower political jurisdiction, but not including cities, etc."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__d>
+    reg:lexicalAlias <u61x:hasCityEtcInHierarchicalGeographicalNameUsedAsSubject.en> ;
+    reg:name "hasCityEtcInHierarchicalGeographicalNameUsedAsSubject"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> ;
+    rdfs:label "has City, etc. in Hierarchical geographical name used as subject"@en ;
+    skos:definition "The name of a city, town, commune, village or other distinct populated area not defined as a subsection of a larger one."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__e>
+    reg:lexicalAlias <u61x:hasVenueInHierarchicalGeographicalNameUsedAsSubject.en> ;
+    reg:name "hasVenueInHierarchicalGeographicalNameUsedAsSubject"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> ;
+    rdfs:label "has Venue in Hierarchical geographical name used as subject"@en ;
+    skos:definition "Named buildings, urban spaces, vehicles, etc."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__f>
+    reg:lexicalAlias <u61x:hasDateInHierarchicalGeographicalNameUsedAsSubject.en> ;
+    reg:name "hasDateInHierarchicalGeographicalNameUsedAsSubject"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> ;
+    rdfs:label "has Date in Hierarchical geographical name used as subject"@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__g>
+    reg:lexicalAlias <u61x:hasSeasonInHierarchicalGeographicalNameUsedAsSubject.en> ;
+    reg:name "hasSeasonInHierarchicalGeographicalNameUsedAsSubject"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> ;
+    rdfs:label "has Season in Hierarchical geographical name used as subject"@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__h>
+    reg:lexicalAlias <u61x:hasOccasionInHierarchicalGeographicalNameUsedAsSubject.en> ;
+    reg:name "hasOccasionInHierarchicalGeographicalNameUsedAsSubject"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> ;
+    rdfs:label "has Occasion in Hierarchical geographical name used as subject"@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__i>
+    reg:lexicalAlias <u61x:hasFinalDateInHierarchicalGeographicalNameUsedAsSubject.en> ;
+    reg:name "hasFinalDateInHierarchicalGeographicalNameUsedAsSubject"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> ;
+    rdfs:label "has Final date in Hierarchical geographical name used as subject"@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__k>
+    reg:lexicalAlias <u61x:hasSubsectionOfCityEtcInHierarchicalGeographicalNameUsedAsSubject.en> ;
+    reg:name "hasSubsectionOfCityEtcInHierarchicalGeographicalNameUsedAsSubject"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> ;
+    rdfs:label "has Subsection of city, etc. in Hierarchical geographical name used as subject"@en ;
+    skos:definition "Smaller unit within a populated place."@en ;
+    skos:scopeNote "Includes, e.g. boroughs, neighbourhoods, streets."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__m>
+    reg:lexicalAlias <u61x:hasOtherGeographicalRegionsOrFeaturesInHierarchicalGeographicalNameUsedAsSubject.en> ;
+    reg:name "hasOtherGeographicalRegionsOrFeaturesInHierarchicalGeographicalNameUsedAsSubject"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> ;
+    rdfs:label "has Other geographical regions or features in Hierarchical geographical name used as subject"@en ;
+    skos:definition "Terrestrial non-jurisdictional geographic entities."@en ;
+    skos:scopeNote "Includes oceans, islands, mountains, etc."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__n>
+    reg:lexicalAlias <u61x:hasExtraterrestrialAreasInHierarchicalGeographicalNameUsedAsSubject.en> ;
+    reg:name "hasExtraterrestrialAreasInHierarchicalGeographicalNameUsedAsSubject"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> ;
+    rdfs:label "has Extraterrestrial areas in Hierarchical geographical name used as subject"@en ;
+    skos:definition "Any extraterrestrial entity or space, and the geographic features of such entities."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/U617__o>
+    reg:lexicalAlias <u61x:hasGeographicalAreasSuchAsWorldHemisphereContinentLargerAreaThanCountryInHierarchicalGeographicalNameUsedAsSubject.en> ;
+    reg:name "hasGeographicalAreasSuchAsWorldHemisphereContinentLargerAreaThanCountryInHierarchicalGeographicalNameUsedAsSubject"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a rdf:Property ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/61X/> ;
+    rdfs:label "has Geographical areas such as world, hemisphere, continent: larger area than country in Hierarchical geographical name used as subject"@en ;
+    skos:definition "Geographical areas."@en ;
+    skos:scopeNote "Includes world, hemisphere, continent: larger area than country."@en .
+
+<http://metadataregistry.org/uri/RegStatus/1001>
+    a skos:Concept ;
+    skos:prefLabel "Published"@en .
+

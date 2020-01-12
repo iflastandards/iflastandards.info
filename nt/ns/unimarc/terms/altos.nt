@@ -1,0 +1,31 @@
+<http://iflastandards.info/ns/unimarc/terms/altos#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<http://iflastandards.info/ns/unimarc/terms/altos#> <http://purl.org/dc/elements/1.1/title> "UNIMARC: Cartographic materials: Altitude of sensor" .
+<http://iflastandards.info/ns/unimarc/terms/altos#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/altos#b> .
+<http://iflastandards.info/ns/unimarc/terms/altos#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/altos#c> .
+<http://iflastandards.info/ns/unimarc/terms/altos#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/altos#a> .
+<http://iflastandards.info/ns/unimarc/terms/altos#b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/altos#b> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/altos#> .
+<http://iflastandards.info/ns/unimarc/terms/altos#b> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/altos#b> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6424> .
+<http://iflastandards.info/ns/unimarc/terms/altos#b> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/altos#> .
+<http://iflastandards.info/ns/unimarc/terms/altos#b> <http://www.w3.org/2004/02/skos/core#prefLabel> "aerial"@en .
+<http://iflastandards.info/ns/unimarc/terms/altos#b> <http://www.w3.org/2004/02/skos/core#notation> "b"@en .
+<http://iflastandards.info/ns/unimarc/terms/altos#b> <http://www.w3.org/2004/02/skos/core#definition> "Aerial altitude."@en .
+<http://iflastandards.info/ns/unimarc/terms/altos#c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/altos#c> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/altos#> .
+<http://iflastandards.info/ns/unimarc/terms/altos#c> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/altos#c> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6425> .
+<http://iflastandards.info/ns/unimarc/terms/altos#c> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/altos#> .
+<http://iflastandards.info/ns/unimarc/terms/altos#c> <http://www.w3.org/2004/02/skos/core#prefLabel> "space"@en .
+<http://iflastandards.info/ns/unimarc/terms/altos#c> <http://www.w3.org/2004/02/skos/core#notation> "c"@en .
+<http://iflastandards.info/ns/unimarc/terms/altos#c> <http://www.w3.org/2004/02/skos/core#definition> "Altitude of space."@en .
+<http://iflastandards.info/ns/unimarc/terms/altos#a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/altos#a> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/altos#> .
+<http://iflastandards.info/ns/unimarc/terms/altos#a> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/altos#a> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6423> .
+<http://iflastandards.info/ns/unimarc/terms/altos#a> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/altos#> .
+<http://iflastandards.info/ns/unimarc/terms/altos#a> <http://www.w3.org/2004/02/skos/core#prefLabel> "terrestrial"@en .
+<http://iflastandards.info/ns/unimarc/terms/altos#a> <http://www.w3.org/2004/02/skos/core#notation> "a"@en .
+<http://iflastandards.info/ns/unimarc/terms/altos#a> <http://www.w3.org/2004/02/skos/core#definition> "Terrestrial altitude."@en .
+<http://metadataregistry.org/uri/RegStatus/1001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://metadataregistry.org/uri/RegStatus/1001> <http://www.w3.org/2004/02/skos/core#prefLabel> "Published"@en .

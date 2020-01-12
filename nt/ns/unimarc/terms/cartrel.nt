@@ -1,0 +1,84 @@
+<http://iflastandards.info/ns/unimarc/terms/cartrel#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#> <http://purl.org/dc/elements/1.1/title> "UNIMARC: Cartographic materials: Relief" .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#k> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#k> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/cartrel#> .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#k> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#k> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7600> .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#k> <http://www.w3.org/2004/02/skos/core#prefLabel> "bathymetry - isolines"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#k> <http://www.w3.org/2004/02/skos/core#notation> "k"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#e> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/cartrel#> .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#e> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#e> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7594> .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#e> <http://www.w3.org/2004/02/skos/core#prefLabel> "bathymetry - soundings"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#e> <http://www.w3.org/2004/02/skos/core#notation> "e"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#b> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/cartrel#> .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#b> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#b> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7591> .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#b> <http://www.w3.org/2004/02/skos/core#prefLabel> "continuous tone shaded relief"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#b> <http://www.w3.org/2004/02/skos/core#notation> "b"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#a> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/cartrel#> .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#a> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#a> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7590> .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#a> <http://www.w3.org/2004/02/skos/core#prefLabel> "contours"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#a> <http://www.w3.org/2004/02/skos/core#notation> "a"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#f> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/cartrel#> .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#f> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#f> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7595> .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#f> <http://www.w3.org/2004/02/skos/core#prefLabel> "form lines"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#f> <http://www.w3.org/2004/02/skos/core#notation> "f"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#d> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/cartrel#> .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#d> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#d> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7593> .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#d> <http://www.w3.org/2004/02/skos/core#prefLabel> "hachures"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#d> <http://www.w3.org/2004/02/skos/core#notation> "d"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#c> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/cartrel#> .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#c> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#c> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7592> .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#c> <http://www.w3.org/2004/02/skos/core#prefLabel> "hypsometric tints - layer method"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#c> <http://www.w3.org/2004/02/skos/core#notation> "c"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#j> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#j> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/cartrel#> .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#j> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#j> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7599> .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#j> <http://www.w3.org/2004/02/skos/core#prefLabel> "landforms"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#j> <http://www.w3.org/2004/02/skos/core#notation> "j"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#j> <http://www.w3.org/2004/02/skos/core#scopeNote> "E.g. in the style of Lobeck, Raisz, Fenneman."@en .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#x> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#x> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/cartrel#> .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#x> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#x> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7601> .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#x> <http://www.w3.org/2004/02/skos/core#prefLabel> "not applicable"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#x> <http://www.w3.org/2004/02/skos/core#notation> "x"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#h> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#h> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/cartrel#> .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#h> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#h> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7597> .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#h> <http://www.w3.org/2004/02/skos/core#prefLabel> "other methods in colour"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#h> <http://www.w3.org/2004/02/skos/core#notation> "h"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#h> <http://www.w3.org/2004/02/skos/core#scopeNote> "E.g. in the style of Imhof."@en .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#z> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#z> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/cartrel#> .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#z> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#z> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7602> .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#z> <http://www.w3.org/2004/02/skos/core#prefLabel> "other methods of relief representation"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#z> <http://www.w3.org/2004/02/skos/core#notation> "z"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#i> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#i> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/cartrel#> .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#i> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#i> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7598> .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#i> <http://www.w3.org/2004/02/skos/core#prefLabel> "pictorially"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#i> <http://www.w3.org/2004/02/skos/core#notation> "i"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#g> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#g> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/cartrel#> .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#g> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#g> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7596> .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#g> <http://www.w3.org/2004/02/skos/core#prefLabel> "spot heights"@en .
+<http://iflastandards.info/ns/unimarc/terms/cartrel#g> <http://www.w3.org/2004/02/skos/core#notation> "g"@en .
+<http://metadataregistry.org/uri/RegStatus/1001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://metadataregistry.org/uri/RegStatus/1001> <http://www.w3.org/2004/02/skos/core#prefLabel> "Published"@en .

@@ -1,0 +1,74 @@
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#> <http://purl.org/dc/elements/1.1/title> "UNIMARC: Graphics: Primary support material" .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/graphicspsm#b> .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/graphicspsm#a> .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/graphicspsm#c> .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/graphicspsm#d> .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/graphicspsm#f> .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/graphicspsm#e> .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://iflastandards.info/ns/unimarc/terms/graphicspsm#g> .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#b> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/graphicspsm#> .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#b> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#b> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6233> .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#b> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/graphicspsm#> .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#b> <http://www.w3.org/2004/02/skos/core#prefLabel> "bristol board"@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#b> <http://www.w3.org/2004/02/skos/core#notation> "b"@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#b> <http://www.w3.org/2004/02/skos/core#prefLabel> "cartolina bristol"@pt .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#b> <http://www.w3.org/2004/02/skos/core#prefLabel> "cartone bristol"@it .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#a> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/graphicspsm#> .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#a> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#a> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6232> .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#a> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/graphicspsm#> .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#a> <http://www.w3.org/2004/02/skos/core#prefLabel> "canvas"@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#a> <http://www.w3.org/2004/02/skos/core#notation> "a"@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#a> <http://www.w3.org/2004/02/skos/core#prefLabel> "tela"@pt .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#a> <http://www.w3.org/2004/02/skos/core#prefLabel> "tela"@it .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#c> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/graphicspsm#> .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#c> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#c> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6234> .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#c> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/graphicspsm#> .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#c> <http://www.w3.org/2004/02/skos/core#prefLabel> "cardboard/illustration board"@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#c> <http://www.w3.org/2004/02/skos/core#notation> "c"@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#c> <http://www.w3.org/2004/02/skos/core#prefLabel> "cart\u00E3o/cartolina de desenho"@pt .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#c> <http://www.w3.org/2004/02/skos/core#prefLabel> "cartone/cartone illustrato"@it .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#d> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/graphicspsm#> .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#d> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#d> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6235> .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#d> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/graphicspsm#> .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#d> <http://www.w3.org/2004/02/skos/core#prefLabel> "glass"@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#d> <http://www.w3.org/2004/02/skos/core#notation> "d"@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#d> <http://www.w3.org/2004/02/skos/core#prefLabel> "vidro"@pt .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#d> <http://www.w3.org/2004/02/skos/core#prefLabel> "vetro"@it .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#f> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/graphicspsm#> .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#f> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#f> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6237> .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#f> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/graphicspsm#> .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#f> <http://www.w3.org/2004/02/skos/core#prefLabel> "skins"@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#f> <http://www.w3.org/2004/02/skos/core#notation> "f"@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#f> <http://www.w3.org/2004/02/skos/core#prefLabel> "peles"@pt .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#f> <http://www.w3.org/2004/02/skos/core#prefLabel> "pelle"@it .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#e> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/graphicspsm#> .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#e> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#e> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6236> .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#e> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/graphicspsm#> .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#e> <http://www.w3.org/2004/02/skos/core#prefLabel> "synthetics"@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#e> <http://www.w3.org/2004/02/skos/core#notation> "e"@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#e> <http://www.w3.org/2004/02/skos/core#prefLabel> "sint\u00E9ticos"@pt .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#e> <http://www.w3.org/2004/02/skos/core#prefLabel> "sintetico"@it .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#g> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#g> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/graphicspsm#> .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#g> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#g> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/6238> .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#g> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://iflastandards.info/ns/unimarc/terms/graphicspsm#> .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#g> <http://www.w3.org/2004/02/skos/core#prefLabel> "textiles"@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#g> <http://www.w3.org/2004/02/skos/core#notation> "g"@en .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#g> <http://www.w3.org/2004/02/skos/core#prefLabel> "t\u00EAxteis"@pt .
+<http://iflastandards.info/ns/unimarc/terms/graphicspsm#g> <http://www.w3.org/2004/02/skos/core#prefLabel> "tessuto"@it .
+<http://metadataregistry.org/uri/RegStatus/1001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://metadataregistry.org/uri/RegStatus/1001> <http://www.w3.org/2004/02/skos/core#prefLabel> "Published"@en .

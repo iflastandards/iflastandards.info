@@ -1,0 +1,71 @@
+{
+    "@context": "http://iflastandards.info/ns/unimarc/terms/Contexts/concepts_langmap.jsonld",
+    "@graph": [
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/satcat#",
+            "@type": "ConceptScheme",
+            "title": {
+                "en": "UNIMARC: Cartographic materials: Category of satellite"
+            },
+            "description": {
+                "en": "The category of satellite for a remote sensing image."
+            },
+            "prefix": "",
+            "token": "satcat",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "label": "Published"
+            },
+            "omr_api": "http://api.metadataregistry.org/vocabularies/399",
+            "omr_home": "http://metadataregistry.org/vocabularies/399",
+            "count": 3,
+            "languages": [
+                {
+                    "code": "en",
+                    "lang": "English",
+                    "version": "Release 1"
+                }
+            ],
+            "dateOfPublication": "January 11, 2020"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/satcat#a",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7642",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/satcat#",
+            "notation": {
+                "en": "a"
+            },
+            "prefLabel": {
+                "en": "meteorological"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/satcat#b",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7643",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/satcat#",
+            "notation": {
+                "en": "b"
+            },
+            "prefLabel": {
+                "en": "earth resources"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/satcat#c",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7644",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/satcat#",
+            "notation": {
+                "en": "c"
+            },
+            "prefLabel": {
+                "en": "space observing"
+            },
+            "status": "Published"
+        }
+    ]
+}

@@ -1,0 +1,149 @@
+{
+    "@context": "http://iflastandards.info/ns/unimarc/terms/Contexts/concepts_langmap.jsonld",
+    "@graph": [
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundtaw#",
+            "@type": "ConceptScheme",
+            "title": {
+                "en": "UNIMARC: Sound recordings: Tape width"
+            },
+            "description": {
+                "en": "The width of a tape of a sound recording."
+            },
+            "prefix": "",
+            "token": "soundtaw",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "label": "Published"
+            },
+            "omr_api": "http://api.metadataregistry.org/vocabularies/390",
+            "omr_home": "http://metadataregistry.org/vocabularies/390",
+            "count": 9,
+            "languages": [
+                {
+                    "code": "en",
+                    "lang": "English",
+                    "version": "Release 1"
+                }
+            ],
+            "dateOfPublication": "January 11, 2020"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundtaw#a ",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7549",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundtaw#",
+            "notation": {
+                "en": "a "
+            },
+            "prefLabel": {
+                "en": "¼  in."
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundtaw#b ",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7550",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundtaw#",
+            "notation": {
+                "en": "b "
+            },
+            "prefLabel": {
+                "en": "½  in."
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundtaw#c ",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7551",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundtaw#",
+            "notation": {
+                "en": "c "
+            },
+            "prefLabel": {
+                "en": "1  in."
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundtaw#d ",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7552",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundtaw#",
+            "notation": {
+                "en": "d "
+            },
+            "prefLabel": {
+                "en": "⅛  in."
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundtaw#e ",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7553",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundtaw#",
+            "notation": {
+                "en": "e "
+            },
+            "prefLabel": {
+                "en": "2  in."
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundtaw#f ",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7554",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundtaw#",
+            "notation": {
+                "en": "f "
+            },
+            "prefLabel": {
+                "en": "⅓  in. (8 mm.)"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundtaw#u ",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7555",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundtaw#",
+            "notation": {
+                "en": "u "
+            },
+            "prefLabel": {
+                "en": "unknown"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundtaw#x ",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7556",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundtaw#",
+            "notation": {
+                "en": "x "
+            },
+            "prefLabel": {
+                "en": "recording not a tape"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundtaw#z ",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7557",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundtaw#",
+            "notation": {
+                "en": "z "
+            },
+            "prefLabel": {
+                "en": "other"
+            },
+            "status": "Published"
+        }
+    ]
+}

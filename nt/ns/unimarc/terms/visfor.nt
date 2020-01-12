@@ -1,0 +1,90 @@
+<http://iflastandards.info/ns/unimarc/terms/visfor#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<http://iflastandards.info/ns/unimarc/terms/visfor#> <http://purl.org/dc/elements/1.1/title> "UNIMARC: Visual projections, etc.: Form of release - visual projection, motion picture" .
+<http://iflastandards.info/ns/unimarc/terms/visfor#b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/visfor#b> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/visfor#> .
+<http://iflastandards.info/ns/unimarc/terms/visfor#b> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/visfor#b> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7777> .
+<http://iflastandards.info/ns/unimarc/terms/visfor#b> <http://www.w3.org/2004/02/skos/core#prefLabel> "film cartridge"@en .
+<http://iflastandards.info/ns/unimarc/terms/visfor#b> <http://www.w3.org/2004/02/skos/core#notation> "b"@en .
+<http://iflastandards.info/ns/unimarc/terms/visfor#c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/visfor#c> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/visfor#> .
+<http://iflastandards.info/ns/unimarc/terms/visfor#c> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/visfor#c> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7778> .
+<http://iflastandards.info/ns/unimarc/terms/visfor#c> <http://www.w3.org/2004/02/skos/core#prefLabel> "film cassette"@en .
+<http://iflastandards.info/ns/unimarc/terms/visfor#c> <http://www.w3.org/2004/02/skos/core#notation> "c"@en .
+<http://iflastandards.info/ns/unimarc/terms/visfor#a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/visfor#a> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/visfor#> .
+<http://iflastandards.info/ns/unimarc/terms/visfor#a> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/visfor#a> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7776> .
+<http://iflastandards.info/ns/unimarc/terms/visfor#a> <http://www.w3.org/2004/02/skos/core#prefLabel> "film reel"@en .
+<http://iflastandards.info/ns/unimarc/terms/visfor#a> <http://www.w3.org/2004/02/skos/core#notation> "a"@en .
+<http://iflastandards.info/ns/unimarc/terms/visfor#j> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/visfor#j> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/visfor#> .
+<http://iflastandards.info/ns/unimarc/terms/visfor#j> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/visfor#j> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7783> .
+<http://iflastandards.info/ns/unimarc/terms/visfor#j> <http://www.w3.org/2004/02/skos/core#prefLabel> "film strip roll"@en .
+<http://iflastandards.info/ns/unimarc/terms/visfor#j> <http://www.w3.org/2004/02/skos/core#notation> "j"@en .
+<http://iflastandards.info/ns/unimarc/terms/visfor#h> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/visfor#h> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/visfor#> .
+<http://iflastandards.info/ns/unimarc/terms/visfor#h> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/visfor#h> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7781> .
+<http://iflastandards.info/ns/unimarc/terms/visfor#h> <http://www.w3.org/2004/02/skos/core#prefLabel> "filmslip"@en .
+<http://iflastandards.info/ns/unimarc/terms/visfor#h> <http://www.w3.org/2004/02/skos/core#notation> "h"@en .
+<http://iflastandards.info/ns/unimarc/terms/visfor#g> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/visfor#g> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/visfor#> .
+<http://iflastandards.info/ns/unimarc/terms/visfor#g> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/visfor#g> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7780> .
+<http://iflastandards.info/ns/unimarc/terms/visfor#g> <http://www.w3.org/2004/02/skos/core#prefLabel> "filmstrip cartridge"@en .
+<http://iflastandards.info/ns/unimarc/terms/visfor#g> <http://www.w3.org/2004/02/skos/core#notation> "g"@en .
+<http://iflastandards.info/ns/unimarc/terms/visfor#x> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/visfor#x> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/visfor#> .
+<http://iflastandards.info/ns/unimarc/terms/visfor#x> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/visfor#x> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7787> .
+<http://iflastandards.info/ns/unimarc/terms/visfor#x> <http://www.w3.org/2004/02/skos/core#prefLabel> "not a motion picture or visual projection"@en .
+<http://iflastandards.info/ns/unimarc/terms/visfor#x> <http://www.w3.org/2004/02/skos/core#notation> "x"@en .
+<http://iflastandards.info/ns/unimarc/terms/visfor#d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/visfor#d> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/visfor#> .
+<http://iflastandards.info/ns/unimarc/terms/visfor#d> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/visfor#d> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7779> .
+<http://iflastandards.info/ns/unimarc/terms/visfor#d> <http://www.w3.org/2004/02/skos/core#prefLabel> "other film type"@en .
+<http://iflastandards.info/ns/unimarc/terms/visfor#d> <http://www.w3.org/2004/02/skos/core#notation> "d"@en .
+<http://iflastandards.info/ns/unimarc/terms/visfor#i> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/visfor#i> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/visfor#> .
+<http://iflastandards.info/ns/unimarc/terms/visfor#i> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/visfor#i> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7782> .
+<http://iflastandards.info/ns/unimarc/terms/visfor#i> <http://www.w3.org/2004/02/skos/core#prefLabel> "other filmstrip type"@en .
+<http://iflastandards.info/ns/unimarc/terms/visfor#i> <http://www.w3.org/2004/02/skos/core#notation> "i"@en .
+<http://iflastandards.info/ns/unimarc/terms/visfor#z> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/visfor#z> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/visfor#> .
+<http://iflastandards.info/ns/unimarc/terms/visfor#z> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/visfor#z> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7788> .
+<http://iflastandards.info/ns/unimarc/terms/visfor#z> <http://www.w3.org/2004/02/skos/core#prefLabel> "other forms of release"@en .
+<http://iflastandards.info/ns/unimarc/terms/visfor#z> <http://www.w3.org/2004/02/skos/core#notation> "z"@en .
+<http://iflastandards.info/ns/unimarc/terms/visfor#k> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/visfor#k> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/visfor#> .
+<http://iflastandards.info/ns/unimarc/terms/visfor#k> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/visfor#k> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7784> .
+<http://iflastandards.info/ns/unimarc/terms/visfor#k> <http://www.w3.org/2004/02/skos/core#prefLabel> "slide, slide set, stereograph"@en .
+<http://iflastandards.info/ns/unimarc/terms/visfor#k> <http://www.w3.org/2004/02/skos/core#notation> "k"@en .
+<http://iflastandards.info/ns/unimarc/terms/visfor#l> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/visfor#l> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/visfor#> .
+<http://iflastandards.info/ns/unimarc/terms/visfor#l> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/visfor#l> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7891> .
+<http://iflastandards.info/ns/unimarc/terms/visfor#l> <http://www.w3.org/2004/02/skos/core#prefLabel> "transparency"@en .
+<http://iflastandards.info/ns/unimarc/terms/visfor#l> <http://www.w3.org/2004/02/skos/core#notation> "l"@en .
+<http://iflastandards.info/ns/unimarc/terms/visfor#1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/visfor#1> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/visfor#> .
+<http://iflastandards.info/ns/unimarc/terms/visfor#1> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1008> .
+<http://iflastandards.info/ns/unimarc/terms/visfor#1> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7785> .
+<http://iflastandards.info/ns/unimarc/terms/visfor#1> <http://www.w3.org/2004/02/skos/core#prefLabel> "transparency (deprecated)"@en .
+<http://iflastandards.info/ns/unimarc/terms/visfor#1> <http://www.w3.org/2004/02/skos/core#notation> "1"@en .
+<http://iflastandards.info/ns/unimarc/terms/visfor#u> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://iflastandards.info/ns/unimarc/terms/visfor#u> <http://www.w3.org/2004/02/skos/core#inScheme> <http://iflastandards.info/ns/unimarc/terms/visfor#> .
+<http://iflastandards.info/ns/unimarc/terms/visfor#u> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://iflastandards.info/ns/unimarc/terms/visfor#u> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/7786> .
+<http://iflastandards.info/ns/unimarc/terms/visfor#u> <http://www.w3.org/2004/02/skos/core#prefLabel> "unknown"@en .
+<http://iflastandards.info/ns/unimarc/terms/visfor#u> <http://www.w3.org/2004/02/skos/core#notation> "u"@en .
+<http://metadataregistry.org/uri/RegStatus/1001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://metadataregistry.org/uri/RegStatus/1001> <http://www.w3.org/2004/02/skos/core#prefLabel> "Published"@en .
+<http://metadataregistry.org/uri/RegStatus/1008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://metadataregistry.org/uri/RegStatus/1008> <http://www.w3.org/2004/02/skos/core#prefLabel> "Deprecated"@en .

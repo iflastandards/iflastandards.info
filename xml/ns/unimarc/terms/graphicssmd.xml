@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+<!-- Scheme: UNIMARC: Graphics: Specific material designation -->
+    <skos:ConceptScheme rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicssmd#">
+        <dc:title>UNIMARC: Graphics: Specific material designation</dc:title>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicssmd#a"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicssmd#b"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicssmd#m"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicssmd#z"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicssmd#c"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicssmd#d"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicssmd#e"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicssmd#f"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicssmd#h"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicssmd#i"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicssmd#k"/>
+    </skos:ConceptScheme>
+
+<!-- Concept: collage  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicssmd#a" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicssmd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6185"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicssmd#"/>
+      <skos:prefLabel xml:lang="en">collage</skos:prefLabel>
+      <skos:notation xml:lang="en">a</skos:notation>
+      <skos:definition xml:lang="en">An original work created by affixing various materials (paper, wood, newspaper, cloth, etc.) to a surface.</skos:definition>
+      <skos:prefLabel xml:lang="pt">colagem</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">collage</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: drawing  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicssmd#b" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicssmd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6191"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicssmd#"/>
+      <skos:prefLabel xml:lang="en">drawing</skos:prefLabel>
+      <skos:notation xml:lang="en">b</skos:notation>
+      <skos:definition xml:lang="en">An original visual representation (other than a print or painting) made with pencil, pen, chalk, or other writing instrument on paper or similar non-rigid support.</skos:definition>
+      <skos:prefLabel xml:lang="pt">desenho</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">disegno</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: master  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicssmd#m" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicssmd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6230"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicssmd#"/>
+      <skos:prefLabel xml:lang="en">master</skos:prefLabel>
+      <skos:notation xml:lang="en">m</skos:notation>
+      <skos:definition xml:lang="en">Any plate, mould, matrix, die etc. which allows the reproduction of the same impression.</skos:definition>
+      <skos:prefLabel xml:lang="pt">matriz</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">master</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: other non-projected graphic type  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicssmd#z" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicssmd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6231"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicssmd#"/>
+      <skos:prefLabel xml:lang="en">other non-projected graphic type</skos:prefLabel>
+      <skos:notation xml:lang="en">z</skos:notation>
+      <skos:definition xml:lang="en">Types other than collage, drawing, painting, photomechanical reproduction, photonegative, photoprint, picture, print, technical drawing, master.</skos:definition>
+      <skos:scopeNote xml:lang="en">Includes mixed media productions made by a combination of freehand and printing techniques when one or the other does not predominate. In some cases, where mixed media are applied, one must decide whether the creator intends the item to be a photoprint (even though it is painted over the photographic image). Hand colouring is considered a technique applied to a printing process; this aspect is not included here. Computer-produced graphics and the various duplication masters (including spirit masters and transparency masters) are included here.</skos:scopeNote>
+      <skos:prefLabel xml:lang="pt">outro material gráfico não-projectável</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">altro tipo di documento grafico non proiettabile</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: painting  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicssmd#c" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicssmd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6223"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicssmd#"/>
+      <skos:prefLabel xml:lang="en">painting</skos:prefLabel>
+      <skos:notation xml:lang="en">c</skos:notation>
+      <skos:definition xml:lang="en">An original visual representation produced by applying paint to a surface.</skos:definition>
+      <skos:prefLabel xml:lang="pt">pintura</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">pittura</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: photomechanical reproduction  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicssmd#d" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicssmd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6224"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicssmd#"/>
+      <skos:prefLabel xml:lang="en">photomechanical reproduction</skos:prefLabel>
+      <skos:notation xml:lang="en">d</skos:notation>
+      <skos:definition xml:lang="en">Any picture produced in imitation of another picture through the use of a photographic process to transfer the image to a printing surface.</skos:definition>
+      <skos:prefLabel xml:lang="pt">reprodução fotomecânica</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">riproduzione fotomeccanica</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: photonegative  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicssmd#e" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicssmd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6225"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicssmd#"/>
+      <skos:prefLabel xml:lang="en">photonegative</skos:prefLabel>
+      <skos:notation xml:lang="en">e</skos:notation>
+      <skos:definition xml:lang="en">A piece of film, a glass plate, or paper on which appears a &quot;negative&quot; image, i.e. directly opposite to a &quot;positive&quot; image (photoprint), slide, or transparency. Used to produce a positive print.</skos:definition>
+      <skos:prefLabel xml:lang="pt">negativo fotográfico</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">fotonegativo</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: photoprint  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicssmd#f" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicssmd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6226"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicssmd#"/>
+      <skos:prefLabel xml:lang="en">photoprint</skos:prefLabel>
+      <skos:notation xml:lang="en">f</skos:notation>
+      <skos:definition xml:lang="en">A positive image made either directly or indirectly on a sensitised surface by the action of light or other radiant energy.</skos:definition>
+      <skos:prefLabel xml:lang="pt">positivo fotográfico</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">riproduzione fotografica</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: picture  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicssmd#h" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicssmd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6227"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicssmd#"/>
+      <skos:prefLabel xml:lang="en">picture</skos:prefLabel>
+      <skos:notation xml:lang="en">h</skos:notation>
+      <skos:definition xml:lang="en">A two-dimensional visual representation accessible to the naked eye and generally on an opaque backing.</skos:definition>
+      <skos:prefLabel xml:lang="pt">imagem</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">immagine</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: print  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicssmd#i" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicssmd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6228"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicssmd#"/>
+      <skos:prefLabel xml:lang="en">print</skos:prefLabel>
+      <skos:notation xml:lang="en">i</skos:notation>
+      <skos:definition xml:lang="en">A design or picture transferred from an engraved plate, wood block, lithographic stone, or other medium.</skos:definition>
+      <skos:prefLabel xml:lang="pt">gravura</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">stampa</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: technical drawing  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicssmd#k" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicssmd#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6229"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicssmd#"/>
+      <skos:prefLabel xml:lang="en">technical drawing</skos:prefLabel>
+      <skos:notation xml:lang="en">k</skos:notation>
+      <skos:definition xml:lang="en">A cross section, detail, diagram, elevation, perspective, plan, working plan, etc., made for use in an engineering or other technical context.</skos:definition>
+      <skos:prefLabel xml:lang="pt">desenho técnico</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">disegno tecnico</skos:prefLabel>
+    </skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

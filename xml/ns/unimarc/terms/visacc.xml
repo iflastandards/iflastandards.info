@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+<!-- Scheme: UNIMARC: Visual projections, etc.: Accompanying material -->
+    <skos:ConceptScheme rdf:about="http://iflastandards.info/ns/unimarc/terms/visacc#">
+        <dc:title>UNIMARC: Visual projections, etc.: Accompanying material</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: instructional materials  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/visacc#f" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/visacc#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7834"/>
+      <skos:prefLabel xml:lang="en">instructional materials</skos:prefLabel>
+      <skos:notation xml:lang="en">f</skos:notation>
+    </skos:Concept>
+<!-- Concept: lobby cards  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/visacc#e" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/visacc#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7833"/>
+      <skos:prefLabel xml:lang="en">lobby cards</skos:prefLabel>
+      <skos:notation xml:lang="en">e</skos:notation>
+    </skos:Concept>
+<!-- Concept: other accompanying material  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/visacc#z" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/visacc#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7837"/>
+      <skos:prefLabel xml:lang="en">other accompanying material</skos:prefLabel>
+      <skos:notation xml:lang="en">z</skos:notation>
+    </skos:Concept>
+<!-- Concept: posters  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/visacc#c" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/visacc#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7831"/>
+      <skos:prefLabel xml:lang="en">posters</skos:prefLabel>
+      <skos:notation xml:lang="en">c</skos:notation>
+    </skos:Concept>
+<!-- Concept: programmes and pressbooks  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/visacc#d" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/visacc#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7832"/>
+      <skos:prefLabel xml:lang="en">programmes and pressbooks</skos:prefLabel>
+      <skos:notation xml:lang="en">d</skos:notation>
+    </skos:Concept>
+<!-- Concept: score or other music format  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/visacc#g" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/visacc#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7835"/>
+      <skos:prefLabel xml:lang="en">score or other music format</skos:prefLabel>
+      <skos:notation xml:lang="en">g</skos:notation>
+    </skos:Concept>
+<!-- Concept: script material  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/visacc#b" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/visacc#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7830"/>
+      <skos:prefLabel xml:lang="en">script material</skos:prefLabel>
+      <skos:notation xml:lang="en">b</skos:notation>
+    </skos:Concept>
+<!-- Concept: set or costume designs  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/visacc#h" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/visacc#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7836"/>
+      <skos:prefLabel xml:lang="en">set or costume designs</skos:prefLabel>
+      <skos:notation xml:lang="en">h</skos:notation>
+    </skos:Concept>
+<!-- Concept: stills  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/visacc#a" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/visacc#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7829"/>
+      <skos:prefLabel xml:lang="en">stills</skos:prefLabel>
+      <skos:notation xml:lang="en">a</skos:notation>
+    </skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

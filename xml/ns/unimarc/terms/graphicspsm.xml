@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+<!-- Scheme: UNIMARC: Graphics: Primary support material -->
+    <skos:ConceptScheme rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicspsm#">
+        <dc:title>UNIMARC: Graphics: Primary support material</dc:title>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicspsm#b"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicspsm#a"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicspsm#c"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicspsm#d"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicspsm#f"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicspsm#e"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicspsm#g"/>
+    </skos:ConceptScheme>
+
+<!-- Concept: bristol board  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicspsm#b" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicspsm#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6233"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicspsm#"/>
+      <skos:prefLabel xml:lang="en">bristol board</skos:prefLabel>
+      <skos:notation xml:lang="en">b</skos:notation>
+      <skos:prefLabel xml:lang="pt">cartolina bristol</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">cartone bristol</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: canvas  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicspsm#a" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicspsm#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6232"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicspsm#"/>
+      <skos:prefLabel xml:lang="en">canvas</skos:prefLabel>
+      <skos:notation xml:lang="en">a</skos:notation>
+      <skos:prefLabel xml:lang="pt">tela</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">tela</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: cardboard/illustration board  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicspsm#c" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicspsm#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6234"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicspsm#"/>
+      <skos:prefLabel xml:lang="en">cardboard/illustration board</skos:prefLabel>
+      <skos:notation xml:lang="en">c</skos:notation>
+      <skos:prefLabel xml:lang="pt">cartão/cartolina de desenho</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">cartone/cartone illustrato</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: glass  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicspsm#d" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicspsm#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6235"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicspsm#"/>
+      <skos:prefLabel xml:lang="en">glass</skos:prefLabel>
+      <skos:notation xml:lang="en">d</skos:notation>
+      <skos:prefLabel xml:lang="pt">vidro</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">vetro</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: skins  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicspsm#f" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicspsm#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6237"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicspsm#"/>
+      <skos:prefLabel xml:lang="en">skins</skos:prefLabel>
+      <skos:notation xml:lang="en">f</skos:notation>
+      <skos:prefLabel xml:lang="pt">peles</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">pelle</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: synthetics  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicspsm#e" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicspsm#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6236"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicspsm#"/>
+      <skos:prefLabel xml:lang="en">synthetics</skos:prefLabel>
+      <skos:notation xml:lang="en">e</skos:notation>
+      <skos:prefLabel xml:lang="pt">sintéticos</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">sintetico</skos:prefLabel>
+    </skos:Concept>
+<!-- Concept: textiles  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/graphicspsm#g" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicspsm#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6238"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/graphicspsm#"/>
+      <skos:prefLabel xml:lang="en">textiles</skos:prefLabel>
+      <skos:notation xml:lang="en">g</skos:notation>
+      <skos:prefLabel xml:lang="pt">têxteis</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">tessuto</skos:prefLabel>
+    </skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

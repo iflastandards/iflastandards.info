@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+<!-- Scheme: UNIMARC: Cartographic materials: Attitude of sensor -->
+    <skos:ConceptScheme rdf:about="http://iflastandards.info/ns/unimarc/terms/attos#">
+        <dc:title>UNIMARC: Cartographic materials: Attitude of sensor</dc:title>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/attos#b"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/attos#a"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/attos#c"/>
+    </skos:ConceptScheme>
+
+<!-- Concept: high oblique  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/attos#b" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/attos#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6427"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/attos#"/>
+      <skos:prefLabel xml:lang="en">high oblique</skos:prefLabel>
+      <skos:notation xml:lang="en">b</skos:notation>
+      <skos:definition xml:lang="en">High oblique attitude.</skos:definition>
+    </skos:Concept>
+<!-- Concept: low oblique  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/attos#a" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/attos#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6426"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/attos#"/>
+      <skos:prefLabel xml:lang="en">low oblique</skos:prefLabel>
+      <skos:notation xml:lang="en">a</skos:notation>
+      <skos:definition xml:lang="en">Low oblique attitude.</skos:definition>
+    </skos:Concept>
+<!-- Concept: vertical  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/attos#c" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/attos#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6428"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/attos#"/>
+      <skos:prefLabel xml:lang="en">vertical</skos:prefLabel>
+      <skos:notation xml:lang="en">c</skos:notation>
+      <skos:definition xml:lang="en">Vertical attitude.</skos:definition>
+    </skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

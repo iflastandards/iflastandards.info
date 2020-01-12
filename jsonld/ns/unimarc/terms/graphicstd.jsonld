@@ -1,0 +1,422 @@
+{
+    "@context": "http://iflastandards.info/ns/unimarc/terms/Contexts/concepts_langmap.jsonld",
+    "@graph": [
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicstd#",
+            "@type": "ConceptScheme",
+            "title": {
+                "en": "UNIMARC: Graphics: Techniques (drawings, paintings) "
+            },
+            "description": {
+                "en": "The technique in which drawing and paintings are executed."
+            },
+            "prefix": "",
+            "token": "graphicstd",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "label": "Published"
+            },
+            "omr_api": "http://api.metadataregistry.org/vocabularies/403",
+            "omr_home": "http://metadataregistry.org/vocabularies/403",
+            "count": 30,
+            "languages": [
+                {
+                    "code": "en",
+                    "lang": "English",
+                    "version": "Release 1"
+                }
+            ],
+            "dateOfPublication": "January 11, 2020"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicstd#aa",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7697",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicstd#",
+            "notation": {
+                "en": "aa"
+            },
+            "prefLabel": {
+                "en": "pencil"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicstd#ab",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7698",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicstd#",
+            "notation": {
+                "en": "ab"
+            },
+            "prefLabel": {
+                "en": "graphite"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicstd#ac",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7699",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicstd#",
+            "notation": {
+                "en": "ac"
+            },
+            "prefLabel": {
+                "en": "colour pencil"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicstd#ad",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7700",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicstd#",
+            "notation": {
+                "en": "ad"
+            },
+            "prefLabel": {
+                "en": "India ink"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicstd#ae",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7701",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicstd#",
+            "notation": {
+                "en": "ae"
+            },
+            "prefLabel": {
+                "en": "lavierung India ink"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicstd#af",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7702",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicstd#",
+            "notation": {
+                "en": "af"
+            },
+            "prefLabel": {
+                "en": "coal"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicstd#ag",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7703",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicstd#",
+            "notation": {
+                "en": "ag"
+            },
+            "prefLabel": {
+                "en": "chalk"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicstd#ah",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7704",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicstd#",
+            "notation": {
+                "en": "ah"
+            },
+            "prefLabel": {
+                "en": "black chalk"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicstd#ai",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7705",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicstd#",
+            "notation": {
+                "en": "ai"
+            },
+            "prefLabel": {
+                "en": "sanguine"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicstd#aj",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7706",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicstd#",
+            "notation": {
+                "en": "aj"
+            },
+            "prefLabel": {
+                "en": "water colour"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicstd#ak",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7707",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicstd#",
+            "notation": {
+                "en": "ak"
+            },
+            "prefLabel": {
+                "en": "tempera"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicstd#al",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7708",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicstd#",
+            "notation": {
+                "en": "al"
+            },
+            "prefLabel": {
+                "en": "gouache"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicstd#am",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7709",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicstd#",
+            "notation": {
+                "en": "am"
+            },
+            "prefLabel": {
+                "en": "pastel"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicstd#an",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7710",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicstd#",
+            "notation": {
+                "en": "an"
+            },
+            "prefLabel": {
+                "en": "oil"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicstd#ba",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7711",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicstd#",
+            "notation": {
+                "en": "ba"
+            },
+            "prefLabel": {
+                "en": "felt-tip pen"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicstd#bb",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7712",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicstd#",
+            "notation": {
+                "en": "bb"
+            },
+            "prefLabel": {
+                "en": "stain"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicstd#bc",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7713",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicstd#",
+            "notation": {
+                "en": "bc"
+            },
+            "prefLabel": {
+                "en": "crayon"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicstd#bd",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7714",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicstd#",
+            "notation": {
+                "en": "bd"
+            },
+            "prefLabel": {
+                "en": "sepia"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicstd#be",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7715",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicstd#",
+            "notation": {
+                "en": "be"
+            },
+            "prefLabel": {
+                "en": "writing ink"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicstd#bf",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7716",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicstd#",
+            "notation": {
+                "en": "bf"
+            },
+            "prefLabel": {
+                "en": "casein"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicstd#bg",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7717",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicstd#",
+            "notation": {
+                "en": "bg"
+            },
+            "prefLabel": {
+                "en": "golding"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicstd#bh",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7718",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicstd#",
+            "notation": {
+                "en": "bh"
+            },
+            "prefLabel": {
+                "en": "encaustic"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicstd#bi",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7719",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicstd#",
+            "notation": {
+                "en": "bi"
+            },
+            "prefLabel": {
+                "en": "acrylics"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicstd#bj",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7720",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicstd#",
+            "notation": {
+                "en": "bj"
+            },
+            "prefLabel": {
+                "en": "collage"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicstd#bk",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7721",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicstd#",
+            "notation": {
+                "en": "bk"
+            },
+            "prefLabel": {
+                "en": "silver point"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicstd#bl",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7722",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicstd#",
+            "notation": {
+                "en": "bl"
+            },
+            "prefLabel": {
+                "en": "air brush"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicstd#uu",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7723",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicstd#",
+            "notation": {
+                "en": "uu"
+            },
+            "prefLabel": {
+                "en": "unknown"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicstd#vv",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7724",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicstd#",
+            "notation": {
+                "en": "vv"
+            },
+            "prefLabel": {
+                "en": "mixed"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicstd#xx",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7725",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicstd#",
+            "notation": {
+                "en": "xx"
+            },
+            "prefLabel": {
+                "en": "not applicable"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicstd#zz",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7726",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicstd#",
+            "notation": {
+                "en": "zz"
+            },
+            "prefLabel": {
+                "en": "other"
+            },
+            "status": "Published"
+        }
+    ]
+}

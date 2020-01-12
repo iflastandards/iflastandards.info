@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+<!-- Scheme: UNIMARC: Sound recordings: Type of recording -->
+    <skos:ConceptScheme rdf:about="http://iflastandards.info/ns/unimarc/terms/soundtyp#">
+        <dc:title>UNIMARC: Sound recordings: Type of recording</dc:title>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundtyp#e "/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundtyp#a "/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundtyp#b "/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundtyp#c "/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundtyp#f "/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundtyp#x"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundtyp#z"/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundtyp#g "/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundtyp#d "/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundtyp#h "/>
+        <skos:hasTopConcept rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundtyp#u "/>
+    </skos:ConceptScheme>
+
+<!-- Concept: disc master  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/soundtyp#e " xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundtyp#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7499"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundtyp#"/>
+      <skos:prefLabel xml:lang="en">disc master</skos:prefLabel>
+      <skos:notation xml:lang="en">e </skos:notation>
+      <skos:definition xml:lang="en">Negative.</skos:definition>
+    </skos:Concept>
+<!-- Concept: instantaneous  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/soundtyp#a " xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundtyp#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7495"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundtyp#"/>
+      <skos:prefLabel xml:lang="en">instantaneous</skos:prefLabel>
+      <skos:notation xml:lang="en">a </skos:notation>
+      <skos:definition xml:lang="en">Unique, cut on the spot.</skos:definition>
+    </skos:Concept>
+<!-- Concept: mass produced  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/soundtyp#b " xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundtyp#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7496"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundtyp#"/>
+      <skos:prefLabel xml:lang="en">mass produced</skos:prefLabel>
+      <skos:notation xml:lang="en">b </skos:notation>
+      <skos:scopeNote xml:lang="en">Includes most commercial discs or tapes.</skos:scopeNote>
+    </skos:Concept>
+<!-- Concept: master tape  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/soundtyp#c " xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundtyp#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7497"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundtyp#"/>
+      <skos:prefLabel xml:lang="en">master tape</skos:prefLabel>
+      <skos:notation xml:lang="en">c </skos:notation>
+    </skos:Concept>
+<!-- Concept: mother  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/soundtyp#f " xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundtyp#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7500"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundtyp#"/>
+      <skos:prefLabel xml:lang="en">mother</skos:prefLabel>
+      <skos:notation xml:lang="en">f </skos:notation>
+      <skos:definition xml:lang="en">Positive.</skos:definition>
+    </skos:Concept>
+<!-- Concept: not applicable  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/soundtyp#x" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundtyp#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7504"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundtyp#"/>
+      <skos:prefLabel xml:lang="en">not applicable</skos:prefLabel>
+      <skos:notation xml:lang="en">x</skos:notation>
+    </skos:Concept>
+<!-- Concept: other  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/soundtyp#z" xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundtyp#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7505"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundtyp#"/>
+      <skos:prefLabel xml:lang="en">other</skos:prefLabel>
+      <skos:notation xml:lang="en">z</skos:notation>
+    </skos:Concept>
+<!-- Concept: stamper  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/soundtyp#g " xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundtyp#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7501"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundtyp#"/>
+      <skos:prefLabel xml:lang="en">stamper</skos:prefLabel>
+      <skos:notation xml:lang="en">g </skos:notation>
+      <skos:definition xml:lang="en">Negative.</skos:definition>
+    </skos:Concept>
+<!-- Concept: tape duplication master  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/soundtyp#d " xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundtyp#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7498"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundtyp#"/>
+      <skos:prefLabel xml:lang="en">tape duplication master</skos:prefLabel>
+      <skos:notation xml:lang="en">d </skos:notation>
+    </skos:Concept>
+<!-- Concept: test pressing  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/soundtyp#h " xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundtyp#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7502"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundtyp#"/>
+      <skos:prefLabel xml:lang="en">test pressing</skos:prefLabel>
+      <skos:notation xml:lang="en">h </skos:notation>
+    </skos:Concept>
+<!-- Concept: unknown  -->
+    <skos:Concept rdf:about="http://iflastandards.info/ns/unimarc/terms/soundtyp#u " xml:lang="en">
+      <skos:inScheme rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundtyp#"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/7503"/>
+      <skos:topConceptOf rdf:resource="http://iflastandards.info/ns/unimarc/terms/soundtyp#"/>
+      <skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+      <skos:notation xml:lang="en">u </skos:notation>
+    </skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

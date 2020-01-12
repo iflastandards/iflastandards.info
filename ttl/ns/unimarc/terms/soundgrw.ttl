@@ -1,0 +1,60 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix reg: <http://metadataregistry.org/uri/profile/regap/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://iflastandards.info/ns/unimarc/terms/soundgrw#>
+    dc:title "UNIMARC: Sound recordings: Groove width" ;
+    a skos:ConceptScheme ;
+    skos:hasTopConcept <http://iflastandards.info/ns/unimarc/terms/soundgrw#a\u00A0>, <http://iflastandards.info/ns/unimarc/terms/soundgrw#b\u00A0>, <http://iflastandards.info/ns/unimarc/terms/soundgrw#u\u00A0>, <http://iflastandards.info/ns/unimarc/terms/soundgrw#x\u00A0>, <http://iflastandards.info/ns/unimarc/terms/soundgrw#z\u00A0> .
+
+<http://iflastandards.info/ns/unimarc/terms/soundgrw#a\u00A0>
+    reg:identifier <http://metadataregistry.org/concepts/7539> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:definition "Discs issued at 78 rpm are usually coarse.  Cylinders issued at 120 rpm (which have 100 grooves per inch) are usually standard."@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/soundgrw#> ;
+    skos:notation "a "@en ;
+    skos:prefLabel "coarse/standard"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/soundgrw#> .
+
+<http://iflastandards.info/ns/unimarc/terms/soundgrw#b\u00A0>
+    reg:identifier <http://metadataregistry.org/concepts/7540> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/soundgrw#> ;
+    skos:notation "b "@en ;
+    skos:prefLabel "microgroove/fine"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/soundgrw#> .
+
+<http://iflastandards.info/ns/unimarc/terms/soundgrw#u\u00A0>
+    reg:identifier <http://metadataregistry.org/concepts/7541> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/soundgrw#> ;
+    skos:notation "u "@en ;
+    skos:prefLabel "unknown"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/soundgrw#> .
+
+<http://iflastandards.info/ns/unimarc/terms/soundgrw#x\u00A0>
+    reg:identifier <http://metadataregistry.org/concepts/7542> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/soundgrw#> ;
+    skos:notation "x "@en ;
+    skos:prefLabel "not applicable"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/soundgrw#> .
+
+<http://iflastandards.info/ns/unimarc/terms/soundgrw#z\u00A0>
+    reg:identifier <http://metadataregistry.org/concepts/7543> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/soundgrw#> ;
+    skos:notation "z "@en ;
+    skos:prefLabel "other"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/soundgrw#> .
+
+<http://metadataregistry.org/uri/RegStatus/1001>
+    a skos:Concept ;
+    skos:prefLabel "Published"@en .
+

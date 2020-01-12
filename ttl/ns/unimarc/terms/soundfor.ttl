@@ -1,0 +1,100 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix reg: <http://metadataregistry.org/uri/profile/regap/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://iflastandards.info/ns/unimarc/terms/soundfor#>
+    dc:title "UNIMARC: Sound recordings: Form of release" ;
+    a skos:ConceptScheme ;
+    skos:hasTopConcept <http://iflastandards.info/ns/unimarc/terms/soundfor#a>, <http://iflastandards.info/ns/unimarc/terms/soundfor#b>, <http://iflastandards.info/ns/unimarc/terms/soundfor#c>, <http://iflastandards.info/ns/unimarc/terms/soundfor#d>, <http://iflastandards.info/ns/unimarc/terms/soundfor#e>, <http://iflastandards.info/ns/unimarc/terms/soundfor#f>, <http://iflastandards.info/ns/unimarc/terms/soundfor#g>, <http://iflastandards.info/ns/unimarc/terms/soundfor#h>, <http://iflastandards.info/ns/unimarc/terms/soundfor#z> .
+
+<http://iflastandards.info/ns/unimarc/terms/soundfor#a>
+    reg:identifier <http://metadataregistry.org/concepts/6429> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/soundfor#> ;
+    skos:notation "a"@en ;
+    skos:prefLabel "disc"@en, "disco"@pt, "disco sonoro"@it ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/soundfor#> .
+
+<http://iflastandards.info/ns/unimarc/terms/soundfor#b>
+    reg:identifier <http://metadataregistry.org/concepts/6430> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:altLabel "open reel tape"@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/soundfor#> ;
+    skos:notation "b"@en ;
+    skos:prefLabel "audiobobina"@it, "fita (bobine aberta)"@pt, "tape (open reel)"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/soundfor#> .
+
+<http://iflastandards.info/ns/unimarc/terms/soundfor#c>
+    reg:identifier <http://metadataregistry.org/concepts/6431> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:altLabel "cassette tape"@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/soundfor#> ;
+    skos:notation "c"@en ;
+    skos:prefLabel "audiocassetta"@it, "fita (cassete)"@pt, "tape (cassette)"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/soundfor#> .
+
+<http://iflastandards.info/ns/unimarc/terms/soundfor#d>
+    reg:identifier <http://metadataregistry.org/concepts/6432> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:altLabel "cartridge tape"@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/soundfor#> ;
+    skos:notation "d"@en ;
+    skos:prefLabel "audiocartuccia"@it, "fita (cartucho)"@pt, "tape (cartridge)"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/soundfor#> .
+
+<http://iflastandards.info/ns/unimarc/terms/soundfor#e>
+    reg:identifier <http://metadataregistry.org/concepts/6433> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/soundfor#> ;
+    skos:notation "e"@en ;
+    skos:prefLabel "gravação em fio de aço"@pt, "registrazione su filo"@it, "wire recording"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/soundfor#> .
+
+<http://iflastandards.info/ns/unimarc/terms/soundfor#f>
+    reg:identifier <http://metadataregistry.org/concepts/6434> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/soundfor#> ;
+    skos:notation "f"@en ;
+    skos:prefLabel "cilindro"@it, "cilindro"@pt, "cylinder"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/soundfor#> .
+
+<http://iflastandards.info/ns/unimarc/terms/soundfor#g>
+    reg:identifier <http://metadataregistry.org/concepts/6435> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:altLabel "player piano or player organ roll"@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/soundfor#> ;
+    skos:notation "g"@en ;
+    skos:prefLabel "roll (player piano or player organ)"@en, "rolo (piano ou orgão)"@pt, "rullo"@it ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/soundfor#> .
+
+<http://iflastandards.info/ns/unimarc/terms/soundfor#h>
+    reg:identifier <http://metadataregistry.org/concepts/6436> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/soundfor#> ;
+    skos:notation "h"@en ;
+    skos:prefLabel "film (film sonoro)"@it, "film (sound film)"@en, "filme (som de filme)"@pt ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/soundfor#> .
+
+<http://iflastandards.info/ns/unimarc/terms/soundfor#z>
+    reg:identifier <http://metadataregistry.org/concepts/6437> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:definition "Form of release of sound recording other than disc, open reel tape, cassette tape, cartridge tape, wire recording, cylinder, player-piano or player organ roll, or film."@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/soundfor#> ;
+    skos:notation "z"@en ;
+    skos:prefLabel "altro"@it, "other"@en, "outro"@pt ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/soundfor#> .
+
+<http://metadataregistry.org/uri/RegStatus/1001>
+    a skos:Concept ;
+    skos:prefLabel "Published"@en .
+

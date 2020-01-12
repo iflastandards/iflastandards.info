@@ -1,0 +1,113 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix reg: <http://metadataregistry.org/uri/profile/regap/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://iflastandards.info/ns/unimarc/terms/elecsmd#>
+    dc:title "UNIMARC: Electronic resources: Specific material designation" ;
+    a skos:ConceptScheme ;
+    skos:hasTopConcept <http://iflastandards.info/ns/unimarc/terms/elecsmd#a>, <http://iflastandards.info/ns/unimarc/terms/elecsmd#b>, <http://iflastandards.info/ns/unimarc/terms/elecsmd#c>, <http://iflastandards.info/ns/unimarc/terms/elecsmd#f>, <http://iflastandards.info/ns/unimarc/terms/elecsmd#h>, <http://iflastandards.info/ns/unimarc/terms/elecsmd#j>, <http://iflastandards.info/ns/unimarc/terms/elecsmd#m>, <http://iflastandards.info/ns/unimarc/terms/elecsmd#o>, <http://iflastandards.info/ns/unimarc/terms/elecsmd#r>, <http://iflastandards.info/ns/unimarc/terms/elecsmd#u>, <http://iflastandards.info/ns/unimarc/terms/elecsmd#z> .
+
+<http://iflastandards.info/ns/unimarc/terms/elecsmd#a>
+    reg:identifier <http://metadataregistry.org/concepts/6472> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/elecsmd#> ;
+    skos:notation "a"@en ;
+    skos:prefLabel "cartridge magnetic tape"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/elecsmd#> .
+
+<http://iflastandards.info/ns/unimarc/terms/elecsmd#b>
+    reg:identifier <http://metadataregistry.org/concepts/6473> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/elecsmd#> ;
+    skos:notation "b"@en ;
+    skos:prefLabel "computer chip in cartridge"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/elecsmd#> .
+
+<http://iflastandards.info/ns/unimarc/terms/elecsmd#c>
+    reg:identifier <http://metadataregistry.org/concepts/6474> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/elecsmd#> ;
+    skos:notation "c"@en ;
+    skos:prefLabel "computer optical disc cartridge"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/elecsmd#> .
+
+<http://iflastandards.info/ns/unimarc/terms/elecsmd#f>
+    reg:identifier <http://metadataregistry.org/concepts/6475> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/elecsmd#> ;
+    skos:notation "f"@en ;
+    skos:prefLabel "computer magnetic cassette tape"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/elecsmd#> .
+
+<http://iflastandards.info/ns/unimarc/terms/elecsmd#h>
+    reg:identifier <http://metadataregistry.org/concepts/6476> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/elecsmd#> ;
+    skos:notation "h"@en ;
+    skos:prefLabel "magnetic tape for main-frame computers"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/elecsmd#> .
+
+<http://iflastandards.info/ns/unimarc/terms/elecsmd#j>
+    reg:identifier <http://metadataregistry.org/concepts/6477> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/elecsmd#> ;
+    skos:notation "j"@en ;
+    skos:prefLabel "computer floppy disk"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/elecsmd#> .
+
+<http://iflastandards.info/ns/unimarc/terms/elecsmd#m>
+    reg:identifier <http://metadataregistry.org/concepts/6478> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/elecsmd#> ;
+    skos:notation "m"@en ;
+    skos:prefLabel "computer magneto-optical disk"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/elecsmd#> .
+
+<http://iflastandards.info/ns/unimarc/terms/elecsmd#o>
+    reg:identifier <http://metadataregistry.org/concepts/6479> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/elecsmd#> ;
+    skos:notation "o"@en ;
+    skos:prefLabel "computer optical disk"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/elecsmd#> .
+
+<http://iflastandards.info/ns/unimarc/terms/elecsmd#r>
+    reg:identifier <http://metadataregistry.org/concepts/6480> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/elecsmd#> ;
+    skos:notation "r"@en ;
+    skos:prefLabel "online system"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/elecsmd#> .
+
+<http://iflastandards.info/ns/unimarc/terms/elecsmd#u>
+    reg:identifier <http://metadataregistry.org/concepts/6481> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/elecsmd#> ;
+    skos:notation "u"@en ;
+    skos:prefLabel "unknown"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/elecsmd#> .
+
+<http://iflastandards.info/ns/unimarc/terms/elecsmd#z>
+    reg:identifier <http://metadataregistry.org/concepts/6482> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/elecsmd#> ;
+    skos:notation "z"@en ;
+    skos:prefLabel "other"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/elecsmd#> .
+
+<http://metadataregistry.org/uri/RegStatus/1001>
+    a skos:Concept ;
+    skos:prefLabel "Published"@en .
+

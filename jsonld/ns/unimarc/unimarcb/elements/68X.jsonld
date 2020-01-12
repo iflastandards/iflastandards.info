@@ -1,0 +1,266 @@
+{
+    "@context": "http://iflastandards.info/ns/unimarc/unimarcb/elements/Contexts/elements_langmap.jsonld",
+    "@graph": [
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/68X/",
+            "@type": "ElementSet",
+            "title": {
+                "en": "UNIMARC/B elements 68X"
+            },
+            "description": {
+                "en": ""
+            },
+            "prefix": "",
+            "token": "ub68x",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "label": "Published"
+            },
+            "omr_api": "http://api.metadataregistry.org/elementsets/118",
+            "omr_home": "http://metadataregistry.org/elementsets/118",
+            "count": 9,
+            "languages": [
+                {
+                    "code": "en",
+                    "lang": "English",
+                    "version": "Release 1"
+                }
+            ],
+            "dateOfPublication": "January 11, 2020"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/68X/U680__3",
+            "@type": "Property",
+            "description": {
+                "en": [
+                    "The control number."
+                ]
+            },
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/68X/",
+                "url": "http://metadataregistry.org/schema/show/id/118.html",
+                "label": "UNIMARC/B elements 68X"
+            },
+            "label": {
+                "en": "has Classification record number in Library of Congress Classification"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/68X/hasClassificationRecordNumberInLibraryOfCongressClassification.en",
+            "name": "hasClassificationRecordNumberInLibraryOfCongressClassification",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/20675.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/68X/U680__a",
+            "@type": "Property",
+            "description": {
+                "en": [
+                    "The class number taken from the Library of Congress classification schedules."
+                ]
+            },
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/68X/",
+                "url": "http://metadataregistry.org/schema/show/id/118.html",
+                "label": "UNIMARC/B elements 68X"
+            },
+            "label": {
+                "en": "has Class number in Library of Congress Classification"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/68X/hasClassNumberInLibraryOfCongressClassification.en",
+            "name": "hasClassNumberInLibraryOfCongressClassification",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/20676.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/68X/U680__b",
+            "@type": "Property",
+            "description": {
+                "en": [
+                    "The individual book number applied by the cataloguing agency."
+                ]
+            },
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/68X/",
+                "url": "http://metadataregistry.org/schema/show/id/118.html",
+                "label": "UNIMARC/B elements 68X"
+            },
+            "label": {
+                "en": "has Book number in Library of Congress Classification"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/68X/hasBookNumberInLibraryOfCongressClassification.en",
+            "name": "hasBookNumberInLibraryOfCongressClassification",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/20677.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/68X/U686__2",
+            "@type": "Property",
+            "description": {
+                "en": [
+                    "A code for the classification scheme used in formulating the number."
+                ]
+            },
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/68X/",
+                "url": "http://metadataregistry.org/schema/show/id/118.html",
+                "label": "UNIMARC/B elements 68X"
+            },
+            "label": {
+                "en": "has System code in Other class numbers"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/68X/hasSystemCodeInOtherClassNumbers.en",
+            "name": "hasSystemCodeInOtherClassNumbers",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/20678.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/68X/U686__3",
+            "@type": "Property",
+            "description": {
+                "en": [
+                    "The control number"
+                ]
+            },
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/68X/",
+                "url": "http://metadataregistry.org/schema/show/id/118.html",
+                "label": "UNIMARC/B elements 68X"
+            },
+            "label": {
+                "en": "has Classification record number in Other class numbers"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/68X/hasClassificationRecordNumberInOtherClassNumbers.en",
+            "name": "hasClassificationRecordNumberInOtherClassNumbers",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/20679.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/68X/U686__a",
+            "@type": "Property",
+            "description": {
+                "en": [
+                    "The class number taken from the classification scheme."
+                ]
+            },
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/68X/",
+                "url": "http://metadataregistry.org/schema/show/id/118.html",
+                "label": "UNIMARC/B elements 68X"
+            },
+            "label": {
+                "en": "has Class number in Other class numbers"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/68X/hasClassNumberInOtherClassNumbers.en",
+            "name": "hasClassNumberInOtherClassNumbers",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/20680.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/68X/U686__b",
+            "@type": "Property",
+            "description": {
+                "en": [
+                    "The book number applied by the assigning agency."
+                ]
+            },
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/68X/",
+                "url": "http://metadataregistry.org/schema/show/id/118.html",
+                "label": "UNIMARC/B elements 68X"
+            },
+            "label": {
+                "en": "has Book number in Other class numbers"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/68X/hasBookNumberInOtherClassNumbers.en",
+            "name": "hasBookNumberInOtherClassNumbers",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/20681.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/68X/U686__c",
+            "@type": "Property",
+            "description": {
+                "en": [
+                    "A subdivision of the class number taken from the classification scheme."
+                ]
+            },
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/68X/",
+                "url": "http://metadataregistry.org/schema/show/id/118.html",
+                "label": "UNIMARC/B elements 68X"
+            },
+            "label": {
+                "en": "has Classification subdivision in Other class numbers"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/68X/hasClassificationSubdivisionInOtherClassNumbers.en",
+            "name": "hasClassificationSubdivisionInOtherClassNumbers",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/20682.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/68X/U686__v",
+            "@type": "Property",
+            "description": {
+                "en": [
+                    "The number of the scheme edition used."
+                ]
+            },
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/68X/",
+                "url": "http://metadataregistry.org/schema/show/id/118.html",
+                "label": "UNIMARC/B elements 68X"
+            },
+            "label": {
+                "en": "has Edition in Other class numbers"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/68X/hasEditionInOtherClassNumbers.en",
+            "name": "hasEditionInOtherClassNumbers",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/20683.html"
+        }
+    ]
+}
