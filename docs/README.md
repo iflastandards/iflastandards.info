@@ -1,4 +1,4 @@
-## Welcome to the New IFLA Standards documentation
+## Welcome to the IFLA Standards documentation
 
 You can use the [editor on GitHub](https://github.com/iflastandards/www.iflastandards.info/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
