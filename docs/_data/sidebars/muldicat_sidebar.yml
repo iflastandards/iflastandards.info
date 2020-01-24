@@ -1,0 +1,30 @@
+
+# Follow the pattern here for the URLs -- no slash at the beginning, and include the .html. The link here is rendered exactly as is in the Markdown references.
+
+entries:
+  - title: MulDiCat
+    product: muldicat
+    version: 1.0
+    folders:
+  
+    - title:
+      output: pdf
+      type: frontmatter
+      folderitems:
+      - title:
+        url: /titlepage.html
+        output: pdf
+        type: frontmatter
+      - title:
+        url: /tocpage.html
+        output: pdf
+        type: frontmatter
+  
+    - title: Introduction
+      output: web, pdf
+      folderitems:
+  
+      - title: Overview
+        url: /muldicat_landing_page.html
+        output: web
+  
