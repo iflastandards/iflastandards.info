@@ -17,8 +17,8 @@ topnav_dropdowns:
         - title: The FRBR Vocabularies
           url: /fr.html
         - title: The ISBD Vocabularies
-          url: /p1_landing_page.html
+          url: /isbd.html
         - title: The UNIMARC Vocabularies
-          url: /p2_landing_page.html
+          url: /unimarc.html
         - title: MulDiCat
-          url: /muldicat_landing_page.html
+          url: /muldicat.html
