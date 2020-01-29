@@ -7,24 +7,119 @@ entries:
     version: 1.0
     folders:
   
-    - title:
-      output: pdf
-      type: frontmatter
-      folderitems:
-      - title:
-        url: /titlepage.html
-        output: pdf
-        type: frontmatter
-      - title:
-        url: /tocpage.html
-        output: pdf
-        type: frontmatter
-  
     - title: Introduction
-      output: web, pdf
+      output: web
       folderitems:
   
       - title: Overview
-        url: /muldicat_landing_page.html
+        url: /muldicat.html
+        output: web
+ 
+    - title: Languages
+      output: web
+      folderitems:
+        
+      - title: English
+        url: /muldicat?language=en
+        output: web
+  
+      - title: Albanian
+        url: /muldicat?language=sq
+        output: web
+  
+      - title: Arabic
+        url: /muldicat?language=ar
+        output: web
+  
+      - title: Bulgarian
+        url: /muldicat?language=bg
+        output: web
+  
+      - title: Catalan
+        url: /muldicat?language=za
+        output: web
+  
+      - title: Chinese
+        url: /muldicat?language=zh
+        output: web
+  
+      - title: Croatian
+        url: /muldicat?language=hr
+        output: web
+  
+      - title: Czech
+        url: /muldicat?language=cs
+        output: web
+  
+      - title: Finnish
+        url: /muldicat?language=fi
+        output: web
+  
+      - title: French
+        url: /muldicat?language=fr
+        output: web
+  
+      - title: German
+        url: /muldicat?language=de
+        output: web
+  
+      - title: Italian
+        url: /muldicat?language=it
+        output: web
+  
+      - title: Japanese
+        url: /muldicat?language=ja
+        output: web
+  
+      - title: Korean
+        url: /muldicat?language=ko
+        output: web
+  
+      - title: Latvian
+        url: /muldicat?language=lv
+        output: web
+  
+      - title: Lithuanian
+        url: /muldicat?language=lt
+        output: web
+  
+      - title: Polish
+        url: /muldicat?language=pl
+        output: web
+  
+      - title: Portuguese
+        url: /muldicat?language=pt
+        output: web
+  
+      - title: Russian
+        url: /muldicat?language=ru
+        output: web
+  
+      - title: Serbian
+        url: /muldicat?language=sr
+        output: web
+  
+      - title: Slovak
+        url: /muldicat?language=sk
+        output: web
+  
+      - title: Slovenian
+        url: /muldicat?language=sl
+        output: web
+  
+      - title: Spanish
+        url: /muldicat?language=es
+        output: web
+  
+      - title: Swedish
+        url: /muldicat?language=sv
+        output: web
+  
+      - title: Thai
+        url: /muldicat?language=th
+        output: web
+  
+      - title: Vietnamese
+        url: /muldicat?language=vi
         output: web
   
