@@ -17,16 +17,16 @@ entries:
     output: web
     folderitems:
     - title: FRAD model 
-      url: /fr//frad.html
+      url: /fr/frad.html
       output: web
     - title: FRBRer model 
-      url: /fr//frbr//frbrer.html
+      url: /fr/frbr/frbrer.html
       output: web
     - title: FRBRoo model 
-      url: /fr//frbr//frbroo.html
+      url: /fr/frbr/frbroo.html
       output: web
     - title: FRSAD model  
-      url: /fr//frsad.html
+      url: /fr/frsad.html
       output: web
 
   - title: FRBR Vocabularies
