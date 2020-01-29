@@ -19,74 +19,310 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: Introduction
-    output: web, pdf
+  - title: UNIMARC Introduction
+    output: web
     folderitems:
 
     - title: Overview
-      url: /p2_landing_page.html
+      url: /uniumarc.html
       output: web
 
-  - title: Simple Workflow
-    output: web, pdf
+  - title: UNIMARC Element Sets
+    output: web
     folderitems:
 
-    - title: Sample 1
-      url: /p2_sample1.html
-      output: web, pdf
+    - title: "UNIMARC/B elements 0XX	"
+      url: /unimarc/unimarcb/elements/0XX/
+      output: web
 
-    - title: Sample 2
-      url: /p2_sample2.html
-      output: web, pdf
+    - title: "UNIMARC/B elements 1XX	"
+      url: /unimarc/unimarcb/elements/1XX/
+      output: web
 
-    - title: Sample 3
-      url: /p2_sample3.html
-      output: web, pdf
+    - title: "UNIMARC/B elements 2XX	"
+      url: /unimarc/unimarcb/elements/2XX/
+      output: web
 
-    - title: Sample 4
-      url: /p2_sample4.html
-      output: web, pdf
+    - title: "UNIMARC/B elements 3XX	"
+      url: /unimarc/unimarcb/elements/3XX/
+      output: web
 
-    - title: Sample 5
-      url: /p2_sample5.html
-      output: web, pdf
+    - title: "UNIMARC/B elements 41X	"
+      url: /unimarc/unimarcb/elements/41X/
+      output: web
 
-  - title: Complex Workflow
-    output: web, pdf
+    - title: "UNIMARC/B elements 42X	"
+      url: /unimarc/unimarcb/elements/42X/
+      output: web
+
+    - title: "UNIMARC/B elements 43X	"
+      url: /unimarc/unimarcb/elements/43X/
+      output: web
+
+    - title: "UNIMARC/B elements 44X	"
+      url: /unimarc/unimarcb/elements/44X/
+      output: web
+
+    - title: "UNIMARC/B elements 45X	"
+      url: /unimarc/unimarcb/elements/45X/
+      output: web
+
+    - title: "UNIMARC/B elements 46X	"
+      url: /unimarc/unimarcb/elements/46X/
+      output: web
+
+    - title: "UNIMARC/B elements 47X	"
+      url: /unimarc/unimarcb/elements/47X/
+      output: web
+
+    - title: "UNIMARC/B elements 48X	"
+      url: /unimarc/unimarcb/elements/48X/
+      output: web
+
+    - title: "UNIMARC/B elements 5XX	"
+      url: /unimarc/unimarcb/elements/5XX/
+      output: web
+
+    - title: "UNIMARC/B elements 60X	"
+      url: /unimarc/unimarcb/elements/60X/
+      output: web
+
+    - title: "UNIMARC/B elements 61X	"
+      url: /unimarc/unimarcb/elements/61X/
+      output: web
+
+    - title: "UNIMARC/B elements 62X	"
+      url: /unimarc/unimarcb/elements/62X/
+      output: web
+
+    - title: "UNIMARC/B elements 66X	"
+      url: /unimarc/unimarcb/elements/66X/
+      output: web
+
+    - title: "UNIMARC/B elements 67X	"
+      url: /unimarc/unimarcb/elements/67X/
+      output: web
+
+    - title: "UNIMARC/B elements 68X	"
+      url: /unimarc/unimarcb/elements/68X/
+      output: web
+
+    - title: "UNIMARC/B elements 7XX	"
+      url: /unimarc/unimarcb/elements/7XX/
+      output: web
+
+    - title: "UNIMARC/B elements 801	"
+      url: /unimarc/unimarcb/elements/801/
+      output: web
+
+    - title: "UNIMARC/B elements 802	"
+      url: /unimarc/unimarcb/elements/802/
+      output: web
+
+    - title: "UNIMARC/B elements 830	"
+      url: /unimarc/unimarcb/elements/830/
+      output: web
+
+    - title: "UNIMARC/B elements 850	"
+      url: /unimarc/unimarcb/elements/850/
+      output: web
+
+    - title: "UNIMARC/B elements 856	"
+      url: /unimarc/unimarcb/elements/856/
+      output: web
+
+    - title: "UNIMARC/B elements 886	"
+      url: /unimarc/unimarcb/elements/886/
+      output: web
+
+  - title: UNIMARC Value Vocabularies
+    output: web
     folderitems:
 
-    - title: Sample 6
-      url: /p2_sample6.html
-      output: web, pdf
+    - title: "Cartographic materials: Altitude of sensor"
+      url: /unimarc/terms/altos
+      output: web
 
-    - title: Sample 7
-      url: /p2_sample7.html
-      output: web, pdf
+    - title: "Cartographic materials: Attitude of sensor"
+      url: /unimarc/terms/attos
+      output: web
 
-    - title: Sample 8
-      url: /p2_sample8.html
-      output: web, pdf
+    - title: "Cartographic materials: Category of satellite"
+      url: /unimarc/terms/satcat
+      output: web
 
-    - title: Sample 9
-      url: /p2_sample9.html
-      output: web, pdf
+    - title: "Cartographic materials: Character"
+      url: /unimarc/terms/cartcha
+      output: web
 
-    - title: Sample 10
-      url: /p2_sample10.html
-      output: web, pdf
+    - title: "Cartographic materials: Colour indicator"
+      url: /unimarc/terms/cartcol
+      output: web
 
-    - title: Sample 11
-      url: /p2_sample11.html
-      output: web, pdf
+    - title: "Cartographic materials: Form of item"
+      url: /unimarc/terms/cartfor
+      output: web
 
-    - title: Sample 12
-      url: /p2_sample12.html
-      output: web, pdf
+    - title: "Cartographic materials: Map projection"
+      url: /unimarc/terms/cartpro
+      output: web
 
-    - title: Sample 13
-      url: /p2_sample13.html
-      output: web, pdf
+    - title: "Cartographic materials: Name of satellite"
+      url: /unimarc/terms/satname
+      output: web
 
-    - title: Sample 14
-      url: /p2_sample14.html
-      output: web, pdf
+    - title: "Cartographic materials: Planet"
+      url: /unimarc/terms/planet
+      output: web
+
+    - title: "Cartographic materials: Position of platform"
+      url: /unimarc/terms/cartpop
+      output: web
+
+    - title: "Cartographic materials: Presentation technique"
+      url: /unimarc/terms/cartprt
+      output: web
+
+    - title: "Cartographic materials: Recording technique for remote sensing image"
+      url: /unimarc/terms/cartret
+      output: web
+
+    - title: "Cartographic materials: Relief"
+      url: /unimarc/terms/cartrel
+      output: web
+
+    - title: "Cartographic materials: Type of scale"
+      url: /unimarc/terms/carttos
+      output: web
+
+    - title: "Church mode of musical work"
+      url: /unimarc/terms/chm
+      output: web
+
+    - title: "Continuing resources: Frequency of issue"
+      url: /unimarc/terms/continuingfreq
+      output: web
+
+    - title: "Electronic resources: Specific material designation"
+      url: /unimarc/terms/elecsmd
+      output: web
+
+    - title: "Form of musical work"
+      url: /unimarc/terms/fom
+      output: web
+
+    - title: "Format of notated music: Type of score"
+      url: /unimarc/terms/tos
+      output: web
+
+    - title: "Graphics: Functional designation"
+      url: /unimarc/terms/graphicsfd
+      output: web
+
+    - title: "Graphics: Primary support material"
+      url: /unimarc/terms/graphicspsm
+      output: web
+
+    - title: "Graphics: Specific material designation"
+      url: /unimarc/terms/graphicssmd
+      output: web
+
+    - title: "Graphics: Technique (prints) "
+      url: /unimarc/terms/graphicstp
+      output: web
+
+    - title: "Graphics: Techniques (drawings, paintings) "
+      url: /unimarc/terms/graphicstd
+      output: web
+
+    - title: "Key of musical work"
+      url: /unimarc/terms/key
+      output: web
+
+    - title: "Medium of performance"
+      url: /unimarc/terms/mop
+      output: web
+
+    - title: "Sound recordings: Accompanying textual material"
+      url: /unimarc/terms/soundatm
+      output: web
+
+    - title: "Sound recordings: Dimensions"
+      url: /unimarc/terms/sounddim
+      output: web
+
+    - title: "Sound recordings: Form of release"
+      url: /unimarc/terms/soundfor
+      output: web
+
+    - title: "Sound recordings: Groove width"
+      url: /unimarc/terms/soundgrw
+      output: web
+
+    - title: "Sound recordings: Kind of cutting"
+      url: /unimarc/terms/soundcut
+      output: web
+
+    - title: "Sound recordings: Kind of sound"
+      url: /unimarc/terms/soundmod
+      output: web
+
+    - title: "Sound recordings: Recording technique"
+      url: /unimarc/terms/soundtec
+      output: web
+
+    - title: "Sound recordings: Special reproduction characteristics"
+      url: /unimarc/terms/soundrep
+      output: web
+
+    - title: "Sound recordings: Speed"
+      url: /unimarc/terms/soundspe
+      output: web
+
+    - title: "Sound recordings: Tape configuration"
+      url: /unimarc/terms/soundtac
+      output: web
+
+    - title: "Sound recordings: Tape width"
+      url: /unimarc/terms/soundtaw
+      output: web
+
+    - title: "Sound recordings: Type of recording"
+      url: /unimarc/terms/soundtyp
+      output: web
+
+    - title: "Target audience"
+      url: /unimarc/terms/tac
+      output: web
+
+    - title: "Three-dimensional artefacts and realia: Material"
+      url: /unimarc/terms/3dmat
+      output: web
+
+    - title: "Three-dimensional artefacts and realia: Specific material designation"
+      url: /unimarc/terms/3dsmd
+      output: web
+
+    - title: "Type of electronic resource"
+      url: /unimarc/terms/ter
+      output: web
+
+    - title: "Visual projections, etc.: Accompanying material"
+      url: /unimarc/terms/visacc
+      output: web
+
+    - title: "Visual projections, etc.: Colour"
+      url: /unimarc/terms/viscol
+      output: web
+
+    - title: "Visual projections, etc.: Form of release - videorecording"
+      url: /unimarc/terms/visfov
+      output: web
+
+    - title: "Visual projections, etc.: Form of release - visual projection, motion picture"
+      url: /unimarc/terms/visfor
+      output: web
+
+    - title: "Visual projections, etc.: Media for sound"
+      url: /unimarc/terms/vismfs
+      output: web
