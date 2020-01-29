@@ -2,7 +2,6 @@
 title: ISBD Introduction
 sidebar: isbd_sidebar
 permalink: isbd.html
-folder: isbd
 toc: true
 ---
 
