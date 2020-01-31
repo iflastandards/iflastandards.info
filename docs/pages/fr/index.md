@@ -1,7 +1,7 @@
 ---
 title: FRBR Introduction
 sidebar: fr_sidebar
-permalink: fr.html
+folder: fr
 toc: true
 ---
 
