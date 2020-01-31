@@ -1,28 +1,50 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix reg: <http://metadataregistry.org/uri/profile/regap/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<html><head>
-<meta http-equiv="content-type" content="text/html;charset=utf-8">
-<title>503 Over Quota</title>
-<style><!--
-body {font-family: arial,sans-serif}
-div.nav {margin-top: 1ex}
-div.nav A {font-size: 10pt; font-family: arial,sans-serif}
-span.nav {font-size: 10pt; font-family: arial,sans-serif; font-weight: bold}
-div.nav A,span.big {font-size: 12pt; color: #0000cc}
-div.nav A {font-size: 10pt; color: black}
-A.l:link {color: #6f6f6f}
-A.u:link {color: green}
-//--></style>
+<http://iflastandards.info/ns/fr/frsad/frsadusertask#T1001> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/1240> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:definition "Find one or more subjects and, or, their appellations, that correspond(s) to the user’s stated criteria, using attributes and relationships."@en ;
+    skos:inScheme <http://iflastandards.info/ns/fr/frsad/frsadusertask> ;
+    skos:prefLabel "find"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/fr/frsad/frsadusertask> .
 
-</head>
-<body text=#000000 bgcolor=#ffffff>
-<table border=0 cellpadding=2 cellspacing=0 width=100%>
-<tr><td bgcolor=#3366cc><font face=arial,sans-serif color=#ffffff><b>Error</b></td></tr>
-<tr><td>&nbsp;</td></tr></table>
-<blockquote>
-<H1>Over Quota</H1>
-This application is temporarily over its serving quota.  Please try again later.
+<http://iflastandards.info/ns/fr/frsad/frsadusertask#T1002> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/1241> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:definition "Identify a subject and, or, its appellation based on its attributes or relationships (i.e., to distinguish between two or more subjects or appellations with similar characteristics and to confirm that the appropriate subject or appellation has been found)."@en ;
+    skos:inScheme <http://iflastandards.info/ns/fr/frsad/frsadusertask> ;
+    skos:prefLabel "identify"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/fr/frsad/frsadusertask> .
 
-<p>
-</blockquote>
-<table width=100% cellpadding=0 cellspacing=0><tr><td bgcolor=#3366cc><img alt="" width=1 height=4></td></tr></table>
-</body></html>
+<http://iflastandards.info/ns/fr/frsad/frsadusertask#T1003> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/1242> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:definition "Select a subject and, or, its appellation appropriate to the user's needs (i.e., to choose or reject based on the user's requirements and needs)."@en ;
+    skos:inScheme <http://iflastandards.info/ns/fr/frsad/frsadusertask> ;
+    skos:prefLabel "select"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/fr/frsad/frsadusertask> .
+
+<http://iflastandards.info/ns/fr/frsad/frsadusertask#T1004> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/1243> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:definition "Explore relationships between subjects and. or, their appellations (e.g., to explore relationships in order to understand the structure of a subject domain and its terminology)."@en ;
+    skos:inScheme <http://iflastandards.info/ns/fr/frsad/frsadusertask> ;
+    skos:prefLabel "explore"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/fr/frsad/frsadusertask> .
+
+<http://metadataregistry.org/uri/RegStatus/1001> a skos:Concept ;
+    skos:prefLabel "Published"@en .
+
+<http://iflastandards.info/ns/fr/frsad/frsadusertask> a skos:ConceptScheme ;
+    dc:title "FRSAD User Tasks" ;
+    skos:hasTopConcept <http://iflastandards.info/ns/fr/frsad/frsadusertask#T1001>,
+        <http://iflastandards.info/ns/fr/frsad/frsadusertask#T1002>,
+        <http://iflastandards.info/ns/fr/frsad/frsadusertask#T1003>,
+        <http://iflastandards.info/ns/fr/frsad/frsadusertask#T1004> .
+

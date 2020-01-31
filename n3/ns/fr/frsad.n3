@@ -1,28 +1,333 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix reg: <http://metadataregistry.org/uri/profile/regap/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<html><head>
-<meta http-equiv="content-type" content="text/html;charset=utf-8">
-<title>503 Over Quota</title>
-<style><!--
-body {font-family: arial,sans-serif}
-div.nav {margin-top: 1ex}
-div.nav A {font-size: 10pt; font-family: arial,sans-serif}
-span.nav {font-size: 10pt; font-family: arial,sans-serif; font-weight: bold}
-div.nav A,span.big {font-size: 12pt; color: #0000cc}
-div.nav A {font-size: 10pt; color: black}
-A.l:link {color: #6f6f6f}
-A.u:link {color: green}
-//--></style>
+<http://iflastandards.info/ns/fr/frsad/P2001> a rdf:Property ;
+    rdfs:label "has as subject"@en,
+        "tiene como materia"@es ;
+    reg:name "hasAsSubject"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:domain <http://iflastandards.info/ns/fr/frbr/frbrer/C1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/fr/frsad/> ;
+    rdfs:range <http://iflastandards.info/ns/fr/frsad/C1001> ;
+    owl:inverseOf <http://iflastandards.info/ns/fr/frsad/P2002> ;
+    skos:definition "Relates a work to a thema."@en .
 
-</head>
-<body text=#000000 bgcolor=#ffffff>
-<table border=0 cellpadding=2 cellspacing=0 width=100%>
-<tr><td bgcolor=#3366cc><font face=arial,sans-serif color=#ffffff><b>Error</b></td></tr>
-<tr><td>&nbsp;</td></tr></table>
-<blockquote>
-<H1>Over Quota</H1>
-This application is temporarily over its serving quota.  Please try again later.
+<http://iflastandards.info/ns/fr/frsad/P2002> a rdf:Property ;
+    rdfs:label "is subject of"@en,
+        "es materia de"@es ;
+    reg:name "isSubjectOf"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:domain <http://iflastandards.info/ns/fr/frsad/C1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/fr/frsad/> ;
+    rdfs:range <http://iflastandards.info/ns/fr/frbr/frbrer/C1001> ;
+    owl:inverseOf <http://iflastandards.info/ns/fr/frsad/P2001> ;
+    skos:definition "Relates a thema to a work."@en .
 
-<p>
-</blockquote>
-<table width=100% cellpadding=0 cellspacing=0><tr><td bgcolor=#3366cc><img alt="" width=1 height=4></td></tr></table>
-</body></html>
+<http://iflastandards.info/ns/fr/frsad/P3001> a rdf:Property ;
+    rdfs:label "has type of thema"@en,
+        "tiene tipo de thema"@es ;
+    reg:name "hasTypeOfThema"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:domain <http://iflastandards.info/ns/fr/frsad/C1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/fr/frsad/> ;
+    owl:propertyDisjointWith <http://iflastandards.info/ns/fr/frsad/P2003>,
+        <http://iflastandards.info/ns/fr/frsad/P3002> ;
+    skos:definition "Relates a thema to the category to which it belongs in the context of a particular knowledge organisation system."@en .
+
+<http://iflastandards.info/ns/fr/frsad/P3002> a rdf:Property ;
+    rdfs:label "has scope note"@en,
+        "tiene nota de alcance"@es ;
+    reg:name "hasScopeNote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:domain <http://iflastandards.info/ns/fr/frsad/C1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/fr/frsad/> ;
+    owl:propertyDisjointWith <http://iflastandards.info/ns/fr/frsad/P2003>,
+        <http://iflastandards.info/ns/fr/frsad/P3001> ;
+    skos:definition "Relates a thema to a text describing and, or, defining the thema or specifying its scope within the particular subject authority system."@en .
+
+<http://iflastandards.info/ns/fr/frsad/P2003> a rdf:Property ;
+    rdfs:label "has appellation"@en,
+        "tiene denominación"@es ;
+    reg:name "hasAppellation"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:domain <http://iflastandards.info/ns/fr/frsad/C1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/fr/frsad/> ;
+    rdfs:range <http://iflastandards.info/ns/fr/frsad/C1002> ;
+    owl:inverseOf <http://iflastandards.info/ns/fr/frsad/P2004> ;
+    owl:propertyDisjointWith <http://iflastandards.info/ns/fr/frsad/P3001>,
+        <http://iflastandards.info/ns/fr/frsad/P3002> ;
+    skos:definition "Relates a thema to a nomen."@en .
+
+<http://iflastandards.info/ns/fr/frsad/C1001> a owl:Class ;
+    rdfs:label "Thema"@en,
+        "Thema"@es ;
+    reg:name "Thema"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/fr/frsad/> ;
+    skos:definition "Any entity used as a subject of a work."@en .
+
+<http://iflastandards.info/ns/fr/frsad/P3003> a rdf:Property ;
+    rdfs:label "has type of nomen"@en,
+        "tiene tipo de nomen"@es ;
+    reg:name "hasTypeOfNomen"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:domain <http://iflastandards.info/ns/fr/frsad/C1002> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/fr/frsad/> ;
+    owl:propertyDisjointWith <http://iflastandards.info/ns/fr/frsad/P2004>,
+        <http://iflastandards.info/ns/fr/frsad/P3004>,
+        <http://iflastandards.info/ns/fr/frsad/P3005>,
+        <http://iflastandards.info/ns/fr/frsad/P3006>,
+        <http://iflastandards.info/ns/fr/frsad/P3007>,
+        <http://iflastandards.info/ns/fr/frsad/P3008>,
+        <http://iflastandards.info/ns/fr/frsad/P3009>,
+        <http://iflastandards.info/ns/fr/frsad/P3010>,
+        <http://iflastandards.info/ns/fr/frsad/P3011>,
+        <http://iflastandards.info/ns/fr/frsad/P3012>,
+        <http://iflastandards.info/ns/fr/frsad/P3013> ;
+    skos:definition "Relates a nomen to a category to which it belongs."@en .
+
+<http://iflastandards.info/ns/fr/frsad/P3004> a rdf:Property ;
+    rdfs:label "has scheme"@en,
+        "tiene esquema"@es ;
+    reg:name "hasScheme"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:comment "Includes value encoding schemes (subject heading lists, thesauri, classification systems, name authority lists, etc.) and syntax encoding schemes (standards for encoding dates, etc.)."@en ;
+    rdfs:domain <http://iflastandards.info/ns/fr/frsad/C1002> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/fr/frsad/> ;
+    owl:propertyDisjointWith <http://iflastandards.info/ns/fr/frsad/P2004>,
+        <http://iflastandards.info/ns/fr/frsad/P3003>,
+        <http://iflastandards.info/ns/fr/frsad/P3005>,
+        <http://iflastandards.info/ns/fr/frsad/P3006>,
+        <http://iflastandards.info/ns/fr/frsad/P3007>,
+        <http://iflastandards.info/ns/fr/frsad/P3008>,
+        <http://iflastandards.info/ns/fr/frsad/P3009>,
+        <http://iflastandards.info/ns/fr/frsad/P3010>,
+        <http://iflastandards.info/ns/fr/frsad/P3011>,
+        <http://iflastandards.info/ns/fr/frsad/P3012>,
+        <http://iflastandards.info/ns/fr/frsad/P3013> ;
+    skos:definition "Relates a nomen to the scheme in which it is established."@en .
+
+<http://iflastandards.info/ns/fr/frsad/P3005> a rdf:Property ;
+    rdfs:label "has reference source of nomen"@en,
+        "tiene fuente de referencia del nomen"@es ;
+    reg:name "hasReferenceSourceOfNomen"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:domain <http://iflastandards.info/ns/fr/frsad/C1002> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/fr/frsad/> ;
+    owl:propertyDisjointWith <http://iflastandards.info/ns/fr/frsad/P2004>,
+        <http://iflastandards.info/ns/fr/frsad/P3003>,
+        <http://iflastandards.info/ns/fr/frsad/P3004>,
+        <http://iflastandards.info/ns/fr/frsad/P3006>,
+        <http://iflastandards.info/ns/fr/frsad/P3007>,
+        <http://iflastandards.info/ns/fr/frsad/P3008>,
+        <http://iflastandards.info/ns/fr/frsad/P3009>,
+        <http://iflastandards.info/ns/fr/frsad/P3010>,
+        <http://iflastandards.info/ns/fr/frsad/P3011>,
+        <http://iflastandards.info/ns/fr/frsad/P3012>,
+        <http://iflastandards.info/ns/fr/frsad/P3013> ;
+    skos:definition "Relates a nomen to the source in which it is found."@en .
+
+<http://iflastandards.info/ns/fr/frsad/P3006> a rdf:Property ;
+    rdfs:label "has representation of nomen"@en,
+        "tiene representación del nomen"@es ;
+    reg:name "hasRepresentationOfNomen"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:domain <http://iflastandards.info/ns/fr/frsad/C1002> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/fr/frsad/> ;
+    owl:propertyDisjointWith <http://iflastandards.info/ns/fr/frsad/P2004>,
+        <http://iflastandards.info/ns/fr/frsad/P3003>,
+        <http://iflastandards.info/ns/fr/frsad/P3004>,
+        <http://iflastandards.info/ns/fr/frsad/P3005>,
+        <http://iflastandards.info/ns/fr/frsad/P3007>,
+        <http://iflastandards.info/ns/fr/frsad/P3008>,
+        <http://iflastandards.info/ns/fr/frsad/P3009>,
+        <http://iflastandards.info/ns/fr/frsad/P3010>,
+        <http://iflastandards.info/ns/fr/frsad/P3011>,
+        <http://iflastandards.info/ns/fr/frsad/P3012>,
+        <http://iflastandards.info/ns/fr/frsad/P3013> ;
+    skos:definition "Relates a nomen to the data type in which it is expressed."@en .
+
+<http://iflastandards.info/ns/fr/frsad/P3007> a rdf:Property ;
+    rdfs:label "has language of nomen"@en,
+        "tiene idioma del nomen"@es ;
+    reg:name "hasLanguageOfNomen"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:domain <http://iflastandards.info/ns/fr/frsad/C1002> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/fr/frsad/> ;
+    owl:propertyDisjointWith <http://iflastandards.info/ns/fr/frsad/P2004>,
+        <http://iflastandards.info/ns/fr/frsad/P3003>,
+        <http://iflastandards.info/ns/fr/frsad/P3004>,
+        <http://iflastandards.info/ns/fr/frsad/P3005>,
+        <http://iflastandards.info/ns/fr/frsad/P3006>,
+        <http://iflastandards.info/ns/fr/frsad/P3008>,
+        <http://iflastandards.info/ns/fr/frsad/P3009>,
+        <http://iflastandards.info/ns/fr/frsad/P3010>,
+        <http://iflastandards.info/ns/fr/frsad/P3011>,
+        <http://iflastandards.info/ns/fr/frsad/P3012>,
+        <http://iflastandards.info/ns/fr/frsad/P3013> ;
+    skos:definition "Relates a nomen to the language in which it is expressed."@en .
+
+<http://iflastandards.info/ns/fr/frsad/P3008> a rdf:Property ;
+    rdfs:label "has script of nomen"@en,
+        "tiene escritura del nomen"@es ;
+    reg:name "hasScriptOfNomen"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:domain <http://iflastandards.info/ns/fr/frsad/C1002> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/fr/frsad/> ;
+    owl:propertyDisjointWith <http://iflastandards.info/ns/fr/frsad/P2004>,
+        <http://iflastandards.info/ns/fr/frsad/P3003>,
+        <http://iflastandards.info/ns/fr/frsad/P3004>,
+        <http://iflastandards.info/ns/fr/frsad/P3005>,
+        <http://iflastandards.info/ns/fr/frsad/P3006>,
+        <http://iflastandards.info/ns/fr/frsad/P3007>,
+        <http://iflastandards.info/ns/fr/frsad/P3009>,
+        <http://iflastandards.info/ns/fr/frsad/P3010>,
+        <http://iflastandards.info/ns/fr/frsad/P3011>,
+        <http://iflastandards.info/ns/fr/frsad/P3012>,
+        <http://iflastandards.info/ns/fr/frsad/P3013> ;
+    skos:definition "Relates a nomen to the script in which it is expressed."@en .
+
+<http://iflastandards.info/ns/fr/frsad/P3009> a rdf:Property ;
+    rdfs:label "has script conversion"@en,
+        "tiene transliteración del nomen"@es ;
+    reg:name "hasScriptConversion"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:domain <http://iflastandards.info/ns/fr/frsad/C1002> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/fr/frsad/> ;
+    owl:propertyDisjointWith <http://iflastandards.info/ns/fr/frsad/P2004>,
+        <http://iflastandards.info/ns/fr/frsad/P3003>,
+        <http://iflastandards.info/ns/fr/frsad/P3004>,
+        <http://iflastandards.info/ns/fr/frsad/P3005>,
+        <http://iflastandards.info/ns/fr/frsad/P3006>,
+        <http://iflastandards.info/ns/fr/frsad/P3007>,
+        <http://iflastandards.info/ns/fr/frsad/P3008>,
+        <http://iflastandards.info/ns/fr/frsad/P3010>,
+        <http://iflastandards.info/ns/fr/frsad/P3011>,
+        <http://iflastandards.info/ns/fr/frsad/P3012>,
+        <http://iflastandards.info/ns/fr/frsad/P3013> ;
+    skos:definition "Relates a nomen to the rule, system, or standard used to render it in a different representation."@en .
+
+<http://iflastandards.info/ns/fr/frsad/P3010> a rdf:Property ;
+    rdfs:label "has form of nomen"@en,
+        "tiene forma del nomen"@es ;
+    reg:name "hasFormOfNomen"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:domain <http://iflastandards.info/ns/fr/frsad/C1002> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/fr/frsad/> ;
+    owl:propertyDisjointWith <http://iflastandards.info/ns/fr/frsad/P2004>,
+        <http://iflastandards.info/ns/fr/frsad/P3003>,
+        <http://iflastandards.info/ns/fr/frsad/P3004>,
+        <http://iflastandards.info/ns/fr/frsad/P3005>,
+        <http://iflastandards.info/ns/fr/frsad/P3006>,
+        <http://iflastandards.info/ns/fr/frsad/P3007>,
+        <http://iflastandards.info/ns/fr/frsad/P3008>,
+        <http://iflastandards.info/ns/fr/frsad/P3009>,
+        <http://iflastandards.info/ns/fr/frsad/P3011>,
+        <http://iflastandards.info/ns/fr/frsad/P3012>,
+        <http://iflastandards.info/ns/fr/frsad/P3013> ;
+    skos:definition "Relates a nomen to any additional information that helps to interpret it."@en .
+
+<http://iflastandards.info/ns/fr/frsad/P3011> a rdf:Property ;
+    rdfs:label "has time of validity of nomen"@en,
+        "tiene tiempo de validez del nomen"@es ;
+    reg:name "hasTimeOfValidityOfNomen"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:domain <http://iflastandards.info/ns/fr/frsad/C1002> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/fr/frsad/> ;
+    owl:propertyDisjointWith <http://iflastandards.info/ns/fr/frsad/P2004>,
+        <http://iflastandards.info/ns/fr/frsad/P3003>,
+        <http://iflastandards.info/ns/fr/frsad/P3004>,
+        <http://iflastandards.info/ns/fr/frsad/P3005>,
+        <http://iflastandards.info/ns/fr/frsad/P3006>,
+        <http://iflastandards.info/ns/fr/frsad/P3007>,
+        <http://iflastandards.info/ns/fr/frsad/P3008>,
+        <http://iflastandards.info/ns/fr/frsad/P3009>,
+        <http://iflastandards.info/ns/fr/frsad/P3010>,
+        <http://iflastandards.info/ns/fr/frsad/P3012>,
+        <http://iflastandards.info/ns/fr/frsad/P3013> ;
+    skos:definition "Relates a nomen to the time period, in which it is or was used or is or was valid within a subject vocabulary system."@en .
+
+<http://iflastandards.info/ns/fr/frsad/P3012> a rdf:Property ;
+    rdfs:label "has audience"@en,
+        "tiene audiencia"@es ;
+    reg:name "hasAudience"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:domain <http://iflastandards.info/ns/fr/frsad/C1002> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/fr/frsad/> ;
+    owl:propertyDisjointWith <http://iflastandards.info/ns/fr/frsad/P2004>,
+        <http://iflastandards.info/ns/fr/frsad/P3003>,
+        <http://iflastandards.info/ns/fr/frsad/P3004>,
+        <http://iflastandards.info/ns/fr/frsad/P3005>,
+        <http://iflastandards.info/ns/fr/frsad/P3006>,
+        <http://iflastandards.info/ns/fr/frsad/P3007>,
+        <http://iflastandards.info/ns/fr/frsad/P3008>,
+        <http://iflastandards.info/ns/fr/frsad/P3009>,
+        <http://iflastandards.info/ns/fr/frsad/P3010>,
+        <http://iflastandards.info/ns/fr/frsad/P3011>,
+        <http://iflastandards.info/ns/fr/frsad/P3013> ;
+    skos:definition "Relates a nomen to the community or user group for which the nomen is the preferred form."@en .
+
+<http://iflastandards.info/ns/fr/frsad/P3013> a rdf:Property ;
+    rdfs:label "has status of nomen"@en,
+        "tiene estatus del nomen"@es ;
+    reg:name "hasStatusOfNomen"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:domain <http://iflastandards.info/ns/fr/frsad/C1002> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/fr/frsad/> ;
+    owl:propertyDisjointWith <http://iflastandards.info/ns/fr/frsad/P2004>,
+        <http://iflastandards.info/ns/fr/frsad/P3003>,
+        <http://iflastandards.info/ns/fr/frsad/P3004>,
+        <http://iflastandards.info/ns/fr/frsad/P3005>,
+        <http://iflastandards.info/ns/fr/frsad/P3006>,
+        <http://iflastandards.info/ns/fr/frsad/P3007>,
+        <http://iflastandards.info/ns/fr/frsad/P3008>,
+        <http://iflastandards.info/ns/fr/frsad/P3009>,
+        <http://iflastandards.info/ns/fr/frsad/P3010>,
+        <http://iflastandards.info/ns/fr/frsad/P3011>,
+        <http://iflastandards.info/ns/fr/frsad/P3012> ;
+    skos:definition "Relates a nomen to its status in a subject authority system."@en .
+
+<http://iflastandards.info/ns/fr/frsad/P2004> a rdf:Property ;
+    rdfs:label "is appellation of"@en,
+        "es denominación de"@es ;
+    reg:name "isAppellationOf"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:domain <http://iflastandards.info/ns/fr/frsad/C1002> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/fr/frsad/> ;
+    rdfs:range <http://iflastandards.info/ns/fr/frsad/C1001> ;
+    owl:inverseOf <http://iflastandards.info/ns/fr/frsad/P2003> ;
+    owl:propertyDisjointWith <http://iflastandards.info/ns/fr/frsad/P3003>,
+        <http://iflastandards.info/ns/fr/frsad/P3004>,
+        <http://iflastandards.info/ns/fr/frsad/P3005>,
+        <http://iflastandards.info/ns/fr/frsad/P3006>,
+        <http://iflastandards.info/ns/fr/frsad/P3007>,
+        <http://iflastandards.info/ns/fr/frsad/P3008>,
+        <http://iflastandards.info/ns/fr/frsad/P3009>,
+        <http://iflastandards.info/ns/fr/frsad/P3010>,
+        <http://iflastandards.info/ns/fr/frsad/P3011>,
+        <http://iflastandards.info/ns/fr/frsad/P3012>,
+        <http://iflastandards.info/ns/fr/frsad/P3013> ;
+    skos:definition "Relates a nomen to a thema."@en .
+
+<http://iflastandards.info/ns/fr/frsad/C1002> a owl:Class ;
+    rdfs:label "Nomen"@en,
+        "Nomen"@es ;
+    reg:name "Nomen"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/fr/frsad/> ;
+    skos:definition "Any sign or sequence of signs (alphanumeric characters, symbols, sound, etc.) by which a thema (any entity used as a subject of a work) is known, referred to, or addressed as."@en .
+
+<http://iflastandards.info/ns/fr/frsad/> dc:title "FRSAD model"@en ;
+    skos:note "This is the element set of native RDF classes and properties described in the Functional Requirements for Subject Authority Data model. The model also uses elements previously described in the Functional Requirements for Bibliographic Records (FRBR) entity-relationship model."@en ;
+    foaf:homepage <http://www.ifla.org/files/classification-and-indexing/functional-requirements-for-subject-authority-data/frsad-final-report.pdf> .
+
+<http://metadataregistry.org/uri/RegStatus/1001> a skos:Concept ;
+    skos:prefLabel "Published"@en .
+
