@@ -1,28 +1,43 @@
-
-<html><head>
-<meta http-equiv="content-type" content="text/html;charset=utf-8">
-<title>503 Over Quota</title>
-<style><!--
-body {font-family: arial,sans-serif}
-div.nav {margin-top: 1ex}
-div.nav A {font-size: 10pt; font-family: arial,sans-serif}
-span.nav {font-size: 10pt; font-family: arial,sans-serif; font-weight: bold}
-div.nav A,span.big {font-size: 12pt; color: #0000cc}
-div.nav A {font-size: 10pt; color: black}
-A.l:link {color: #6f6f6f}
-A.u:link {color: green}
-//--></style>
-
-</head>
-<body text=#000000 bgcolor=#ffffff>
-<table border=0 cellpadding=2 cellspacing=0 width=100%>
-<tr><td bgcolor=#3366cc><font face=arial,sans-serif color=#ffffff><b>Error</b></td></tr>
-<tr><td>&nbsp;</td></tr></table>
-<blockquote>
-<H1>Over Quota</H1>
-This application is temporarily over its serving quota.  Please try again later.
-
-<p>
-</blockquote>
-<table width=100% cellpadding=0 cellspacing=0><tr><td bgcolor=#3366cc><img alt="" width=1 height=4></td></tr></table>
-</body></html>
+<div>
+  <div itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://iflastandards.info/ns/fr/frbr/frbrer/frbrerusertask#T1002" itemscope>
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/1233" />
+    <meta itemprop="definition" content="To confirm that the entity described corresponds to the entity sought, or to distinguish between two or more entities with similar characteristics." />
+    <div itemprop="inScheme" itemtype="http://www.w3.org/2004/02/skos/core#ConceptScheme" itemid="http://iflastandards.info/ns/fr/frbr/frbrer/frbrerusertask" itemscope>
+      <div itemprop="hasTopConcept" itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://iflastandards.info/ns/fr/frbr/frbrer/frbrerusertask#T1003" itemscope>
+        <link itemprop="inScheme" href="http://iflastandards.info/ns/fr/frbr/frbrer/frbrerusertask" />
+        <meta itemprop="definition" content="To choose an entity that meets the user’s requirements with respect to content, physical format, etc., or to reject an entity as being inappropriate to the user’s needs" />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/1234" />
+        <meta itemprop="prefLabel" content="select" />
+        <meta itemprop="scopeNote" content="Includes only entities of interest to users of bibliographic records." />
+        <link itemprop="topConceptOf" href="http://iflastandards.info/ns/fr/frbr/frbrer/frbrerusertask" />
+      </div>
+      <div itemprop="hasTopConcept" itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://iflastandards.info/ns/fr/frbr/frbrer/frbrerusertask#T1001" itemscope>
+        <link itemprop="topConceptOf" href="http://iflastandards.info/ns/fr/frbr/frbrer/frbrerusertask" />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/1232" />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+        <meta itemprop="prefLabel" content="find" />
+        <meta itemprop="scopeNote" content="Includes only entities of interest to users of bibliographic records." />
+        <meta itemprop="definition" content="To locate either a single entity or a set of entities in a file or database as the result of a search using an attribute or relationship of the entity." />
+        <link itemprop="inScheme" href="http://iflastandards.info/ns/fr/frbr/frbrer/frbrerusertask" />
+      </div>
+      <div itemprop="hasTopConcept" itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://iflastandards.info/ns/fr/frbr/frbrer/frbrerusertask#T1004" itemscope>
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/1235" />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+        <meta itemprop="definition" content="To acquire an entity through purchase, loan, etc., or to access an entity electronically through an online connection to a remote computer." />
+        <link itemprop="topConceptOf" href="http://iflastandards.info/ns/fr/frbr/frbrer/frbrerusertask" />
+        <meta itemprop="scopeNote" content="Includes only entities of interest to users of bibliographic records." />
+        <link itemprop="inScheme" href="http://iflastandards.info/ns/fr/frbr/frbrer/frbrerusertask" />
+        <meta itemprop="prefLabel" content="obtain" />
+      </div>
+      <meta itemprop="http://purl.org/dc/elements/1.1/title" content="FRBRer User Tasks" />
+      <link itemprop="hasTopConcept" href="http://iflastandards.info/ns/fr/frbr/frbrer/frbrerusertask#T1002" />
+    </div>
+    <div itemprop="http://metadataregistry.org/uri/profile/regap/status" itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://metadataregistry.org/uri/RegStatus/1001" itemscope>
+      <meta itemprop="prefLabel" content="Published" />
+    </div>
+    <link itemprop="topConceptOf" href="http://iflastandards.info/ns/fr/frbr/frbrer/frbrerusertask" />
+    <meta itemprop="prefLabel" content="identify" />
+    <meta itemprop="scopeNote" content="Includes only entities of interest to users of bibliographic records." />
+  </div>
+</div>
