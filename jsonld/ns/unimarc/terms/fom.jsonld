@@ -23,82 +23,82 @@
                 {
                     "code": "ar",
                     "lang": "Arabic",
-                    "version": "Release 1"
+                    "version": "UNIMARC 1.0"
                 },
                 {
                     "code": "cs",
                     "lang": "Czech",
-                    "version": "Release 1"
+                    "version": "UNIMARC 1.0"
                 },
                 {
                     "code": "de",
                     "lang": "German",
-                    "version": "Release 1"
+                    "version": "UNIMARC 1.0"
                 },
                 {
                     "code": "el",
                     "lang": "Greek",
-                    "version": "Release 1"
+                    "version": "UNIMARC 1.0"
                 },
                 {
                     "code": "en",
                     "lang": "English",
-                    "version": "Release 1"
+                    "version": "UNIMARC 1.0"
                 },
                 {
                     "code": "es",
                     "lang": "Spanish",
-                    "version": "Release 1"
+                    "version": "UNIMARC 1.0"
                 },
                 {
                     "code": "eu",
                     "lang": "Basque",
-                    "version": "Release 1"
+                    "version": "UNIMARC 1.0"
                 },
                 {
                     "code": "fr",
                     "lang": "French",
-                    "version": "Release 1"
+                    "version": "UNIMARC 1.0"
                 },
                 {
                     "code": "hu",
                     "lang": "Hungarian",
-                    "version": "Release 1"
+                    "version": "UNIMARC 1.0"
                 },
                 {
                     "code": "it",
                     "lang": "Italian",
-                    "version": "Release 1"
+                    "version": "UNIMARC 1.0"
                 },
                 {
                     "code": "ja",
                     "lang": "Japanese",
-                    "version": "Release 1"
+                    "version": "UNIMARC 1.0"
                 },
                 {
                     "code": "la",
                     "lang": "Latin",
-                    "version": "Release 1"
+                    "version": "UNIMARC 1.0"
                 },
                 {
                     "code": "no",
                     "lang": "Norwegian",
-                    "version": "Release 1"
+                    "version": "UNIMARC 1.0"
                 },
                 {
                     "code": "pl",
                     "lang": "Polish",
-                    "version": "Release 1"
+                    "version": "UNIMARC 1.0"
                 },
                 {
                     "code": "pt",
                     "lang": "Portuguese",
-                    "version": "Release 1"
+                    "version": "UNIMARC 1.0"
                 },
                 {
                     "code": "ro",
                     "lang": "Romanian",
-                    "version": "Release 1"
+                    "version": "UNIMARC 1.0"
                 },
                 {
                     "code": "ru",
@@ -108,10 +108,10 @@
                 {
                     "code": "sv",
                     "lang": "Swedish",
-                    "version": "Release 1"
+                    "version": "UNIMARC 1.0"
                 }
             ],
-            "dateOfPublication": "January 11, 2020"
+            "dateOfPublication": "January 31, 2020"
         },
         {
             "@id": "http://iflastandards.info/ns/unimarc/terms/fom/abs",

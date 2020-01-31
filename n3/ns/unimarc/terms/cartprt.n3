@@ -1,28 +1,171 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix reg: <http://metadataregistry.org/uri/profile/regap/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<html><head>
-<meta http-equiv="content-type" content="text/html;charset=utf-8">
-<title>503 Over Quota</title>
-<style><!--
-body {font-family: arial,sans-serif}
-div.nav {margin-top: 1ex}
-div.nav A {font-size: 10pt; font-family: arial,sans-serif}
-span.nav {font-size: 10pt; font-family: arial,sans-serif; font-weight: bold}
-div.nav A,span.big {font-size: 12pt; color: #0000cc}
-div.nav A {font-size: 10pt; color: black}
-A.l:link {color: #6f6f6f}
-A.u:link {color: green}
-//--></style>
+<http://iflastandards.info/ns/unimarc/terms/cartprt#aa> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7617> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/cartprt#> ;
+    skos:notation "aa"@en ;
+    skos:prefLabel "anaglyphic"@en .
 
-</head>
-<body text=#000000 bgcolor=#ffffff>
-<table border=0 cellpadding=2 cellspacing=0 width=100%>
-<tr><td bgcolor=#3366cc><font face=arial,sans-serif color=#ffffff><b>Error</b></td></tr>
-<tr><td>&nbsp;</td></tr></table>
-<blockquote>
-<H1>Over Quota</H1>
-This application is temporarily over its serving quota.  Please try again later.
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ab> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7618> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/cartprt#> ;
+    skos:notation "ab"@en ;
+    skos:prefLabel "polarized"@en .
 
-<p>
-</blockquote>
-<table width=100% cellpadding=0 cellspacing=0><tr><td bgcolor=#3366cc><img alt="" width=1 height=4></td></tr></table>
-</body></html>
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ac> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7619> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/cartprt#> ;
+    skos:notation "ac"@en ;
+    skos:prefLabel "planimetric"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ad> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7620> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/cartprt#> ;
+    skos:notation "ad"@en ;
+    skos:prefLabel "diagram map"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ae> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7621> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/cartprt#> ;
+    skos:notation "ae"@en ;
+    skos:prefLabel "flowline map, flow map"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/cartprt#af> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7622> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/cartprt#> ;
+    skos:notation "af"@en ;
+    skos:prefLabel "dot map"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ag> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7623> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:altLabel "cartogram map"@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/cartprt#> ;
+    skos:notation "ag"@en ;
+    skos:prefLabel "diagrammatric map"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ah> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7624> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/cartprt#> ;
+    skos:notation "ah"@en ;
+    skos:prefLabel "choropleth"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ai> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7625> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/cartprt#> ;
+    skos:notation "ai"@en ;
+    skos:prefLabel "chorochromatic"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/cartprt#aj> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7626> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/cartprt#> ;
+    skos:notation "aj"@en ;
+    skos:prefLabel "dasymetric"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ak> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7627> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/cartprt#> ;
+    skos:notation "ak"@en ;
+    skos:prefLabel "isopleth"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/cartprt#am> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7628> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/cartprt#> ;
+    skos:notation "am"@en ;
+    skos:prefLabel "anamorphic"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/cartprt#an> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7629> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/cartprt#> ;
+    skos:notation "an"@en ;
+    skos:prefLabel "pictorial map"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ao> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7630> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/cartprt#> ;
+    skos:notation "ao"@en ;
+    skos:prefLabel "spatial model on two dimensional surface"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ap> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7631> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/cartprt#> ;
+    skos:notation "ap"@en ;
+    skos:prefLabel "mental or cognitive map"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/cartprt#aq> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7632> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/cartprt#> ;
+    skos:notation "aq"@en ;
+    skos:prefLabel "views with horizon showing"@en ;
+    skos:scopeNote "Includes bird's eye views and panoramas."@en .
+
+<http://iflastandards.info/ns/unimarc/terms/cartprt#ar> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7633> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/cartprt#> ;
+    skos:notation "ar"@en ;
+    skos:prefLabel "views without horizon showing"@en ;
+    skos:scopeNote "Includes bird's eye views and panoramas."@en .
+
+<http://iflastandards.info/ns/unimarc/terms/cartprt#as> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7634> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/cartprt#> ;
+    skos:notation "as"@en ;
+    skos:prefLabel "map view"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/cartprt#da> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7635> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/cartprt#> ;
+    skos:notation "da"@en ;
+    skos:prefLabel "picto map"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/cartprt#db> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7636> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/cartprt#> ;
+    skos:notation "db"@en ;
+    skos:prefLabel "random dot map"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/cartprt#dc> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7637> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/cartprt#> ;
+    skos:notation "dc"@en ;
+    skos:prefLabel "screened"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/cartprt#dd> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7638> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/cartprt#> ;
+    skos:notation "dd"@en ;
+    skos:prefLabel "not screened"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/cartprt#> a skos:ConceptScheme ;
+    dc:title "UNIMARC: Cartographic materials: Presentation technique" .
+
+<http://metadataregistry.org/uri/RegStatus/1001> a skos:Concept ;
+    skos:prefLabel "Published"@en .
+

@@ -1,28 +1,1896 @@
-
-<html><head>
-<meta http-equiv="content-type" content="text/html;charset=utf-8">
-<title>503 Over Quota</title>
-<style><!--
-body {font-family: arial,sans-serif}
-div.nav {margin-top: 1ex}
-div.nav A {font-size: 10pt; font-family: arial,sans-serif}
-span.nav {font-size: 10pt; font-family: arial,sans-serif; font-weight: bold}
-div.nav A,span.big {font-size: 12pt; color: #0000cc}
-div.nav A {font-size: 10pt; color: black}
-A.l:link {color: #6f6f6f}
-A.u:link {color: green}
-//--></style>
-
-</head>
-<body text=#000000 bgcolor=#ffffff>
-<table border=0 cellpadding=2 cellspacing=0 width=100%>
-<tr><td bgcolor=#3366cc><font face=arial,sans-serif color=#ffffff><b>Error</b></td></tr>
-<tr><td>&nbsp;</td></tr></table>
-<blockquote>
-<H1>Over Quota</H1>
-This application is temporarily over its serving quota.  Please try again later.
-
-<p>
-</blockquote>
-<table width=100% cellpadding=0 cellspacing=0><tr><td bgcolor=#3366cc><img alt="" width=1 height=4></td></tr></table>
-</body></html>
+{
+  "http://iflastandards.info/ns/isbd/terms/contentform/T1005": {
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "zh", 
+        "type": "literal", 
+        "value": "实物"
+      }, 
+      {
+        "lang": "lv", 
+        "type": "literal", 
+        "value": "objekts"
+      }, 
+      {
+        "lang": "fr", 
+        "type": "literal", 
+        "value": "objet"
+      }, 
+      {
+        "lang": "it", 
+        "type": "literal", 
+        "value": "oggetto"
+      }, 
+      {
+        "lang": "es", 
+        "type": "literal", 
+        "value": "objeto"
+      }, 
+      {
+        "lang": "hr", 
+        "type": "literal", 
+        "value": "objekt"
+      }, 
+      {
+        "lang": "sr", 
+        "type": "literal", 
+        "value": "objekat"
+      }, 
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "object"
+      }, 
+      {
+        "lang": "bg", 
+        "type": "literal", 
+        "value": "предмет"
+      }, 
+      {
+        "lang": "ru", 
+        "type": "literal", 
+        "value": "объект"
+      }
+    ], 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "lang": "zh", 
+        "type": "literal", 
+        "value": "通过三维材料（或者是自然出现的实体，或者是人造/机器制造的物品）表示的内容。"
+      }, 
+      {
+        "lang": "sr", 
+        "type": "literal", 
+        "value": "Sadržaj izražen pomoću trodimenzionalne građe, bilo da su to prirodni entiteti ili artefakta koja je napravio čovek ili proizvela mašina."
+      }, 
+      {
+        "lang": "ru", 
+        "type": "literal", 
+        "value": "Содержание, выраженное посредством трехмерного материала, как природные образования, так и сделанные человеком/ выполненные машиной артефакты."
+      }, 
+      {
+        "lang": "fr", 
+        "type": "literal", 
+        "value": "Contenu exprimé sous la forme d’entités naturelles ou d’artefacts fabriqués manuellement ou mécaniquement."
+      }, 
+      {
+        "lang": "it", 
+        "type": "literal", 
+        "value": "Un contenuto espresso sia mediante cose e organismi naturali, sia mediante prodotti realizzati dall’uomo o dalla macchina."
+      }, 
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Content expressed through three-dimensional material, either naturally occurring entities, or human-made/machine-manufactured artefacts."
+      }, 
+      {
+        "lang": "lv", 
+        "type": "literal", 
+        "value": "Saturs, izteikts trīsdimensiju materiālā, vai nu dabiski veidotas entītijas vai cilvēka radīti/ar mašīnu apstrādāti artefakti."
+      }, 
+      {
+        "lang": "bg", 
+        "type": "literal", 
+        "value": "Съдържание, изразено чрез триизмерен материал, което може да бъде както природен обект, така и създаден от човек или произведен от машина артефакт."
+      }, 
+      {
+        "lang": "es", 
+        "type": "literal", 
+        "value": "Contenido expresado a través de material tridimensional, ya sean entidades de origen natural o artefactos creados a mano o fabricados a máquina."
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "lang": "fr", 
+        "type": "literal", 
+        "value": "Également identifiés par des expressions telles que structures tridimensionnelles ou realia, les artefacts comprennent : sculptures, maquettes, jeux, monnaies, jouets, bâtiments, équipement, habillement, objets culturels et autres ; les objets naturels comprennent : fossiles, cailloux, insectes, spécimens biologiques sur lame, etc. ; les objets cartographiques comprennent : globes, maquettes et coupes transversales prévues pour être regardées en trois dimensions mais non les cartes en relief."
+      }, 
+      {
+        "lang": "es", 
+        "type": "literal", 
+        "value": "También conocidos como estructuras tridimensionales o realia, como ejemplos de artefactos se incluyen esculturas, modelos, juegos, rompecabezas, monedas, juguetes, edificios, equipos, ropa, objetos culturales y otros artículos. Las entidades de origen natural son, entre otras, fósiles, rocas, insectos, muestras biológicas en diapositivas, etc. Como objetos cartográficos se incluyen globos, modelos en relieve y las secciones transversales destinadas a verse de lado en forma tridimensional."
+      }, 
+      {
+        "lang": "zh", 
+        "type": "literal", 
+        "value": "也称为为三维结构或三维实物，人工物品例如雕塑、模型、游戏、拼图、硬币、玩具、建筑、设备、衣物、文物等。自然出现的实体例如化石、岩石、昆虫、生物样品幻灯片等。地图资料实物包括三维形式的球仪、地形模型以及用于从侧面观看的横截面。"
+      }, 
+      {
+        "lang": "it", 
+        "type": "literal", 
+        "value": "Gli esempi, che comprendono anche le strutture tridimensionali o realia, includono le sculture, i modelli, i giochi, le monete, i giocattoli, le costruzioni, le attrezzature, i capi di vestiario, i manufatti e altri articoli. Le cose e gli organismi naturali includono i fossili, le rocce, gli insetti, i campioni biologici su vetrino, etc.; gli oggetti cartografici includono i globi, i modelli in rilievo e le sezioni trasversali a vista laterale tridimensionale diverse dalle carte geografiche in rilievo."
+      }, 
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Also referred to as three-dimensional structures or realia, examples of artefacts include sculpture, models, games, jigsaw puzzles, coins, toys, buildings, equipment, clothing, cultural, and other items. Naturally occurring entities include fossils, rocks, insects, biological specimens on slides, etc. Cartographic objects include globes, relief models, and cross-sections intended to be viewed from the side in three-dimensional form, but not raised relief maps."
+      }, 
+      {
+        "lang": "bg", 
+        "type": "literal", 
+        "value": "Артефакти са и триизмерни структури или реалии и включват скулптури, модели, игри, пъзели, монети, играчки, сгради, съоръжения, облекло, предмети на културата и др. Природните обекти включват изкопаеми, скали, насекоми, биологични образци на слайдове и др. Картографските обекти включват глобуси, релефни модели и напречни разрези, предназначени за гледане отстрани в триизмерен формат."
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentform"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/1204"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentform"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/isbd/terms/contentform/T1004": {
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "hr", 
+        "type": "literal", 
+        "value": "glazba"
+      }, 
+      {
+        "lang": "zh", 
+        "type": "literal", 
+        "value": "音乐"
+      }, 
+      {
+        "lang": "lv", 
+        "type": "literal", 
+        "value": "mūzika"
+      }, 
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "music"
+      }, 
+      {
+        "lang": "it", 
+        "type": "literal", 
+        "value": "musica"
+      }, 
+      {
+        "lang": "es", 
+        "type": "literal", 
+        "value": "música"
+      }, 
+      {
+        "lang": "fr", 
+        "type": "literal", 
+        "value": "musique"
+      }, 
+      {
+        "lang": "ru", 
+        "type": "literal", 
+        "value": "музыка"
+      }, 
+      {
+        "lang": "sr", 
+        "type": "literal", 
+        "value": "muzika"
+      }, 
+      {
+        "lang": "bg", 
+        "type": "literal", 
+        "value": "музика"
+      }
+    ], 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "lang": "zh", 
+        "type": "literal", 
+        "value": "通过有序的音调或声音，以前后相继方式、以组合方式和以时间关系表示的内容，用以产生出一部作品。音乐可以是书写的（乐谱）、演出的、或者被记录成模拟的或数字的格式，可以是有节奏、旋律或和声的人声、乐器或者机械声音。"
+      }, 
+      {
+        "lang": "sr", 
+        "type": "literal", 
+        "value": "Sadržaj izražen pomoću kombinovanih tonova ili zvukova poređanih u određenom redosledu i u određenim vremenskim odnosima kako bi produkovali kompoziciju. Muzika može da bude pisana (notacija), izvedena ili snimljena u analognim ili digitalnim oblicima kao vokalni, instrumentalni ili mehanički zvukovi koji imaju ritam, melodiju ili harmoniju."
+      }, 
+      {
+        "lang": "lv", 
+        "type": "literal", 
+        "value": "Saturs, izteikts ar toņu vai skaņu secības palīdzību, kombinācijā un īslaicīgās attiecībās, lai radītu kompozīciju. Mūzika var tikt pierakstīta (notis), izpildīta vai ierakstīta analogā vai digitālā formātā kā balss, instrumentālas vai mehāniskas skaņas, kam piemīt ritms, melodija vai harmonija."
+      }, 
+      {
+        "lang": "fr", 
+        "type": "literal", 
+        "value": "Contenu exprimé sous la forme de notes ordonnées ou de sons successifs, combinés entre eux ou reliés dans le temps pour produire une composition ; la musique peut être écrite (notation musicale), interprétée ou enregistrée dans des formats analogiques ou numériques sous une forme vocale, instrumentale ou sous la forme de sons mécaniques ayant rythme, mélodie ou harmonie."
+      }, 
+      {
+        "lang": "es", 
+        "type": "literal", 
+        "value": "Contenido expresado a través de tonos o sonidos ordenados en sucesión, en combinación y en relaciones temporales para producir una composición. La música puede ser escrita (notación), interpretada o grabada en formatos analógico o digital, como sonidos vocales, instrumentales o mecánicos con ritmo, melodía o armonía."
+      }, 
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Content expressed through ordered tones or sounds in succession, in combination, and in temporal relationships to produce a composition. Music can be written (notation), performed, or recorded in analogue or digital formats as vocal, instrumental, or mechanical sounds having rhythm, melody, or harmony."
+      }, 
+      {
+        "lang": "ru", 
+        "type": "literal", 
+        "value": "Содержание, выраженное посредством упорядоченных тонов и звуков в последовательности, в сочетании и во временном взаимоотношении, чтобы воспроизвести композицию. Музыка может быть записанной с помощью знаков (ноты), исполняемой либо записанной в аналоговом или цифровом форматах в виде вокальных, инструментальных или механических звуков, обладающих ритмом, мелодией или гармонией."
+      }, 
+      {
+        "lang": "it", 
+        "type": "literal", 
+        "value": "Un contenuto espresso mediante toni o suoni ordinati in successione, in combinazione e in relazione temporale, in modo da produrre una composizione; la musica può essere scritta (notazione), eseguita, o registrata in forma analogica o digitale, consistendo in suoni vocali, strumentali o meccanici dotati di ritmo, melodia, o armonia."
+      }, 
+      {
+        "lang": "bg", 
+        "type": "literal", 
+        "value": "Съдържание, изразено чрез тонове или звуци, подредени в последователност, съчетание и временни взаимовръзки, за да се получи композиция. Музиката може да бъде нотирана, изпълнявана или записана в аналогов или дигитален формат като вокални, инструментални или механични звуци с ритъм, мелодия или хармония."
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "lang": "bg", 
+        "type": "literal", 
+        "value": "Примерите включват нотирана музика (партитури или партии) и музикални звукозаписи (концертни изпълнения, опери и студийни записи)."
+      }, 
+      {
+        "lang": "sr", 
+        "type": "literal", 
+        "value": "Primeri za to su napisana muzika, kao što su deonice ili partiture, snimljena muzika, kao što su izvođenje koncerata, opera i studijsko snimanje."
+      }, 
+      {
+        "lang": "lv", 
+        "type": "literal", 
+        "value": "Piemēri ietver notis, kā piem., partitūras un partijas, un mūzikas ierakstus, kā piem., koncerti, operas un studiju ieraksti."
+      }, 
+      {
+        "lang": "es", 
+        "type": "literal", 
+        "value": "Como ejemplos se incluyen la música escrita, como las partituras o partes y la música grabada, como los conciertos, ópera y grabaciones de estudio."
+      }, 
+      {
+        "lang": "zh", 
+        "type": "literal", 
+        "value": "例如总谱或分谱等书写的音乐以及音乐会演奏、歌剧和录音棚录音等录制的音乐。"
+      }, 
+      {
+        "lang": "it", 
+        "type": "literal", 
+        "value": "Gli esempi includono la musica scritta, come le partiture o le parti, e la musica registrata, come le esecuzioni in forma di concerto, l’opera, e le registrazioni in studio."
+      }, 
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Examples include written music, such as scores or parts, and recorded music, such as concert performances, opera, and studio recordings."
+      }, 
+      {
+        "lang": "fr", 
+        "type": "literal", 
+        "value": "Par exemple, la musique écrite, telle que partitions ou parties et la musique enregistrée, telle que concerts, opéra et enregistrements en studio."
+      }, 
+      {
+        "lang": "ru", 
+        "type": "literal", 
+        "value": "Примеры включают ноты, например, партитуры и партии, а также музыкальные звукозаписи, например, концерты, оперы и студийные записи."
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentform"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/1203"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentform"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/isbd/terms/contentform/T1010": {
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "lv", 
+        "type": "literal", 
+        "value": "salikta satura formas"
+      }, 
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "multiple content forms"
+      }, 
+      {
+        "lang": "zh", 
+        "type": "literal", 
+        "value": "多内容形式"
+      }, 
+      {
+        "lang": "es", 
+        "type": "literal", 
+        "value": "múltiples formas del contenido"
+      }, 
+      {
+        "lang": "fr", 
+        "type": "literal", 
+        "value": "multimédia"
+      }, 
+      {
+        "lang": "bg", 
+        "type": "literal", 
+        "value": "различни форми на съдържанието"
+      }, 
+      {
+        "lang": "ru", 
+        "type": "literal", 
+        "value": "разные формы содержания"
+      }, 
+      {
+        "lang": "hr", 
+        "type": "literal", 
+        "value": "viševrsni oblici sadržaja"
+      }, 
+      {
+        "lang": "sr", 
+        "type": "literal", 
+        "value": "viševrsni oblik"
+      }, 
+      {
+        "lang": "it", 
+        "type": "literal", 
+        "value": "forme di contenuto multiple"
+      }
+    ], 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Mixed content where three or more forms are applicable."
+      }, 
+      {
+        "lang": "es", 
+        "type": "literal", 
+        "value": "Contenido mixto en el que se aplican tres o más formas."
+      }, 
+      {
+        "lang": "it", 
+        "type": "literal", 
+        "value": "Un contenuto misto al quale si applicano tre o più forme."
+      }, 
+      {
+        "lang": "ru", 
+        "type": "literal", 
+        "value": "Смешанное содержание, когда применимы три или более терминов формы."
+      }, 
+      {
+        "lang": "lv", 
+        "type": "literal", 
+        "value": "Jaukts saturs, kurā lietojamas trīs vai vairākas formas."
+      }, 
+      {
+        "lang": "bg", 
+        "type": "literal", 
+        "value": "Смесено съдържание, към което са приложими три или повече форми."
+      }, 
+      {
+        "lang": "zh", 
+        "type": "literal", 
+        "value": "在三种或更多种形式适用时的混合内容。"
+      }, 
+      {
+        "lang": "sr", 
+        "type": "literal", 
+        "value": "Kombinovani sadržaj koga mogu da čine\ntri ili više oblika."
+      }, 
+      {
+        "lang": "fr", 
+        "type": "literal", 
+        "value": "Contenu mixte auquel s’appliquent au moins trois formes du contenu."
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentform"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/1209"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentform"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/isbd/terms/contentform/T1011": {
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "hr", 
+        "type": "literal", 
+        "value": "drugi oblik sadržaja"
+      }, 
+      {
+        "lang": "zh", 
+        "type": "literal", 
+        "value": "其他内容形式"
+      }, 
+      {
+        "lang": "es", 
+        "type": "literal", 
+        "value": "otra forma del contenido"
+      }, 
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "other content form"
+      }, 
+      {
+        "lang": "sr", 
+        "type": "literal", 
+        "value": "drugi oblik sadržaja"
+      }, 
+      {
+        "lang": "it", 
+        "type": "literal", 
+        "value": "altra forma di contenuto"
+      }, 
+      {
+        "lang": "bg", 
+        "type": "literal", 
+        "value": "друга форма на съдържанието"
+      }, 
+      {
+        "lang": "fr", 
+        "type": "literal", 
+        "value": "forme du contenu non définie"
+      }, 
+      {
+        "lang": "lv", 
+        "type": "literal", 
+        "value": "satura cita forma"
+      }, 
+      {
+        "lang": "ru", 
+        "type": "literal", 
+        "value": "другая форма содержания"
+      }
+    ], 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "lang": "es", 
+        "type": "literal", 
+        "value": "Contenido expresado en una forma diferente a la de conjunto de datos, imagen, movimiento, música, objeto, programa, sonidos, palabra hablada, texto o múltiples formas del contenido."
+      }, 
+      {
+        "lang": "it", 
+        "type": "literal", 
+        "value": "Contenuto espresso mediante una  forma diversa da dataset, immagine, movimento, musica, oggetto, programma, suoni, parlato, testo, o  da forme di contenuto multiple."
+      }, 
+      {
+        "lang": "fr", 
+        "type": "literal", 
+        "value": "Contenu exprimé sous une forme autre que : données, image, mouvement, musique, objet, programme, son, parole énoncée, texte ou multimédia."
+      }, 
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Content expressed in a form other than dataset, image, movement, music, object, program, sounds, spoken word, or text, or in multiple content forms."
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentform"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/1210"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentform"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/isbd/terms/contentform/T1001": {
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "dataset"
+      }, 
+      {
+        "lang": "hr", 
+        "type": "literal", 
+        "value": "skup podataka"
+      }, 
+      {
+        "lang": "bg", 
+        "type": "literal", 
+        "value": "набор от данни"
+      }, 
+      {
+        "lang": "zh", 
+        "type": "literal", 
+        "value": "数据集"
+      }, 
+      {
+        "lang": "fr", 
+        "type": "literal", 
+        "value": "données"
+      }, 
+      {
+        "lang": "es", 
+        "type": "literal", 
+        "value": "Ejemplos son los datos numéricos, datos medioambientales, etc., utilizados por las aplicaciones de software para el cálculo de promedios, correlaciones, etc., o para producir modelos, etc., pero normalmente no se muestran en su forma pura. Se excluyen las grabaciones digitales de música, la lengua, sonidos, imágenes reproducidas por ordenador y texto."
+      }, 
+      {
+        "lang": "it", 
+        "type": "literal", 
+        "value": "dataset"
+      }, 
+      {
+        "lang": "ru", 
+        "type": "literal", 
+        "value": "электронные данные"
+      }, 
+      {
+        "lang": "lv", 
+        "type": "literal", 
+        "value": "datu kopa"
+      }, 
+      {
+        "lang": "es", 
+        "type": "literal", 
+        "value": "conjunto de datos"
+      }, 
+      {
+        "lang": "sr", 
+        "type": "literal", 
+        "value": "skup podataka"
+      }
+    ], 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "lang": "lv", 
+        "type": "literal", 
+        "value": "Saturs, izteikts ar digitāli kodētiem datiem, kas paredzēti\napstrādei datoros."
+      }, 
+      {
+        "lang": "ru", 
+        "type": "literal", 
+        "value": "Содержание, выраженное посредством данных в цифровой кодировке, предназначенных для компьютерной обработки."
+      }, 
+      {
+        "lang": "zh", 
+        "type": "literal", 
+        "value": "用于计算机处理的数字编码数据表示的内容。"
+      }, 
+      {
+        "lang": "it", 
+        "type": "literal", 
+        "value": "Un contenuto espresso mediante dati codificati in forma digitale, destinati all’elaborazione via computer."
+      }, 
+      {
+        "lang": "es", 
+        "type": "literal", 
+        "value": "Contenido expresado por datos codificados digitalmente para que sean procesados por un ordenador."
+      }, 
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Content expressed by digitally-encoded data intended to be processed by a computer."
+      }, 
+      {
+        "lang": "bg", 
+        "type": "literal", 
+        "value": "Съдържание, изразено с цифрово кодирани данни, предназначени за компютърна обработка."
+      }, 
+      {
+        "lang": "sr", 
+        "type": "literal", 
+        "value": "Sadržaj izražen digitalno kodiranim podacima predviđenim za obradu posredstvom računara."
+      }, 
+      {
+        "lang": "fr", 
+        "type": "literal", 
+        "value": "Contenu exprimé sous la forme de données encodées de manière numérique prévues pour être traitées par un ordinateur."
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "lang": "lv", 
+        "type": "literal", 
+        "value": "Piemēri ietver skaitliskos datus, vides datus, u.c., izmantošanai programmatūrām, lai aprēķinātu vidējos rādītājus, korelāciju, utt., vai modeļu radīšanai, utt., bet parasti nav attēloti to neapstrādātajā formā. Neietver digitāli ierakstītu mūziku, valodu, skaņas, ar datoru reproducētus attēlus un tekstu."
+      }, 
+      {
+        "lang": "fr", 
+        "type": "literal", 
+        "value": "Par exemple, des données numériques, des données environnementales, etc. utilisées par des logiciels d’application pour calculer des moyennes, des corrélations, etc. ou bien pour produire des modèles, etc., mais qui ne sont normalement pas prévues pour être affichées sous leur forme brute. En sont exclus : la musique enregistrée sous forme numérique, le langage, les sons, les images numériques  et le texte."
+      }, 
+      {
+        "lang": "ru", 
+        "type": "literal", 
+        "value": "Примеры включают числовые данные, данные о природных явлениях и т. п., используемые компьютерными программами для вычисления средних значений, взаимосвязей и т.п., или для построения моделей, и т. п., но, как правило, не предназначенные для вывода в необработанном виде. Не включают ни цифровую музыкальную звукозапись (см. музыка), ни речь (см. устная речь), ни другие звуки (см. звуки), ни воспроизводимые компьютером изображения (см. изображения), ни текстовой материал (см. текст)."
+      }, 
+      {
+        "lang": "it", 
+        "type": "literal", 
+        "value": "Gli esempi includono i dati numerici, i dati ambientali, etc., che si usano nelle applicazioni software per calcolare medie matematiche, correlazioni, etc., o per produrre modelli, etc., ma che non si visualizzano normalmente in forma grezza. Si escludono la musica registrata in forma digitale, il linguaggio, i suoni, le immagini riprodotte al computer e i testi."
+      }, 
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Examples include numeric data, environmental data, etc., used by applications software to calculate averages, correlations, etc., or to produce models, etc., but not normally displayed in its raw form. Excluded are digitally recorded music, language, sounds, computer-reproduced images and text."
+      }, 
+      {
+        "lang": "bg", 
+        "type": "literal", 
+        "value": "Примерите включват цифрови данни, данни за околната среда и др., използвани от компютърни приложения за изчисляване на средни стойности, корелации и др. или за създаване на модели, които обаче обикновено не се представят в суров вид. Не се включват цифрови музикални записи, реч, звуци, изображения, възпроизвеждани чрез компютър и текст."
+      }, 
+      {
+        "lang": "sr", 
+        "type": "literal", 
+        "value": "Takvi primeri su numerički podaci, ekološki podaci i slično, koje koriste računarski programi za izračunavanje prosečnih vrednosti, korelacije i drugo, ili za stvaranje modela i slično, ali, po pravilu, ne i za njihovo prikazivanje u izvornom obliku. Isključuje digitalno zabeleženu muziku, jezik, zvukove, računarski reprodukovane slike i tekst."
+      }, 
+      {
+        "lang": "es", 
+        "type": "literal", 
+        "value": "Ejemplos son los datos numéricos, datos medioambientales, etc., utilizados por las aplicaciones de software para el cálculo de promedios, correlaciones, etc., o para producir modelos, etc., pero normalmente no se muestran en su forma pura. Se excluyen las grabaciones digitales de música, la lengua, sonidos, imágenes reproducidas por ordenador y texto."
+      }, 
+      {
+        "lang": "zh", 
+        "type": "literal", 
+        "value": "例如数值数据、环境数据等被应用软件用来计算平均数、相关度等或者生成模型等，它们一般不以其原始形式进行显示。不包括以数字方式记录的音乐[见 音乐]、语言[见 言谈]、声音[见 声音]、计算机制作的图像[见 图像]和文字资料[见 文字资料]。"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentform"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/1200"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentform"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/isbd/terms/contentform/T1003": {
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "es", 
+        "type": "literal", 
+        "value": "movimiento"
+      }, 
+      {
+        "lang": "it", 
+        "type": "literal", 
+        "value": "movimento"
+      }, 
+      {
+        "lang": "fr", 
+        "type": "literal", 
+        "value": "mouvement"
+      }, 
+      {
+        "lang": "zh", 
+        "type": "literal", 
+        "value": "运动"
+      }, 
+      {
+        "lang": "bg", 
+        "type": "literal", 
+        "value": "движение"
+      }, 
+      {
+        "lang": "hr", 
+        "type": "literal", 
+        "value": "pokret"
+      }, 
+      {
+        "lang": "ru", 
+        "type": "literal", 
+        "value": "движение"
+      }, 
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "movement"
+      }, 
+      {
+        "lang": "sr", 
+        "type": "literal", 
+        "value": "pokret"
+      }, 
+      {
+        "lang": "lv", 
+        "type": "literal", 
+        "value": "kustība"
+      }
+    ], 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "lang": "lv", 
+        "type": "literal", 
+        "value": "Saturs, izteikts ar kustību, t.i. objekta vai personas stāvokļa izmaiņas darbību vai procesu."
+      }, 
+      {
+        "lang": "it", 
+        "type": "literal", 
+        "value": "Un contenuto espresso mediante il moto, p.e. l’atto o il processo tramite il quale si cambia la posizione di un oggetto o di una persona."
+      }, 
+      {
+        "lang": "bg", 
+        "type": "literal", 
+        "value": "Съдържание, изразено чрез движение, т.е. действие или процес на промяна на местоположението на предмет или лице."
+      }, 
+      {
+        "lang": "ru", 
+        "type": "literal", 
+        "value": "Содержание, выраженное посредством движения, т.е. действия или процесса перемещения предмета или лица."
+      }, 
+      {
+        "lang": "fr", 
+        "type": "literal", 
+        "value": "Contenu exprimé sous la forme de mouvement, c’est-à-dire l’action ou le processus de changer la position d’un objet ou d’une personne."
+      }, 
+      {
+        "lang": "sr", 
+        "type": "literal", 
+        "value": "Sadržaj izražen pomoću kretanja to jest, postupak ili proces promene položaja objekta ili osobe."
+      }, 
+      {
+        "lang": "zh", 
+        "type": "literal", 
+        "value": "通过运动（即改变物体或人的位置的动作或过程）表示的内容。"
+      }, 
+      {
+        "lang": "es", 
+        "type": "literal", 
+        "value": "Contenido expresado a través del movimiento, es decir, el acto o proceso de cambio en la posición de un objeto o persona."
+      }, 
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Content expressed through motion, i.e. the act or process of changing the position of an object or person."
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "lang": "it", 
+        "type": "literal", 
+        "value": "Gli esempi includono la notazione della danza, l’azione scenica o la coreografia, ma escludono le immagini in movimento, come i film."
+      }, 
+      {
+        "lang": "bg", 
+        "type": "literal", 
+        "value": "Примерите включват танцопис, сценични действия или хореография, но изключват движещи се изображения като кинофилми."
+      }, 
+      {
+        "lang": "ru", 
+        "type": "literal", 
+        "value": "Примеры включают запись движений танца, сценических действий или хореографии, но не включают движущиеся изображения, такие как кинофильмы."
+      }, 
+      {
+        "lang": "fr", 
+        "type": "literal", 
+        "value": "Par exemple, une notation chorégraphique, des indications scéniques ou une chorégraphie. En sont exclues les images animées telles que les films cinématographiques."
+      }, 
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Examples include dance notation, stage actions, or choreography, but exclude moving images, such as motion pictures."
+      }, 
+      {
+        "lang": "sr", 
+        "type": "literal", 
+        "value": "Primeri za to su beleženje igre, scenskih pokreta ili koreografije, ali ne i pokretne slike, kao što su filmovi."
+      }, 
+      {
+        "lang": "zh", 
+        "type": "literal", 
+        "value": "例如舞谱、舞台动作、编舞，但是不包括电影等运动的图像。"
+      }, 
+      {
+        "lang": "es", 
+        "type": "literal", 
+        "value": "Como ejemplos se incluyen la notación de la danza, puesta en escena, o coreografía, pero se excluyen las imágenes en movimiento tales como películas."
+      }, 
+      {
+        "lang": "lv", 
+        "type": "literal", 
+        "value": "Piemēri ietver deju notāciju, inscenējumu vai horeogrāfiju, bet neietver kustīgus attēlus, tādus kā kinofilmas."
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentform"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/1202"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentform"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/isbd/terms/contentform/T1002": {
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "it", 
+        "type": "literal", 
+        "value": "immagine"
+      }, 
+      {
+        "lang": "fr", 
+        "type": "literal", 
+        "value": "image"
+      }, 
+      {
+        "lang": "hr", 
+        "type": "literal", 
+        "value": "slika"
+      }, 
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "image"
+      }, 
+      {
+        "lang": "bg", 
+        "type": "literal", 
+        "value": "изображение"
+      }, 
+      {
+        "lang": "es", 
+        "type": "literal", 
+        "value": "imagen"
+      }, 
+      {
+        "lang": "zh", 
+        "type": "literal", 
+        "value": "图像"
+      }, 
+      {
+        "lang": "ru", 
+        "type": "literal", 
+        "value": "изображение"
+      }, 
+      {
+        "lang": "sr", 
+        "type": "literal", 
+        "value": "slika"
+      }, 
+      {
+        "lang": "lv", 
+        "type": "literal", 
+        "value": "attēls"
+      }
+    ], 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "lang": "fr", 
+        "type": "literal", 
+        "value": "Contenu exprimé sous la forme de lignes, formes, ombrages, etc. ; une image peut être fixe ou animée, en deux ou trois dimensions."
+      }, 
+      {
+        "lang": "sr", 
+        "type": "literal", 
+        "value": "Sadržaj izražen linijom, oblikom, senčenjem i slično, namenjen vizuelnom doživljaju."
+      }, 
+      {
+        "lang": "zh", 
+        "type": "literal", 
+        "value": "用于视觉感知的、通过线条、形状、阴影等表示的内容。图像可以是静止的或运动的，可以是二维的或三维的。"
+      }, 
+      {
+        "lang": "it", 
+        "type": "literal", 
+        "value": "Un contenuto espresso mediante linee, forme, ombre, etc. Un’immagine può essere fissa o in movimento, a due o a tre dimensioni."
+      }, 
+      {
+        "lang": "es", 
+        "type": "literal", 
+        "value": "Contenido expresado a través de líneas, formas, sombras, etc. Una imagen puede ser fija o en movimiento, en dos o tres dimensiones."
+      }, 
+      {
+        "lang": "ru", 
+        "type": "literal", 
+        "value": "Содержание, выраженное линией, формой, штриховкой и т.п., предназначенное для зрительного восприятия. Изображение может быть неподвижным или движущимся, двухмерным или трехмерным."
+      }, 
+      {
+        "lang": "lv", 
+        "type": "literal", 
+        "value": "Saturs, izteikts ar līniju, kontūru, ēnojumu, utt., paredzēts vizuālai uztverei. Attēls var būt nekustīgs vai kustīgs, divdimensiju vai trīsdimensiju."
+      }, 
+      {
+        "lang": "bg", 
+        "type": "literal", 
+        "value": "Съдържание, изразено чрез линия, форма, щрих и др., предназначено за визуално възприемане. Изображението може да бъде неподвижно или движещо се, двуизмерно или триизмерно."
+      }, 
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Content expressed through line, shape, shading, etc. An image can be still or moving, in two or three dimensions."
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "lang": "zh", 
+        "type": "literal", 
+        "value": "例如艺术复制品、地图、照片、遥感影像、立体图、电影和版画。"
+      }, 
+      {
+        "lang": "lv", 
+        "type": "literal", 
+        "value": "Piemēri ietver mākslas darbu reprodukcijas, kartes, fotogrāfijas, tālizpētes attēlus, stenogrāfijas, kinofilmas un litogrāfijas."
+      }, 
+      {
+        "lang": "fr", 
+        "type": "literal", 
+        "value": "Par exemple, des reproductions d’art, des cartes, des cartes en relief, des photographies, des images de télédétection, des vues stéréoscopiques, des films cinématographiques et des lithographies."
+      }, 
+      {
+        "lang": "bg", 
+        "type": "literal", 
+        "value": "Примерите включват художествени репродукции, карти, фотографии, изображения, получени с дистанционно измерване, стереографи, кинофилми и литографии."
+      }, 
+      {
+        "lang": "sr", 
+        "type": "literal", 
+        "value": "Slika može da bude nepokretna i pokretna, dvodimenzionalna ili trodimenzionalna. Primeri za to su umetničke reprodukcije, karte, fotografije, slike dobijene daljinskom detekcijom, stereografije, filmovi i litografije."
+      }, 
+      {
+        "lang": "ru", 
+        "type": "literal", 
+        "value": "Примеры включают репродукции произведений искусства, карты, фотографии, дистанционные сенсорные изображения, стереографии, кинофильмы и литографии."
+      }, 
+      {
+        "lang": "es", 
+        "type": "literal", 
+        "value": "Como ejemplos se incluyen reproducciones de arte, mapas, fotografías, imágenes de teledetección, estereográficas, películas y litografías."
+      }, 
+      {
+        "lang": "it", 
+        "type": "literal", 
+        "value": "Gli esempi includono le riproduzioni d’arte, le carte geografiche, le carte geografiche in rilievo, le fotografie, le immagini di telerilevamento, gli stereogrammi, i film e le litografie."
+      }, 
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Examples include art reproductions, maps, raised relief maps, photographs, remote-sensing images, stereographs, motion pictures, and lithographs."
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentform"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/1201"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentform"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/isbd/terms/contentform/T1009": {
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentform"
+      }
+    ], 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "lang": "ru", 
+        "type": "literal", 
+        "value": "Содержание, выраженное посредством записанных слов, символов или чисел."
+      }, 
+      {
+        "lang": "lv", 
+        "type": "literal", 
+        "value": "Saturs, izteikts ar pierakstītiem vārdiem, simboliem un\ncipariem."
+      }, 
+      {
+        "lang": "bg", 
+        "type": "literal", 
+        "value": "Съдържание, изразено чрез записани думи, символи и цифри."
+      }, 
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Content expressed through written words, symbols and numbers."
+      }, 
+      {
+        "lang": "zh", 
+        "type": "literal", 
+        "value": "通过书写单词、符号和数字表示的内容。"
+      }, 
+      {
+        "lang": "fr", 
+        "type": "literal", 
+        "value": "Contenu exprimé sous la forme de mots écrits, de symboles et de chiffres."
+      }, 
+      {
+        "lang": "es", 
+        "type": "literal", 
+        "value": "Contenido expresado a través de palabras, símbolos y números escritos."
+      }, 
+      {
+        "lang": "it", 
+        "type": "literal", 
+        "value": "Un contenuto espresso mediante parole, simboli e numeri scritti."
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Examples include books (printed or electronic), correspondence, databases of journals, and microfilmed newspapers."
+      }, 
+      {
+        "lang": "lv", 
+        "type": "literal", 
+        "value": "Piemēri ietver grāmatas (iespiestās vai elektroniskās), saraksti, žurnālu datubāzes un mikrofilmētus laikrakstus."
+      }, 
+      {
+        "lang": "fr", 
+        "type": "literal", 
+        "value": "Par exemple, livres (imprimés ou électroniques), correspondances, bases de données de revues et journaux microfilmés."
+      }, 
+      {
+        "lang": "bg", 
+        "type": "literal", 
+        "value": "Примерите включват книги (печатни и електронни), кореспонденция, бази данни на списания и микрофилмирани вестници."
+      }, 
+      {
+        "lang": "ru", 
+        "type": "literal", 
+        "value": "Примеры включают книги (печатные и электронные), переписку, базы данных журналов и микрофильмированные газеты."
+      }, 
+      {
+        "lang": "es", 
+        "type": "literal", 
+        "value": "Como ejemplos se incluyen libros (impresos o electrónicos), correspondencia, bases de datos de revistas y periódicos microfilmados."
+      }, 
+      {
+        "lang": "it", 
+        "type": "literal", 
+        "value": "Gli esempi includono i libri (a stampa oppure elettronici), le corrispondenze, i database di periodici scientifici e i giornali in microfilm."
+      }, 
+      {
+        "lang": "zh", 
+        "type": "literal", 
+        "value": "例如图书（印刷的或电子的）、书信、期刊数据库、缩微复制的报纸等。"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentform"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/1208"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "text"
+      }, 
+      {
+        "lang": "lv", 
+        "type": "literal", 
+        "value": "teksts"
+      }, 
+      {
+        "lang": "hr", 
+        "type": "literal", 
+        "value": "tekst"
+      }, 
+      {
+        "lang": "it", 
+        "type": "literal", 
+        "value": "testo"
+      }, 
+      {
+        "lang": "bg", 
+        "type": "literal", 
+        "value": "текст"
+      }, 
+      {
+        "lang": "zh", 
+        "type": "literal", 
+        "value": "文字资料"
+      }, 
+      {
+        "lang": "fr", 
+        "type": "literal", 
+        "value": "texte"
+      }, 
+      {
+        "lang": "es", 
+        "type": "literal", 
+        "value": "texto"
+      }, 
+      {
+        "lang": "ru", 
+        "type": "literal", 
+        "value": "текст"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/isbd/terms/contentform/T1007": {
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "es", 
+        "type": "literal", 
+        "value": "sonidos"
+      }, 
+      {
+        "lang": "hr", 
+        "type": "literal", 
+        "value": "zvukovi"
+      }, 
+      {
+        "lang": "sr", 
+        "type": "literal", 
+        "value": "zvukovi"
+      }, 
+      {
+        "lang": "it", 
+        "type": "literal", 
+        "value": "suoni"
+      }, 
+      {
+        "lang": "bg", 
+        "type": "literal", 
+        "value": "звуци"
+      }, 
+      {
+        "lang": "lv", 
+        "type": "literal", 
+        "value": "skaņas"
+      }, 
+      {
+        "lang": "zh", 
+        "type": "literal", 
+        "value": "声音"
+      }, 
+      {
+        "lang": "ru", 
+        "type": "literal", 
+        "value": "эвуки"
+      }, 
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "sounds"
+      }, 
+      {
+        "lang": "fr", 
+        "type": "literal", 
+        "value": "son"
+      }
+    ], 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Content expressed through sounds made by animals, birds, naturally occurring sources of noise, or such sounds simulated by the human voice or digital (or analogue) media."
+      }, 
+      {
+        "lang": "it", 
+        "type": "literal", 
+        "value": "Un contenuto espresso mediante suoni prodotti da animali, uccelli, fonti sonore naturali, oppure mediante suoni simulati dalla voce umana o da strumenti digitali (o analogici)."
+      }, 
+      {
+        "lang": "ru", 
+        "type": "literal", 
+        "value": "Содержание, выраженное посредством звуков, производимых животными, птицами, природными источниками звуков, или подобные звуки, воспроизводимые человеческим голосом или электронными (либо аналоговыми) средствами."
+      }, 
+      {
+        "lang": "lv", 
+        "type": "literal", 
+        "value": "Saturs, izteikts ar skaņu starpniecību, ko rada dzīvnieki, putni, dabiski skaņu avoti vai tamlīdzīgas skaņas, ko rada cilvēks ar balsi vai ar digitāliem (vai analogiem) medijiem/datnešiem."
+      }, 
+      {
+        "lang": "zh", 
+        "type": "literal", 
+        "value": "通过动物、鸟、自然出现的噪声源或者由人声或数字（或模拟）媒体模仿的此类声音表示的内容。"
+      }, 
+      {
+        "lang": "bg", 
+        "type": "literal", 
+        "value": "Съдържание, изразено чрез звуци, произведени от животни, птици, естествени източници на шум или подобни звуци, уподобявани от човешки глас или от дигитално (или аналогово) средство."
+      }, 
+      {
+        "lang": "sr", 
+        "type": "literal", 
+        "value": "Sadržaj izražen zvukovima koje proizvode životinje, ptice, drugi izvori zvuka u prirodi ili takvim zvukovima koji se oponašaju ljudskim glasom ili digitalnim (ili analognim) medijem."
+      }, 
+      {
+        "lang": "es", 
+        "type": "literal", 
+        "value": "Contenido expresado a través de sonidos de animales, aves, ruidos de origen natural, o sonidos simulados por la voz humana o medio digital (o analógico)."
+      }, 
+      {
+        "lang": "fr", 
+        "type": "literal", 
+        "value": "Contenu exprimé sous la forme de sons émis par des animaux, des oiseaux, des sources sonores naturelles ou la simulation de ces sons produite par la voix humaine ou un média numérique (ou analogique)."
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "lang": "ru", 
+        "type": "literal", 
+        "value": "Примеры включают записи песен птиц, криков животных, шумовых эффектов, но не включают ни записанную музыку, ни записанную человеческую речь."
+      }, 
+      {
+        "lang": "it", 
+        "type": "literal", 
+        "value": "Gli esempi includono le registrazioni del canto degli uccelli, i richiami degli animali e gli effetti sonori, ma escludono la musica registrata e il linguaggio umano registrato."
+      }, 
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Examples include recordings of bird songs, animal calls, and sound effects, but exclude recorded music, and recorded human speech."
+      }, 
+      {
+        "lang": "es", 
+        "type": "literal", 
+        "value": "Como ejemplos se incluyen grabaciones de cantos de aves, reclamos de animales y efectos de sonido, pero se excluye la música grabada y grabaciones de voz humana."
+      }, 
+      {
+        "lang": "fr", 
+        "type": "literal", 
+        "value": "Par exemple, des enregistrements de chants d’oiseaux, des cris d’animaux et des effets sonores à l’exception des enregistrements de musique et des enregistrements de discours humain."
+      }, 
+      {
+        "lang": "lv", 
+        "type": "literal", 
+        "value": "Piemēri ietver putnu dziesmu ierakstus, dzīvnieku kliedzienus un trokšņu efektus, bet neietver ierakstītu mūziku un ierakstītu cilvēka runu."
+      }, 
+      {
+        "lang": "bg", 
+        "type": "literal", 
+        "value": "Примерите включват записи на птичи песни, животински звуци и звукови ефекти, но не включват музикални звукозаписи и записи на човешка реч."
+      }, 
+      {
+        "lang": "sr", 
+        "type": "literal", 
+        "value": "Takvi primeri su snimak pesme ptica, životinjski zov i zvučni efekti, ali ne i muzički snimci i govor ljudi."
+      }, 
+      {
+        "lang": "zh", 
+        "type": "literal", 
+        "value": "例如鸟鸣、动物嚎叫的录音和声音效果，但是不包括录制的音乐和录制的人类讲话。"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentform"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/1206"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentform"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/isbd/terms/contentform/T1008": {
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentform"
+      }
+    ], 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "lang": "it", 
+        "type": "literal", 
+        "value": "Un contenuto espresso mediante il suono della voce umana che parla."
+      }, 
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Content expressed through the sound of the human voice talking."
+      }, 
+      {
+        "lang": "sr", 
+        "type": "literal", 
+        "value": "Sadržaj izražen ljudskim govorom."
+      }, 
+      {
+        "lang": "fr", 
+        "type": "literal", 
+        "value": "Contenu exprimé sous la forme de mots prononcés par une voix humaine."
+      }, 
+      {
+        "lang": "bg", 
+        "type": "literal", 
+        "value": "Съдържание, изразено чрез звука от гласа на говорещ човек."
+      }, 
+      {
+        "lang": "lv", 
+        "type": "literal", 
+        "value": "Saturs, izteikts ar runājoša cilvēka balss skaņu."
+      }, 
+      {
+        "lang": "zh", 
+        "type": "literal", 
+        "value": "通过人声谈话的声音表示出来的内容。"
+      }, 
+      {
+        "lang": "ru", 
+        "type": "literal", 
+        "value": "Содержание, выраженное посредством звука голоса говорящего человека."
+      }, 
+      {
+        "lang": "es", 
+        "type": "literal", 
+        "value": "Contenido expresado a través del sonido de la voz humana al hablar."
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "lang": "es", 
+        "type": "literal", 
+        "value": "Como ejemplos se incluyen libros hablados, emisiones de radio, grabaciones de historia oral y grabaciones de audio de obras, ya sean grabaciones en formato analógico o digital.\n"
+      }, 
+      {
+        "lang": "bg", 
+        "type": "literal", 
+        "value": "Примерите включват говорещи книги, радиопредавания, звукозаписи на устна история, звукозаписи на пиеси, записани както в аналогов, така и в дигитален формат."
+      }, 
+      {
+        "lang": "it", 
+        "type": "literal", 
+        "value": "Gli esempi includono i libri parlanti, le trasmissioni radiofoniche, le registrazioni di racconti orali e le registrazioni audio di opere teatrali, sia in forma analogica che in forma digitale."
+      }, 
+      {
+        "lang": "lv", 
+        "type": "literal", 
+        "value": "Piemēri ietver klausāmgrāmatas, radioraidījumus, mutvārdu vēstures ierakstus, lugu audio ierakstus, kas ierakstīti digitālā vai analogā formātā."
+      }, 
+      {
+        "lang": "ru", 
+        "type": "literal", 
+        "value": "Примеры включают звуковые книги, радиопередачи, звукозаписи устных рассказов, аудиозаписи пьес, записанных как в аналоговом, так и в цифровом формате."
+      }, 
+      {
+        "lang": "fr", 
+        "type": "literal", 
+        "value": "Par exemple, livres parlés, émissions radiophoniques, enregistrements de récits oraux et enregistrements sonores de pièces de théâtre, que l’enregistrement soit analogique ou numérique."
+      }, 
+      {
+        "lang": "zh", 
+        "type": "literal", 
+        "value": "例如有声图书、无线电广播、口述历史录音、戏剧的录音，不管是用模拟格式还是用数字格式录音的。"
+      }, 
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Examples include talking books, radio broadcasts, oral history recordings, and audio recordings of plays, whether recorded in analogue or digital format."
+      }, 
+      {
+        "lang": "sr", 
+        "type": "literal", 
+        "value": "Takvi primeri su čitanje knjiga, radio emitovanje, snimljena usmena istorija i audio snimci pozorišnih komada, u analognom ili digitalnom obliku."
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentform"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/1207"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "fr", 
+        "type": "literal", 
+        "value": "parole énoncée"
+      }, 
+      {
+        "lang": "zh", 
+        "type": "literal", 
+        "value": "言谈"
+      }, 
+      {
+        "lang": "hr", 
+        "type": "literal", 
+        "value": "izgovorena riječ"
+      }, 
+      {
+        "lang": "bg", 
+        "type": "literal", 
+        "value": "говор"
+      }, 
+      {
+        "lang": "it", 
+        "type": "literal", 
+        "value": "parlato"
+      }, 
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "spoken word"
+      }, 
+      {
+        "lang": "ru", 
+        "type": "literal", 
+        "value": "устная речь"
+      }, 
+      {
+        "lang": "es", 
+        "type": "literal", 
+        "value": "palabra hablada"
+      }, 
+      {
+        "lang": "sr", 
+        "type": "literal", 
+        "value": "živa reč"
+      }, 
+      {
+        "lang": "lv", 
+        "type": "literal", 
+        "value": "mutvārdi"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/isbd/terms/contentform/T1006": {
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "sr", 
+        "type": "literal", 
+        "value": "program"
+      }, 
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "program"
+      }, 
+      {
+        "lang": "es", 
+        "type": "literal", 
+        "value": "programa"
+      }, 
+      {
+        "lang": "es", 
+        "type": "literal", 
+        "value": "Como ejemplos se incluyen sistemas operativos, aplicaciones de software, etc."
+      }, 
+      {
+        "lang": "it", 
+        "type": "literal", 
+        "value": "programma"
+      }, 
+      {
+        "lang": "hr", 
+        "type": "literal", 
+        "value": "program"
+      }, 
+      {
+        "lang": "ru", 
+        "type": "literal", 
+        "value": "программа"
+      }, 
+      {
+        "lang": "fr", 
+        "type": "literal", 
+        "value": "programme"
+      }, 
+      {
+        "lang": "bg", 
+        "type": "literal", 
+        "value": "програма"
+      }, 
+      {
+        "lang": "lv", 
+        "type": "literal", 
+        "value": "programma"
+      }, 
+      {
+        "lang": "zh", 
+        "type": "literal", 
+        "value": "程序"
+      }
+    ], 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Content expressed through digitally-encoded instructions intended to be processed and performed by a computer."
+      }, 
+      {
+        "lang": "sr", 
+        "type": "literal", 
+        "value": "Sadržaj izražen pomoću digitalno kodiranih instrukcija namenjenih za računarsku obradu i prikaz."
+      }, 
+      {
+        "lang": "fr", 
+        "type": "literal", 
+        "value": "Contenu exprimé sous la forme d’instructions encodées de manière numérique prévues pour être analysées et traitées par un ordinateur."
+      }, 
+      {
+        "lang": "zh", 
+        "type": "literal", 
+        "value": "通过用于计算机处理或执行的数字编码指令所表示的内容。"
+      }, 
+      {
+        "lang": "ru", 
+        "type": "literal", 
+        "value": "Содержание, выраженное посредством инструкций в цифровой кодировке, предназначенных для обработки и выполнения компьютером."
+      }, 
+      {
+        "lang": "es", 
+        "type": "literal", 
+        "value": "Contenido expresado a través de instrucciones codificadas digitalmente destinado a ser procesado e interpretado por ordenador."
+      }, 
+      {
+        "lang": "bg", 
+        "type": "literal", 
+        "value": "Съдържание, изразено чрез цифрово кодирани инструкции, предназначени за обработка и изпълнение от компютър."
+      }, 
+      {
+        "lang": "lv", 
+        "type": "literal", 
+        "value": "Saturs, izteikts ar digitāli kodētām instrukcijām, kas paredzēts apstrādei un izpildei ar datoru. "
+      }, 
+      {
+        "lang": "it", 
+        "type": "literal", 
+        "value": "Un contenuto espresso mediante istruzioni codificate in forma digitale, destinato all’elaborazione e all’esecuzione via computer."
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "lang": "lv", 
+        "type": "literal", 
+        "value": "Piemēri ietver operētājsistēmas, lietojumprogrammatūras, utt."
+      }, 
+      {
+        "lang": "es", 
+        "type": "literal", 
+        "value": "Como ejemplos se incluyen sistemas operativos, aplicaciones de software, etc. "
+      }, 
+      {
+        "lang": "fr", 
+        "type": "literal", 
+        "value": "Par exemple, des systèmes d’exploitation, des logiciels d’application, etc."
+      }, 
+      {
+        "lang": "zh", 
+        "type": "literal", 
+        "value": "例如操作系统、应用软件等。"
+      }, 
+      {
+        "lang": "ru", 
+        "type": "literal", 
+        "value": "Примеры включают операционные системы, прикладное программное обеспечение и т.п."
+      }, 
+      {
+        "lang": "sr", 
+        "type": "literal", 
+        "value": "Primeri za to su operativni sistemi, aplikativni programi i tako dalje."
+      }, 
+      {
+        "lang": "bg", 
+        "type": "literal", 
+        "value": "Примерите включват операционни системи, приложен софтуер и др."
+      }, 
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Examples include operating systems, application software, etc."
+      }, 
+      {
+        "lang": "it", 
+        "type": "literal", 
+        "value": "Gli esempi includono i sistemi operativi, le applicazioni software, etc."
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentform"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/1205"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentform"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/isbd/terms/contentform": {
+    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentform/T1003"
+      }, 
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentform/T1011"
+      }, 
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentform/T1001"
+      }, 
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentform/T1006"
+      }, 
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentform/T1009"
+      }, 
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentform/T1010"
+      }, 
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentform/T1007"
+      }, 
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentform/T1004"
+      }, 
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentform/T1005"
+      }, 
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentform/T1008"
+      }, 
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentform/T1002"
+      }
+    ], 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+      }
+    ], 
+    "http://purl.org/dc/elements/1.1/title": [
+      {
+        "type": "literal", 
+        "value": "ISBD Content Form"
+      }
+    ]
+  }, 
+  "http://metadataregistry.org/uri/RegStatus/1001": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Published"
+      }
+    ]
+  }
+}

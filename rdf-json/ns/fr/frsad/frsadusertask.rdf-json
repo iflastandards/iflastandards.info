@@ -1,173 +1,16 @@
 {
-  "http://iflastandards.info/ns/fr/frsad/frsadusertask#T1001": {
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "lang": "en", 
-        "type": "literal", 
-        "value": "find"
-      }
-    ], 
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
-      {
-        "type": "uri", 
-        "value": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ], 
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "lang": "en", 
-        "type": "literal", 
-        "value": "Find one or more subjects and, or, their appellations, that correspond(s) to the user’s stated criteria, using attributes and relationships."
-      }
-    ], 
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/fr/frsad/frsadusertask"
-      }
-    ], 
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
-      }
-    ], 
-    "http://metadataregistry.org/uri/profile/regap/identifier": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/concepts/1240"
-      }
-    ], 
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/fr/frsad/frsadusertask"
-      }
-    ]
-  }, 
-  "http://iflastandards.info/ns/fr/frsad/frsadusertask#T1003": {
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "lang": "en", 
-        "type": "literal", 
-        "value": "select"
-      }
-    ], 
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
-      {
-        "type": "uri", 
-        "value": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ], 
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "lang": "en", 
-        "type": "literal", 
-        "value": "Select a subject and, or, its appellation appropriate to the user's needs (i.e., to choose or reject based on the user's requirements and needs)."
-      }
-    ], 
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/fr/frsad/frsadusertask"
-      }
-    ], 
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
-      }
-    ], 
-    "http://metadataregistry.org/uri/profile/regap/identifier": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/concepts/1242"
-      }
-    ], 
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/fr/frsad/frsadusertask"
-      }
-    ]
-  }, 
-  "http://iflastandards.info/ns/fr/frsad/frsadusertask#T1002": {
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "lang": "en", 
-        "type": "literal", 
-        "value": "identify"
-      }
-    ], 
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
-      {
-        "type": "uri", 
-        "value": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ], 
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "lang": "en", 
-        "type": "literal", 
-        "value": "Identify a subject and, or, its appellation based on its attributes or relationships (i.e., to distinguish between two or more subjects or appellations with similar characteristics and to confirm that the appropriate subject or appellation has been found)."
-      }
-    ], 
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/fr/frsad/frsadusertask"
-      }
-    ], 
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
-      }
-    ], 
-    "http://metadataregistry.org/uri/profile/regap/identifier": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/concepts/1241"
-      }
-    ], 
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/fr/frsad/frsadusertask"
-      }
-    ]
-  }, 
   "http://iflastandards.info/ns/fr/frsad/frsadusertask#T1004": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "lang": "en", 
         "type": "literal", 
         "value": "explore"
-      }
-    ], 
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
-      {
-        "type": "uri", 
-        "value": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ], 
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "lang": "en", 
-        "type": "literal", 
-        "value": "Explore relationships between subjects and. or, their appellations (e.g., to explore relationships in order to understand the structure of a subject domain and its terminology)."
-      }
-    ], 
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/fr/frsad/frsadusertask"
-      }
-    ], 
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/identifier": [
@@ -176,32 +19,186 @@
         "value": "http://metadataregistry.org/concepts/1243"
       }
     ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/fr/frsad/frsadusertask"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
       {
         "type": "uri", 
         "value": "http://iflastandards.info/ns/fr/frsad/frsadusertask"
       }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Explore relationships between subjects and. or, their appellations (e.g., to explore relationships in order to understand the structure of a subject domain and its terminology)."
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/fr/frsad/frsadusertask#T1003": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/fr/frsad/frsadusertask"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/1242"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/fr/frsad/frsadusertask"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "select"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Select a subject and, or, its appellation appropriate to the user's needs (i.e., to choose or reject based on the user's requirements and needs)."
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/fr/frsad/frsadusertask#T1002": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "identify"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/1241"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/fr/frsad/frsadusertask"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/fr/frsad/frsadusertask"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Identify a subject and, or, its appellation based on its attributes or relationships (i.e., to distinguish between two or more subjects or appellations with similar characteristics and to confirm that the appropriate subject or appellation has been found)."
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/fr/frsad/frsadusertask#T1001": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "find"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/1240"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/fr/frsad/frsadusertask"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/fr/frsad/frsadusertask"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Find one or more subjects and, or, their appellations, that correspond(s) to the user’s stated criteria, using attributes and relationships."
+      }
+    ]
+  }, 
+  "http://metadataregistry.org/uri/RegStatus/1001": {
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Published"
+      }
+    ], 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
     ]
   }, 
   "http://iflastandards.info/ns/fr/frsad/frsadusertask": {
-    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/fr/frsad/frsadusertask#T1001"
-      }, 
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/fr/frsad/frsadusertask#T1002"
-      }, 
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/fr/frsad/frsadusertask#T1004"
-      }, 
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/fr/frsad/frsadusertask#T1003"
-      }
-    ], 
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
       {
         "type": "uri", 
@@ -213,20 +210,23 @@
         "type": "literal", 
         "value": "FRSAD User Tasks"
       }
-    ]
-  }, 
-  "http://metadataregistry.org/uri/RegStatus/1001": {
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+    ], 
+    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
       {
         "type": "uri", 
-        "value": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ], 
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+        "value": "http://iflastandards.info/ns/fr/frsad/frsadusertask#T1002"
+      }, 
       {
-        "lang": "en", 
-        "type": "literal", 
-        "value": "Published"
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/fr/frsad/frsadusertask#T1004"
+      }, 
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/fr/frsad/frsadusertask#T1003"
+      }, 
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/fr/frsad/frsadusertask#T1001"
       }
     ]
   }

@@ -1,28 +1,118 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix reg: <http://metadataregistry.org/uri/profile/regap/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<html><head>
-<meta http-equiv="content-type" content="text/html;charset=utf-8">
-<title>503 Over Quota</title>
-<style><!--
-body {font-family: arial,sans-serif}
-div.nav {margin-top: 1ex}
-div.nav A {font-size: 10pt; font-family: arial,sans-serif}
-span.nav {font-size: 10pt; font-family: arial,sans-serif; font-weight: bold}
-div.nav A,span.big {font-size: 12pt; color: #0000cc}
-div.nav A {font-size: 10pt; color: black}
-A.l:link {color: #6f6f6f}
-A.u:link {color: green}
-//--></style>
+<http://iflastandards.info/ns/unimarc/terms/soundtyp#a > a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7495> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:definition "Unique, cut on the spot."@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/soundtyp#> ;
+    skos:notation "a "@en ;
+    skos:prefLabel "instantaneous"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/soundtyp#> .
 
-</head>
-<body text=#000000 bgcolor=#ffffff>
-<table border=0 cellpadding=2 cellspacing=0 width=100%>
-<tr><td bgcolor=#3366cc><font face=arial,sans-serif color=#ffffff><b>Error</b></td></tr>
-<tr><td>&nbsp;</td></tr></table>
-<blockquote>
-<H1>Over Quota</H1>
-This application is temporarily over its serving quota.  Please try again later.
+<http://iflastandards.info/ns/unimarc/terms/soundtyp#b > a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7496> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/soundtyp#> ;
+    skos:notation "b "@en ;
+    skos:prefLabel "mass produced"@en ;
+    skos:scopeNote "Includes most commercial discs or tapes."@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/soundtyp#> .
 
-<p>
-</blockquote>
-<table width=100% cellpadding=0 cellspacing=0><tr><td bgcolor=#3366cc><img alt="" width=1 height=4></td></tr></table>
-</body></html>
+<http://iflastandards.info/ns/unimarc/terms/soundtyp#c > a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7497> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/soundtyp#> ;
+    skos:notation "c "@en ;
+    skos:prefLabel "master tape"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/soundtyp#> .
+
+<http://iflastandards.info/ns/unimarc/terms/soundtyp#d > a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7498> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/soundtyp#> ;
+    skos:notation "d "@en ;
+    skos:prefLabel "tape duplication master"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/soundtyp#> .
+
+<http://iflastandards.info/ns/unimarc/terms/soundtyp#e > a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7499> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:definition "Negative."@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/soundtyp#> ;
+    skos:notation "e "@en ;
+    skos:prefLabel "disc master"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/soundtyp#> .
+
+<http://iflastandards.info/ns/unimarc/terms/soundtyp#f > a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7500> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:definition "Positive."@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/soundtyp#> ;
+    skos:notation "f "@en ;
+    skos:prefLabel "mother"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/soundtyp#> .
+
+<http://iflastandards.info/ns/unimarc/terms/soundtyp#g > a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7501> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:definition "Negative."@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/soundtyp#> ;
+    skos:notation "g "@en ;
+    skos:prefLabel "stamper"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/soundtyp#> .
+
+<http://iflastandards.info/ns/unimarc/terms/soundtyp#h > a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7502> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/soundtyp#> ;
+    skos:notation "h "@en ;
+    skos:prefLabel "test pressing"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/soundtyp#> .
+
+<http://iflastandards.info/ns/unimarc/terms/soundtyp#u > a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7503> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/soundtyp#> ;
+    skos:notation "u "@en ;
+    skos:prefLabel "unknown"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/soundtyp#> .
+
+<http://iflastandards.info/ns/unimarc/terms/soundtyp#x> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7504> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/soundtyp#> ;
+    skos:notation "x"@en ;
+    skos:prefLabel "not applicable"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/soundtyp#> .
+
+<http://iflastandards.info/ns/unimarc/terms/soundtyp#z> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7505> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/soundtyp#> ;
+    skos:notation "z"@en ;
+    skos:prefLabel "other"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/soundtyp#> .
+
+<http://metadataregistry.org/uri/RegStatus/1001> a skos:Concept ;
+    skos:prefLabel "Published"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/soundtyp#> a skos:ConceptScheme ;
+    dc:title "UNIMARC: Sound recordings: Type of recording" ;
+    skos:hasTopConcept <http://iflastandards.info/ns/unimarc/terms/soundtyp#a >,
+        <http://iflastandards.info/ns/unimarc/terms/soundtyp#b >,
+        <http://iflastandards.info/ns/unimarc/terms/soundtyp#c >,
+        <http://iflastandards.info/ns/unimarc/terms/soundtyp#d >,
+        <http://iflastandards.info/ns/unimarc/terms/soundtyp#e >,
+        <http://iflastandards.info/ns/unimarc/terms/soundtyp#f >,
+        <http://iflastandards.info/ns/unimarc/terms/soundtyp#g >,
+        <http://iflastandards.info/ns/unimarc/terms/soundtyp#h >,
+        <http://iflastandards.info/ns/unimarc/terms/soundtyp#u >,
+        <http://iflastandards.info/ns/unimarc/terms/soundtyp#x>,
+        <http://iflastandards.info/ns/unimarc/terms/soundtyp#z> .
+

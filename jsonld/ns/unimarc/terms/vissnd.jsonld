@@ -23,10 +23,10 @@
                 {
                     "code": "en",
                     "lang": "English",
-                    "version": "Release 1"
+                    "version": "UNIMARC 1.0"
                 }
             ],
-            "dateOfPublication": "January 11, 2020"
+            "dateOfPublication": "January 31, 2020"
         },
         {
             "@id": "http://iflastandards.info/ns/unimarc/terms/vissnd#a",

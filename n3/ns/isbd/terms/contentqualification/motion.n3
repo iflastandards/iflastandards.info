@@ -1,28 +1,68 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix reg: <http://metadataregistry.org/uri/profile/regap/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<html><head>
-<meta http-equiv="content-type" content="text/html;charset=utf-8">
-<title>503 Over Quota</title>
-<style><!--
-body {font-family: arial,sans-serif}
-div.nav {margin-top: 1ex}
-div.nav A {font-size: 10pt; font-family: arial,sans-serif}
-span.nav {font-size: 10pt; font-family: arial,sans-serif; font-weight: bold}
-div.nav A,span.big {font-size: 12pt; color: #0000cc}
-div.nav A {font-size: 10pt; color: black}
-A.l:link {color: #6f6f6f}
-A.u:link {color: green}
-//--></style>
+<http://iflastandards.info/ns/isbd/terms/contentqualification/motion/T1001> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/1223> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:definition "изображение, чието съдържание се възприема като движещо се, обикновено чрез бърза смяна на изображения."@bg,
+        "Image content that is perceived to be in motion, usually by means of a quick succession of images."@en,
+        "Contenido de imagen que se percibe en movimiento, generalmente por medio de una sucesión rápida de imágenes."@es,
+        "Contenu image perçu comme étant en mouvement, habituellement rendu au moyen d’une succession rapide d’images."@fr,
+        "Il contenuto di un’immagine che è percepita come in moto, di solito per una rapida successione di immagini."@it,
+        """Attēla saturs, uztverams kustībā, parasti ar ātru attēlu
+nomaiņu."""@lv,
+        "Изображение, содержание которого воспринимается в движении, обычно посредством быстрой смены изображений."@ru,
+        "Slikovni sadržaj koji treba da omogući doživljaj pokreta, obično brzim nizanjem slika jedne za drugom."@sr,
+        "被感觉到运动的图像内容，通常是以前后相继一系列图像的方式。"@zh ;
+    skos:inScheme <http://iflastandards.info/ns/isbd/terms/contentqualification/motion> ;
+    skos:prefLabel "движещо се"@bg,
+        "moving"@en,
+        "en movimiento"@es,
+        "animée"@fr,
+        "pokretna"@hr,
+        "in movimento"@it,
+        "kustīgs"@lv,
+        "движущееся"@ru,
+        "pokretni"@sr,
+        "运动"@zh ;
+    skos:topConceptOf <http://iflastandards.info/ns/isbd/terms/contentqualification/motion> .
 
-</head>
-<body text=#000000 bgcolor=#ffffff>
-<table border=0 cellpadding=2 cellspacing=0 width=100%>
-<tr><td bgcolor=#3366cc><font face=arial,sans-serif color=#ffffff><b>Error</b></td></tr>
-<tr><td>&nbsp;</td></tr></table>
-<blockquote>
-<H1>Over Quota</H1>
-This application is temporarily over its serving quota.  Please try again later.
+<http://iflastandards.info/ns/isbd/terms/contentqualification/motion/T1002> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/1224> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:definition "изображение, чието съдържание се възприема като статично."@bg,
+        "Image content that is perceived to be static."@en,
+        "Contenido de imagen que se percibe como estática."@es,
+        "Contenu image perçu comme étant statique."@fr,
+        "Il contenuto di un’immagine che è percepita come statica."@it,
+        "Attēla saturs, uztverams kā statisks."@lv,
+        "Изображение, содержание которого воспринимается как статическое."@ru,
+        "Slikovni sadržaj koji treba da se doživi kao statičan."@sr,
+        "被感觉到静止的图像内容。"@zh ;
+    skos:inScheme <http://iflastandards.info/ns/isbd/terms/contentqualification/motion> ;
+    skos:prefLabel "неподвижно"@bg,
+        "Image content that is perceived to be static."@en,
+        "still"@en,
+        "fija"@es,
+        "fixe"@fr,
+        "nepokretna"@hr,
+        "fissa"@it,
+        "nekustīgs"@lv,
+        "неподвижное"@ru,
+        "nepokretni"@sr,
+        "静止"@zh ;
+    skos:topConceptOf <http://iflastandards.info/ns/isbd/terms/contentqualification/motion> .
 
-<p>
-</blockquote>
-<table width=100% cellpadding=0 cellspacing=0><tr><td bgcolor=#3366cc><img alt="" width=1 height=4></td></tr></table>
-</body></html>
+<http://metadataregistry.org/uri/RegStatus/1001> a skos:Concept ;
+    skos:prefLabel "Published"@en .
+
+<http://iflastandards.info/ns/isbd/terms/contentqualification/motion> a skos:ConceptScheme ;
+    dc:title "ISBD Content Qualification of Motion" ;
+    skos:hasTopConcept <http://iflastandards.info/ns/isbd/terms/contentqualification/motion/T1001>,
+        <http://iflastandards.info/ns/isbd/terms/contentqualification/motion/T1002> .
+

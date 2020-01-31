@@ -1,310 +1,309 @@
 <div>
-  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/fr/frsad/P3010" itemscope>
-    <div itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/fr/frsad/P3007" itemscope>
-      <div itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/fr/frsad/P3003" itemscope>
-        <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="hasTypeOfNomen" />
-        <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/fr/frsad/" />
-        <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="tiene tipo de nomen" />
-        <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="has type of nomen" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3012" />
-        <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="Relates a nomen to a category to which it belongs." />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3004" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3009" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3007" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P2004" />
-        <link itemprop="http://www.w3.org/2000/01/rdf-schema#domain" href="http://iflastandards.info/ns/fr/frsad/C1002" />
-        <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3011" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3013" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3006" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3010" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3005" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3008" />
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/fr/frsad/P2003" itemscope>
+    <div itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/fr/frsad/P3002" itemscope>
+      <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P2003" />
+      <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="tiene nota de alcance" />
+      <link itemprop="http://www.w3.org/2000/01/rdf-schema#domain" href="http://iflastandards.info/ns/fr/frsad/C1001" />
+      <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="Relates a thema to a text describing and, or, defining the thema or specifying its scope within the particular subject authority system." />
+      <div itemprop="http://metadataregistry.org/uri/profile/regap/status" itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://metadataregistry.org/uri/RegStatus/1001" itemscope>
+        <meta itemprop="prefLabel" content="Published" />
       </div>
-      <div itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/fr/frsad/P3008" itemscope>
-        <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="tiene escritura del nomen" />
+      <div itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/fr/frsad/P3001" itemscope>
         <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/fr/frsad/" />
-        <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="has script of nomen" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3012" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3004" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3009" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3007" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P2004" />
-        <link itemprop="http://www.w3.org/2000/01/rdf-schema#domain" href="http://iflastandards.info/ns/fr/frsad/C1002" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P2003" />
+        <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="Relates a thema to the category to which it belongs in the context of a particular knowledge organisation system." />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3002" />
+        <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="has type of thema" />
+        <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="tiene tipo de thema" />
+        <link itemprop="http://www.w3.org/2000/01/rdf-schema#domain" href="http://iflastandards.info/ns/fr/frsad/C1001" />
         <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3011" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3003" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3006" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3010" />
-        <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="hasScriptOfNomen" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3005" />
-        <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="Relates a nomen to the script in which it is expressed." />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3013" />
+        <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="hasTypeOfThema" />
       </div>
-      <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="has language of nomen" />
-      <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="tiene idioma del nomen" />
+      <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="hasScopeNote" />
       <div itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" itemid="http://iflastandards.info/ns/fr/frsad/" itemscope>
         <link itemprop="http://xmlns.com/foaf/0.1/homepage" href="http://www.ifla.org/files/classification-and-indexing/functional-requirements-for-subject-authority-data/frsad-final-report.pdf" />
         <meta itemprop="http://www.w3.org/2004/02/skos/core#note" content="This is the element set of native RDF classes and properties described in the Functional Requirements for Subject Authority Data model. The model also uses elements previously described in the Functional Requirements for Bibliographic Records (FRBR) entity-relationship model." />
         <meta itemprop="http://purl.org/dc/elements/1.1/title" content="FRSAD model" />
       </div>
+      <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="has scope note" />
+    </div>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/fr/frsad/" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="has appellation" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#domain" href="http://iflastandards.info/ns/fr/frsad/C1001" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#range" href="http://iflastandards.info/ns/fr/frsad/C1002" />
+    <div itemprop="http://www.w3.org/2002/07/owl#inverseOf" itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/fr/frsad/P2004" itemscope>
+      <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/fr/frsad/" />
+      <link itemprop="http://www.w3.org/2000/01/rdf-schema#range" href="http://iflastandards.info/ns/fr/frsad/C1001" />
+      <div itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/fr/frsad/P3003" itemscope>
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3010" />
+        <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="tiene tipo de nomen" />
+        <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/fr/frsad/" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3012" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3007" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3008" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3009" />
+        <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="has type of nomen" />
+        <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="Relates a nomen to a category to which it belongs." />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3006" />
+        <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="hasTypeOfNomen" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3011" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P2004" />
+        <link itemprop="http://www.w3.org/2000/01/rdf-schema#domain" href="http://iflastandards.info/ns/fr/frsad/C1002" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3005" />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3013" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3004" />
+      </div>
       <div itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/fr/frsad/P3012" itemscope>
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3005" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3003" />
-        <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/fr/frsad/" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3006" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3010" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3004" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P2004" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3011" />
-        <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="has audience" />
         <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="tiene audiencia" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3008" />
+        <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/fr/frsad/" />
+        <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="has audience" />
         <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3007" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3009" />
-        <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
         <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3013" />
-        <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="hasAudience" />
+        <link itemprop="http://www.w3.org/2000/01/rdf-schema#domain" href="http://iflastandards.info/ns/fr/frsad/C1002" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3010" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3005" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3006" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3008" />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3004" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3011" />
         <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="Relates a nomen to the community or user group for which the nomen is the preferred form." />
-        <link itemprop="http://www.w3.org/2000/01/rdf-schema#domain" href="http://iflastandards.info/ns/fr/frsad/C1002" />
-      </div>
-      <div itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/fr/frsad/P3009" itemscope>
-        <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="hasScriptConversion" />
-        <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="Relates a nomen to the rule, system, or standard used to render it in a different representation." />
-        <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3012" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3013" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3005" />
-        <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="tiene transliteración del nomen" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3006" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3003" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3008" />
         <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P2004" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3010" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3004" />
-        <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="has script conversion" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3011" />
-        <link itemprop="http://www.w3.org/2000/01/rdf-schema#domain" href="http://iflastandards.info/ns/fr/frsad/C1002" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3007" />
-        <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/fr/frsad/" />
-      </div>
-      <div itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/fr/frsad/P2004" itemscope>
-        <link itemprop="http://www.w3.org/2002/07/owl#inverseOf" href="http://iflastandards.info/ns/fr/frsad/P2003" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3012" />
-        <link itemprop="http://www.w3.org/2000/01/rdf-schema#range" href="http://iflastandards.info/ns/fr/frsad/C1001" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3010" />
-        <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="is appellation of" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3006" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3008" />
-        <link itemprop="http://www.w3.org/2000/01/rdf-schema#domain" href="http://iflastandards.info/ns/fr/frsad/C1002" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3011" />
         <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3003" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3005" />
-        <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/fr/frsad/" />
-        <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
-        <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="es denominación de" />
-        <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="isAppellationOf" />
+        <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="hasAudience" />
         <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3009" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3007" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3004" />
-        <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="Relates a nomen to a thema." />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3013" />
-      </div>
-      <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="Relates a nomen to the language in which it is expressed." />
-      <div itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/fr/frsad/P3004" itemscope>
-        <link itemprop="http://www.w3.org/2000/01/rdf-schema#domain" href="http://iflastandards.info/ns/fr/frsad/C1002" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P2004" />
-        <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="tiene esquema" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3003" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3009" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3008" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3012" />
-        <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="has scheme" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3010" />
-        <meta itemprop="http://www.w3.org/2000/01/rdf-schema#comment" content="Includes value encoding schemes (subject heading lists, thesauri, classification systems, name authority lists, etc.) and syntax encoding schemes (standards for encoding dates, etc.)." />
-        <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
-        <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="Relates a nomen to the scheme in which it is established." />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3006" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3007" />
-        <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="hasScheme" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3005" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3013" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3011" />
-        <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/fr/frsad/" />
-      </div>
-      <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="hasLanguageOfNomen" />
-      <div itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/fr/frsad/P3006" itemscope>
-        <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/fr/frsad/" />
-        <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="has representation of nomen" />
-        <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3013" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P2004" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3005" />
-        <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="Relates a nomen to the data type in which it is expressed." />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3007" />
-        <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="tiene representación del nomen" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3010" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3011" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3003" />
-        <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="hasRepresentationOfNomen" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3009" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3008" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3012" />
-        <link itemprop="http://www.w3.org/2000/01/rdf-schema#domain" href="http://iflastandards.info/ns/fr/frsad/C1002" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3004" />
       </div>
       <link itemprop="http://www.w3.org/2000/01/rdf-schema#domain" href="http://iflastandards.info/ns/fr/frsad/C1002" />
-      <div itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/fr/frsad/P3013" itemscope>
-        <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="Relates a nomen to its status in a subject authority system." />
-        <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="tiene estatus del nomen" />
-        <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/fr/frsad/" />
-        <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="has status of nomen" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3012" />
-        <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="hasStatusOfNomen" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3004" />
+      <div itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/fr/frsad/P3007" itemscope>
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3008" />
         <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3009" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3007" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P2004" />
-        <link itemprop="http://www.w3.org/2000/01/rdf-schema#domain" href="http://iflastandards.info/ns/fr/frsad/C1002" />
-        <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3011" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3012" />
         <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3003" />
+        <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="has language of nomen" />
+        <link itemprop="http://www.w3.org/2000/01/rdf-schema#domain" href="http://iflastandards.info/ns/fr/frsad/C1002" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3006" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3011" />
+        <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="hasLanguageOfNomen" />
+        <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="tiene idioma del nomen" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P2004" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3005" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3004" />
+        <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="Relates a nomen to the language in which it is expressed." />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3010" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3013" />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+        <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/fr/frsad/" />
+      </div>
+      <div itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/fr/frsad/P3009" itemscope>
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3006" />
+        <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="tiene transliteración del nomen" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P2004" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3005" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3013" />
+        <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/fr/frsad/" />
+        <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="hasScriptConversion" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3004" />
+        <link itemprop="http://www.w3.org/2000/01/rdf-schema#domain" href="http://iflastandards.info/ns/fr/frsad/C1002" />
+        <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="Relates a nomen to the rule, system, or standard used to render it in a different representation." />
+        <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="has script conversion" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3003" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3012" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3007" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3008" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3010" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3011" />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+      </div>
+      <div itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/fr/frsad/P3013" itemscope>
+        <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="hasStatusOfNomen" />
+        <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/fr/frsad/" />
+        <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="Relates a nomen to its status in a subject authority system." />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3011" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P2004" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3005" />
+        <link itemprop="http://www.w3.org/2000/01/rdf-schema#domain" href="http://iflastandards.info/ns/fr/frsad/C1002" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3004" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3010" />
+        <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="tiene estatus del nomen" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3008" />
+        <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="has status of nomen" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3009" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3012" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3003" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3007" />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3006" />
+      </div>
+      <div itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/fr/frsad/P3008" itemscope>
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3003" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P2004" />
+        <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="hasScriptOfNomen" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3011" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3004" />
+        <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="tiene escritura del nomen" />
+        <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="Relates a nomen to the script in which it is expressed." />
+        <link itemprop="http://www.w3.org/2000/01/rdf-schema#domain" href="http://iflastandards.info/ns/fr/frsad/C1002" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3005" />
+        <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="has script of nomen" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3006" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3013" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3010" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3012" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3007" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3009" />
+        <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/fr/frsad/" />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+      </div>
+      <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="es denominación de" />
+      <div itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/fr/frsad/P3010" itemscope>
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+        <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="has form of nomen" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3006" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P2004" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3003" />
+        <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="Relates a nomen to any additional information that helps to interpret it." />
+        <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="hasFormOfNomen" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3013" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3009" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3008" />
+        <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="tiene forma del nomen" />
+        <link itemprop="http://www.w3.org/2000/01/rdf-schema#domain" href="http://iflastandards.info/ns/fr/frsad/C1002" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3005" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3004" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3011" />
+        <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/fr/frsad/" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3007" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3012" />
+      </div>
+      <div itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/fr/frsad/P3004" itemscope>
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3013" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3008" />
+        <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="hasScheme" />
         <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3006" />
         <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3010" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3005" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3008" />
-      </div>
-      <div itemprop="http://metadataregistry.org/uri/profile/regap/status" itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://metadataregistry.org/uri/RegStatus/1001" itemscope>
-        <meta itemprop="prefLabel" content="Published" />
-      </div>
-      <div itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/fr/frsad/P3011" itemscope>
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3006" />
-        <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="Relates a nomen to the time period, in which it is or was used or is or was valid within a subject vocabulary system." />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+        <link itemprop="http://www.w3.org/2000/01/rdf-schema#domain" href="http://iflastandards.info/ns/fr/frsad/C1002" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3011" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3007" />
+        <meta itemprop="http://www.w3.org/2000/01/rdf-schema#comment" content="Includes value encoding schemes (subject heading lists, thesauri, classification systems, name authority lists, etc.) and syntax encoding schemes (standards for encoding dates, etc.)." />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3003" />
         <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3012" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P2004" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3009" />
+        <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="has scheme" />
+        <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="Relates a nomen to the scheme in which it is established." />
+        <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="tiene esquema" />
+        <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/fr/frsad/" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3005" />
+      </div>
+      <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+      <div itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/fr/frsad/P3005" itemscope>
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3011" />
+        <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="Relates a nomen to the source in which it is found." />
+        <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="hasReferenceSourceOfNomen" />
+        <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="tiene fuente de referencia del nomen" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P2004" />
+        <link itemprop="http://www.w3.org/2000/01/rdf-schema#domain" href="http://iflastandards.info/ns/fr/frsad/C1002" />
         <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3013" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3004" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3010" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3012" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3007" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3008" />
+        <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/fr/frsad/" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3009" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3003" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3006" />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+        <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="has reference source of nomen" />
+      </div>
+      <link itemprop="http://www.w3.org/2002/07/owl#inverseOf" href="http://iflastandards.info/ns/fr/frsad/P2003" />
+      <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="is appellation of" />
+      <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="Relates a nomen to a thema." />
+      <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="isAppellationOf" />
+      <div itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/fr/frsad/P3011" itemscope>
+        <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="hasTimeOfValidityOfNomen" />
+        <link itemprop="http://www.w3.org/2000/01/rdf-schema#domain" href="http://iflastandards.info/ns/fr/frsad/C1002" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P2004" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3005" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3006" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3004" />
         <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="has time of validity of nomen" />
         <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3010" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3009" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P2004" />
-        <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="tiene tiempo de validez del nomen" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3008" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3005" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3004" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3003" />
-        <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="hasTimeOfValidityOfNomen" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3007" />
-        <link itemprop="http://www.w3.org/2000/01/rdf-schema#domain" href="http://iflastandards.info/ns/fr/frsad/C1002" />
-        <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
-        <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/fr/frsad/" />
-      </div>
-      <div itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/fr/frsad/P3005" itemscope>
-        <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
-        <link itemprop="http://www.w3.org/2000/01/rdf-schema#domain" href="http://iflastandards.info/ns/fr/frsad/C1002" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3011" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P2004" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3004" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3010" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3006" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3012" />
-        <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/fr/frsad/" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3007" />
         <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3013" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3009" />
-        <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="has reference source of nomen" />
-        <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="hasReferenceSourceOfNomen" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3008" />
-        <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="Relates a nomen to the source in which it is found." />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3003" />
-        <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="tiene fuente de referencia del nomen" />
-      </div>
-      <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3010" />
-    </div>
-    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
-    <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3009" />
-    <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="Relates a nomen to any additional information that helps to interpret it." />
-    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="has form of nomen" />
-    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="tiene forma del nomen" />
-    <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3005" />
-    <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3008" />
-    <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3013" />
-    <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3004" />
-    <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P2004" />
-    <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3011" />
-    <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3003" />
-    <link itemprop="http://www.w3.org/2000/01/rdf-schema#domain" href="http://iflastandards.info/ns/fr/frsad/C1002" />
-    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="hasFormOfNomen" />
-    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/fr/frsad/" />
-    <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3006" />
-    <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3012" />
-  </div>
-  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/fr/frsad/P2003" itemscope>
-    <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="Relates a thema to a nomen." />
-    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="hasAppellation" />
-    <link itemprop="http://www.w3.org/2002/07/owl#inverseOf" href="http://iflastandards.info/ns/fr/frsad/P2004" />
-    <div itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/fr/frsad/P3002" itemscope>
-      <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/fr/frsad/" />
-      <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="Relates a thema to a text describing and, or, defining the thema or specifying its scope within the particular subject authority system." />
-      <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="has scope note" />
-      <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
-      <link itemprop="http://www.w3.org/2000/01/rdf-schema#domain" href="http://iflastandards.info/ns/fr/frsad/C1001" />
-      <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="hasScopeNote" />
-      <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P2003" />
-      <div itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/fr/frsad/P3001" itemscope>
-        <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="hasTypeOfThema" />
-        <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="Relates a thema to the category to which it belongs in the context of a particular knowledge organisation system." />
-        <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="tiene tipo de thema" />
-        <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="has type of thema" />
         <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+        <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="Relates a nomen to the time period, in which it is or was used or is or was valid within a subject vocabulary system." />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3003" />
         <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/fr/frsad/" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3002" />
-        <link itemprop="http://www.w3.org/2000/01/rdf-schema#domain" href="http://iflastandards.info/ns/fr/frsad/C1001" />
-        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P2003" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3008" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3009" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3007" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3012" />
+        <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="tiene tiempo de validez del nomen" />
       </div>
-      <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="tiene nota de alcance" />
+      <div itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/fr/frsad/P3006" itemscope>
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3008" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3011" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3010" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3013" />
+        <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="hasRepresentationOfNomen" />
+        <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="tiene representación del nomen" />
+        <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/fr/frsad/" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3003" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P2004" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3009" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3007" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3012" />
+        <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="has representation of nomen" />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3004" />
+        <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="Relates a nomen to the data type in which it is expressed." />
+        <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3005" />
+        <link itemprop="http://www.w3.org/2000/01/rdf-schema#domain" href="http://iflastandards.info/ns/fr/frsad/C1002" />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+      </div>
     </div>
-    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="has appellation" />
-    <link itemprop="http://www.w3.org/2000/01/rdf-schema#range" href="http://iflastandards.info/ns/fr/frsad/C1002" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
     <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="tiene denominación" />
-    <link itemprop="http://www.w3.org/2000/01/rdf-schema#domain" href="http://iflastandards.info/ns/fr/frsad/C1001" />
-    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/fr/frsad/" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="hasAppellation" />
+    <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="Relates a thema to a nomen." />
     <link itemprop="http://www.w3.org/2002/07/owl#propertyDisjointWith" href="http://iflastandards.info/ns/fr/frsad/P3001" />
-    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
-  </div>
-  <div itemtype="http://www.w3.org/2002/07/owl#Class" itemid="http://iflastandards.info/ns/fr/frsad/C1001" itemscope>
-    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="Thema" />
-    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="Thema" />
-    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="Thema" />
-    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
-    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/fr/frsad/" />
-    <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="Any entity used as a subject of a work." />
   </div>
   <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/fr/frsad/P2001" itemscope>
     <div itemprop="http://www.w3.org/2002/07/owl#inverseOf" itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/fr/frsad/P2002" itemscope>
-      <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
-      <link itemprop="http://www.w3.org/2000/01/rdf-schema#domain" href="http://iflastandards.info/ns/fr/frsad/C1001" />
-      <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/fr/frsad/" />
-      <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="isSubjectOf" />
       <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="is subject of" />
-      <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="Relates a thema to a work." />
       <link itemprop="http://www.w3.org/2000/01/rdf-schema#range" href="http://iflastandards.info/ns/fr/frbr/frbrer/C1001" />
       <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="es materia de" />
       <link itemprop="http://www.w3.org/2002/07/owl#inverseOf" href="http://iflastandards.info/ns/fr/frsad/P2001" />
+      <link itemprop="http://www.w3.org/2000/01/rdf-schema#domain" href="http://iflastandards.info/ns/fr/frsad/C1001" />
+      <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+      <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="Relates a thema to a work." />
+      <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/fr/frsad/" />
+      <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="isSubjectOf" />
     </div>
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="tiene como materia" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/fr/frsad/" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="hasAsSubject" />
     <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="Relates a work to a thema." />
     <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
     <link itemprop="http://www.w3.org/2000/01/rdf-schema#domain" href="http://iflastandards.info/ns/fr/frbr/frbrer/C1001" />
-    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/fr/frsad/" />
-    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="hasAsSubject" />
     <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="has as subject" />
-    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="tiene como materia" />
     <link itemprop="http://www.w3.org/2000/01/rdf-schema#range" href="http://iflastandards.info/ns/fr/frsad/C1001" />
   </div>
   <div itemtype="http://www.w3.org/2002/07/owl#Class" itemid="http://iflastandards.info/ns/fr/frsad/C1002" itemscope>
-    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/fr/frsad/" />
-    <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="Any sign or sequence of signs (alphanumeric characters, symbols, sound, etc.) by which a thema (any entity used as a subject of a work) is known, referred to, or addressed as." />
-    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="Nomen" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="Nomen" />
     <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="Nomen" />
     <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
-    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="Nomen" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="Nomen" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/fr/frsad/" />
+    <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="Any sign or sequence of signs (alphanumeric characters, symbols, sound, etc.) by which a thema (any entity used as a subject of a work) is known, referred to, or addressed as." />
+  </div>
+  <div itemtype="http://www.w3.org/2002/07/owl#Class" itemid="http://iflastandards.info/ns/fr/frsad/C1001" itemscope>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/fr/frsad/" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="Thema" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="Thema" />
+    <meta itemprop="http://www.w3.org/2004/02/skos/core#definition" content="Any entity used as a subject of a work." />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="Thema" />
   </div>
 </div>

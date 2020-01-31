@@ -1,28 +1,198 @@
-
-<html><head>
-<meta http-equiv="content-type" content="text/html;charset=utf-8">
-<title>503 Over Quota</title>
-<style><!--
-body {font-family: arial,sans-serif}
-div.nav {margin-top: 1ex}
-div.nav A {font-size: 10pt; font-family: arial,sans-serif}
-span.nav {font-size: 10pt; font-family: arial,sans-serif; font-weight: bold}
-div.nav A,span.big {font-size: 12pt; color: #0000cc}
-div.nav A {font-size: 10pt; color: black}
-A.l:link {color: #6f6f6f}
-A.u:link {color: green}
-//--></style>
-
-</head>
-<body text=#000000 bgcolor=#ffffff>
-<table border=0 cellpadding=2 cellspacing=0 width=100%>
-<tr><td bgcolor=#3366cc><font face=arial,sans-serif color=#ffffff><b>Error</b></td></tr>
-<tr><td>&nbsp;</td></tr></table>
-<blockquote>
-<H1>Over Quota</H1>
-This application is temporarily over its serving quota.  Please try again later.
-
-<p>
-</blockquote>
-<table width=100% cellpadding=0 cellspacing=0><tr><td bgcolor=#3366cc><img alt="" width=1 height=4></td></tr></table>
-</body></html>
+<div>
+  <div itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://iflastandards.info/ns/unimarc/terms/continuingfreq#d" itemscope>
+    <meta itemprop="prefLabel" content="bisettimanale (ogni due settimane)" />
+    <meta itemprop="prefLabel" content="biweekly (every two weeks)" />
+    <meta itemprop="prefLabel" content="quinzenal (de duas em duas semanas)" />
+    <div itemprop="topConceptOf" itemtype="http://www.w3.org/2004/02/skos/core#ConceptScheme" itemid="http://iflastandards.info/ns/unimarc/terms/continuingfreq#" itemscope>
+      <div itemprop="hasTopConcept" itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://iflastandards.info/ns/unimarc/terms/continuingfreq#u" itemscope>
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+        <meta itemprop="prefLabel" content="desconhecida" />
+        <meta itemprop="prefLabel" content="unknown" />
+        <meta itemprop="notation" content="u" />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/6382" />
+        <link itemprop="inScheme" href="http://iflastandards.info/ns/unimarc/terms/continuingfreq#" />
+        <link itemprop="topConceptOf" href="http://iflastandards.info/ns/unimarc/terms/continuingfreq#" />
+        <meta itemprop="prefLabel" content="sconosciuto" />
+      </div>
+      <div itemprop="hasTopConcept" itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://iflastandards.info/ns/unimarc/terms/continuingfreq#p" itemscope>
+        <link itemprop="inScheme" href="http://iflastandards.info/ns/unimarc/terms/continuingfreq#" />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+        <meta itemprop="notation" content="p" />
+        <meta itemprop="prefLabel" content="em actualização permanente" />
+        <link itemprop="topConceptOf" href="http://iflastandards.info/ns/unimarc/terms/continuingfreq#" />
+        <meta itemprop="prefLabel" content="continuamente aggiornato" />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/6381" />
+        <meta itemprop="prefLabel" content="continuously updated" />
+      </div>
+      <div itemprop="hasTopConcept" itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://iflastandards.info/ns/unimarc/terms/continuingfreq#f" itemscope>
+        <link itemprop="inScheme" href="http://iflastandards.info/ns/unimarc/terms/continuingfreq#" />
+        <link itemprop="topConceptOf" href="http://iflastandards.info/ns/unimarc/terms/continuingfreq#" />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+        <meta itemprop="prefLabel" content="mensile" />
+        <meta itemprop="prefLabel" content="mensal" />
+        <meta itemprop="prefLabel" content="monthly" />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/6371" />
+        <meta itemprop="notation" content="f" />
+      </div>
+      <div itemprop="hasTopConcept" itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://iflastandards.info/ns/unimarc/terms/continuingfreq#k" itemscope>
+        <link itemprop="topConceptOf" href="http://iflastandards.info/ns/unimarc/terms/continuingfreq#" />
+        <link itemprop="inScheme" href="http://iflastandards.info/ns/unimarc/terms/continuingfreq#" />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/6376" />
+        <meta itemprop="prefLabel" content="annuale" />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+        <meta itemprop="notation" content="k" />
+        <meta itemprop="prefLabel" content="annual" />
+        <meta itemprop="prefLabel" content="anual" />
+      </div>
+      <div itemprop="hasTopConcept" itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://iflastandards.info/ns/unimarc/terms/continuingfreq#e" itemscope>
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+        <link itemprop="inScheme" href="http://iflastandards.info/ns/unimarc/terms/continuingfreq#" />
+        <meta itemprop="prefLabel" content="bimensal (duas vezes por mês)" />
+        <meta itemprop="notation" content="e" />
+        <meta itemprop="prefLabel" content="semimonthly (twice a month)" />
+        <link itemprop="topConceptOf" href="http://iflastandards.info/ns/unimarc/terms/continuingfreq#" />
+        <meta itemprop="prefLabel" content="quindicinale (due volte al mese)" />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/6370" />
+      </div>
+      <div itemprop="hasTopConcept" itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://iflastandards.info/ns/unimarc/terms/continuingfreq#l" itemscope>
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/6377" />
+        <link itemprop="inScheme" href="http://iflastandards.info/ns/unimarc/terms/continuingfreq#" />
+        <meta itemprop="prefLabel" content="bienal (de dois em dois anos)" />
+        <meta itemprop="prefLabel" content="biennial (every two years)" />
+        <link itemprop="topConceptOf" href="http://iflastandards.info/ns/unimarc/terms/continuingfreq#" />
+        <meta itemprop="notation" content="l" />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+        <meta itemprop="prefLabel" content="biennale (ogni due anni)" />
+      </div>
+      <div itemprop="hasTopConcept" itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://iflastandards.info/ns/unimarc/terms/continuingfreq#m" itemscope>
+        <meta itemprop="prefLabel" content="triennial (every three years)" />
+        <link itemprop="topConceptOf" href="http://iflastandards.info/ns/unimarc/terms/continuingfreq#" />
+        <meta itemprop="prefLabel" content="triennale (ogni tre anni)" />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/6378" />
+        <meta itemprop="prefLabel" content="trienal (de três em três anos)" />
+        <meta itemprop="note" content="m" />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+        <link itemprop="inScheme" href="http://iflastandards.info/ns/unimarc/terms/continuingfreq#" />
+      </div>
+      <div itemprop="hasTopConcept" itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://iflastandards.info/ns/unimarc/terms/continuingfreq#h" itemscope>
+        <meta itemprop="prefLabel" content="quarterly" />
+        <link itemprop="inScheme" href="http://iflastandards.info/ns/unimarc/terms/continuingfreq#" />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+        <meta itemprop="prefLabel" content="trimestrale" />
+        <meta itemprop="notation" content="h" />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/6373" />
+        <meta itemprop="prefLabel" content="trimestral" />
+        <link itemprop="topConceptOf" href="http://iflastandards.info/ns/unimarc/terms/continuingfreq#" />
+      </div>
+      <div itemprop="hasTopConcept" itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://iflastandards.info/ns/unimarc/terms/continuingfreq#o" itemscope>
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+        <meta itemprop="notation" content="o" />
+        <link itemprop="inScheme" href="http://iflastandards.info/ns/unimarc/terms/continuingfreq#" />
+        <link itemprop="topConceptOf" href="http://iflastandards.info/ns/unimarc/terms/continuingfreq#" />
+        <meta itemprop="prefLabel" content="três vezes por mês" />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/6380" />
+        <meta itemprop="prefLabel" content="tre volte al mese" />
+        <meta itemprop="prefLabel" content="three times a month" />
+      </div>
+      <div itemprop="hasTopConcept" itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://iflastandards.info/ns/unimarc/terms/continuingfreq#a" itemscope>
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/6366" />
+        <meta itemprop="prefLabel" content="daily" />
+        <meta itemprop="notation" content="a" />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+        <meta itemprop="prefLabel" content="diária" />
+        <meta itemprop="prefLabel" content="giornaliera" />
+        <link itemprop="topConceptOf" href="http://iflastandards.info/ns/unimarc/terms/continuingfreq#" />
+        <link itemprop="inScheme" href="http://iflastandards.info/ns/unimarc/terms/continuingfreq#" />
+      </div>
+      <div itemprop="hasTopConcept" itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://iflastandards.info/ns/unimarc/terms/continuingfreq#c" itemscope>
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+        <meta itemprop="prefLabel" content="settimanale" />
+        <meta itemprop="prefLabel" content="semanal" />
+        <link itemprop="topConceptOf" href="http://iflastandards.info/ns/unimarc/terms/continuingfreq#" />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/6368" />
+        <meta itemprop="notation" content="c" />
+        <link itemprop="inScheme" href="http://iflastandards.info/ns/unimarc/terms/continuingfreq#" />
+        <meta itemprop="prefLabel" content="weekly" />
+      </div>
+      <meta itemprop="http://purl.org/dc/elements/1.1/title" content="UNIMARC: Continuing resources: Frequency of issue" />
+      <div itemprop="hasTopConcept" itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://iflastandards.info/ns/unimarc/terms/continuingfreq#z" itemscope>
+        <meta itemprop="definition" content="Frequency of issue other than daily, semiweekly (twice a week), three times a week, weekly, biweekly (every two weeks), semimonthly (twice a month), three times a month, monthly, bimonthly (every two months), quarterly, three times a year, semiannual (twice a year), annual, biennial (every two years), triennial (every three years), continuously updated, no frequency (i.e. irregular)." />
+        <link itemprop="inScheme" href="http://iflastandards.info/ns/unimarc/terms/continuingfreq#" />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/6384" />
+        <meta itemprop="prefLabel" content="altro" />
+        <meta itemprop="notation" content="z" />
+        <meta itemprop="prefLabel" content="outra" />
+        <meta itemprop="prefLabel" content="other" />
+        <link itemprop="topConceptOf" href="http://iflastandards.info/ns/unimarc/terms/continuingfreq#" />
+      </div>
+      <div itemprop="hasTopConcept" itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://iflastandards.info/ns/unimarc/terms/continuingfreq#j" itemscope>
+        <meta itemprop="prefLabel" content="semiannuale (due volte all'anno)" />
+        <meta itemprop="prefLabel" content="semiannual (twice a year)" />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/6375" />
+        <meta itemprop="prefLabel" content="semestral (duas vezes por ano)" />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+        <link itemprop="topConceptOf" href="http://iflastandards.info/ns/unimarc/terms/continuingfreq#" />
+        <meta itemprop="notation" content="j" />
+        <link itemprop="inScheme" href="http://iflastandards.info/ns/unimarc/terms/continuingfreq#" />
+      </div>
+      <div itemprop="hasTopConcept" itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://iflastandards.info/ns/unimarc/terms/continuingfreq#y" itemscope>
+        <meta itemprop="prefLabel" content="no frequency (i.e. irregular)" />
+        <link itemprop="topConceptOf" href="http://iflastandards.info/ns/unimarc/terms/continuingfreq#" />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/6383" />
+        <meta itemprop="notation" content="y" />
+        <meta itemprop="prefLabel" content="nessuna frequenza (irregolare)" />
+        <link itemprop="inScheme" href="http://iflastandards.info/ns/unimarc/terms/continuingfreq#" />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+        <meta itemprop="prefLabel" content="sem periodicidade (i.é, irregular)" />
+      </div>
+      <div itemprop="hasTopConcept" itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://iflastandards.info/ns/unimarc/terms/continuingfreq#n" itemscope>
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+        <meta itemprop="prefLabel" content="tre volte a settimana" />
+        <meta itemprop="notation" content="n" />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/6379" />
+        <link itemprop="inScheme" href="http://iflastandards.info/ns/unimarc/terms/continuingfreq#" />
+        <link itemprop="topConceptOf" href="http://iflastandards.info/ns/unimarc/terms/continuingfreq#" />
+        <meta itemprop="prefLabel" content="três vezes por semana" />
+        <meta itemprop="prefLabel" content="three times a week" />
+      </div>
+      <link itemprop="hasTopConcept" href="http://iflastandards.info/ns/unimarc/terms/continuingfreq#d" />
+      <div itemprop="hasTopConcept" itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://iflastandards.info/ns/unimarc/terms/continuingfreq#g" itemscope>
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/6372" />
+        <meta itemprop="prefLabel" content="bimestrale (ogni due mesi)" />
+        <meta itemprop="notation" content="g" />
+        <link itemprop="topConceptOf" href="http://iflastandards.info/ns/unimarc/terms/continuingfreq#" />
+        <link itemprop="inScheme" href="http://iflastandards.info/ns/unimarc/terms/continuingfreq#" />
+        <meta itemprop="prefLabel" content="bimonthly (every two months)" />
+        <meta itemprop="prefLabel" content="bimestral (de dois em dois meses)" />
+      </div>
+      <div itemprop="hasTopConcept" itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://iflastandards.info/ns/unimarc/terms/continuingfreq#b" itemscope>
+        <meta itemprop="notation" content="b" />
+        <meta itemprop="prefLabel" content="semiweekly (twice a week)" />
+        <link itemprop="topConceptOf" href="http://iflastandards.info/ns/unimarc/terms/continuingfreq#" />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/6367" />
+        <link itemprop="inScheme" href="http://iflastandards.info/ns/unimarc/terms/continuingfreq#" />
+        <meta itemprop="prefLabel" content="bissemanal (duas vezes por semana)" />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+        <meta itemprop="prefLabel" content="semisettimanale (due volte a settimana)" />
+      </div>
+      <div itemprop="hasTopConcept" itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://iflastandards.info/ns/unimarc/terms/continuingfreq#i" itemscope>
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+        <meta itemprop="prefLabel" content="tre volte all'anno" />
+        <link itemprop="inScheme" href="http://iflastandards.info/ns/unimarc/terms/continuingfreq#" />
+        <link itemprop="topConceptOf" href="http://iflastandards.info/ns/unimarc/terms/continuingfreq#" />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/6374" />
+        <meta itemprop="prefLabel" content="three times a year" />
+        <meta itemprop="prefLabel" content="quadrimestral (três vezes por ano)" />
+        <meta itemprop="notation" content="i" />
+      </div>
+    </div>
+    <meta itemprop="notation" content="d" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/6369" />
+    <link itemprop="inScheme" href="http://iflastandards.info/ns/unimarc/terms/continuingfreq#" />
+    <div itemprop="http://metadataregistry.org/uri/profile/regap/status" itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://metadataregistry.org/uri/RegStatus/1001" itemscope>
+      <meta itemprop="prefLabel" content="Published" />
+    </div>
+  </div>
+</div>

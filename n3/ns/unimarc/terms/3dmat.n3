@@ -1,28 +1,214 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix reg: <http://metadataregistry.org/uri/profile/regap/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<html><head>
-<meta http-equiv="content-type" content="text/html;charset=utf-8">
-<title>503 Over Quota</title>
-<style><!--
-body {font-family: arial,sans-serif}
-div.nav {margin-top: 1ex}
-div.nav A {font-size: 10pt; font-family: arial,sans-serif}
-span.nav {font-size: 10pt; font-family: arial,sans-serif; font-weight: bold}
-div.nav A,span.big {font-size: 12pt; color: #0000cc}
-div.nav A {font-size: 10pt; color: black}
-A.l:link {color: #6f6f6f}
-A.u:link {color: green}
-//--></style>
+<http://iflastandards.info/ns/unimarc/terms/3dmat#aa> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7669> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/3dmat#> ;
+    skos:notation "aa"@en ;
+    skos:prefLabel "terra-cotta"@en .
 
-</head>
-<body text=#000000 bgcolor=#ffffff>
-<table border=0 cellpadding=2 cellspacing=0 width=100%>
-<tr><td bgcolor=#3366cc><font face=arial,sans-serif color=#ffffff><b>Error</b></td></tr>
-<tr><td>&nbsp;</td></tr></table>
-<blockquote>
-<H1>Over Quota</H1>
-This application is temporarily over its serving quota.  Please try again later.
+<http://iflastandards.info/ns/unimarc/terms/3dmat#ab> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7670> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/3dmat#> ;
+    skos:notation "ab"@en ;
+    skos:prefLabel "wax"@en .
 
-<p>
-</blockquote>
-<table width=100% cellpadding=0 cellspacing=0><tr><td bgcolor=#3366cc><img alt="" width=1 height=4></td></tr></table>
-</body></html>
+<http://iflastandards.info/ns/unimarc/terms/3dmat#ac> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7671> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/3dmat#> ;
+    skos:notation "ac"@en ;
+    skos:prefLabel "clay"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/3dmat#ad> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7672> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/3dmat#> ;
+    skos:notation "ad"@en ;
+    skos:prefLabel "majolica"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/3dmat#ae> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7673> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/3dmat#> ;
+    skos:notation "ae"@en ;
+    skos:prefLabel "porcelain"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/3dmat#af> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7674> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/3dmat#> ;
+    skos:notation "af"@en ;
+    skos:prefLabel "ceramic"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/3dmat#ag> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7675> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/3dmat#> ;
+    skos:notation "ag"@en ;
+    skos:prefLabel "plaster"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/3dmat#ah> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7676> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/3dmat#> ;
+    skos:notation "ah"@en ;
+    skos:prefLabel "glass"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/3dmat#ba> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7677> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/3dmat#> ;
+    skos:notation "ba"@en ;
+    skos:prefLabel "wood"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/3dmat#ca> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7678> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/3dmat#> ;
+    skos:notation "ca"@en ;
+    skos:prefLabel "ivory"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/3dmat#da> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7679> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/3dmat#> ;
+    skos:notation "da"@en ;
+    skos:prefLabel "stone"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/3dmat#db> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7680> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/3dmat#> ;
+    skos:notation "db"@en ;
+    skos:prefLabel "precious stones"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/3dmat#dc> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7681> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/3dmat#> ;
+    skos:notation "dc"@en ;
+    skos:prefLabel "marble"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/3dmat#dd> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7682> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/3dmat#> ;
+    skos:notation "dd"@en ;
+    skos:prefLabel "basalt"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/3dmat#de> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7683> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    skos:editorialNote "Recode as da."@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/3dmat#> ;
+    skos:notation "de"@en ;
+    skos:prefLabel "[obsolete]"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/3dmat#df> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7684> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/3dmat#> ;
+    skos:notation "df"@en ;
+    skos:prefLabel "porphyry"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/3dmat#ea> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7685> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/3dmat#> ;
+    skos:notation "ea"@en ;
+    skos:prefLabel "paper"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/3dmat#eb> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7686> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/3dmat#> ;
+    skos:notation "eb"@en ;
+    skos:prefLabel "cardboard"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/3dmat#fa> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7687> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/3dmat#> ;
+    skos:notation "fa"@en ;
+    skos:prefLabel "precious metals"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/3dmat#fb> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7688> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/3dmat#> ;
+    skos:notation "fb"@en ;
+    skos:prefLabel "metal"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/3dmat#fc> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7689> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/3dmat#> ;
+    skos:notation "fc"@en ;
+    skos:prefLabel "bronze"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/3dmat#fd> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7690> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/3dmat#> ;
+    skos:notation "fd"@en ;
+    skos:prefLabel "copper"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/3dmat#ga> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7691> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/3dmat#> ;
+    skos:notation "ga"@en ;
+    skos:prefLabel "synthetics"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/3dmat#ha> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7692> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/3dmat#> ;
+    skos:notation "ha"@en ;
+    skos:prefLabel "textile"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/3dmat#ia> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7693> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/3dmat#> ;
+    skos:notation "ia"@en ;
+    skos:prefLabel "plastic"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/3dmat#uu> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7694> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/3dmat#> ;
+    skos:notation "uu"@en ;
+    skos:prefLabel "unknown"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/3dmat#vv> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7695> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/3dmat#> ;
+    skos:notation "vv"@en ;
+    skos:prefLabel "mixed"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/3dmat#zz> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7696> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/3dmat#> ;
+    skos:notation "zz"@en ;
+    skos:prefLabel "other"@en .
+
+<http://metadataregistry.org/uri/RegStatus/1008> a skos:Concept ;
+    skos:prefLabel "Deprecated"@en .
+
+<http://metadataregistry.org/uri/RegStatus/1001> a skos:Concept ;
+    skos:prefLabel "Published"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/3dmat#> a skos:ConceptScheme ;
+    dc:title "UNIMARC: Three-dimensional artefacts and realia: Material" .
+
