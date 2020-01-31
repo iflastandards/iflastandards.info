@@ -1,28 +1,1199 @@
-
-<html><head>
-<meta http-equiv="content-type" content="text/html;charset=utf-8">
-<title>503 Over Quota</title>
-<style><!--
-body {font-family: arial,sans-serif}
-div.nav {margin-top: 1ex}
-div.nav A {font-size: 10pt; font-family: arial,sans-serif}
-span.nav {font-size: 10pt; font-family: arial,sans-serif; font-weight: bold}
-div.nav A,span.big {font-size: 12pt; color: #0000cc}
-div.nav A {font-size: 10pt; color: black}
-A.l:link {color: #6f6f6f}
-A.u:link {color: green}
-//--></style>
-
-</head>
-<body text=#000000 bgcolor=#ffffff>
-<table border=0 cellpadding=2 cellspacing=0 width=100%>
-<tr><td bgcolor=#3366cc><font face=arial,sans-serif color=#ffffff><b>Error</b></td></tr>
-<tr><td>&nbsp;</td></tr></table>
-<blockquote>
-<H1>Over Quota</H1>
-This application is temporarily over its serving quota.  Please try again later.
-
-<p>
-</blockquote>
-<table width=100% cellpadding=0 cellspacing=0><tr><td bgcolor=#3366cc><img alt="" width=1 height=4></td></tr></table>
-</body></html>
+<div xmlns="http://www.w3.org/1999/xhtml"
+  prefix="
+    reg: http://metadataregistry.org/uri/profile/regap/
+    rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+    skos: http://www.w3.org/2004/02/skos/core#
+    dc: http://purl.org/dc/elements/1.1/
+    rdfs: http://www.w3.org/2000/01/rdf-schema#"
+  >
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U251__b">
+    <div property="rdfs:label" xml:lang="en" content="has Arrangement in Organization and arrangement of materials"></div>
+    <div property="reg:name" xml:lang="en" content="hasArrangementInOrganizationAndArrangementOfMaterials"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasArrangementInOrganizationAndArrangementOfMaterials.en"></div>
+    <div rel="rdfs:isDefinedBy">
+      <div typeof="rdfs:Resource" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/">
+        <div property="dc:title" xml:lang="en" content="UNIMARC/B elements 2XX"></div>
+      </div>
+    </div>
+    <div property="skos:definition" xml:lang="en" content="Terms used to describe the pattern of arrangement of materials within a unit."></div>
+    <div rel="reg:status">
+      <div typeof="skos:Concept" about="http://metadataregistry.org/uri/RegStatus/1001">
+        <div property="skos:prefLabel" xml:lang="en" content="Published"></div>
+      </div>
+    </div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U210_1r">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasPrintingAndOrPublishingInformationTranscribedAsFoundInTheMainSourceOfInformationInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherNotPublishedOrPublicallyDistributed.en"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Printing and/or publishing information transcribed as found in the main source of information in Publication, distribution, etc. (Not applicable / earliest available publisher) (Not published or publically distributed)"></div>
+    <div property="skos:definition" xml:lang="en" content="The place and/or date of publishing and/or printing, and/or the name of publisher and/printer, and other information relating to publication and/or printing, transcribed in the form and order as they appear on the title page or its substitute."></div>
+    <div property="reg:name" xml:lang="en" content="hasPrintingAndOrPublishingInformationTranscribedAsFoundInTheMainSourceOfInformationInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherNotPublishedOrPublicallyDistributed"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U210__s">
+    <div property="rdfs:label" xml:lang="en" content="has Printing and/or publishing information transcribed as found in the colophon in Publication, distribution, etc. (Not applicable / earliest available publisher) (Produced in multiple copies, usually published or publically distributed)"></div>
+    <div property="reg:name" xml:lang="en" content="hasPrintingAndOrPublishingInformationTranscribedAsFoundInTheColophonInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasPrintingAndOrPublishingInformationTranscribedAsFoundInTheColophonInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed.en"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="skos:definition" xml:lang="en" content="The place and/or date of the printing and/or publishing, and/or the name of the printer and/or publisher of an older monographic publication, transcribed in the form and order as they appear in the colophon."></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U208__a">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasPrintedMusicSpecificStatementInMaterialSpecificAreaPrintedMusicSpecificStatement.en"></div>
+    <div property="reg:name" xml:lang="en" content="hasPrintedMusicSpecificStatementInMaterialSpecificAreaPrintedMusicSpecificStatement"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="skos:definition" xml:lang="en" content="The statement related to the particular format of the item in hand."></div>
+    <div property="rdfs:label" xml:lang="en" content="has Printed music specific statement in Material specific area: printed music specific statement"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2000_k">
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasBulkDatesInTitleAndStatementOfResponsibilityTitleIsNotSignificant.en"></div>
+    <div property="skos:definition" xml:lang="en" content="Dates pertaining to the majority of the materials in the unit."></div>
+    <div property="reg:name" xml:lang="en" content="hasBulkDatesInTitleAndStatementOfResponsibilityTitleIsNotSignificant"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Bulk dates in Title and statement of responsibility (Title is not significant)"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U210__e">
+    <div property="skos:definition" xml:lang="en" content="The place of printing of a book or the place where a composite manuscript has been collected or bound together."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasPlaceOfManufactureInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed.en"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Place of manufacture in Publication, distribution, etc. (Not applicable / earliest available publisher) (Produced in multiple copies, usually published or publically distributed)"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="reg:name" xml:lang="en" content="hasPlaceOfManufactureInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2000_f">
+    <div property="skos:definition" xml:lang="en" content="The first statement of responsibility for a title, or for a numbered or named part of a work."></div>
+    <div property="rdfs:label" xml:lang="en" content="has First statement of responsibility in Title and statement of responsibility (Title is not significant)"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="reg:name" xml:lang="en" content="hasFirstStatementOfResponsibilityInTitleAndStatementOfResponsibilityTitleIsNotSignificant"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasFirstStatementOfResponsibilityInTitleAndStatementOfResponsibilityTitleIsNotSignificant.en"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2060_d">
+    <div property="reg:name" xml:lang="en" content="hasStatementOfCoordinatesInMaterialSpecificAreaCartographicResources-MathematicalDataStructured"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Statement of coordinates in Material specific area: cartographic resources - mathematical data (Structured)"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasStatementOfCoordinatesInMaterialSpecificAreaCartographicResources-MathematicalDataStructured.en"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2001_e">
+    <div property="skos:definition" xml:lang="en" content="Subtitles and other title information that appear subordinate to the title proper on an item."></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Other title information in Title and statement of responsibility (Title is significant)"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasOtherTitleInformationInTitleAndStatementOfResponsibilityTitleIsSignificant.en"></div>
+    <div property="reg:name" xml:lang="en" content="hasOtherTitleInformationInTitleAndStatementOfResponsibilityTitleIsSignificant"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2001_j">
+    <div property="rdfs:label" xml:lang="en" content="has Inclusive dates in Title and statement of responsibility (Title is not significant)"></div>
+    <div property="skos:definition" xml:lang="en" content="The time period, that relates to the creation, assembly, accumulation, and/or maintenance and use of the materials in the unit."></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasInclusiveDatesInTitleAndStatementOfResponsibilityTitleIsNotSignificant.en"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="reg:name" xml:lang="en" content="hasInclusiveDatesInTitleAndStatementOfResponsibilityTitleIsNotSignificant"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2000_v">
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasVolumeDesignationInTitleAndStatementOfResponsibilityTitleIsNotSignificant.en"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="reg:name" xml:lang="en" content="hasVolumeDesignationInTitleAndStatementOfResponsibilityTitleIsNotSignificant"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Volume designation in Title and statement of responsibility (Title is not significant)"></div>
+    <div property="skos:definition" xml:lang="en" content="A particular part of an item that is related to another item."></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2250_a">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Series title in Series (Not the same as the established form)"></div>
+    <div property="reg:name" xml:lang="en" content="hasSeriesTitleInSeriesNotTheSameAsTheEstablishedForm"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="skos:definition" xml:lang="en" content="The title of the series in the form in which it appears on the item being recorded."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasSeriesTitleInSeriesNotTheSameAsTheEstablishedForm.en"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2250_z">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Language of parallel title in Series (Not the same as the established form)"></div>
+    <div property="reg:name" xml:lang="en" content="hasLanguageOfParallelTitleInSeriesNotTheSameAsTheEstablishedForm"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="skos:definition" xml:lang="en" content="Coded identification of the language of a parallel title."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasLanguageOfParallelTitleInSeriesNotTheSameAsTheEstablishedForm.en"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2101_s">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Printing and/or publishing information transcribed as found in the colophon in Publication, distribution, etc. (Current or latest publisher) (Produced in multiple copies, usually published or publically distributed)"></div>
+    <div property="reg:name" xml:lang="en" content="hasPrintingAndOrPublishingInformationTranscribedAsFoundInTheColophonInPublicationDistributionEtcCurrentOrLatestPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasPrintingAndOrPublishingInformationTranscribedAsFoundInTheColophonInPublicationDistributionEtcCurrentOrLatestPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed.en"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="skos:definition" xml:lang="en" content="The place and/or date of the printing and/or publishing, and/or the name of the printer and/or publisher of an older monographic publication, transcribed in the form and order as they appear in the colophon."></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2001_d">
+    <div property="rdfs:label" xml:lang="en" content="has Parallel title proper in Title and statement of responsibility (Title is significant)"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasParallelTitleProperInTitleAndStatementOfResponsibilityTitleIsSignificant.en"></div>
+    <div property="skos:definition" xml:lang="en" content="The title proper in another language and/or script."></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="reg:name" xml:lang="en" content="hasParallelTitleProperInTitleAndStatementOfResponsibilityTitleIsSignificant"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U208__d">
+    <div property="reg:name" xml:lang="en" content="hasParallelPrintedMusicSpecificStatementsInMaterialSpecificAreaPrintedMusicSpecificStatement"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Parallel printed music specific statement(s) in Material specific area: printed music specific statement"></div>
+    <div property="skos:definition" xml:lang="en" content="Any additional statements in a different language and/or script."></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasParallelPrintedMusicSpecificStatementsInMaterialSpecificAreaPrintedMusicSpecificStatement.en"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U206__e">
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasRightAscensionAndDeclinationInMaterialSpecificAreaCartographicResources-MathematicalDataUnstructured.en"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Right ascension and declination in Material specific area: cartographic resources - mathematical data (Unstructured)"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="reg:name" xml:lang="en" content="hasRightAscensionAndDeclinationInMaterialSpecificAreaCartographicResources-MathematicalDataUnstructured"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2101_r">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="reg:name" xml:lang="en" content="hasPrintingAndOrPublishingInformationTranscribedAsFoundInTheMainSourceOfInformationInPublicationDistributionEtcCurrentOrLatestPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasPrintingAndOrPublishingInformationTranscribedAsFoundInTheMainSourceOfInformationInPublicationDistributionEtcCurrentOrLatestPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed.en"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Printing and/or publishing information transcribed as found in the main source of information in Publication, distribution, etc. (Current or latest publisher) (Produced in multiple copies, usually published or publically distributed)"></div>
+    <div property="skos:definition" xml:lang="en" content="The place and/or date of publishing and/or printing, and/or the name of publisher and/printer, and other information relating to publication and/or printing, transcribed in the form and order as they appear on the title page or its substitute."></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U230__a">
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasDesignationAndExtentOfFileInMaterialSpecificAreaElectronicResourceCharacteristics.en"></div>
+    <div property="reg:name" xml:lang="en" content="hasDesignationAndExtentOfFileInMaterialSpecificAreaElectronicResourceCharacteristics"></div>
+    <div property="skos:definition" xml:lang="en" content="Designation and extent of file"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Designation and extent of file in Material specific area: electronic resource characteristics"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U251__c">
+    <div property="rdfs:label" xml:lang="en" content="has Level in Organization and arrangement of materials"></div>
+    <div property="reg:name" xml:lang="en" content="hasLevelInOrganizationAndArrangementOfMaterials"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="skos:definition" xml:lang="en" content="Term used to identify hierarchical position of the described materials in the whole hierarchy of description."></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasLevelInOrganizationAndArrangementOfMaterials.en"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U21001h">
+    <div property="rdfs:label" xml:lang="en" content="has Date of manufacture in Publication, distribution, etc. (Intervening publisher) (Not published or publically distributed)"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasDateOfManufactureInPublicationDistributionEtcInterveningPublisherNotPublishedOrPublicallyDistributed.en"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="reg:name" xml:lang="en" content="hasDateOfManufactureInPublicationDistributionEtcInterveningPublisherNotPublishedOrPublicallyDistributed"></div>
+    <div property="skos:definition" xml:lang="en" content="The date of manufacture of an item or assembling of a manuscript."></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2001_b">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="skos:definition" xml:lang="en" content="Text of general material designation."></div>
+    <div property="rdfs:label" xml:lang="en" content="has General material designation in Title and statement of responsibility (Title is significant)"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="reg:name" xml:lang="en" content="hasGeneralMaterialDesignationInTitleAndStatementOfResponsibilityTitleIsSignificant"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasGeneralMaterialDesignationInTitleAndStatementOfResponsibilityTitleIsSignificant.en"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2001_5">
+    <div property="reg:name" xml:lang="en" content="hasInstitutionToWhichFieldAppliesInTitleAndStatementOfResponsibilityTitleIsSignificant"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Institution to which field applies in Title and statement of responsibility (Title is significant)"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="skos:definition" xml:lang="en" content="Applicable institution."></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasInstitutionToWhichFieldAppliesInTitleAndStatementOfResponsibilityTitleIsSignificant.en"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2060_c">
+    <div property="rdfs:label" xml:lang="en" content="has Statement of projection in Material specific area: cartographic resources - mathematical data (Structured)"></div>
+    <div property="reg:name" xml:lang="en" content="hasStatementOfProjectionInMaterialSpecificAreaCartographicResources-MathematicalDataStructured"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasStatementOfProjectionInMaterialSpecificAreaCartographicResources-MathematicalDataStructured.en"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U210__c">
+    <div property="reg:name" xml:lang="en" content="hasNameOfPublisherDistributorEtcInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Name of publisher, distributor, etc. in Publication, distribution, etc. (Not applicable / earliest available publisher) (Produced in multiple copies, usually published or publically distributed)"></div>
+    <div property="skos:definition" xml:lang="en" content="The name of the publisher or distributor."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasNameOfPublisherDistributorEtcInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed.en"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2001_g">
+    <div property="skos:definition" xml:lang="en" content="A statement of responsibility after the first statement of responsibility and relating to the same title."></div>
+    <div property="rdfs:label" xml:lang="en" content="has Subsequent statement of responsibility in Title and statement of responsibility (Title is significant)"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="reg:name" xml:lang="en" content="hasSubsequentStatementOfResponsibilityInTitleAndStatementOfResponsibilityTitleIsSignificant"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasSubsequentStatementOfResponsibilityInTitleAndStatementOfResponsibilityTitleIsSignificant.en"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U210_1g">
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasNameOfManufacturerInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherNotPublishedOrPublicallyDistributed.en"></div>
+    <div property="skos:definition" xml:lang="en" content="The name of the manufacturer (e.g. printer) or the person or institution collecting different units to produce a composite manuscript."></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Name of manufacturer in Publication, distribution, etc. (Not applicable / earliest available publisher) (Not published or publically distributed)"></div>
+    <div property="reg:name" xml:lang="en" content="hasNameOfManufacturerInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherNotPublishedOrPublicallyDistributed"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2250_e">
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasOtherTitleInformationInSeriesNotTheSameAsTheEstablishedForm.en"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="reg:name" xml:lang="en" content="hasOtherTitleInformationInSeriesNotTheSameAsTheEstablishedForm"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Other title information in Series (Not the same as the established form)"></div>
+    <div property="skos:definition" xml:lang="en" content="Subtitles and other title information that appear on the item subordinate to the series title or parallel series title or to the name of a part."></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2000_c">
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasTitleProperByAnotherAuthorInTitleAndStatementOfResponsibilityTitleIsNotSignificant.en"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="reg:name" xml:lang="en" content="hasTitleProperByAnotherAuthorInTitleAndStatementOfResponsibilityTitleIsNotSignificant"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Title proper by another author in Title and statement of responsibility (Title is not significant)"></div>
+    <div property="skos:definition" xml:lang="en" content="The chief title of a work by an author other than the one responsible for the first title when they are both contained in the same item and when there is no collective title."></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U21011a">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="reg:name" xml:lang="en" content="hasPlaceOfPublicationDistributionEtcInPublicationDistributionEtcCurrentOrLatestPublisherNotPublishedOrPublicallyDistributed"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasPlaceOfPublicationDistributionEtcInPublicationDistributionEtcCurrentOrLatestPublisherNotPublishedOrPublicallyDistributed.en"></div>
+    <div property="skos:definition" xml:lang="en" content="transcribed in the form and order as they appear in the colophon."></div>
+    <div property="rdfs:label" xml:lang="en" content="has Place of publication, distribution, etc. in Publication, distribution, etc. (Current or latest publisher) (Not published or publically distributed)"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U21001a">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="skos:definition" xml:lang="en" content="The town or other locality where the item is published or distributed or, in the case of a manuscript, written."></div>
+    <div property="rdfs:label" xml:lang="en" content="has Place of publication, distribution, etc. in Publication, distribution, etc. (Intervening publisher) (Not published or publically distributed)"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="reg:name" xml:lang="en" content="hasPlaceOfPublicationDistributionEtcInPublicationDistributionEtcInterveningPublisherNotPublishedOrPublicallyDistributed"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasPlaceOfPublicationDistributionEtcInPublicationDistributionEtcInterveningPublisherNotPublishedOrPublicallyDistributed.en"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U21001f">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasAddressOfManufacturerInPublicationDistributionEtcInterveningPublisherNotPublishedOrPublicallyDistributed.en"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="skos:definition" xml:lang="en" content="The full postal address of the manufacturer."></div>
+    <div property="reg:name" xml:lang="en" content="hasAddressOfManufacturerInPublicationDistributionEtcInterveningPublisherNotPublishedOrPublicallyDistributed"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Address of manufacturer in Publication, distribution, etc. (Intervening publisher) (Not published or publically distributed)"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2000_e">
+    <div property="rdfs:label" xml:lang="en" content="has Other title information in Title and statement of responsibility (Title is not significant)"></div>
+    <div property="reg:name" xml:lang="en" content="hasOtherTitleInformationInTitleAndStatementOfResponsibilityTitleIsNotSignificant"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="skos:definition" xml:lang="en" content="Subtitles and other title information that appear subordinate to the title proper on an item."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasOtherTitleInformationInTitleAndStatementOfResponsibilityTitleIsNotSignificant.en"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2250_v">
+    <div property="rdfs:label" xml:lang="en" content="has Volume designation in Series (Not the same as the established form)"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="skos:definition" xml:lang="en" content="The number of the item being recorded within the series."></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasVolumeDesignationInSeriesNotTheSameAsTheEstablishedForm.en"></div>
+    <div property="reg:name" xml:lang="en" content="hasVolumeDesignationInSeriesNotTheSameAsTheEstablishedForm"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U206__c">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Statement of projection in Material specific area: cartographic resources - mathematical data (Unstructured)"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasStatementOfProjectionInMaterialSpecificAreaCartographicResources-MathematicalDataUnstructured.en"></div>
+    <div property="reg:name" xml:lang="en" content="hasStatementOfProjectionInMaterialSpecificAreaCartographicResources-MathematicalDataUnstructured"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2250_x">
+    <div property="skos:definition" xml:lang="en" content="The ISSN of the series."></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="reg:name" xml:lang="en" content="hasIssnOfSeriesInSeriesNotTheSameAsTheEstablishedForm"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasIssnOfSeriesInSeriesNotTheSameAsTheEstablishedForm.en"></div>
+    <div property="rdfs:label" xml:lang="en" content="has ISSN of series in Series (Not the same as the established form)"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2001_f">
+    <div property="skos:definition" xml:lang="en" content="The first statement of responsibility for a title, or for a numbered or named part of a work."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasFirstStatementOfResponsibilityInTitleAndStatementOfResponsibilityTitleIsSignificant.en"></div>
+    <div property="reg:name" xml:lang="en" content="hasFirstStatementOfResponsibilityInTitleAndStatementOfResponsibilityTitleIsSignificant"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="rdfs:label" xml:lang="en" content="has First statement of responsibility in Title and statement of responsibility (Title is significant)"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2060_f">
+    <div property="rdfs:label" xml:lang="en" content="has Statement of equinox in Material specific area: cartographic resources - mathematical data (Structured)"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasStatementOfEquinoxInMaterialSpecificAreaCartographicResources-MathematicalDataStructured.en"></div>
+    <div property="reg:name" xml:lang="en" content="hasStatementOfEquinoxInMaterialSpecificAreaCartographicResources-MathematicalDataStructured"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2001_h">
+    <div property="skos:definition" xml:lang="en" content="The section or part numbering for items that are identified by a common name and a subsection name."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasNumberOfAPartInTitleAndStatementOfResponsibilityTitleIsSignificant.en"></div>
+    <div property="reg:name" xml:lang="en" content="hasNumberOfAPartInTitleAndStatementOfResponsibilityTitleIsSignificant"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Number of a part in Title and statement of responsibility (Title is significant)"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2250_d">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Parallel series title in Series (Not the same as the established form)"></div>
+    <div property="skos:definition" xml:lang="en" content="The title of the series in another language and/or script."></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasParallelSeriesTitleInSeriesNotTheSameAsTheEstablishedForm.en"></div>
+    <div property="reg:name" xml:lang="en" content="hasParallelSeriesTitleInSeriesNotTheSameAsTheEstablishedForm"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U210_1d">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="reg:name" xml:lang="en" content="hasDateOfPublicationDistributionEtcInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherNotPublishedOrPublicallyDistributed"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasDateOfPublicationDistributionEtcInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherNotPublishedOrPublicallyDistributed.en"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Date of publication, distribution, etc. in Publication, distribution, etc. (Not applicable / earliest available publisher) (Not published or publically distributed)"></div>
+    <div property="skos:definition" xml:lang="en" content="The date or approximate date of publication, the writing of a manuscript, production of an art work, etc., or a copyright date or date of manufacture, or the time period that specifies the part of the bibliographic item to which it applies."></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2000_j">
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasInclusiveDatesInTitleAndStatementOfResponsibilityTitleIsNotSignificant.en"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="skos:definition" xml:lang="en" content="The time period, that relates to the creation, assembly, accumulation, and/or maintenance and use of the materials in the unit."></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Inclusive dates in Title and statement of responsibility (Title is not significant)"></div>
+    <div property="reg:name" xml:lang="en" content="hasInclusiveDatesInTitleAndStatementOfResponsibilityTitleIsNotSignificant"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U21011e">
+    <div property="reg:name" xml:lang="en" content="hasPlaceOfManufactureInPublicationDistributionEtcCurrentOrLatestPublisherNotPublishedOrPublicallyDistributed"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasPlaceOfManufactureInPublicationDistributionEtcCurrentOrLatestPublisherNotPublishedOrPublicallyDistributed.en"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Place of manufacture in Publication, distribution, etc. (Current or latest publisher) (Not published or publically distributed)"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="skos:definition" xml:lang="en" content="The place of printing of a book or the place where a composite manuscript has been collected or bound together."></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2100_h">
+    <div property="skos:definition" xml:lang="en" content="The date of manufacture of an item or assembling of a manuscript."></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Date of manufacture in Publication, distribution, etc. (Intervening publisher) (Produced in multiple copies, usually published or publically distributed)"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasDateOfManufactureInPublicationDistributionEtcInterveningPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed.en"></div>
+    <div property="reg:name" xml:lang="en" content="hasDateOfManufactureInPublicationDistributionEtcInterveningPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2251_x">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="reg:name" xml:lang="en" content="hasIssnOfSeriesInSeriesNoEstablishedForm"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasIssnOfSeriesInSeriesNoEstablishedForm.en"></div>
+    <div property="rdfs:label" xml:lang="en" content="has ISSN of series in Series (No established form)"></div>
+    <div property="skos:definition" xml:lang="en" content="The ISSN of the series."></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2060_b">
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasStatementOfScaleInMaterialSpecificAreaCartographicResources-MathematicalDataStructured.en"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Statement of scale in Material specific area: cartographic resources - mathematical data (Structured)"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="reg:name" xml:lang="en" content="hasStatementOfScaleInMaterialSpecificAreaCartographicResources-MathematicalDataStructured"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U210__h">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasDateOfManufactureInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed.en"></div>
+    <div property="skos:definition" xml:lang="en" content="The date of manufacture of an item or assembling of a manuscript."></div>
+    <div property="reg:name" xml:lang="en" content="hasDateOfManufactureInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Date of manufacture in Publication, distribution, etc. (Not applicable / earliest available publisher) (Produced in multiple copies, usually published or publically distributed)"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2252_h">
+    <div property="skos:definition" xml:lang="en" content="The section or part number of the series."></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Number of a part in Series (Same as the established form)"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasNumberOfAPartInSeriesSameAsTheEstablishedForm.en"></div>
+    <div property="reg:name" xml:lang="en" content="hasNumberOfAPartInSeriesSameAsTheEstablishedForm"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2060_a">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasMathematicalDataStatementInMaterialSpecificAreaCartographicResources-MathematicalDataStructured.en"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="skos:definition" xml:lang="en" content="The text of the statements of scale, projection, coordinates, equinoxes and epochs including ISBD punctuation."></div>
+    <div property="rdfs:label" xml:lang="en" content="has Mathematical data statement in Material specific area: cartographic resources - mathematical data (Structured)"></div>
+    <div property="reg:name" xml:lang="en" content="hasMathematicalDataStatementInMaterialSpecificAreaCartographicResources-MathematicalDataStructured"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U21011d">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="reg:name" xml:lang="en" content="hasDateOfPublicationDistributionEtcInPublicationDistributionEtcCurrentOrLatestPublisherNotPublishedOrPublicallyDistributed"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasDateOfPublicationDistributionEtcInPublicationDistributionEtcCurrentOrLatestPublisherNotPublishedOrPublicallyDistributed.en"></div>
+    <div property="skos:definition" xml:lang="en" content="The date or approximate date of publication, the writing of a manuscript, production of an art work, etc., or a copyright date or date of manufacture, or the time period that specifies the part of the bibliographic item to which it applies."></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Date of publication, distribution, etc. in Publication, distribution, etc. (Current or latest publisher) (Not published or publically distributed)"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U21011s">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Printing and/or publishing information transcribed as found in the colophon in Publication, distribution, etc. (Current or latest publisher) (Not published or publically distributed)"></div>
+    <div property="skos:definition" xml:lang="en" content="The place and/or date of the printing and/or publishing, and/or the name of the printer and/or publisher of an older monographic publication, transcribed in the form and order as they appear in the colophon."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasPrintingAndOrPublishingInformationTranscribedAsFoundInTheColophonInPublicationDistributionEtcCurrentOrLatestPublisherNotPublishedOrPublicallyDistributed.en"></div>
+    <div property="reg:name" xml:lang="en" content="hasPrintingAndOrPublishingInformationTranscribedAsFoundInTheColophonInPublicationDistributionEtcCurrentOrLatestPublisherNotPublishedOrPublicallyDistributed"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2251_a">
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasSeriesTitleInSeriesNoEstablishedForm.en"></div>
+    <div property="reg:name" xml:lang="en" content="hasSeriesTitleInSeriesNoEstablishedForm"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Series title in Series (No established form)"></div>
+    <div property="skos:definition" xml:lang="en" content="The title of the series in the form in which it appears on the item being recorded."></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2251_d">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Parallel series title in Series (No established form)"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="reg:name" xml:lang="en" content="hasParallelSeriesTitleInSeriesNoEstablishedForm"></div>
+    <div property="skos:definition" xml:lang="en" content="The title of the series in another language and/or script."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasParallelSeriesTitleInSeriesNoEstablishedForm.en"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2251_i">
+    <div property="rdfs:label" xml:lang="en" content="has Name of a part in Series (No established form)"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="reg:name" xml:lang="en" content="hasNameOfAPartInSeriesNoEstablishedForm"></div>
+    <div property="skos:definition" xml:lang="en" content="The section or part name of the subseries."></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasNameOfAPartInSeriesNoEstablishedForm.en"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2101_b">
+    <div property="rdfs:label" xml:lang="en" content="has Address of publisher, distributor, etc. in Publication, distribution, etc. (Current or latest publisher) (Produced in multiple copies, usually published or publically distributed)"></div>
+    <div property="skos:definition" xml:lang="en" content="The full postal address of a publisher, scriptorium or distributor."></div>
+    <div property="reg:name" xml:lang="en" content="hasAddressOfPublisherDistributorEtcInPublicationDistributionEtcCurrentOrLatestPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasAddressOfPublisherDistributorEtcInPublicationDistributionEtcCurrentOrLatestPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed.en"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U210__r">
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasPrintingAndOrPublishingInformationTranscribedAsFoundInTheMainSourceOfInformationInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed.en"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="reg:name" xml:lang="en" content="hasPrintingAndOrPublishingInformationTranscribedAsFoundInTheMainSourceOfInformationInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Printing and/or publishing information transcribed as found in the main source of information in Publication, distribution, etc. (Not applicable / earliest available publisher) (Produced in multiple copies, usually published or publically distributed)"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="skos:definition" xml:lang="en" content="The place and/or date of publishing and/or printing, and/or the name of publisher and/printer, and other information relating to publication and/or printing, transcribed in the form and order as they appear on the title page or its substitute."></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U215__c">
+    <div property="rdfs:label" xml:lang="en" content="has Other physical details in Physical description"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="skos:definition" xml:lang="en" content="Physical data about an item."></div>
+    <div property="reg:name" xml:lang="en" content="hasOtherPhysicalDetailsInPhysicalDescription"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasOtherPhysicalDetailsInPhysicalDescription.en"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2100_e">
+    <div property="rdfs:label" xml:lang="en" content="has Place of manufacture in Publication, distribution, etc. (Intervening publisher) (Produced in multiple copies, usually published or publically distributed)"></div>
+    <div property="skos:definition" xml:lang="en" content="The place of printing of a book or the place where a composite manuscript has been collected or bound together."></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasPlaceOfManufactureInPublicationDistributionEtcInterveningPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed.en"></div>
+    <div property="reg:name" xml:lang="en" content="hasPlaceOfManufactureInPublicationDistributionEtcInterveningPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2251_v">
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasVolumeDesignationInSeriesNoEstablishedForm.en"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Volume designation in Series (No established form)"></div>
+    <div property="reg:name" xml:lang="en" content="hasVolumeDesignationInSeriesNoEstablishedForm"></div>
+    <div property="skos:definition" xml:lang="en" content="The number of the item being recorded within the series."></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U21011c">
+    <div property="reg:name" xml:lang="en" content="hasNameOfPublisherDistributorEtcInPublicationDistributionEtcCurrentOrLatestPublisherNotPublishedOrPublicallyDistributed"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Name of publisher, distributor, etc. in Publication, distribution, etc. (Current or latest publisher) (Not published or publically distributed)"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="skos:definition" xml:lang="en" content="The name of the publisher or distributor."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasNameOfPublisherDistributorEtcInPublicationDistributionEtcCurrentOrLatestPublisherNotPublishedOrPublicallyDistributed.en"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2101_f">
+    <div property="reg:name" xml:lang="en" content="hasAddressOfManufacturerInPublicationDistributionEtcCurrentOrLatestPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasAddressOfManufacturerInPublicationDistributionEtcCurrentOrLatestPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed.en"></div>
+    <div property="skos:definition" xml:lang="en" content="The full postal address of the manufacturer."></div>
+    <div property="rdfs:label" xml:lang="en" content="has Address of manufacturer in Publication, distribution, etc. (Current or latest publisher) (Produced in multiple copies, usually published or publically distributed)"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U210_1f">
+    <div property="rdfs:label" xml:lang="en" content="has Address of manufacturer in Publication, distribution, etc. (Not applicable / earliest available publisher) (Not published or publically distributed)"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="skos:definition" xml:lang="en" content="The full postal address of the manufacturer."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasAddressOfManufacturerInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherNotPublishedOrPublicallyDistributed.en"></div>
+    <div property="reg:name" xml:lang="en" content="hasAddressOfManufacturerInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherNotPublishedOrPublicallyDistributed"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2252_x">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="rdfs:label" xml:lang="en" content="has ISSN of series in Series (Same as the established form)"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasIssnOfSeriesInSeriesSameAsTheEstablishedForm.en"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="reg:name" xml:lang="en" content="hasIssnOfSeriesInSeriesSameAsTheEstablishedForm"></div>
+    <div property="skos:definition" xml:lang="en" content="The ISSN of the series."></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2252_i">
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasNameOfAPartInSeriesSameAsTheEstablishedForm.en"></div>
+    <div property="reg:name" xml:lang="en" content="hasNameOfAPartInSeriesSameAsTheEstablishedForm"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Name of a part in Series (Same as the established form)"></div>
+    <div property="skos:definition" xml:lang="en" content="The section or part name of the subseries."></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2000_h">
+    <div property="reg:name" xml:lang="en" content="hasNumberOfAPartInTitleAndStatementOfResponsibilityTitleIsNotSignificant"></div>
+    <div property="skos:definition" xml:lang="en" content="The section or part numbering for items that are identified by a common name and a subsection name."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasNumberOfAPartInTitleAndStatementOfResponsibilityTitleIsNotSignificant.en"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Number of a part in Title and statement of responsibility (Title is not significant)"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U21001b">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="skos:definition" xml:lang="en" content="The full postal address of a publisher, scriptorium or distributor."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasAddressOfPublisherDistributorEtcInPublicationDistributionEtcInterveningPublisherNotPublishedOrPublicallyDistributed.en"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="reg:name" xml:lang="en" content="hasAddressOfPublisherDistributorEtcInPublicationDistributionEtcInterveningPublisherNotPublishedOrPublicallyDistributed"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Address of publisher, distributor, etc. in Publication, distribution, etc. (Intervening publisher) (Not published or publically distributed)"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2252_f">
+    <div property="skos:definition" xml:lang="en" content="The statement of responsibility for a series title or paralle series title or for a numbered or named part within the series."></div>
+    <div property="rdfs:label" xml:lang="en" content="has Statement of responsibility in Series (Same as the established form)"></div>
+    <div property="reg:name" xml:lang="en" content="hasStatementOfResponsibilityInSeriesSameAsTheEstablishedForm"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasStatementOfResponsibilityInSeriesSameAsTheEstablishedForm.en"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U21001g">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Name of manufacturer in Publication, distribution, etc. (Intervening publisher) (Not published or publically distributed)"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="skos:definition" xml:lang="en" content="The name of the manufacturer (e.g. printer) or the person or institution collecting different units to produce a composite manuscript."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasNameOfManufacturerInPublicationDistributionEtcInterveningPublisherNotPublishedOrPublicallyDistributed.en"></div>
+    <div property="reg:name" xml:lang="en" content="hasNameOfManufacturerInPublicationDistributionEtcInterveningPublisherNotPublishedOrPublicallyDistributed"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2000_z">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="skos:definition" xml:lang="en" content="Language of a parallel title."></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Language of parallel title proper in Title and statement of responsibility (Title is not significant)"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasLanguageOfParallelTitleProperInTitleAndStatementOfResponsibilityTitleIsNotSignificant.en"></div>
+    <div property="reg:name" xml:lang="en" content="hasLanguageOfParallelTitleProperInTitleAndStatementOfResponsibilityTitleIsNotSignificant"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U205__d">
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasParallelEditionStatementInEditionStatement.en"></div>
+    <div property="skos:definition" xml:lang="en" content="The statement of an edition in a language and/or script other than the edition statement."></div>
+    <div property="rdfs:label" xml:lang="en" content="has Parallel edition statement in Edition statement"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="reg:name" xml:lang="en" content="hasParallelEditionStatementInEditionStatement"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U205__f">
+    <div property="rdfs:label" xml:lang="en" content="has Statement of responsibility relating to edition in Edition statement"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasStatementOfResponsibilityRelatingToEditionInEditionStatement.en"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="skos:definition" xml:lang="en" content="The first of any statements of responsibility relating to the edition."></div>
+    <div property="reg:name" xml:lang="en" content="hasStatementOfResponsibilityRelatingToEditionInEditionStatement"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U206__f">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Statement of equinox in Material specific area: cartographic resources - mathematical data (Unstructured)"></div>
+    <div property="reg:name" xml:lang="en" content="hasStatementOfEquinoxInMaterialSpecificAreaCartographicResources-MathematicalDataUnstructured"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasStatementOfEquinoxInMaterialSpecificAreaCartographicResources-MathematicalDataUnstructured.en"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2001_c">
+    <div property="skos:definition" xml:lang="en" content="The chief title of a work by an author other than the one responsible for the first title when they are both contained in the same item and when there is no collective title."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasTitleProperByAnotherAuthorInTitleAndStatementOfResponsibilityTitleIsSignificant.en"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Title proper by another author in Title and statement of responsibility (Title is significant)"></div>
+    <div property="reg:name" xml:lang="en" content="hasTitleProperByAnotherAuthorInTitleAndStatementOfResponsibilityTitleIsSignificant"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2100_f">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Address of manufacturer in Publication, distribution, etc. (Intervening publisher) (Produced in multiple copies, usually published or publically distributed)"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="skos:definition" xml:lang="en" content="The full postal address of the manufacturer."></div>
+    <div property="reg:name" xml:lang="en" content="hasAddressOfManufacturerInPublicationDistributionEtcInterveningPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasAddressOfManufacturerInPublicationDistributionEtcInterveningPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed.en"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2000_d">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Parallel title proper in Title and statement of responsibility (Title is not significant)"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="skos:definition" xml:lang="en" content="The title proper in another language and/or script."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasParallelTitleProperInTitleAndStatementOfResponsibilityTitleIsNotSignificant.en"></div>
+    <div property="reg:name" xml:lang="en" content="hasParallelTitleProperInTitleAndStatementOfResponsibilityTitleIsNotSignificant"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2000_i">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Name of a part in Title and statement of responsibility (Title is not significant)"></div>
+    <div property="skos:definition" xml:lang="en" content="The section or part name for items which are identified by a common name and a subsection name."></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="reg:name" xml:lang="en" content="hasNameOfAPartInTitleAndStatementOfResponsibilityTitleIsNotSignificant"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasNameOfAPartInTitleAndStatementOfResponsibilityTitleIsNotSignificant.en"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2251_f">
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasStatementOfResponsibilityInSeriesNoEstablishedForm.en"></div>
+    <div property="reg:name" xml:lang="en" content="hasStatementOfResponsibilityInSeriesNoEstablishedForm"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Statement of responsibility in Series (No established form)"></div>
+    <div property="skos:definition" xml:lang="en" content="The statement of responsibility for a series title or paralle series title or for a numbered or named part within the series."></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2101_h">
+    <div property="reg:name" xml:lang="en" content="hasDateOfManufactureInPublicationDistributionEtcCurrentOrLatestPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed"></div>
+    <div property="skos:definition" xml:lang="en" content="The date of manufacture of an item or assembling of a manuscript."></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Date of manufacture in Publication, distribution, etc. (Current or latest publisher) (Produced in multiple copies, usually published or publically distributed)"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasDateOfManufactureInPublicationDistributionEtcCurrentOrLatestPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed.en"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U215__d">
+    <div property="skos:definition" xml:lang="en" content="The linear measurements of an item and/or (in the case of an item which requires equipment for its use) dimensions relevant to the use of the item, and/or the bibliographic format of older printed books."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasDimensionsInPhysicalDescription.en"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="reg:name" xml:lang="en" content="hasDimensionsInPhysicalDescription"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Dimensions in Physical description"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U210_1b">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="reg:name" xml:lang="en" content="hasAddressOfPublisherDistributorEtcInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherNotPublishedOrPublicallyDistributed"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Address of publisher, distributor, etc. in Publication, distribution, etc. (Not applicable / earliest available publisher) (Not published or publically distributed)"></div>
+    <div property="skos:definition" xml:lang="en" content="The full postal address of a publisher, scriptorium or distributor."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasAddressOfPublisherDistributorEtcInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherNotPublishedOrPublicallyDistributed.en"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U210__a">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="reg:name" xml:lang="en" content="hasPlaceOfPublicationDistributionEtcInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed"></div>
+    <div property="skos:definition" xml:lang="en" content="The town or other locality where the item is published or distributed or, in the case of a manuscript, written."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasPlaceOfPublicationDistributionEtcInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed.en"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Place of publication, distribution, etc. in Publication, distribution, etc. (Not applicable / earliest available publisher) (Produced in multiple copies, usually published or publically distributed)"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U206__b">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="reg:name" xml:lang="en" content="hasStatementOfScaleInMaterialSpecificAreaCartographicResources-MathematicalDataUnstructured"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Statement of scale in Material specific area: cartographic resources - mathematical data (Unstructured)"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasStatementOfScaleInMaterialSpecificAreaCartographicResources-MathematicalDataUnstructured.en"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2250_f">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasStatementOfResponsibilityInSeriesNotTheSameAsTheEstablishedForm.en"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Statement of responsibility in Series (Not the same as the established form)"></div>
+    <div property="skos:definition" xml:lang="en" content="The statement of responsibility for a series title or paralle series title or for a numbered or named part within the series."></div>
+    <div property="reg:name" xml:lang="en" content="hasStatementOfResponsibilityInSeriesNotTheSameAsTheEstablishedForm"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2252_e">
+    <div property="rdfs:label" xml:lang="en" content="has Other title information in Series (Same as the established form)"></div>
+    <div property="reg:name" xml:lang="en" content="hasOtherTitleInformationInSeriesSameAsTheEstablishedForm"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="skos:definition" xml:lang="en" content="Subtitles and other title information that appear on the item subordinate to the series title or parallel series title or to the name of a part."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasOtherTitleInformationInSeriesSameAsTheEstablishedForm.en"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2100_g">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasNameOfManufacturerInPublicationDistributionEtcInterveningPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed.en"></div>
+    <div property="reg:name" xml:lang="en" content="hasNameOfManufacturerInPublicationDistributionEtcInterveningPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Name of manufacturer in Publication, distribution, etc. (Intervening publisher) (Produced in multiple copies, usually published or publically distributed)"></div>
+    <div property="skos:definition" xml:lang="en" content="The name of the manufacturer (e.g. printer) or the person or institution collecting different units to produce a composite manuscript."></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U210__f">
+    <div property="skos:definition" xml:lang="en" content="The full postal address of the manufacturer."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasAddressOfManufacturerInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed.en"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Address of manufacturer in Publication, distribution, etc. (Not applicable / earliest available publisher) (Produced in multiple copies, usually published or publically distributed)"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="reg:name" xml:lang="en" content="hasAddressOfManufacturerInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U210_1h">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Date of manufacture in Publication, distribution, etc. (Not applicable / earliest available publisher) (Not published or publically distributed)"></div>
+    <div property="reg:name" xml:lang="en" content="hasDateOfManufactureInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherNotPublishedOrPublicallyDistributed"></div>
+    <div property="skos:definition" xml:lang="en" content="The date of manufacture of an item or assembling of a manuscript."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasDateOfManufactureInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherNotPublishedOrPublicallyDistributed.en"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U205__a">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasEditionStatementInEditionStatement.en"></div>
+    <div property="reg:name" xml:lang="en" content="hasEditionStatementInEditionStatement"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Edition statement in Edition statement"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="skos:definition" xml:lang="en" content="A word, phrase or group of characters in a formal statement, identifying an item as a member of an edition."></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2252_z">
+    <div property="skos:definition" xml:lang="en" content="Coded identification of the language of a parallel title."></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="reg:name" xml:lang="en" content="hasLanguageOfParallelTitleInSeriesSameAsTheEstablishedForm"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Language of parallel title in Series (Same as the established form)"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasLanguageOfParallelTitleInSeriesSameAsTheEstablishedForm.en"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2001_a">
+    <div property="rdfs:label" xml:lang="en" content="has Title proper in Title and statement of responsibility (Title is significant)"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasTitleProperInTitleAndStatementOfResponsibilityTitleIsSignificant.en"></div>
+    <div property="reg:name" xml:lang="en" content="hasTitleProperInTitleAndStatementOfResponsibilityTitleIsSignificant"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="skos:definition" xml:lang="en" content="The chief title of the item."></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U205__g">
+    <div property="reg:name" xml:lang="en" content="hasSubsequentStatementOfResponsibilityInEditionStatement"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasSubsequentStatementOfResponsibilityInEditionStatement.en"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="skos:definition" xml:lang="en" content="Any subsequent statement of responsibility relating to the edition."></div>
+    <div property="rdfs:label" xml:lang="en" content="has Subsequent statement of responsibility in Edition statement"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2101_g">
+    <div property="reg:name" xml:lang="en" content="hasNameOfManufacturerInPublicationDistributionEtcCurrentOrLatestPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed"></div>
+    <div property="skos:definition" xml:lang="en" content="The name of the manufacturer (e.g. printer) or the person or institution collecting different units to produce a composite manuscript."></div>
+    <div property="rdfs:label" xml:lang="en" content="has Name of manufacturer in Publication, distribution, etc. (Current or latest publisher) (Produced in multiple copies, usually published or publically distributed)"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasNameOfManufacturerInPublicationDistributionEtcCurrentOrLatestPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed.en"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U207_1a">
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasNumberingDatesAndVolumeDesignationsInMaterialSpecificAreaNumberingOfContinuingResourcesNotFormatted.en"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="skos:definition" xml:lang="en" content="The numbering and/or dates of coverage."></div>
+    <div property="reg:name" xml:lang="en" content="hasNumberingDatesAndVolumeDesignationsInMaterialSpecificAreaNumberingOfContinuingResourcesNotFormatted"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Numbering: dates and volume designations in Material specific area: numbering of continuing resources (Not formatted)"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2100_b">
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasAddressOfPublisherDistributorEtcInPublicationDistributionEtcInterveningPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed.en"></div>
+    <div property="reg:name" xml:lang="en" content="hasAddressOfPublisherDistributorEtcInPublicationDistributionEtcInterveningPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Address of publisher, distributor, etc. in Publication, distribution, etc. (Intervening publisher) (Produced in multiple copies, usually published or publically distributed)"></div>
+    <div property="skos:definition" xml:lang="en" content="The full postal address of a publisher, scriptorium or distributor."></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2001_i">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasNameOfAPartInTitleAndStatementOfResponsibilityTitleIsSignificant.en"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Name of a part in Title and statement of responsibility (Title is significant)"></div>
+    <div property="reg:name" xml:lang="en" content="hasNameOfAPartInTitleAndStatementOfResponsibilityTitleIsSignificant"></div>
+    <div property="skos:definition" xml:lang="en" content="The section or part name for items which are identified by a common name and a subsection name."></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U210_1s">
+    <div property="skos:definition" xml:lang="en" content="The place and/or date of the printing and/or publishing, and/or the name of the printer and/or publisher of an older monographic publication, transcribed in the form and order as they appear in the colophon."></div>
+    <div property="rdfs:label" xml:lang="en" content="has Printing and/or publishing information transcribed as found in the colophon in Publication, distribution, etc. (Not applicable / earliest available publisher) (Not published or publically distributed)"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasPrintingAndOrPublishingInformationTranscribedAsFoundInTheColophonInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherNotPublishedOrPublicallyDistributed.en"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="reg:name" xml:lang="en" content="hasPrintingAndOrPublishingInformationTranscribedAsFoundInTheColophonInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherNotPublishedOrPublicallyDistributed"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U215__e">
+    <div property="skos:definition" xml:lang="en" content="A brief description of any material accompanying the item being described, which is intended to be used with the item."></div>
+    <div property="rdfs:label" xml:lang="en" content="has Accompanying material in Physical description"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="reg:name" xml:lang="en" content="hasAccompanyingMaterialInPhysicalDescription"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasAccompanyingMaterialInPhysicalDescription.en"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U21011r">
+    <div property="skos:definition" xml:lang="en" content="The place and/or date of publishing and/or printing, and/or the name of publisher and/printer, and other information relating to publication and/or printing, transcribed in the form and order as they appear on the title page or its substitute."></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasPrintingAndOrPublishingInformationTranscribedAsFoundInTheMainSourceOfInformationInPublicationDistributionEtcCurrentOrLatestPublisherNotPublishedOrPublicallyDistributed.en"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Printing and/or publishing information transcribed as found in the main source of information in Publication, distribution, etc. (Current or latest publisher) (Not published or publically distributed)"></div>
+    <div property="reg:name" xml:lang="en" content="hasPrintingAndOrPublishingInformationTranscribedAsFoundInTheMainSourceOfInformationInPublicationDistributionEtcCurrentOrLatestPublisherNotPublishedOrPublicallyDistributed"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U21011h">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasDateOfManufactureInPublicationDistributionEtcCurrentOrLatestPublisherNotPublishedOrPublicallyDistributed.en"></div>
+    <div property="reg:name" xml:lang="en" content="hasDateOfManufactureInPublicationDistributionEtcCurrentOrLatestPublisherNotPublishedOrPublicallyDistributed"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Date of manufacture in Publication, distribution, etc. (Current or latest publisher) (Not published or publically distributed)"></div>
+    <div property="skos:definition" xml:lang="en" content="The date of manufacture of an item or assembling of a manuscript."></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U206__a">
+    <div property="rdfs:label" xml:lang="en" content="has Mathematical data statement in Material specific area: cartographic resources - mathematical data (Unstructured)"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="skos:definition" xml:lang="en" content="The text of the statements of scale, projection, coordinates, equinoxes and epochs."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasMathematicalDataStatementInMaterialSpecificAreaCartographicResources-MathematicalDataUnstructured.en"></div>
+    <div property="reg:name" xml:lang="en" content="hasMathematicalDataStatementInMaterialSpecificAreaCartographicResources-MathematicalDataUnstructured"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U206__d">
+    <div property="reg:name" xml:lang="en" content="hasStatementOfCoordinatesInMaterialSpecificAreaCartographicResources-MathematicalDataUnstructured"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasStatementOfCoordinatesInMaterialSpecificAreaCartographicResources-MathematicalDataUnstructured.en"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Statement of coordinates in Material specific area: cartographic resources - mathematical data (Unstructured)"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U207_0a">
+    <div property="rdfs:label" xml:lang="en" content="has Numbering: dates and volume designations in Material specific area: numbering of continuing resources (Formatted)"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasNumberingDatesAndVolumeDesignationsInMaterialSpecificAreaNumberingOfContinuingResourcesFormatted.en"></div>
+    <div property="reg:name" xml:lang="en" content="hasNumberingDatesAndVolumeDesignationsInMaterialSpecificAreaNumberingOfContinuingResourcesFormatted"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="skos:definition" xml:lang="en" content="The numbering and/or dates of coverage."></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2001_z">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasLanguageOfParallelTitleProperInTitleAndStatementOfResponsibilityTitleIsSignificant.en"></div>
+    <div property="skos:definition" xml:lang="en" content="Language of a parallel title."></div>
+    <div property="rdfs:label" xml:lang="en" content="has Language of parallel title proper in Title and statement of responsibility (Title is significant)"></div>
+    <div property="reg:name" xml:lang="en" content="hasLanguageOfParallelTitleProperInTitleAndStatementOfResponsibilityTitleIsSignificant"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2251_e">
+    <div property="skos:definition" xml:lang="en" content="Subtitles and other title information that appear on the item subordinate to the series title or parallel series title or to the name of a part."></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasOtherTitleInformationInSeriesNoEstablishedForm.en"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Other title information in Series (No established form)"></div>
+    <div property="reg:name" xml:lang="en" content="hasOtherTitleInformationInSeriesNoEstablishedForm"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2100_c">
+    <div property="reg:name" xml:lang="en" content="hasNameOfPublisherDistributorEtcInPublicationDistributionEtcInterveningPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasNameOfPublisherDistributorEtcInPublicationDistributionEtcInterveningPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed.en"></div>
+    <div property="skos:definition" xml:lang="en" content="The name of the publisher or distributor."></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Name of publisher, distributor, etc. in Publication, distribution, etc. (Intervening publisher) (Produced in multiple copies, usually published or publically distributed)"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U21011f">
+    <div property="skos:definition" xml:lang="en" content="The full postal address of the manufacturer."></div>
+    <div property="rdfs:label" xml:lang="en" content="has Address of manufacturer in Publication, distribution, etc. (Current or latest publisher) (Not published or publically distributed)"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasAddressOfManufacturerInPublicationDistributionEtcCurrentOrLatestPublisherNotPublishedOrPublicallyDistributed.en"></div>
+    <div property="reg:name" xml:lang="en" content="hasAddressOfManufacturerInPublicationDistributionEtcCurrentOrLatestPublisherNotPublishedOrPublicallyDistributed"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U210__d">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="reg:name" xml:lang="en" content="hasDateOfPublicationDistributionEtcInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Date of publication, distribution, etc. in Publication, distribution, etc. (Not applicable / earliest available publisher) (Produced in multiple copies, usually published or publically distributed)"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="skos:definition" xml:lang="en" content="The date or approximate date of publication, the writing of a manuscript, production of an art work, etc., or a copyright date or date of manufacture, or the time period that specifies the part of the bibliographic item to which it applies."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasDateOfPublicationDistributionEtcInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed.en"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2000_g">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="reg:name" xml:lang="en" content="hasSubsequentStatementOfResponsibilityInTitleAndStatementOfResponsibilityTitleIsNotSignificant"></div>
+    <div property="skos:definition" xml:lang="en" content="A statement of responsibility after the first statement of responsibility and relating to the same title."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasSubsequentStatementOfResponsibilityInTitleAndStatementOfResponsibilityTitleIsNotSignificant.en"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Subsequent statement of responsibility in Title and statement of responsibility (Title is not significant)"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2000_r">
+    <div property="reg:name" xml:lang="en" content="hasTitlePageInformationFollowingTheTitleProperForOlderMonographicPublicationsInTitleAndStatementOfResponsibilityTitleIsNotSignificant"></div>
+    <div property="skos:definition" xml:lang="en" content="The remaining information present on the title page or its substitute."></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Title page information following the title proper (for older monographic publications) in Title and statement of responsibility (Title is not significant)"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasTitlePageInformationFollowingTheTitleProperForOlderMonographicPublicationsInTitleAndStatementOfResponsibilityTitleIsNotSignificant.en"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2100_s">
+    <div property="skos:definition" xml:lang="en" content="The place and/or date of the printing and/or publishing, and/or the name of the printer and/or publisher of an older monographic publication, transcribed in the form and order as they appear in the colophon."></div>
+    <div property="rdfs:label" xml:lang="en" content="has Printing and/or publishing information transcribed as found in the colophon in Publication, distribution, etc. (Intervening publisher) (Produced in multiple copies, usually published or publically distributed)"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="reg:name" xml:lang="en" content="hasPrintingAndOrPublishingInformationTranscribedAsFoundInTheColophonInPublicationDistributionEtcInterveningPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasPrintingAndOrPublishingInformationTranscribedAsFoundInTheColophonInPublicationDistributionEtcInterveningPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed.en"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U21001c">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasNameOfPublisherDistributorEtcInPublicationDistributionEtcInterveningPublisherNotPublishedOrPublicallyDistributed.en"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Name of publisher, distributor, etc. in Publication, distribution, etc. (Intervening publisher) (Not published or publically distributed)"></div>
+    <div property="reg:name" xml:lang="en" content="hasNameOfPublisherDistributorEtcInPublicationDistributionEtcInterveningPublisherNotPublishedOrPublicallyDistributed"></div>
+    <div property="skos:definition" xml:lang="en" content="The name of the publisher or distributor."></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2250_h">
+    <div property="skos:definition" xml:lang="en" content="The section or part number of the series."></div>
+    <div property="rdfs:label" xml:lang="en" content="has Number of a part in Series (Not the same as the established form)"></div>
+    <div property="reg:name" xml:lang="en" content="hasNumberOfAPartInSeriesNotTheSameAsTheEstablishedForm"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasNumberOfAPartInSeriesNotTheSameAsTheEstablishedForm.en"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U21001s">
+    <div property="reg:name" xml:lang="en" content="hasPrintingAndOrPublishingInformationTranscribedAsFoundInTheColophonInPublicationDistributionEtcInterveningPublisherNotPublishedOrPublicallyDistributed"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="skos:definition" xml:lang="en" content="The place and/or date of the printing and/or publishing, and/or the name of the printer and/or publisher of an older monographic publication, transcribed in the form and order as they appear in the colophon."></div>
+    <div property="rdfs:label" xml:lang="en" content="has Printing and/or publishing information transcribed as found in the colophon in Publication, distribution, etc. (Intervening publisher) (Not published or publically distributed)"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasPrintingAndOrPublishingInformationTranscribedAsFoundInTheColophonInPublicationDistributionEtcInterveningPublisherNotPublishedOrPublicallyDistributed.en"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U210_1a">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="skos:definition" xml:lang="en" content="The town or other locality where the item is published or distributed or, in the case of a manuscript, written."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasPlaceOfPublicationDistributionEtcInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherNotPublishedOrPublicallyDistributed.en"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Place of publication, distribution, etc. in Publication, distribution, etc. (Not applicable / earliest available publisher) (Not published or publically distributed)"></div>
+    <div property="reg:name" xml:lang="en" content="hasPlaceOfPublicationDistributionEtcInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherNotPublishedOrPublicallyDistributed"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2100_d">
+    <div property="reg:name" xml:lang="en" content="hasDateOfPublicationDistributionEtcInPublicationDistributionEtcInterveningPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Date of publication, distribution, etc. in Publication, distribution, etc. (Intervening publisher) (Produced in multiple copies, usually published or publically distributed)"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="skos:definition" xml:lang="en" content="The date or approximate date of publication, the writing of a manuscript, production of an art work, etc., or a copyright date or date of manufacture, or the time period that specifies the part of the bibliographic item to which it applies."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasDateOfPublicationDistributionEtcInPublicationDistributionEtcInterveningPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed.en"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2000_a">
+    <div property="skos:definition" xml:lang="en" content="The chief title of the item."></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasTitleProperInTitleAndStatementOfResponsibilityTitleIsNotSignificant.en"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Title proper in Title and statement of responsibility (Title is not significant)"></div>
+    <div property="skos:scopeNote" xml:lang="en" content="Includes alternative title but excludes other title information (e.g. subtitles) and parallel titles."></div>
+    <div property="reg:name" xml:lang="en" content="hasTitleProperInTitleAndStatementOfResponsibilityTitleIsNotSignificant"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2250_i">
+    <div property="skos:definition" xml:lang="en" content="The section or part name of the subseries."></div>
+    <div property="reg:name" xml:lang="en" content="hasNameOfAPartInSeriesNotTheSameAsTheEstablishedForm"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Name of a part in Series (Not the same as the established form)"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasNameOfAPartInSeriesNotTheSameAsTheEstablishedForm.en"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U21011g">
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasNameOfManufacturerInPublicationDistributionEtcCurrentOrLatestPublisherNotPublishedOrPublicallyDistributed.en"></div>
+    <div property="skos:definition" xml:lang="en" content="The name of the manufacturer (e.g. printer) or the person or institution collecting different units to produce a composite manuscript."></div>
+    <div property="rdfs:label" xml:lang="en" content="has Name of manufacturer in Publication, distribution, etc. (Current or latest publisher) (Not published or publically distributed)"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="reg:name" xml:lang="en" content="hasNameOfManufacturerInPublicationDistributionEtcCurrentOrLatestPublisherNotPublishedOrPublicallyDistributed"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2100_r">
+    <div property="skos:definition" xml:lang="en" content="The place and/or date of publishing and/or printing, and/or the name of publisher and/printer, and other information relating to publication and/or printing, transcribed in the form and order as they appear on the title page or its substitute."></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Printing and/or publishing information transcribed as found in the main source of information in Publication, distribution, etc. (Intervening publisher) (Produced in multiple copies, usually published or publically distributed)"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasPrintingAndOrPublishingInformationTranscribedAsFoundInTheMainSourceOfInformationInPublicationDistributionEtcInterveningPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed.en"></div>
+    <div property="reg:name" xml:lang="en" content="hasPrintingAndOrPublishingInformationTranscribedAsFoundInTheMainSourceOfInformationInPublicationDistributionEtcInterveningPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2101_c">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasNameOfPublisherDistributorEtcInPublicationDistributionEtcCurrentOrLatestPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed.en"></div>
+    <div property="reg:name" xml:lang="en" content="hasNameOfPublisherDistributorEtcInPublicationDistributionEtcCurrentOrLatestPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed"></div>
+    <div property="skos:definition" xml:lang="en" content="The name of the publisher or distributor."></div>
+    <div property="rdfs:label" xml:lang="en" content="has Name of publisher, distributor, etc. in Publication, distribution, etc. (Current or latest publisher) (Produced in multiple copies, usually published or publically distributed)"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U21001d">
+    <div property="rdfs:label" xml:lang="en" content="has Date of publication, distribution, etc. in Publication, distribution, etc. (Intervening publisher) (Not published or publically distributed)"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasDateOfPublicationDistributionEtcInPublicationDistributionEtcInterveningPublisherNotPublishedOrPublicallyDistributed.en"></div>
+    <div property="skos:definition" xml:lang="en" content="The date or approximate date of publication, the writing of a manuscript, production of an art work, etc., or a copyright date or date of manufacture, or the time period that specifies the part of the bibliographic item to which it applies."></div>
+    <div property="reg:name" xml:lang="en" content="hasDateOfPublicationDistributionEtcInPublicationDistributionEtcInterveningPublisherNotPublishedOrPublicallyDistributed"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2252_v">
+    <div property="skos:definition" xml:lang="en" content="The number of the item being recorded within the series."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasVolumeDesignationInSeriesSameAsTheEstablishedForm.en"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="reg:name" xml:lang="en" content="hasVolumeDesignationInSeriesSameAsTheEstablishedForm"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Volume designation in Series (Same as the established form)"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2101_e">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasPlaceOfManufactureInPublicationDistributionEtcCurrentOrLatestPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed.en"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Place of manufacture in Publication, distribution, etc. (Current or latest publisher) (Produced in multiple copies, usually published or publically distributed)"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="reg:name" xml:lang="en" content="hasPlaceOfManufactureInPublicationDistributionEtcCurrentOrLatestPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed"></div>
+    <div property="skos:definition" xml:lang="en" content="The place of printing of a book or the place where a composite manuscript has been collected or bound together."></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U205__b">
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasIssueStatementInEditionStatement.en"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="skos:definition" xml:lang="en" content="An edition statement relating to an issue or an additional edition statement which is formally identified as constituting an edition within an edition, or has significant differences in content from other issues of the larger edition to which it belongs, or is an alternative designation for the edition."></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="reg:name" xml:lang="en" content="hasIssueStatementInEditionStatement"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Issue statement in Edition statement"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U210__g">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasNameOfManufacturerInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed.en"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Name of manufacturer in Publication, distribution, etc. (Not applicable / earliest available publisher) (Produced in multiple copies, usually published or publically distributed)"></div>
+    <div property="skos:definition" xml:lang="en" content="The name of the manufacturer (e.g. printer) or the person or institution collecting different units to produce a composite manuscript."></div>
+    <div property="reg:name" xml:lang="en" content="hasNameOfManufacturerInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U207_1z">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasSourceOfNumberingInformationInMaterialSpecificAreaNumberingOfContinuingResourcesNotFormatted.en"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Source of numbering information in Material specific area: numbering of continuing resources (Not formatted)"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="reg:name" xml:lang="en" content="hasSourceOfNumberingInformationInMaterialSpecificAreaNumberingOfContinuingResourcesNotFormatted"></div>
+    <div property="skos:definition" xml:lang="en" content="A note on the source of numbering information when it is not taken from the item itself."></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U21011b">
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasAddressOfPublisherDistributorEtcInPublicationDistributionEtcCurrentOrLatestPublisherNotPublishedOrPublicallyDistributed.en"></div>
+    <div property="skos:definition" xml:lang="en" content="The full postal address of a publisher, scriptorium or distributor."></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Address of publisher, distributor, etc. in Publication, distribution, etc. (Current or latest publisher) (Not published or publically distributed)"></div>
+    <div property="reg:name" xml:lang="en" content="hasAddressOfPublisherDistributorEtcInPublicationDistributionEtcCurrentOrLatestPublisherNotPublishedOrPublicallyDistributed"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2252_a">
+    <div property="rdfs:label" xml:lang="en" content="has Series title in Series (Same as the established form)"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="reg:name" xml:lang="en" content="hasSeriesTitleInSeriesSameAsTheEstablishedForm"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="skos:definition" xml:lang="en" content="The title of the series in the form in which it appears on the item being recorded."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasSeriesTitleInSeriesSameAsTheEstablishedForm.en"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2001_r">
+    <div property="reg:name" xml:lang="en" content="hasTitlePageInformationFollowingTheTitleProperForOlderMonographicPublicationsInTitleAndStatementOfResponsibilityTitleIsNotSignificant"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Title page information following the title proper (for older monographic publications) in Title and statement of responsibility (Title is not significant)"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasTitlePageInformationFollowingTheTitleProperForOlderMonographicPublicationsInTitleAndStatementOfResponsibilityTitleIsNotSignificant.en"></div>
+    <div property="skos:definition" xml:lang="en" content="The remaining information present on the title page or its substitute."></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2000_5">
+    <div property="rdfs:label" xml:lang="en" content="has Institution to which field applies in Title and statement of responsibility (Title is not significant)"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="skos:definition" xml:lang="en" content="Applicable institution."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasInstitutionToWhichFieldAppliesInTitleAndStatementOfResponsibilityTitleIsNotSignificant.en"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="reg:name" xml:lang="en" content="hasInstitutionToWhichFieldAppliesInTitleAndStatementOfResponsibilityTitleIsNotSignificant"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2060_e">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasRightAscensionAndDeclinationInMaterialSpecificAreaCartographicResources-MathematicalDataStructured.en"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Right ascension and declination in Material specific area: cartographic resources - mathematical data (Structured)"></div>
+    <div property="reg:name" xml:lang="en" content="hasRightAscensionAndDeclinationInMaterialSpecificAreaCartographicResources-MathematicalDataStructured"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U21001r">
+    <div property="rdfs:label" xml:lang="en" content="has Printing and/or publishing information transcribed as found in the main source of information in Publication, distribution, etc. (Intervening publisher) (Not published or publically distributed)"></div>
+    <div property="reg:name" xml:lang="en" content="hasPrintingAndOrPublishingInformationTranscribedAsFoundInTheMainSourceOfInformationInPublicationDistributionEtcInterveningPublisherNotPublishedOrPublicallyDistributed"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasPrintingAndOrPublishingInformationTranscribedAsFoundInTheMainSourceOfInformationInPublicationDistributionEtcInterveningPublisherNotPublishedOrPublicallyDistributed.en"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="skos:definition" xml:lang="en" content="The place and/or date of publishing and/or printing, and/or the name of publisher and/printer, and other information relating to publication and/or printing, transcribed in the form and order as they appear on the title page or its substitute."></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2000_b">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasGeneralMaterialDesignationInTitleAndStatementOfResponsibilityTitleIsNotSignificant.en"></div>
+    <div property="skos:definition" xml:lang="en" content="Text of general material designation."></div>
+    <div property="reg:name" xml:lang="en" content="hasGeneralMaterialDesignationInTitleAndStatementOfResponsibilityTitleIsNotSignificant"></div>
+    <div property="rdfs:label" xml:lang="en" content="has General material designation in Title and statement of responsibility (Title is not significant)"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2001_k">
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasBulkDatesInTitleAndStatementOfResponsibilityTitleIsNotSignificant.en"></div>
+    <div property="reg:name" xml:lang="en" content="hasBulkDatesInTitleAndStatementOfResponsibilityTitleIsNotSignificant"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Bulk dates in Title and statement of responsibility (Title is not significant)"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="skos:definition" xml:lang="en" content="Dates pertaining to the majority of the materials in the unit."></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2100_a">
+    <div property="skos:definition" xml:lang="en" content="The town or other locality where the item is published or distributed or, in the case of a manuscript, written."></div>
+    <div property="rdfs:label" xml:lang="en" content="has Place of publication, distribution, etc. in Publication, distribution, etc. (Intervening publisher) (Produced in multiple copies, usually published or publically distributed)"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasPlaceOfPublicationDistributionEtcInPublicationDistributionEtcInterveningPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed.en"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="reg:name" xml:lang="en" content="hasPlaceOfPublicationDistributionEtcInPublicationDistributionEtcInterveningPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U251__a">
+    <div property="skos:definition" xml:lang="en" content="Manner in which the materials being described have been subdivided into smaller units."></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasOrganizationInOrganizationAndArrangementOfMaterials.en"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Organization in Organization and arrangement of materials"></div>
+    <div property="reg:name" xml:lang="en" content="hasOrganizationInOrganizationAndArrangementOfMaterials"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U21001e">
+    <div property="reg:name" xml:lang="en" content="hasPlaceOfManufactureInPublicationDistributionEtcInterveningPublisherNotPublishedOrPublicallyDistributed"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasPlaceOfManufactureInPublicationDistributionEtcInterveningPublisherNotPublishedOrPublicallyDistributed.en"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="skos:definition" xml:lang="en" content="The place of printing of a book or the place where a composite manuscript has been collected or bound together."></div>
+    <div property="rdfs:label" xml:lang="en" content="has Place of manufacture in Publication, distribution, etc. (Intervening publisher) (Not published or publically distributed)"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U210__b">
+    <div property="skos:definition" xml:lang="en" content="The full postal address of a publisher, scriptorium or distributor."></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="reg:name" xml:lang="en" content="hasAddressOfPublisherDistributorEtcInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasAddressOfPublisherDistributorEtcInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed.en"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Address of publisher, distributor, etc. in Publication, distribution, etc. (Not applicable / earliest available publisher) (Produced in multiple copies, usually published or publically distributed)"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2101_a">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasPlaceOfPublicationDistributionEtcInPublicationDistributionEtcCurrentOrLatestPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed.en"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Place of publication, distribution, etc. in Publication, distribution, etc. (Current or latest publisher) (Produced in multiple copies, usually published or publically distributed)"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="reg:name" xml:lang="en" content="hasPlaceOfPublicationDistributionEtcInPublicationDistributionEtcCurrentOrLatestPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed"></div>
+    <div property="skos:definition" xml:lang="en" content="The town or other locality where the item is published or distributed or, in the case of a manuscript, written."></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U210_1e">
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasPlaceOfManufactureInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherNotPublishedOrPublicallyDistributed.en"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Place of manufacture in Publication, distribution, etc. (Not applicable / earliest available publisher) (Not published or publically distributed)"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="skos:definition" xml:lang="en" content="The place of printing of a book or the place where a composite manuscript has been collected or bound together."></div>
+    <div property="reg:name" xml:lang="en" content="hasPlaceOfManufactureInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherNotPublishedOrPublicallyDistributed"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2101_d">
+    <div property="rdfs:label" xml:lang="en" content="has Date of publication, distribution, etc. in Publication, distribution, etc. (Current or latest publisher) (Produced in multiple copies, usually published or publically distributed)"></div>
+    <div property="skos:definition" xml:lang="en" content="The date or approximate date of publication, the writing of a manuscript, production of an art work, etc., or a copyright date or date of manufacture, or the time period that specifies the part of the bibliographic item to which it applies."></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="reg:name" xml:lang="en" content="hasDateOfPublicationDistributionEtcInPublicationDistributionEtcCurrentOrLatestPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasDateOfPublicationDistributionEtcInPublicationDistributionEtcCurrentOrLatestPublisherProducedInMultipleCopiesUsuallyPublishedOrPublicallyDistributed.en"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2251_z">
+    <div property="reg:name" xml:lang="en" content="hasLanguageOfParallelTitleInSeriesNoEstablishedForm"></div>
+    <div property="skos:definition" xml:lang="en" content="Coded identification of the language of a parallel title."></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasLanguageOfParallelTitleInSeriesNoEstablishedForm.en"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Language of parallel title in Series (No established form)"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U211__a">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Date in Projected publication date"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasDateInProjectedPublicationDate.en"></div>
+    <div property="reg:name" xml:lang="en" content="hasDateInProjectedPublicationDate"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2252_d">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasParallelSeriesTitleInSeriesSameAsTheEstablishedForm.en"></div>
+    <div property="skos:definition" xml:lang="en" content="The title of the series in another language and/or script."></div>
+    <div property="rdfs:label" xml:lang="en" content="has Parallel series title in Series (Same as the established form)"></div>
+    <div property="reg:name" xml:lang="en" content="hasParallelSeriesTitleInSeriesSameAsTheEstablishedForm"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2251_h">
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasNumberOfAPartInSeriesNoEstablishedForm.en"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Number of a part in Series (No established form)"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="skos:definition" xml:lang="en" content="The section or part number of the series."></div>
+    <div property="reg:name" xml:lang="en" content="hasNumberOfAPartInSeriesNoEstablishedForm"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U207_0z">
+    <div property="skos:definition" xml:lang="en" content="A note on the source of numbering information when it is not taken from the item itself."></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasSourceOfNumberingInformationInMaterialSpecificAreaNumberingOfContinuingResourcesFormatted.en"></div>
+    <div property="reg:name" xml:lang="en" content="hasSourceOfNumberingInformationInMaterialSpecificAreaNumberingOfContinuingResourcesFormatted"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Source of numbering information in Material specific area: numbering of continuing resources (Formatted)"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U2001_v">
+    <div property="reg:name" xml:lang="en" content="hasVolumeDesignationInTitleAndStatementOfResponsibilityTitleIsSignificant"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Volume designation in Title and statement of responsibility (Title is significant)"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div property="skos:definition" xml:lang="en" content="A particular part of an item that is related to another item."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasVolumeDesignationInTitleAndStatementOfResponsibilityTitleIsSignificant.en"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U215__a">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="skos:definition" xml:lang="en" content="The name of the specific type of material to which the item belongs and/or an indication of the number of pieces or constituent parts."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasSpecificMaterialDesignationAndExtentOfItemInPhysicalDescription.en"></div>
+    <div property="reg:name" xml:lang="en" content="hasSpecificMaterialDesignationAndExtentOfItemInPhysicalDescription"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Specific material designation and extent of item in Physical description"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/U210_1c">
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/hasNameOfPublisherDistributorEtcInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherNotPublishedOrPublicallyDistributed.en"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unimarcb/elements/2XX/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="rdfs:label" xml:lang="en" content="has Name of publisher, distributor, etc. in Publication, distribution, etc. (Not applicable / earliest available publisher) (Not published or publically distributed)"></div>
+    <div property="reg:name" xml:lang="en" content="hasNameOfPublisherDistributorEtcInPublicationDistributionEtcNotApplicableEarliestAvailablePublisherNotPublishedOrPublicallyDistributed"></div>
+    <div property="skos:definition" xml:lang="en" content="The name of the publisher or distributor."></div>
+  </div>
+</div>

@@ -1,28 +1,906 @@
-
-<html><head>
-<meta http-equiv="content-type" content="text/html;charset=utf-8">
-<title>503 Over Quota</title>
-<style><!--
-body {font-family: arial,sans-serif}
-div.nav {margin-top: 1ex}
-div.nav A {font-size: 10pt; font-family: arial,sans-serif}
-span.nav {font-size: 10pt; font-family: arial,sans-serif; font-weight: bold}
-div.nav A,span.big {font-size: 12pt; color: #0000cc}
-div.nav A {font-size: 10pt; color: black}
-A.l:link {color: #6f6f6f}
-A.u:link {color: green}
-//--></style>
-
-</head>
-<body text=#000000 bgcolor=#ffffff>
-<table border=0 cellpadding=2 cellspacing=0 width=100%>
-<tr><td bgcolor=#3366cc><font face=arial,sans-serif color=#ffffff><b>Error</b></td></tr>
-<tr><td>&nbsp;</td></tr></table>
-<blockquote>
-<H1>Over Quota</H1>
-This application is temporarily over its serving quota.  Please try again later.
-
-<p>
-</blockquote>
-<table width=100% cellpadding=0 cellspacing=0><tr><td bgcolor=#3366cc><img alt="" width=1 height=4></td></tr></table>
-</body></html>
+<div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1460_a" itemscope>
+    <div itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" itemid="http://iflastandards.info/ns/unimarc/unib/" itemscope>
+      <meta itemprop="http://purl.org/dc/elements/1.1/title" content="Test (do not use)" />
+    </div>
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest146" />
+    <div itemprop="http://metadataregistry.org/uri/profile/regap/status" itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://metadataregistry.org/uri/RegStatus/1008" itemscope>
+      <meta itemprop="prefLabel" content="Deprecated" />
+    </div>
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest146" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1010_b" itemscope>
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest2" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest2" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1011_i" itemscope>
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest19" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest19" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1232_n" itemscope>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest78" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest78" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1231_k" itemscope>
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest61" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest61" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B131__i" itemscope>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest133" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest133" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1011_j" itemscope>
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest20" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest20" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1234_d" itemscope>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest99" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest99" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1011_h" itemscope>
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest18" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest18" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B124__b" itemscope>
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest112" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest112" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1233_d" itemscope>
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest84" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest84" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B131__c" itemscope>
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest127" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest127" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1234_i" itemscope>
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest104" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest104" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1234_e" itemscope>
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest100" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest100" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B141__c" itemscope>
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest138" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest138" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B141__5" itemscope>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest137" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest137" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1230_k" itemscope>
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest46" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest46" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B131__d" itemscope>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest128" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest128" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1232_i" itemscope>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest74" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest74" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1234_o" itemscope>
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest109" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest109" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1012_b" itemscope>
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest22" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest22" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1011_d" itemscope>
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest14" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest14" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1012_h" itemscope>
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest28" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest28" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1011_e" itemscope>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest15" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest15" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1012_a" itemscope>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest21" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest21" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1012_e" itemscope>
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest25" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest25" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B124__e" itemscope>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest115" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest115" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1010_g" itemscope>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest7" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest7" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B124__c" itemscope>
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest113" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest113" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1231_o" itemscope>
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest64" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest64" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B141__d" itemscope>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest139" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest139" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1231_i" itemscope>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest59" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest59" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1233_m" itemscope>
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest92" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest92" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1232_e" itemscope>
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest70" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest70" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B125__b" itemscope>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest118" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest118" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1230_e" itemscope>
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest40" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest40" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B131__f" itemscope>
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest130" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest130" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B131__e" itemscope>
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest129" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest129" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B146_1a" itemscope>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest149" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest149" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1012_i" itemscope>
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest29" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest29" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1011_g" itemscope>
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest17" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest17" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B131__l" itemscope>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest136" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest136" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B128__a" itemscope>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest121" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest121" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B102__a" itemscope>
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest32" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest32" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1010_e" itemscope>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest5" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest5" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1233_j" itemscope>
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest90" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest90" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1232_p" itemscope>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest80" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest80" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1234_j" itemscope>
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest105" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest105" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B102__b" itemscope>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest33" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest33" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B124__f" itemscope>
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest116" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest116" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B131__g" itemscope>
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest131" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest131" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B131__k" itemscope>
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest135" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest135" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1230_f" itemscope>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest41" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest41" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B125__c" itemscope>
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest119" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest119" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1461_a" itemscope>
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest148" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest148" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1230_h" itemscope>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest43" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest43" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B102__c" itemscope>
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest34" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest34" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B14511a" itemscope>
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest143" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest143" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1234_k" itemscope>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest106" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest106" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1232_m" itemscope>
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest77" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest77" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1234_m" itemscope>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest107" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest107" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1010_a" itemscope>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest1" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest1" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B146__a" itemscope>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest150" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest150" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B128__c" itemscope>
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest123" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest123" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1230_a" itemscope>
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest36" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest36" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1234_h" itemscope>
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest103" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest103" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1231_j" itemscope>
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest60" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest60" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1234_p" itemscope>
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest110" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest110" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1231_c" itemscope>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest53" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest53" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B124__g" itemscope>
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest117" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest117" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1232_j" itemscope>
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest75" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest75" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B131__b" itemscope>
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest126" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest126" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1010_f" itemscope>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest6" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest6" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B14611a" itemscope>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest147" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest147" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B124__a" itemscope>
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest111" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest111" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B131__j" itemscope>
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest134" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest134" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1232_g" itemscope>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest72" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest72" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B131__a" itemscope>
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest125" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest125" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1234_a" itemscope>
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest96" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest96" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1232_o" itemscope>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest79" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest79" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B14601a" itemscope>
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest145" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest145" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1231_d" itemscope>
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest54" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest54" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1231_e" itemscope>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest55" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest55" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1012_d" itemscope>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest24" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest24" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1234_b" itemscope>
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest97" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest97" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1233_n" itemscope>
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest93" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest93" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1010_i" itemscope>
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest9" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest9" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1010_d" itemscope>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest4" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest4" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1011_f" itemscope>
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest16" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest16" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1230_b" itemscope>
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest37" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest37" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1012_c" itemscope>
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest23" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest23" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B128__d" itemscope>
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest124" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest124" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1011_c" itemscope>
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest13" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest13" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B141__f" itemscope>
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest140" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest140" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1230_p" itemscope>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest50" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest50" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1233_g" itemscope>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest87" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest87" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1232_a" itemscope>
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest66" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest66" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1231_n" itemscope>
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest63" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest63" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1234_c" itemscope>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest98" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest98" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1010_c" itemscope>
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest3" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest3" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1011_a" itemscope>
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest11" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest11" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1233_e" itemscope>
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest85" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest85" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B14501a" itemscope>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest141" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest141" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1233_f" itemscope>
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest86" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest86" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1012_f" itemscope>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest26" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest26" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1233_b" itemscope>
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest82" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest82" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1230_c" itemscope>
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest38" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest38" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1233_i" itemscope>
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest89" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest89" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1230_n" itemscope>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest48" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest48" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1232_c" itemscope>
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest68" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest68" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1231_f" itemscope>
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest56" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest56" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1012_g" itemscope>
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest27" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest27" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1011_b" itemscope>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest12" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest12" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1232_f" itemscope>
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest71" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest71" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B124__d" itemscope>
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest114" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest114" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1012_j" itemscope>
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest30" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest30" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1230_d" itemscope>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest39" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest39" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1231_p" itemscope>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest65" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest65" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1233_p" itemscope>
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest95" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest95" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1231_m" itemscope>
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest62" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest62" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1231_b" itemscope>
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest52" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest52" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1234_g" itemscope>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest102" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest102" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1231_g" itemscope>
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest57" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest57" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1230_i" itemscope>
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest44" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest44" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B127__a" itemscope>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest120" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest120" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1232_b" itemscope>
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest67" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest67" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1232_h" itemscope>
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest73" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest73" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1233_h" itemscope>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest88" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest88" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1231_a" itemscope>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest51" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest51" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1230_j" itemscope>
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest45" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest45" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B106__a" itemscope>
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest35" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest35" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1230_o" itemscope>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest49" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest49" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B102__2" itemscope>
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest31" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest31" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1232_d" itemscope>
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest69" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest69" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1234_f" itemscope>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest101" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest101" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B128__b" itemscope>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest122" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest122" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1451_a" itemscope>
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest144" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest144" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1450_a" itemscope>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest142" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest142" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1233_c" itemscope>
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest83" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest83" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1230_m" itemscope>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest47" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest47" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1234_n" itemscope>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest108" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest108" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1233_a" itemscope>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest81" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest81" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B131__h" itemscope>
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest132" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest132" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1010_j" itemscope>
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest10" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest10" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1233_k" itemscope>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest91" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest91" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1233_o" itemscope>
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest94" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest94" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1010_h" itemscope>
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest8" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest8" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1231_h" itemscope>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest58" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest58" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1230_g" itemscope>
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest42" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest42" />
+  </div>
+  <div itemtype="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" itemid="http://iflastandards.info/ns/unimarc/unib/B1232_k" itemscope>
+    <meta itemprop="http://metadataregistry.org/uri/profile/regap/name" content="UniTest76" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1008" />
+    <link itemprop="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" href="http://iflastandards.info/ns/unimarc/unib/" />
+    <meta itemprop="http://www.w3.org/2000/01/rdf-schema#label" content="UniTest76" />
+  </div>
+</div>

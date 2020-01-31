@@ -1,28 +1,932 @@
-
-<html><head>
-<meta http-equiv="content-type" content="text/html;charset=utf-8">
-<title>503 Over Quota</title>
-<style><!--
-body {font-family: arial,sans-serif}
-div.nav {margin-top: 1ex}
-div.nav A {font-size: 10pt; font-family: arial,sans-serif}
-span.nav {font-size: 10pt; font-family: arial,sans-serif; font-weight: bold}
-div.nav A,span.big {font-size: 12pt; color: #0000cc}
-div.nav A {font-size: 10pt; color: black}
-A.l:link {color: #6f6f6f}
-A.u:link {color: green}
-//--></style>
-
-</head>
-<body text=#000000 bgcolor=#ffffff>
-<table border=0 cellpadding=2 cellspacing=0 width=100%>
-<tr><td bgcolor=#3366cc><font face=arial,sans-serif color=#ffffff><b>Error</b></td></tr>
-<tr><td>&nbsp;</td></tr></table>
-<blockquote>
-<H1>Over Quota</H1>
-This application is temporarily over its serving quota.  Please try again later.
-
-<p>
-</blockquote>
-<table width=100% cellpadding=0 cellspacing=0><tr><td bgcolor=#3366cc><img alt="" width=1 height=4></td></tr></table>
-</body></html>
+{
+  "http://iflastandards.info/ns/unimarc/terms/cartprt#dd": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "not screened"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "dd"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/7638"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/unimarc/terms/cartprt#"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/unimarc/terms/cartprt#da": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "picto map"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "da"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/7635"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/unimarc/terms/cartprt#"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/unimarc/terms/cartprt#": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+      }
+    ], 
+    "http://purl.org/dc/elements/1.1/title": [
+      {
+        "type": "literal", 
+        "value": "UNIMARC: Cartographic materials: Presentation technique"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/unimarc/terms/cartprt#dc": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "screened"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "dc"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/7637"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/unimarc/terms/cartprt#"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/unimarc/terms/cartprt#as": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "map view"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "as"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/7634"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/unimarc/terms/cartprt#"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/unimarc/terms/cartprt#ar": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "views without horizon showing"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "ar"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/7633"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/unimarc/terms/cartprt#"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Includes bird's eye views and panoramas."
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/unimarc/terms/cartprt#aq": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "views with horizon showing"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "aq"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/7632"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/unimarc/terms/cartprt#"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Includes bird's eye views and panoramas."
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/unimarc/terms/cartprt#ap": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "mental or cognitive map"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "ap"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/7631"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/unimarc/terms/cartprt#"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/unimarc/terms/cartprt#ag": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "diagrammatric map"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "cartogram map"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "ag"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/7623"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/unimarc/terms/cartprt#"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/unimarc/terms/cartprt#af": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "dot map"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "af"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/7622"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/unimarc/terms/cartprt#"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/unimarc/terms/cartprt#ae": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "flowline map, flow map"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "ae"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/7621"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/unimarc/terms/cartprt#"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/unimarc/terms/cartprt#ad": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "diagram map"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "ad"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/7620"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/unimarc/terms/cartprt#"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/unimarc/terms/cartprt#ac": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "planimetric"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "ac"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/7619"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/unimarc/terms/cartprt#"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/unimarc/terms/cartprt#ab": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "polarized"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "ab"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/7618"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/unimarc/terms/cartprt#"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/unimarc/terms/cartprt#aa": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "anaglyphic"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "aa"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/7617"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/unimarc/terms/cartprt#"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/unimarc/terms/cartprt#ao": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "spatial model on two dimensional surface"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "ao"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/7630"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/unimarc/terms/cartprt#"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/unimarc/terms/cartprt#an": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "pictorial map"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "an"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/7629"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/unimarc/terms/cartprt#"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/unimarc/terms/cartprt#am": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "anamorphic"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "am"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/7628"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/unimarc/terms/cartprt#"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/unimarc/terms/cartprt#ak": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "isopleth"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "ak"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/7627"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/unimarc/terms/cartprt#"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/unimarc/terms/cartprt#aj": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "dasymetric"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "aj"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/7626"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/unimarc/terms/cartprt#"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/unimarc/terms/cartprt#ai": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "chorochromatic"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "ai"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/7625"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/unimarc/terms/cartprt#"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/unimarc/terms/cartprt#ah": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "choropleth"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "ah"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/7624"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/unimarc/terms/cartprt#"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ]
+  }, 
+  "http://metadataregistry.org/uri/RegStatus/1001": {
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Published"
+      }
+    ], 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/unimarc/terms/cartprt#db": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "random dot map"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "db"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/7636"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/unimarc/terms/cartprt#"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ]
+  }
+}

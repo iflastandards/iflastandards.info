@@ -1,39 +1,40 @@
 <div>
-  <div itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://iflastandards.info/ns/fr/frsad/frsadusertask#T1004" itemscope>
-    <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/1243" />
+  <div itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://metadataregistry.org/uri/RegStatus/1001" itemscope>
+    <meta itemprop="prefLabel" content="Published" />
+  </div>
+  <div itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://iflastandards.info/ns/fr/frsad/frsadusertask#T1003" itemscope>
     <div itemprop="inScheme" itemtype="http://www.w3.org/2004/02/skos/core#ConceptScheme" itemid="http://iflastandards.info/ns/fr/frsad/frsadusertask" itemscope>
-      <meta itemprop="http://purl.org/dc/elements/1.1/title" content="FRSAD User Tasks" />
-      <div itemprop="hasTopConcept" itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://iflastandards.info/ns/fr/frsad/frsadusertask#T1001" itemscope>
-        <link itemprop="topConceptOf" href="http://iflastandards.info/ns/fr/frsad/frsadusertask" />
-        <meta itemprop="prefLabel" content="find" />
-        <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
-        <meta itemprop="definition" content="Find one or more subjects and, or, their appellations, that correspond(s) to the user’s stated criteria, using attributes and relationships." />
-        <link itemprop="inScheme" href="http://iflastandards.info/ns/fr/frsad/frsadusertask" />
-        <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/1240" />
-      </div>
       <div itemprop="hasTopConcept" itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://iflastandards.info/ns/fr/frsad/frsadusertask#T1002" itemscope>
         <meta itemprop="definition" content="Identify a subject and, or, its appellation based on its attributes or relationships (i.e., to distinguish between two or more subjects or appellations with similar characteristics and to confirm that the appropriate subject or appellation has been found)." />
-        <link itemprop="inScheme" href="http://iflastandards.info/ns/fr/frsad/frsadusertask" />
-        <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
-        <meta itemprop="prefLabel" content="identify" />
+        <link itemprop="topConceptOf" href="http://iflastandards.info/ns/fr/frsad/frsadusertask" />
         <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/1241" />
-        <link itemprop="topConceptOf" href="http://iflastandards.info/ns/fr/frsad/frsadusertask" />
-      </div>
-      <link itemprop="hasTopConcept" href="http://iflastandards.info/ns/fr/frsad/frsadusertask#T1004" />
-      <div itemprop="hasTopConcept" itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://iflastandards.info/ns/fr/frsad/frsadusertask#T1003" itemscope>
-        <meta itemprop="prefLabel" content="select" />
-        <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/1242" />
+        <meta itemprop="prefLabel" content="identify" />
         <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
         <link itemprop="inScheme" href="http://iflastandards.info/ns/fr/frsad/frsadusertask" />
-        <meta itemprop="definition" content="Select a subject and, or, its appellation appropriate to the user's needs (i.e., to choose or reject based on the user's requirements and needs)." />
-        <link itemprop="topConceptOf" href="http://iflastandards.info/ns/fr/frsad/frsadusertask" />
       </div>
+      <div itemprop="hasTopConcept" itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://iflastandards.info/ns/fr/frsad/frsadusertask#T1004" itemscope>
+        <meta itemprop="prefLabel" content="explore" />
+        <link itemprop="topConceptOf" href="http://iflastandards.info/ns/fr/frsad/frsadusertask" />
+        <meta itemprop="definition" content="Explore relationships between subjects and. or, their appellations (e.g., to explore relationships in order to understand the structure of a subject domain and its terminology)." />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/1243" />
+        <link itemprop="inScheme" href="http://iflastandards.info/ns/fr/frsad/frsadusertask" />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+      </div>
+      <link itemprop="hasTopConcept" href="http://iflastandards.info/ns/fr/frsad/frsadusertask#T1003" />
+      <div itemprop="hasTopConcept" itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://iflastandards.info/ns/fr/frsad/frsadusertask#T1001" itemscope>
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+        <link itemprop="topConceptOf" href="http://iflastandards.info/ns/fr/frsad/frsadusertask" />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/1240" />
+        <meta itemprop="definition" content="Find one or more subjects and, or, their appellations, that correspond(s) to the user’s stated criteria, using attributes and relationships." />
+        <link itemprop="inScheme" href="http://iflastandards.info/ns/fr/frsad/frsadusertask" />
+        <meta itemprop="prefLabel" content="find" />
+      </div>
+      <meta itemprop="http://purl.org/dc/elements/1.1/title" content="FRSAD User Tasks" />
     </div>
-    <div itemprop="http://metadataregistry.org/uri/profile/regap/status" itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://metadataregistry.org/uri/RegStatus/1001" itemscope>
-      <meta itemprop="prefLabel" content="Published" />
-    </div>
+    <meta itemprop="prefLabel" content="select" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/1242" />
+    <meta itemprop="definition" content="Select a subject and, or, its appellation appropriate to the user's needs (i.e., to choose or reject based on the user's requirements and needs)." />
     <link itemprop="topConceptOf" href="http://iflastandards.info/ns/fr/frsad/frsadusertask" />
-    <meta itemprop="definition" content="Explore relationships between subjects and. or, their appellations (e.g., to explore relationships in order to understand the structure of a subject domain and its terminology)." />
-    <meta itemprop="prefLabel" content="explore" />
   </div>
 </div>

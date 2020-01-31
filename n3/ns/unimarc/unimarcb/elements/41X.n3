@@ -1,28 +1,1416 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix reg: <http://metadataregistry.org/uri/profile/regap/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<html><head>
-<meta http-equiv="content-type" content="text/html;charset=utf-8">
-<title>503 Over Quota</title>
-<style><!--
-body {font-family: arial,sans-serif}
-div.nav {margin-top: 1ex}
-div.nav A {font-size: 10pt; font-family: arial,sans-serif}
-span.nav {font-size: 10pt; font-family: arial,sans-serif; font-weight: bold}
-div.nav A,span.big {font-size: 12pt; color: #0000cc}
-div.nav A {font-size: 10pt; color: black}
-A.l:link {color: #6f6f6f}
-A.u:link {color: green}
-//--></style>
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U410_00> a rdf:Property ;
+    rdfs:label "has Bibliographic record identifier in Series (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasBibliographicRecordIdentifierInSeriesDoNotMakeANote.en> ;
+    reg:name "hasBibliographicRecordIdentifierInSeriesDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
 
-</head>
-<body text=#000000 bgcolor=#ffffff>
-<table border=0 cellpadding=2 cellspacing=0 width=100%>
-<tr><td bgcolor=#3366cc><font face=arial,sans-serif color=#ffffff><b>Error</b></td></tr>
-<tr><td>&nbsp;</td></tr></table>
-<blockquote>
-<H1>Over Quota</H1>
-This application is temporarily over its serving quota.  Please try again later.
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U410_01> a rdf:Property ;
+    rdfs:label "has Linking data in Series (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasLinkingDataInSeriesDoNotMakeANote.en> ;
+    reg:name "hasLinkingDataInSeriesDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
 
-<p>
-</blockquote>
-<table width=100% cellpadding=0 cellspacing=0><tr><td bgcolor=#3366cc><img alt="" width=1 height=4></td></tr></table>
-</body></html>
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U410_03> a rdf:Property ;
+    rdfs:label "has Authority record number in Series (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasAuthorityRecordNumberInSeriesDoNotMakeANote.en> ;
+    reg:name "hasAuthorityRecordNumberInSeriesDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U410_05> a rdf:Property ;
+    rdfs:label "has Institution to which field applies in Series (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasInstitutionToWhichFieldAppliesInSeriesDoNotMakeANote.en> ;
+    reg:name "hasInstitutionToWhichFieldAppliesInSeriesDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U410_0a> a rdf:Property ;
+    rdfs:label "has Author in Series (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasAuthorInSeriesDoNotMakeANote.en> ;
+    reg:name "hasAuthorInSeriesDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> ;
+    skos:definition "The name of the person, corporate body or family with primary responsibility for the item to which the link is being made."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U410_0b> a rdf:Property ;
+    rdfs:label "has General material designation in Series (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasGeneralMaterialDesignationInSeriesDoNotMakeANote.en> ;
+    reg:name "hasGeneralMaterialDesignationInSeriesDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> ;
+    skos:definition "The contents of the item to which the link is being made."@en .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U410_0c> a rdf:Property ;
+    rdfs:label "has Place of publication in Series (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasPlaceOfPublicationInSeriesDoNotMakeANote.en> ;
+    reg:name "hasPlaceOfPublicationInSeriesDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U410_0d> a rdf:Property ;
+    rdfs:label "has Date of publication in Series (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasDateOfPublicationInSeriesDoNotMakeANote.en> ;
+    reg:name "hasDateOfPublicationInSeriesDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U410_0e> a rdf:Property ;
+    rdfs:label "has Edition statement in Series (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasEditionStatementInSeriesDoNotMakeANote.en> ;
+    reg:name "hasEditionStatementInSeriesDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U410_0f> a rdf:Property ;
+    rdfs:label "has First statement of responsibility in Series (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasFirstStatementOfResponsibilityInSeriesDoNotMakeANote.en> ;
+    reg:name "hasFirstStatementOfResponsibilityInSeriesDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U410_0g> a rdf:Property ;
+    rdfs:label "has Subsequent statement of responsibility in Series (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasSubsequentStatementOfResponsibilityInSeriesDoNotMakeANote.en> ;
+    reg:name "hasSubsequentStatementOfResponsibilityInSeriesDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U410_0h> a rdf:Property ;
+    rdfs:label "has Number of section or part in Series (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasNumberOfSectionOrPartInSeriesDoNotMakeANote.en> ;
+    reg:name "hasNumberOfSectionOrPartInSeriesDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U410_0i> a rdf:Property ;
+    rdfs:label "has Name of section or part in Series (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasNameOfSectionOrPartInSeriesDoNotMakeANote.en> ;
+    reg:name "hasNameOfSectionOrPartInSeriesDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U410_0l> a rdf:Property ;
+    rdfs:label "has Parallel title in Series (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasParallelTitleInSeriesDoNotMakeANote.en> ;
+    reg:name "hasParallelTitleInSeriesDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U410_0m> a rdf:Property ;
+    rdfs:label "has International Standard Music Number in Series (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasInternationalStandardMusicNumberInSeriesDoNotMakeANote.en> ;
+    reg:name "hasInternationalStandardMusicNumberInSeriesDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U410_0n> a rdf:Property ;
+    rdfs:label "has Name of publisher, distributor, etc. in Series (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasNameOfPublisherDistributorEtcInSeriesDoNotMakeANote.en> ;
+    reg:name "hasNameOfPublisherDistributorEtcInSeriesDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U410_0o> a rdf:Property ;
+    rdfs:label "has Other title information in Series (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasOtherTitleInformationInSeriesDoNotMakeANote.en> ;
+    reg:name "hasOtherTitleInformationInSeriesDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U410_0p> a rdf:Property ;
+    rdfs:label "has Physical description in Series (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasPhysicalDescriptionInSeriesDoNotMakeANote.en> ;
+    reg:name "hasPhysicalDescriptionInSeriesDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U410_0s> a rdf:Property ;
+    rdfs:label "has Series statement in Series (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasSeriesStatementInSeriesDoNotMakeANote.en> ;
+    reg:name "hasSeriesStatementInSeriesDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U410_0t> a rdf:Property ;
+    rdfs:label "has Title in Series (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasTitleInSeriesDoNotMakeANote.en> ;
+    reg:name "hasTitleInSeriesDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U410_0u> a rdf:Property ;
+    rdfs:label "has Uniform Resource Identifier in Series (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasUniformResourceIdentifierInSeriesDoNotMakeANote.en> ;
+    reg:name "hasUniformResourceIdentifierInSeriesDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U410_0v> a rdf:Property ;
+    rdfs:label "has Volume number in Series (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasVolumeNumberInSeriesDoNotMakeANote.en> ;
+    reg:name "hasVolumeNumberInSeriesDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U410_0x> a rdf:Property ;
+    rdfs:label "has ISSN in Series (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasIssnInSeriesDoNotMakeANote.en> ;
+    reg:name "hasIssnInSeriesDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U410_0y> a rdf:Property ;
+    rdfs:label "has International Standard Book Number in Series (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasInternationalStandardBookNumberInSeriesDoNotMakeANote.en> ;
+    reg:name "hasInternationalStandardBookNumberInSeriesDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U410_0z> a rdf:Property ;
+    rdfs:label "has CODEN in Series (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasCodenInSeriesDoNotMakeANote.en> ;
+    reg:name "hasCodenInSeriesDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U410_10> a rdf:Property ;
+    rdfs:label "has Bibliographic record identifier in Series (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasBibliographicRecordIdentifierInSeriesMakeANote.en> ;
+    reg:name "hasBibliographicRecordIdentifierInSeriesMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U410_11> a rdf:Property ;
+    rdfs:label "has Linking data in Series (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasLinkingDataInSeriesMakeANote.en> ;
+    reg:name "hasLinkingDataInSeriesMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U410_13> a rdf:Property ;
+    rdfs:label "has Authority record number in Series (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasAuthorityRecordNumberInSeriesMakeANote.en> ;
+    reg:name "hasAuthorityRecordNumberInSeriesMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U410_15> a rdf:Property ;
+    rdfs:label "has Institution to which field applies in Series (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasInstitutionToWhichFieldAppliesInSeriesMakeANote.en> ;
+    reg:name "hasInstitutionToWhichFieldAppliesInSeriesMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U410_1a> a rdf:Property ;
+    rdfs:label "has Author in Series (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasAuthorInSeriesMakeANote.en> ;
+    reg:name "hasAuthorInSeriesMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U410_1b> a rdf:Property ;
+    rdfs:label "has General material designation in Series (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasGeneralMaterialDesignationInSeriesMakeANote.en> ;
+    reg:name "hasGeneralMaterialDesignationInSeriesMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U410_1c> a rdf:Property ;
+    rdfs:label "has Place of publication in Series (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasPlaceOfPublicationInSeriesMakeANote.en> ;
+    reg:name "hasPlaceOfPublicationInSeriesMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U410_1d> a rdf:Property ;
+    rdfs:label "has Date of publication in Series (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasDateOfPublicationInSeriesMakeANote.en> ;
+    reg:name "hasDateOfPublicationInSeriesMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U410_1e> a rdf:Property ;
+    rdfs:label "has Edition statement in Series (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasEditionStatementInSeriesMakeANote.en> ;
+    reg:name "hasEditionStatementInSeriesMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U410_1f> a rdf:Property ;
+    rdfs:label "has First statement of responsibility in Series (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasFirstStatementOfResponsibilityInSeriesMakeANote.en> ;
+    reg:name "hasFirstStatementOfResponsibilityInSeriesMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U410_1g> a rdf:Property ;
+    rdfs:label "has Subsequent statement of responsibility in Series (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasSubsequentStatementOfResponsibilityInSeriesMakeANote.en> ;
+    reg:name "hasSubsequentStatementOfResponsibilityInSeriesMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U410_1h> a rdf:Property ;
+    rdfs:label "has Number of section or part in Series (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasNumberOfSectionOrPartInSeriesMakeANote.en> ;
+    reg:name "hasNumberOfSectionOrPartInSeriesMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U410_1i> a rdf:Property ;
+    rdfs:label "has Name of section or part in Series (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasNameOfSectionOrPartInSeriesMakeANote.en> ;
+    reg:name "hasNameOfSectionOrPartInSeriesMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U410_1l> a rdf:Property ;
+    rdfs:label "has Parallel title in Series (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasParallelTitleInSeriesMakeANote.en> ;
+    reg:name "hasParallelTitleInSeriesMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U410_1m> a rdf:Property ;
+    rdfs:label "has International Standard Music Number in Series (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasInternationalStandardMusicNumberInSeriesMakeANote.en> ;
+    reg:name "hasInternationalStandardMusicNumberInSeriesMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U410_1n> a rdf:Property ;
+    rdfs:label "has Name of publisher, distributor, etc. in Series (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasNameOfPublisherDistributorEtcInSeriesMakeANote.en> ;
+    reg:name "hasNameOfPublisherDistributorEtcInSeriesMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U410_1o> a rdf:Property ;
+    rdfs:label "has Other title information in Series (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasOtherTitleInformationInSeriesMakeANote.en> ;
+    reg:name "hasOtherTitleInformationInSeriesMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U410_1p> a rdf:Property ;
+    rdfs:label "has Physical description in Series (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasPhysicalDescriptionInSeriesMakeANote.en> ;
+    reg:name "hasPhysicalDescriptionInSeriesMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U410_1s> a rdf:Property ;
+    rdfs:label "has Series statement in Series (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasSeriesStatementInSeriesMakeANote.en> ;
+    reg:name "hasSeriesStatementInSeriesMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U410_1t> a rdf:Property ;
+    rdfs:label "has Title in Series (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasTitleInSeriesMakeANote.en> ;
+    reg:name "hasTitleInSeriesMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U410_1u> a rdf:Property ;
+    rdfs:label "has Uniform Resource Identifier in Series (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasUniformResourceIdentifierInSeriesMakeANote.en> ;
+    reg:name "hasUniformResourceIdentifierInSeriesMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U410_1v> a rdf:Property ;
+    rdfs:label "has Volume number in Series (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasVolumeNumberInSeriesMakeANote.en> ;
+    reg:name "hasVolumeNumberInSeriesMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U410_1x> a rdf:Property ;
+    rdfs:label "has ISSN in Series (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasIssnInSeriesMakeANote.en> ;
+    reg:name "hasIssnInSeriesMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U410_1y> a rdf:Property ;
+    rdfs:label "has International Standard Book Number in Series (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasInternationalStandardBookNumberInSeriesMakeANote.en> ;
+    reg:name "hasInternationalStandardBookNumberInSeriesMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U410_1z> a rdf:Property ;
+    rdfs:label "has CODEN in Series (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasCodenInSeriesMakeANote.en> ;
+    reg:name "hasCodenInSeriesMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U411_00> a rdf:Property ;
+    rdfs:label "has Bibliographic record identifier in Subseries (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasBibliographicRecordIdentifierInSubseriesDoNotMakeANote.en> ;
+    reg:name "hasBibliographicRecordIdentifierInSubseriesDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U411_01> a rdf:Property ;
+    rdfs:label "has Linking data in Subseries (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasLinkingDataInSubseriesDoNotMakeANote.en> ;
+    reg:name "hasLinkingDataInSubseriesDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U411_03> a rdf:Property ;
+    rdfs:label "has Authority record number in Subseries (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasAuthorityRecordNumberInSubseriesDoNotMakeANote.en> ;
+    reg:name "hasAuthorityRecordNumberInSubseriesDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U411_05> a rdf:Property ;
+    rdfs:label "has Institution to which field applies in Subseries (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasInstitutionToWhichFieldAppliesInSubseriesDoNotMakeANote.en> ;
+    reg:name "hasInstitutionToWhichFieldAppliesInSubseriesDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U411_0a> a rdf:Property ;
+    rdfs:label "has Author in Subseries (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasAuthorInSubseriesDoNotMakeANote.en> ;
+    reg:name "hasAuthorInSubseriesDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U411_0b> a rdf:Property ;
+    rdfs:label "has General material designation in Subseries (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasGeneralMaterialDesignationInSubseriesDoNotMakeANote.en> ;
+    reg:name "hasGeneralMaterialDesignationInSubseriesDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U411_0c> a rdf:Property ;
+    rdfs:label "has Place of publication in Subseries (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasPlaceOfPublicationInSubseriesDoNotMakeANote.en> ;
+    reg:name "hasPlaceOfPublicationInSubseriesDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U411_0d> a rdf:Property ;
+    rdfs:label "has Date of publication in Subseries (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasDateOfPublicationInSubseriesDoNotMakeANote.en> ;
+    reg:name "hasDateOfPublicationInSubseriesDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U411_0e> a rdf:Property ;
+    rdfs:label "has Edition statement in Subseries (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasEditionStatementInSubseriesDoNotMakeANote.en> ;
+    reg:name "hasEditionStatementInSubseriesDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U411_0f> a rdf:Property ;
+    rdfs:label "has First statement of responsibility in Subseries (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasFirstStatementOfResponsibilityInSubseriesDoNotMakeANote.en> ;
+    reg:name "hasFirstStatementOfResponsibilityInSubseriesDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U411_0g> a rdf:Property ;
+    rdfs:label "has Subsequent statement of responsibility in Subseries (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasSubsequentStatementOfResponsibilityInSubseriesDoNotMakeANote.en> ;
+    reg:name "hasSubsequentStatementOfResponsibilityInSubseriesDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U411_0h> a rdf:Property ;
+    rdfs:label "has Number of section or part in Subseries (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasNumberOfSectionOrPartInSubseriesDoNotMakeANote.en> ;
+    reg:name "hasNumberOfSectionOrPartInSubseriesDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U411_0i> a rdf:Property ;
+    rdfs:label "has Name of section or part in Subseries (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasNameOfSectionOrPartInSubseriesDoNotMakeANote.en> ;
+    reg:name "hasNameOfSectionOrPartInSubseriesDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U411_0l> a rdf:Property ;
+    rdfs:label "has Parallel title in Subseries (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasParallelTitleInSubseriesDoNotMakeANote.en> ;
+    reg:name "hasParallelTitleInSubseriesDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U411_0m> a rdf:Property ;
+    rdfs:label "has International Standard Music Number in Subseries (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasInternationalStandardMusicNumberInSubseriesDoNotMakeANote.en> ;
+    reg:name "hasInternationalStandardMusicNumberInSubseriesDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U411_0n> a rdf:Property ;
+    rdfs:label "has Name of publisher, distributor, etc. in Subseries (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasNameOfPublisherDistributorEtcInSubseriesDoNotMakeANote.en> ;
+    reg:name "hasNameOfPublisherDistributorEtcInSubseriesDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U411_0o> a rdf:Property ;
+    rdfs:label "has Other title information in Subseries (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasOtherTitleInformationInSubseriesDoNotMakeANote.en> ;
+    reg:name "hasOtherTitleInformationInSubseriesDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U411_0p> a rdf:Property ;
+    rdfs:label "has Physical description in Subseries (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasPhysicalDescriptionInSubseriesDoNotMakeANote.en> ;
+    reg:name "hasPhysicalDescriptionInSubseriesDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U411_0s> a rdf:Property ;
+    rdfs:label "has Series statement in Subseries (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasSeriesStatementInSubseriesDoNotMakeANote.en> ;
+    reg:name "hasSeriesStatementInSubseriesDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U411_0t> a rdf:Property ;
+    rdfs:label "has Title in Subseries (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasTitleInSubseriesDoNotMakeANote.en> ;
+    reg:name "hasTitleInSubseriesDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U411_0u> a rdf:Property ;
+    rdfs:label "has Uniform Resource Identifier in Subseries (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasUniformResourceIdentifierInSubseriesDoNotMakeANote.en> ;
+    reg:name "hasUniformResourceIdentifierInSubseriesDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U411_0v> a rdf:Property ;
+    rdfs:label "has Volume number in Subseries (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasVolumeNumberInSubseriesDoNotMakeANote.en> ;
+    reg:name "hasVolumeNumberInSubseriesDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U411_0x> a rdf:Property ;
+    rdfs:label "has ISSN in Subseries (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasIssnInSubseriesDoNotMakeANote.en> ;
+    reg:name "hasIssnInSubseriesDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U411_0y> a rdf:Property ;
+    rdfs:label "has International Standard Book Number in Subseries (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasInternationalStandardBookNumberInSubseriesDoNotMakeANote.en> ;
+    reg:name "hasInternationalStandardBookNumberInSubseriesDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U411_0z> a rdf:Property ;
+    rdfs:label "has CODEN in Subseries (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasCodenInSubseriesDoNotMakeANote.en> ;
+    reg:name "hasCodenInSubseriesDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U411_10> a rdf:Property ;
+    rdfs:label "has Bibliographic record identifier in Subseries (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasBibliographicRecordIdentifierInSubseriesMakeANote.en> ;
+    reg:name "hasBibliographicRecordIdentifierInSubseriesMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U411_11> a rdf:Property ;
+    rdfs:label "has Linking data in Subseries (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasLinkingDataInSubseriesMakeANote.en> ;
+    reg:name "hasLinkingDataInSubseriesMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U411_13> a rdf:Property ;
+    rdfs:label "has Authority record number in Subseries (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasAuthorityRecordNumberInSubseriesMakeANote.en> ;
+    reg:name "hasAuthorityRecordNumberInSubseriesMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U411_15> a rdf:Property ;
+    rdfs:label "has Institution to which field applies in Subseries (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasInstitutionToWhichFieldAppliesInSubseriesMakeANote.en> ;
+    reg:name "hasInstitutionToWhichFieldAppliesInSubseriesMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U411_1a> a rdf:Property ;
+    rdfs:label "has Author in Subseries (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasAuthorInSubseriesMakeANote.en> ;
+    reg:name "hasAuthorInSubseriesMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U411_1b> a rdf:Property ;
+    rdfs:label "has General material designation in Subseries (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasGeneralMaterialDesignationInSubseriesMakeANote.en> ;
+    reg:name "hasGeneralMaterialDesignationInSubseriesMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U411_1c> a rdf:Property ;
+    rdfs:label "has Place of publication in Subseries (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasPlaceOfPublicationInSubseriesMakeANote.en> ;
+    reg:name "hasPlaceOfPublicationInSubseriesMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U411_1d> a rdf:Property ;
+    rdfs:label "has Date of publication in Subseries (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasDateOfPublicationInSubseriesMakeANote.en> ;
+    reg:name "hasDateOfPublicationInSubseriesMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U411_1e> a rdf:Property ;
+    rdfs:label "has Edition statement in Subseries (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasEditionStatementInSubseriesMakeANote.en> ;
+    reg:name "hasEditionStatementInSubseriesMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U411_1f> a rdf:Property ;
+    rdfs:label "has First statement of responsibility in Subseries (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasFirstStatementOfResponsibilityInSubseriesMakeANote.en> ;
+    reg:name "hasFirstStatementOfResponsibilityInSubseriesMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U411_1g> a rdf:Property ;
+    rdfs:label "has Subsequent statement of responsibility in Subseries (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasSubsequentStatementOfResponsibilityInSubseriesMakeANote.en> ;
+    reg:name "hasSubsequentStatementOfResponsibilityInSubseriesMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U411_1h> a rdf:Property ;
+    rdfs:label "has Number of section or part in Subseries (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasNumberOfSectionOrPartInSubseriesMakeANote.en> ;
+    reg:name "hasNumberOfSectionOrPartInSubseriesMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U411_1i> a rdf:Property ;
+    rdfs:label "has Name of section or part in Subseries (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasNameOfSectionOrPartInSubseriesMakeANote.en> ;
+    reg:name "hasNameOfSectionOrPartInSubseriesMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U411_1l> a rdf:Property ;
+    rdfs:label "has Parallel title in Subseries (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasParallelTitleInSubseriesMakeANote.en> ;
+    reg:name "hasParallelTitleInSubseriesMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U411_1m> a rdf:Property ;
+    rdfs:label "has International Standard Music Number in Subseries (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasInternationalStandardMusicNumberInSubseriesMakeANote.en> ;
+    reg:name "hasInternationalStandardMusicNumberInSubseriesMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U411_1n> a rdf:Property ;
+    rdfs:label "has Name of publisher, distributor, etc. in Subseries (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasNameOfPublisherDistributorEtcInSubseriesMakeANote.en> ;
+    reg:name "hasNameOfPublisherDistributorEtcInSubseriesMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U411_1o> a rdf:Property ;
+    rdfs:label "has Other title information in Subseries (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasOtherTitleInformationInSubseriesMakeANote.en> ;
+    reg:name "hasOtherTitleInformationInSubseriesMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U411_1p> a rdf:Property ;
+    rdfs:label "has Physical description in Subseries (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasPhysicalDescriptionInSubseriesMakeANote.en> ;
+    reg:name "hasPhysicalDescriptionInSubseriesMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U411_1s> a rdf:Property ;
+    rdfs:label "has Series statement in Subseries (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasSeriesStatementInSubseriesMakeANote.en> ;
+    reg:name "hasSeriesStatementInSubseriesMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U411_1t> a rdf:Property ;
+    rdfs:label "has Title in Subseries (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasTitleInSubseriesMakeANote.en> ;
+    reg:name "hasTitleInSubseriesMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U411_1u> a rdf:Property ;
+    rdfs:label "has Uniform Resource Identifier in Subseries (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasUniformResourceIdentifierInSubseriesMakeANote.en> ;
+    reg:name "hasUniformResourceIdentifierInSubseriesMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U411_1v> a rdf:Property ;
+    rdfs:label "has Volume number in Subseries (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasVolumeNumberInSubseriesMakeANote.en> ;
+    reg:name "hasVolumeNumberInSubseriesMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U411_1x> a rdf:Property ;
+    rdfs:label "has ISSN in Subseries (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasIssnInSubseriesMakeANote.en> ;
+    reg:name "hasIssnInSubseriesMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U411_1y> a rdf:Property ;
+    rdfs:label "has International Standard Book Number in Subseries (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasInternationalStandardBookNumberInSubseriesMakeANote.en> ;
+    reg:name "hasInternationalStandardBookNumberInSubseriesMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U411_1z> a rdf:Property ;
+    rdfs:label "has CODEN in Subseries (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasCodenInSubseriesMakeANote.en> ;
+    reg:name "hasCodenInSubseriesMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U412_00> a rdf:Property ;
+    rdfs:label "has Bibliographic record identifier in Source of excerpt or offprint (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasBibliographicRecordIdentifierInSourceOfExcerptOrOffprintDoNotMakeANote.en> ;
+    reg:name "hasBibliographicRecordIdentifierInSourceOfExcerptOrOffprintDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U412_01> a rdf:Property ;
+    rdfs:label "has Linking data in Source of excerpt or offprint (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasLinkingDataInSourceOfExcerptOrOffprintDoNotMakeANote.en> ;
+    reg:name "hasLinkingDataInSourceOfExcerptOrOffprintDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U412_03> a rdf:Property ;
+    rdfs:label "has Authority record number in Source of excerpt or offprint (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasAuthorityRecordNumberInSourceOfExcerptOrOffprintDoNotMakeANote.en> ;
+    reg:name "hasAuthorityRecordNumberInSourceOfExcerptOrOffprintDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U412_05> a rdf:Property ;
+    rdfs:label "has Institution to which field applies in Source of excerpt or offprint (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasInstitutionToWhichFieldAppliesInSourceOfExcerptOrOffprintDoNotMakeANote.en> ;
+    reg:name "hasInstitutionToWhichFieldAppliesInSourceOfExcerptOrOffprintDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U412_0a> a rdf:Property ;
+    rdfs:label "has Author in Source of excerpt or offprint (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasAuthorInSourceOfExcerptOrOffprintDoNotMakeANote.en> ;
+    reg:name "hasAuthorInSourceOfExcerptOrOffprintDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U412_0b> a rdf:Property ;
+    rdfs:label "has General material designation in Source of excerpt or offprint (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasGeneralMaterialDesignationInSourceOfExcerptOrOffprintDoNotMakeANote.en> ;
+    reg:name "hasGeneralMaterialDesignationInSourceOfExcerptOrOffprintDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U412_0c> a rdf:Property ;
+    rdfs:label "has Place of publication in Source of excerpt or offprint (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasPlaceOfPublicationInSourceOfExcerptOrOffprintDoNotMakeANote.en> ;
+    reg:name "hasPlaceOfPublicationInSourceOfExcerptOrOffprintDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U412_0d> a rdf:Property ;
+    rdfs:label "has Date of publication in Source of excerpt or offprint (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasDateOfPublicationInSourceOfExcerptOrOffprintDoNotMakeANote.en> ;
+    reg:name "hasDateOfPublicationInSourceOfExcerptOrOffprintDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U412_0e> a rdf:Property ;
+    rdfs:label "has Edition statement in Source of excerpt or offprint (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasEditionStatementInSourceOfExcerptOrOffprintDoNotMakeANote.en> ;
+    reg:name "hasEditionStatementInSourceOfExcerptOrOffprintDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U412_0f> a rdf:Property ;
+    rdfs:label "has First statement of responsibility in Source of excerpt or offprint (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasFirstStatementOfResponsibilityInSourceOfExcerptOrOffprintDoNotMakeANote.en> ;
+    reg:name "hasFirstStatementOfResponsibilityInSourceOfExcerptOrOffprintDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U412_0g> a rdf:Property ;
+    rdfs:label "has Subsequent statement of responsibility in Source of excerpt or offprint (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasSubsequentStatementOfResponsibilityInSourceOfExcerptOrOffprintDoNotMakeANote.en> ;
+    reg:name "hasSubsequentStatementOfResponsibilityInSourceOfExcerptOrOffprintDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U412_0h> a rdf:Property ;
+    rdfs:label "has Number of section or part in Source of excerpt or offprint (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasNumberOfSectionOrPartInSourceOfExcerptOrOffprintDoNotMakeANote.en> ;
+    reg:name "hasNumberOfSectionOrPartInSourceOfExcerptOrOffprintDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U412_0i> a rdf:Property ;
+    rdfs:label "has Name of section or part in Source of excerpt or offprint (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasNameOfSectionOrPartInSourceOfExcerptOrOffprintDoNotMakeANote.en> ;
+    reg:name "hasNameOfSectionOrPartInSourceOfExcerptOrOffprintDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U412_0l> a rdf:Property ;
+    rdfs:label "has Parallel title in Source of excerpt or offprint (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasParallelTitleInSourceOfExcerptOrOffprintDoNotMakeANote.en> ;
+    reg:name "hasParallelTitleInSourceOfExcerptOrOffprintDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U412_0m> a rdf:Property ;
+    rdfs:label "has International Standard Music Number in Source of excerpt or offprint (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasInternationalStandardMusicNumberInSourceOfExcerptOrOffprintDoNotMakeANote.en> ;
+    reg:name "hasInternationalStandardMusicNumberInSourceOfExcerptOrOffprintDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U412_0n> a rdf:Property ;
+    rdfs:label "has Name of publisher, distributor, etc. in Source of excerpt or offprint (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasNameOfPublisherDistributorEtcInSourceOfExcerptOrOffprintDoNotMakeANote.en> ;
+    reg:name "hasNameOfPublisherDistributorEtcInSourceOfExcerptOrOffprintDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U412_0o> a rdf:Property ;
+    rdfs:label "has Other title information in Source of excerpt or offprint (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasOtherTitleInformationInSourceOfExcerptOrOffprintDoNotMakeANote.en> ;
+    reg:name "hasOtherTitleInformationInSourceOfExcerptOrOffprintDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U412_0p> a rdf:Property ;
+    rdfs:label "has Physical description in Source of excerpt or offprint (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasPhysicalDescriptionInSourceOfExcerptOrOffprintDoNotMakeANote.en> ;
+    reg:name "hasPhysicalDescriptionInSourceOfExcerptOrOffprintDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U412_0s> a rdf:Property ;
+    rdfs:label "has Series statement in Source of excerpt or offprint (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasSeriesStatementInSourceOfExcerptOrOffprintDoNotMakeANote.en> ;
+    reg:name "hasSeriesStatementInSourceOfExcerptOrOffprintDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U412_0t> a rdf:Property ;
+    rdfs:label "has Title in Source of excerpt or offprint (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasTitleInSourceOfExcerptOrOffprintDoNotMakeANote.en> ;
+    reg:name "hasTitleInSourceOfExcerptOrOffprintDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U412_0u> a rdf:Property ;
+    rdfs:label "has Uniform Resource Identifier in Source of excerpt or offprint (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasUniformResourceIdentifierInSourceOfExcerptOrOffprintDoNotMakeANote.en> ;
+    reg:name "hasUniformResourceIdentifierInSourceOfExcerptOrOffprintDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U412_0v> a rdf:Property ;
+    rdfs:label "has Volume number in Source of excerpt or offprint (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasVolumeNumberInSourceOfExcerptOrOffprintDoNotMakeANote.en> ;
+    reg:name "hasVolumeNumberInSourceOfExcerptOrOffprintDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U412_0x> a rdf:Property ;
+    rdfs:label "has ISSN in Source of excerpt or offprint (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasIssnInSourceOfExcerptOrOffprintDoNotMakeANote.en> ;
+    reg:name "hasIssnInSourceOfExcerptOrOffprintDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U412_0y> a rdf:Property ;
+    rdfs:label "has International Standard Book Number in Source of excerpt or offprint (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasInternationalStandardBookNumberInSourceOfExcerptOrOffprintDoNotMakeANote.en> ;
+    reg:name "hasInternationalStandardBookNumberInSourceOfExcerptOrOffprintDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U412_0z> a rdf:Property ;
+    rdfs:label "has CODEN in Source of excerpt or offprint (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasCodenInSourceOfExcerptOrOffprintDoNotMakeANote.en> ;
+    reg:name "hasCodenInSourceOfExcerptOrOffprintDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U412_10> a rdf:Property ;
+    rdfs:label "has Bibliographic record identifier in Source of excerpt or offprint (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasBibliographicRecordIdentifierInSourceOfExcerptOrOffprintMakeANote.en> ;
+    reg:name "hasBibliographicRecordIdentifierInSourceOfExcerptOrOffprintMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U412_11> a rdf:Property ;
+    rdfs:label "has Linking data in Source of excerpt or offprint (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasLinkingDataInSourceOfExcerptOrOffprintMakeANote.en> ;
+    reg:name "hasLinkingDataInSourceOfExcerptOrOffprintMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U412_13> a rdf:Property ;
+    rdfs:label "has Authority record number in Source of excerpt or offprint (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasAuthorityRecordNumberInSourceOfExcerptOrOffprintMakeANote.en> ;
+    reg:name "hasAuthorityRecordNumberInSourceOfExcerptOrOffprintMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U412_15> a rdf:Property ;
+    rdfs:label "has Institution to which field applies in Source of excerpt or offprint (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasInstitutionToWhichFieldAppliesInSourceOfExcerptOrOffprintMakeANote.en> ;
+    reg:name "hasInstitutionToWhichFieldAppliesInSourceOfExcerptOrOffprintMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U412_1a> a rdf:Property ;
+    rdfs:label "has Author in Source of excerpt or offprint (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasAuthorInSourceOfExcerptOrOffprintMakeANote.en> ;
+    reg:name "hasAuthorInSourceOfExcerptOrOffprintMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U412_1b> a rdf:Property ;
+    rdfs:label "has General material designation in Source of excerpt or offprint (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasGeneralMaterialDesignationInSourceOfExcerptOrOffprintMakeANote.en> ;
+    reg:name "hasGeneralMaterialDesignationInSourceOfExcerptOrOffprintMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U412_1c> a rdf:Property ;
+    rdfs:label "has Place of publication in Source of excerpt or offprint (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasPlaceOfPublicationInSourceOfExcerptOrOffprintMakeANote.en> ;
+    reg:name "hasPlaceOfPublicationInSourceOfExcerptOrOffprintMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U412_1d> a rdf:Property ;
+    rdfs:label "has Date of publication in Source of excerpt or offprint (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasDateOfPublicationInSourceOfExcerptOrOffprintMakeANote.en> ;
+    reg:name "hasDateOfPublicationInSourceOfExcerptOrOffprintMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U412_1e> a rdf:Property ;
+    rdfs:label "has Edition statement in Source of excerpt or offprint (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasEditionStatementInSourceOfExcerptOrOffprintMakeANote.en> ;
+    reg:name "hasEditionStatementInSourceOfExcerptOrOffprintMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U412_1f> a rdf:Property ;
+    rdfs:label "has First statement of responsibility in Source of excerpt or offprint (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasFirstStatementOfResponsibilityInSourceOfExcerptOrOffprintMakeANote.en> ;
+    reg:name "hasFirstStatementOfResponsibilityInSourceOfExcerptOrOffprintMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U412_1g> a rdf:Property ;
+    rdfs:label "has Subsequent statement of responsibility in Source of excerpt or offprint (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasSubsequentStatementOfResponsibilityInSourceOfExcerptOrOffprintMakeANote.en> ;
+    reg:name "hasSubsequentStatementOfResponsibilityInSourceOfExcerptOrOffprintMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U412_1h> a rdf:Property ;
+    rdfs:label "has Number of section or part in Source of excerpt or offprint (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasNumberOfSectionOrPartInSourceOfExcerptOrOffprintMakeANote.en> ;
+    reg:name "hasNumberOfSectionOrPartInSourceOfExcerptOrOffprintMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U412_1i> a rdf:Property ;
+    rdfs:label "has Name of section or part in Source of excerpt or offprint (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasNameOfSectionOrPartInSourceOfExcerptOrOffprintMakeANote.en> ;
+    reg:name "hasNameOfSectionOrPartInSourceOfExcerptOrOffprintMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U412_1l> a rdf:Property ;
+    rdfs:label "has Parallel title in Source of excerpt or offprint (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasParallelTitleInSourceOfExcerptOrOffprintMakeANote.en> ;
+    reg:name "hasParallelTitleInSourceOfExcerptOrOffprintMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U412_1m> a rdf:Property ;
+    rdfs:label "has International Standard Music Number in Source of excerpt or offprint (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasInternationalStandardMusicNumberInSourceOfExcerptOrOffprintMakeANote.en> ;
+    reg:name "hasInternationalStandardMusicNumberInSourceOfExcerptOrOffprintMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U412_1n> a rdf:Property ;
+    rdfs:label "has Name of publisher, distributor, etc. in Source of excerpt or offprint (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasNameOfPublisherDistributorEtcInSourceOfExcerptOrOffprintMakeANote.en> ;
+    reg:name "hasNameOfPublisherDistributorEtcInSourceOfExcerptOrOffprintMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U412_1o> a rdf:Property ;
+    rdfs:label "has Other title information in Source of excerpt or offprint (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasOtherTitleInformationInSourceOfExcerptOrOffprintMakeANote.en> ;
+    reg:name "hasOtherTitleInformationInSourceOfExcerptOrOffprintMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U412_1p> a rdf:Property ;
+    rdfs:label "has Physical description in Source of excerpt or offprint (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasPhysicalDescriptionInSourceOfExcerptOrOffprintMakeANote.en> ;
+    reg:name "hasPhysicalDescriptionInSourceOfExcerptOrOffprintMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U412_1s> a rdf:Property ;
+    rdfs:label "has Series statement in Source of excerpt or offprint (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasSeriesStatementInSourceOfExcerptOrOffprintMakeANote.en> ;
+    reg:name "hasSeriesStatementInSourceOfExcerptOrOffprintMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U412_1t> a rdf:Property ;
+    rdfs:label "has Title in Source of excerpt or offprint (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasTitleInSourceOfExcerptOrOffprintMakeANote.en> ;
+    reg:name "hasTitleInSourceOfExcerptOrOffprintMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U412_1u> a rdf:Property ;
+    rdfs:label "has Uniform Resource Identifier in Source of excerpt or offprint (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasUniformResourceIdentifierInSourceOfExcerptOrOffprintMakeANote.en> ;
+    reg:name "hasUniformResourceIdentifierInSourceOfExcerptOrOffprintMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U412_1v> a rdf:Property ;
+    rdfs:label "has Volume number in Source of excerpt or offprint (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasVolumeNumberInSourceOfExcerptOrOffprintMakeANote.en> ;
+    reg:name "hasVolumeNumberInSourceOfExcerptOrOffprintMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U412_1x> a rdf:Property ;
+    rdfs:label "has ISSN in Source of excerpt or offprint (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasIssnInSourceOfExcerptOrOffprintMakeANote.en> ;
+    reg:name "hasIssnInSourceOfExcerptOrOffprintMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U412_1y> a rdf:Property ;
+    rdfs:label "has International Standard Book Number in Source of excerpt or offprint (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasInternationalStandardBookNumberInSourceOfExcerptOrOffprintMakeANote.en> ;
+    reg:name "hasInternationalStandardBookNumberInSourceOfExcerptOrOffprintMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U412_1z> a rdf:Property ;
+    rdfs:label "has CODEN in Source of excerpt or offprint (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasCodenInSourceOfExcerptOrOffprintMakeANote.en> ;
+    reg:name "hasCodenInSourceOfExcerptOrOffprintMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U413_00> a rdf:Property ;
+    rdfs:label "has Bibliographic record identifier in Excerpt or offprint (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasBibliographicRecordIdentifierInExcerptOrOffprintDoNotMakeANote.en> ;
+    reg:name "hasBibliographicRecordIdentifierInExcerptOrOffprintDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U413_01> a rdf:Property ;
+    rdfs:label "has Linking data in Excerpt or offprint (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasLinkingDataInExcerptOrOffprintDoNotMakeANote.en> ;
+    reg:name "hasLinkingDataInExcerptOrOffprintDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U413_03> a rdf:Property ;
+    rdfs:label "has Authority record number in Excerpt or offprint (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasAuthorityRecordNumberInExcerptOrOffprintDoNotMakeANote.en> ;
+    reg:name "hasAuthorityRecordNumberInExcerptOrOffprintDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U413_05> a rdf:Property ;
+    rdfs:label "has Institution to which field applies in Excerpt or offprint (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasInstitutionToWhichFieldAppliesInExcerptOrOffprintDoNotMakeANote.en> ;
+    reg:name "hasInstitutionToWhichFieldAppliesInExcerptOrOffprintDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U413_0a> a rdf:Property ;
+    rdfs:label "has Author in Excerpt or offprint (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasAuthorInExcerptOrOffprintDoNotMakeANote.en> ;
+    reg:name "hasAuthorInExcerptOrOffprintDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U413_0b> a rdf:Property ;
+    rdfs:label "has General material designation in Excerpt or offprint (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasGeneralMaterialDesignationInExcerptOrOffprintDoNotMakeANote.en> ;
+    reg:name "hasGeneralMaterialDesignationInExcerptOrOffprintDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U413_0c> a rdf:Property ;
+    rdfs:label "has Place of publication in Excerpt or offprint (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasPlaceOfPublicationInExcerptOrOffprintDoNotMakeANote.en> ;
+    reg:name "hasPlaceOfPublicationInExcerptOrOffprintDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U413_0d> a rdf:Property ;
+    rdfs:label "has Date of publication in Excerpt or offprint (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasDateOfPublicationInExcerptOrOffprintDoNotMakeANote.en> ;
+    reg:name "hasDateOfPublicationInExcerptOrOffprintDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U413_0e> a rdf:Property ;
+    rdfs:label "has Edition statement in Excerpt or offprint (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasEditionStatementInExcerptOrOffprintDoNotMakeANote.en> ;
+    reg:name "hasEditionStatementInExcerptOrOffprintDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U413_0f> a rdf:Property ;
+    rdfs:label "has First statement of responsibility in Excerpt or offprint (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasFirstStatementOfResponsibilityInExcerptOrOffprintDoNotMakeANote.en> ;
+    reg:name "hasFirstStatementOfResponsibilityInExcerptOrOffprintDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U413_0g> a rdf:Property ;
+    rdfs:label "has Subsequent statement of responsibility in Excerpt or offprint (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasSubsequentStatementOfResponsibilityInExcerptOrOffprintDoNotMakeANote.en> ;
+    reg:name "hasSubsequentStatementOfResponsibilityInExcerptOrOffprintDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U413_0h> a rdf:Property ;
+    rdfs:label "has Number of section or part in Excerpt or offprint (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasNumberOfSectionOrPartInExcerptOrOffprintDoNotMakeANote.en> ;
+    reg:name "hasNumberOfSectionOrPartInExcerptOrOffprintDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U413_0i> a rdf:Property ;
+    rdfs:label "has Name of section or part in Excerpt or offprint (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasNameOfSectionOrPartInExcerptOrOffprintDoNotMakeANote.en> ;
+    reg:name "hasNameOfSectionOrPartInExcerptOrOffprintDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U413_0l> a rdf:Property ;
+    rdfs:label "has Parallel title in Excerpt or offprint (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasParallelTitleInExcerptOrOffprintDoNotMakeANote.en> ;
+    reg:name "hasParallelTitleInExcerptOrOffprintDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U413_0m> a rdf:Property ;
+    rdfs:label "has International Standard Music Number in Excerpt or offprint (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasInternationalStandardMusicNumberInExcerptOrOffprintDoNotMakeANote.en> ;
+    reg:name "hasInternationalStandardMusicNumberInExcerptOrOffprintDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U413_0n> a rdf:Property ;
+    rdfs:label "has Name of publisher, distributor, etc. in Excerpt or offprint (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasNameOfPublisherDistributorEtcInExcerptOrOffprintDoNotMakeANote.en> ;
+    reg:name "hasNameOfPublisherDistributorEtcInExcerptOrOffprintDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U413_0o> a rdf:Property ;
+    rdfs:label "has Other title information in Excerpt or offprint (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasOtherTitleInformationInExcerptOrOffprintDoNotMakeANote.en> ;
+    reg:name "hasOtherTitleInformationInExcerptOrOffprintDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U413_0p> a rdf:Property ;
+    rdfs:label "has Physical description in Excerpt or offprint (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasPhysicalDescriptionInExcerptOrOffprintDoNotMakeANote.en> ;
+    reg:name "hasPhysicalDescriptionInExcerptOrOffprintDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U413_0s> a rdf:Property ;
+    rdfs:label "has Series statement in Excerpt or offprint (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasSeriesStatementInExcerptOrOffprintDoNotMakeANote.en> ;
+    reg:name "hasSeriesStatementInExcerptOrOffprintDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U413_0t> a rdf:Property ;
+    rdfs:label "has Title in Excerpt or offprint (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasTitleInExcerptOrOffprintDoNotMakeANote.en> ;
+    reg:name "hasTitleInExcerptOrOffprintDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U413_0u> a rdf:Property ;
+    rdfs:label "has Uniform Resource Identifier in Excerpt or offprint (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasUniformResourceIdentifierInExcerptOrOffprintDoNotMakeANote.en> ;
+    reg:name "hasUniformResourceIdentifierInExcerptOrOffprintDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U413_0v> a rdf:Property ;
+    rdfs:label "has Volume number in Excerpt or offprint (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasVolumeNumberInExcerptOrOffprintDoNotMakeANote.en> ;
+    reg:name "hasVolumeNumberInExcerptOrOffprintDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U413_0x> a rdf:Property ;
+    rdfs:label "has ISSN in Excerpt or offprint (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasIssnInExcerptOrOffprintDoNotMakeANote.en> ;
+    reg:name "hasIssnInExcerptOrOffprintDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U413_0y> a rdf:Property ;
+    rdfs:label "has International Standard Book Number in Excerpt or offprint (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasInternationalStandardBookNumberInExcerptOrOffprintDoNotMakeANote.en> ;
+    reg:name "hasInternationalStandardBookNumberInExcerptOrOffprintDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U413_0z> a rdf:Property ;
+    rdfs:label "has CODEN in Excerpt or offprint (Do not make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasCodenInExcerptOrOffprintDoNotMakeANote.en> ;
+    reg:name "hasCodenInExcerptOrOffprintDoNotMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U413_10> a rdf:Property ;
+    rdfs:label "has Bibliographic record identifier in Excerpt or offprint (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasBibliographicRecordIdentifierInExcerptOrOffprintMakeANote.en> ;
+    reg:name "hasBibliographicRecordIdentifierInExcerptOrOffprintMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U413_11> a rdf:Property ;
+    rdfs:label "has Linking data in Excerpt or offprint (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasLinkingDataInExcerptOrOffprintMakeANote.en> ;
+    reg:name "hasLinkingDataInExcerptOrOffprintMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U413_13> a rdf:Property ;
+    rdfs:label "has Authority record number in Excerpt or offprint (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasAuthorityRecordNumberInExcerptOrOffprintMakeANote.en> ;
+    reg:name "hasAuthorityRecordNumberInExcerptOrOffprintMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U413_15> a rdf:Property ;
+    rdfs:label "has Institution to which field applies in Excerpt or offprint (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasInstitutionToWhichFieldAppliesInExcerptOrOffprintMakeANote.en> ;
+    reg:name "hasInstitutionToWhichFieldAppliesInExcerptOrOffprintMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U413_1a> a rdf:Property ;
+    rdfs:label "has Author in Excerpt or offprint (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasAuthorInExcerptOrOffprintMakeANote.en> ;
+    reg:name "hasAuthorInExcerptOrOffprintMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U413_1b> a rdf:Property ;
+    rdfs:label "has General material designation in Excerpt or offprint (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasGeneralMaterialDesignationInExcerptOrOffprintMakeANote.en> ;
+    reg:name "hasGeneralMaterialDesignationInExcerptOrOffprintMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U413_1c> a rdf:Property ;
+    rdfs:label "has Place of publication in Excerpt or offprint (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasPlaceOfPublicationInExcerptOrOffprintMakeANote.en> ;
+    reg:name "hasPlaceOfPublicationInExcerptOrOffprintMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U413_1d> a rdf:Property ;
+    rdfs:label "has Date of publication in Excerpt or offprint (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasDateOfPublicationInExcerptOrOffprintMakeANote.en> ;
+    reg:name "hasDateOfPublicationInExcerptOrOffprintMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U413_1e> a rdf:Property ;
+    rdfs:label "has Edition statement in Excerpt or offprint (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasEditionStatementInExcerptOrOffprintMakeANote.en> ;
+    reg:name "hasEditionStatementInExcerptOrOffprintMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U413_1f> a rdf:Property ;
+    rdfs:label "has First statement of responsibility in Excerpt or offprint (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasFirstStatementOfResponsibilityInExcerptOrOffprintMakeANote.en> ;
+    reg:name "hasFirstStatementOfResponsibilityInExcerptOrOffprintMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U413_1g> a rdf:Property ;
+    rdfs:label "has Subsequent statement of responsibility in Excerpt or offprint (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasSubsequentStatementOfResponsibilityInExcerptOrOffprintMakeANote.en> ;
+    reg:name "hasSubsequentStatementOfResponsibilityInExcerptOrOffprintMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U413_1h> a rdf:Property ;
+    rdfs:label "has Number of section or part in Excerpt or offprint (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasNumberOfSectionOrPartInExcerptOrOffprintMakeANote.en> ;
+    reg:name "hasNumberOfSectionOrPartInExcerptOrOffprintMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U413_1i> a rdf:Property ;
+    rdfs:label "has Name of section or part in Excerpt or offprint (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasNameOfSectionOrPartInExcerptOrOffprintMakeANote.en> ;
+    reg:name "hasNameOfSectionOrPartInExcerptOrOffprintMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U413_1l> a rdf:Property ;
+    rdfs:label "has Parallel title in Excerpt or offprint (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasParallelTitleInExcerptOrOffprintMakeANote.en> ;
+    reg:name "hasParallelTitleInExcerptOrOffprintMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U413_1m> a rdf:Property ;
+    rdfs:label "has International Standard Music Number in Excerpt or offprint (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasInternationalStandardMusicNumberInExcerptOrOffprintMakeANote.en> ;
+    reg:name "hasInternationalStandardMusicNumberInExcerptOrOffprintMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U413_1n> a rdf:Property ;
+    rdfs:label "has Name of publisher, distributor, etc. in Excerpt or offprint (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasNameOfPublisherDistributorEtcInExcerptOrOffprintMakeANote.en> ;
+    reg:name "hasNameOfPublisherDistributorEtcInExcerptOrOffprintMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U413_1o> a rdf:Property ;
+    rdfs:label "has Other title information in Excerpt or offprint (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasOtherTitleInformationInExcerptOrOffprintMakeANote.en> ;
+    reg:name "hasOtherTitleInformationInExcerptOrOffprintMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U413_1p> a rdf:Property ;
+    rdfs:label "has Physical description in Excerpt or offprint (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasPhysicalDescriptionInExcerptOrOffprintMakeANote.en> ;
+    reg:name "hasPhysicalDescriptionInExcerptOrOffprintMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U413_1s> a rdf:Property ;
+    rdfs:label "has Series statement in Excerpt or offprint (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasSeriesStatementInExcerptOrOffprintMakeANote.en> ;
+    reg:name "hasSeriesStatementInExcerptOrOffprintMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U413_1t> a rdf:Property ;
+    rdfs:label "has Title in Excerpt or offprint (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasTitleInExcerptOrOffprintMakeANote.en> ;
+    reg:name "hasTitleInExcerptOrOffprintMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U413_1u> a rdf:Property ;
+    rdfs:label "has Uniform Resource Identifier in Excerpt or offprint (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasUniformResourceIdentifierInExcerptOrOffprintMakeANote.en> ;
+    reg:name "hasUniformResourceIdentifierInExcerptOrOffprintMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U413_1v> a rdf:Property ;
+    rdfs:label "has Volume number in Excerpt or offprint (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasVolumeNumberInExcerptOrOffprintMakeANote.en> ;
+    reg:name "hasVolumeNumberInExcerptOrOffprintMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U413_1x> a rdf:Property ;
+    rdfs:label "has ISSN in Excerpt or offprint (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasIssnInExcerptOrOffprintMakeANote.en> ;
+    reg:name "hasIssnInExcerptOrOffprintMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U413_1y> a rdf:Property ;
+    rdfs:label "has International Standard Book Number in Excerpt or offprint (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasInternationalStandardBookNumberInExcerptOrOffprintMakeANote.en> ;
+    reg:name "hasInternationalStandardBookNumberInExcerptOrOffprintMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/U413_1z> a rdf:Property ;
+    rdfs:label "has CODEN in Excerpt or offprint (Make a note)"@en ;
+    reg:lexicalAlias <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/hasCodenInExcerptOrOffprintMakeANote.en> ;
+    reg:name "hasCodenInExcerptOrOffprintMakeANote"@en ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    rdfs:isDefinedBy <http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> .
+
+<http://iflastandards.info/ns/unimarc/unimarcb/elements/41X/> dc:title "UNIMARC/B elements 41X"@en .
+
+<http://metadataregistry.org/uri/RegStatus/1001> a skos:Concept ;
+    skos:prefLabel "Published"@en .
+

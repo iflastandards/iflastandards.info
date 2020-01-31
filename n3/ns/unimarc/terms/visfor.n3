@@ -1,28 +1,115 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix reg: <http://metadataregistry.org/uri/profile/regap/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<html><head>
-<meta http-equiv="content-type" content="text/html;charset=utf-8">
-<title>503 Over Quota</title>
-<style><!--
-body {font-family: arial,sans-serif}
-div.nav {margin-top: 1ex}
-div.nav A {font-size: 10pt; font-family: arial,sans-serif}
-span.nav {font-size: 10pt; font-family: arial,sans-serif; font-weight: bold}
-div.nav A,span.big {font-size: 12pt; color: #0000cc}
-div.nav A {font-size: 10pt; color: black}
-A.l:link {color: #6f6f6f}
-A.u:link {color: green}
-//--></style>
+<http://iflastandards.info/ns/unimarc/terms/visfor#1> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7785> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1008> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/visfor#> ;
+    skos:notation "1"@en ;
+    skos:prefLabel "transparency (deprecated)"@en .
 
-</head>
-<body text=#000000 bgcolor=#ffffff>
-<table border=0 cellpadding=2 cellspacing=0 width=100%>
-<tr><td bgcolor=#3366cc><font face=arial,sans-serif color=#ffffff><b>Error</b></td></tr>
-<tr><td>&nbsp;</td></tr></table>
-<blockquote>
-<H1>Over Quota</H1>
-This application is temporarily over its serving quota.  Please try again later.
+<http://iflastandards.info/ns/unimarc/terms/visfor#a> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7776> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/visfor#> ;
+    skos:notation "a"@en ;
+    skos:prefLabel "film reel"@en .
 
-<p>
-</blockquote>
-<table width=100% cellpadding=0 cellspacing=0><tr><td bgcolor=#3366cc><img alt="" width=1 height=4></td></tr></table>
-</body></html>
+<http://iflastandards.info/ns/unimarc/terms/visfor#b> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7777> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/visfor#> ;
+    skos:notation "b"@en ;
+    skos:prefLabel "film cartridge"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/visfor#c> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7778> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/visfor#> ;
+    skos:notation "c"@en ;
+    skos:prefLabel "film cassette"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/visfor#d> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7779> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/visfor#> ;
+    skos:notation "d"@en ;
+    skos:prefLabel "other film type"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/visfor#g> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7780> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/visfor#> ;
+    skos:notation "g"@en ;
+    skos:prefLabel "filmstrip cartridge"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/visfor#h> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7781> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/visfor#> ;
+    skos:notation "h"@en ;
+    skos:prefLabel "filmslip"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/visfor#i> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7782> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/visfor#> ;
+    skos:notation "i"@en ;
+    skos:prefLabel "other filmstrip type"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/visfor#j> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7783> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/visfor#> ;
+    skos:notation "j"@en ;
+    skos:prefLabel "film strip roll"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/visfor#k> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7784> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/visfor#> ;
+    skos:notation "k"@en ;
+    skos:prefLabel "slide, slide set, stereograph"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/visfor#l> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7891> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/visfor#> ;
+    skos:notation "l"@en ;
+    skos:prefLabel "transparency"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/visfor#u> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7786> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/visfor#> ;
+    skos:notation "u"@en ;
+    skos:prefLabel "unknown"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/visfor#x> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7787> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/visfor#> ;
+    skos:notation "x"@en ;
+    skos:prefLabel "not a motion picture or visual projection"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/visfor#z> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/7788> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/visfor#> ;
+    skos:notation "z"@en ;
+    skos:prefLabel "other forms of release"@en .
+
+<http://metadataregistry.org/uri/RegStatus/1008> a skos:Concept ;
+    skos:prefLabel "Deprecated"@en .
+
+<http://metadataregistry.org/uri/RegStatus/1001> a skos:Concept ;
+    skos:prefLabel "Published"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/visfor#> a skos:ConceptScheme ;
+    dc:title "UNIMARC: Visual projections, etc.: Form of release - visual projection, motion picture" .
+

@@ -1,28 +1,629 @@
-
-<html><head>
-<meta http-equiv="content-type" content="text/html;charset=utf-8">
-<title>503 Over Quota</title>
-<style><!--
-body {font-family: arial,sans-serif}
-div.nav {margin-top: 1ex}
-div.nav A {font-size: 10pt; font-family: arial,sans-serif}
-span.nav {font-size: 10pt; font-family: arial,sans-serif; font-weight: bold}
-div.nav A,span.big {font-size: 12pt; color: #0000cc}
-div.nav A {font-size: 10pt; color: black}
-A.l:link {color: #6f6f6f}
-A.u:link {color: green}
-//--></style>
-
-</head>
-<body text=#000000 bgcolor=#ffffff>
-<table border=0 cellpadding=2 cellspacing=0 width=100%>
-<tr><td bgcolor=#3366cc><font face=arial,sans-serif color=#ffffff><b>Error</b></td></tr>
-<tr><td>&nbsp;</td></tr></table>
-<blockquote>
-<H1>Over Quota</H1>
-This application is temporarily over its serving quota.  Please try again later.
-
-<p>
-</blockquote>
-<table width=100% cellpadding=0 cellspacing=0><tr><td bgcolor=#3366cc><img alt="" width=1 height=4></td></tr></table>
-</body></html>
+{
+  "http://iflastandards.info/ns/isbd/terms/contentformbase/T1002": {
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "image (moving ; 2-dimensional)"
+      }
+    ], 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Content expressed through line, shape, shading, etc. that is perceived to be in motion, usually by means of a quick succession of images, and in two dimensions."
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentformbase"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/8679"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#broadMatch": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentform/T1002"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/isbd/terms/contentformbase/T1003": {
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "image (moving ; 3-dimensional)"
+      }
+    ], 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Content expressed through line, shape, shading, etc. that is perceived to be in motion, usually by means of a quick succession of images, and in three dimensions."
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentformbase"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#broadMatch": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentform/T1002"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/8680"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/isbd/terms/contentformbase/T1001": {
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "music (performed)"
+      }
+    ], 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Content expressed through ordered tones or sounds in succession, in combination, and in temporal relationships to produce a composition, expressed in an audible form, at a given time, and recorded in a resource."
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentformbase"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/8678"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#broadMatch": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentform/T1004"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/isbd/terms/contentformbase/T1006": {
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "text (visual)"
+      }
+    ], 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Content expressed through written words, symbols and numbers, and intended to be perceived through sight."
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentformbase"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/8683"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#broadMatch": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentform/T1009"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/isbd/terms/contentformbase/T1004": {
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "image (still ; 2-dimensional ; visual)"
+      }
+    ], 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Content expressed through line, shape, shading, etc. that is perceived to be static and in two dimensions, and intended to be perceived through sight."
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentformbase"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/8681"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#broadMatch": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentform/T1002"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/isbd/terms/contentformbase": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+      }
+    ], 
+    "http://purl.org/dc/elements/1.1/title": [
+      {
+        "type": "literal", 
+        "value": "ISBD Content Form Qualified Base"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/isbd/terms/contentformbase/T1005": {
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "image (still ; 3-dimensional)"
+      }
+    ], 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Content expressed through line, shape, shading, etc. that is perceived to be static and in three dimensions."
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentformbase"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/8682"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#broadMatch": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentform/T1002"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/isbd/terms/contentformbase/T1008": {
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "movement (notated)"
+      }
+    ], 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Content expressed through motion, i.e. the act or process of changing the position of an object or person, and through a notational system for artistic purposes intended to be perceived visually."
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentformbase"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#broadMatch": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentform/T1003"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/8685"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/isbd/terms/contentformbase/T1009": {
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "image (still ; 2-dimensional ; tactile)"
+      }
+    ], 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Content expressed through line, shape, shading, etc. that is perceived to be static and in two dimensions, and intended to be perceived through touch."
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentformbase"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#broadMatch": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentform/T1002"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/8686"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/isbd/terms/contentformbase/T1011": {
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "text (tactile)"
+      }
+    ], 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Content expressed through written words, symbols and numbers, and intended to be perceived through touch."
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentformbase"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#broadMatch": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentform/T1009"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/8688"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/isbd/terms/contentformbase/T1010": {
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "object (tactile)"
+      }
+    ], 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Content expressed through three-dimensional material, either naturally occurring entities, or human-made/machine-manufactured artefacts, and intended to be perceived through touch."
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentformbase"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#broadMatch": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentform/T1005"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/8687"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/isbd/terms/contentformbase/T1013": {
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "movement (notated ; tactile)"
+      }
+    ], 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Content expressed through motion, i.e. the act or process of changing the position of an object or person, and through a notational system for artistic purposes intended to be perceived through touch."
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentformbase"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/8690"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#broadMatch": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentform/T1003"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/isbd/terms/contentformbase/T1012": {
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "music (notated ; tactile)"
+      }
+    ], 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Content expressed through ordered tones or sounds in succession, in combination, and in temporal relationships to produce a composition, and through a notational system for artistic purposes intended to be perceived through touch."
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentformbase"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/8689"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#broadMatch": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentform/T1004"
+      }
+    ]
+  }, 
+  "http://metadataregistry.org/uri/RegStatus/1001": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Published"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/isbd/terms/contentformbase/T1007": {
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "music (notated)"
+      }
+    ], 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Content expressed through ordered tones or sounds in succession, in combination, and in temporal relationships to produce a composition, and through a notational system for artistic purposes intended to be perceived visually."
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentformbase"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#broadMatch": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentform/T1004"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/8684"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ]
+  }
+}

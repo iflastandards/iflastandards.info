@@ -1,28 +1,57 @@
-
-<html><head>
-<meta http-equiv="content-type" content="text/html;charset=utf-8">
-<title>503 Over Quota</title>
-<style><!--
-body {font-family: arial,sans-serif}
-div.nav {margin-top: 1ex}
-div.nav A {font-size: 10pt; font-family: arial,sans-serif}
-span.nav {font-size: 10pt; font-family: arial,sans-serif; font-weight: bold}
-div.nav A,span.big {font-size: 12pt; color: #0000cc}
-div.nav A {font-size: 10pt; color: black}
-A.l:link {color: #6f6f6f}
-A.u:link {color: green}
-//--></style>
-
-</head>
-<body text=#000000 bgcolor=#ffffff>
-<table border=0 cellpadding=2 cellspacing=0 width=100%>
-<tr><td bgcolor=#3366cc><font face=arial,sans-serif color=#ffffff><b>Error</b></td></tr>
-<tr><td>&nbsp;</td></tr></table>
-<blockquote>
-<H1>Over Quota</H1>
-This application is temporarily over its serving quota.  Please try again later.
-
-<p>
-</blockquote>
-<table width=100% cellpadding=0 cellspacing=0><tr><td bgcolor=#3366cc><img alt="" width=1 height=4></td></tr></table>
-</body></html>
+<div>
+  <div itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://iflastandards.info/ns/isbd/terms/contentqualification/dimensionality/T1002" itemscope>
+    <meta itemprop="definition" content="съдържание на изображение, предназначено да се възприема в три измерения." />
+    <meta itemprop="prefLabel" content="tridimensionale" />
+    <meta itemprop="prefLabel" content="tridimensional" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/1226" />
+    <meta itemprop="definition" content="Il contenuto di un’immagine che si intende far percepire in tre dimensioni." />
+    <div itemprop="http://metadataregistry.org/uri/profile/regap/status" itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://metadataregistry.org/uri/RegStatus/1001" itemscope>
+      <meta itemprop="prefLabel" content="Published" />
+    </div>
+    <meta itemprop="definition" content="Attēla saturs, uztverams trīs dimensijās." />
+    <meta itemprop="definition" content="Contenido de imagen para que se perciba en tres dimensiones." />
+    <meta itemprop="definition" content="Slikovni sadržaj koji treba da se doživi u tri dimenzije." />
+    <meta itemprop="definition" content="Image content that is intended to be perceived in three dimensions." />
+    <meta itemprop="prefLabel" content="триизмерно" />
+    <meta itemprop="prefLabel" content="tridimensionnelle" />
+    <meta itemprop="prefLabel" content="trodimenzionalni" />
+    <meta itemprop="prefLabel" content="trīsdimensiju" />
+    <meta itemprop="definition" content="设计以三维被感知的图像内容。" />
+    <meta itemprop="prefLabel" content="3维" />
+    <meta itemprop="prefLabel" content="3-dimensional" />
+    <meta itemprop="definition" content="Contenu image prévu pour être perçu en trois dimensions." />
+    <meta itemprop="prefLabel" content="trodimenzionalna" />
+    <meta itemprop="prefLabel" content="трехмерное" />
+    <div itemprop="topConceptOf" itemtype="http://www.w3.org/2004/02/skos/core#ConceptScheme" itemid="http://iflastandards.info/ns/isbd/terms/contentqualification/dimensionality" itemscope>
+      <meta itemprop="http://purl.org/dc/elements/1.1/title" content="ISBD Content Qualification of Dimensionality" />
+      <link itemprop="hasTopConcept" href="http://iflastandards.info/ns/isbd/terms/contentqualification/dimensionality/T1002" />
+      <div itemprop="hasTopConcept" itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://iflastandards.info/ns/isbd/terms/contentqualification/dimensionality/T1001" itemscope>
+        <meta itemprop="definition" content="Image content that is intended to be perceived in two dimensions." />
+        <link itemprop="topConceptOf" href="http://iflastandards.info/ns/isbd/terms/contentqualification/dimensionality" />
+        <meta itemprop="prefLabel" content="двухмерное" />
+        <meta itemprop="prefLabel" content="bidimensional" />
+        <meta itemprop="prefLabel" content="dvodimenzionalni" />
+        <meta itemprop="definition" content="Contenido de imagen para que se perciba en dos dimensiones." />
+        <meta itemprop="definition" content="设计以二维被感知的图像内容。" />
+        <meta itemprop="definition" content="Изображение, содержание которого предназначено для восприятия в двух измерениях." />
+        <meta itemprop="prefLabel" content="двуизмерно" />
+        <meta itemprop="definition" content="съдържание на изображение, предназначено да се възприема в две измерения." />
+        <meta itemprop="prefLabel" content="bidimensionale" />
+        <meta itemprop="definition" content="Attēla saturs, uztverams divās dimensijās." />
+        <meta itemprop="prefLabel" content="divdimensiju" />
+        <meta itemprop="prefLabel" content="bidimensionnelle" />
+        <meta itemprop="prefLabel" content="dvodimenzionalna" />
+        <meta itemprop="prefLabel" content="2-dimensional" />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/1225" />
+        <link itemprop="inScheme" href="http://iflastandards.info/ns/isbd/terms/contentqualification/dimensionality" />
+        <meta itemprop="definition" content="Il contenuto di un’immagine che si intende far percepire in due dimensioni." />
+        <meta itemprop="definition" content="Slikovni sadržaj koji treba da se doživi u dve dimenzije." />
+        <meta itemprop="definition" content="Contenu image prévu pour être perçu en deux dimensions." />
+        <meta itemprop="prefLabel" content="2维" />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+      </div>
+    </div>
+    <link itemprop="inScheme" href="http://iflastandards.info/ns/isbd/terms/contentqualification/dimensionality" />
+    <meta itemprop="definition" content="Изображение, содержание которого предназначено для восприятия в трех измерениях." />
+  </div>
+</div>

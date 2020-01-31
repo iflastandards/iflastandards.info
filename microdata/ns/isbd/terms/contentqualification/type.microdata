@@ -1,28 +1,99 @@
-
-<html><head>
-<meta http-equiv="content-type" content="text/html;charset=utf-8">
-<title>503 Over Quota</title>
-<style><!--
-body {font-family: arial,sans-serif}
-div.nav {margin-top: 1ex}
-div.nav A {font-size: 10pt; font-family: arial,sans-serif}
-span.nav {font-size: 10pt; font-family: arial,sans-serif; font-weight: bold}
-div.nav A,span.big {font-size: 12pt; color: #0000cc}
-div.nav A {font-size: 10pt; color: black}
-A.l:link {color: #6f6f6f}
-A.u:link {color: green}
-//--></style>
-
-</head>
-<body text=#000000 bgcolor=#ffffff>
-<table border=0 cellpadding=2 cellspacing=0 width=100%>
-<tr><td bgcolor=#3366cc><font face=arial,sans-serif color=#ffffff><b>Error</b></td></tr>
-<tr><td>&nbsp;</td></tr></table>
-<blockquote>
-<H1>Over Quota</H1>
-This application is temporarily over its serving quota.  Please try again later.
-
-<p>
-</blockquote>
-<table width=100% cellpadding=0 cellspacing=0><tr><td bgcolor=#3366cc><img alt="" width=1 height=4></td></tr></table>
-</body></html>
+<div>
+  <div itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://iflastandards.info/ns/isbd/terms/contentqualification/type/T1002" itemscope>
+    <meta itemprop="altLabel" content="notirani" />
+    <div itemprop="topConceptOf" itemtype="http://www.w3.org/2004/02/skos/core#ConceptScheme" itemid="http://iflastandards.info/ns/isbd/terms/contentqualification/type" itemscope>
+      <link itemprop="hasTopConcept" href="http://iflastandards.info/ns/isbd/terms/contentqualification/type/T1002" />
+      <meta itemprop="http://purl.org/dc/elements/1.1/title" content="ISBD Content Qualification of Type" />
+      <div itemprop="hasTopConcept" itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://iflastandards.info/ns/isbd/terms/contentqualification/type/T1001" itemscope>
+        <link itemprop="topConceptOf" href="http://iflastandards.info/ns/isbd/terms/contentqualification/type" />
+        <meta itemprop="definition" content="Sadržaj koji predstavlja Zemlju u celini ili neki njen deo, ili bilo koje nebesko telo u bilo kojoj razmeri." />
+        <meta itemprop="scopeNote" content="Uključuje geografske karte, atlase, globuse, reljefne modele i tako dalje." />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+        <meta itemprop="definition" content="Contenu représentant la totalité ou une partie de la Terre ou de tout corps céleste à une échelle quelconque." />
+        <meta itemprop="definition" content="Content representing the whole or part of the Earth or any celestial body at any scale." />
+        <meta itemprop="definition" content="Содержание, отражающее поверхность или часть поверхности Земли или другого небесного тела в любом масштабе." />
+        <meta itemprop="prefLabel" content="地图型" />
+        <meta itemprop="definition" content="Un contenuto che rappresenta l’intera Terra o parte di essa, o qualsiasi corpo celeste a qualunque scala." />
+        <link itemprop="inScheme" href="http://iflastandards.info/ns/isbd/terms/contentqualification/type" />
+        <meta itemprop="prefLabel" content="картографический" />
+        <meta itemprop="prefLabel" content="cartografico" />
+        <meta itemprop="definition" content="Съдържание, което представя повърхността или част от повърхността на Земята или на друго небесно тяло в какъвто и да е мащаб." />
+        <meta itemprop="altLabel" content="cartográfico" />
+        <meta itemprop="prefLabel" content="Contenido que representa la totalidad o parte de la Tierra o de cualquier cuerpo celeste a cualquier escala." />
+        <meta itemprop="scopeNote" content="Incluye mapas, atlas, globos, modelos en relieve, etc." />
+        <meta itemprop="scopeNote" content="Comprend cartes, atlas, globes, maquettes, etc." />
+        <meta itemprop="scopeNote" content="Includes maps, atlases, globes, relief models, etc." />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/1220" />
+        <meta itemprop="prefLabel" content="cartographic" />
+        <meta itemprop="definition" content="Saturs, kas atspoguļo Zemes virsmu vai virsmas daļu, vai citu debess ķermeni jebkurā mērogā." />
+        <meta itemprop="altLabel" content="kartografski" />
+        <meta itemprop="scopeNote" content="Include le carte geografiche, gli atlanti, i globi, i modelli in rilievo, etc." />
+        <meta itemprop="scopeNote" content="Включает в себя карты, атласы, глобусы, модели рельефа и т.п." />
+        <meta itemprop="scopeNote" content="Ietver kartes, atlantus, globusus, reljefa modeļus, u.c." />
+        <meta itemprop="prefLabel" content="cartographique" />
+        <meta itemprop="altLabel" content="kartografska" />
+        <meta itemprop="prefLabel" content="картографски" />
+        <meta itemprop="scopeNote" content="包括地图、地图册、球仪、地形模型等。" />
+        <meta itemprop="altLabel" content="cartográfica" />
+        <meta itemprop="scopeNote" content="Включва карти, атласи, глобуси, модели на релеф и др." />
+        <meta itemprop="definition" content="用任何比例尺表示地球或任何天体的整体或部分的内容。" />
+      </div>
+      <div itemprop="hasTopConcept" itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://iflastandards.info/ns/isbd/terms/contentqualification/type/T1003" itemscope>
+        <meta itemprop="scopeNote" content="包括录制的音乐或运动的表演、计算机生成的音乐等。" />
+        <meta itemprop="scopeNote" content="Incluye las grabaciones de interpretaciones de música o movimiento, música generada por ordenador, etc." />
+        <meta itemprop="scopeNote" content="Includes recorded performances of music or movement, computer-generated music, etc." />
+        <link itemprop="topConceptOf" href="http://iflastandards.info/ns/isbd/terms/contentqualification/type" />
+        <meta itemprop="prefLabel" content="eseguito" />
+        <meta itemprop="prefLabel" content="performed" />
+        <meta itemprop="definition" content="Un contenuto espresso in forma uditiva o visibile, in un dato tempo, e registrato in una risorsa." />
+        <meta itemprop="scopeNote" content="Включает в себя записанное исполнение музыки или движения, компьютерную музыку и т. п." />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+        <meta itemprop="prefLabel" content="исполнительский" />
+        <meta itemprop="scopeNote" content="Comprend les interprétations enregistrées de musique ou de mouvements, la musique générée par ordinateur, etc." />
+        <meta itemprop="definition" content="Content expressed in an audible or visible form, at a given time, and recorded in a resource." />
+        <meta itemprop="definition" content="Contenu exprimé sous une forme audible ou visible, à un moment déterminé, et enregistré dans une ressource" />
+        <meta itemprop="definition" content="Содержание, выраженное в видимой или слышимой форме в определенное время и записанное в ресурсе." />
+        <meta itemprop="altLabel" content="izvedbena" />
+        <meta itemprop="altLabel" content="interpretado" />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/1222" />
+        <link itemprop="inScheme" href="http://iflastandards.info/ns/isbd/terms/contentqualification/type" />
+        <meta itemprop="scopeNote" content="Ietver ierakstīto mūzikas vai kustības izpildījumu, ar datoru radītu mūziku, u.c." />
+        <meta itemprop="prefLabel" content="изпълнителски" />
+        <meta itemprop="scopeNote" content="Include le esecuzioni registrate di musica o di movimento, la musica generata via computer, etc." />
+        <meta itemprop="definition" content="Съдържание, изразено в определен момент във форма, която може да се види или чуе и записано в ресурс." />
+        <meta itemprop="definition" content="以听觉或视觉形式表示、在指定时间并且录制于一种资源中的内容。" />
+        <meta itemprop="definition" content="Contenido expresado en forma audible o visible, en un momento dado, y grabado en un recurso." />
+        <meta itemprop="definition" content="Saturs, izteikts dzirdamā vai redzamā formā noteiktā laikā un ierakstīts resursā. " />
+        <meta itemprop="altLabel" content="interprété" />
+        <meta itemprop="altLabel" content="izvedbeni" />
+        <meta itemprop="altLabel" content="interpretada" />
+        <meta itemprop="altLabel" content="interprétée" />
+        <meta itemprop="prefLabel" content="表演型" />
+        <meta itemprop="scopeNote" content="Включва записани изпълнения на музика или движение, компютърна музика и др." />
+      </div>
+    </div>
+    <link itemprop="inScheme" href="http://iflastandards.info/ns/isbd/terms/contentqualification/type" />
+    <meta itemprop="definition" content="Un contenuto espresso mediante un sistema di notazione, a scopi artistici p.e. la musica, la danza, la rappresentazione scenica), destinato a essere percepito visivamente." />
+    <meta itemprop="definition" content="Съдържание, изразено чрез система за нотиране за художествени цели (напр. музика, танц и сценична постановка), предназначено за визуално възприемане." />
+    <meta itemprop="prefLabel" content="знаковый" />
+    <meta itemprop="prefLabel" content="记谱型" />
+    <meta itemprop="altLabel" content="notée" />
+    <meta itemprop="altLabel" content="notirana" />
+    <meta itemprop="definition" content="Saturs, izteikts ar nosacītu zīmju apzīmēšanas sistēmu mākslinieciskā nolūkā (piem., mūzika, deja, inscenējums), paredzēts vizuālai uztverei." />
+    <meta itemprop="prefLabel" content="notated" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/1221" />
+    <meta itemprop="definition" content="Content expressed through a notational system for artistic purposes (e.g. music, dance, staging) intended to be perceived visually." />
+    <meta itemprop="prefLabel" content="notato" />
+    <meta itemprop="definition" content="Contenido expresado a través de un sistema de notación con fines artísticos (por ejemplo, la música, la danza, la puesta en escena) destinado a percibirse visualmente." />
+    <meta itemprop="definition" content="Contenu exprimé à des fins artistiques selon un système de notation (par exemple, musique, danse, mise en scène) et prévu pour être perçu visuellement." />
+    <meta itemprop="altLabel" content="notado" />
+    <meta itemprop="altLabel" content="notada" />
+    <meta itemprop="definition" content="通过艺术（例如音乐、舞蹈、舞台）记谱系统来表示、用于视觉感知的内容。" />
+    <meta itemprop="altLabel" content="noté" />
+    <meta itemprop="prefLabel" content="нотиран" />
+    <meta itemprop="definition" content="Содержание, выраженное через определенную систему знаков с художественными целями (ноты, обозначение танцевальных и сценических движений), предназначенное для зрительного восприятия." />
+    <div itemprop="http://metadataregistry.org/uri/profile/regap/status" itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://metadataregistry.org/uri/RegStatus/1001" itemscope>
+      <meta itemprop="prefLabel" content="Published" />
+    </div>
+  </div>
+</div>

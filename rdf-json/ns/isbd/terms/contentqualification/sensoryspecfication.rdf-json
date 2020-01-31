@@ -1,28 +1,728 @@
-
-<html><head>
-<meta http-equiv="content-type" content="text/html;charset=utf-8">
-<title>503 Over Quota</title>
-<style><!--
-body {font-family: arial,sans-serif}
-div.nav {margin-top: 1ex}
-div.nav A {font-size: 10pt; font-family: arial,sans-serif}
-span.nav {font-size: 10pt; font-family: arial,sans-serif; font-weight: bold}
-div.nav A,span.big {font-size: 12pt; color: #0000cc}
-div.nav A {font-size: 10pt; color: black}
-A.l:link {color: #6f6f6f}
-A.u:link {color: green}
-//--></style>
-
-</head>
-<body text=#000000 bgcolor=#ffffff>
-<table border=0 cellpadding=2 cellspacing=0 width=100%>
-<tr><td bgcolor=#3366cc><font face=arial,sans-serif color=#ffffff><b>Error</b></td></tr>
-<tr><td>&nbsp;</td></tr></table>
-<blockquote>
-<H1>Over Quota</H1>
-This application is temporarily over its serving quota.  Please try again later.
-
-<p>
-</blockquote>
-<table width=100% cellpadding=0 cellspacing=0><tr><td bgcolor=#3366cc><img alt="" width=1 height=4></td></tr></table>
-</body></html>
+{
+  "http://metadataregistry.org/uri/RegStatus/1001": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Published"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/isbd/terms/contentqualification/sensoryspecfication": {
+    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentqualification/sensoryspecfication/T1001"
+      }, 
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentqualification/sensoryspecfication/T1002"
+      }, 
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentqualification/sensoryspecfication/T1004"
+      }, 
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentqualification/sensoryspecfication/T1005"
+      }, 
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentqualification/sensoryspecfication/T1003"
+      }
+    ], 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+      }
+    ], 
+    "http://purl.org/dc/elements/1.1/title": [
+      {
+        "type": "literal", 
+        "value": "ISBD Content Qualification of Sensory Specification"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/isbd/terms/contentqualification/sensoryspecfication/T1003": {
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "olfactory"
+      }, 
+      {
+        "lang": "ru", 
+        "type": "literal", 
+        "value": "обонятельный"
+      }, 
+      {
+        "lang": "zh", 
+        "type": "literal", 
+        "value": "嗅觉"
+      }, 
+      {
+        "lang": "lv", 
+        "type": "literal", 
+        "value": "ožas"
+      }, 
+      {
+        "lang": "bg", 
+        "type": "literal", 
+        "value": "обонятелен"
+      }, 
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Content that is intended to be perceived through smell."
+      }, 
+      {
+        "lang": "it", 
+        "type": "literal", 
+        "value": "olfattivo"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "lang": "hr", 
+        "type": "literal", 
+        "value": "olfaktivni"
+      }, 
+      {
+        "lang": "hr", 
+        "type": "literal", 
+        "value": "olfaktivna"
+      }, 
+      {
+        "lang": "es", 
+        "type": "literal", 
+        "value": "olfativo"
+      }, 
+      {
+        "lang": "fr", 
+        "type": "literal", 
+        "value": "olfactif"
+      }, 
+      {
+        "lang": "es", 
+        "type": "literal", 
+        "value": "olfativa"
+      }, 
+      {
+        "lang": "fr", 
+        "type": "literal", 
+        "value": "olfactive"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "lang": "ru", 
+        "type": "literal", 
+        "value": "Содержание, предназначенное для восприятия с помощью обоняния."
+      }, 
+      {
+        "lang": "lv", 
+        "type": "literal", 
+        "value": "Ar ožu uztverams saturs."
+      }, 
+      {
+        "lang": "it", 
+        "type": "literal", 
+        "value": "Un contenuto che è destinato ad essere percepito tramite l’olfatto."
+      }, 
+      {
+        "lang": "zh", 
+        "type": "literal", 
+        "value": "设计通过气味被感知的内容。"
+      }, 
+      {
+        "lang": "bg", 
+        "type": "literal", 
+        "value": "съдържание, предназначено да се възприема с обоняние."
+      }, 
+      {
+        "lang": "es", 
+        "type": "literal", 
+        "value": "Contenido para que se perciba a través del olfato."
+      }, 
+      {
+        "lang": "fr", 
+        "type": "literal", 
+        "value": "Contenu prévu pour être perçu par le sens de l’odorat."
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentqualification/sensoryspecfication"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/1229"
+      }
+    ], 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentqualification/sensoryspecfication"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/isbd/terms/contentqualification/sensoryspecfication/T1002": {
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentqualification/sensoryspecfication"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "lang": "fr", 
+        "type": "literal", 
+        "value": "gustatif"
+      }, 
+      {
+        "lang": "fr", 
+        "type": "literal", 
+        "value": "gustative"
+      }, 
+      {
+        "lang": "es", 
+        "type": "literal", 
+        "value": "gustativa"
+      }, 
+      {
+        "lang": "es", 
+        "type": "literal", 
+        "value": "gustativo"
+      }, 
+      {
+        "lang": "hr", 
+        "type": "literal", 
+        "value": "gustativni"
+      }, 
+      {
+        "lang": "hr", 
+        "type": "literal", 
+        "value": "gustativna"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Content that is intended to be perceived through taste."
+      }, 
+      {
+        "lang": "es", 
+        "type": "literal", 
+        "value": "Contenido para que se perciba a través del gusto."
+      }, 
+      {
+        "lang": "it", 
+        "type": "literal", 
+        "value": "Un contenuto che è destinato ad essere percepito tramite il gusto."
+      }, 
+      {
+        "lang": "zh", 
+        "type": "literal", 
+        "value": "设计通过味道被感知的内容。"
+      }, 
+      {
+        "lang": "lv", 
+        "type": "literal", 
+        "value": "Ar garšu uztverams saturs."
+      }, 
+      {
+        "lang": "ru", 
+        "type": "literal", 
+        "value": "Содержание, предназначенное для восприятия с помощью вкуса."
+      }, 
+      {
+        "lang": "bg", 
+        "type": "literal", 
+        "value": "съдържание, предназначено да се възприема с вкус."
+      }, 
+      {
+        "lang": "fr", 
+        "type": "literal", 
+        "value": "Contenu prévu pour être perçu par le sens du goût."
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentqualification/sensoryspecfication"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/1228"
+      }
+    ], 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "lv", 
+        "type": "literal", 
+        "value": "garšas"
+      }, 
+      {
+        "lang": "ru", 
+        "type": "literal", 
+        "value": "вкусовой"
+      }, 
+      {
+        "lang": "it", 
+        "type": "literal", 
+        "value": "gustativo"
+      }, 
+      {
+        "lang": "zh", 
+        "type": "literal", 
+        "value": "味觉"
+      }, 
+      {
+        "lang": "bg", 
+        "type": "literal", 
+        "value": "вкусов"
+      }, 
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "gustatory"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/isbd/terms/contentqualification/sensoryspecfication/T1001": {
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentqualification/sensoryspecfication"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "lang": "hr", 
+        "type": "literal", 
+        "value": "slušni"
+      }, 
+      {
+        "lang": "hr", 
+        "type": "literal", 
+        "value": "slušna"
+      }, 
+      {
+        "lang": "fr", 
+        "type": "literal", 
+        "value": "auditif"
+      }, 
+      {
+        "lang": "es", 
+        "type": "literal", 
+        "value": "auditivo"
+      }, 
+      {
+        "lang": "fr", 
+        "type": "literal", 
+        "value": "auditive"
+      }, 
+      {
+        "lang": "es", 
+        "type": "literal", 
+        "value": "auditiva"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "lang": "zh", 
+        "type": "literal", 
+        "value": "设计通过听力被感知的内容。"
+      }, 
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Content that is intended to be perceived through hearing."
+      }, 
+      {
+        "lang": "bg", 
+        "type": "literal", 
+        "value": "съдържание, предназначено да се възприема със слух."
+      }, 
+      {
+        "lang": "ru", 
+        "type": "literal", 
+        "value": "Содержание, предназначенное для восприятия с помощью слуха."
+      }, 
+      {
+        "lang": "it", 
+        "type": "literal", 
+        "value": "Un contenuto che è destinato ad essere percepito tramite l’udito."
+      }, 
+      {
+        "lang": "fr", 
+        "type": "literal", 
+        "value": "Contenu prévu pour être perçu par le sens de l’ouïe."
+      }, 
+      {
+        "lang": "lv", 
+        "type": "literal", 
+        "value": "Ar dzirdi uztverams saturs."
+      }, 
+      {
+        "lang": "es", 
+        "type": "literal", 
+        "value": "Contenido para que se perciba a través de la audición."
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentqualification/sensoryspecfication"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/1227"
+      }
+    ], 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "bg", 
+        "type": "literal", 
+        "value": "слухов"
+      }, 
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "aural"
+      }, 
+      {
+        "lang": "it", 
+        "type": "literal", 
+        "value": "uditivo"
+      }, 
+      {
+        "lang": "zh", 
+        "type": "literal", 
+        "value": "听觉"
+      }, 
+      {
+        "lang": "lv", 
+        "type": "literal", 
+        "value": "dzirdes"
+      }, 
+      {
+        "lang": "ru", 
+        "type": "literal", 
+        "value": "слуховой"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/isbd/terms/contentqualification/sensoryspecfication/T1005": {
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentqualification/sensoryspecfication"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "lang": "it", 
+        "type": "literal", 
+        "value": "Un contenuto che è destinato ad essere percepito tramite la vista."
+      }, 
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Content that is intended to be perceived through sight."
+      }, 
+      {
+        "lang": "fr", 
+        "type": "literal", 
+        "value": "Contenu prévu pour être perçu par le sens de la vue."
+      }, 
+      {
+        "lang": "ru", 
+        "type": "literal", 
+        "value": "Содержание, предназначенное для восприятия с помощью зрения."
+      }, 
+      {
+        "lang": "es", 
+        "type": "literal", 
+        "value": "Contenido para que se perciba a través de la vista."
+      }, 
+      {
+        "lang": "lv", 
+        "type": "literal", 
+        "value": "Ar redzi uztverams saturs."
+      }, 
+      {
+        "lang": "zh", 
+        "type": "literal", 
+        "value": "设计通过视力被感知的内容。"
+      }, 
+      {
+        "lang": "bg", 
+        "type": "literal", 
+        "value": "съдържание, предназначено да се възприема със зрение."
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentqualification/sensoryspecfication"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/1231"
+      }
+    ], 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "visual"
+      }, 
+      {
+        "lang": "ru", 
+        "type": "literal", 
+        "value": "визуальный"
+      }, 
+      {
+        "lang": "it", 
+        "type": "literal", 
+        "value": "visivo"
+      }, 
+      {
+        "lang": "bg", 
+        "type": "literal", 
+        "value": "визуален"
+      }, 
+      {
+        "lang": "es", 
+        "type": "literal", 
+        "value": "visual"
+      }, 
+      {
+        "lang": "lv", 
+        "type": "literal", 
+        "value": "redzes"
+      }, 
+      {
+        "lang": "zh", 
+        "type": "literal", 
+        "value": "视觉"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "lang": "fr", 
+        "type": "literal", 
+        "value": "visuelle"
+      }, 
+      {
+        "lang": "fr", 
+        "type": "literal", 
+        "value": "visuel"
+      }, 
+      {
+        "lang": "hr", 
+        "type": "literal", 
+        "value": "vizualni"
+      }, 
+      {
+        "lang": "hr", 
+        "type": "literal", 
+        "value": "vizualna"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/isbd/terms/contentqualification/sensoryspecfication/T1004": {
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "lang": "hr", 
+        "type": "literal", 
+        "value": "taktilni"
+      }, 
+      {
+        "lang": "hr", 
+        "type": "literal", 
+        "value": "taktilna"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "zh", 
+        "type": "literal", 
+        "value": "触觉"
+      }, 
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "tactile"
+      }, 
+      {
+        "lang": "fr", 
+        "type": "literal", 
+        "value": "tactile"
+      }, 
+      {
+        "lang": "es", 
+        "type": "literal", 
+        "value": "táctil"
+      }, 
+      {
+        "lang": "bg", 
+        "type": "literal", 
+        "value": "тактилен"
+      }, 
+      {
+        "lang": "it", 
+        "type": "literal", 
+        "value": "tattile"
+      }, 
+      {
+        "lang": "ru", 
+        "type": "literal", 
+        "value": "тактильный"
+      }, 
+      {
+        "lang": "lv", 
+        "type": "literal", 
+        "value": "taustes"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentqualification/sensoryspecfication"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/1230"
+      }
+    ], 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "lang": "bg", 
+        "type": "literal", 
+        "value": "съдържание, предназначено да се възприема с осезание."
+      }, 
+      {
+        "lang": "lv", 
+        "type": "literal", 
+        "value": "Ar tausti uztverams saturs."
+      }, 
+      {
+        "lang": "ru", 
+        "type": "literal", 
+        "value": "Содержание, предназначенное для восприятия с помощью осязания."
+      }, 
+      {
+        "lang": "it", 
+        "type": "literal", 
+        "value": "Un contenuto che è destinato ad essere percepito tramite il tatto."
+      }, 
+      {
+        "lang": "fr", 
+        "type": "literal", 
+        "value": "Contenu prévu pour être perçu par le sens du toucher."
+      }, 
+      {
+        "lang": "zh", 
+        "type": "literal", 
+        "value": "设计通过接触被感知的内容。"
+      }, 
+      {
+        "lang": "es", 
+        "type": "literal", 
+        "value": "Contenido para que se perciba a través del tacto."
+      }, 
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Content that is intended to be perceived through touch."
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/isbd/terms/contentqualification/sensoryspecfication"
+      }
+    ]
+  }
+}

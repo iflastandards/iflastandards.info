@@ -1,28 +1,224 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix reg: <http://metadataregistry.org/uri/profile/regap/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<html><head>
-<meta http-equiv="content-type" content="text/html;charset=utf-8">
-<title>503 Over Quota</title>
-<style><!--
-body {font-family: arial,sans-serif}
-div.nav {margin-top: 1ex}
-div.nav A {font-size: 10pt; font-family: arial,sans-serif}
-span.nav {font-size: 10pt; font-family: arial,sans-serif; font-weight: bold}
-div.nav A,span.big {font-size: 12pt; color: #0000cc}
-div.nav A {font-size: 10pt; color: black}
-A.l:link {color: #6f6f6f}
-A.u:link {color: green}
-//--></style>
+<http://iflastandards.info/ns/unimarc/terms/continuingfreq#a> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/6366> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/continuingfreq#> ;
+    skos:notation "a"@en ;
+    skos:prefLabel "daily"@en,
+        "giornaliera"@it,
+        "diária"@pt ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/continuingfreq#> .
 
-</head>
-<body text=#000000 bgcolor=#ffffff>
-<table border=0 cellpadding=2 cellspacing=0 width=100%>
-<tr><td bgcolor=#3366cc><font face=arial,sans-serif color=#ffffff><b>Error</b></td></tr>
-<tr><td>&nbsp;</td></tr></table>
-<blockquote>
-<H1>Over Quota</H1>
-This application is temporarily over its serving quota.  Please try again later.
+<http://iflastandards.info/ns/unimarc/terms/continuingfreq#b> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/6367> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/continuingfreq#> ;
+    skos:notation "b"@en ;
+    skos:prefLabel "semiweekly (twice a week)"@en,
+        "semisettimanale (due volte a settimana)"@it,
+        "bissemanal (duas vezes por semana)"@pt ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/continuingfreq#> .
 
-<p>
-</blockquote>
-<table width=100% cellpadding=0 cellspacing=0><tr><td bgcolor=#3366cc><img alt="" width=1 height=4></td></tr></table>
-</body></html>
+<http://iflastandards.info/ns/unimarc/terms/continuingfreq#c> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/6368> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/continuingfreq#> ;
+    skos:notation "c"@en ;
+    skos:prefLabel "weekly"@en,
+        "settimanale"@it,
+        "semanal"@pt ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/continuingfreq#> .
+
+<http://iflastandards.info/ns/unimarc/terms/continuingfreq#d> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/6369> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/continuingfreq#> ;
+    skos:notation "d"@en ;
+    skos:prefLabel "biweekly (every two weeks)"@en,
+        "bisettimanale (ogni due settimane)"@it,
+        "quinzenal (de duas em duas semanas)"@pt ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/continuingfreq#> .
+
+<http://iflastandards.info/ns/unimarc/terms/continuingfreq#e> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/6370> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/continuingfreq#> ;
+    skos:notation "e"@en ;
+    skos:prefLabel "semimonthly (twice a month)"@en,
+        "quindicinale (due volte al mese)"@it,
+        "bimensal (duas vezes por mês)"@pt ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/continuingfreq#> .
+
+<http://iflastandards.info/ns/unimarc/terms/continuingfreq#f> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/6371> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/continuingfreq#> ;
+    skos:notation "f"@en ;
+    skos:prefLabel "monthly"@en,
+        "mensile"@it,
+        "mensal"@pt ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/continuingfreq#> .
+
+<http://iflastandards.info/ns/unimarc/terms/continuingfreq#g> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/6372> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/continuingfreq#> ;
+    skos:notation "g"@en ;
+    skos:prefLabel "bimonthly (every two months)"@en,
+        "bimestrale (ogni due mesi)"@it,
+        "bimestral (de dois em dois meses)"@pt ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/continuingfreq#> .
+
+<http://iflastandards.info/ns/unimarc/terms/continuingfreq#h> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/6373> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/continuingfreq#> ;
+    skos:notation "h"@en ;
+    skos:prefLabel "quarterly"@en,
+        "trimestrale"@it,
+        "trimestral"@pt ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/continuingfreq#> .
+
+<http://iflastandards.info/ns/unimarc/terms/continuingfreq#i> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/6374> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/continuingfreq#> ;
+    skos:notation "i"@en ;
+    skos:prefLabel "three times a year"@en,
+        "tre volte all'anno"@it,
+        "quadrimestral (três vezes por ano)"@pt ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/continuingfreq#> .
+
+<http://iflastandards.info/ns/unimarc/terms/continuingfreq#j> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/6375> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/continuingfreq#> ;
+    skos:notation "j"@en ;
+    skos:prefLabel "semiannual (twice a year)"@en,
+        "semiannuale (due volte all'anno)"@it,
+        "semestral (duas vezes por ano)"@pt ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/continuingfreq#> .
+
+<http://iflastandards.info/ns/unimarc/terms/continuingfreq#k> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/6376> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/continuingfreq#> ;
+    skos:notation "k"@en ;
+    skos:prefLabel "annual"@en,
+        "annuale"@it,
+        "anual"@pt ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/continuingfreq#> .
+
+<http://iflastandards.info/ns/unimarc/terms/continuingfreq#l> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/6377> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/continuingfreq#> ;
+    skos:notation "l"@en ;
+    skos:prefLabel "biennial (every two years)"@en,
+        "biennale (ogni due anni)"@it,
+        "bienal (de dois em dois anos)"@pt ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/continuingfreq#> .
+
+<http://iflastandards.info/ns/unimarc/terms/continuingfreq#m> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/6378> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/continuingfreq#> ;
+    skos:note "m"@en ;
+    skos:prefLabel "triennial (every three years)"@en,
+        "triennale (ogni tre anni)"@it,
+        "trienal (de três em três anos)"@pt ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/continuingfreq#> .
+
+<http://iflastandards.info/ns/unimarc/terms/continuingfreq#n> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/6379> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/continuingfreq#> ;
+    skos:notation "n"@en ;
+    skos:prefLabel "three times a week"@en,
+        "tre volte a settimana"@it,
+        "três vezes por semana"@pt ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/continuingfreq#> .
+
+<http://iflastandards.info/ns/unimarc/terms/continuingfreq#o> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/6380> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/continuingfreq#> ;
+    skos:notation "o"@en ;
+    skos:prefLabel "three times a month"@en,
+        "tre volte al mese"@it,
+        "três vezes por mês"@pt ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/continuingfreq#> .
+
+<http://iflastandards.info/ns/unimarc/terms/continuingfreq#p> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/6381> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/continuingfreq#> ;
+    skos:notation "p"@en ;
+    skos:prefLabel "continuously updated"@en,
+        "continuamente aggiornato"@it,
+        "em actualização permanente"@pt ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/continuingfreq#> .
+
+<http://iflastandards.info/ns/unimarc/terms/continuingfreq#u> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/6382> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/continuingfreq#> ;
+    skos:notation "u"@en ;
+    skos:prefLabel "unknown"@en,
+        "sconosciuto"@it,
+        "desconhecida"@pt ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/continuingfreq#> .
+
+<http://iflastandards.info/ns/unimarc/terms/continuingfreq#y> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/6383> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/continuingfreq#> ;
+    skos:notation "y"@en ;
+    skos:prefLabel "no frequency (i.e. irregular)"@en,
+        "nessuna frequenza (irregolare)"@it,
+        "sem periodicidade (i.é, irregular)"@pt ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/continuingfreq#> .
+
+<http://iflastandards.info/ns/unimarc/terms/continuingfreq#z> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/6384> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:definition "Frequency of issue other than daily, semiweekly (twice a week), three times a week, weekly, biweekly (every two weeks), semimonthly (twice a month), three times a month, monthly, bimonthly (every two months), quarterly, three times a year, semiannual (twice a year), annual, biennial (every two years), triennial (every three years), continuously updated, no frequency (i.e. irregular)."@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/continuingfreq#> ;
+    skos:notation "z"@en ;
+    skos:prefLabel "other"@en,
+        "altro"@it,
+        "outra"@pt ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/continuingfreq#> .
+
+<http://metadataregistry.org/uri/RegStatus/1001> a skos:Concept ;
+    skos:prefLabel "Published"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/continuingfreq#> a skos:ConceptScheme ;
+    dc:title "UNIMARC: Continuing resources: Frequency of issue" ;
+    skos:hasTopConcept <http://iflastandards.info/ns/unimarc/terms/continuingfreq#a>,
+        <http://iflastandards.info/ns/unimarc/terms/continuingfreq#b>,
+        <http://iflastandards.info/ns/unimarc/terms/continuingfreq#c>,
+        <http://iflastandards.info/ns/unimarc/terms/continuingfreq#d>,
+        <http://iflastandards.info/ns/unimarc/terms/continuingfreq#e>,
+        <http://iflastandards.info/ns/unimarc/terms/continuingfreq#f>,
+        <http://iflastandards.info/ns/unimarc/terms/continuingfreq#g>,
+        <http://iflastandards.info/ns/unimarc/terms/continuingfreq#h>,
+        <http://iflastandards.info/ns/unimarc/terms/continuingfreq#i>,
+        <http://iflastandards.info/ns/unimarc/terms/continuingfreq#j>,
+        <http://iflastandards.info/ns/unimarc/terms/continuingfreq#k>,
+        <http://iflastandards.info/ns/unimarc/terms/continuingfreq#l>,
+        <http://iflastandards.info/ns/unimarc/terms/continuingfreq#m>,
+        <http://iflastandards.info/ns/unimarc/terms/continuingfreq#n>,
+        <http://iflastandards.info/ns/unimarc/terms/continuingfreq#o>,
+        <http://iflastandards.info/ns/unimarc/terms/continuingfreq#p>,
+        <http://iflastandards.info/ns/unimarc/terms/continuingfreq#u>,
+        <http://iflastandards.info/ns/unimarc/terms/continuingfreq#y>,
+        <http://iflastandards.info/ns/unimarc/terms/continuingfreq#z> .
+

@@ -1,28 +1,275 @@
-
-<html><head>
-<meta http-equiv="content-type" content="text/html;charset=utf-8">
-<title>503 Over Quota</title>
-<style><!--
-body {font-family: arial,sans-serif}
-div.nav {margin-top: 1ex}
-div.nav A {font-size: 10pt; font-family: arial,sans-serif}
-span.nav {font-size: 10pt; font-family: arial,sans-serif; font-weight: bold}
-div.nav A,span.big {font-size: 12pt; color: #0000cc}
-div.nav A {font-size: 10pt; color: black}
-A.l:link {color: #6f6f6f}
-A.u:link {color: green}
-//--></style>
-
-</head>
-<body text=#000000 bgcolor=#ffffff>
-<table border=0 cellpadding=2 cellspacing=0 width=100%>
-<tr><td bgcolor=#3366cc><font face=arial,sans-serif color=#ffffff><b>Error</b></td></tr>
-<tr><td>&nbsp;</td></tr></table>
-<blockquote>
-<H1>Over Quota</H1>
-This application is temporarily over its serving quota.  Please try again later.
-
-<p>
-</blockquote>
-<table width=100% cellpadding=0 cellspacing=0><tr><td bgcolor=#3366cc><img alt="" width=1 height=4></td></tr></table>
-</body></html>
+<div>
+  <div itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://iflastandards.info/ns/isbd/terms/mediatype/T1001" itemscope>
+    <meta itemprop="prefLabel" content="audio" />
+    <meta itemprop="scopeNote" content="Ietver medijus/datnešus, kas izmantojami digitāli kodētas, kā arī analogas skaņas glabāšanai." />
+    <meta itemprop="scopeNote" content="Incluye los medios utilizados para almacenar tanto sonido codificado digitalmente como sonido analógico. " />
+    <meta itemprop="prefLabel" content="audio" />
+    <meta itemprop="prefLabel" content="音频" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/1211" />
+    <meta itemprop="prefLabel" content="audio" />
+    <meta itemprop="prefLabel" content="аудио" />
+    <meta itemprop="definition" content="用于储存录音的载体，设计要用转盘、卡式磁带播放器、激光唱片播放器、MP3播放器或iPod等回放设备。" />
+    <meta itemprop="scopeNote" content="Include i supporti per la memorizzazione di suoni codificati sia in forma digitale sia in forma analogica." />
+    <meta itemprop="prefLabel" content="audio" />
+    <meta itemprop="prefLabel" content="аудио" />
+    <meta itemprop="scopeNote" content="Podrazumeva i medije koji se koriste za pohranjivanje digitalno i analogno kodiranog zvuka." />
+    <meta itemprop="prefLabel" content="audio" />
+    <div itemprop="topConceptOf" itemtype="http://www.w3.org/2004/02/skos/core#ConceptScheme" itemid="http://iflastandards.info/ns/isbd/terms/mediatype" itemscope>
+      <div itemprop="hasTopConcept" itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://iflastandards.info/ns/isbd/terms/mediatype/T1002" itemscope>
+        <meta itemprop="prefLabel" content="elektronisks" />
+        <meta itemprop="scopeNote" content="Include i supporti ad accesso remoto via server e i supporti ad accesso diretto, come nastri e dischi magnetici per computer." />
+        <meta itemprop="scopeNote" content="Включва както средства, достъпни от отдалечени сървъри, така и средства с пряк достъп като компютърни ленти и дискове." />
+        <meta itemprop="definition" content="Supporti per la memorizzazione di file elettronici, da usare con un computer." />
+        <meta itemprop="prefLabel" content="electrónico" />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/1212" />
+        <meta itemprop="prefLabel" content="elektronički" />
+        <meta itemprop="prefLabel" content="electronic" />
+        <meta itemprop="prefLabel" content="электронный" />
+        <meta itemprop="prefLabel" content="електронен" />
+        <meta itemprop="scopeNote" content="Ce terme recouvre aussi bien des supports accessibles à distance par des serveurs que des supports en accès local comme des bandes ou des disques." />
+        <meta itemprop="scopeNote" content="Incluye los medios a los que se accede de forma remota a través de servidores de archivos, así como medios de acceso directo, tales como cintas y discos de ordenador." />
+        <meta itemprop="prefLabel" content="électronique" />
+        <meta itemprop="scopeNote" content="Podrazumeva medije kojima se pristupa daljinski preko servera, kao i one sa direktnim pristupom, kao što su računarske trake i diskete." />
+        <meta itemprop="definition" content="Средства, използвани за съхраняване на електронни файлове, предназначени за ползване с компютър." />
+        <meta itemprop="definition" content="Средства, используемые для хранения электронных файлов, предназначенные для использования с помощью компьютера." />
+        <meta itemprop="prefLabel" content="电子" />
+        <meta itemprop="definition" content="Support utilisé pour stocker des fichiers électroniques et conçu pour être utilisé au moyen d’un ordinateur." />
+        <link itemprop="topConceptOf" href="http://iflastandards.info/ns/isbd/terms/mediatype" />
+        <meta itemprop="definition" content="Media used to store electronic files, designed for use with a computer." />
+        <meta itemprop="definition" content="Medij koji se koristi za pohranjivanje elektronskih dokumenata, namenjenih za korišćenje pomoću računara." />
+        <meta itemprop="prefLabel" content="elektronski" />
+        <meta itemprop="scopeNote" content="Включают как средства, доступные с отдаленных серверов, так и средства прямого доступа, такие как компьютерные ленты и диски." />
+        <meta itemprop="definition" content="用于储存电子文件的载体，设计要用计算机来使用。" />
+        <meta itemprop="prefLabel" content="elettronico" />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+        <meta itemprop="definition" content="Medio utilizado para almacenar los archivos electrónicos, diseñado para su uso con un ordenador." />
+        <meta itemprop="scopeNote" content="既包括通过远程文件服务器访问的载体，也包括计算机磁带和磁盘等直接访问的载体。" />
+        <meta itemprop="definition" content="Mediji/datneši, izmantojami elektronisko datņu glabāšanai, paredzēti lietot ar datoru." />
+        <meta itemprop="scopeNote" content="Includes media that are accessed remotely through file servers, as well as direct-access media such as computer tapes and disks." />
+        <meta itemprop="scopeNote" content="Ietver medijus/datnešus, kas pieejami no attālinātiem datņu serveriem, kā arī no tiešās piekļuves, kā datorlentes un diski." />
+        <link itemprop="inScheme" href="http://iflastandards.info/ns/isbd/terms/mediatype" />
+      </div>
+      <div itemprop="hasTopConcept" itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://iflastandards.info/ns/isbd/terms/mediatype/T1006" itemscope>
+        <meta itemprop="prefLabel" content="стереографический" />
+        <meta itemprop="prefLabel" content="stereografski" />
+        <meta itemprop="prefLabel" content="stereogrāfisks" />
+        <meta itemprop="prefLabel" content="stereographic" />
+        <meta itemprop="definition" content="Supporti per la memorizzazione di coppie di immagini fisse, da usare con dispositivi come un visore stereoscopico o stereografico per produrre l’effetto della tridimensionalità." />
+        <meta itemprop="prefLabel" content="stereografski" />
+        <link itemprop="topConceptOf" href="http://iflastandards.info/ns/isbd/terms/mediatype" />
+        <meta itemprop="definition" content="Medios utilizados para almacenar parejas de imágenes fijas, diseñados para su uso con un dispositivo como un estereoscopio o visor estereográfico para dar efecto tridimensional." />
+        <meta itemprop="prefLabel" content="stereografico" />
+        <meta itemprop="prefLabel" content="stéréoscopique" />
+        <meta itemprop="definition" content="Средства, използвани за съхраняване на двойки неподвижни изображения с устройство като стереоскоп или стереограф, за да се създаде ефект на триизмерност." />
+        <meta itemprop="definition" content="Средства, используемые для хранения парного неподвижного изображения, предназначенные для использования с помощью устройств, таких как стереоскоп или стереографический аппарат для получения эффекта трехмерности." />
+        <meta itemprop="definition" content="Media used to store pairs of still images, designed for use with a device such as a stereoscope or stereograph viewer to give the effect of three dimensions." />
+        <meta itemprop="definition" content="Support utilisé pour stocker des paires d’images fixes, et conçu pour être utilisé au moyen d’un dispositif tel qu’un stéréoscope ou un visualiseur de stéréogrammes afin de donner l’illusion des trois dimensions." />
+        <meta itemprop="prefLabel" content="estereográfico" />
+        <meta itemprop="definition" content="Medij koji se koristi za pohranjivanje parova nepokretnih slika, namenjenih za korišćenje pomoću uređaja kao što je stereoskop ili stereograf kako bi se postigao efekat trodimenzionalnosti." />
+        <link itemprop="inScheme" href="http://iflastandards.info/ns/isbd/terms/mediatype" />
+        <meta itemprop="prefLabel" content="立体" />
+        <meta itemprop="definition" content="用于储存成对静止图像的载体，设计要用立体镜或立体画观看器等设备来使用，以产生三维效果。" />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+        <meta itemprop="definition" content="Mediji/datneši, izmantojami nekustīgu pāra attēlu glabāšanai, paredzēti lietot ar stereoskopu vai stereogrāfa ierīci, lai sniegtu trīsdimensiju efektu." />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/1216" />
+        <meta itemprop="prefLabel" content="стереографски" />
+      </div>
+      <div itemprop="hasTopConcept" itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://iflastandards.info/ns/isbd/terms/mediatype/T1004" itemscope>
+        <meta itemprop="prefLabel" content="микроскопски" />
+        <meta itemprop="definition" content="Средства, използвани за съхраняване на миниатюрни обекти, предназначени за използване с устройство като микроскоп, за да се видят детайли, които са невидими за невъоръжено око." />
+        <meta itemprop="prefLabel" content="mikroskopisks" />
+        <meta itemprop="definition" content="Support utilisé pour stocker de minuscules objets, et conçu pour être utilisé au moyen d’un dispositif tel qu’un microscope afin de révéler des détails invisibles à l’œil nu." />
+        <meta itemprop="definition" content="用于储存微型物体的载体，设计要用显微镜等设备来揭示肉眼不可见的细节。" />
+        <meta itemprop="definition" content="Media used to store minute objects, designed for use with a device such as a microscope to reveal details invisible to the naked eye." />
+        <meta itemprop="definition" content="Средства, используемые для хранения мелких объектов, предназначенные для использования с помощью устройств, таких как микроскоп, чтобы можно было увидеть детали, недоступные невооруженному глазу." />
+        <meta itemprop="definition" content="Mediji/datneši, izmantojami ļoti sīku objektu glabāšanai, paredzēti lietot ar tādu ierīci kā mikroskops, lai atklātu detaļas, kas nav saskatāmas ar neapbruņotu aci." />
+        <meta itemprop="definition" content="Medio utilizado para almacenar objetos diminutos, diseñados para su uso con un dispositivo como un microscopio para revelar detalles invisibles a simple vista." />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/1214" />
+        <meta itemprop="definition" content="Medij koji se koristi za pohranjivanje sitnih objekata namenjenih za korišćenje pomoću uređaja kao što je mikroskop kako bi mogli da se vide detalji nevidljivi golim okom." />
+        <meta itemprop="prefLabel" content="显微" />
+        <meta itemprop="prefLabel" content="mikroskopski" />
+        <link itemprop="topConceptOf" href="http://iflastandards.info/ns/isbd/terms/mediatype" />
+        <meta itemprop="prefLabel" content="microscopico" />
+        <meta itemprop="prefLabel" content="microscopique" />
+        <meta itemprop="prefLabel" content="микроскопический" />
+        <link itemprop="inScheme" href="http://iflastandards.info/ns/isbd/terms/mediatype" />
+        <meta itemprop="prefLabel" content="microscopic" />
+        <meta itemprop="prefLabel" content="microscópico" />
+        <meta itemprop="prefLabel" content="mikroskopski" />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+        <meta itemprop="definition" content="Supporti per la memorizzazione di oggetti minuti, da usare con dispositivi come un microscopio per rivelare dettagli non visibili a occhio nudo." />
+      </div>
+      <div itemprop="hasTopConcept" itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://iflastandards.info/ns/isbd/terms/mediatype/T1010" itemscope>
+        <meta itemprop="prefLabel" content="unmediated" />
+        <link itemprop="inScheme" href="http://iflastandards.info/ns/isbd/terms/mediatype" />
+        <meta itemprop="prefLabel" content="без устройство" />
+        <meta itemprop="prefLabel" content="sin mediación" />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+        <meta itemprop="prefLabel" content="neposredovan" />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/3372" />
+        <meta itemprop="prefLabel" content="senza mediazione" />
+        <link itemprop="topConceptOf" href="http://iflastandards.info/ns/isbd/terms/mediatype" />
+        <meta itemprop="definition" content="Supporto per il quale non è necessario nessun dispositivo di mediazione." />
+        <meta itemprop="definition" content="Medio que no requiere dispositivo de intermediación" />
+        <meta itemprop="definition" content="Media for which no mediation device is necessary." />
+      </div>
+      <div itemprop="hasTopConcept" itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://iflastandards.info/ns/isbd/terms/mediatype/T1007" itemscope>
+        <meta itemprop="prefLabel" content="video" />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+        <meta itemprop="definition" content="Medij koji se koristi za pohranjivanje pokretnih ili nepokretnih slika, namenjenih za korišćenje pomoću uređaja za reprodukovanje, kao što je video plejer ili DVD plejer." />
+        <link itemprop="topConceptOf" href="http://iflastandards.info/ns/isbd/terms/mediatype" />
+        <meta itemprop="definition" content="Media used to store moving or still images, designed for use with a playback device such as a videocassette player or DVD player." />
+        <meta itemprop="prefLabel" content="video" />
+        <meta itemprop="prefLabel" content="vidéo" />
+        <meta itemprop="scopeNote" content="Incluye los medios utilizados para almacenar tanto imágenes codificadas digitalmente como imágenes analógicas." />
+        <meta itemprop="definition" content="Средства, използвани за съхраняване на движещи се или неподвижни изображения, предназначени за използване с възпроизвеждащо устройство като видео или DVD плеър." />
+        <meta itemprop="prefLabel" content="vídeo" />
+        <meta itemprop="scopeNote" content="Include i supporti per la memorizzazione di immagini codificate sia in forma digitale sia in forma analogica." />
+        <meta itemprop="prefLabel" content="video" />
+        <meta itemprop="definition" content="Supporti per la memorizzazione di immagini fisse o in movimento, da usare con dispositivi per la riproduzione (playback device), come un lettore di videocassette o di DVD." />
+        <meta itemprop="prefLabel" content="video" />
+        <meta itemprop="definition" content="Средства, используемые для хранения неподвижного или движущегося изображения, предназначенные для использования с помощью воспроизводящих устройств, таких как кассетный видео плеер или DVD плеер." />
+        <meta itemprop="definition" content="Mediji/datneši, izmantojami kustīgu vai nekustīgu attēlu glabāšanai, paredzēti lietot ar atskaņošanas ierīci, kā video kasešu atskaņotāju vai DVD atskaņotāju." />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/1217" />
+        <meta itemprop="definition" content="Medio utilizado para almacenar imágenes fijas o en movimiento, diseñado para su uso con un dispositivo de reproducción como un reproductor de cintas de vídeo o un reproductor de DVD." />
+        <meta itemprop="prefLabel" content="video" />
+        <meta itemprop="scopeNote" content="Includes media used to store digitally encoded as well as analogue images." />
+        <link itemprop="inScheme" href="http://iflastandards.info/ns/isbd/terms/mediatype" />
+        <meta itemprop="scopeNote" content="包括储存数字编码的和模拟的图像的载体。" />
+        <meta itemprop="scopeNote" content="Ietver medijus/datnešus, kas izmantojami digitāli kodēto, kā arī analogo attēlu glabāšanai." />
+        <meta itemprop="definition" content="Support utilisé pour stocker des images fixes ou animées, et conçu pour être utilisé au moyen d’un dispositif de lecture tel qu’un lecteur de cassette vidéo ou de DVD." />
+        <meta itemprop="scopeNote" content="Включают средства, используемые для хранения изображений как в цифровом, так и в аналоговом формате." />
+        <meta itemprop="scopeNote" content="Podrazumeva i medije koji se koriste za pohranjivanje digitalno kodiranih kao i analognih slika." />
+        <meta itemprop="prefLabel" content="видео" />
+        <meta itemprop="scopeNote" content="Ce terme recouvre des supports conçus pour stocker de l’image encodée de manière numérique aussi bien qu’analogique." />
+        <meta itemprop="prefLabel" content="视频" />
+        <meta itemprop="definition" content="用于储存运动或静止图像的载体，设计要用卡式录像带播放器或DVD播放器等设备来使用。" />
+        <meta itemprop="prefLabel" content="видео" />
+        <meta itemprop="scopeNote" content="Включва средства за съхраняване както на цифрово кодирани, така и на аналогови изображения." />
+      </div>
+      <div itemprop="hasTopConcept" itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://iflastandards.info/ns/isbd/terms/mediatype/T1005" itemscope>
+        <meta itemprop="prefLabel" content="projected" />
+        <meta itemprop="scopeNote" content="Podrazumeva medije namenjene za projektovanje i dvodimenzionalnih i trodimenzionalnih slika." />
+        <meta itemprop="scopeNote" content="包括设计用于投射二维和三维图像的载体。" />
+        <meta itemprop="prefLabel" content="proyectado" />
+        <meta itemprop="definition" content="Средства, използвани за съхраняване на движещи се или неподвижни изображения, предназначени за ползване с устройство за прожектиране като проектор за филми, диапроектор или проекционен апарат." />
+        <meta itemprop="prefLabel" content="проекционен" />
+        <meta itemprop="definition" content="Mediji/datneši, izmantojami nekustīgo vai kustīgo attēlu glabāšanai, paredzēti lietot ar projicēšanas ierīci, kā projektoru, diaprojektoru vai kodoskopu." />
+        <meta itemprop="definition" content="Medios utilizados para almacenar imágenes fijas o en movimiento, diseñado para su uso con un dispositivo de proyección como un proyector de película de cine en movimiento, proyector de diapositivas o retroproyector." />
+        <meta itemprop="prefLabel" content="proiettato" />
+        <meta itemprop="definition" content="Средства, используемые для хранения неподвижного или движущегося изображений, предназначенные для использования с помощью проекционного оборудования, такого как кинопроектор, диапроектор или проекционный аппарат." />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/1215" />
+        <meta itemprop="prefLabel" content="projektovan" />
+        <meta itemprop="scopeNote" content="Includes media designed to project both two-dimensional and three-dimensional images." />
+        <link itemprop="inScheme" href="http://iflastandards.info/ns/isbd/terms/mediatype" />
+        <meta itemprop="definition" content="用于储存运动或静止图像的载体，设计要用电影胶片投影仪、幻灯投影仪等投影设备来使用。" />
+        <meta itemprop="definition" content="Supporti per la memorizzazione di immagini fisse o in movimento, da usare con dispositivi per la proiezione, come un proiettore di film, un proiettore di diapositive, una lavagna luminosa." />
+        <meta itemprop="scopeNote" content="Include i supporti per la proiezione di immagini bidimensionali e tridimensionali." />
+        <meta itemprop="scopeNote" content="Включва средства, предназначени за прожектиране както на двуизмерни, така и на триизмерни изображения." />
+        <meta itemprop="prefLabel" content="проекционный" />
+        <meta itemprop="definition" content="Medij koji se koristi za pohranjivanje pokretnih ili nepokretnih slika, namenjenih za korišćenje pomoću uređaja za projektovanje, kao što je kinoprojektor, dijaprojektor ili grafoskop." />
+        <link itemprop="topConceptOf" href="http://iflastandards.info/ns/isbd/terms/mediatype" />
+        <meta itemprop="prefLabel" content="projicējams" />
+        <meta itemprop="scopeNote" content="Ietver medijus/datnešus, kas paredzēti gan divdimensiju, gan trīsdimensiju attēlu projicēšanai." />
+        <meta itemprop="prefLabel" content="projiciran" />
+        <meta itemprop="scopeNote" content="Включаются средства, предназначенные для проецирования как двухмерных, так и трехмерных изображений." />
+        <meta itemprop="prefLabel" content="投影" />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+        <meta itemprop="scopeNote" content="Incluye los medios diseñados tanto para imágenes bidimensionales como tridimensionales." />
+        <meta itemprop="definition" content="Media used to store moving or still images, designed for use with a projection device such as a motion picture film projector, slide projector, or overhead projector." />
+      </div>
+      <div itemprop="hasTopConcept" itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://iflastandards.info/ns/isbd/terms/mediatype/T1009" itemscope>
+        <meta itemprop="prefLabel" content="otros medios" />
+        <meta itemprop="prefLabel" content="drugi medij" />
+        <meta itemprop="definition" content="Media other than audio, electronic, microform, microscopic, projected, stereographic, or video, or multiple media." />
+        <meta itemprop="prefLabel" content="altri supporti" />
+        <meta itemprop="prefLabel" content="други средства" />
+        <meta itemprop="definition" content="Supporto diverso da  audio, elettronico, microforma, microscopico, proiettato, stereografico, video  o supporti multipli." />
+        <meta itemprop="prefLabel" content="其他载体" />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/1219" />
+        <link itemprop="inScheme" href="http://iflastandards.info/ns/isbd/terms/mediatype" />
+        <link itemprop="topConceptOf" href="http://iflastandards.info/ns/isbd/terms/mediatype" />
+        <meta itemprop="prefLabel" content="type de médiation non défini" />
+        <meta itemprop="definition" content="Medio diferente al audio, electrónico, microforma, microscópico, proyectado, estereográfico, vídeo o múltiples medios." />
+        <meta itemprop="prefLabel" content="other media" />
+        <meta itemprop="prefLabel" content="drugi mediji" />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+        <meta itemprop="prefLabel" content="другое средство" />
+        <meta itemprop="definition" content="Terme utilisé pour des ressources dont le type de médiation est autre que : audio, électronique, microforme, microscopique, projeté(e), stéréographique, vidéo ou multisupport. " />
+      </div>
+      <div itemprop="hasTopConcept" itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://iflastandards.info/ns/isbd/terms/mediatype/T1003" itemscope>
+        <meta itemprop="definition" content="Mediji/datneši, izmantojami pamazinātu attēlu glabāšanai, kas nav labi salasāmi un paredzēti lietot ar ierīci, kā mikrofilmu vai mikrofišu lasītāju." />
+        <meta itemprop="definition" content="Media used to store reduced-size images, not readable to the human eye, and designed for use with a device such as a microfilm or microfiche reader." />
+        <meta itemprop="prefLabel" content="микроформа" />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+        <meta itemprop="scopeNote" content="Podrazumeva prozirne i neprozirne mikro medije." />
+        <meta itemprop="prefLabel" content="mikroforma" />
+        <meta itemprop="definition" content="Support utilisé pour stocker des images en réduction non lisibles à l’œil nu, et conçu pour être utilisé au moyen d’un dispositif tel qu’un lecteur de microfilm ou de microfiche. " />
+        <meta itemprop="scopeNote" content="Включва както прозрачни, така и непрозрачни микрографски средства." />
+        <meta itemprop="prefLabel" content="microform" />
+        <meta itemprop="scopeNote" content="Ietver gan caurspīdīgus un gan gaismas necaurlaidīgus mikrografikas medijus/datnešus." />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/1213" />
+        <meta itemprop="definition" content="用于储存肉眼不可阅读的缩小尺寸图像的载体，设计要用缩微胶卷阅读器或者缩微平片阅读器来使用。" />
+        <meta itemprop="definition" content="Supporti per la memorizzazione di immagini di dimensioni ridotte, non leggibili dall’occhio umano, da usare con dispositivi come un lettore di microfilm o di microfiche." />
+        <meta itemprop="scopeNote" content="Incluye tanto los medios micrográficos transparentes como los opacos." />
+        <meta itemprop="prefLabel" content="microforma" />
+        <meta itemprop="scopeNote" content="Include i supporti micrografici per trasparenti e per opachi." />
+        <meta itemprop="prefLabel" content="缩微" />
+        <meta itemprop="scopeNote" content="Включает как прозрачные, так и непрозрачные микрографические средства." />
+        <meta itemprop="scopeNote" content="Includes both transparent and opaque micrographic media." />
+        <meta itemprop="prefLabel" content="микроформа" />
+        <meta itemprop="prefLabel" content="microforma" />
+        <meta itemprop="definition" content="Средства, използвани за съхраняване на намалени изображения, които не могат да се четат с невъоръжено око и са предназначени за използване с помощта на устройство като апарат за четене на микрофилм или микрофиш." />
+        <meta itemprop="prefLabel" content="mikrooblik" />
+        <meta itemprop="scopeNote" content="Ce terme recouvre des supports micrographiques aussi bien transparents qu’opaques." />
+        <meta itemprop="prefLabel" content="mikrooblik" />
+        <meta itemprop="definition" content="Medij koji se koristi za pohranjivanje umanjenih slika koje ne mogu da se čitaju golim okom i namenjene za korišćenje pomoću uređaja kao što su čitač mikrofilma i čitač mikrofiša." />
+        <meta itemprop="prefLabel" content="microforme" />
+        <link itemprop="topConceptOf" href="http://iflastandards.info/ns/isbd/terms/mediatype" />
+        <meta itemprop="definition" content="Средства, используемые для хранения уменьшенных изображений, не читаемых человеческим глазом и предназначенные для использования с помощью устройств, таких как аппарат для чтения микрофильмов или микрофиш." />
+        <link itemprop="inScheme" href="http://iflastandards.info/ns/isbd/terms/mediatype" />
+        <meta itemprop="definition" content="Medio utilizado para almacenar imágenes de tamaño reducido, no legible para el ojo humano y diseñado para su uso con un dispositivo como un lector de microfilm o microficha." />
+        <meta itemprop="scopeNote" content="包括透明的和不透明的缩微载体。" />
+      </div>
+      <link itemprop="hasTopConcept" href="http://iflastandards.info/ns/isbd/terms/mediatype/T1001" />
+      <div itemprop="hasTopConcept" itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://iflastandards.info/ns/isbd/terms/mediatype/T1008" itemscope>
+        <meta itemprop="prefLabel" content="разные средства" />
+        <meta itemprop="prefLabel" content="多载体" />
+        <meta itemprop="prefLabel" content="supporti multipli" />
+        <meta itemprop="prefLabel" content="viševrsni oblik" />
+        <meta itemprop="prefLabel" content="múltiples medios" />
+        <meta itemprop="definition" content="Supporto per il quale tre o più tipi di supporto sono applicabili." />
+        <meta itemprop="prefLabel" content="различни средства" />
+        <link itemprop="inScheme" href="http://iflastandards.info/ns/isbd/terms/mediatype" />
+        <meta itemprop="definition" content="Medio en el que son aplicables tres o más tipos de medios." />
+        <link itemprop="topConceptOf" href="http://iflastandards.info/ns/isbd/terms/mediatype" />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/1218" />
+        <meta itemprop="prefLabel" content="multiple media" />
+        <meta itemprop="definition" content="Terme utilisé pour des ressources composées de différents supports, auxquelles s’appliquent au moins trois types de médiation." />
+        <meta itemprop="definition" content="对于由混合载体组成、三种或更多载体类型适用的资源。" />
+        <meta itemprop="definition" content="Media where three or more media types are applicable." />
+        <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+        <meta itemprop="prefLabel" content="viševrsni mediji" />
+        <meta itemprop="prefLabel" content="multisupport" />
+      </div>
+      <meta itemprop="http://purl.org/dc/elements/1.1/title" content="ISBD Media Type" />
+    </div>
+    <meta itemprop="definition" content="Medios utilizados para almacenar sonido grabado, diseñado para su uso con un dispositivo de reproducción como un tocadiscos, reproductor de audiocasete, reproductor de CD, reproductor de MP3 o iPod." />
+    <meta itemprop="prefLabel" content="audio" />
+    <div itemprop="http://metadataregistry.org/uri/profile/regap/status" itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://metadataregistry.org/uri/RegStatus/1001" itemscope>
+      <meta itemprop="prefLabel" content="Published" />
+    </div>
+    <meta itemprop="definition" content="Medij koji se koristi za pohranjivanje snimljenog zvuka, namenjenog za korišćenje pomoću uređaja za reprodukciju, kao što je gramofon, kasetofon, CD plejer, MP3 plejer ili iPod. " />
+    <meta itemprop="scopeNote" content="Includes media used to store digitally encoded as well as analogue sound." />
+    <meta itemprop="definition" content="Supporti per la memorizzazione di suoni registrati, che si usano con dispositivi per la riproduzione (playback device), come un giradischi, un lettore per audiocassette, un lettore CD, un lettore MP3, o un iPod." />
+    <link itemprop="inScheme" href="http://iflastandards.info/ns/isbd/terms/mediatype" />
+    <meta itemprop="definition" content="Support utilisé pour stocker du son enregistré et conçu pour être utilisé au moyen d’un dispositif de lecture tel que platine, lecteur de cassette audio, de CD, MP3 ou iPod." />
+    <meta itemprop="scopeNote" content="Включва средства за съхраняване както на цифрово кодиран, така и на аналогов звук." />
+    <meta itemprop="scopeNote" content="既包括储存数字编码声音的载体，也包括储存模拟声音的载体。" />
+    <meta itemprop="prefLabel" content="audio" />
+    <meta itemprop="scopeNote" content="Ce terme recouvre des supports utilisés pour stocker du son encodé de manière numérique aussi bien qu’analogique." />
+    <meta itemprop="definition" content="Средства, използвани за съхраняване на звукозапис, предназначени за ползване с възпроизвеждащи устройства като грамофон, касетофон, CD плеър, MP3 плеър или iPod." />
+    <meta itemprop="definition" content="Mediji/datneši, izmantojami ierakstītās mūzikas glabāšanai, paredzēti lietot ar atskaņošanas ierīci, kā piem., atskaņotāju, kasešu magnetofonu, CD atskaņotāju, MP3 atskaņotāju vai iPod." />
+    <meta itemprop="definition" content="Media used to store recorded sound, designed for use with a playback device such as a turntable, audiocassette player, CD player, MP3 player, or iPod." />
+  </div>
+</div>

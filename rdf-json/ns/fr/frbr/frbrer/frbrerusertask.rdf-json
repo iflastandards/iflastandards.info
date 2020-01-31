@@ -1,153 +1,9 @@
 {
-  "http://iflastandards.info/ns/fr/frbr/frbrer/frbrerusertask#T1004": {
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "lang": "en", 
-        "type": "literal", 
-        "value": "obtain"
-      }
-    ], 
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
-      {
-        "type": "uri", 
-        "value": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ], 
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "lang": "en", 
-        "type": "literal", 
-        "value": "To acquire an entity through purchase, loan, etc., or to access an entity electronically through an online connection to a remote computer."
-      }
-    ], 
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "lang": "en", 
-        "type": "literal", 
-        "value": "Includes only entities of interest to users of bibliographic records."
-      }
-    ], 
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/fr/frbr/frbrer/frbrerusertask"
-      }
-    ], 
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
-      }
-    ], 
-    "http://metadataregistry.org/uri/profile/regap/identifier": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/concepts/1235"
-      }
-    ], 
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/fr/frbr/frbrer/frbrerusertask"
-      }
-    ]
-  }, 
-  "http://iflastandards.info/ns/fr/frbr/frbrer/frbrerusertask#T1001": {
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/fr/frbr/frbrer/frbrerusertask"
-      }
-    ], 
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
-      {
-        "type": "uri", 
-        "value": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ], 
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "lang": "en", 
-        "type": "literal", 
-        "value": "To locate either a single entity or a set of entities in a file or database as the result of a search using an attribute or relationship of the entity."
-      }
-    ], 
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "lang": "en", 
-        "type": "literal", 
-        "value": "Includes only entities of interest to users of bibliographic records."
-      }
-    ], 
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/fr/frbr/frbrer/frbrerusertask"
-      }
-    ], 
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
-      }
-    ], 
-    "http://metadataregistry.org/uri/profile/regap/identifier": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/concepts/1232"
-      }
-    ], 
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "lang": "en", 
-        "type": "literal", 
-        "value": "find"
-      }
-    ]
-  }, 
   "http://iflastandards.info/ns/fr/frbr/frbrer/frbrerusertask#T1003": {
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/fr/frbr/frbrer/frbrerusertask"
-      }
-    ], 
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
       {
         "type": "uri", 
         "value": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ], 
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "lang": "en", 
-        "type": "literal", 
-        "value": "To choose an entity that meets the user’s requirements with respect to content, physical format, etc., or to reject an entity as being inappropriate to the user’s needs"
-      }
-    ], 
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "lang": "en", 
-        "type": "literal", 
-        "value": "Includes only entities of interest to users of bibliographic records."
-      }
-    ], 
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/fr/frbr/frbrer/frbrerusertask"
-      }
-    ], 
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
-      }
-    ], 
-    "http://metadataregistry.org/uri/profile/regap/identifier": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/concepts/1234"
       }
     ], 
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
@@ -156,34 +12,17 @@
         "type": "literal", 
         "value": "select"
       }
-    ]
-  }, 
-  "http://iflastandards.info/ns/fr/frbr/frbrer/frbrerusertask#T1002": {
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "lang": "en", 
-        "type": "literal", 
-        "value": "identify"
-      }
     ], 
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
       {
         "type": "uri", 
-        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        "value": "http://iflastandards.info/ns/fr/frbr/frbrer/frbrerusertask"
       }
     ], 
-    "http://www.w3.org/2004/02/skos/core#definition": [
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
       {
-        "lang": "en", 
-        "type": "literal", 
-        "value": "To confirm that the entity described corresponds to the entity sought, or to distinguish between two or more entities with similar characteristics."
-      }
-    ], 
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "lang": "en", 
-        "type": "literal", 
-        "value": "Includes only entities of interest to users of bibliographic records."
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/1234"
       }
     ], 
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -198,10 +37,58 @@
         "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Includes only entities of interest to users of bibliographic records."
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "To choose an entity that meets the user’s requirements with respect to content, physical format, etc., or to reject an entity as being inappropriate to the user’s needs"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/fr/frbr/frbrer/frbrerusertask#T1002": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "identify"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Includes only entities of interest to users of bibliographic records."
+      }
+    ], 
     "http://metadataregistry.org/uri/profile/regap/identifier": [
       {
         "type": "uri", 
         "value": "http://metadataregistry.org/concepts/1233"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/fr/frbr/frbrer/frbrerusertask"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
@@ -209,27 +96,137 @@
         "type": "uri", 
         "value": "http://iflastandards.info/ns/fr/frbr/frbrer/frbrerusertask"
       }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "To confirm that the entity described corresponds to the entity sought, or to distinguish between two or more entities with similar characteristics."
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/fr/frbr/frbrer/frbrerusertask#T1001": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "find"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Includes only entities of interest to users of bibliographic records."
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/1232"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/fr/frbr/frbrer/frbrerusertask"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/fr/frbr/frbrer/frbrerusertask"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "To locate either a single entity or a set of entities in a file or database as the result of a search using an attribute or relationship of the entity."
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/fr/frbr/frbrer/frbrerusertask#T1004": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "obtain"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/fr/frbr/frbrer/frbrerusertask"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/1235"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/fr/frbr/frbrer/frbrerusertask"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Includes only entities of interest to users of bibliographic records."
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "To acquire an entity through purchase, loan, etc., or to access an entity electronically through an online connection to a remote computer."
+      }
+    ]
+  }, 
+  "http://metadataregistry.org/uri/RegStatus/1001": {
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Published"
+      }
+    ], 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
     ]
   }, 
   "http://iflastandards.info/ns/fr/frbr/frbrer/frbrerusertask": {
-    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/fr/frbr/frbrer/frbrerusertask#T1001"
-      }, 
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/fr/frbr/frbrer/frbrerusertask#T1004"
-      }, 
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/fr/frbr/frbrer/frbrerusertask#T1002"
-      }, 
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/fr/frbr/frbrer/frbrerusertask#T1003"
-      }
-    ], 
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
       {
         "type": "uri", 
@@ -241,20 +238,23 @@
         "type": "literal", 
         "value": "FRBRer User Tasks"
       }
-    ]
-  }, 
-  "http://metadataregistry.org/uri/RegStatus/1001": {
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+    ], 
+    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
       {
         "type": "uri", 
-        "value": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ], 
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+        "value": "http://iflastandards.info/ns/fr/frbr/frbrer/frbrerusertask#T1003"
+      }, 
       {
-        "lang": "en", 
-        "type": "literal", 
-        "value": "Published"
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/fr/frbr/frbrer/frbrerusertask#T1004"
+      }, 
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/fr/frbr/frbrer/frbrerusertask#T1001"
+      }, 
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/fr/frbr/frbrer/frbrerusertask#T1002"
       }
     ]
   }

@@ -1,28 +1,1491 @@
-
-<html><head>
-<meta http-equiv="content-type" content="text/html;charset=utf-8">
-<title>503 Over Quota</title>
-<style><!--
-body {font-family: arial,sans-serif}
-div.nav {margin-top: 1ex}
-div.nav A {font-size: 10pt; font-family: arial,sans-serif}
-span.nav {font-size: 10pt; font-family: arial,sans-serif; font-weight: bold}
-div.nav A,span.big {font-size: 12pt; color: #0000cc}
-div.nav A {font-size: 10pt; color: black}
-A.l:link {color: #6f6f6f}
-A.u:link {color: green}
-//--></style>
-
-</head>
-<body text=#000000 bgcolor=#ffffff>
-<table border=0 cellpadding=2 cellspacing=0 width=100%>
-<tr><td bgcolor=#3366cc><font face=arial,sans-serif color=#ffffff><b>Error</b></td></tr>
-<tr><td>&nbsp;</td></tr></table>
-<blockquote>
-<H1>Over Quota</H1>
-This application is temporarily over its serving quota.  Please try again later.
-
-<p>
-</blockquote>
-<table width=100% cellpadding=0 cellspacing=0><tr><td bgcolor=#3366cc><img alt="" width=1 height=4></td></tr></table>
-</body></html>
+<div xmlns="http://www.w3.org/1999/xhtml"
+  prefix="
+    owl: http://www.w3.org/2002/07/owl#
+    rdfs: http://www.w3.org/2000/01/rdf-schema#
+    dc: http://purl.org/dc/elements/1.1/
+    rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+    skos: http://www.w3.org/2004/02/skos/core#
+    reg: http://metadataregistry.org/uri/profile/regap/"
+  >
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1173">
+    <div rel="reg:status">
+      <div typeof="skos:Concept" about="http://metadataregistry.org/uri/RegStatus/1001">
+        <div property="skos:prefLabel" xml:lang="en" content="Published"></div>
+      </div>
+    </div>
+    <div property="reg:name" xml:lang="en" content="hasTitleStatementOfSeriesOrMultipartMonographicResource"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource that is a series or multipart monographic resource to a statement of its title."></div>
+    <div rel="rdfs:isDefinedBy">
+      <div typeof="rdfs:Resource" about="http://iflastandards.info/ns/isbd/unc/elements/">
+        <div property="dc:title" xml:lang="en" content="ISBD elements (unconstrained)"></div>
+      </div>
+    </div>
+    <div property="rdfs:label" xml:lang="en" content="has title statement of series or multipart monographic resource"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasTitleStatementOfSeriesOrMultipartMonographicResource.en"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1030">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="reg:name" xml:lang="en" content="hasInternationalStandardNumberOfSeriesOrMultipartMonographicResource"></div>
+    <div property="rdfs:label" xml:lang="en" content="has international standard number of series or multipart monographic resource"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasInternationalStandardNumberOfSeriesOrMultipartMonographicResource.en"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource that is a series or multipart monographic resource to an international standard number relating to it."></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1008">
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to a word or phrase, or a group of characters, indicating that the resource belongs to an edition."></div>
+    <div property="rdfs:label" xml:lang="en" content="has edition statement"></div>
+    <div property="skos:scopeNote" xml:lang="en" content="An edition statement normally includes either the word "edition" (or its equivalent in another language) or a related term together with a number ("2nd edition", etc.), or a term indicating difference from other editions ("new edition", "revised edition","“standard edition", "large print edition", "fourth state", "May 1970 script", etc.). A statement that includes the word "edition" or its equivalent is not considered an edition statement when it represents printing information, as is typical in the publication patterns of certain countries. An edition statement can also include other phrases that may be linguistically associated, linking the edition to other elements of the description (e.g. original title in a form such as "abridgement of ...")."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasEditionStatement.en"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="reg:name" xml:lang="en" content="hasEditionStatement"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1121">
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasParallelNameOfPublisherProducerDistributor.en"></div>
+    <div property="reg:name" xml:lang="en" content="hasParallelNameOfPublisherProducerDistributor"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to the form of name of the publisher, producer and/or distributor in the language and script of the title proper when the name appears on the prescribed source of information for the resource in more than one language or script."></div>
+    <div property="skos:scopeNote" xml:lang="en" content="If the criterion in the definition does not apply, the form of name made prominent by typography or, if there is no typographical distinction, the form of name that appears first is used."></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="rdfs:label" xml:lang="en" content="has parallel name of publisher, producer, distributor"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1031">
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasNumberingWithinSeriesOrMultipartMonographicResource.en"></div>
+    <div property="reg:name" xml:lang="en" content="hasNumberingWithinSeriesOrMultipartMonographicResource"></div>
+    <div property="rdfs:label" xml:lang="en" content="has numbering within series or multipart monographic resource"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource that is a series or multipart monographic resource to its numbering."></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1107">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasNoteArea.en"></div>
+    <div property="reg:name" xml:lang="en" content="hasNoteArea"></div>
+    <div property="skos:scopeNote" xml:lang="en" content="Used when considered to be important to users of bibliographic records."></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to a statement including notes on any descriptive information that has not been given in other areas of the description."></div>
+    <div property="rdfs:label" xml:lang="en" content="has note area"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1170">
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to a statement of its title."></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="rdfs:label" xml:lang="en" content="has title statement"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasTitleStatement.en"></div>
+    <div property="reg:name" xml:lang="en" content="hasTitleStatement"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1116">
+    <div property="reg:name" xml:lang="en" content="hasParallelNumberingSystem"></div>
+    <div property="rdfs:label" xml:lang="en" content="has parallel numbering system"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="skos:scopeNote" xml:lang="en" content="If the criterion in the definition does not apply, the first designation is used. The parallel designations may also be given."></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource that is a serial to the designation appearing in the language and script of the title proper when there are designations in more than one language or script on the issue or part."></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasParallelNumberingSystem.en"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1019">
+    <div property="reg:name" xml:lang="en" content="hasPlaceOfPrintingOrManufacture"></div>
+    <div property="rdfs:label" xml:lang="en" content="has place of printing or manufacture"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to the name of the place associated on the resource with its printing or manufacture."></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasPlaceOfPrintingOrManufacture.en"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1056">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="rdfs:label" xml:lang="en" content="has composition of material"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasCompositionOfMaterial.en"></div>
+    <div property="reg:name" xml:lang="en" content="hasCompositionOfMaterial"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to a word or phrase indicating the material of which it is composed."></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1047">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="reg:name" xml:lang="en" content="hasStatementOfScale"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasStatementOfScale.en"></div>
+    <div property="rdfs:label" xml:lang="en" content="has statement of scale"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource that is cartographic to the ratio of distances on the resource to the actual distances they represent, given as a representative fraction, expressed as a ratio (1: )."></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1055">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="reg:name" xml:lang="en" content="hasPlayingTime"></div>
+    <div property="rdfs:label" xml:lang="en" content="has playing time"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasPlayingTime.en"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource that has an inherent durational aspect to the time it takes to play the whole resource."></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1009">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasParallelEditionStatement.en"></div>
+    <div property="reg:name" xml:lang="en" content="hasParallelEditionStatement"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="rdfs:label" xml:lang="en" content="has parallel edition statement"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to an equivalent of an edition statement (a word or phrase, or a group of characters, indicating that the resource belongs to an edition) in another language or script."></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1148">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasDependentTitleOfSeriesOrMultipartMonographicResource.en"></div>
+    <div property="reg:name" xml:lang="en" content="hasDependentTitleOfSeriesOrMultipartMonographicResource"></div>
+    <div property="rdfs:label" xml:lang="en" content="has dependent title of series or multipart monographic resource"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource that is a series or multipart monographic resource to a title that by itself is insufficient to identify the resource and that requires the addition of the common title, or the title of the main resource or the title of the main series."></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1141">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="reg:name" xml:lang="en" content="hasParallelStatementOfResponsibilityRelatingToTitle"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasParallelStatementOfResponsibilityRelatingToTitle.en"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to a statement of responsibility  presented on the preferred source of information for the resource as an equivalent in another language or script."></div>
+    <div property="rdfs:label" xml:lang="en" content="has parallel statement of responsibility relating to title"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1033">
+    <div property="skos:definition" xml:lang="en" content="Relates a resource that is a continuing resource to the unique name assigned to it by the ISSN Network."></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="skos:scopeNote" xml:lang="en" content="The key title is given even when it is identical to the title proper of the continuing resource. It is not given if the ISSN to which it applies is not given."></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasKeyTitle.en"></div>
+    <div property="reg:name" xml:lang="en" content="hasKeyTitle"></div>
+    <div property="rdfs:label" xml:lang="en" content="has key title"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1178">
+    <div property="rdfs:label" xml:lang="en" content="has parallel common title of series or multipart monographic resource"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasParallelCommonTitleOfSeriesOrMultipartMonographicResource.en"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource that is a series or multipart monographic resource to that part of the title that is carried by a group of related resources in addition to their different section titles, presented on the preferred source of information for the resource as an equivalent in another language or script."></div>
+    <div property="reg:name" xml:lang="en" content="hasParallelCommonTitleOfSeriesOrMultipartMonographicResource"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1186">
+    <div property="skos:definition" xml:lang="en" content="Relates a resource that is a series or multipart monographic resource to the title proper consisting of a common title and a dependent title, with or without a dependent title designation."></div>
+    <div property="reg:name" xml:lang="en" content="hasTitleProperCompoundOfSeries"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasTitleProperCompoundOfSeries.en"></div>
+    <div property="rdfs:label" xml:lang="en" content="has title proper (compound) of series"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1126">
+    <div property="reg:name" xml:lang="en" content="hasProcessOrMethodOfReproductionOfStillImage"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasProcessOrMethodOfReproductionOfStillImage.en"></div>
+    <div property="rdfs:label" xml:lang="en" content="has process or method of reproduction of still image"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource that is a still image to details on the process or method of reproduction."></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1003">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="skos:scopeNote" xml:lang="en" content="Categories generally reflect the format of the storage medium and housing of a carrier in combination with the type of intermediation device required to render, view, run, etc., the content of a resource."></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to a category that records the type or types of carrier used to convey the content."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasMediaType.en"></div>
+    <div property="reg:name" xml:lang="en" content="hasMediaType"></div>
+    <div property="rdfs:label" xml:lang="en" content="has media type"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1185">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="reg:name" xml:lang="en" content="hasContentFormAndMediaTypeStatement"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasContentFormAndMediaTypeStatement.en"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to a statement comprising three elements, each taken from closed lists: the content form, one or more terms reflecting the fundamental form or forms in which the content of a resource is expressed; the content qualification, specifying the type, sensory nature, dimensionality, and/or presence or absence of motion for the resource being described; and the media type, indicating the type or types of carrier used to convey the content of the resource."></div>
+    <div property="rdfs:label" xml:lang="en" content="has content form and media type statement"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1016">
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to the name of the place associated on the prescribed source of information with the name of the publisher, producer or distributor."></div>
+    <div property="skos:scopeNote" xml:lang="en" content="Usually given on the preferred source of information as the name of a city. If no publisher, producer or distributor is named, it is the place from which the resource was issued or distributed."></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasPlaceOfPublicationProductionDistribution.en"></div>
+    <div property="reg:name" xml:lang="en" content="hasPlaceOfPublicationProductionDistribution"></div>
+    <div property="rdfs:label" xml:lang="en" content="has place of publication, production, distribution"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1022">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="rdfs:label" xml:lang="en" content="has specific material designation and extent"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasSpecificMaterialDesignationAndExtent.en"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to a statement including the specific material designation, the extent, the pagination statement (if a printed resource), and the playing time (if the resource has an inherent durational aspect)."></div>
+    <div property="reg:name" xml:lang="en" content="hasSpecificMaterialDesignationAndExtent"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1174">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource that is a series or multipart monographic resource to a statement of its parallel title."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasParallelTitleStatementOfSeriesOrMultipartMonographicResource.en"></div>
+    <div property="rdfs:label" xml:lang="en" content="has parallel title statement of series or multipart monographic resource"></div>
+    <div property="reg:name" xml:lang="en" content="hasParallelTitleStatementOfSeriesOrMultipartMonographicResource"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1144">
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to the name of a larger place such as a country, state, etc. and, if it is considered necessary for identification, the full address of the publisher, producer or distributor."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasAdditionToPlaceOfPublication.en"></div>
+    <div property="rdfs:label" xml:lang="en" content="has addition to place of publication"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="reg:name" xml:lang="en" content="hasAdditionToPlaceOfPublication"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1013">
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasMathematicalDataArea.en"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="reg:name" xml:lang="en" content="hasMathematicalDataArea"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="rdfs:label" xml:lang="en" content="has mathematical data area"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource that is cartographic to a statement including the statement of scale, statement of projection, and the statement of coordinates and equinox."></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1129">
+    <div property="skos:definition" xml:lang="en" content="Relates a resource that is an analogue sound disc to its groove direction."></div>
+    <div property="rdfs:label" xml:lang="en" content="has groove direction"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasGrooveDirection.en"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="reg:name" xml:lang="en" content="hasGrooveDirection"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1007">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="reg:name" xml:lang="en" content="hasStatementOfResponsibilityRelatingToTitle"></div>
+    <div property="rdfs:label" xml:lang="en" content="has statement of responsibility relating to title"></div>
+    <div property="skos:scopeNote" xml:lang="en" content="A statement of responsibility is not constructed when there is no such statement on the resource. A statement of responsibility can relate to such entities as: writers, composers, performers, graphic artists, choreographers, arrangers, cartographers, programmers, principal investigators, animators, etc., whose work is embodied in the resource, whether directly (e.g. author of text, editor, compiler, translator, illustrator, engraver, cartographer, composer, arranger, choreographer), or indirectly (e.g. author of the novel on which a film script is based, author of the work on which the software is based, adapters of an already existing work), whether in the same medium as the original or in another; collectors of various data, persons responsible for the direction of a performed work; organizations, or individuals or corporate bodies sponsoring the work of any of the above (with intellectual and not merely financial sponsorship), producers of a popular music recording;.production companies and individuals such as producers, directors, or others having some degree of overall responsibility for a work; individuals who have specific responsibilities when in the context of a particular film, or particular type of film, they have a major creative role (e.g. cinematographers, writers of screenplays or animators of animated films); developers and designers, whose work involves the creation of the content of a resource or its realisation (e.g. game designer); entities having specific responsibilities in the context of a particular resource or particular type of resource (e.g. project directors of survey data, video director)."></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasStatementOfResponsibilityRelatingToTitle.en"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to one or more names, phrases, or groups of characters relating to the identification and/or function of any persons or corporate bodies responsible for or contributing to the creation or realisation of the intellectual or artistic content of a work contained in the resource."></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1161">
+    <div property="rdfs:label" xml:lang="en" content="has material or type of resource specific area"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to a statement including data that are unique to a particular class of material or type of resource."></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="reg:name" xml:lang="en" content="hasMaterialOrTypeOfResourceSpecificArea"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasMaterialOrTypeOfResourceSpecificArea.en"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1157">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="rdfs:label" xml:lang="en" content="has chronological designation"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource that is a serial to its chronological designation."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasChronologicalDesignation.en"></div>
+    <div property="skos:scopeNote" xml:lang="en" content="Words in the designation may be abbreviated."></div>
+    <div property="reg:name" xml:lang="en" content="hasChronologicalDesignation"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1130">
+    <div property="skos:definition" xml:lang="en" content="Relates a resource that is an analogue sound disc to its groove size."></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasGrooveSize.en"></div>
+    <div property="rdfs:label" xml:lang="en" content="has groove size"></div>
+    <div property="reg:name" xml:lang="en" content="hasGrooveSize"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1120">
+    <div property="reg:name" xml:lang="en" content="hasSubsequentNumberingSystem"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasSubsequentNumberingSystem.en"></div>
+    <div property="skos:scopeNote" xml:lang="en" content="Normally, the serial carries a designation, such as "new series", "second series", etc., to indicate that a new sequence of numbering, not a new serial, is intended. The designation of the new sequence, if any, is included. The numbering system can include a numeral, a letter, any other character, or the combination of these, with or without an accompanying word ("volume", "number", etc.), and, or, a chronological designation."></div>
+    <div property="rdfs:label" xml:lang="en" content="has subsequent numbering system"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource that is a serial to a new sequence of numbering (the identification of each of the successive issues or parts)."></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1166">
+    <div property="reg:name" xml:lang="en" content="hasMusicFormatStatementArea"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasMusicFormatStatementArea.en"></div>
+    <div property="rdfs:label" xml:lang="en" content="has music format statement area"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource that is notated music to a statement including the music format statement and parallel music format statements."></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1145">
+    <div property="rdfs:label" xml:lang="en" content="has parallel place of publication, production, distribution"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="skos:scopeNote" xml:lang="en" content="If the criterion in the definition does not apply, the form of name made prominent by typography or, if there is no typographical distinction, the form of name that appears first is used."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasParallelPaceOfPublicationProductionDistribution.en"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to the name of the place of publication, production and/or distribution in the language and script of the title proper when the name appears on the prescribed source of information for the resource in more than one language or script."></div>
+    <div property="reg:name" xml:lang="en" content="hasParallelPaceOfPublicationProductionDistribution"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1169">
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasNameOfPublisherProducerDistributorStatement.en"></div>
+    <div property="reg:name" xml:lang="en" content="hasNameOfPublisherProducerDistributorStatement"></div>
+    <div property="rdfs:label" xml:lang="en" content="has name of publisher, producer, distributor statement"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to a statement including the name of publisher, producer, distributor, and the parallel statement of publisher, producer, distributor."></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1131">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="reg:name" xml:lang="en" content="hasNumberOfTapeTracks"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to the number of its tape tracks."></div>
+    <div property="rdfs:label" xml:lang="en" content="has number of tape tracks"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasNumberOfTapeTracks.en"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1171">
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasCompoundTitleOfTitlePrope.en"></div>
+    <div property="reg:name" xml:lang="en" content="hasCompoundTitleOfTitlePrope"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="rdfs:label" xml:lang="en" content="has compound title of title proper"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to the title proper consisting of a common title and a dependent title, with or without a dependent title designation."></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1017">
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasNameOfPublisherProducerDistributor.en"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="reg:name" xml:lang="en" content="hasNameOfPublisherProducerDistributor"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to the name of the person or corporate body appearing on the resource that effects respectively the publication, production and/or distribution or release activities for the resource."></div>
+    <div property="rdfs:label" xml:lang="en" content="has name of publisher, producer, distributor"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1059">
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasStatementOfResponsibilityRelatingToAnAdditionalEditionStatement.en"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="rdfs:label" xml:lang="en" content="has statement of responsibility relating to an additional edition statement"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to one or more names, phrases, or groups of characters relating to the identification and/or function of any persons or corporate bodies responsible for or contributing to the creation or realisation of the intellectual or artistic content of an additional edition statement of a work contained in the resource."></div>
+    <div property="reg:name" xml:lang="en" content="hasStatementOfResponsibilityRelatingToAnAdditionalEditionStatement"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1122">
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasBibliographicFormatOfOlderMonographicResource.en"></div>
+    <div property="skos:scopeNote" xml:lang="en" content="e.g. 1 °, 2 °, 4 °, 8 °, 12 °, etc. Includes the height of the outer case, measured parallel to the spine, or of the resource when it is not bound, if it can be established that the resource is in a standardized publisher's binding or in publisher's wrappers. Includes the assumed format followed by a question mark when the format cannot be determined. Excludes dimensions if it cannot be established that the resource is in a standardized publisher's binding or in publisher's wrappers."></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource that is an older monographic resource to a standard designation as chosen by the cataloguing agency."></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="reg:name" xml:lang="en" content="hasBibliographicFormatOfOlderMonographicResource"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="rdfs:label" xml:lang="en" content="has bibliographic format of older monographic resource"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1139">
+    <div property="reg:name" xml:lang="en" content="hasDependentTitleDesignationOfTitleProper"></div>
+    <div property="rdfs:label" xml:lang="en" content="has dependent title designation of title proper"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasDependentTitleDesignationOfTitleProper.en"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to numbering that alone or in conjunction with a dependent title serves to distinguish it from one or more related resources having a common title."></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1023">
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasOtherPhysicalDetails.en"></div>
+    <div property="reg:name" xml:lang="en" content="hasOtherPhysicalDetails"></div>
+    <div property="skos:scopeNote" xml:lang="en" content="Includes method of production, colour, material from which the resource is made, etc. Any characteristic implicit in the specific material designation is omitted."></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="rdfs:label" xml:lang="en" content="has other physical details"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to a statement including the statement relating to the material of which the resource is composed, the statement relating to the presence of illustrations, the particular type of illustration, the number of illustrations, the presence of colour, the reduction ration (if a microform), the presence or absence of sound (if a resource that may have integral sound as a feature), and other technical specifications."></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1060">
+    <div property="reg:name" xml:lang="en" content="hasPresenceOfColour"></div>
+    <div property="rdfs:label" xml:lang="en" content="has presence of colour"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasPresenceOfColour.en"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource that has coloured illustrations, or is visual, to a statement indicating the presence of coloured illustrations or colour characteristics, using the abbreviations "col." or "b&w" (or their equivalents in another language)."></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1125">
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to a statement of its identifier."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasResourceIdentifierStatement.en"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="rdfs:label" xml:lang="en" content="has resource identifier statement"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="reg:name" xml:lang="en" content="hasResourceIdentifierStatement"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1020">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasNameOfPrinterOrManufacturer.en"></div>
+    <div property="rdfs:label" xml:lang="en" content="has name of printer or manufacturer"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to the name of the person or corporate body appearing on the resource that effects the printing or manufacturing of the resource."></div>
+    <div property="reg:name" xml:lang="en" content="hasNameOfPrinterOrManufacturer"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1152">
+    <div property="reg:name" xml:lang="en" content="hasParallelOtherTitleInformationOfSeriesOrMultipartMonographicResource"></div>
+    <div property="rdfs:label" xml:lang="en" content="has parallel other title information of series or multipart monographic resource"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasParallelOtherTitleInformationOfSeriesOrMultipartMonographicResource.en"></div>
+    <div property="skos:scopeNote" xml:lang="en" content="Parallel other title information  is given when considered important to users of the catalogue."></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource that is a serial or multipart monographic resource to a word or phrase, or a group of characters, appearing in conjunction with, and subordinate to, the title proper of the resource presented on the preferred source of information for the resource as an equivalent in another language or script."></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1143">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasParallelAdditionalEditionStatement.en"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to a word or phrase, or a group of characters, indicating that a resource belongs to an edition presented on the preferred source of information for the resource as an equivalent in another language or script."></div>
+    <div property="reg:name" xml:lang="en" content="hasParallelAdditionalEditionStatement"></div>
+    <div property="rdfs:label" xml:lang="en" content="has parallel additional edition statement"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1127">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasPlayingSpeed.en"></div>
+    <div property="reg:name" xml:lang="en" content="hasPlayingSpeed"></div>
+    <div property="rdfs:label" xml:lang="en" content="has playing speed"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to its playing speed."></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1156">
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasNumericDesignation.en"></div>
+    <div property="rdfs:label" xml:lang="en" content="has numeric designation"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource that is a serial to its numeric designation."></div>
+    <div property="reg:name" xml:lang="en" content="hasNumericDesignation"></div>
+    <div property="skos:scopeNote" xml:lang="en" content="A numeric designation is given as it appears, except that arabic numerals are given in place of other numerals or spelled-out numbers and multiple levels of numbering are given in a hierarchical order. A numeric designation may include alphabetic or other characters as well as numbers. Words in the designation may be abbreviated."></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1168">
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasPlaceOfPublicationProductionDistributionStatement.en"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="reg:name" xml:lang="en" content="hasPlaceOfPublicationProductionDistributionStatement"></div>
+    <div property="rdfs:label" xml:lang="en" content="has place of publication, production, distribution statement"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to a statement including the place of publication, production, distribution, the additional place of publication statement, and the parallel statement of place of publication."></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1052">
+    <div property="rdfs:label" xml:lang="en" content="has equinox"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource that is cartographic to its equinox (one of two points of intersection of the ecliptic and the celestial equator, occupied by the sun when its declination is 0 degrees)."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasEquinox.en"></div>
+    <div property="reg:name" xml:lang="en" content="hasEquinox"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1063">
+    <div property="rdfs:label" xml:lang="en" content="has frame alignment"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasFrameAlignment.en"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource that is a microfilm reel, microfilm slip, or filmstrip to a statement of its frame alignment."></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="reg:name" xml:lang="en" content="hasFrameAlignment"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1057">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasPresenceOfIllustrations.en"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="rdfs:label" xml:lang="en" content="has presence of illustrations"></div>
+    <div property="reg:name" xml:lang="en" content="hasPresenceOfIllustrations"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource that is illustrated to the abbreviation "ill." (or its equivalent in another language), followed or replaced by a specification of particular types of illustration."></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1034">
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to a statement of the price if it is for sale or a brief statement of other terms if it is not for sale."></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="rdfs:label" xml:lang="en" content="has terms of availability"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="reg:name" xml:lang="en" content="hasTermsOfAvailability"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasTermsOfAvailability.en"></div>
+    <div property="skos:scopeNote" xml:lang="en" content="It is recommended that the price of the resource be given with the international standard code for the currency as in ISO 4217."></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1001">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="reg:name" xml:lang="en" content="hasContentForm"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="rdfs:label" xml:lang="en" content="has content form"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasContentForm.en"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to a category that reflects the fundamental form or forms in which the content is expressed."></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1015">
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasNumberingArea.en"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource that is a serial to a statement including the numbering, the chronological designation, the parallel system of numbering, and the subsequent system of numbering."></div>
+    <div property="reg:name" xml:lang="en" content="hasNumberingArea"></div>
+    <div property="skos:scopeNote" xml:lang="en" content="Can include a numeral, a letter, any other character, or the combination of these, with or without an accompanying word ("volume", "number", etc.), and/or a chronological designation. Omitted if both the first and last issues or parts are not available."></div>
+    <div property="rdfs:label" xml:lang="en" content="has numbering area"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1159">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="rdfs:label" xml:lang="en" content="has title and statement of responsibility area"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to a statement including the title proper, parallel titles, other title information, and statements of responsibility."></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="reg:name" xml:lang="en" content="hasTitleAndStatementOfResponsibilityArea"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasTitleAndStatementOfResponsibilityArea.en"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1048">
+    <div property="rdfs:label" xml:lang="en" content="has statement of projection"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="reg:name" xml:lang="en" content="hasStatementOfProjection"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasStatementOfProjection.en"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource that is cartographic to the name and properties of a systematic drawing of lines on a plane surface to represent the parallels of latitude and the meridians of longitude of the Earth or a section of the Earth or other celestial sphere."></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1163">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="rdfs:label" xml:lang="en" content="has material description area"></div>
+    <div property="skos:scopeNote" xml:lang="en" content="Restricted to the resource as issued by the publisher."></div>
+    <div property="reg:name" xml:lang="en" content="hasMaterialDescriptionArea"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to a statement including the specific material designation and extent, other physical details, the dimensions, and the accompanying material statement."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasMaterialDescriptionArea.en"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1153">
+    <div property="rdfs:label" xml:lang="en" content="has parallel statement of responsibility of series or multipart monographic resource"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="reg:name" xml:lang="en" content="hasParallelStatementOfResponsibilityOfSeriesOrMultipartMonographicResource"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource that is a series or multipart monographic resource to one or more names, phrases, or groups of characters relating to the identification and/or function of any persons or corporate bodies responsible for or contributing to the creation or realisation of the intellectual or artistic content of a work contained in the resource, presented on the preferred source of information for the resource as an equivalent in another language or script."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasParallelStatementOfResponsibilityOfSeriesOrMultipartMonographicResource.en"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1162">
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to a statement including the place of publication, production and/or distribution; the name of publisher, producer, and/or distributor; the date of publication, production, and/or distribution; the place of printing or manufacture; the name of printer or manufacturer; and the date of printing or manufacture."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasPublicationProductionDistributionEtcArea.en"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="rdfs:label" xml:lang="en" content="has publication, production, distribution, etc area"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="skos:scopeNote" xml:lang="en" content="Covers all types of publication, production, distribution, issuing and release activities connected with resources."></div>
+    <div property="reg:name" xml:lang="en" content="hasPublicationProductionDistributionEtcArea"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1024">
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasDimensions.en"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="rdfs:label" xml:lang="en" content="has dimensions"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to a note on its dimensions in centimetres (or millimetres if the gauge of a film or width of a tape) rounded up to the nearest whole."></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="reg:name" xml:lang="en" content="hasDimensions"></div>
+    <div property="skos:scopeNote" xml:lang="en" content="Includes one or more dimensions. Includes the height of the resource, measured parallel to the spine, for printed textual and notated music resources. Includes the height by width of two-dimensional cartographic resources. Includes the height by width by depth of three-dimensional cartographic resources, excluding globes and sections of spheres. Includes the diameter for cartographic resources that are globes, sections of spheres, and two-dimensional circular forms. Includes additional dimensions such as the dimensions of a map when folded, or the dimensions of individual sheets of a collectively described group, or the individual dimensions of mounted sheets, of cartographic resources. Includes the height by width of two-dimensional multimedia resources, sound recordings, videorecordings, and still and moving images (wallcharts, microfiches, slides, transparencies, pictures, etc.). Includes the diameter, followed in parentheses by the abbreviation "diam." or its equivalent in another language, for circular forms of multimedia resources, sound recordings, videorecordings, and still and moving images. Includes the length of the vertical axis, followed in parentheses by "oval" or its equivalent, for oval forms of multimedia resources, sound recordings, videorecordings, and still and moving images. Includes two dimensions statements for the open and folded states of folded sheets of multimedia resources, sound recordings, videorecordings, and still and moving images. Includes height by width by depth (or height alone when appropriate) of three-dimensional multimedia resources, sound recordings, videorecordings, and still and moving images (dioramas, etc.). Includes the gauge of the film or width of the tape for multimedia resources, sound recordings, videorecordings, and still and moving images employing film or magnetic tape. Includes the dimensions of the physical carrier itself, irrespective of the external dimensions of any container, of electronic resources. Includes the diameter of a disc or a tape reel for an electronic resource. Includes the length and width of the tape of a reel of an electronic resource. Includes the height of the face of a chip cartridge of an electronic resource. Includes other dimensions given after the height when the dimensions or shape of the resource are unusual (e.g. when the width is greater than the height) for printed textual and notated music  resources. Includes the diameter of the playing surface when a sound disc is of a non-standard shape (e.g. when the playing surface has an irregularly shaped surround). Includes the height by depth of a tape cassette when it is other than the standard size (10 x 7 cm) and the width of tape is given when it is other than the standard width (4 mm). Includes the dimensions of a container for resources issued in a container, with or without accompanying material. Excludes the external dimensions of of any container such as an album or sleeve for multimedia resources, sound recordings, videorecordings, and still and moving images requiring the use of equipment (e.g. discs, cassettes, reels of tape or motion pictures). Excludes dimensions implicit in other parts of the description (e.g. cassettes and cartridges of a standard type) of multimedia resources, sound recordings, videorecordings, and still and moving images. Includes dimensions for older monographic resources which qualify the standard designation of bibliographic format as chosen by the cataloguing agency."></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1021">
+    <div property="rdfs:label" xml:lang="en" content="has date of printing or manufacture"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="reg:name" xml:lang="en" content="hasDateOfPrintingOrManufacture"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to the date on which it is printed or manufactured, usually given in the form of a year."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasDateOfPrintingOrManufacture.en"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1133">
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to the number of its sound channels."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasNumberOfSoundChannels.en"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="rdfs:label" xml:lang="en" content="has number of sound channels"></div>
+    <div property="reg:name" xml:lang="en" content="hasNumberOfSoundChannels"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1137">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to that part of the title that is carried by a group of related resources in addition to their different section titles."></div>
+    <div property="reg:name" xml:lang="en" content="hasCommonTitleOfTitleProper"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasCommonTitleOfTitleProper.en"></div>
+    <div property="rdfs:label" xml:lang="en" content="has common title of title proper"></div>
+    <div property="skos:scopeNote" xml:lang="en" content="The common title serves to indicate this relationship in a group of resources and together with the section title identifies a given resource. The common title may also be common to a main resource and its supplement or supplements and to a main series and its subseries when the supplement or supplements or subseries have a dependent title or titles."></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1142">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="reg:name" xml:lang="en" content="hasParallelStatementOfResponsibilityRelatingToEdition"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to one or more names, phrases, or groups of characters relating to the identification and/or function of any persons or corporate bodies responsible for or contributing to the creation or realisation of the intellectual or artistic content of an edition of a work contained in the resource, presented on the preferred source of information for the resource as an equivalent in another language or script."></div>
+    <div property="rdfs:label" xml:lang="en" content="has parallel statement of responsibility relating to edition"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasParallelStatementOfResponsibilityRelatingToEdition.en"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1179">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasParallelDependentTitleOfSeriesOrMultipartMonographicResource.en"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="reg:name" xml:lang="en" content="hasParallelDependentTitleOfSeriesOrMultipartMonographicResource"></div>
+    <div property="rdfs:label" xml:lang="en" content="has parallel dependent title of series or multipart monographic resource"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource that is a series or multipart monographic resource to a title that by itself is insufficient to identify the resource and that requires the addition of the common title, or the title of the main resource or the title of the main series, presented on the preferred source of information for the resource as an equivalent in another language or script."></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1128">
+    <div property="skos:definition" xml:lang="en" content="Relates a resource that is an analogue sound disc to its recording method."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasRecordingMethod.en"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="reg:name" xml:lang="en" content="hasRecordingMethod"></div>
+    <div property="rdfs:label" xml:lang="en" content="has recording method"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1018">
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasDateOfPublicationProductionDistribution.en"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="rdfs:label" xml:lang="en" content="has date of publication, production, distribution"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="reg:name" xml:lang="en" content="hasDateOfPublicationProductionDistribution"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to the date on which it is officially offered for sale or distribution to the public, usually given in the form of a year."></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1172">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="reg:name" xml:lang="en" content="hasParallelTitleStatement"></div>
+    <div property="rdfs:label" xml:lang="en" content="has parallel title statement"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to a statement of its parallel title."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasParallelTitleStatement.en"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1183">
+    <div property="reg:name" xml:lang="en" content="hasDependentTitleOfParallelTitle"></div>
+    <div property="rdfs:label" xml:lang="en" content="has dependent title of parallel title"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to a title that by itself is insufficient to identify the resource and that requires the addition of the common title, or the title of the main resource or the title of the main series, presented on the preferred source of information for the resource as an equivalent in another language or script."></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasDependentTitleOfParallelTitle.en"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1027">
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasParallelTitleOfSeriesOrMultipartMonographicResource.en"></div>
+    <div property="reg:name" xml:lang="en" content="hasParallelTitleOfSeriesOrMultipartMonographicResource"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource that is a series or multipart monographic resource to a title in another language or script than the title proper and presented as an equivalent of the title proper on the preferred source of information."></div>
+    <div property="rdfs:label" xml:lang="en" content="has parallel title of series or multipart monographic resource"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1151">
+    <div property="reg:name" xml:lang="en" content="hasAdditionToParallelPlaceOfPublication"></div>
+    <div property="rdfs:label" xml:lang="en" content="has addition to parallel place of publication"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to the name of a larger place such as a country, state, etc. and, if it is considered necessary for identification, the full address of the publisher, producer or distributor, in the language and script of the title proper when the name appears on the prescribed source of information for the resource in more than one language or script."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasAdditionToParallelPlaceOfPublication.en"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1062">
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasPresenceOrAbsenceOfSound.en"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="reg:name" xml:lang="en" content="hasPresenceOrAbsenceOfSound"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource that includes sound as an integral feature to the abbreviations "sd." (for sound) or "si." (for silent) (or their equivalents in another language)."></div>
+    <div property="skos:scopeNote" xml:lang="en" content="Omitted if the presence of sound is implicit in the specific material designation."></div>
+    <div property="rdfs:label" xml:lang="en" content="has presence or absence of sound"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1164">
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to a statement including the title proper of a series or multipart monographic resource, the parallel title of a series or multipart monographic resource, the other title information of a series or multipart monographic resource, the parallel other title information of a series or multipart monographic resource, the statement of responsibility relating to a series or multipart monographic resource, the parallel statement of responsibility relating to a series or multipart monographic resource, the international standard number of a series or multipart monographic resource, and the numbering within a series or multipart monographic resource."></div>
+    <div property="rdfs:label" xml:lang="en" content="has series and multipart monographic resource area"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="reg:name" xml:lang="en" content="hasSeriesAndMultipartMonographicResourceArea"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasSeriesAndMultipartMonographicResourceArea.en"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1029">
+    <div property="reg:name" xml:lang="en" content="hasStatementOfResponsibilityOfSeriesOrMultipartMonographicResource"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource that is a series or multipart monographic resource to one or more names, phrases, or groups of characters relating to the identification and/or function of any persons or corporate bodies responsible for or contributing to the creation or realisation of the intellectual or artistic content of a work contained in the resource."></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="skos:scopeNote" xml:lang="en" content="The first statement of responsibility is given if the title proper of the series or multipart monographic resource is a generic term. The first and subsequent statements of responsibility are given in other cases when they appear on the prescribed source of information and are necessary for identification of the larger bibliographic resource or otherwise considered important to users of the catalogue."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasStatementOfResponsibilityOfSeriesOrMultipartMonographicResource.en"></div>
+    <div property="rdfs:label" xml:lang="en" content="has statement of responsibility of series or multipart monographic resource"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1149">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource that is a series or multipart monographic resource to numbering that alone or in conjunction with a dependent title serves to distinguish one of two or more related resources having a common title."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasDependentTitleDesignationOfSeriesOrMultipartMonogaphicResource.en"></div>
+    <div property="reg:name" xml:lang="en" content="hasDependentTitleDesignationOfSeriesOrMultipartMonogaphicResource"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="rdfs:label" xml:lang="en" content="has dependent title designation of series or multipart monographic resource"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1182">
+    <div property="reg:name" xml:lang="en" content="hasCommonTitleOfParallelTitle"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasCommonTitleOfParallelTitle.en"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to that part of the title that is carried by a group of related resources in addition to their different section titles, presented on the preferred source of information for the resource as an equivalent in another language or script."></div>
+    <div property="rdfs:label" xml:lang="en" content="has common title of parallel title"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1026">
+    <div property="reg:name" xml:lang="en" content="hasTitleProperOfSeriesOrMultipartMonographicResource"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasTitleProperOfSeriesOrMultipartMonographicResource.en"></div>
+    <div property="rdfs:label" xml:lang="en" content="has title proper of series or multipart monographic resource"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource that is a series or multipart monographic resource to the title proper (the chief name of a resource, i.e. the title of a resource in the form in which it appears on the preferred source of information for the resource)."></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1002">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="skos:scopeNote" xml:lang="en" content="Content qualifications specify the type, presence or absence of motion, dimensionality and sensory nature for the resource being described."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasContentQualification.en"></div>
+    <div property="reg:name" xml:lang="en" content="hasContentQualification"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to a sub-category that expands a category that reflects the fundamental form or forms in which the content is expressed."></div>
+    <div property="rdfs:label" xml:lang="en" content="has content qualification"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1077">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to a brief statement that qualifies, explains, or corrects the identifier."></div>
+    <div property="reg:name" xml:lang="en" content="hasQualificationToIdentifier"></div>
+    <div property="rdfs:label" xml:lang="en" content="has qualification to identifier"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasQualificationToIdentifier.en"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1011">
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to a statement identifying it as belonging to an edition or impression within an edition, or to an edition that is equivalent to the first named edition, or when the resource has significant differences in content from other impressions of the larger edition to which it belongs."></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="reg:name" xml:lang="en" content="hasAdditionalEditionStatement"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasAdditionalEditionStatement.en"></div>
+    <div property="rdfs:label" xml:lang="en" content="has additional edition statement"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1177">
+    <div property="reg:name" xml:lang="en" content="hasParallelTitleCompoundOfSeriesOrMultipartMonographicResource"></div>
+    <div property="rdfs:label" xml:lang="en" content="has parallel title (compound) of series or multipart monographic resource"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource that is a series or multipart monograph to a title consisting of a common title and a dependent title, with or without a dependent title designation, in another language or script than the title proper and presented as an equivalent of the title proper on the prescribed source or sources of information."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasParallelTitleCompoundOfSeriesOrMultipartMonographicResource.en"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1167">
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to a statement including the place of printing or manufacture, the name of printer or manufacturer, and the date of printing or manufacture."></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="rdfs:label" xml:lang="en" content="has statement of printing or manufacture"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="reg:name" xml:lang="en" content="hasStatementOfPrintingOrManufacture"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasStatementOfPrintingOrManufacture.en"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1054">
+    <div property="rdfs:label" xml:lang="en" content="has pagination"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasPagination.en"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="skos:scopeNote" xml:lang="en" content="Includes the numbering of leaves, columns, etc."></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource that is a printed text to the sequential numbering of the pages."></div>
+    <div property="reg:name" xml:lang="en" content="hasPagination"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1025">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="reg:name" xml:lang="en" content="hasAccompanyingMaterialStatement"></div>
+    <div property="rdfs:label" xml:lang="en" content="has accompanying material statement"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to a statement on accompanying material (any physically separable part of the resource that is issued (or intended to be issued) at the same time and intended to be used with the resource)."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasAccompanyingMaterialStatement.en"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1138">
+    <div property="skos:scopeNote" xml:lang="en" content="Examples are section titles, some titles of individual sheets of a map series, some supplement titles and some titles of subseries and the titles of some parts of a multipart monographic resource."></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to a title that by itself is insufficient to identify the resource and that requires the addition of the common title, or the title of the main resource or the title of the main series."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasDependentTitleOfTitleProper.en"></div>
+    <div property="rdfs:label" xml:lang="en" content="has dependent title of title proper"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="reg:name" xml:lang="en" content="hasDependentTitleOfTitleProper"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1160">
+    <div property="reg:name" xml:lang="en" content="hasEditionArea"></div>
+    <div property="rdfs:label" xml:lang="en" content="has edition area"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to a statement including the edition statement, parallel edition statements, statements of responsibility relating to the edition, additional edition statements, and statements of responsibility following an additional edition statement."></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasEditionArea.en"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1049">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="reg:name" xml:lang="en" content="hasStatementOfCoordinatesAndEquinox"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource that is cartographic to a statement including the coordinates and equinox."></div>
+    <div property="rdfs:label" xml:lang="en" content="has statement of coordinates and equinox"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasStatementOfCoordinatesAndEquinox.en"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1181">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="reg:name" xml:lang="en" content="hasCompoundTitleOfParallelTitle"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to the title proper consisting of a common title and a dependent title, with or without a dependent title designation, presented on the prescribed sources of information for the resource as an equivalent in another language or script."></div>
+    <div property="rdfs:label" xml:lang="en" content="has compound title of parallel title"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasCompoundTitleOfParallelTitle.en"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1124">
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasNoteOnOtherRelationships.en"></div>
+    <div property="rdfs:label" xml:lang="en" content="has note on other relationships"></div>
+    <div property="skos:scopeNote" xml:lang="en" content="Includes resources published together and described separately."></div>
+    <div property="reg:name" xml:lang="en" content="hasNoteOnOtherRelationships"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to a note on other relationships between it and other resources, including the nature of the relationship, the title, the key title and ISSN of the other resource or resources."></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1028">
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasOtherTitleInformationOfSeriesOrMultipartMonographicResource.en"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource that is a series or multipart monographic resource to a word or phrase, or a group of characters, appearing in conjunction with or subordinate to the title of the resource."></div>
+    <div property="reg:name" xml:lang="en" content="hasOtherTitleInformationOfSeriesOrMultipartMonographicResource"></div>
+    <div property="rdfs:label" xml:lang="en" content="has other title information of series or multipart monographic resource"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="skos:scopeNote" xml:lang="en" content="Other title information is given when it appears on the prescribed source of information and is necessary for identification of the larger bibliographic resource or otherwise considered important to users of the catalogue. An edition statement relating to a series or subseries is given as other title information when necessary for identification of the series."></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1119">
+    <div property="rdfs:label" xml:lang="en" content="has parallel music format statement"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource that is notated music to an equivalent of a music format statement (a term or phrase representing the physical form in which it is presented) in another language or script and presented as equivalent."></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasParallelMusicFormatStatement.en"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="reg:name" xml:lang="en" content="hasParallelMusicFormatStatement"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1014">
+    <div property="rdfs:label" xml:lang="en" content="has music format statement"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasMusicFormatStatement.en"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="reg:name" xml:lang="en" content="hasMusicFormatStatement"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource that is notated music to a term or phrase representing the physical form in which it is presented."></div>
+    <div property="skos:scopeNote" xml:lang="en" content="Includes score, parts. Also known as musical presentation format."></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1061">
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasReductionRatio.en"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource that is a microform to an indication of the reduction ratio."></div>
+    <div property="skos:scopeNote" xml:lang="en" content="Where possible the ratio is expressed numerically. The terms "low reduction" (up to 15x), "high reduction" (31x–60x), "very high reduction" (61x–90x) and "ultra-high reduction" (91x and upwards) or their equivalents in another language and/or script are
+used in cases where the reduction ratio cannot be specified exactly."></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="rdfs:label" xml:lang="en" content="has reduction ratio"></div>
+    <div property="reg:name" xml:lang="en" content="hasReductionRatio"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1053">
+    <div property="rdfs:label" xml:lang="en" content="has extent"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to the names and numbers of the physical unit or units constituting the resource."></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="reg:name" xml:lang="en" content="hasExtent"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasExtent.en"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1147">
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasCommonTitleOfSeriesOrMultipartMonographicResource.en"></div>
+    <div property="rdfs:label" xml:lang="en" content="has common title of series or multipart monographic resource"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource that is a series or multipart monographic resource to that part of the title that is carried by a group of related resources in addition to their different section titles."></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="reg:name" xml:lang="en" content="hasCommonTitleOfSeriesOrMultipartMonographicResource"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1093">
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasTermsOfAvailabilityStatement.en"></div>
+    <div property="reg:name" xml:lang="en" content="hasTermsOfAvailabilityStatement"></div>
+    <div property="rdfs:label" xml:lang="en" content="has terms of availability statement"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to a statement of terms of availability."></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1010">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to one or more names, phrases, or groups of characters relating to the identification and/or function of any persons or corporate bodies responsible for or contributing to the creation or realisation of the intellectual or artistic content of an edition of a work contained in the resource."></div>
+    <div property="reg:name" xml:lang="en" content="hasStatementOfResponsibilityRelatingToEdition"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasStatementOfResponsibilityRelatingToEdition.en"></div>
+    <div property="skos:scopeNote" xml:lang="en" content="Statements of responsibility relating to the edition can indicate functions such as that of a reviser of a new edition, or can name the person or body responsible for the provision of supplementary matter, of appendices, etc., in a new edition."></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="rdfs:label" xml:lang="en" content="has statement of responsibility relating to edition"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1158">
+    <div property="rdfs:label" xml:lang="en" content="has content form and media type area"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to one or more statements each comprising three elements, each taken from closed lists: the content form, one or more terms reflecting the fundamental form or forms in which the content of a resource is expressed; the content qualification, specifying the type, sensory nature, dimensionality, and/or presence or absence of motion for the resource being described; and  the media type, indicating the type or types of carrier used to convey the content of the resource."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasContentFormAndMediaTypeArea.en"></div>
+    <div property="reg:name" xml:lang="en" content="hasContentFormAndMediaTypeArea"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1134">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="rdfs:label" xml:lang="en" content="has equalization"></div>
+    <div property="reg:name" xml:lang="en" content="hasEqualization"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to the equalization it employs."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasEqualization.en"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1058">
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasParallelStatementOfResponsibilityRelatingToAnAdditionalEditionStatement.en"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="reg:name" xml:lang="en" content="hasParallelStatementOfResponsibilityRelatingToAnAdditionalEditionStatement"></div>
+    <div property="rdfs:label" xml:lang="en" content="has parallel statement of responsibility relating to an additional edition statement"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to one or more names, phrases, or groups of characters relating to the identification and/or function of any persons or corporate bodies responsible for or contributing to the creation or realisation of the intellectual or artistic content of an additional edition statement of a work contained in the resource, presented on the preferred source of information for the resource as an equivalent in another language or script."></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1146">
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasSpecificMaterialDesignation.en"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to a term indicating the specific class of material (usually the class of physical object) to which it belongs, and the number of units."></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="reg:name" xml:lang="en" content="hasSpecificMaterialDesignation"></div>
+    <div property="rdfs:label" xml:lang="en" content="has specific material designation"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1184">
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasDependentTitleDesignationOfParallelTitle.en"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to numbering that alone or in conjunction with a dependent title serves to distinguish it from one or more related resources having a common title, presented on the preferred source of information for the resource as an equivalent in another language or script."></div>
+    <div property="rdfs:label" xml:lang="en" content="has dependent title designation of parallel title"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="reg:name" xml:lang="en" content="hasDependentTitleDesignationOfParallelTitle"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1150">
+    <div property="rdfs:label" xml:lang="en" content="has qualification to terms of availability"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasQualificationToTermsOfAvailability.en"></div>
+    <div property="reg:name" xml:lang="en" content="hasQualificationToTermsOfAvailability"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to a qualification to a statement of the price if it is for sale or a brief statement of other terms if it is not for sale."></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1165">
+    <div property="reg:name" xml:lang="en" content="hasResourceIdentifierAndTermsOfAvailabilityArea"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasResourceIdentifierAndTermsOfAvailabilityArea.en"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to a statement including the resource identifier, the key title, and the terms of availability."></div>
+    <div property="rdfs:label" xml:lang="en" content="has resource identifier and terms of availability area"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1132">
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasTrackConfiguration.en"></div>
+    <div property="rdfs:label" xml:lang="en" content="has track configuration"></div>
+    <div property="reg:name" xml:lang="en" content="hasTrackConfiguration"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource that is a sound reel recorded on four or more tracks to its track configuration."></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1180">
+    <div property="skos:definition" xml:lang="en" content="Relates a resource that is a series or multipart monographic resource to numbering that alone or in conjunction with a dependent title serves to distinguish one of two or more related resources having a common title, presented on the preferred source of information for the resource as an equivalent in another language or script."></div>
+    <div property="reg:name" xml:lang="en" content="hasParallelDependentTitleDesignationOfSeriesOrMultipartMonographicResource"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasParallelDependentTitleDesignationOfSeriesOrMultipartMonographicResource.en"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="rdfs:label" xml:lang="en" content="has parallel dependent title designation of series or multipart monographic resource"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1135">
+    <div property="rdfs:label" xml:lang="en" content="has noise reduction"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasNoiseReduction.en"></div>
+    <div property="reg:name" xml:lang="en" content="hasNoiseReduction"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to the noise reduction it employs."></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1193">
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasWorkAspect.en"></div>
+    <div property="rdfs:label" xml:lang="en" content="has work aspect"></div>
+    <div property="reg:name" xml:lang="en" content="hasWorkAspect"></div>
+    <div rel="owl:inverseOf">
+      <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1197">
+        <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+        <div rel="owl:inverseOf" resource="http://iflastandards.info/ns/isbd/unc/elements/P1193"></div>
+        <div property="skos:definition" xml:lang="en" content="Relates a work to a bibliographic resource that reflects it."></div>
+        <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+        <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/isWorkReflectedIn.en"></div>
+        <div property="reg:name" xml:lang="en" content="isWorkReflectedIn"></div>
+        <div property="rdfs:label" xml:lang="en" content="is work reflected in"></div>
+      </div>
+    </div>
+    <div property="skos:definition" xml:lang="en" content="Relates a bibliographic resource to a work reflected in it."></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1044">
+    <div property="skos:scopeNote" xml:lang="en" content="Includes the issue or part that forms the basis of the description if the description of a serial or multipart monographic resource is not based on the first issue or part published. Includes the earliest analytic consulted and its date of publication, production, distribution, etc. if a description is made for an unnumbered monographic series itself. Includes the analytic and its date of publication if other analytics also have been consulted and the latest analytic can be identified. Includes the latest iteration consulted in preparing the description if the description is not based on the first iteration of an integrating resource. Includes the issue or iteration that forms the basis of the description of a remote-access electronic resource, along with the date on which it was viewed."></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="rdfs:label" xml:lang="en" content="has note on basis of description"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource that is a series or multipart monograph to a note on the issue, part, iteration, etc., that forms that basis of its description."></div>
+    <div property="reg:name" xml:lang="en" content="hasNoteOnBasisOfDescription"></div>
+    <div rel="rdfs:subPropertyOf">
+      <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1045">
+        <div rel="reg:hasSubproperty" resource="http://iflastandards.info/ns/isbd/unc/elements/P1040"></div>
+        <div rel="reg:hasSubproperty" resource="http://iflastandards.info/ns/isbd/unc/elements/P1097"></div>
+        <div rel="reg:hasSubproperty" resource="http://iflastandards.info/ns/isbd/unc/elements/P1068"></div>
+        <div rel="reg:hasSubproperty" resource="http://iflastandards.info/ns/isbd/unc/elements/P1046"></div>
+        <div rel="reg:hasSubproperty" resource="http://iflastandards.info/ns/isbd/unc/elements/P1090"></div>
+        <div rel="reg:hasSubproperty" resource="http://iflastandards.info/ns/isbd/unc/elements/P1067"></div>
+        <div rel="reg:hasSubproperty" resource="http://iflastandards.info/ns/isbd/unc/elements/P1098"></div>
+        <div property="skos:definition" xml:lang="en" content="Relates a resource to a note of descriptive information that has not been given in other areas of the description but that is considered to be important to users of bibliographic records."></div>
+        <div rel="reg:hasSubproperty" resource="http://iflastandards.info/ns/isbd/unc/elements/P1086"></div>
+        <div rel="reg:hasSubproperty" resource="http://iflastandards.info/ns/isbd/unc/elements/P1041"></div>
+        <div rel="reg:hasSubproperty" resource="http://iflastandards.info/ns/isbd/unc/elements/P1044"></div>
+        <div property="rdfs:label" xml:lang="en" content="has note"></div>
+        <div rel="reg:hasSubproperty" resource="http://iflastandards.info/ns/isbd/unc/elements/P1042"></div>
+        <div rel="reg:hasSubproperty" resource="http://iflastandards.info/ns/isbd/unc/elements/P1037"></div>
+        <div rel="reg:hasSubproperty" resource="http://iflastandards.info/ns/isbd/unc/elements/P1123"></div>
+        <div rel="reg:hasSubproperty" resource="http://iflastandards.info/ns/isbd/unc/elements/P1136"></div>
+        <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+        <div rel="reg:hasSubproperty" resource="http://iflastandards.info/ns/isbd/unc/elements/P1087"></div>
+        <div rel="reg:hasSubproperty" resource="http://iflastandards.info/ns/isbd/unc/elements/P1091"></div>
+        <div rel="reg:hasSubproperty" resource="http://iflastandards.info/ns/isbd/unc/elements/P1101"></div>
+        <div property="reg:name" xml:lang="en" content="hasNote"></div>
+        <div rel="reg:hasSubproperty" resource="http://iflastandards.info/ns/isbd/unc/elements/P1079"></div>
+        <div rel="reg:hasSubproperty" resource="http://iflastandards.info/ns/isbd/unc/elements/P1039"></div>
+        <div rel="reg:hasSubproperty" resource="http://iflastandards.info/ns/isbd/unc/elements/P1094"></div>
+        <div rel="reg:hasSubproperty" resource="http://iflastandards.info/ns/isbd/unc/elements/P1095"></div>
+        <div property="skos:scopeNote" xml:lang="en" content="Notes qualify and amplify the description in the other areas and can deal with any aspect of a resource. Notes may also give the bibliographic history of the resource and indicate relationships to other resources. In making reference to another resource in a note, enough information must be given to identify theresource. This may vary depending on the resource and the context of the note. For continuing resources,
+the citation may consist of the key title and ISSN. In other cases, it may consist of the title proper along
+with a statement of responsibility or other bibliographic details. Two or more notes may be combined into a single note when considered appropriate by the cataloguing agency."></div>
+        <div rel="reg:hasSubproperty" resource="http://iflastandards.info/ns/isbd/unc/elements/P1038"></div>
+        <div rel="reg:hasSubproperty" resource="http://iflastandards.info/ns/isbd/unc/elements/P1078"></div>
+        <div rel="reg:hasSubproperty" resource="http://iflastandards.info/ns/isbd/unc/elements/P1100"></div>
+        <div rel="reg:hasSubproperty" resource="http://iflastandards.info/ns/isbd/unc/elements/P1096"></div>
+        <div rel="reg:hasSubproperty" resource="http://iflastandards.info/ns/isbd/unc/elements/P1092"></div>
+        <div rel="reg:hasSubproperty" resource="http://iflastandards.info/ns/isbd/unc/elements/P1065"></div>
+        <div rel="reg:hasSubproperty" resource="http://iflastandards.info/ns/isbd/unc/elements/P1066"></div>
+        <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasNote.en"></div>
+        <div rel="reg:hasSubproperty" resource="http://iflastandards.info/ns/isbd/unc/elements/P1099"></div>
+        <div rel="reg:hasSubproperty" resource="http://iflastandards.info/ns/isbd/unc/elements/P1064"></div>
+        <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+        <div rel="reg:hasSubproperty" resource="http://iflastandards.info/ns/isbd/unc/elements/P1073"></div>
+      </div>
+    </div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasNoteOnBasisOfDescription.en"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1123">
+    <div property="skos:definition" xml:lang="en" content="Relates a resource that is a supplement to or insert in another resource to a note of the title, the key title and ISSN of the main resource."></div>
+    <div property="reg:name" xml:lang="en" content="hasNoteOnSupplementToOrInsertIn"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasNoteOnSupplementToOrInsertIn.en"></div>
+    <div rel="rdfs:subPropertyOf" resource="http://iflastandards.info/ns/isbd/unc/elements/P1045"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="rdfs:label" xml:lang="en" content="has note on supplement to or insert in"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1192">
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasManifestationAspect.en"></div>
+    <div property="rdfs:label" xml:lang="en" content="has manifestation aspect"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a bibliographic resource to a manifestation reflected in it."></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="owl:inverseOf">
+      <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1196">
+        <div property="rdfs:label" xml:lang="en" content="is manifestation reflected in"></div>
+        <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/isManifestationReflectedIn.en"></div>
+        <div property="reg:name" xml:lang="en" content="isManifestationReflectedIn"></div>
+        <div property="skos:definition" xml:lang="en" content="Relates a manifestation to a bibliographic resource that reflects it."></div>
+        <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+        <div rel="owl:inverseOf" resource="http://iflastandards.info/ns/isbd/unc/elements/P1192"></div>
+        <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+      </div>
+    </div>
+    <div property="reg:name" xml:lang="en" content="hasManifestationAspect"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1190">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="reg:name" xml:lang="en" content="hasExpressionAspect"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasExpressionAspect.en"></div>
+    <div property="rdfs:label" xml:lang="en" content="has expression aspect"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a bibliographic resource to an expression reflected in it."></div>
+    <div rel="owl:inverseOf">
+      <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1194">
+        <div property="reg:name" xml:lang="en" content="isExpressionReflectedIn"></div>
+        <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+        <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+        <div property="skos:definition" xml:lang="en" content="Relates an expression to a bibliographic resource that reflects it."></div>
+        <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/isExpressionReflectedIn.en"></div>
+        <div rel="owl:inverseOf" resource="http://iflastandards.info/ns/isbd/unc/elements/P1190"></div>
+        <div property="rdfs:label" xml:lang="en" content="is expression reflected in"></div>
+      </div>
+    </div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1100">
+    <div property="reg:name" xml:lang="en" content="hasNoteOnSupplementsInsertsEtc"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div rel="rdfs:subPropertyOf" resource="http://iflastandards.info/ns/isbd/unc/elements/P1045"></div>
+    <div property="rdfs:label" xml:lang="en" content="has note on supplements, inserts, etc."></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasNoteOnSupplementsInsertsEtc.en"></div>
+    <div property="skos:scopeNote" xml:lang="en" content="A general note about the existence of supplements is used when they are numerous."></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource that has one or more supplements and/or inserts to a note on the title, the key title and ISSN of the supplement and/or insert."></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1087">
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to a note on its statements of responsibility (statements, transcribed from the resource being described, relating to persons responsible for the intellectual or artistic content of the resource, to corporate bodies from which the content emanates, or to persons or corporate bodies responsible for the performance of the content of the resource)."></div>
+    <div property="rdfs:label" xml:lang="en" content="has note on statement of responsibility"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="rdfs:subPropertyOf" resource="http://iflastandards.info/ns/isbd/unc/elements/P1045"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasNoteOnStatementOfResponsibility.en"></div>
+    <div property="skos:scopeNote" xml:lang="en" content="Includes statements of responsibility taken from outside the resource, its container or accompanying textual matter; notes on variant or expanded forms of names of persons or corporate bodies, notes on pseudonyms, notes on persons or corporate bodies connected with the work that cannot be included in other areas of the description (because, for example, their function is not specified); statements of responsibility relating to appendices and other supplementary matter appearing on the resource but not on a prescribed source of information; notes on the staging, instrumentation, etc., of performed works; notes on persons or bodies connected with the technical production, administrative and consulting functions of the work."></div>
+    <div property="reg:name" xml:lang="en" content="hasNoteOnStatementOfResponsibility"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1086">
+    <div property="rdfs:label" xml:lang="en" content="has note on parallel titles and parallel other title information"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasNoteOnParallelTitlesAndParallelOtherTitleInformation.en"></div>
+    <div property="reg:name" xml:lang="en" content="hasNoteOnParallelTitlesAndParallelOtherTitleInformation"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to a note on parallel titles and parallel other title information."></div>
+    <div property="skos:scopeNote" xml:lang="en" content="Excludes information recorded in the title and statement of responsibility area."></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="rdfs:subPropertyOf" resource="http://iflastandards.info/ns/isbd/unc/elements/P1045"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1012">
+    <div rel="reg:hasSubproperty">
+      <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1140">
+        <div property="rdfs:label" xml:lang="en" content="has parallel other title information"></div>
+        <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+        <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+        <div rel="rdfs:subPropertyOf" resource="http://iflastandards.info/ns/isbd/unc/elements/P1012"></div>
+        <div property="reg:name" xml:lang="en" content="hasParallelOtherTitleInformation"></div>
+        <div property="skos:definition" xml:lang="en" content="Relates a resource to other title information presented on the preferred source of information for the resource as an equivalent in another language or script."></div>
+        <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasParallelOtherTitleInformation.en"></div>
+      </div>
+    </div>
+    <div property="rdfs:label" xml:lang="en" content="has title"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to a word or phrase, or a group of characters, usually appearing on the resource, that is the name of the resource or the work (or any one of a group of individual works) contained in it."></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="reg:hasSubproperty">
+      <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1006">
+        <div property="rdfs:label" xml:lang="en" content="has other title information"></div>
+        <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+        <div property="skos:scopeNote" xml:lang="en" content="Other title information can include variant titles appearing on the same source as the title proper."></div>
+        <div property="reg:name" xml:lang="en" content="hasOtherTitleInformation"></div>
+        <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+        <div property="skos:definition" xml:lang="en" content="Relates a resource to a word or phrase, or a group of characters, appearing in conjunction with, and subordinate to, the title proper of the resource."></div>
+        <div rel="rdfs:subPropertyOf" resource="http://iflastandards.info/ns/isbd/unc/elements/P1012"></div>
+        <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasOtherTitleInformation.en"></div>
+      </div>
+    </div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div rel="reg:hasSubproperty">
+      <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1005">
+        <div property="skos:scopeNote" xml:lang="en" content="A title in another language that is linguistically linked to another part of the description is not treated as a parallel title."></div>
+        <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasParallelTitle.en"></div>
+        <div property="rdfs:label" xml:lang="en" content="has parallel title"></div>
+        <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+        <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+        <div property="skos:definition" xml:lang="en" content="Relates a resource to a title in another language or script than the title proper and presented as an equivalent of the title proper on the preferred source or sources of information."></div>
+        <div property="reg:name" xml:lang="en" content="hasParallelTitle"></div>
+        <div rel="rdfs:subPropertyOf" resource="http://iflastandards.info/ns/isbd/unc/elements/P1012"></div>
+      </div>
+    </div>
+    <div rel="reg:hasSubproperty">
+      <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1118">
+        <div property="reg:name" xml:lang="en" content="hasTitleOfIndividualWorkByDifferentAuthor"></div>
+        <div property="skos:definition" xml:lang="en" content="Relates a resource to the title of an individual work when the resource comprises two or more works with different statements of responsibility without a collective title."></div>
+        <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasTitleOfIndividualWorkByDifferentAuthor.en"></div>
+        <div property="rdfs:label" xml:lang="en" content="has title of individual work by different author"></div>
+        <div rel="rdfs:subPropertyOf" resource="http://iflastandards.info/ns/isbd/unc/elements/P1012"></div>
+        <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+        <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+      </div>
+    </div>
+    <div property="reg:name" xml:lang="en" content="hasTitle"></div>
+    <div rel="reg:hasSubproperty">
+      <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1117">
+        <div rel="rdfs:subPropertyOf" resource="http://iflastandards.info/ns/isbd/unc/elements/P1012"></div>
+        <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasTitleOfIndividualWorkBySameAuthor.en"></div>
+        <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+        <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+        <div property="rdfs:label" xml:lang="en" content="has title of individual work by same author"></div>
+        <div property="skos:definition" xml:lang="en" content="Relates a resource to the title of an individual work when the resource comprises two or more works without a collective title."></div>
+        <div property="reg:name" xml:lang="en" content="hasTitleOfIndividualWorkBySameAuthor"></div>
+      </div>
+    </div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasTitle.en"></div>
+    <div property="skos:scopeNote" xml:lang="en" content="A title proper; a title of individual work by the same author in a resource lacking a collective title; a title of an individual work by a different author in a resource lacking a collective title; a parallel title; other title information; or parallel other title information."></div>
+    <div rel="reg:hasSubproperty">
+      <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1004">
+        <div property="skos:definition" xml:lang="en" content="Relates a resource to the title proper (the chief name of a resource, i.e. the title of a resource in the form in which it appears on the preferred source of information for the resource)."></div>
+        <div property="reg:name" xml:lang="en" content="hasTitleProper"></div>
+        <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+        <div property="rdfs:label" xml:lang="en" content="has title proper"></div>
+        <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+        <div rel="rdfs:subPropertyOf" resource="http://iflastandards.info/ns/isbd/unc/elements/P1012"></div>
+        <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasTitleProper.en"></div>
+        <div property="skos:scopeNote" xml:lang="en" content="The title proper includes any alternative title, but excludes parallel titles and other title information. In the case of a section or some supplements and some titles of subseries or parts, the title proper can consist of two or more components: the common title (or the title of the main series or of the multipart monographic resource), the dependent title and the dependent title designation. For resources containing several individual works the title proper is the collective title. Resources containing several individual works and lacking a collective title are considered not to have a title proper. A series or subseries also has its own title proper."></div>
+      </div>
+    </div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1078">
+    <div property="rdfs:label" xml:lang="en" content="has note on binding"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="reg:name" xml:lang="en" content="hasNoteOnBinding"></div>
+    <div property="skos:scopeNote" xml:lang="en" content="Excludes a binding specific to a copy in hand."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasNoteOnBinding.en"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to a note on the binding as issued by the publisher."></div>
+    <div rel="rdfs:subPropertyOf" resource="http://iflastandards.info/ns/isbd/unc/elements/P1045"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1037">
+    <div property="rdfs:label" xml:lang="en" content="has note on edition area and bibliographic history"></div>
+    <div property="reg:name" xml:lang="en" content="hasNoteOnEditionAreaAndBibliographicHistory"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to a note on its edition area and bibliographic history."></div>
+    <div rel="rdfs:subPropertyOf" resource="http://iflastandards.info/ns/isbd/unc/elements/P1045"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasNoteOnEditionAreaAndBibliographicHistory.en"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1068">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasNoteOnTitleProper.en"></div>
+    <div property="reg:name" xml:lang="en" content="hasNoteOnTitleProper"></div>
+    <div property="rdfs:label" xml:lang="en" content="has note on title proper"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to a note on the title proper (the chief name of a resource, i.e. the title of a resource in the form in which it appears on the preferred source of information for the resource)."></div>
+    <div rel="rdfs:subPropertyOf" resource="http://iflastandards.info/ns/isbd/unc/elements/P1045"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1038">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="reg:name" xml:lang="en" content="hasNoteOnMaterialTypeOrResourceSpecificType"></div>
+    <div rel="rdfs:subPropertyOf" resource="http://iflastandards.info/ns/isbd/unc/elements/P1045"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="rdfs:label" xml:lang="en" content="has note on material type or resource specific type"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasNoteOnMaterialTypeOrResourceSpecificType.en"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to a note on the material or type of resource specific area."></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1136">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="reg:name" xml:lang="en" content="hasNoteOnContentFormAndMediaType"></div>
+    <div property="rdfs:label" xml:lang="en" content="has note on content form and media type"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasNoteOnContentFormAndMediaType.en"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to a note on the content form and media type area."></div>
+    <div rel="rdfs:subPropertyOf" resource="http://iflastandards.info/ns/isbd/unc/elements/P1045"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1075">
+    <div rel="rdfs:subPropertyOf">
+      <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1032">
+        <div property="skos:scopeNote" xml:lang="en" content="Includes any number or alphanumeric designation associated with and identifying a resource according to an international standard, such as an International Standard Book Number or an International Standard Serial Number, or a designation assigned by a publisher. Includes notes considered important to users of the catalogue."></div>
+        <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+        <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+        <div rel="reg:hasSubproperty" resource="http://iflastandards.info/ns/isbd/unc/elements/P1075"></div>
+        <div rel="reg:hasSubproperty" resource="http://iflastandards.info/ns/isbd/unc/elements/P1154"></div>
+        <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasResourceIdentifier.en"></div>
+        <div property="skos:definition" xml:lang="en" content="Relates a resource to an identifier."></div>
+        <div property="reg:name" xml:lang="en" content="hasResourceIdentifier"></div>
+        <div rel="reg:hasSubproperty" resource="http://iflastandards.info/ns/isbd/unc/elements/P1076"></div>
+        <div property="rdfs:label" xml:lang="en" content="has resource identifier"></div>
+      </div>
+    </div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasFingerprint.en"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="reg:name" xml:lang="en" content="hasFingerprint"></div>
+    <div property="rdfs:label" xml:lang="en" content="has fingerprint"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource that is an older monographic resource to a number of characters drawn from a number of uniform places in the text of the resource, considered as a substitute for a standard number."></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="skos:scopeNote" xml:lang="en" content="A definitive formula for fingerprint has yet to be determined by international agreement. Until such an agreement is made, various forms of fingerprint can be used."></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1076">
+    <div rel="rdfs:subPropertyOf" resource="http://iflastandards.info/ns/isbd/unc/elements/P1032"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource that is commercially issued to the label name and all catalogue numbers supplied by the issuing company."></div>
+    <div property="reg:name" xml:lang="en" content="hasLabelNameAndCatalogueNumber"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasLabelNameAndCatalogueNumber.en"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="rdfs:label" xml:lang="en" content="has label name and catalogue number"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1092">
+    <div property="rdfs:label" xml:lang="en" content="has note on numbers"></div>
+    <div property="reg:name" xml:lang="en" content="hasNoteOnNumbers"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to a note on numbers or identifiers associated with it."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasNoteOnNumbers.en"></div>
+    <div property="skos:scopeNote" xml:lang="en" content="Excludes identifiers recorded in the resource identifier and terms of availability area."></div>
+    <div rel="rdfs:subPropertyOf" resource="http://iflastandards.info/ns/isbd/unc/elements/P1045"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1191">
+    <div property="reg:name" xml:lang="en" content="hasItemAspect"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasItemAspect.en"></div>
+    <div property="rdfs:label" xml:lang="en" content="has item aspect"></div>
+    <div rel="owl:inverseOf">
+      <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1195">
+        <div rel="owl:inverseOf" resource="http://iflastandards.info/ns/isbd/unc/elements/P1191"></div>
+        <div property="skos:definition" xml:lang="en" content="Relates an item to a bibliographic resource that reflects it."></div>
+        <div property="reg:name" xml:lang="en" content="isItemReflectedIn"></div>
+        <div property="rdfs:label" xml:lang="en" content="is item reflected in"></div>
+        <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+        <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/isItemReflectedIn.en"></div>
+        <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+      </div>
+    </div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a bibliographic resource to an item reflected in it."></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1051">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="skos:scopeNote" xml:lang="en" content="Applies also to celestial charts."></div>
+    <div rel="rdfs:subPropertyOf">
+      <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1050">
+        <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+        <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+        <div property="reg:name" xml:lang="en" content="hasCoordinates"></div>
+        <div property="rdfs:label" xml:lang="en" content="has coordinates"></div>
+        <div rel="reg:hasSubproperty" resource="http://iflastandards.info/ns/isbd/unc/elements/P1155"></div>
+        <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasCoordinates.en"></div>
+        <div rel="reg:hasSubproperty" resource="http://iflastandards.info/ns/isbd/unc/elements/P1051"></div>
+        <div property="skos:definition" xml:lang="en" content="Relates a resource that is cartographic to its coordinates (the quantities of latitude and longitude that define the position of points on the surface of the Earth or other celestial sphere that delimit the greatest extent of the area covered)."></div>
+      </div>
+    </div>
+    <div property="reg:name" xml:lang="en" content="hasRightAscensionAndDeclination"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasRightAscensionAndDeclination.en"></div>
+    <div property="rdfs:label" xml:lang="en" content="has right ascension and declination"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource that is cartographic to its right ascension (the angular distance measured eastward on the Equator from the vernal equinox to the hour circle through the celestial body, from 0 to 24 hours), and declination (the angular distance to a body on the celestial sphere measured north or south through 90 degrees from the celestial equator along the hour circle of the body; comparable to latitude on the terrestrial sphere)."></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1155">
+    <div property="reg:name" xml:lang="en" content="hasLongitudeAndLatitude"></div>
+    <div property="rdfs:label" xml:lang="en" content="has longitude and latitude"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="rdfs:subPropertyOf" resource="http://iflastandards.info/ns/isbd/unc/elements/P1050"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource that is a  terrestrial map to its coordinates expressed in decimal degrees or degrees (°), minutes (′) and seconds (″) of the sexagesimal system (360° circle) (with longitude always taken from the Greenwich prime meridian) in the order of longitude of westernmost extent, longitude of easternmost extent, latitude of northernmost extent , and latitude of southernmost extent, preceded by the appropriate initials for West (W), East (E), North (N) and South (S) or their equivalents in another language or script. Relates a resource that is a map of another celestial body to its coordinates in its coordinate system."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasLongitudeAndLatitude.en"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1094">
+    <div property="skos:definition" xml:lang="en" content="Relates a resource that is a serial or multipart monograph to a note on changes in edition statements that occur after the issue or part used as the basis of description and do not require a new description. Relates a resource that is an integrating resource to a note on earlier edition statements that are no longer present on the current iteration or that are in a different form on an earlier iteration and do not require a new description."></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasNoteOnChangeToEdition.en"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div rel="rdfs:subPropertyOf" resource="http://iflastandards.info/ns/isbd/unc/elements/P1045"></div>
+    <div property="rdfs:label" xml:lang="en" content="has note on change to edition"></div>
+    <div property="reg:name" xml:lang="en" content="hasNoteOnChangeToEdition"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1066">
+    <div property="reg:name" xml:lang="en" content="hasNoteOnSystemRequirements"></div>
+    <div property="skos:scopeNote" xml:lang="en" content="Includes one or more technical specifications, usually given in the following order, and preceded by the phrase  "System requirements:" (or its equivalent in another language): name, model and, or, number of machine or machines; amount of memory; name of the operating system or systems; software requirements (including programming language); peripherals; hardware (internal) modifications; character code. Separate system requirements notes may be made to highlight distinctive system features associated with each physical carrier, when the resource consists of two or more different physical carriers (e.g. a multimedia resource consisting of an electronic disk and a videodisc). Alternatively, a single system requirements note for both physical carriers may be made."></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div rel="rdfs:subPropertyOf" resource="http://iflastandards.info/ns/isbd/unc/elements/P1045"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource that is a direct access electronic resource to a note on system requirements for use of the resource."></div>
+    <div property="rdfs:label" xml:lang="en" content="has note on system requirements"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasNoteOnSystemRequirements.en"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1065">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="rdfs:subPropertyOf" resource="http://iflastandards.info/ns/isbd/unc/elements/P1045"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="skos:scopeNote" xml:lang="en" content="Used when the frequency is not stated in the title and statement of responsibility area, or it is necessary to convey some additional information."></div>
+    <div property="rdfs:label" xml:lang="en" content="has note on frequency"></div>
+    <div property="reg:name" xml:lang="en" content="hasNoteOnFrequency"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource that is a serial to a note on the frequency. Relates a resource that is an integrating resource to a note on the frequency of updates."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasNoteOnFrequency.en"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1079">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="rdfs:subPropertyOf" resource="http://iflastandards.info/ns/isbd/unc/elements/P1045"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to a note relating to the resource identifier and terms of availability."></div>
+    <div property="rdfs:label" xml:lang="en" content="has note on resource identifier and terms of availability"></div>
+    <div property="reg:name" xml:lang="en" content="hasNoteOnResourceIdentifierAndTermsOfAvailability"></div>
+    <div property="skos:scopeNote" xml:lang="en" content="Includes notes of limited print run, issues or limited distribution."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasNoteOnResourceIdentifierAndTermsOfAvailability.en"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1099">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to a note on relationship to other resources."></div>
+    <div rel="rdfs:subPropertyOf" resource="http://iflastandards.info/ns/isbd/unc/elements/P1045"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasNoteOnRelationshipToOtherResources.en"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="rdfs:label" xml:lang="en" content="has note on relationship to other resources"></div>
+    <div property="reg:name" xml:lang="en" content="hasNoteOnRelationshipToOtherResources"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1091">
+    <div property="reg:name" xml:lang="en" content="hasNoteOnUseOrAudience"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div rel="rdfs:subPropertyOf" resource="http://iflastandards.info/ns/isbd/unc/elements/P1045"></div>
+    <div property="rdfs:label" xml:lang="en" content="has note on use or audience"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="skos:scopeNote" xml:lang="en" content="Normally taken from statements on or in the resource. Includes specification of restrictions on use."></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to a note providing non-evaluative information as to the potential or recommended use of the resource and/or the intended audience."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasNoteOnUseOrAudience.en"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1064">
+    <div property="reg:name" xml:lang="en" content="hasNoteOnBibliographicReference"></div>
+    <div property="rdfs:label" xml:lang="en" content="has note on bibliographic reference"></div>
+    <div rel="rdfs:subPropertyOf" resource="http://iflastandards.info/ns/isbd/unc/elements/P1045"></div>
+    <div property="skos:scopeNote" xml:lang="en" content="The note may contain more than one citation."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasNoteOnBibliographicReference.en"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource that is an older monographic resource to a citation, given in a standard and abbreviated form, to a description of the resource in a list describing older monographic resources."></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1041">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="rdfs:subPropertyOf" resource="http://iflastandards.info/ns/isbd/unc/elements/P1045"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="reg:name" xml:lang="en" content="hasNoteOnSeriesAndMultipartMonographicResources"></div>
+    <div property="skos:scopeNote" xml:lang="en" content="Includes notes giving information about a series or multipart monographic resource in which the resource has been issued, and notes on series editors."></div>
+    <div property="rdfs:label" xml:lang="en" content="has note on series and multipart monographic resources"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to a note on the series and monographic resources area."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasNoteOnSeriesAndMultipartMonographicResources.en"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1096">
+    <div property="skos:scopeNote" xml:lang="en" content="Notes on translations may be included in the notes on contents when the resource contains several individual works. Excludes notes on the language of the title. Excludes notes on editions of a resource appearing simultaneously in different languages."></div>
+    <div rel="rdfs:subPropertyOf" resource="http://iflastandards.info/ns/isbd/unc/elements/P1045"></div>
+    <div property="reg:name" xml:lang="en" content="hasNoteOnTranslations"></div>
+    <div property="rdfs:label" xml:lang="en" content="has note on translations"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource that contains a work that is a translation to a note on the original title of the work, or, where appropriate, the key title and ISSN."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasNoteOnTranslations.en"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1101">
+    <div property="reg:name" xml:lang="en" content="hasNoteOnRelationshipBetweenContinuingResources"></div>
+    <div rel="rdfs:subPropertyOf" resource="http://iflastandards.info/ns/isbd/unc/elements/P1045"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource that is a continuing resource to a note on a continuing resource that it is related to."></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasNoteOnRelationshipBetweenContinuingResources.en"></div>
+    <div property="rdfs:label" xml:lang="en" content="has note on relationship between continuing resources"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1042">
+    <div property="rdfs:label" xml:lang="en" content="has note on contents"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="reg:name" xml:lang="en" content="hasNoteOnContents"></div>
+    <div rel="rdfs:subPropertyOf" resource="http://iflastandards.info/ns/isbd/unc/elements/P1045"></div>
+    <div property="skos:scopeNote" xml:lang="en" content="Includes the list of contents and notes on otherinclusions, such as indexes, inserts, bibliographies, discographies, etc."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasNoteOnContents.en"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to a note relating to the contents."></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1090">
+    <div rel="rdfs:subPropertyOf" resource="http://iflastandards.info/ns/isbd/unc/elements/P1045"></div>
+    <div property="rdfs:label" xml:lang="en" content="has note providing a summary"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to a note providing a factual, non-evaluative account of the subject coverage."></div>
+    <div property="skos:scopeNote" xml:lang="en" content="May draw upon statements found on the resource, its container or accompanying textual matter. Information on the use of special techniques or processes may also be included."></div>
+    <div property="reg:name" xml:lang="en" content="hasNoteProvidingASummary"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasNoteProvidingASummary.en"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1073">
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasNoteOnNatureScopeFormPurposeOrLanguage.en"></div>
+    <div property="reg:name" xml:lang="en" content="hasNoteOnNatureScopeFormPurposeOrLanguage"></div>
+    <div property="skos:scopeNote" xml:lang="en" content="Used when the information cannot be inferred from other elements of the description."></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="rdfs:label" xml:lang="en" content="has note on nature, scope, form, purpose or language"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="rdfs:subPropertyOf" resource="http://iflastandards.info/ns/isbd/unc/elements/P1045"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to a note on its nature, purpose, scope, or literary, artistic or musical form, or language if the linguistic content is significant."></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1040">
+    <div rel="rdfs:subPropertyOf" resource="http://iflastandards.info/ns/isbd/unc/elements/P1045"></div>
+    <div property="rdfs:label" xml:lang="en" content="has note on material description"></div>
+    <div property="skos:scopeNote" xml:lang="en" content="Includes additional physical description of the resource, and statements on particular physical peculiarities. Notes may also be made on accompanying material or on earlier physical details of an integrating resource."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasNoteOnMaterialDescription.en"></div>
+    <div property="reg:name" xml:lang="en" content="hasNoteOnMaterialDescription"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to a note on the material description area."></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1097">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="rdfs:label" xml:lang="en" content="has note on different editions"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to a note on the name of another edition or editions."></div>
+    <div property="skos:scopeNote" xml:lang="en" content="Used when the resource is one of two or more simultaneously published editions differing in partial content or language. A general note is used if the name of the other edition or editions is not readily available, or the resource is published in more editions than can be named conveniently."></div>
+    <div rel="rdfs:subPropertyOf" resource="http://iflastandards.info/ns/isbd/unc/elements/P1045"></div>
+    <div property="reg:name" xml:lang="en" content="hasNoteOnDifferentEditions"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasNoteOnDifferentEditions.en"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1098">
+    <div property="rdfs:label" xml:lang="en" content="has note on reproduction"></div>
+    <div rel="rdfs:subPropertyOf" resource="http://iflastandards.info/ns/isbd/unc/elements/P1045"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource that is is an exact reproduction of another resource to a note on the title of the original resource (when different from the title of the reproduction) and its publication details."></div>
+    <div property="skos:scopeNote" xml:lang="en" content="Includes facsimile reproductions or other photographic (or micro-) reproductions of a printed title, sound cassette copies of a sound disc, videotape reproductions of a motion picture, digitisations. Includes the frequency of the original resource."></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="reg:name" xml:lang="en" content="hasNoteOnReproduction"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasNoteOnReproduction.en"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1046">
+    <div rel="rdfs:subPropertyOf" resource="http://iflastandards.info/ns/isbd/unc/elements/P1045"></div>
+    <div property="skos:scopeNote" xml:lang="en" content="Includes notes relating to the physical characteristics of the copy, notes relating to "bound with" copies, provenance notes, and action notes."></div>
+    <div property="reg:name" xml:lang="en" content="hasNoteOnCopyInHand"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasNoteOnCopyInHand.en"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="rdfs:label" xml:lang="en" content="has note on copy in hand"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to a note on the copy being catalogued."></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1039">
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasNoteOnPublicationProductionDistributionEtc.en"></div>
+    <div rel="rdfs:subPropertyOf" resource="http://iflastandards.info/ns/isbd/unc/elements/P1045"></div>
+    <div property="reg:name" xml:lang="en" content="hasNoteOnPublicationProductionDistributionEtc"></div>
+    <div property="skos:scopeNote" xml:lang="en" content="Includes details of other publishers, producers, distributors, etc., of the resource; notes on variant publication, production or distribution, etc., information; irregularities; and additional dates."></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to a note on the publication, production, distribution, etc., area."></div>
+    <div property="rdfs:label" xml:lang="en" content="has note on publication, production, distribution, etc."></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1095">
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to a note relating to the edition being described or the bibliographic history of the work."></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasNoteOnBibliographicHistory.en"></div>
+    <div rel="rdfs:subPropertyOf" resource="http://iflastandards.info/ns/isbd/unc/elements/P1045"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="rdfs:label" xml:lang="en" content="has note on bibliographic history"></div>
+    <div property="reg:name" xml:lang="en" content="hasNoteOnBibliographicHistory"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1067">
+    <div property="rdfs:label" xml:lang="en" content="has note on mode of access"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div rel="rdfs:subPropertyOf" resource="http://iflastandards.info/ns/isbd/unc/elements/P1045"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource that is a remote access electronic resource to a note on the mode of access, preceded by the phrase "Mode of access:" (or its equivalent in another language)."></div>
+    <div property="reg:name" xml:lang="en" content="hasNoteOnModeOfAccess"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasNoteOnModeOfAccess.en"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/isbd/unc/elements/P1154">
+    <div rel="rdfs:subPropertyOf" resource="http://iflastandards.info/ns/isbd/unc/elements/P1032"></div>
+    <div rel="reg:lexicalAlias" resource="http://iflastandards.info/ns/isbd/unc/elements/hasStandardIdentifier.en"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/isbd/unc/elements/"></div>
+    <div property="skos:definition" xml:lang="en" content="Relates a resource to a standard identifier preceded by its customary label."></div>
+    <div property="reg:name" xml:lang="en" content="hasStandardIdentifier"></div>
+    <div property="skos:scopeNote" xml:lang="en" content="Customary labels include "ISBN", "ISSN", "ISMN"."></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1001"></div>
+    <div property="rdfs:label" xml:lang="en" content="has standard identifier"></div>
+  </div>
+</div>

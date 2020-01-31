@@ -1,28 +1,917 @@
-
-<html><head>
-<meta http-equiv="content-type" content="text/html;charset=utf-8">
-<title>503 Over Quota</title>
-<style><!--
-body {font-family: arial,sans-serif}
-div.nav {margin-top: 1ex}
-div.nav A {font-size: 10pt; font-family: arial,sans-serif}
-span.nav {font-size: 10pt; font-family: arial,sans-serif; font-weight: bold}
-div.nav A,span.big {font-size: 12pt; color: #0000cc}
-div.nav A {font-size: 10pt; color: black}
-A.l:link {color: #6f6f6f}
-A.u:link {color: green}
-//--></style>
-
-</head>
-<body text=#000000 bgcolor=#ffffff>
-<table border=0 cellpadding=2 cellspacing=0 width=100%>
-<tr><td bgcolor=#3366cc><font face=arial,sans-serif color=#ffffff><b>Error</b></td></tr>
-<tr><td>&nbsp;</td></tr></table>
-<blockquote>
-<H1>Over Quota</H1>
-This application is temporarily over its serving quota.  Please try again later.
-
-<p>
-</blockquote>
-<table width=100% cellpadding=0 cellspacing=0><tr><td bgcolor=#3366cc><img alt="" width=1 height=4></td></tr></table>
-</body></html>
+<div xmlns="http://www.w3.org/1999/xhtml"
+  prefix="
+    rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+    skos: http://www.w3.org/2004/02/skos/core#
+    reg: http://metadataregistry.org/uri/profile/regap/
+    dc: http://purl.org/dc/elements/1.1/
+    rdfs: http://www.w3.org/2000/01/rdf-schema#"
+  >
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1012_j">
+    <div rel="rdfs:isDefinedBy">
+      <div typeof="rdfs:Resource" about="http://iflastandards.info/ns/unimarc/unib/">
+        <div property="dc:title" xml:lang="en" content="Test (do not use)"></div>
+      </div>
+    </div>
+    <div property="reg:name" xml:lang="en" content="UniTest30"></div>
+    <div rel="reg:status">
+      <div typeof="skos:Concept" about="http://metadataregistry.org/uri/RegStatus/1008">
+        <div property="skos:prefLabel" xml:lang="en" content="Deprecated"></div>
+      </div>
+    </div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest30"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B131__f">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest130"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest130"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1010_a">
+    <div property="reg:name" xml:lang="en" content="UniTest1"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest1"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B128__b">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest122"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest122"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B131__b">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest126"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest126"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1233_o">
+    <div property="reg:name" xml:lang="en" content="UniTest94"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest94"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1012_c">
+    <div property="rdfs:label" xml:lang="en" content="UniTest23"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest23"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1011_g">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest17"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest17"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B125__c">
+    <div property="rdfs:label" xml:lang="en" content="UniTest119"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest119"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1012_i">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest29"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest29"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B124__d">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest114"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest114"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B131__c">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest127"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest127"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1231_c">
+    <div property="rdfs:label" xml:lang="en" content="UniTest53"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest53"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B131__a">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest125"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest125"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B102__b">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest33"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest33"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1234_e">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest100"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest100"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1460_a">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest146"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest146"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B131__l">
+    <div property="reg:name" xml:lang="en" content="UniTest136"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest136"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1232_g">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest72"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest72"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B14601a">
+    <div property="rdfs:label" xml:lang="en" content="UniTest145"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest145"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B128__d">
+    <div property="reg:name" xml:lang="en" content="UniTest124"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest124"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1230_a">
+    <div property="reg:name" xml:lang="en" content="UniTest36"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest36"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B141__c">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest138"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest138"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1234_i">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest104"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest104"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1010_i">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest9"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest9"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1010_d">
+    <div property="reg:name" xml:lang="en" content="UniTest4"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest4"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1230_g">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest42"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest42"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B128__c">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest123"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest123"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1233_g">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest87"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest87"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1230_d">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest39"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest39"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1012_e">
+    <div property="reg:name" xml:lang="en" content="UniTest25"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest25"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B127__a">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest120"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest120"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B141__5">
+    <div property="rdfs:label" xml:lang="en" content="UniTest137"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest137"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1233_m">
+    <div property="rdfs:label" xml:lang="en" content="UniTest92"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest92"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1451_a">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest144"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest144"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1011_c">
+    <div property="rdfs:label" xml:lang="en" content="UniTest13"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest13"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1230_e">
+    <div property="reg:name" xml:lang="en" content="UniTest40"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest40"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B14511a">
+    <div property="reg:name" xml:lang="en" content="UniTest143"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest143"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1010_b">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest2"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest2"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1010_g">
+    <div property="rdfs:label" xml:lang="en" content="UniTest7"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest7"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1231_g">
+    <div property="rdfs:label" xml:lang="en" content="UniTest57"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest57"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1232_b">
+    <div property="reg:name" xml:lang="en" content="UniTest67"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest67"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1234_h">
+    <div property="reg:name" xml:lang="en" content="UniTest103"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest103"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1012_b">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest22"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest22"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1011_i">
+    <div property="reg:name" xml:lang="en" content="UniTest19"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest19"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1010_f">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest6"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest6"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B141__d">
+    <div property="rdfs:label" xml:lang="en" content="UniTest139"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest139"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1234_g">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest102"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest102"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B131__j">
+    <div property="reg:name" xml:lang="en" content="UniTest134"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest134"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1232_o">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest79"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest79"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1233_c">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest83"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest83"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1011_e">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest15"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest15"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1231_m">
+    <div property="reg:name" xml:lang="en" content="UniTest62"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest62"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B102__c">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest34"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest34"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1234_o">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest109"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest109"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1011_h">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest18"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest18"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1230_j">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest45"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest45"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B131__d">
+    <div property="reg:name" xml:lang="en" content="UniTest128"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest128"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1010_h">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest8"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest8"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1010_c">
+    <div property="reg:name" xml:lang="en" content="UniTest3"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest3"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1233_h">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest88"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest88"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1230_n">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest48"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest48"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1231_h">
+    <div property="reg:name" xml:lang="en" content="UniTest58"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest58"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B146_1a">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest149"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest149"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B124__a">
+    <div property="rdfs:label" xml:lang="en" content="UniTest111"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest111"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B124__g">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest117"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest117"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1234_c">
+    <div property="rdfs:label" xml:lang="en" content="UniTest98"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest98"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1232_n">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest78"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest78"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1010_j">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest10"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest10"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1012_a">
+    <div property="rdfs:label" xml:lang="en" content="UniTest21"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest21"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1234_n">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest108"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest108"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1231_n">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest63"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest63"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B106__a">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest35"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest35"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1450_a">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest142"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest142"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1234_j">
+    <div property="rdfs:label" xml:lang="en" content="UniTest105"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest105"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1230_p">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest50"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest50"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1230_m">
+    <div property="reg:name" xml:lang="en" content="UniTest47"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest47"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B14611a">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest147"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest147"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1232_j">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest75"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest75"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1232_k">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest76"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest76"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B124__f">
+    <div property="rdfs:label" xml:lang="en" content="UniTest116"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest116"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1230_c">
+    <div property="rdfs:label" xml:lang="en" content="UniTest38"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest38"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1011_d">
+    <div property="rdfs:label" xml:lang="en" content="UniTest14"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest14"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1231_j">
+    <div property="reg:name" xml:lang="en" content="UniTest60"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest60"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1234_f">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest101"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest101"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1011_b">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest12"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest12"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1232_h">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest73"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest73"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1012_g">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest27"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest27"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1012_h">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest28"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest28"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1234_k">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest106"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest106"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1233_n">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest93"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest93"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B131__h">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest132"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest132"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B146__a">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest150"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest150"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1461_a">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest148"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest148"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B124__b">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest112"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest112"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1232_i">
+    <div property="rdfs:label" xml:lang="en" content="UniTest74"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest74"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1231_d">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest54"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest54"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B125__b">
+    <div property="reg:name" xml:lang="en" content="UniTest118"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest118"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1231_k">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest61"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest61"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B14501a">
+    <div property="reg:name" xml:lang="en" content="UniTest141"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest141"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B131__g">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest131"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest131"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B131__e">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest129"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest129"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B124__c">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest113"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest113"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1011_j">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest20"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest20"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1231_p">
+    <div property="rdfs:label" xml:lang="en" content="UniTest65"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest65"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1233_d">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest84"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest84"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1232_p">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest80"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest80"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1012_d">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest24"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest24"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1230_i">
+    <div property="reg:name" xml:lang="en" content="UniTest44"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest44"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1230_o">
+    <div property="rdfs:label" xml:lang="en" content="UniTest49"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest49"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1234_m">
+    <div property="rdfs:label" xml:lang="en" content="UniTest107"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest107"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1231_f">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest56"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest56"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B124__e">
+    <div property="rdfs:label" xml:lang="en" content="UniTest115"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest115"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1011_f">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest16"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest16"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1233_i">
+    <div property="rdfs:label" xml:lang="en" content="UniTest89"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest89"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1231_b">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest52"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest52"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1230_b">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest37"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest37"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1233_b">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest82"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest82"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1230_h">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest43"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest43"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B131__i">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest133"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest133"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1234_p">
+    <div property="reg:name" xml:lang="en" content="UniTest110"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest110"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1011_a">
+    <div property="rdfs:label" xml:lang="en" content="UniTest11"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest11"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1234_d">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest99"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest99"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1232_e">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest70"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest70"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B131__k">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest135"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest135"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B141__f">
+    <div property="reg:name" xml:lang="en" content="UniTest140"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest140"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1231_o">
+    <div property="rdfs:label" xml:lang="en" content="UniTest64"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest64"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1233_a">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest81"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest81"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1233_p">
+    <div property="reg:name" xml:lang="en" content="UniTest95"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest95"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1233_j">
+    <div property="reg:name" xml:lang="en" content="UniTest90"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest90"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B128__a">
+    <div property="rdfs:label" xml:lang="en" content="UniTest121"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest121"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1010_e">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest5"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest5"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1232_f">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest71"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest71"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1234_a">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest96"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest96"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1231_a">
+    <div property="reg:name" xml:lang="en" content="UniTest51"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest51"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1231_i">
+    <div property="rdfs:label" xml:lang="en" content="UniTest59"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest59"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1232_d">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest69"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest69"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B102__2">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest31"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest31"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1230_f">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest41"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest41"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1231_e">
+    <div property="reg:name" xml:lang="en" content="UniTest55"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest55"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1232_c">
+    <div property="reg:name" xml:lang="en" content="UniTest68"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest68"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1233_e">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest85"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest85"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1012_f">
+    <div property="rdfs:label" xml:lang="en" content="UniTest26"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest26"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1232_m">
+    <div property="rdfs:label" xml:lang="en" content="UniTest77"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest77"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1234_b">
+    <div property="rdfs:label" xml:lang="en" content="UniTest97"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest97"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1230_k">
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest46"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest46"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B102__a">
+    <div property="reg:name" xml:lang="en" content="UniTest32"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest32"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1232_a">
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="reg:name" xml:lang="en" content="UniTest66"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest66"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1233_k">
+    <div property="reg:name" xml:lang="en" content="UniTest91"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest91"></div>
+  </div>
+  <div typeof="rdf:Property" about="http://iflastandards.info/ns/unimarc/unib/B1233_f">
+    <div property="reg:name" xml:lang="en" content="UniTest86"></div>
+    <div rel="rdfs:isDefinedBy" resource="http://iflastandards.info/ns/unimarc/unib/"></div>
+    <div property="rdfs:label" xml:lang="en" content="UniTest86"></div>
+    <div rel="reg:status" resource="http://metadataregistry.org/uri/RegStatus/1008"></div>
+  </div>
+</div>

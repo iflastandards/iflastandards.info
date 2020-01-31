@@ -1,28 +1,115 @@
-
-<html><head>
-<meta http-equiv="content-type" content="text/html;charset=utf-8">
-<title>503 Over Quota</title>
-<style><!--
-body {font-family: arial,sans-serif}
-div.nav {margin-top: 1ex}
-div.nav A {font-size: 10pt; font-family: arial,sans-serif}
-span.nav {font-size: 10pt; font-family: arial,sans-serif; font-weight: bold}
-div.nav A,span.big {font-size: 12pt; color: #0000cc}
-div.nav A {font-size: 10pt; color: black}
-A.l:link {color: #6f6f6f}
-A.u:link {color: green}
-//--></style>
-
-</head>
-<body text=#000000 bgcolor=#ffffff>
-<table border=0 cellpadding=2 cellspacing=0 width=100%>
-<tr><td bgcolor=#3366cc><font face=arial,sans-serif color=#ffffff><b>Error</b></td></tr>
-<tr><td>&nbsp;</td></tr></table>
-<blockquote>
-<H1>Over Quota</H1>
-This application is temporarily over its serving quota.  Please try again later.
-
-<p>
-</blockquote>
-<table width=100% cellpadding=0 cellspacing=0><tr><td bgcolor=#3366cc><img alt="" width=1 height=4></td></tr></table>
-</body></html>
+<div>
+  <div itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://iflastandards.info/ns/unimarc/terms/vispfv#f" itemscope>
+    <meta itemprop="prefLabel" content="Quadruplex (reel)" />
+    <div itemprop="inScheme" itemtype="http://www.w3.org/2004/02/skos/core#ConceptScheme" itemid="http://iflastandards.info/ns/unimarc/terms/vispfv#" itemscope>
+      <meta itemprop="http://purl.org/dc/elements/1.1/title" content="UNIMARC: Visual projections, etc.: Presentation format - videorecording" />
+    </div>
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/7820" />
+    <meta itemprop="notation" content="f" />
+    <meta itemprop="definition" content="Video system using four recording heads, developed by Ampex in the 1950s." />
+    <div itemprop="http://metadataregistry.org/uri/profile/regap/status" itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://metadataregistry.org/uri/RegStatus/1001" itemscope>
+      <meta itemprop="prefLabel" content="Published" />
+    </div>
+  </div>
+  <div itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://iflastandards.info/ns/unimarc/terms/vispfv#d" itemscope>
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/7818" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+    <meta itemprop="prefLabel" content="EIAJ (reel)" />
+    <link itemprop="inScheme" href="http://iflastandards.info/ns/unimarc/terms/vispfv#" />
+    <meta itemprop="definition" content="The standard ½-inch reel-to-reel helical scan videotape format. Named for the Japanese standards committee (the Electronics Industries Association of Japan) which set the standard for ½ inch video tape recorders manufactured since 1969." />
+    <meta itemprop="notation" content="d" />
+  </div>
+  <div itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://iflastandards.info/ns/unimarc/terms/vispfv#g" itemscope>
+    <meta itemprop="notation" content="g" />
+    <meta itemprop="prefLabel" content="Laser optical (Reflective) videodisc" />
+    <link itemprop="inScheme" href="http://iflastandards.info/ns/unimarc/terms/vispfv#" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/7821" />
+    <meta itemprop="definition" content="A grooveless, smooth round plastic disc with a mirror-like surface, usually 12" in diameter, on both sides of which is stored video information. The disk is read by a weak laser beam. This system became available to the public in 1978 and is currently used in home and industrial applications." />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+  </div>
+  <div itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://iflastandards.info/ns/unimarc/terms/vispfv#b" itemscope>
+    <meta itemprop="definition" content="Home video format developed by Japan Victor Corporation (JVC) and marketed in 1977." />
+    <link itemprop="inScheme" href="http://iflastandards.info/ns/unimarc/terms/vispfv#" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+    <meta itemprop="prefLabel" content="VHS (videocassette)" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/7816" />
+    <meta itemprop="notation" content="b" />
+  </div>
+  <div itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://iflastandards.info/ns/unimarc/terms/vispfv#h" itemscope>
+    <meta itemprop="definition" content="A grooved, plastic disk, usually 12" in diameter, containing information recorded as deep pits in the bottom of the grooves, and played by an electronic stylus. In 1984 RCA, the manufacturer of CED videodisc players, announced its decision to cease production." />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+    <meta itemprop="notation" content="h" />
+    <link itemprop="inScheme" href="http://iflastandards.info/ns/unimarc/terms/vispfv#" />
+    <meta itemprop="prefLabel" content="CED (capacitance electronic disk) videodisc" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/7822" />
+  </div>
+  <div itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://iflastandards.info/ns/unimarc/terms/vispfv#e" itemscope>
+    <link itemprop="inScheme" href="http://iflastandards.info/ns/unimarc/terms/vispfv#" />
+    <meta itemprop="prefLabel" content="Type C (reel)" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/7819" />
+    <meta itemprop="notation" content="e" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+    <meta itemprop="definition" content="Video format using one recording head,  with tape speed at 9.61 inches per second.  This is the broadcast standard in most countries. Type C equipment and technology is made by Sony, RCA, and others." />
+  </div>
+  <div itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://iflastandards.info/ns/unimarc/terms/vispfv#c" itemscope>
+    <link itemprop="inScheme" href="http://iflastandards.info/ns/unimarc/terms/vispfv#" />
+    <meta itemprop="notation" content="c" />
+    <meta itemprop="definition" content="Video format using Sony's trademark name, referring to its tape threading path in a U-shape. Also known as "U type standard"." />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/7817" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+    <meta itemprop="prefLabel" content="U-matic (videocassette)" />
+  </div>
+  <div itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://iflastandards.info/ns/unimarc/terms/vispfv#j" itemscope>
+    <meta itemprop="prefLabel" content="Video8 (videocassette)" />
+    <meta itemprop="definition" content="Home video format." />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/7824" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+    <meta itemprop="notation" content="j" />
+    <link itemprop="inScheme" href="http://iflastandards.info/ns/unimarc/terms/vispfv#" />
+  </div>
+  <div itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://iflastandards.info/ns/unimarc/terms/vispfv#i" itemscope>
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/7823" />
+    <meta itemprop="prefLabel" content="V2000 (videocassette)" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+    <meta itemprop="definition" content="Home video format developed in Europe by Philips since 1980. Reversible." />
+    <meta itemprop="notation" content="i" />
+    <link itemprop="inScheme" href="http://iflastandards.info/ns/unimarc/terms/vispfv#" />
+  </div>
+  <div itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://iflastandards.info/ns/unimarc/terms/vispfv#x" itemscope>
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/7827" />
+    <link itemprop="inScheme" href="http://iflastandards.info/ns/unimarc/terms/vispfv#" />
+    <meta itemprop="notation" content="x" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+    <meta itemprop="prefLabel" content="not a videorecording" />
+  </div>
+  <div itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://iflastandards.info/ns/unimarc/terms/vispfv#u" itemscope>
+    <meta itemprop="prefLabel" content="unknown" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+    <link itemprop="inScheme" href="http://iflastandards.info/ns/unimarc/terms/vispfv#" />
+    <meta itemprop="notation" content="u" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/7826" />
+  </div>
+  <div itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://iflastandards.info/ns/unimarc/terms/vispfv#z" itemscope>
+    <link itemprop="inScheme" href="http://iflastandards.info/ns/unimarc/terms/vispfv#" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/7828" />
+    <meta itemprop="prefLabel" content="other" />
+    <meta itemprop="notation" content="z" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+  </div>
+  <div itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://iflastandards.info/ns/unimarc/terms/vispfv#a" itemscope>
+    <meta itemprop="definition" content="Home video format introduced in 1975 by Sony Corporation." />
+    <meta itemprop="prefLabel" content="Beta (videocassette)" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+    <meta itemprop="notation" content="a" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/7815" />
+    <link itemprop="inScheme" href="http://iflastandards.info/ns/unimarc/terms/vispfv#" />
+  </div>
+  <div itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://iflastandards.info/ns/unimarc/terms/vispfv#k" itemscope>
+    <meta itemprop="notation" content="k" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/7825" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/status" href="http://metadataregistry.org/uri/RegStatus/1001" />
+    <meta itemprop="definition" content="Digital Versatile Disc." />
+    <meta itemprop="prefLabel" content="DVD-Video" />
+    <link itemprop="inScheme" href="http://iflastandards.info/ns/unimarc/terms/vispfv#" />
+  </div>
+</div>

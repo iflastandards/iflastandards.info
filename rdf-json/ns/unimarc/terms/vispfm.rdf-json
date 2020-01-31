@@ -1,28 +1,391 @@
-
-<html><head>
-<meta http-equiv="content-type" content="text/html;charset=utf-8">
-<title>503 Over Quota</title>
-<style><!--
-body {font-family: arial,sans-serif}
-div.nav {margin-top: 1ex}
-div.nav A {font-size: 10pt; font-family: arial,sans-serif}
-span.nav {font-size: 10pt; font-family: arial,sans-serif; font-weight: bold}
-div.nav A,span.big {font-size: 12pt; color: #0000cc}
-div.nav A {font-size: 10pt; color: black}
-A.l:link {color: #6f6f6f}
-A.u:link {color: green}
-//--></style>
-
-</head>
-<body text=#000000 bgcolor=#ffffff>
-<table border=0 cellpadding=2 cellspacing=0 width=100%>
-<tr><td bgcolor=#3366cc><font face=arial,sans-serif color=#ffffff><b>Error</b></td></tr>
-<tr><td>&nbsp;</td></tr></table>
-<blockquote>
-<H1>Over Quota</H1>
-This application is temporarily over its serving quota.  Please try again later.
-
-<p>
-</blockquote>
-<table width=100% cellpadding=0 cellspacing=0><tr><td bgcolor=#3366cc><img alt="" width=1 height=4></td></tr></table>
-</body></html>
+{
+  "http://iflastandards.info/ns/unimarc/terms/vispfm#e": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "standard silent aperture"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "e"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/7803"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/unimarc/terms/vispfm#"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/unimarc/terms/vispfm#d": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "anamorphic (wide screen)"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "d"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/7802"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/unimarc/terms/vispfm#"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/unimarc/terms/vispfm#f": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "other wide screen format"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "f"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/7804"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/unimarc/terms/vispfm#"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/unimarc/terms/vispfm#a": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "standard sound aperture (reduced format)"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "a"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/7799"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/unimarc/terms/vispfm#"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/unimarc/terms/vispfm#c": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "3D"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "c"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/7801"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/unimarc/terms/vispfm#"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/unimarc/terms/vispfm#b": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "non-anamorphic (wide screen)"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "b"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/7800"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/unimarc/terms/vispfm#"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/unimarc/terms/vispfm#": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+      }
+    ], 
+    "http://purl.org/dc/elements/1.1/title": [
+      {
+        "type": "literal", 
+        "value": "UNIMARC: Visual projections, etc.: Presentation format - motion picture"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/unimarc/terms/vispfm#u": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "unknown"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "u"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/7806"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/unimarc/terms/vispfm#"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ]
+  }, 
+  "http://metadataregistry.org/uri/RegStatus/1001": {
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Published"
+      }
+    ], 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/unimarc/terms/vispfm#x": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "not a motion picture"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "x"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/7805"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/unimarc/terms/vispfm#"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/unimarc/terms/vispfm#z": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "other"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "z"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/identifier": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/concepts/7807"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/unimarc/terms/vispfm#"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ]
+  }
+}
