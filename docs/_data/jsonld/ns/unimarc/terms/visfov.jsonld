@@ -1,0 +1,126 @@
+{
+    "@context": "http://iflastandards.info/ns/unimarc/terms/Contexts/concepts_langmap.jsonld",
+    "@graph": [
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/visfov#",
+            "@type": "ConceptScheme",
+            "title": {
+                "en": "UNIMARC: Visual projections, etc.: Form of release - videorecording"
+            },
+            "description": {
+                "en": ""
+            },
+            "prefix": "",
+            "token": "visfov",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "label": "Published"
+            },
+            "omr_api": "http://api.metadataregistry.org/vocabularies/412",
+            "omr_home": "http://metadataregistry.org/vocabularies/412",
+            "count": 7,
+            "languages": [
+                {
+                    "code": "en",
+                    "lang": "English",
+                    "version": "UNIMARC 1.0"
+                }
+            ],
+            "dateOfPublication": "January 31, 2020"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/visfov#a",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7808",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/visfov#",
+            "notation": {
+                "en": "a"
+            },
+            "prefLabel": {
+                "en": "videocartridge"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/visfov#b",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7809",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/visfov#",
+            "notation": {
+                "en": "b"
+            },
+            "prefLabel": {
+                "en": "videodisc"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/visfov#c",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7810",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/visfov#",
+            "notation": {
+                "en": "c"
+            },
+            "prefLabel": {
+                "en": "videocassette"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/visfov#d",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7811",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/visfov#",
+            "notation": {
+                "en": "d"
+            },
+            "prefLabel": {
+                "en": "videoreel"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/visfov#e",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7812",
+            "definition": {
+                "en": "An obsolete form of video recording on 16mm film."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/visfov#",
+            "notation": {
+                "en": "e"
+            },
+            "prefLabel": {
+                "en": "electronic videorecording (EVR)"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/visfov#x",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7813",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/visfov#",
+            "notation": {
+                "en": "x"
+            },
+            "prefLabel": {
+                "en": "not a videorecording"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/visfov#z",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7814",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/visfov#",
+            "notation": {
+                "en": "z"
+            },
+            "prefLabel": {
+                "en": "other videotype"
+            },
+            "status": "Published"
+        }
+    ]
+}

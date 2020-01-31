@@ -1,0 +1,320 @@
+{
+    "@context": "http://iflastandards.info/ns/unimarc/terms/Contexts/concepts_langmap.jsonld",
+    "@graph": [
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/continuingfreq#",
+            "@type": "ConceptScheme",
+            "title": {
+                "en": "UNIMARC: Continuing resources: Frequency of issue"
+            },
+            "description": {
+                "en": "The frequency of a  serial or continuing resource."
+            },
+            "prefix": "",
+            "token": "continuingfreq",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "label": "Published"
+            },
+            "omr_api": "http://api.metadataregistry.org/vocabularies/324",
+            "omr_home": "http://metadataregistry.org/vocabularies/324",
+            "count": 19,
+            "languages": [
+                {
+                    "code": "en",
+                    "lang": "English",
+                    "version": "UNIMARC 1.0"
+                }
+            ],
+            "dateOfPublication": "January 31, 2020"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/continuingfreq#a",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6366",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/continuingfreq#",
+            "notation": {
+                "en": "a"
+            },
+            "prefLabel": {
+                "en": "daily",
+                "pt": "diária",
+                "it": "giornaliera"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/continuingfreq#b",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6367",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/continuingfreq#",
+            "notation": {
+                "en": "b"
+            },
+            "prefLabel": {
+                "en": "semiweekly (twice a week)",
+                "pt": "bissemanal (duas vezes por semana)",
+                "it": "semisettimanale (due volte a settimana)"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/continuingfreq#c",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6368",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/continuingfreq#",
+            "notation": {
+                "en": "c"
+            },
+            "prefLabel": {
+                "en": "weekly",
+                "pt": "semanal",
+                "it": "settimanale"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/continuingfreq#d",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6369",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/continuingfreq#",
+            "notation": {
+                "en": "d"
+            },
+            "prefLabel": {
+                "en": "biweekly (every two weeks)",
+                "pt": "quinzenal (de duas em duas semanas)",
+                "it": "bisettimanale (ogni due settimane)"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/continuingfreq#e",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6370",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/continuingfreq#",
+            "notation": {
+                "en": "e"
+            },
+            "prefLabel": {
+                "en": "semimonthly (twice a month)",
+                "pt": "bimensal (duas vezes por mês)",
+                "it": "quindicinale (due volte al mese)"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/continuingfreq#f",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6371",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/continuingfreq#",
+            "notation": {
+                "en": "f"
+            },
+            "prefLabel": {
+                "en": "monthly",
+                "pt": "mensal",
+                "it": "mensile"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/continuingfreq#g",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6372",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/continuingfreq#",
+            "notation": {
+                "en": "g"
+            },
+            "prefLabel": {
+                "en": "bimonthly (every two months)",
+                "pt": "bimestral (de dois em dois meses)",
+                "it": "bimestrale (ogni due mesi)"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/continuingfreq#h",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6373",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/continuingfreq#",
+            "notation": {
+                "en": "h"
+            },
+            "prefLabel": {
+                "en": "quarterly",
+                "pt": "trimestral",
+                "it": "trimestrale"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/continuingfreq#i",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6374",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/continuingfreq#",
+            "notation": {
+                "en": "i"
+            },
+            "prefLabel": {
+                "en": "three times a year",
+                "pt": "quadrimestral (três vezes por ano)",
+                "it": "tre volte all'anno"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/continuingfreq#j",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6375",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/continuingfreq#",
+            "notation": {
+                "en": "j"
+            },
+            "prefLabel": {
+                "en": "semiannual (twice a year)",
+                "pt": "semestral (duas vezes por ano)",
+                "it": "semiannuale (due volte all'anno)"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/continuingfreq#k",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6376",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/continuingfreq#",
+            "notation": {
+                "en": "k"
+            },
+            "prefLabel": {
+                "en": "annual",
+                "pt": "anual",
+                "it": "annuale"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/continuingfreq#l",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6377",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/continuingfreq#",
+            "notation": {
+                "en": "l"
+            },
+            "prefLabel": {
+                "en": "biennial (every two years)",
+                "pt": "bienal (de dois em dois anos)",
+                "it": "biennale (ogni due anni)"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/continuingfreq#m",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6378",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/continuingfreq#",
+            "note": {
+                "en": "m"
+            },
+            "prefLabel": {
+                "en": "triennial (every three years)",
+                "pt": "trienal (de três em três anos)",
+                "it": "triennale (ogni tre anni)"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/continuingfreq#n",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6379",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/continuingfreq#",
+            "notation": {
+                "en": "n"
+            },
+            "prefLabel": {
+                "en": "three times a week",
+                "it": "tre volte a settimana",
+                "pt": "três vezes por semana"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/continuingfreq#o",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6380",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/continuingfreq#",
+            "notation": {
+                "en": "o"
+            },
+            "prefLabel": {
+                "en": "three times a month",
+                "pt": "três vezes por mês",
+                "it": "tre volte al mese"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/continuingfreq#p",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6381",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/continuingfreq#",
+            "notation": {
+                "en": "p"
+            },
+            "prefLabel": {
+                "en": "continuously updated",
+                "pt": "em actualização permanente",
+                "it": "continuamente aggiornato"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/continuingfreq#u",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6382",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/continuingfreq#",
+            "notation": {
+                "en": "u"
+            },
+            "prefLabel": {
+                "en": "unknown",
+                "pt": "desconhecida",
+                "it": "sconosciuto"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/continuingfreq#y",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6383",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/continuingfreq#",
+            "notation": {
+                "en": "y"
+            },
+            "prefLabel": {
+                "en": "no frequency (i.e. irregular)",
+                "pt": "sem periodicidade (i.é, irregular)",
+                "it": "nessuna frequenza (irregolare)"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/continuingfreq#z",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6384",
+            "definition": {
+                "en": "Frequency of issue other than daily, semiweekly (twice a week), three times a week, weekly, biweekly (every two weeks), semimonthly (twice a month), three times a month, monthly, bimonthly (every two months), quarterly, three times a year, semiannual (twice a year), annual, biennial (every two years), triennial (every three years), continuously updated, no frequency (i.e. irregular)."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/continuingfreq#",
+            "notation": {
+                "en": "z"
+            },
+            "prefLabel": {
+                "en": "other",
+                "pt": "outra",
+                "it": "altro"
+            },
+            "status": "Published"
+        }
+    ]
+}

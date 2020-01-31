@@ -1,0 +1,175 @@
+{
+    "@context": "http://iflastandards.info/ns/unimarc/terms/Contexts/concepts_langmap.jsonld",
+    "@graph": [
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/elecsmd#",
+            "@type": "ConceptScheme",
+            "title": {
+                "en": "UNIMARC: Electronic resources: Specific material designation"
+            },
+            "description": {
+                "en": "The type of data carrier."
+            },
+            "prefix": "",
+            "token": "elecsmd",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "label": "Published"
+            },
+            "omr_api": "http://api.metadataregistry.org/vocabularies/335",
+            "omr_home": "http://metadataregistry.org/vocabularies/335",
+            "count": 11,
+            "languages": [
+                {
+                    "code": "en",
+                    "lang": "English",
+                    "version": "Release 1"
+                }
+            ],
+            "dateOfPublication": "January 31, 2020"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/elecsmd#a",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6472",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/elecsmd#",
+            "notation": {
+                "en": "a"
+            },
+            "prefLabel": {
+                "en": "cartridge magnetic tape"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/elecsmd#b",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6473",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/elecsmd#",
+            "notation": {
+                "en": "b"
+            },
+            "prefLabel": {
+                "en": "computer chip in cartridge"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/elecsmd#c",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6474",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/elecsmd#",
+            "notation": {
+                "en": "c"
+            },
+            "prefLabel": {
+                "en": "computer optical disc cartridge"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/elecsmd#f",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6475",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/elecsmd#",
+            "notation": {
+                "en": "f"
+            },
+            "prefLabel": {
+                "en": "computer magnetic cassette tape"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/elecsmd#h",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6476",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/elecsmd#",
+            "notation": {
+                "en": "h"
+            },
+            "prefLabel": {
+                "en": "magnetic tape for main-frame computers"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/elecsmd#j",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6477",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/elecsmd#",
+            "notation": {
+                "en": "j"
+            },
+            "prefLabel": {
+                "en": "computer floppy disk"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/elecsmd#m",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6478",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/elecsmd#",
+            "notation": {
+                "en": "m"
+            },
+            "prefLabel": {
+                "en": "computer magneto-optical disk"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/elecsmd#o",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6479",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/elecsmd#",
+            "notation": {
+                "en": "o"
+            },
+            "prefLabel": {
+                "en": "computer optical disk"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/elecsmd#r",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6480",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/elecsmd#",
+            "notation": {
+                "en": "r"
+            },
+            "prefLabel": {
+                "en": "online system"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/elecsmd#u",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6481",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/elecsmd#",
+            "notation": {
+                "en": "u"
+            },
+            "prefLabel": {
+                "en": "unknown"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/elecsmd#z",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6482",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/elecsmd#",
+            "notation": {
+                "en": "z"
+            },
+            "prefLabel": {
+                "en": "other"
+            },
+            "status": "Published"
+        }
+    ]
+}

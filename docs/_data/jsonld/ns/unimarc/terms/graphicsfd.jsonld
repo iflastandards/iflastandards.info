@@ -1,0 +1,360 @@
+{
+    "@context": "http://iflastandards.info/ns/unimarc/terms/Contexts/concepts_langmap.jsonld",
+    "@graph": [
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicsfd#",
+            "@type": "ConceptScheme",
+            "title": {
+                "en": "UNIMARC: Graphics: Functional designation"
+            },
+            "description": {
+                "en": "The functional form of the graphics item."
+            },
+            "prefix": "",
+            "token": "graphicsfd",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "label": "Published"
+            },
+            "omr_api": "http://api.metadataregistry.org/vocabularies/323",
+            "omr_home": "http://metadataregistry.org/vocabularies/323",
+            "count": 18,
+            "languages": [
+                {
+                    "code": "en",
+                    "lang": "English",
+                    "version": "UNIMARC 1.0"
+                }
+            ],
+            "dateOfPublication": "January 31, 2020"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicsfd#aa",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6348",
+            "definition": {
+                "en": "Graphic delineation made for the design and construction (or documentation of design and construction) of sites, structures, buildings, details, fixtures, furnishings, and decorations, as well as other objects designed by an architect or architectural office."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicsfd#",
+            "notation": {
+                "en": "aa"
+            },
+            "prefLabel": {
+                "en": "architectural drawing",
+                "it": "disegno architettonico",
+                "pt": "desenho de arquitectura"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicsfd#ab",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6349",
+            "definition": {
+                "en": "Cover forming the binding or outer enclosure of an item, i.e. hardback or paperback book covers, record sleeves, etc."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicsfd#",
+            "notation": {
+                "en": "ab"
+            },
+            "prefLabel": {
+                "en": "item cover",
+                "pt": "material de protecção",
+                "it": "copertina del documento"
+            },
+            "scopeNote": {
+                "en": "Covers may be detached or attached to the item."
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicsfd#ac",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6350",
+            "definition": {
+                "en": "Message or design on slips of paper that are gummed or otherwise treated to adhere to a surface."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicsfd#",
+            "notation": {
+                "en": "ac"
+            },
+            "prefLabel": {
+                "en": "sticker",
+                "pt": "etiquetas colantes",
+                "it": "sticker"
+            },
+            "scopeNote": {
+                "en": "Also included book owners' identification labels (ex libris); usually intended for attaching inside a book. Book plates may be attached or detached."
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicsfd#ad",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6351",
+            "definition": {
+                "en": "Single or multi-sheet chiefly pictorial notice made for posting, usually in a public place, to attract attention to events, activities, causes, goods, or services."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicsfd#",
+            "notation": {
+                "en": "ad"
+            },
+            "prefLabel": {
+                "en": "poster",
+                "pt": "cartaz",
+                "it": "poster"
+            },
+            "scopeNote": {
+                "en": "The purely decorative posters made since about 1960 are included."
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicsfd#ae",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6352",
+            "definition": {
+                "en": "Card with a graphic scene on one side, on which a message may be written or printed for mailing without an envelope."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicsfd#",
+            "notation": {
+                "en": "ae"
+            },
+            "prefLabel": {
+                "en": "postcard",
+                "pt": "postal",
+                "it": "cartolina"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicsfd#af",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6353",
+            "definition": {
+                "en": "Card sent or given on special occasions; usually bearing messages of good will."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicsfd#",
+            "notation": {
+                "en": "af"
+            },
+            "prefLabel": {
+                "en": "greetings card",
+                "pt": "cartão de felicitações",
+                "it": "diglietto di auguri"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicsfd#ag",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6354",
+            "definition": {
+                "en": "An opaque sheet that exhibits information in a graphic or tabular form."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicsfd#",
+            "notation": {
+                "en": "ag"
+            },
+            "prefLabel": {
+                "en": "chart",
+                "pt": "diagrama",
+                "it": "diagramma"
+            },
+            "scopeNote": {
+                "en": "E.g. a wall chart."
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicsfd#ah",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6355",
+            "definition": {
+                "en": "Cards made in sets of a designated number of cards and marked for use in playing one or more games or telling fortunes; marks may follow a standard suit and rank system or may be special designs."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicsfd#",
+            "notation": {
+                "en": "ah"
+            },
+            "prefLabel": {
+                "en": "playing cards",
+                "pt": "cartas de jogar",
+                "it": "carte da gioco"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicsfd#ai",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6356",
+            "definition": {
+                "en": "A card or other opaque material printed with words, numerals, or pictures and designed for rapid display."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicsfd#",
+            "notation": {
+                "en": "ai"
+            },
+            "prefLabel": {
+                "en": "flash card",
+                "pt": "ficha de visualização rápida",
+                "it": "flash card"
+            },
+            "scopeNote": {
+                "en": "Activity cards are included here."
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicsfd#aj",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6357",
+            "definition": {
+                "en": "Transient everyday items, usually printed and on paper, that are manufactured for a specific limited use, then often thrown away."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicsfd#",
+            "notation": {
+                "en": "aj"
+            },
+            "prefLabel": {
+                "en": "ephemera",
+                "pt": "ephemera ",
+                "it": "ephemera"
+            },
+            "scopeNote": {
+                "en": "Also included everyday items that are meant to be saved, at least for a while."
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicsfd#ak",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6358",
+            "definition": {
+                "en": "A picture, design, engraving or other graphic image printed with or inserted in the text of a book or other publication used to complement or clarify the content of the text."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicsfd#",
+            "notation": {
+                "en": "ak"
+            },
+            "prefLabel": {
+                "en": "illustration"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicsfd#an",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6359",
+            "definition": {
+                "en": "A table showing the months, days, of the week, and dates of a given year."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicsfd#",
+            "notation": {
+                "en": "an"
+            },
+            "prefLabel": {
+                "en": "calendar",
+                "pt": "calendário",
+                "it": "calendario"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicsfd#as",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6360",
+            "definition": {
+                "en": "Decorated card that marks a place reserved for occupancy."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicsfd#",
+            "notation": {
+                "en": "as"
+            },
+            "prefLabel": {
+                "en": "place card",
+                "pt": "marcador de lugar",
+                "it": "biglietti segnaposto"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicsfd#au",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6361",
+            "definition": {
+                "en": "Printed card which has, on one side, the picture of a holy or sacred subject and, on the other side a prayer or an appeal formula."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicsfd#",
+            "notation": {
+                "en": "au"
+            },
+            "prefLabel": {
+                "en": "santino",
+                "pt": "santinho",
+                "it": "santino"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicsfd#uu",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6362",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicsfd#",
+            "notation": {
+                "en": "uu"
+            },
+            "prefLabel": {
+                "en": "unknown",
+                "pt": "desconhecido",
+                "it": "sconosciuto"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicsfd#vv",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6363",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicsfd#",
+            "notation": {
+                "en": "vv"
+            },
+            "prefLabel": {
+                "en": "mixed",
+                "pt": "misto",
+                "it": "composito"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicsfd#xx",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6364",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicsfd#",
+            "notation": {
+                "en": "xx"
+            },
+            "prefLabel": {
+                "en": "not applicable",
+                "pt": "não aplicável",
+                "it": "non applicabile"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/graphicsfd#zz",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6365",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/graphicsfd#",
+            "notation": {
+                "en": "zz"
+            },
+            "prefLabel": {
+                "en": "other",
+                "pt": "outro",
+                "it": "altro"
+            },
+            "status": "Published"
+        }
+    ]
+}

@@ -1,0 +1,255 @@
+{
+    "@context": "http://iflastandards.info/ns/isbd/terms/contentqualification/Contexts/concepts_langmap.jsonld",
+    "@graph": [
+        {
+            "@id": "http://iflastandards.info/ns/isbd/terms/contentqualification/sensoryspecfication",
+            "@type": "ConceptScheme",
+            "title": {
+                "en": "ISBD Content Qualification of Sensory Specification"
+            },
+            "description": {
+                "en": "Content qualification sub-categories for sensory specification, a human sense through which the content of a resource as published is intended to be perceived, which expand content form categories."
+            },
+            "prefix": "",
+            "token": "sensoryspecfication",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "label": "Published"
+            },
+            "omr_api": "http://api.metadataregistry.org/vocabularies/118",
+            "omr_home": "http://metadataregistry.org/vocabularies/118",
+            "count": 5,
+            "languages": [
+                {
+                    "code": "bg",
+                    "lang": "Bulgarian",
+                    "version": "Release 1"
+                },
+                {
+                    "code": "en",
+                    "lang": "English",
+                    "version": "Release 1"
+                },
+                {
+                    "code": "fr",
+                    "lang": "French",
+                    "version": "Release 1"
+                },
+                {
+                    "code": "hr",
+                    "lang": "Croatian",
+                    "version": "Release 1"
+                },
+                {
+                    "code": "it",
+                    "lang": "Italian",
+                    "version": "Release 1"
+                },
+                {
+                    "code": "lv",
+                    "lang": "Latvian",
+                    "version": "Release 1"
+                },
+                {
+                    "code": "ru",
+                    "lang": "Russian",
+                    "version": "Release 1"
+                },
+                {
+                    "code": "zh",
+                    "lang": "Chinese",
+                    "version": "Release 1"
+                }
+            ],
+            "dateOfPublication": "January 31, 2020"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/isbd/terms/contentqualification/sensoryspecfication/T1001",
+            "@type": "Concept",
+            "altLabel": {
+                "es": [
+                    "auditivo",
+                    "auditiva"
+                ],
+                "hr": [
+                    "slušni",
+                    "slušna"
+                ],
+                "fr": [
+                    "auditif",
+                    "auditive"
+                ]
+            },
+            "api": "http://api.metadataregistry.org/concepts/1227",
+            "definition": {
+                "en": "Content that is intended to be perceived through hearing.",
+                "es": "Contenido para que se perciba a través de la audición.",
+                "it": "Un contenuto che è destinato ad essere percepito tramite l’udito.",
+                "bg": "съдържание, предназначено да се възприема със слух.",
+                "ru": "Содержание, предназначенное для восприятия с помощью слуха.",
+                "zh": "设计通过听力被感知的内容。",
+                "lv": "Ar dzirdi uztverams saturs.",
+                "fr": "Contenu prévu pour être perçu par le sens de l’ouïe."
+            },
+            "inScheme": "http://iflastandards.info/ns/isbd/terms/contentqualification/sensoryspecfication",
+            "prefLabel": {
+                "en": "aural",
+                "it": "uditivo",
+                "bg": "слухов",
+                "ru": "слуховой",
+                "zh": "听觉",
+                "lv": "dzirdes"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/isbd/terms/contentqualification/sensoryspecfication/T1002",
+            "@type": "Concept",
+            "altLabel": {
+                "es": [
+                    "gustativo",
+                    "gustativa"
+                ],
+                "hr": [
+                    "gustativni",
+                    "gustativna"
+                ],
+                "fr": [
+                    "gustatif",
+                    "gustative"
+                ]
+            },
+            "api": "http://api.metadataregistry.org/concepts/1228",
+            "definition": {
+                "en": "Content that is intended to be perceived through taste.",
+                "es": "Contenido para que se perciba a través del gusto.",
+                "it": "Un contenuto che è destinato ad essere percepito tramite il gusto.",
+                "bg": "съдържание, предназначено да се възприема с вкус.",
+                "ru": "Содержание, предназначенное для восприятия с помощью вкуса.",
+                "zh": "设计通过味道被感知的内容。",
+                "lv": "Ar garšu uztverams saturs.",
+                "fr": "Contenu prévu pour être perçu par le sens du goût."
+            },
+            "inScheme": "http://iflastandards.info/ns/isbd/terms/contentqualification/sensoryspecfication",
+            "prefLabel": {
+                "en": "gustatory",
+                "it": "gustativo",
+                "bg": "вкусов",
+                "ru": "вкусовой",
+                "zh": "味觉",
+                "lv": "garšas"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/isbd/terms/contentqualification/sensoryspecfication/T1003",
+            "@type": "Concept",
+            "altLabel": {
+                "es": [
+                    "olfativo",
+                    "olfativa"
+                ],
+                "hr": [
+                    "olfaktivni",
+                    "olfaktivna"
+                ],
+                "fr": [
+                    "olfactif",
+                    "olfactive"
+                ]
+            },
+            "api": "http://api.metadataregistry.org/concepts/1229",
+            "definition": {
+                "es": "Contenido para que se perciba a través del olfato.",
+                "it": "Un contenuto che è destinato ad essere percepito tramite l’olfatto.",
+                "bg": "съдържание, предназначено да се възприема с обоняние.",
+                "ru": "Содержание, предназначенное для восприятия с помощью обоняния.",
+                "zh": "设计通过气味被感知的内容。",
+                "lv": "Ar ožu uztverams saturs.",
+                "fr": "Contenu prévu pour être perçu par le sens de l’odorat."
+            },
+            "inScheme": "http://iflastandards.info/ns/isbd/terms/contentqualification/sensoryspecfication",
+            "prefLabel": {
+                "en": [
+                    "olfactory",
+                    "Content that is intended to be perceived through smell."
+                ],
+                "it": "olfattivo",
+                "bg": "обонятелен",
+                "ru": "обонятельный",
+                "zh": "嗅觉",
+                "lv": "ožas"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/isbd/terms/contentqualification/sensoryspecfication/T1004",
+            "@type": "Concept",
+            "altLabel": {
+                "hr": [
+                    "taktilni",
+                    "taktilna"
+                ]
+            },
+            "api": "http://api.metadataregistry.org/concepts/1230",
+            "definition": {
+                "en": "Content that is intended to be perceived through touch.",
+                "es": "Contenido para que se perciba a través del tacto.",
+                "it": "Un contenuto che è destinato ad essere percepito tramite il tatto.",
+                "bg": "съдържание, предназначено да се възприема с осезание.",
+                "ru": "Содержание, предназначенное для восприятия с помощью осязания.",
+                "zh": "设计通过接触被感知的内容。",
+                "lv": "Ar tausti uztverams saturs.",
+                "fr": "Contenu prévu pour être perçu par le sens du toucher."
+            },
+            "inScheme": "http://iflastandards.info/ns/isbd/terms/contentqualification/sensoryspecfication",
+            "prefLabel": {
+                "en": "tactile",
+                "es": "táctil",
+                "it": "tattile",
+                "bg": "тактилен",
+                "ru": "тактильный",
+                "zh": "触觉",
+                "lv": "taustes",
+                "fr": "tactile"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/isbd/terms/contentqualification/sensoryspecfication/T1005",
+            "@type": "Concept",
+            "altLabel": {
+                "hr": [
+                    "vizualni",
+                    "vizualna"
+                ],
+                "fr": [
+                    "visuel",
+                    "visuelle"
+                ]
+            },
+            "api": "http://api.metadataregistry.org/concepts/1231",
+            "definition": {
+                "en": "Content that is intended to be perceived through sight.",
+                "es": "Contenido para que se perciba a través de la vista.",
+                "it": "Un contenuto che è destinato ad essere percepito tramite la vista.",
+                "bg": "съдържание, предназначено да се възприема със зрение.",
+                "ru": "Содержание, предназначенное для восприятия с помощью зрения.",
+                "zh": "设计通过视力被感知的内容。",
+                "lv": "Ar redzi uztverams saturs.",
+                "fr": "Contenu prévu pour être perçu par le sens de la vue."
+            },
+            "inScheme": "http://iflastandards.info/ns/isbd/terms/contentqualification/sensoryspecfication",
+            "prefLabel": {
+                "en": "visual",
+                "es": "visual",
+                "it": "visivo",
+                "bg": "визуален",
+                "ru": "визуальный",
+                "zh": "视觉",
+                "lv": "redzes"
+            },
+            "status": "Published"
+        }
+    ]
+}

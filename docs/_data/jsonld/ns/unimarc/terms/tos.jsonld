@@ -1,0 +1,482 @@
+{
+    "@context": "http://iflastandards.info/ns/unimarc/terms/Contexts/concepts_langmap.jsonld",
+    "@graph": [
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/tos#",
+            "@type": "ConceptScheme",
+            "title": {
+                "en": "UNIMARC: Format of notated music: Type of score"
+            },
+            "description": {
+                "en": "The type of music score."
+            },
+            "prefix": "",
+            "token": "tos",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "label": "Published"
+            },
+            "omr_api": "http://api.metadataregistry.org/vocabularies/334",
+            "omr_home": "http://metadataregistry.org/vocabularies/334",
+            "count": 19,
+            "languages": [
+                {
+                    "code": "en",
+                    "lang": "English",
+                    "version": "Release 1"
+                }
+            ],
+            "dateOfPublication": "January 31, 2020"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/tos#a",
+            "@type": "Concept",
+            "altLabel": {
+                "en": [
+                    "score",
+                    "performance score",
+                    "playing score"
+                ],
+                "fr": [
+                    "partition",
+                    "partition d’orchestre",
+                    "grande partition"
+                ],
+                "de": [
+                    "Partitur",
+                    "Orchesterpartitur",
+                    "Spielpartitur"
+                ],
+                "it": [
+                    "partitura",
+                    "parte con guida"
+                ],
+                "es": "Partitura",
+                "hu": [
+                    "partitúra",
+                    "vezérkönyv"
+                ],
+                "ru": [
+                    "партитура",
+                    "partitura"
+                ]
+            },
+            "api": "http://api.metadataregistry.org/concepts/6453",
+            "definition": {
+                "en": "Score format consisting of a series of staves on which all the instrumental and/or vocal parts of a musical work are written, one under the other in vertical alignment, so that they can be read simultaneously"
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/tos#",
+            "notation": {
+                "en": "a"
+            },
+            "prefLabel": {
+                "en": "full score"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/tos#b",
+            "@type": "Concept",
+            "altLabel": {
+                "en": [
+                    "pocket score",
+                    "study score",
+                    "miniature score"
+                ],
+                "fr": [
+                    "partition de travail",
+                    "partition de poche",
+                    "partition miniature",
+                    "petite partition"
+                ],
+                "de": [
+                    "Studienpartitur",
+                    "Taschenpartitur",
+                    "kleine Partitur"
+                ],
+                "it": [
+                    "partiturina",
+                    "partitura tascabile"
+                ],
+                "es": "partitura de bolsillo",
+                "hu": "Zsebpartitúra",
+                "ru": [
+                    "карманная партитура",
+                    "karmannaja partitura"
+                ]
+            },
+            "api": "http://api.metadataregistry.org/concepts/6454",
+            "definition": {
+                "en": "A musical score not primarily intended for performance use, with the notation and/or text reduced in size."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/tos#",
+            "notation": {
+                "en": "b"
+            },
+            "prefLabel": {
+                "en": "score (miniature or study size)"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/tos#c",
+            "@type": "Concept",
+            "altLabel": {
+                "en": "chorus score",
+                "fr": [
+                    "partition chant et piano",
+                    "partition vocale"
+                ],
+                "de": [
+                    "Klavierauszug",
+                    "Sparte"
+                ],
+                "it": "Spartito",
+                "es": "partitura vocal"
+            },
+            "api": "http://api.metadataregistry.org/concepts/6455",
+            "definition": {
+                "en": "Score where accompaniment is reduced for keyboard instrument(s), and the voice and/or instrumental solo part(s) remain unaltered."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/tos#",
+            "notation": {
+                "en": "c"
+            },
+            "prefLabel": {
+                "en": "vocal score, accompaniment reduced for keyboard"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/tos#d",
+            "@type": "Concept",
+            "altLabel": {
+                "en": "choral score",
+                "fr": "partition des chœurs",
+                "de": [
+                    "Singpartitur",
+                    "Chorpartitur"
+                ],
+                "it": "partitura vocale",
+                "es": "partitura de coro",
+                "hu": [
+                    "kóruspartitúra",
+                    "karpartitúra"
+                ],
+                "ru": [
+                    "хоровая партитура",
+                    "horovaja partitura"
+                ]
+            },
+            "api": "http://api.metadataregistry.org/concepts/6456",
+            "definition": {
+                "en": "Score where the accompaniment to vocal or choral parts has been omitted and only the voice parts remain."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/tos#",
+            "notation": {
+                "en": "d"
+            },
+            "prefLabel": {
+                "en": "voice score, chorus score, accompaniment has been dropped"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/tos#e",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6457",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/tos#",
+            "prefLabel": {
+                "en": "condensed score, piano conductor score"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/tos#f",
+            "@type": "Concept",
+            "altLabel": {
+                "en": "conductor score",
+                "fr": "partition condensée",
+                "de": [
+                    "Direktion",
+                    "Direktionsstimme",
+                    "Klavierpartitur"
+                ],
+                "it": [
+                    "partitura condensata",
+                    "parte di conduttore"
+                ],
+                "es": [
+                    "partitura guión",
+                    "particela de director"
+                ]
+            },
+            "api": "http://api.metadataregistry.org/concepts/6458",
+            "definition": {
+                "en": "Score format presenting only the principal musical parts on a minimum number of staves, and generally organized by instrumental sections. A conductor score is a performance part for a particular instrument of an ensemble work to which cues have been added for the other instruments to permit the performer of the part also to conduct the performance."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/tos#",
+            "notation": {
+                "en": "f"
+            },
+            "prefLabel": {
+                "en": "graphic score",
+                "fr": "partition conducteur"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/tos#g",
+            "@type": "Concept",
+            "altLabel": {
+                "en": "short score",
+                "fr": "partition réduite",
+                "it": "partitura ristretta",
+                "es": "partitura reducida"
+            },
+            "api": "http://api.metadataregistry.org/concepts/6459",
+            "definition": {
+                "en": "Score format giving all the parts on a minimum number of staves, normally two, as with hymnals."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/tos#",
+            "notation": {
+                "en": "g"
+            },
+            "prefLabel": {
+                "en": "close score"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/tos#h",
+            "@type": "Concept",
+            "altLabel": {
+                "en": "finger notation",
+                "fr": "tablature",
+                "de": "Tabulatur",
+                "es": [
+                    "Cifra",
+                    "tablatura"
+                ],
+                "it": "Intavolatura",
+                "hu": "tabulatúra",
+                "ru": [
+                    "табулатура",
+                    "tabulatura"
+                ]
+            },
+            "api": "http://api.metadataregistry.org/concepts/6460",
+            "definition": {
+                "en": "Score consisting of a music notation where letters, numbers or graphic symbols indicate the finger position on the instrument or the name of the notes."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/tos#",
+            "notation": {
+                "en": "h"
+            },
+            "prefLabel": {
+                "en": "tablature"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/tos#i",
+            "@type": "Concept",
+            "altLabel": {
+                "fr": "livre de choeur",
+                "de": "Chorbuch",
+                "es": "libro de coro",
+                "it": "libro corale",
+                "hu": "kóruskönyv"
+            },
+            "api": "http://api.metadataregistry.org/concepts/6461",
+            "definition": {
+                "en": "Score format giving the different vocal parts on two facing pages of the book."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/tos#",
+            "notation": {
+                "en": "i"
+            },
+            "prefLabel": {
+                "en": "choir-book"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/tos#j",
+            "@type": "Concept",
+            "altLabel": {
+                "fr": "particella",
+                "de": [
+                    "Cembalo-Partitur",
+                    "Generalbaβpartitur"
+                ],
+                "es": "partitura de coro y continuo",
+                "it": "particella"
+            },
+            "api": "http://api.metadataregistry.org/concepts/6462",
+            "definition": {
+                "en": "Score of only voices and continuo, omitting the other instruments."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/tos#",
+            "notation": {
+                "en": "j"
+            },
+            "prefLabel": {
+                "en": "compressed score"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/tos#k",
+            "@type": "Concept",
+            "altLabel": {
+                "fr": "pseudo-partition",
+                "de": "Pseudo-Partitur",
+                "es": "Pseudopartitura",
+                "it": "Pseudopartitura"
+            },
+            "api": "http://api.metadataregistry.org/concepts/6463",
+            "definition": {
+                "en": "Score without vertical coincidence of voices."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/tos#",
+            "notation": {
+                "en": "k"
+            },
+            "prefLabel": {
+                "en": "pseudo-score"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/tos#l",
+            "@type": "Concept",
+            "altLabel": {
+                "es": "particela (parte) solista",
+                "it": "Cartina"
+            },
+            "api": "http://api.metadataregistry.org/concepts/6464",
+            "definition": {
+                "en": "Score consisting of a part containing only one solo for a voice of a choir"
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/tos#",
+            "notation": {
+                "en": "l"
+            },
+            "prefLabel": {
+                "en": "solo part"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/tos#m",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6470",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/tos#",
+            "prefLabel": {
+                "en": "multiple formats"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/tos#n",
+            "@type": "Concept",
+            "altLabel": {
+                "fr": "parties en accolade",
+                "de": "Partitino",
+                "it": "Spartitino"
+            },
+            "api": "http://api.metadataregistry.org/concepts/6471",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/tos#",
+            "notation": {
+                "en": "n"
+            },
+            "prefLabel": {
+                "en": "score with only homogeneous groups of instruments of the orchestra"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/tos#o",
+            "@type": "Concept",
+            "altLabel": {
+                "en": "text and chords",
+                "fr": "texte et accords",
+                "it": "testo e accordi"
+            },
+            "api": "http://api.metadataregistry.org/concepts/6465",
+            "definition": {
+                "en": "Score frequently used in modern pop music, consisting generally in a melodic line with letters and/or graphic symbols representing chords or finger positions on the guitar."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/tos#",
+            "notation": {
+                "en": "o"
+            },
+            "prefLabel": {
+                "en": "condensed score with text and chord symbols"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/tos#p",
+            "@type": "Concept",
+            "altLabel": {
+                "it": "partitura da tavolo"
+            },
+            "api": "http://api.metadataregistry.org/concepts/6466",
+            "definition": {
+                "en": "Score consisting of parts written with different orientation on facing pages, so as to enable reading by players standing around a table."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/tos#",
+            "notation": {
+                "en": "p"
+            },
+            "prefLabel": {
+                "en": "table book"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/tos#u",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6467",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/tos#",
+            "notation": {
+                "en": "u"
+            },
+            "prefLabel": {
+                "en": "unknown"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/tos#x",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6468",
+            "definition": {
+                "en": "Not printed or manuscript music."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/tos#",
+            "notation": {
+                "en": "x"
+            },
+            "prefLabel": {
+                "en": "not applicable"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/tos#z",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6469",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/tos#",
+            "notation": {
+                "en": "z"
+            },
+            "prefLabel": {
+                "en": "other"
+            },
+            "status": "Published"
+        }
+    ]
+}

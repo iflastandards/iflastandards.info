@@ -1,0 +1,1082 @@
+{
+    "@context": "http://iflastandards.info/ns/unimarc/unimarcb/elements/Contexts/elements_langmap.jsonld",
+    "@graph": [
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/",
+            "@type": "ElementSet",
+            "title": {
+                "en": "UNIMARC/B elements 47X"
+            },
+            "description": {
+                "en": ""
+            },
+            "prefix": "",
+            "token": "ub47x",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "label": "Published"
+            },
+            "omr_api": "http://api.metadataregistry.org/elementsets/110",
+            "omr_home": "http://metadataregistry.org/elementsets/110",
+            "count": 50,
+            "languages": [
+                {
+                    "code": "en",
+                    "lang": "English",
+                    "version": "Release 1"
+                }
+            ],
+            "dateOfPublication": "January 11, 2020"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_00",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/",
+                "url": "http://metadataregistry.org/schema/show/id/110.html",
+                "label": "UNIMARC/B elements 47X"
+            },
+            "label": {
+                "en": "has Bibliographic record identifier in Item reviewed (Do not make a note)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasBibliographicRecordIdentifierInItemReviewedDoNotMakeANote.en",
+            "name": "hasBibliographicRecordIdentifierInItemReviewedDoNotMakeANote",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/18853.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_01",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/",
+                "url": "http://metadataregistry.org/schema/show/id/110.html",
+                "label": "UNIMARC/B elements 47X"
+            },
+            "label": {
+                "en": "has Linking data in Item reviewed (Do not make a note)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasLinkingDataInItemReviewedDoNotMakeANote.en",
+            "name": "hasLinkingDataInItemReviewedDoNotMakeANote",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/18854.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_03",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/",
+                "url": "http://metadataregistry.org/schema/show/id/110.html",
+                "label": "UNIMARC/B elements 47X"
+            },
+            "label": {
+                "en": "has Authority record number in Item reviewed (Do not make a note)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasAuthorityRecordNumberInItemReviewedDoNotMakeANote.en",
+            "name": "hasAuthorityRecordNumberInItemReviewedDoNotMakeANote",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/18855.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_05",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/",
+                "url": "http://metadataregistry.org/schema/show/id/110.html",
+                "label": "UNIMARC/B elements 47X"
+            },
+            "label": {
+                "en": "has Institution to which field applies in Item reviewed (Do not make a note)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasInstitutionToWhichFieldAppliesInItemReviewedDoNotMakeANote.en",
+            "name": "hasInstitutionToWhichFieldAppliesInItemReviewedDoNotMakeANote",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/18856.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0a",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/",
+                "url": "http://metadataregistry.org/schema/show/id/110.html",
+                "label": "UNIMARC/B elements 47X"
+            },
+            "label": {
+                "en": "has Author in Item reviewed (Do not make a note)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasAuthorInItemReviewedDoNotMakeANote.en",
+            "name": "hasAuthorInItemReviewedDoNotMakeANote",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/18857.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0b",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/",
+                "url": "http://metadataregistry.org/schema/show/id/110.html",
+                "label": "UNIMARC/B elements 47X"
+            },
+            "label": {
+                "en": "has General material designation in Item reviewed (Do not make a note)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasGeneralMaterialDesignationInItemReviewedDoNotMakeANote.en",
+            "name": "hasGeneralMaterialDesignationInItemReviewedDoNotMakeANote",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/18858.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0c",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/",
+                "url": "http://metadataregistry.org/schema/show/id/110.html",
+                "label": "UNIMARC/B elements 47X"
+            },
+            "label": {
+                "en": "has Place of publication in Item reviewed (Do not make a note)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasPlaceOfPublicationInItemReviewedDoNotMakeANote.en",
+            "name": "hasPlaceOfPublicationInItemReviewedDoNotMakeANote",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/18859.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0d",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/",
+                "url": "http://metadataregistry.org/schema/show/id/110.html",
+                "label": "UNIMARC/B elements 47X"
+            },
+            "label": {
+                "en": "has Date of publication in Item reviewed (Do not make a note)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasDateOfPublicationInItemReviewedDoNotMakeANote.en",
+            "name": "hasDateOfPublicationInItemReviewedDoNotMakeANote",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/18860.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0e",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/",
+                "url": "http://metadataregistry.org/schema/show/id/110.html",
+                "label": "UNIMARC/B elements 47X"
+            },
+            "label": {
+                "en": "has Edition statement in Item reviewed (Do not make a note)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasEditionStatementInItemReviewedDoNotMakeANote.en",
+            "name": "hasEditionStatementInItemReviewedDoNotMakeANote",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/18861.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0f",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/",
+                "url": "http://metadataregistry.org/schema/show/id/110.html",
+                "label": "UNIMARC/B elements 47X"
+            },
+            "label": {
+                "en": "has First statement of responsibility in Item reviewed (Do not make a note)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasFirstStatementOfResponsibilityInItemReviewedDoNotMakeANote.en",
+            "name": "hasFirstStatementOfResponsibilityInItemReviewedDoNotMakeANote",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/18862.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0g",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/",
+                "url": "http://metadataregistry.org/schema/show/id/110.html",
+                "label": "UNIMARC/B elements 47X"
+            },
+            "label": {
+                "en": "has Subsequent statement of responsibility in Item reviewed (Do not make a note)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasSubsequentStatementOfResponsibilityInItemReviewedDoNotMakeANote.en",
+            "name": "hasSubsequentStatementOfResponsibilityInItemReviewedDoNotMakeANote",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/18863.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0h",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/",
+                "url": "http://metadataregistry.org/schema/show/id/110.html",
+                "label": "UNIMARC/B elements 47X"
+            },
+            "label": {
+                "en": "has Number of section or part in Item reviewed (Do not make a note)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasNumberOfSectionOrPartInItemReviewedDoNotMakeANote.en",
+            "name": "hasNumberOfSectionOrPartInItemReviewedDoNotMakeANote",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/18864.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0i",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/",
+                "url": "http://metadataregistry.org/schema/show/id/110.html",
+                "label": "UNIMARC/B elements 47X"
+            },
+            "label": {
+                "en": "has Name of section or part in Item reviewed (Do not make a note)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasNameOfSectionOrPartInItemReviewedDoNotMakeANote.en",
+            "name": "hasNameOfSectionOrPartInItemReviewedDoNotMakeANote",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/18865.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0l",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/",
+                "url": "http://metadataregistry.org/schema/show/id/110.html",
+                "label": "UNIMARC/B elements 47X"
+            },
+            "label": {
+                "en": "has Parallel title in Item reviewed (Do not make a note)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasParallelTitleInItemReviewedDoNotMakeANote.en",
+            "name": "hasParallelTitleInItemReviewedDoNotMakeANote",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/18866.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0m",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/",
+                "url": "http://metadataregistry.org/schema/show/id/110.html",
+                "label": "UNIMARC/B elements 47X"
+            },
+            "label": {
+                "en": "has International Standard Music Number in Item reviewed (Do not make a note)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasInternationalStandardMusicNumberInItemReviewedDoNotMakeANote.en",
+            "name": "hasInternationalStandardMusicNumberInItemReviewedDoNotMakeANote",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/18867.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0n",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/",
+                "url": "http://metadataregistry.org/schema/show/id/110.html",
+                "label": "UNIMARC/B elements 47X"
+            },
+            "label": {
+                "en": "has Name of publisher, distributor, etc. in Item reviewed (Do not make a note)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasNameOfPublisherDistributorEtcInItemReviewedDoNotMakeANote.en",
+            "name": "hasNameOfPublisherDistributorEtcInItemReviewedDoNotMakeANote",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/18868.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0o",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/",
+                "url": "http://metadataregistry.org/schema/show/id/110.html",
+                "label": "UNIMARC/B elements 47X"
+            },
+            "label": {
+                "en": "has Other title information in Item reviewed (Do not make a note)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasOtherTitleInformationInItemReviewedDoNotMakeANote.en",
+            "name": "hasOtherTitleInformationInItemReviewedDoNotMakeANote",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/18869.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0p",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/",
+                "url": "http://metadataregistry.org/schema/show/id/110.html",
+                "label": "UNIMARC/B elements 47X"
+            },
+            "label": {
+                "en": "has Physical description in Item reviewed (Do not make a note)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasPhysicalDescriptionInItemReviewedDoNotMakeANote.en",
+            "name": "hasPhysicalDescriptionInItemReviewedDoNotMakeANote",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/18870.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0s",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/",
+                "url": "http://metadataregistry.org/schema/show/id/110.html",
+                "label": "UNIMARC/B elements 47X"
+            },
+            "label": {
+                "en": "has Series statement in Item reviewed (Do not make a note)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasSeriesStatementInItemReviewedDoNotMakeANote.en",
+            "name": "hasSeriesStatementInItemReviewedDoNotMakeANote",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/18871.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0t",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/",
+                "url": "http://metadataregistry.org/schema/show/id/110.html",
+                "label": "UNIMARC/B elements 47X"
+            },
+            "label": {
+                "en": "has Title in Item reviewed (Do not make a note)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasTitleInItemReviewedDoNotMakeANote.en",
+            "name": "hasTitleInItemReviewedDoNotMakeANote",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/18872.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0u",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/",
+                "url": "http://metadataregistry.org/schema/show/id/110.html",
+                "label": "UNIMARC/B elements 47X"
+            },
+            "label": {
+                "en": "has Uniform Resource Identifier in Item reviewed (Do not make a note)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasUniformResourceIdentifierInItemReviewedDoNotMakeANote.en",
+            "name": "hasUniformResourceIdentifierInItemReviewedDoNotMakeANote",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/18873.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0v",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/",
+                "url": "http://metadataregistry.org/schema/show/id/110.html",
+                "label": "UNIMARC/B elements 47X"
+            },
+            "label": {
+                "en": "has Volume number in Item reviewed (Do not make a note)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasVolumeNumberInItemReviewedDoNotMakeANote.en",
+            "name": "hasVolumeNumberInItemReviewedDoNotMakeANote",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/18874.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0x",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/",
+                "url": "http://metadataregistry.org/schema/show/id/110.html",
+                "label": "UNIMARC/B elements 47X"
+            },
+            "label": {
+                "en": "has ISSN in Item reviewed (Do not make a note)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasIssnInItemReviewedDoNotMakeANote.en",
+            "name": "hasIssnInItemReviewedDoNotMakeANote",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/18875.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0y",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/",
+                "url": "http://metadataregistry.org/schema/show/id/110.html",
+                "label": "UNIMARC/B elements 47X"
+            },
+            "label": {
+                "en": "has International Standard Book Number in Item reviewed (Do not make a note)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasInternationalStandardBookNumberInItemReviewedDoNotMakeANote.en",
+            "name": "hasInternationalStandardBookNumberInItemReviewedDoNotMakeANote",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/18876.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_0z",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/",
+                "url": "http://metadataregistry.org/schema/show/id/110.html",
+                "label": "UNIMARC/B elements 47X"
+            },
+            "label": {
+                "en": "has CODEN in Item reviewed (Do not make a note)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasCodenInItemReviewedDoNotMakeANote.en",
+            "name": "hasCodenInItemReviewedDoNotMakeANote",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/18877.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_10",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/",
+                "url": "http://metadataregistry.org/schema/show/id/110.html",
+                "label": "UNIMARC/B elements 47X"
+            },
+            "label": {
+                "en": "has Bibliographic record identifier in Item reviewed (Make a note)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasBibliographicRecordIdentifierInItemReviewedMakeANote.en",
+            "name": "hasBibliographicRecordIdentifierInItemReviewedMakeANote",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/18878.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_11",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/",
+                "url": "http://metadataregistry.org/schema/show/id/110.html",
+                "label": "UNIMARC/B elements 47X"
+            },
+            "label": {
+                "en": "has Linking data in Item reviewed (Make a note)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasLinkingDataInItemReviewedMakeANote.en",
+            "name": "hasLinkingDataInItemReviewedMakeANote",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/18879.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_13",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/",
+                "url": "http://metadataregistry.org/schema/show/id/110.html",
+                "label": "UNIMARC/B elements 47X"
+            },
+            "label": {
+                "en": "has Authority record number in Item reviewed (Make a note)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasAuthorityRecordNumberInItemReviewedMakeANote.en",
+            "name": "hasAuthorityRecordNumberInItemReviewedMakeANote",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/18880.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_15",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/",
+                "url": "http://metadataregistry.org/schema/show/id/110.html",
+                "label": "UNIMARC/B elements 47X"
+            },
+            "label": {
+                "en": "has Institution to which field applies in Item reviewed (Make a note)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasInstitutionToWhichFieldAppliesInItemReviewedMakeANote.en",
+            "name": "hasInstitutionToWhichFieldAppliesInItemReviewedMakeANote",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/18881.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1a",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/",
+                "url": "http://metadataregistry.org/schema/show/id/110.html",
+                "label": "UNIMARC/B elements 47X"
+            },
+            "label": {
+                "en": "has Author in Item reviewed (Make a note)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasAuthorInItemReviewedMakeANote.en",
+            "name": "hasAuthorInItemReviewedMakeANote",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/18882.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1b",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/",
+                "url": "http://metadataregistry.org/schema/show/id/110.html",
+                "label": "UNIMARC/B elements 47X"
+            },
+            "label": {
+                "en": "has General material designation in Item reviewed (Make a note)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasGeneralMaterialDesignationInItemReviewedMakeANote.en",
+            "name": "hasGeneralMaterialDesignationInItemReviewedMakeANote",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/18883.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1c",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/",
+                "url": "http://metadataregistry.org/schema/show/id/110.html",
+                "label": "UNIMARC/B elements 47X"
+            },
+            "label": {
+                "en": "has Place of publication in Item reviewed (Make a note)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasPlaceOfPublicationInItemReviewedMakeANote.en",
+            "name": "hasPlaceOfPublicationInItemReviewedMakeANote",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/18884.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1d",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/",
+                "url": "http://metadataregistry.org/schema/show/id/110.html",
+                "label": "UNIMARC/B elements 47X"
+            },
+            "label": {
+                "en": "has Date of publication in Item reviewed (Make a note)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasDateOfPublicationInItemReviewedMakeANote.en",
+            "name": "hasDateOfPublicationInItemReviewedMakeANote",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/18885.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1e",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/",
+                "url": "http://metadataregistry.org/schema/show/id/110.html",
+                "label": "UNIMARC/B elements 47X"
+            },
+            "label": {
+                "en": "has Edition statement in Item reviewed (Make a note)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasEditionStatementInItemReviewedMakeANote.en",
+            "name": "hasEditionStatementInItemReviewedMakeANote",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/18886.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1f",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/",
+                "url": "http://metadataregistry.org/schema/show/id/110.html",
+                "label": "UNIMARC/B elements 47X"
+            },
+            "label": {
+                "en": "has First statement of responsibility in Item reviewed (Make a note)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasFirstStatementOfResponsibilityInItemReviewedMakeANote.en",
+            "name": "hasFirstStatementOfResponsibilityInItemReviewedMakeANote",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/18887.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1g",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/",
+                "url": "http://metadataregistry.org/schema/show/id/110.html",
+                "label": "UNIMARC/B elements 47X"
+            },
+            "label": {
+                "en": "has Subsequent statement of responsibility in Item reviewed (Make a note)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasSubsequentStatementOfResponsibilityInItemReviewedMakeANote.en",
+            "name": "hasSubsequentStatementOfResponsibilityInItemReviewedMakeANote",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/18888.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1h",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/",
+                "url": "http://metadataregistry.org/schema/show/id/110.html",
+                "label": "UNIMARC/B elements 47X"
+            },
+            "label": {
+                "en": "has Number of section or part in Item reviewed (Make a note)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasNumberOfSectionOrPartInItemReviewedMakeANote.en",
+            "name": "hasNumberOfSectionOrPartInItemReviewedMakeANote",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/18889.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1i",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/",
+                "url": "http://metadataregistry.org/schema/show/id/110.html",
+                "label": "UNIMARC/B elements 47X"
+            },
+            "label": {
+                "en": "has Name of section or part in Item reviewed (Make a note)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasNameOfSectionOrPartInItemReviewedMakeANote.en",
+            "name": "hasNameOfSectionOrPartInItemReviewedMakeANote",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/18890.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1l",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/",
+                "url": "http://metadataregistry.org/schema/show/id/110.html",
+                "label": "UNIMARC/B elements 47X"
+            },
+            "label": {
+                "en": "has Parallel title in Item reviewed (Make a note)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasParallelTitleInItemReviewedMakeANote.en",
+            "name": "hasParallelTitleInItemReviewedMakeANote",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/18891.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1m",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/",
+                "url": "http://metadataregistry.org/schema/show/id/110.html",
+                "label": "UNIMARC/B elements 47X"
+            },
+            "label": {
+                "en": "has International Standard Music Number in Item reviewed (Make a note)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasInternationalStandardMusicNumberInItemReviewedMakeANote.en",
+            "name": "hasInternationalStandardMusicNumberInItemReviewedMakeANote",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/18892.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1n",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/",
+                "url": "http://metadataregistry.org/schema/show/id/110.html",
+                "label": "UNIMARC/B elements 47X"
+            },
+            "label": {
+                "en": "has Name of publisher, distributor, etc. in Item reviewed (Make a note)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasNameOfPublisherDistributorEtcInItemReviewedMakeANote.en",
+            "name": "hasNameOfPublisherDistributorEtcInItemReviewedMakeANote",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/18893.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1o",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/",
+                "url": "http://metadataregistry.org/schema/show/id/110.html",
+                "label": "UNIMARC/B elements 47X"
+            },
+            "label": {
+                "en": "has Other title information in Item reviewed (Make a note)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasOtherTitleInformationInItemReviewedMakeANote.en",
+            "name": "hasOtherTitleInformationInItemReviewedMakeANote",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/18894.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1p",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/",
+                "url": "http://metadataregistry.org/schema/show/id/110.html",
+                "label": "UNIMARC/B elements 47X"
+            },
+            "label": {
+                "en": "has Physical description in Item reviewed (Make a note)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasPhysicalDescriptionInItemReviewedMakeANote.en",
+            "name": "hasPhysicalDescriptionInItemReviewedMakeANote",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/18895.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1s",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/",
+                "url": "http://metadataregistry.org/schema/show/id/110.html",
+                "label": "UNIMARC/B elements 47X"
+            },
+            "label": {
+                "en": "has Series statement in Item reviewed (Make a note)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasSeriesStatementInItemReviewedMakeANote.en",
+            "name": "hasSeriesStatementInItemReviewedMakeANote",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/18896.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1t",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/",
+                "url": "http://metadataregistry.org/schema/show/id/110.html",
+                "label": "UNIMARC/B elements 47X"
+            },
+            "label": {
+                "en": "has Title in Item reviewed (Make a note)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasTitleInItemReviewedMakeANote.en",
+            "name": "hasTitleInItemReviewedMakeANote",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/18897.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1u",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/",
+                "url": "http://metadataregistry.org/schema/show/id/110.html",
+                "label": "UNIMARC/B elements 47X"
+            },
+            "label": {
+                "en": "has Uniform Resource Identifier in Item reviewed (Make a note)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasUniformResourceIdentifierInItemReviewedMakeANote.en",
+            "name": "hasUniformResourceIdentifierInItemReviewedMakeANote",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/18898.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1v",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/",
+                "url": "http://metadataregistry.org/schema/show/id/110.html",
+                "label": "UNIMARC/B elements 47X"
+            },
+            "label": {
+                "en": "has Volume number in Item reviewed (Make a note)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasVolumeNumberInItemReviewedMakeANote.en",
+            "name": "hasVolumeNumberInItemReviewedMakeANote",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/18899.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1x",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/",
+                "url": "http://metadataregistry.org/schema/show/id/110.html",
+                "label": "UNIMARC/B elements 47X"
+            },
+            "label": {
+                "en": "has ISSN in Item reviewed (Make a note)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasIssnInItemReviewedMakeANote.en",
+            "name": "hasIssnInItemReviewedMakeANote",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/18900.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1y",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/",
+                "url": "http://metadataregistry.org/schema/show/id/110.html",
+                "label": "UNIMARC/B elements 47X"
+            },
+            "label": {
+                "en": "has International Standard Book Number in Item reviewed (Make a note)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasInternationalStandardBookNumberInItemReviewedMakeANote.en",
+            "name": "hasInternationalStandardBookNumberInItemReviewedMakeANote",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/18901.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/U470_1z",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/",
+                "url": "http://metadataregistry.org/schema/show/id/110.html",
+                "label": "UNIMARC/B elements 47X"
+            },
+            "label": {
+                "en": "has CODEN in Item reviewed (Make a note)"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/47X/hasCodenInItemReviewedMakeANote.en",
+            "name": "hasCodenInItemReviewedMakeANote",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/18902.html"
+        }
+    ]
+}

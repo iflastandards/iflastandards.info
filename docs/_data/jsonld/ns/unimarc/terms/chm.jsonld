@@ -1,0 +1,264 @@
+{
+    "@context": "http://iflastandards.info/ns/unimarc/terms/Contexts/concepts_langmap.jsonld",
+    "@graph": [
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/chm#",
+            "@type": "ConceptScheme",
+            "title": {
+                "en": "UNIMARC: Church mode of musical work"
+            },
+            "description": {
+                "en": "The &quot;Gregorian&quot; church mode of a musical work."
+            },
+            "prefix": "",
+            "token": "chm",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "label": "Published"
+            },
+            "omr_api": "http://api.metadataregistry.org/vocabularies/446",
+            "omr_home": "http://metadataregistry.org/vocabularies/446",
+            "count": 13,
+            "languages": [
+                {
+                    "code": "en",
+                    "lang": "English",
+                    "version": "UNIMARC 1.0"
+                }
+            ],
+            "dateOfPublication": "January 31, 2020"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/chm#01",
+            "@type": "Concept",
+            "altLabel": {
+                "en": [
+                    "Dorian",
+                    "Protus authentic"
+                ]
+            },
+            "api": "http://api.metadataregistry.org/concepts/9330",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/chm#",
+            "notation": {
+                "en": "01"
+            },
+            "prefLabel": {
+                "en": "1"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/chm#02",
+            "@type": "Concept",
+            "altLabel": {
+                "en": [
+                    "Hypodorian",
+                    "Protus plagal"
+                ]
+            },
+            "api": "http://api.metadataregistry.org/concepts/9331",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/chm#",
+            "notation": {
+                "en": "02"
+            },
+            "prefLabel": {
+                "en": "2"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/chm#03",
+            "@type": "Concept",
+            "altLabel": {
+                "en": [
+                    "Phrygian",
+                    "Deuterus authentic"
+                ]
+            },
+            "api": "http://api.metadataregistry.org/concepts/9332",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/chm#",
+            "notation": {
+                "en": "03"
+            },
+            "prefLabel": {
+                "en": "3"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/chm#04",
+            "@type": "Concept",
+            "altLabel": {
+                "en": [
+                    "Hypophrygian",
+                    "Deuterus plagal"
+                ]
+            },
+            "api": "http://api.metadataregistry.org/concepts/9333",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/chm#",
+            "notation": {
+                "en": "04"
+            },
+            "prefLabel": {
+                "en": "4"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/chm#05",
+            "@type": "Concept",
+            "altLabel": {
+                "en": [
+                    "Lydian",
+                    "Tritus authentic"
+                ]
+            },
+            "api": "http://api.metadataregistry.org/concepts/9334",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/chm#",
+            "notation": {
+                "en": "05"
+            },
+            "prefLabel": {
+                "en": "5"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/chm#06",
+            "@type": "Concept",
+            "altLabel": {
+                "en": [
+                    "Hypolydian",
+                    "Tritus plagal"
+                ]
+            },
+            "api": "http://api.metadataregistry.org/concepts/9335",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/chm#",
+            "notation": {
+                "en": "06"
+            },
+            "prefLabel": {
+                "en": "6"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/chm#07",
+            "@type": "Concept",
+            "altLabel": {
+                "en": [
+                    "Mixolydian",
+                    "Tetrardus authentic"
+                ]
+            },
+            "api": "http://api.metadataregistry.org/concepts/9336",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/chm#",
+            "notation": {
+                "en": "07"
+            },
+            "prefLabel": {
+                "en": "7"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/chm#08",
+            "@type": "Concept",
+            "altLabel": {
+                "en": [
+                    "Hypomixolydian",
+                    "Tetrardus plagal"
+                ]
+            },
+            "api": "http://api.metadataregistry.org/concepts/9337",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/chm#",
+            "notation": {
+                "en": "08"
+            },
+            "prefLabel": {
+                "en": "8"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/chm#09",
+            "@type": "Concept",
+            "altLabel": {
+                "en": "Aeolian"
+            },
+            "api": "http://api.metadataregistry.org/concepts/9338",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/chm#",
+            "notation": {
+                "en": "09"
+            },
+            "prefLabel": {
+                "en": "9"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/chm#10",
+            "@type": "Concept",
+            "altLabel": {
+                "en": "Hypoaeolian"
+            },
+            "api": "http://api.metadataregistry.org/concepts/9339",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/chm#",
+            "notation": {
+                "en": "10"
+            },
+            "prefLabel": {
+                "en": "10"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/chm#11",
+            "@type": "Concept",
+            "altLabel": {
+                "en": "Ionian"
+            },
+            "api": "http://api.metadataregistry.org/concepts/9340",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/chm#",
+            "notation": {
+                "en": "11"
+            },
+            "prefLabel": {
+                "en": "11"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/chm#12",
+            "@type": "Concept",
+            "altLabel": {
+                "en": "Hypoionian"
+            },
+            "api": "http://api.metadataregistry.org/concepts/9341",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/chm#",
+            "notation": {
+                "en": "12"
+            },
+            "prefLabel": {
+                "en": "12"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/chm#13",
+            "@type": "Concept",
+            "altLabel": {
+                "en": "Tonus Peregrinus"
+            },
+            "api": "http://api.metadataregistry.org/concepts/9342",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/chm#",
+            "notation": {
+                "en": "13"
+            },
+            "prefLabel": {
+                "en": "13"
+            },
+            "status": "Published"
+        }
+    ]
+}

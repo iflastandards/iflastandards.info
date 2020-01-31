@@ -1,0 +1,330 @@
+{
+    "@context": "http://iflastandards.info/ns/unimarc/terms/Contexts/concepts_langmap.jsonld",
+    "@graph": [
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundspe#",
+            "@type": "ConceptScheme",
+            "title": {
+                "en": "UNIMARC: Sound recordings: Speed"
+            },
+            "description": {
+                "en": "The speed of a sound recording."
+            },
+            "prefix": "",
+            "token": "soundspe",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "label": "Published"
+            },
+            "omr_api": "http://api.metadataregistry.org/vocabularies/392",
+            "omr_home": "http://metadataregistry.org/vocabularies/392",
+            "count": 19,
+            "languages": [
+                {
+                    "code": "en",
+                    "lang": "English",
+                    "version": "UNIMARC 1.0"
+                }
+            ],
+            "dateOfPublication": "January 31, 2020"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundspe#a ",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7572",
+            "definition": {
+                "en": "Speed of sound recording discs of 16 ⅔ revolutions per minute."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundspe#",
+            "notation": {
+                "en": "a "
+            },
+            "prefLabel": {
+                "en": "16 ⅔ rpm"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundspe#b ",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7573",
+            "definition": {
+                "en": "Speed of sound recording discs of 33 ⅓ revolutions per minute."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundspe#",
+            "notation": {
+                "en": "b "
+            },
+            "prefLabel": {
+                "en": "33 ⅓ rpm"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundspe#c ",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7574",
+            "definition": {
+                "en": "Speed of sound recording discs of 45 revolutions per minute."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundspe#",
+            "notation": {
+                "en": "c "
+            },
+            "prefLabel": {
+                "en": "45 rpm"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundspe#d ",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7575",
+            "definition": {
+                "en": "Speed of sound recording discs of 78 revolutions per minute."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundspe#",
+            "notation": {
+                "en": "d "
+            },
+            "prefLabel": {
+                "en": "78 rpm"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundspe#e ",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7576",
+            "definition": {
+                "en": "Speed of sound recording discs of 8 revolutions per minute."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundspe#",
+            "notation": {
+                "en": "e "
+            },
+            "prefLabel": {
+                "en": "8 rpm"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundspe#g ",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7577",
+            "definition": {
+                "en": "Speed of sound recording discs and compact discs of 1.4 metres per second."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundspe#",
+            "notation": {
+                "en": "g "
+            },
+            "prefLabel": {
+                "en": "1.4 m. per second"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundspe#h ",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7578",
+            "definition": {
+                "en": "Speed of sound recording cylinders of 1 inch per second or 120 revolutions per minute."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundspe#",
+            "notation": {
+                "en": "h "
+            },
+            "prefLabel": {
+                "en": "1 in. per second (120 rpm)"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundspe#i ",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7579",
+            "definition": {
+                "en": "Speed of sound recording cylinders of 160 revolutions per minute."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundspe#",
+            "notation": {
+                "en": "i "
+            },
+            "prefLabel": {
+                "en": "160 rpm"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundspe#k ",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7580",
+            "definition": {
+                "en": "Speed of sound recording tapes of 1 ⅞ inches per second."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundspe#",
+            "notation": {
+                "en": "k "
+            },
+            "prefLabel": {
+                "en": "1 ⅞ in. per second"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundspe#l ",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7581",
+            "definition": {
+                "en": "Speed of sound recording tapes of 15/16 inches per second."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundspe#",
+            "notation": {
+                "en": "l "
+            },
+            "prefLabel": {
+                "en": "15/16 in. per second"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundspe#m ",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7582",
+            "definition": {
+                "en": "Speed of sound recording tapes of 3 ¾ inches per second."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundspe#",
+            "notation": {
+                "en": "m "
+            },
+            "prefLabel": {
+                "en": "3 ¾ in. per second"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundspe#n ",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7583",
+            "definition": {
+                "en": "Speed of sound recording tapes of 7 ½ inches per second."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundspe#",
+            "notation": {
+                "en": "n "
+            },
+            "prefLabel": {
+                "en": "7 ½ in. per second"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundspe#o ",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7584",
+            "definition": {
+                "en": "Speed of sound recording tapes of 15 inches per second."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundspe#",
+            "notation": {
+                "en": "o "
+            },
+            "prefLabel": {
+                "en": "15 in. per second"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundspe#p ",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7585",
+            "definition": {
+                "en": "Speed of sound recording tapes of 30 inches per second."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundspe#",
+            "notation": {
+                "en": "p "
+            },
+            "prefLabel": {
+                "en": "30 in. per second"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundspe#q ",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7586",
+            "definition": {
+                "en": "Speed of sound recording tapes of 8/10 inches per second."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundspe#",
+            "notation": {
+                "en": "q "
+            },
+            "prefLabel": {
+                "en": "8/10 in. per second"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundspe#r ",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7587",
+            "definition": {
+                "en": "Speed of sound recording tapes of 4/10 inches per second."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundspe#",
+            "notation": {
+                "en": "r "
+            },
+            "prefLabel": {
+                "en": "4/10 in. per second"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundspe#u ",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7569",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundspe#",
+            "notation": {
+                "en": "u "
+            },
+            "prefLabel": {
+                "en": "unknown"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundspe#x ",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7570",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundspe#",
+            "notation": {
+                "en": "x "
+            },
+            "prefLabel": {
+                "en": "not applicable"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundspe#z ",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7571",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundspe#",
+            "notation": {
+                "en": "z "
+            },
+            "prefLabel": {
+                "en": "other"
+            },
+            "scopeNote": {
+                "en": "For example, non-standardized speed for microgrooves before 1906."
+            },
+            "status": "Published"
+        }
+    ]
+}

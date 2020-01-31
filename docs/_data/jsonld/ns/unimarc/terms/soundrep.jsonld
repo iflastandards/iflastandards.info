@@ -1,0 +1,175 @@
+{
+    "@context": "http://iflastandards.info/ns/unimarc/terms/Contexts/concepts_langmap.jsonld",
+    "@graph": [
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundrep#",
+            "@type": "ConceptScheme",
+            "title": {
+                "en": "UNIMARC: Sound recordings: Special reproduction characteristics"
+            },
+            "description": {
+                "en": "The reproduction characteristics of a sound recording."
+            },
+            "prefix": "",
+            "token": "soundrep",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "label": "Published"
+            },
+            "omr_api": "http://api.metadataregistry.org/vocabularies/384",
+            "omr_home": "http://metadataregistry.org/vocabularies/384",
+            "count": 11,
+            "languages": [
+                {
+                    "code": "en",
+                    "lang": "English",
+                    "version": "UNIMARC 1.0"
+                }
+            ],
+            "dateOfPublication": "January 31, 2020"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundrep#a ",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7506",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundrep#",
+            "notation": {
+                "en": "a "
+            },
+            "prefLabel": {
+                "en": "NAB standard"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundrep#b ",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7507",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundrep#",
+            "notation": {
+                "en": "b "
+            },
+            "prefLabel": {
+                "en": "CCIR/IEC standard"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundrep#c ",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7508",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundrep#",
+            "notation": {
+                "en": "c "
+            },
+            "prefLabel": {
+                "en": "DBX processed"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundrep#d ",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7509",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundrep#",
+            "notation": {
+                "en": "d "
+            },
+            "prefLabel": {
+                "en": "digital (compact disc)"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundrep#e ",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7510",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundrep#",
+            "notation": {
+                "en": "e "
+            },
+            "prefLabel": {
+                "en": "Dolby‑A encoded"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundrep#f ",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7511",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundrep#",
+            "notation": {
+                "en": "f "
+            },
+            "prefLabel": {
+                "en": "Dolby‑B encoded"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundrep#g ",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7512",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundrep#",
+            "notation": {
+                "en": "g "
+            },
+            "prefLabel": {
+                "en": "Dolby‑C encoded"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundrep#h ",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7513",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundrep#",
+            "notation": {
+                "en": "h "
+            },
+            "prefLabel": {
+                "en": "CX encoded"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundrep#u ",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7515",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundrep#",
+            "notation": {
+                "en": "u "
+            },
+            "prefLabel": {
+                "en": "unknown"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundrep#x ",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7514",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundrep#",
+            "notation": {
+                "en": "x "
+            },
+            "prefLabel": {
+                "en": "not applicable"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundrep#z ",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7516",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundrep#",
+            "notation": {
+                "en": "z "
+            },
+            "prefLabel": {
+                "en": "other"
+            },
+            "status": "Published"
+        }
+    ]
+}

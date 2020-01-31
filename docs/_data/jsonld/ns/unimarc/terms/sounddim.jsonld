@@ -1,0 +1,217 @@
+{
+    "@context": "http://iflastandards.info/ns/unimarc/terms/Contexts/concepts_langmap.jsonld",
+    "@graph": [
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/sounddim#",
+            "@type": "ConceptScheme",
+            "title": {
+                "en": "UNIMARC: Sound recordings: Dimensions"
+            },
+            "description": {
+                "en": "The diameter of an open reel tape or a disc, or the dimensions of a cassette, cartridge or cylinder form of sound recording."
+            },
+            "prefix": "",
+            "token": "sounddim",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "label": "Published"
+            },
+            "omr_api": "http://api.metadataregistry.org/vocabularies/332",
+            "omr_home": "http://metadataregistry.org/vocabularies/332",
+            "count": 14,
+            "languages": [
+                {
+                    "code": "en",
+                    "lang": "English",
+                    "version": "Release 1"
+                }
+            ],
+            "dateOfPublication": "January 31, 2020"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/sounddim/#s",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6448",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/sounddim#",
+            "notation": {
+                "en": "s"
+            },
+            "prefLabel": {
+                "en": "2 3/4 x 4 in."
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/sounddim#a",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6438",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/sounddim#",
+            "notation": {
+                "en": "a"
+            },
+            "prefLabel": {
+                "en": "3 in."
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/sounddim#b",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6439",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/sounddim#",
+            "notation": {
+                "en": "b"
+            },
+            "prefLabel": {
+                "en": "5 in."
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/sounddim#c",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6440",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/sounddim#",
+            "notation": {
+                "en": "c"
+            },
+            "prefLabel": {
+                "en": "7 in."
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/sounddim#d",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6441",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/sounddim#",
+            "notation": {
+                "en": "d"
+            },
+            "prefLabel": {
+                "en": "10 in."
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/sounddim#e",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6442",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/sounddim#",
+            "notation": {
+                "en": "e"
+            },
+            "prefLabel": {
+                "en": "12 in."
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/sounddim#f",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6443",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/sounddim#",
+            "notation": {
+                "en": "f"
+            },
+            "prefLabel": {
+                "en": "16 in."
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/sounddim#g",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6444",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/sounddim#",
+            "notation": {
+                "en": "g"
+            },
+            "prefLabel": {
+                "en": "14 in."
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/sounddim#h",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6445",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/sounddim#",
+            "notation": {
+                "en": "h"
+            },
+            "prefLabel": {
+                "en": "4 3/4 in."
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/sounddim#j",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6446",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/sounddim#",
+            "notation": {
+                "en": "j"
+            },
+            "prefLabel": {
+                "en": "3 7/8 x 2 1/2 in."
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/sounddim#o",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6447",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/sounddim#",
+            "notation": {
+                "en": "o"
+            },
+            "prefLabel": {
+                "en": "5 1/4 x 3 7/8 in."
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/sounddim#u",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6449",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/sounddim#",
+            "notation": {
+                "en": "u"
+            },
+            "prefLabel": {
+                "en": "unknown"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/sounddim#x",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6450",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/sounddim#",
+            "notation": {
+                "en": "x"
+            },
+            "prefLabel": {
+                "en": "not applicable"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/sounddim#z",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6451",
+            "definition": {
+                "en": "Dimensions of sound recording other than 3 in., 4 3/4 in., 5 in., 7 in., 10 in., 12 in., 14 in, 16 in., 2 3/4 x 4 in., 3 7/8 x 2 1/2 in., and 5 1/4 x 3 7/8 in."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/sounddim#",
+            "notation": {
+                "en": "z"
+            },
+            "prefLabel": {
+                "en": "other"
+            },
+            "status": "Published"
+        }
+    ]
+}

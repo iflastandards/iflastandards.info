@@ -1,0 +1,79 @@
+{
+    "@context": "http://iflastandards.info/ns/unimarc/unimarcb/elements/Contexts/elements_langmap.jsonld",
+    "@graph": [
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/66X/",
+            "@type": "ElementSet",
+            "title": {
+                "en": "UNIMARC/B elements 66X"
+            },
+            "description": {
+                "en": ""
+            },
+            "prefix": "",
+            "token": "ub66x",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "label": "Published"
+            },
+            "omr_api": "http://api.metadataregistry.org/elementsets/116",
+            "omr_home": "http://metadataregistry.org/elementsets/116",
+            "count": 2,
+            "languages": [
+                {
+                    "code": "en",
+                    "lang": "English",
+                    "version": "Release 1"
+                }
+            ],
+            "dateOfPublication": "January 11, 2020"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/66X/U660__a",
+            "@type": "Property",
+            "description": {
+                "en": [
+                    "Geographic area code."
+                ]
+            },
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/66X/",
+                "url": "http://metadataregistry.org/schema/show/id/116.html",
+                "label": "UNIMARC/B elements 66X"
+            },
+            "label": {
+                "en": "has Code in Geographic area code"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/66X/.en",
+            "name": "hasCodeInGeographicAreaCode",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/20661.html"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/66X/U661__a",
+            "@type": "Property",
+            "isDefinedBy": {
+                "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/66X/",
+                "url": "http://metadataregistry.org/schema/show/id/116.html",
+                "label": "UNIMARC/B elements 66X"
+            },
+            "label": {
+                "en": "has Time period code in Time period code"
+            },
+            "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/66X/hasTimePeriodCodeInTimePeriodCode.en",
+            "name": "hasTimePeriodCodeInTimePeriodCode",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",
+                "url": "http://metadataregistry.org/concept/show/id/412.html",
+                "label": "Published"
+            },
+            "url": "http://metadataregistry.org/schemaprop/show/id/20662.html"
+        }
+    ]
+}
