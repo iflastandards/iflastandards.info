@@ -1,0 +1,256 @@
+{
+    "@context": "http://iflastandards.info/ns/unimarc/terms/Contexts/concepts_langmap.jsonld",
+    "@graph": [
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/satname#",
+            "@type": "ConceptScheme",
+            "title": {
+                "en": "UNIMARC: Cartographic materials: Name of satellite"
+            },
+            "description": {
+                "en": "The name of the satellite for a remote sensing image."
+            },
+            "prefix": "",
+            "token": "satname",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "label": "Published"
+            },
+            "omr_api": "http://api.metadataregistry.org/vocabularies/400",
+            "omr_home": "http://metadataregistry.org/vocabularies/400",
+            "count": 14,
+            "languages": [
+                {
+                    "code": "en",
+                    "lang": "English",
+                    "version": "UNIMARC 1.0"
+                }
+            ],
+            "dateOfPublication": "January 31, 2020"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/satname#aa",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7645",
+            "definition": {
+                "en": "Meteorological satellite."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/satname#",
+            "notation": {
+                "en": "aa"
+            },
+            "prefLabel": {
+                "en": "Tiros"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/satname#ab",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7646",
+            "definition": {
+                "en": "Meteorological satellite."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/satname#",
+            "notation": {
+                "en": "ab"
+            },
+            "prefLabel": {
+                "en": "ATS"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/satname#ac",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7647",
+            "definition": {
+                "en": "Meteorological satellite."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/satname#",
+            "notation": {
+                "en": "ac"
+            },
+            "prefLabel": {
+                "en": "NOAA"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/satname#ad",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7648",
+            "definition": {
+                "en": "Meteorological satellite."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/satname#",
+            "notation": {
+                "en": "ad"
+            },
+            "prefLabel": {
+                "en": "Nimbus"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/satname#ae",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7649",
+            "definition": {
+                "en": "Meteorological satellite."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/satname#",
+            "notation": {
+                "en": "ae"
+            },
+            "prefLabel": {
+                "en": "METEOSAT"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/satname#ga",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7650",
+            "definition": {
+                "en": "Earth resources satellite."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/satname#",
+            "notation": {
+                "en": "ga"
+            },
+            "prefLabel": {
+                "en": "ERTS"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/satname#gb",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7651",
+            "definition": {
+                "en": "Earth resources satellite."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/satname#",
+            "notation": {
+                "en": "gb"
+            },
+            "prefLabel": {
+                "en": "Landsat I"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/satname#gc",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7652",
+            "definition": {
+                "en": "Earth resources satellite."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/satname#",
+            "notation": {
+                "en": "gc"
+            },
+            "prefLabel": {
+                "en": "Landsat II"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/satname#gd",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7653",
+            "definition": {
+                "en": "Earth resources satellite."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/satname#",
+            "notation": {
+                "en": "gd"
+            },
+            "prefLabel": {
+                "en": "Landsat III"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/satname#ge",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7654",
+            "definition": {
+                "en": "Earth resources satellite."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/satname#",
+            "notation": {
+                "en": "ge"
+            },
+            "prefLabel": {
+                "en": "Seasat"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/satname#gf",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7655",
+            "definition": {
+                "en": "Earth resources satellite."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/satname#",
+            "notation": {
+                "en": "gf"
+            },
+            "prefLabel": {
+                "en": "Skylab"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/satname#gg",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7656",
+            "definition": {
+                "en": "Earth resources satellite."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/satname#",
+            "notation": {
+                "en": "gg"
+            },
+            "prefLabel": {
+                "en": "Spacelab"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/satname#ma",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7657",
+            "definition": {
+                "en": "Space observing satellite."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/satname#",
+            "notation": {
+                "en": "ma"
+            },
+            "prefLabel": {
+                "en": "Explorer I"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/satname#mb",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7658",
+            "definition": {
+                "en": "Space observing satellite."
+            },
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/satname#",
+            "notation": {
+                "en": "mb"
+            },
+            "prefLabel": {
+                "en": "Explorer II"
+            },
+            "status": "Published"
+        }
+    ]
+}

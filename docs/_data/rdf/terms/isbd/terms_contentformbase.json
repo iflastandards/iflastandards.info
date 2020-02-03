@@ -1,0 +1,240 @@
+{
+    "@context": "http://iflastandards.info/ns/isbd/terms/Contexts/concepts_langmap.jsonld",
+    "@graph": [
+        {
+            "@id": "http://iflastandards.info/ns/isbd/terms/contentformbase",
+            "@type": "ConceptScheme",
+            "title": {
+                "en": "ISBD Content Form Qualified Base"
+            },
+            "description": {
+                "en": "Compound terms for qualified ISBD content forms that map to RDA/ONIX Framework for Resource Categorization base content categories."
+            },
+            "prefix": "",
+            "token": "contentformbase",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "label": "Published"
+            },
+            "omr_api": "http://api.metadataregistry.org/vocabularies/443",
+            "omr_home": "http://metadataregistry.org/vocabularies/443",
+            "count": 13,
+            "languages": [
+                {
+                    "code": "en",
+                    "lang": "English",
+                    "version": "UNIMARC 1.0"
+                }
+            ],
+            "dateOfPublication": "January 31, 2020"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/isbd/terms/contentformbase/T1001",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/8678",
+            "broadMatch": [
+                "http://iflastandards.info/ns/isbd/terms/contentform/T1004"
+            ],
+            "definition": {
+                "en": "Content expressed through ordered tones or sounds in succession, in combination, and in temporal relationships to produce a composition, expressed in an audible form, at a given time, and recorded in a resource."
+            },
+            "inScheme": "http://iflastandards.info/ns/isbd/terms/contentformbase",
+            "prefLabel": {
+                "en": "music (performed)"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/isbd/terms/contentformbase/T1002",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/8679",
+            "broadMatch": [
+                "http://iflastandards.info/ns/isbd/terms/contentform/T1002"
+            ],
+            "definition": {
+                "en": "Content expressed through line, shape, shading, etc. that is perceived to be in motion, usually by means of a quick succession of images, and in two dimensions."
+            },
+            "inScheme": "http://iflastandards.info/ns/isbd/terms/contentformbase",
+            "prefLabel": {
+                "en": "image (moving ; 2-dimensional)"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/isbd/terms/contentformbase/T1003",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/8680",
+            "broadMatch": [
+                "http://iflastandards.info/ns/isbd/terms/contentform/T1002"
+            ],
+            "definition": {
+                "en": "Content expressed through line, shape, shading, etc. that is perceived to be in motion, usually by means of a quick succession of images, and in three dimensions."
+            },
+            "inScheme": "http://iflastandards.info/ns/isbd/terms/contentformbase",
+            "prefLabel": {
+                "en": "image (moving ; 3-dimensional)"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/isbd/terms/contentformbase/T1004",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/8681",
+            "broadMatch": [
+                "http://iflastandards.info/ns/isbd/terms/contentform/T1002"
+            ],
+            "definition": {
+                "en": "Content expressed through line, shape, shading, etc. that is perceived to be static and in two dimensions, and intended to be perceived through sight."
+            },
+            "inScheme": "http://iflastandards.info/ns/isbd/terms/contentformbase",
+            "prefLabel": {
+                "en": "image (still ; 2-dimensional ; visual)"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/isbd/terms/contentformbase/T1005",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/8682",
+            "broadMatch": [
+                "http://iflastandards.info/ns/isbd/terms/contentform/T1002"
+            ],
+            "definition": {
+                "en": "Content expressed through line, shape, shading, etc. that is perceived to be static and in three dimensions."
+            },
+            "inScheme": "http://iflastandards.info/ns/isbd/terms/contentformbase",
+            "prefLabel": {
+                "en": "image (still ; 3-dimensional)"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/isbd/terms/contentformbase/T1006",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/8683",
+            "broadMatch": [
+                "http://iflastandards.info/ns/isbd/terms/contentform/T1009"
+            ],
+            "definition": {
+                "en": "Content expressed through written words, symbols and numbers, and intended to be perceived through sight."
+            },
+            "inScheme": "http://iflastandards.info/ns/isbd/terms/contentformbase",
+            "prefLabel": {
+                "en": "text (visual)"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/isbd/terms/contentformbase/T1007",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/8684",
+            "broadMatch": [
+                "http://iflastandards.info/ns/isbd/terms/contentform/T1004"
+            ],
+            "definition": {
+                "en": "Content expressed through ordered tones or sounds in succession, in combination, and in temporal relationships to produce a composition, and through a notational system for artistic purposes intended to be perceived visually."
+            },
+            "inScheme": "http://iflastandards.info/ns/isbd/terms/contentformbase",
+            "prefLabel": {
+                "en": "music (notated)"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/isbd/terms/contentformbase/T1008",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/8685",
+            "broadMatch": [
+                "http://iflastandards.info/ns/isbd/terms/contentform/T1003"
+            ],
+            "definition": {
+                "en": "Content expressed through motion, i.e. the act or process of changing the position of an object or person, and through a notational system for artistic purposes intended to be perceived visually."
+            },
+            "inScheme": "http://iflastandards.info/ns/isbd/terms/contentformbase",
+            "prefLabel": {
+                "en": "movement (notated)"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/isbd/terms/contentformbase/T1009",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/8686",
+            "broadMatch": [
+                "http://iflastandards.info/ns/isbd/terms/contentform/T1002"
+            ],
+            "definition": {
+                "en": "Content expressed through line, shape, shading, etc. that is perceived to be static and in two dimensions, and intended to be perceived through touch."
+            },
+            "inScheme": "http://iflastandards.info/ns/isbd/terms/contentformbase",
+            "prefLabel": {
+                "en": "image (still ; 2-dimensional ; tactile)"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/isbd/terms/contentformbase/T1010",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/8687",
+            "broadMatch": [
+                "http://iflastandards.info/ns/isbd/terms/contentform/T1005"
+            ],
+            "definition": {
+                "en": "Content expressed through three-dimensional material, either naturally occurring entities, or human-made/machine-manufactured artefacts, and intended to be perceived through touch."
+            },
+            "inScheme": "http://iflastandards.info/ns/isbd/terms/contentformbase",
+            "prefLabel": {
+                "en": "object (tactile)"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/isbd/terms/contentformbase/T1011",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/8688",
+            "broadMatch": [
+                "http://iflastandards.info/ns/isbd/terms/contentform/T1009"
+            ],
+            "definition": {
+                "en": "Content expressed through written words, symbols and numbers, and intended to be perceived through touch."
+            },
+            "inScheme": "http://iflastandards.info/ns/isbd/terms/contentformbase",
+            "prefLabel": {
+                "en": "text (tactile)"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/isbd/terms/contentformbase/T1012",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/8689",
+            "broadMatch": [
+                "http://iflastandards.info/ns/isbd/terms/contentform/T1004"
+            ],
+            "definition": {
+                "en": "Content expressed through ordered tones or sounds in succession, in combination, and in temporal relationships to produce a composition, and through a notational system for artistic purposes intended to be perceived through touch."
+            },
+            "inScheme": "http://iflastandards.info/ns/isbd/terms/contentformbase",
+            "prefLabel": {
+                "en": "music (notated ; tactile)"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/isbd/terms/contentformbase/T1013",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/8690",
+            "broadMatch": [
+                "http://iflastandards.info/ns/isbd/terms/contentform/T1003"
+            ],
+            "definition": {
+                "en": "Content expressed through motion, i.e. the act or process of changing the position of an object or person, and through a notational system for artistic purposes intended to be perceived through touch."
+            },
+            "inScheme": "http://iflastandards.info/ns/isbd/terms/contentformbase",
+            "prefLabel": {
+                "en": "movement (notated ; tactile)"
+            },
+            "status": "Published"
+        }
+    ]
+}

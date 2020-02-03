@@ -1,0 +1,214 @@
+{
+    "@context": "http://iflastandards.info/ns/unimarc/terms/Contexts/concepts_langmap.jsonld",
+    "@graph": [
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/visfor#",
+            "@type": "ConceptScheme",
+            "title": {
+                "en": "UNIMARC: Visual projections, etc.: Form of release - visual projection, motion picture"
+            },
+            "description": {
+                "en": "The form of release of a visual projection or motion picture."
+            },
+            "prefix": "",
+            "token": "visfor",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "label": "Published"
+            },
+            "omr_api": "http://api.metadataregistry.org/vocabularies/408",
+            "omr_home": "http://metadataregistry.org/vocabularies/408",
+            "count": 14,
+            "languages": [
+                {
+                    "code": "en",
+                    "lang": "English",
+                    "version": "UNIMARC 1.0"
+                }
+            ],
+            "dateOfPublication": "January 31, 2020"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/visfor#1",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7785",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/visfor#",
+            "notation": {
+                "en": "1"
+            },
+            "prefLabel": {
+                "en": "transparency (deprecated)"
+            },
+            "status": "Deprecated"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/visfor#a",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7776",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/visfor#",
+            "notation": {
+                "en": "a"
+            },
+            "prefLabel": {
+                "en": "film reel"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/visfor#b",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7777",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/visfor#",
+            "notation": {
+                "en": "b"
+            },
+            "prefLabel": {
+                "en": "film cartridge"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/visfor#c",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7778",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/visfor#",
+            "notation": {
+                "en": "c"
+            },
+            "prefLabel": {
+                "en": "film cassette"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/visfor#d",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7779",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/visfor#",
+            "notation": {
+                "en": "d"
+            },
+            "prefLabel": {
+                "en": "other film type"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/visfor#g",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7780",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/visfor#",
+            "notation": {
+                "en": "g"
+            },
+            "prefLabel": {
+                "en": "filmstrip cartridge"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/visfor#h",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7781",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/visfor#",
+            "notation": {
+                "en": "h"
+            },
+            "prefLabel": {
+                "en": "filmslip"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/visfor#i",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7782",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/visfor#",
+            "notation": {
+                "en": "i"
+            },
+            "prefLabel": {
+                "en": "other filmstrip type"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/visfor#j",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7783",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/visfor#",
+            "notation": {
+                "en": "j"
+            },
+            "prefLabel": {
+                "en": "film strip roll"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/visfor#k",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7784",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/visfor#",
+            "notation": {
+                "en": "k"
+            },
+            "prefLabel": {
+                "en": "slide, slide set, stereograph"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/visfor#l",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7891",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/visfor#",
+            "notation": {
+                "en": "l"
+            },
+            "prefLabel": {
+                "en": "transparency"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/visfor#u",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7786",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/visfor#",
+            "notation": {
+                "en": "u"
+            },
+            "prefLabel": {
+                "en": "unknown"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/visfor#x",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7787",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/visfor#",
+            "notation": {
+                "en": "x"
+            },
+            "prefLabel": {
+                "en": "not a motion picture or visual projection"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/visfor#z",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7788",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/visfor#",
+            "notation": {
+                "en": "z"
+            },
+            "prefLabel": {
+                "en": "other forms of release"
+            },
+            "status": "Published"
+        }
+    ]
+}

@@ -1,0 +1,175 @@
+{
+    "@context": "http://iflastandards.info/ns/unimarc/terms/Contexts/concepts_langmap.jsonld",
+    "@graph": [
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/cartfor#",
+            "@type": "ConceptScheme",
+            "title": {
+                "en": "UNIMARC: Cartographic materials: Form of item"
+            },
+            "description": {
+                "en": "The form of a cartographic item,"
+            },
+            "prefix": "",
+            "token": "cartfor",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "label": "Published"
+            },
+            "omr_api": "http://api.metadataregistry.org/vocabularies/396",
+            "omr_home": "http://metadataregistry.org/vocabularies/396",
+            "count": 11,
+            "languages": [
+                {
+                    "code": "en",
+                    "lang": "English",
+                    "version": "UNIMARC 1.0"
+                }
+            ],
+            "dateOfPublication": "January 31, 2020"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/cartfor#a",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7606",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/cartfor#",
+            "notation": {
+                "en": "a"
+            },
+            "prefLabel": {
+                "en": "atlas"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/cartfor#b",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7607",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/cartfor#",
+            "notation": {
+                "en": "b"
+            },
+            "prefLabel": {
+                "en": "diagram"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/cartfor#c",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7608",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/cartfor#",
+            "notation": {
+                "en": "c"
+            },
+            "prefLabel": {
+                "en": "globe"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/cartfor#d",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7609",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/cartfor#",
+            "notation": {
+                "en": "d"
+            },
+            "prefLabel": {
+                "en": "map"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/cartfor#e",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7610",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/cartfor#",
+            "notation": {
+                "en": "e"
+            },
+            "prefLabel": {
+                "en": "model"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/cartfor#f",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7611",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/cartfor#",
+            "notation": {
+                "en": "f"
+            },
+            "prefLabel": {
+                "en": "profile"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/cartfor#g",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7612",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/cartfor#",
+            "notation": {
+                "en": "g"
+            },
+            "prefLabel": {
+                "en": "remote sensing image"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/cartfor#h",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7613",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/cartfor#",
+            "notation": {
+                "en": "h"
+            },
+            "prefLabel": {
+                "en": "section"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/cartfor#i",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7614",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/cartfor#",
+            "notation": {
+                "en": "i"
+            },
+            "prefLabel": {
+                "en": "view"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/cartfor#j",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7615",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/cartfor#",
+            "notation": {
+                "en": "j"
+            },
+            "prefLabel": {
+                "en": "plan"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/cartfor#z",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/7616",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/cartfor#",
+            "notation": {
+                "en": "z"
+            },
+            "prefLabel": {
+                "en": "other"
+            },
+            "status": "Published"
+        }
+    ]
+}
