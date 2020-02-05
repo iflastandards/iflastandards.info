@@ -3,7 +3,8 @@ title: FRBR Entity-Relationship Model
 sidebar: fr_sidebar
 permalink: fr/frbr/frbrer.html
 uri: "http://iflastandards.info/ns/fr/frbr/frbrer/"
-rdf_file: frbrer_en_20200130T182938_3092_0
+jsonld: "frbr_frbrer"
+ns: "fr"
 toc: true
 ---
 
@@ -13,39 +14,30 @@ This is the element set of native RDF classes and properties described in the cu
 
 ## Classes
 
-{% assign rdf = site.data.rdf[page.rdf_file] %}
+{% assign graph = site.data.rdf.elements[page.ns][page.jsonld]["@graph"] %}
+{% assign language = 'en' %}
 
-{% assign classes = rdf | where: "*type", "class" | sort: "*label_en"  %}
+{% assign classes = graph | where: "@type", "Class" %}
+{% assign class_labels = classes | map: 'label'| sort: language | map: language %}
+
+{% assign properties = graph | where: "@type", "Property" %}
+{% assign property_labels = properties | map: 'label'| sort: language | map: language %}
 
 <ul>
-{% for row in classes %}
+{% for label in class_labels %}
   <li>
-   <a href="#{{ row["*label_en"] }}">{{ row["*label_en" ] }}</a>
+   <a href="#{{ label }}">{{ label }}</a>
   </li>
 {% endfor %}
 </ul>
 
 ## Properties
 
-{% assign properties = rdf | where: "*type", "property" | sort: "*label_en"  %}
-
 <ul>
-{% for row in properties%}
+{% for label in property_labels%}
   <li>
-   <a href="#{{ row["*label_en"] }}">{{ row["*label_en" ] }}</a>
+   <a href="#{{ label }}">{{ label }}</a>
   </li>
   {% endfor %}
 </ul>
 {{ page.uri }}
-
-<ul>
-{% for row in classes %}
-<div id = "{{ row["*label_en" ] }}">
-<ul>
-  <li>
-   <a href="#{{ row["*label_en"] }}">{{ row["*label_en" ] }}</a>
-  </li>
-  </ul>
-  </div>
-{% endfor %}
-
