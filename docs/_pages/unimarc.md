@@ -71,7 +71,7 @@ This page introduces the UNIMARC Element Sets and Value Vocabularies.
 The altitude of the platform of an aerial photography or remote sensing sensor.
 
 * [Cartographic materials: Attitude of sensor](/unimarc/terms/attos/)  
-The attitude of a sensed image resulting from the angle of an aerial photography or remote sensing sensor. 
+The attitude of a sensed image resulting from the angle of an aerial photography or remote sensing sensor.
 
 * [Cartographic materials: Category of satellite](/unimarc/terms/satcat/)  
 The category of satellite for a remote sensing image.
@@ -120,10 +120,10 @@ The type of material used for the primary support (i.e., the support or base on 
 * [Graphics: Specific material designation](/unimarc/terms/graphicssmd/)  
 The specific material designation that describes the special class of material (usually  the class of physical object) to which the non-projected graphic item belongs.
 
-* [Graphics: Technique (prints) ](/unimarc/terms/graphicstp/)  
-The technique in which prints are executed. 
+* [Graphics: Technique (prints)](/unimarc/terms/graphicstp/)  
+The technique in which prints are executed.
 
-* [Graphics: Techniques (drawings, paintings) ](/unimarc/terms/graphicstd/)  
+* [Graphics: Techniques (drawings, paintings)](/unimarc/terms/graphicstd/)  
 The technique in which drawing and paintings are executed.
 
 ### Sound Recordings
