@@ -4,30 +4,18 @@
 <meta name="description" content="{% if page.summary %}{{ page.summary | strip_html | strip_newlines | truncate: 160 }}{% endif %}">
 <meta name="keywords" content="{{page.tags}}{% if page.tags %}, {% endif %} {{page.keywords}}">
 <title>{{ page.title }} | {{ site.site_title }}</title>
-<link rel="stylesheet" href="{{ "/css/syntax.css" | relative_url }}">
+<link rel="stylesheet" type="text/css" href="{{ "/css/syntax.css" | relative_url }}">
 
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<!--<link rel="stylesheet" type="text/css" href={{ "css/bootstrap.min.css" | relative_url }}">-->
-<link rel="stylesheet" href="{{ "/css/modern-business.css" | relative_url }}">
+<link rel="stylesheet" type="text/css" href="{{ "/bower_components/bootstrap/dist/css/bootstrap.min.css" | relative_url }}">
+<link rel="stylesheet" type="text/css" href="{{ "/css/modern-business.css" | relative_url }}">
 <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<link rel="stylesheet" href="{{ "/css/customstyles.css" | relative_url }}">
-<link rel="stylesheet" href="{{ "/css/boxshadowproperties.css" | relative_url }}">
+<link rel="stylesheet" type="text/css" href="{{ "/css/customstyles.css" | relative_url }}">
+<link rel="stylesheet" type="text/css" href="{{ "/css/boxshadowproperties.css" | relative_url }}">
 <!-- most color styles are extracted out to here -->
-<link rel="stylesheet" href="{{ "/css/theme-blue.css" | relative_url }}">
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
-<script src="{{ "/js/jquery.navgoco.min.js" | relative_url }}"></script>
-
-
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<!-- Anchor.js -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.0/anchor.min.js"></script>
-<script src="{{ "/js/toc.js" | relative_url }}"></script>
-<script src="{{ "/js/customscripts.js" | relative_url }}"></script>
+<link rel="stylesheet" type="text/css" href="{{ "/css/theme-blue.css" | relative_url }}">
+<link rel="stylesheet" type="text/css" href="{{ "/css/style.css" | relative_url }}">
+<link rel="stylesheet" type="text/css" href="{{ "/css/rdagit.css" | relative_url }}">
 
 <link rel="shortcut icon" href="{{ "/images/favicon.ico" | relative_url }}">
 
@@ -39,3 +27,24 @@
 <![endif]-->
 
 <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.url }}">
+    {% if page.layout == 'terms' %}
+        {% assign lexical = page.id | split: "/" | last %}
+        {% assign concept = site.data.rdf.terms[page.ns][page.jsonld]["@graph"][0] %}
+        {% assign pageTitle = concept.title.en %}
+        {% assign pageDescription = concept.description.en %}
+        {% assign regID = concept.api | split: "/" | last %}
+        {% assign pageRDF = concept['@id'] %}
+        {% capture namespace %}{{pageRDF}}/{% endcapture %}
+        <title>{% if pageTitle %}{{ site.title }} | Values | {{ pageTitle }}{% else %}{{ site.title }}{% endif %}</title>
+        <meta name="description" content="{% if pageDescription %}{{ pageDescription | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+        <!-- Links-->
+        <link rel="canonical" href="{{pageRDF}}">
+        <link rel="alternate" type="application/rdf+xml" title="RDF/XML" href="{{pageRDF}}.xml"/>
+        <link rel="alternate" type="application/atom+xml" title="Atom" href="http://metadataregistry.org/history/feed/vocabulary_id/{{regID}}.atom">
+    {% endif %}
+
+   {% if page.datatable == true %}
+    <link rel="stylesheet" type="text/css" href="{{ "/bower_components/datatables.net-dt/css/jquery.dataTables.min.css" | relative_url }}">
+    <link rel="stylesheet" type="text/css" href="{{ "/bower_components/protip/css/protip.css" | relative_url }}">
+    <link rel="stylesheet" type="text/css" href="{{ "/bower_components/code-prettify/src/prettify.css" | relative_url }}">
+    {% endif %}

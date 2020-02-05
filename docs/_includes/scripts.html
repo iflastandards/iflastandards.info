@@ -1,12 +1,89 @@
 <!-- Scripts-->
-<script src="/bower_components/jquery/dist/jquery.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.js"></script>
-<script src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
-<script src="/vendor/log.js"></script>
-<script src="/bower_components/modernizr/modernizr.js"></script>
-<script src="/bower_components/trunk8/trunk8.js"></script>
+<script src="{{ "/bower_components/jquery/dist/jquery.js" | relative_url }}"></script>
+<script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+<script src="{{ "/bower_components/bootstrap/dist/js/bootstrap.js" | relative_url }}"></script>
+<script src="{{ "/bower_components/jquery.cookie/jquery.cookie.js" | relative_url }}"></script>
+<script src="{{ "/bower_components/navgoco/src/jquery.navgoco.min.js" | relative_url }}"></script>
+<script src="{{ "/bower_components/anchor-js/anchor.min.js" | relative_url }}"></script>
+<script src="{{ "/bower_components/log/log.min.js" | relative_url }}"></script>
+<script src="{{ "/bower_components/trunk8/trunk8.js" | relative_url }}"></script>
+<script src="{{ "/bower_components/code-prettify/src/prettify.js" | relative_url }}"></script>
+<script src="{{ "/js/toc.js" | relative_url }}"></script>
+<script src="{{ "/js/customscripts.js" | relative_url }}"></script>
+    <script>
+        $(document).ready(function() {
+            // Initialize navgoco with default options
+            $("#mysidebar").navgoco({
+                caretHtml: '',
+                accordion: true,
+                openClass: 'active', // open
+                save: false, // leave false or nav highlighting doesn't work right
+                cookie: {
+                    name: 'navgoco',
+                    expires: false,
+                    path: '/'
+                },
+                slide: {
+                    duration: 400,
+                    easing: 'swing'
+                }
+            });
+
+            $("#collapseAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', false);
+            });
+
+            $("#expandAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', true);
+            });
+
+        });
+
+    </script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+    <script>
+        $(document).ready(function() {
+            $("#tg-sb-link").click(function() {
+                $("#tg-sb-sidebar").toggle();
+                $("#tg-sb-content").toggleClass('col-md-9');
+                $("#tg-sb-content").toggleClass('col-md-12');
+                $("#tg-sb-icon").toggleClass('fa-toggle-on');
+                $("#tg-sb-icon").toggleClass('fa-toggle-off');
+            });
+        });
+    </script>
+ 
 {% if page.datatable == true %}
-<script src="/bower_components/datatables.net/js/jquery.dataTables.min.js">></script>
-<script src="/bower_components/protip/protip.min.js"></script>
-<script src="/scripts/valueScript.js"></script>
+    {% if page.layout == "terms" %}
+        <script type="text/javascript">
+            var dataSource = "{{ page.github }}"
+            var prefix = "{{ concept.prefix }}";
+            var vocabNamespace = "{{ namespace }}"
+        </script>
+    {% endif %}
+    <script src="{{ "/bower_components/datatables.net/js/jquery.dataTables.min.js" | relative_url }}"></script>
+    <script src="{{ "/bower_components/protip/protip.min.js" | relative_url }}"></script>
+    <script src="{{ "/js/valueScript.js" | relative_url }}"></script>
+    <!-- First, this walks through the tables that occur between ...-begin
+         and ...-end and add the "datatable" class to them.
+         Then it invokes DataTable's standard initializer
+         Credit here: http://www.beardedhacker.com/blog/2015/08/28/add-class-attribute-to-markdown-table/
+      -->
+    <script>
+      $(document).ready(function(){
+          $('div.datatable-begin').nextUntil('div.datatable-end', 'table').addClass('display');
+          $('table.display').DataTable( {
+              paging: true,
+              stateSave: true,
+              searching: true
+          });
+       });
+    </script>
+
 {% endif %}
