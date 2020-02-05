@@ -1,26 +1,8 @@
 ---
 layout: default
 ---
-{% assign lexical = page.id | split: "/" | last %}
-{{ lexical }}
-{% for org_hash in site.data.terms %}
-  {% if org_hash[0] == lexical %}
-    {% assign org = org_hash[1] %}
-    {% assign concept = org["@graph"][0] %}
-  {% endif %}
-{% endfor %}
-{% assign pageTitle = concept.title.en %}
-{% assign pageDescription = concept.description.en %}
-{% assign regID = concept.omr_api | split: "/" | last %}
-{% assign pageRDF = concept['@id'] %}
-{% capture namespace %}{{pageRDF}}/{% endcapture %}
-{% if page.datatable == true %}
-<script type="text/javascript">
-    var dataSource = "/data/terms/{{lexical}}.jsonld";
-    var prefix = '{{concept.prefix}}';
-    var vocabNamespace = "{{namespace}}"
-</script>
-{% endif %}
+{% assign concept = site.data.rdf.terms[page.ns][page.jsonld]["@graph"][0] %}
+
 <div class="post-content">
     <h1>IFLA value vocabularies</h1>
     <div class="row">

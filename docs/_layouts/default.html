@@ -2,105 +2,15 @@
 <html>
 <head>
     {% include head.html %}
-    {% if page.layout == 'terms' %}
-        {% assign lexical = page.id | split: "/" | last %}
-        {% for org_hash in site.data.terms %}
-            {% if org_hash[0] == lexical %}
-                {% assign org = org_hash[1] %}
-                {% assign concept = org["@graph"][0] %}
-            {% endif %}
-        {% endfor %}
-        {% assign pageTitle = concept.title.en %}
-        {% assign pageDescription = concept.description.en %}
-        {% assign regID = concept.api | split: "/" | last %}
-        {% assign pageRDF = concept['@id'] %}
-        {% capture namespace %}{{pageRDF}}/{% endcapture %}
-        <title>{% if pageTitle %}{{ site.title }} | Values | {{ pageTitle }}{% else %}{{ site.title }}{% endif %}</title>
-        <meta name="description" content="{% if pageDescription %}{{ pageDescription | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-        <!-- Links-->
-        <link rel="canonical" href="{{pageRDF}}">
-        <link rel="alternate" type="application/rdf+xml" title="RDF/XML" href="{{pageRDF}}.xml"/>
-        <link rel="alternate" type="application/atom+xml" title="Atom"
-         href="http://metadataregistry.org/history/feed/vocabulary_id/{{regID}}.atom">
-    {% endif %}
-
-    <script>
-        $(document).ready(function() {
-            // Initialize navgoco with default options
-            $("#mysidebar").navgoco({
-                caretHtml: '',
-                accordion: true,
-                openClass: 'active', // open
-                save: false, // leave false or nav highlighting doesn't work right
-                cookie: {
-                    name: 'navgoco',
-                    expires: false,
-                    path: '/'
-                },
-                slide: {
-                    duration: 400,
-                    easing: 'swing'
-                }
-            });
-
-            $("#collapseAll").click(function(e) {
-                e.preventDefault();
-                $("#mysidebar").navgoco('toggle', false);
-            });
-
-            $("#expandAll").click(function(e) {
-                e.preventDefault();
-                $("#mysidebar").navgoco('toggle', true);
-            });
-
-        });
-
-    </script>
-    <script>
-        $(function () {
-            $('[data-toggle="tooltip"]').tooltip()
-        })
-    </script>
-    <script>
-        $(document).ready(function() {
-            $("#tg-sb-link").click(function() {
-                $("#tg-sb-sidebar").toggle();
-                $("#tg-sb-content").toggleClass('col-md-9');
-                $("#tg-sb-content").toggleClass('col-md-12');
-                $("#tg-sb-icon").toggleClass('fa-toggle-on');
-                $("#tg-sb-icon").toggleClass('fa-toggle-off');
-            });
-        });
-    </script>
-    {% if page.datatable == true %}
-    <!-- Include the standard DataTables bits -->
-    <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.13/css/jquery.dataTables.css">
-    <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.13/js/jquery.dataTables.js"></script>
-    <!-- First, this walks through the tables that occur between ...-begin
-         and ...-end and add the "datatable" class to them.
-         Then it invokes DataTable's standard initializer
-         Credit here: http://www.beardedhacker.com/blog/2015/08/28/add-class-attribute-to-markdown-table/
-      -->
-    <script>
-      $(document).ready(function(){
-          $('div.datatable-begin').nextUntil('div.datatable-end', 'table').addClass('display');
-          $('table.display').DataTable( {
-              paging: true,
-              stateSave: true,
-              searching: true
-          });
-       });
-    </script>
-    {% endif %}
-
 </head>
 <body>
 {% include topnav.html %}
+
 <!-- Page Content -->
 <div class="container" style="margin-top: 50px;">
   <div id="main">
     <!-- Content Row -->
-    <div class="row">
+    <div class="row">        
         {% assign content_col_size = "col-md-12" %}
         {% unless page.hide_sidebar %}
             <!-- Sidebar Column -->
@@ -112,7 +22,9 @@
 
         <!-- Content Column -->
         <div class="{{content_col_size}}" id="tg-sb-content">
+            <div class="rg-pagecontent">
             {{content}}
+            </div>
         </div>
     <!-- /.row -->
 </div>
@@ -120,9 +32,11 @@
 </div>
 <!-- /#main -->
     </div>
-
+{% include scripts.html %}
 </body>
 {% if site.google_analytics %}
-{% include google_analytics.html %}
+    {% include google_analytics.html %}
 {% endif %}
+</html> 
+    </head>
 </html>
