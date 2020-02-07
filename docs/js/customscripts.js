@@ -15,11 +15,6 @@ $( document ).ready(function() {
         placement : 'top'
     });
 
-    /**
-     * AnchorJS
-     */
-    anchors.add('h2,h3,h4,h5');
-
 // needed for nav tabs on pages. See Formatting > Nav tabs for more details.
 if (location.hash) {
         $("a[href='" + location.hash + "']").tab("show");
