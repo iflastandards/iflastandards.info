@@ -15,7 +15,7 @@ layout: default
     <div class="row">
         <div class="col-md-6">
             <div class="rgelement-title">
-                <h2>{{pageTitle}}</h2>
+                <h2>{{concept.title.en}}</h2>
             </div>
             <div class="rgelement-description">
                 <p>{{pageDescription}}</p>
@@ -28,20 +28,19 @@ layout: default
                     </tr>
                     <tr>
                         <td>URI:</td>
-                        <td>{{concept['@id']}}</td>
+                        <td>{{pageRDF}}</td>
                     </tr>
                     <tr>
                         <td>Namespace:</td>
-                        <td>{{namespace}}</td>
+                        <td>{{pageRDF}}#</td>
                     </tr>
-                    <tr></tr>
                     <tr>
                         <td>Suggested prefix*:</td>
-                        <td>{{concept.prefix}}</td>
+                        <td>{{prefix}}</td>
                     </tr>
                     <tr>
                         <td>Example curie:</td>
-                        <td>{{concept.prefix}}:1001</td>
+                        <td>{{prefix}}:1001</td>
                     </tr>
                 </table>
                 <p>* registered at
