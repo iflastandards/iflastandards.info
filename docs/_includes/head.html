@@ -28,13 +28,6 @@
 
 <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.url }}">
     {% if page.layout == 'terms' %}
-        {% assign lexical = page.id | split: "/" | last %}
-        {% assign concept = site.data.rdf.terms[page.ns][page.jsonld]["@graph"][0] %}
-        {% assign pageTitle = concept.title.en %}
-        {% assign pageDescription = concept.description.en %}
-        {% assign regID = concept.api | split: "/" | last %}
-        {% assign pageRDF = concept['@id'] %}
-        {% capture namespace %}{{pageRDF}}/{% endcapture %}
         <title>{% if pageTitle %}{{ site.title }} | Values | {{ pageTitle }}{% else %}{{ site.title }}{% endif %}</title>
         <meta name="description" content="{% if pageDescription %}{{ pageDescription | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
         <!-- Links-->

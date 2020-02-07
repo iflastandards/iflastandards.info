@@ -1,7 +1,14 @@
 ---
 layout: default
 ---
+{% assign lexical = page.id | split: "/" | last %}
 {% assign concept = site.data.rdf.terms[page.ns][page.jsonld]["@graph"][0] %}
+{% assign pageTitle = concept.title.en %}
+{% assign pageDescription = concept.description.en %}
+{% assign regID = concept.api | split: "/" | last %}
+{% assign pageRDF = concept['@id'] %}
+{% capture namespace %}{{pageRDF}}#{% endcapture %}
+{% assign prefix = page.prefix %}
 
 <div class="post-content">
     <h1>IFLA value vocabularies</h1>
