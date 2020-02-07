@@ -237,7 +237,8 @@ $(document).ready(
                     "render": function (data, type, row) {
                         if (typeof row["@id"] != "undefined") {
                             var url = makeUrl(row["@id"]);
-                            var id = row["@id"].replace(/^.*\/(.*)$/ig, "$1");
+                            regexp = new RegExp(vocabNamespace+"(.*)$", "gi");
+                            var id = row["@id"].replace(regexp, "$1");
                             return '<a id="' + id + '" href="' + url + '" title="permalink: ' + url + '">#</a>';
                         }
                     }
