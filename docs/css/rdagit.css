@@ -59,7 +59,7 @@
     white-space: nowrap;
 }
 #pindex .definition{
-    /* width: 100%; */
+    width: 100%;
     white-space: normal;
 }
 
@@ -97,12 +97,19 @@ table.pindex_detail td.definition {
 	font-weight: bold;
 }
 .page-content .rg-pagecontent tr {
-	border-bottom: 1px solid gray;
-	padding-bottom: 0.5em;
-	padding-top: 0.5em;
+	border-bottom: 1px solid black;
+	border-left-color: white;
+	padding-bottom: 7px;
+	padding-top: 7px;
+	line-height: 20px;
+	vertical-align: middle;
+	font-size: 14px;
+	white-space: nowrap;
 }
 .page-content .rg-pagecontent .rgelement-reference td {
 	padding-left: 1em;
+	border-top: 1px solid black;
+	padding: 0 14px 0 14px;
 }
 .page-content .rg-pagecontent .faq-a {
 }
