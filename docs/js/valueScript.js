@@ -115,7 +115,8 @@ function formatRefArray(data, classname) {
 
 function makeCurie(uri) {
     if (typeof uri.replace === "function") {
-        return uri.replace(/^(http:\/\/rdaregistry\.info\/termList\/)(.*)\/(.*)$/ig, prefix + ":$3");
+        regexp = new RegExp(vocabNamespace+"(.*)$", "gi");
+        return uri.replace(regexp, prefix + ":$1");
     }
 }
 
