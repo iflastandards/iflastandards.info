@@ -279,10 +279,12 @@ $(document).ready(
 // Add event listener for truncate on draw
         dtable.on('draw.dt', function () {
             if (initFilter) {
-                var tr = $("#" + initFilter).closest('tr');
+                var id = "#" + initFilter;
+                var tr = $(id).closest('tr');
                 var row = table.row(tr);
-                if (typeof row.child(format(row.data())) != "undefined") {
-                    row.child(format(row.data())).show();
+                var child = row.child(format(row.data()));
+                if (typeof child != "undefined") {
+                    child.show();
                     tr.addClass('shown');
                 }
                 $("div#pindex_filter input").val(initFilter);
