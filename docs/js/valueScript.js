@@ -101,14 +101,14 @@ function formatRefArray(data, classname) {
     if (typeof data != "undefined") {
         if (data instanceof Array) {
             for (z = 0; z < data.length; ++z) {
-                value += formatRef(data[z], classname)
+                value += formatRef(data[z], classname);
             }
         }
         else {
-            value = formatRef(data, classname)
+            value = formatRef(data, classname);
         }
     } else {
-        value = ""
+        value = "";
     }
     return value;
 }
@@ -136,14 +136,14 @@ function makeLinkArray(data) {
     if (typeof data != "undefined") {
         if (data.constructor === Array) {
             for (z = 0; z < data.length; ++z) {
-                value += makeLink(data[z]) + '<br />'
+                value += makeLink(data[z]) + '<br />';
             }
         }
         else {
-            value = makeLink(data)
+            value = makeLink(data);
         }
     } else {
-        value = ""
+        value = "";
     }
     return value;
 }
@@ -159,8 +159,8 @@ function makeLiteral(data) {
         if (typeof data[docLang] != "undefined") {
             return '"' + data[docLang] + '"';
         }
-        if (typeof data['en'] != "undefined") {
-            return '"' + data['en'] + '"';
+        if (typeof data.en != "undefined") {
+            return '"' + data.en + '"';
         }
         if (data instanceof Object) { //it's only available in a language that's not English'
         return "";
@@ -177,7 +177,7 @@ function getLanguageCallout(data) {
         if (typeof data[docLang] != "undefined") {
             return "@" + docLang;
         }
-        if (typeof data['en'] != "undefined") {
+        if (typeof data.en != "undefined") {
             return "@en";
         }
     }
@@ -355,7 +355,7 @@ $.fn.dataTableExt.oApi.clearSearch = function (oSettings) {
 };
 
 //auto-execute, no code needs to be added
-$.fn.dataTable.models.oSettings['aoInitComplete'].push({
+$.fn.dataTable.models.oSettings.aoInitComplete.push({
     "fn": $.fn.dataTableExt.oApi.clearSearch,
     "sName": 'whatever'
 });
@@ -367,5 +367,5 @@ $(document).ready(function () {
             gravity: true,
             delayIn: 500
         }
-    })
+    });
 });
