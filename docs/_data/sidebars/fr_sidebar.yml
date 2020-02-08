@@ -33,8 +33,8 @@ entries:
     output: web
     folderitems:
     - title: FRBRer User Tasks
-      url: fr/frbr/frbrer/frbrerusertask.html
+      url: /fr/frbr/frbrer/frbrerusertask.html
       output: web
     - title: FRSAD User Tasks
-      url: fr/frsad/frsadusertask.html
+      url: /fr/frsad/frsadusertask.html
       output: web
