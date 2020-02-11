@@ -2,16 +2,20 @@
 layout: default
 ---
 {% assign lexical = page.id | split: "/" | last %}
-{% assign concept = site.data.rdf.terms[page.ns][page.jsonld]["@graph"][0] %}
+{% assign ns = page.id | remove_first: '/' | split: "/" | first %}
+{% assign temp = ns | prepend: '/' | append: '/' %}
+{% assign jsonld = page.id | remove_first: temp | replace: "/", "_"  %}
+{% assign concept = site.data.rdf.terms[ns][jsonld]["@graph"][0] %}
 {% assign pageTitle = concept.title.en %}
 {% assign pageDescription = concept.description.en %}
 {% assign regID = concept.api | split: "/" | last %}
 {% assign pageRDF = concept['@id'] %}
-{% capture namespace %}{{pageRDF}}#{% endcapture %}
+{% assign namespace = pageRDF | append: page.ns_separator %}
 {% assign prefix = page.prefix %}
+{% assign github = "https://raw.githubusercontent.com/iflastandards/iflastandards.info/master/jsonld/ns" | append: page.id | append: '.jsonld' %}
 
 <div class="post-content">
-    <h1>IFLA value vocabularies</h1>
+    <h1>IFLA value vocabularies</h1> 
     <div class="row">
         <div class="col-md-6">
             <div class="rgelement-title">
@@ -32,7 +36,7 @@ layout: default
                     </tr>
                     <tr>
                         <td>Namespace:</td>
-                        <td>{{pageRDF}}#</td>
+                        <td>{{namespace}}</td>
                     </tr>
                     <tr>
                         <td>Suggested prefix*:</td>
@@ -124,7 +128,7 @@ layout: default
 </div>
 {{site.data.alerts.hr_shaded}}
 <script type="text/javascript">
-    var dataSource = "{{ page.github }}"
+    var dataSource = "{{ github }}"
     var prefix = "{{ prefix }}";
     var vocabNamespace = "{{ namespace }}";
 </script>
