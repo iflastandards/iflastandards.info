@@ -55,11 +55,11 @@ layout: default
             <div class="rgelement-download">
                 <h3>Downloads</h3>
                 <ul>
-                   <li><a id="dl_nt" href="{{ page.id |append: 'nt' | relative_url }}">N-Triples
+                   <li><a id="dl_nt" href="{{ page.id | append: '.nt' | relative_url }}">N-Triples
                         (text/rdf+nt)</a></li>
-                    <li><a id="dl_xml" href="{{ page.id |append: 'nxmlt' | relative_url }}">RDF/XML
+                    <li><a id="dl_xml" href="{{ page.id | append: '.xml' | relative_url }}">RDF/XML
                         (application/rdf+xml)</a></li>
-                    <li><a id="dl_jsonld" href="{{ page.id |append: 'jsonld' | relative_url }}">JSON-LD
+                    <li><a id="dl_jsonld" href="{{ page.id | append: '.jsonld' | relative_url }}">JSON-LD
                         (application/json | application/json+ld)</a> (see the <a
                             href="https://github.com/RDARegistry/RDA-Vocabularies/blob/master/jsonld/termList/_readme.md">Readme</a>)
                     </li>
