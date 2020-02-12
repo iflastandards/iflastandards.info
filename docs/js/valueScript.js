@@ -371,4 +371,11 @@ $(document).ready(function () {
             delayIn: 500
         }
     });
+
+    //if the language code is set and in the rtl array, then make the datatable rtl
+    var docLang = gup('language', Location.href, 'en');
+    if (['ar','dv','fa','ff','he','jv','kk','ks','ku','ms','ml','pa','ps','sd','so','tk','ug','ur','yi'].includes(docLang)){
+        document.querySelector("table.dataTable").dir='rtl'
+    };
+
 });
