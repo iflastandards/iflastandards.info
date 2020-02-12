@@ -5,6 +5,9 @@ layout: default
 {% assign ns = page.id | remove_first: '/' | split: "/" | first %}
 {% assign temp = ns | prepend: '/' | append: '/' %}
 {% assign jsonld = page.id | remove_first: temp | replace: "/", "_"  %}
+{% if jsonld | slice: 0 == '_' %}
+    {% assign: jsonld = jsonld | remove_first: '_'  %}
+{% endif %}
 {% assign concept = site.data.rdf.terms[ns][jsonld]["@graph"][0] %}
 {% assign pageTitle = concept.title.en %}
 {% assign pageDescription = concept.description.en %}
