@@ -121,8 +121,11 @@ function makeCurie(uri) {
 }
 
 function makeUrl(uri) {
-    if (typeof uri.replace === "function") {
-        return uri.replace(/^(http:\/\/)(.*)\/(.*)$/ig, "$1www.$2/#$3");
+    if (typeof uri.replace === "function" ) {
+        if(uri.search('#') === -1){
+            return uri.replace(/^(http:\/\/)(.*)\/(.*)$/ig, "$1www.$2#$3");
+        }
+        return uri;
     }
 }
 function makeUri(uri) {
