@@ -82,7 +82,8 @@ table.pindex_detail td.definition {
 		font-size: 1.6em;
 }
 .page-content .rg-pagecontent h2 {
-		font-size: 1.4em;
+    font-size: 1.4em;
+    margin: 0px;
 }
 .page-content .rg-pagecontent h3 {
 		font-size: 1.2em;
