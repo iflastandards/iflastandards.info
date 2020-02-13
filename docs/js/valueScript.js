@@ -43,12 +43,19 @@ function format(d) {
                         rows += makeLinkArray(d[property]);
                         break;
                     case 'altLabel':
+                    case 'hiddenLabel':
                     case 'prefLabel':
                     case 'ToolkitLabel':
                         rows += makeLiteral(d[property]) + ' ' + getLanguageCallout(d[property]);
                         break;
-                    case 'scopeNote':
+                    case 'changeNote':
                     case 'definition':
+                    case 'editorialNote':
+                    case 'example':
+                    case 'historyNote':
+                    case 'notation':
+                    case 'note':
+                    case 'scopeNote':
                     case 'ToolkitDefinition':
                         rows += makeLiteral(d[property]) + ' ' + getLanguageCallout(d[property]);
                         break;
