@@ -11,7 +11,7 @@ This page introduces the FRBR Element Sets and Value Vocabularies.
 
 ## FRBR Element Sets
 
-* [FRAD model](/iflastandards.info/fr/frad.html)  
+* [FRAD model]({{"/fr/frad.html" | relative_url}})  
   This is the element set of native RDF classes and properties described in the Functional Requirements for Authority Data model. The model also uses elements previously described in the Functional Requirements for Bibliographic Records (FRBR) entity-relationship model.
 
 * [FRBRer model](/iflastandards.info/fr/frbr/frbrer.html)  
