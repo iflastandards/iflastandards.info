@@ -1,0 +1,143 @@
+---
+layout: default
+---
+{% assign lexical = page.id | split: "/" | last %}
+{% assign ns = page.id | remove_first: '/' | split: "/" | first %}
+{% assign temp = ns | prepend: '/' | append: '/' %}
+{% assign jsonld = page.id | remove_first: temp | replace: "/", "_"  %}
+{% assign first = jsonld | slice: 0 %}
+{% if '_' == first %}
+   {% assign: jsonld = jsonld | remove_first: '_'  %}
+{% endif %}
+{% assign element = site.data.rdf.elements[ns][jsonld]["@graph"][0] %}
+{% assign pageTitle = element.title.en %}
+{% assign pageDescription = element.description.en %}
+{% assign regID = element.api | split: "/" | last %}
+{% assign pageRDF = element['@id'] %}
+{% assign namespace = pageRDF | append: page.ns_separator %}
+{% assign prefix = page.prefix %}
+{% assign github = "https://raw.githubusercontent.com/iflastandards/iflastandards.info/master/jsonld/ns" | append: page.id | append: '.jsonld' %}
+{{github}}
+<div class="post-content">
+    <h1>IFLA Element Sets</h1> 
+    <div class="row">
+        <div class="col-md-6">
+            <div class="rgelement-title">
+                <h2>{{element.title.en}}</h2>
+            </div>
+            <div class="rgelement-description">
+                <p>{{pageDescription}}</p>
+            </div>
+            <div class="rgelement-reference">
+                <table>
+                    <tr>
+                        <td>Number of elements:</td>
+                        <td>{{element.count}}</td>
+                    </tr>
+                    <tr>
+                        <td>URI:</td>
+                        <td>{{pageRDF}}</td>
+                    </tr>
+                    <tr>
+                        <td>Namespace:</td>
+                        <td>{{namespace}}</td>
+                    </tr>
+                    <tr>
+                        <td>Suggested prefix*:</td>
+                        <td>{{prefix}}</td>
+                    </tr>
+                    <tr>
+                        <td>Example curie:</td>
+                        <td>{{prefix}}:1001</td>
+                    </tr>
+                </table>
+                <p>* registered at <a href="http://prefix.cc" target="_blank">prefix.cc</a></p>
+            </div>
+        </div>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="rgelement-download">
+                <h3>Downloads</h3>
+                <ul>
+                   <li><a id="dl_nt" href="{{ page.id | append: '.nt' | relative_url }}">N-Triples
+                        (text/rdf+nt)</a></li>
+                    <li><a id="dl_xml" href="{{ page.id | append: '.xml' | relative_url }}">RDF/XML
+                        (application/rdf+xml)</a></li>
+                    <li><a id="dl_jsonld" href="{{ page.id | append: '.jsonld' | relative_url }}">JSON-LD
+                        (application/json | application/json+ld)</a> (see the <a
+                            href="https://github.com/RDARegistry/RDA-Vocabularies/blob/master/jsonld/termList/_readme.md">Readme</a>)
+                    </li>
+                </ul>
+            </div>
+{% if element.languages %}
+            <div class="rgelement-languages">
+                <h3>Languages</h3>
+                <ul id="langList">
+    {% for lang in element.languages %}
+        {% if lang.version == "WIP" %}
+            <li><a title="Work In Progress" aria-disabled="true" disabled="disabled" class="not-active">{{lang.lang}}</a></li>
+        {% else %}
+            <li><a id="lang_{{lang.code}}" href="{{ page.id | relative_url }}?language={{lang.code}}"
+            {% if lang.source %}title="English Source Version: 
+                {{lang.source}}Current {{lang.lang}} Version: {{lang.version}}" 
+            {% endif %}>
+            {{lang.lang}}</a>
+            </li>
+        {% endif %}
+    {% endfor %}
+                </ul>
+            </div>
+{% endif %}
+        </div>
+    </div>
+    </div>
+    <div class="row">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h2>Values Index</h2>
+            </div>
+            <div id="tabledata">
+                <div class="tablebuttons">
+                    <button id="btn-show-all-children" type="button">Expand All</button>
+                    <button id="btn-hide-all-children" type="button">Collapse All</button>
+                </div>
+                <table class="table" id="pindex" style="width:100%">
+                    <thead>
+                    <tr>
+                        <th class="protip" data-pt-scheme="aqua" data-pt-delay-in=500
+                            data-pt-position="left" data-pt-gravity=true
+                            data-pt-title="<p>This column contains the permalink for the documentation for the element in this row.</p><p>Note: It is <emphasis>not</emphasis> the URI for the element.</p>"
+                            style="padding-right: 10px;padding-left: 10px !important;"> #
+                        </th>
+                        <th style="padding-right: 0;padding-left: 0 !important;"></th>
+                        <th class="protip" data-pt-scheme="aqua" data-pt-delay-in=500
+                            data-pt-position="left" data-pt-gravity=true
+                            data-pt-title="<p>This column contains the CURIE for the element. </p><p>The link associated with the curie is the canonical URI. </p>">
+                            CURIE
+                        </th>
+                        <th class="protip" data-pt-scheme="aqua" data-pt-delay-in=500
+                            data-pt-position="left" data-pt-gravity=true
+                            data-pt-title="<p>This column contains the preferred label for the element. </p><p>The link associated with the label is the English lexical alias.</p>">
+                            Label
+                        </th>
+                        <th class="protip" data-pt-scheme="aqua" data-pt-delay-in=500
+                            data-pt-position="left" data-pt-gravity=true
+                            data-pt-title="<p>This column contains the Definition of the Concept.</p><p>You probably figured that out on your own.</p><p>It's also worth mentioning that clicking on any of the column headings will sort the table by that column.</p>">
+                            Definition
+                        </th>
+                    </tr>
+                    </thead>
+                </table>
+            </div>
+            <div class="panel-footer">
+            </div>
+        </div>
+    </div>
+</div>
+{{site.data.alerts.hr_shaded}}
+<script type="text/javascript">
+    var dataSource = "{{ github }}"
+    var prefix = "{{ prefix }}";
+    var vocabNamespace = "{{ namespace }}";
+</script>
+ 
