@@ -286,6 +286,33 @@ $(document).ready(
             "deferRender": true
         });
 
+
+     // Handle click on "Expand All" button
+    $('#btn-show-all-children').on('click', function(){
+        // Enumerate all rows
+        table.rows().every(function(){
+            // If row has details collapsed
+            if(!this.child.isShown()){
+                // Open this row
+                this.child(format(this.data())).show();
+                $(this.node()).addClass('shown');
+            }
+        });
+    });
+
+    // Handle click on "Collapse All" button
+    $('#btn-hide-all-children').on('click', function(){
+        // Enumerate all rows
+        table.rows().every(function(){
+            // If row has details expanded
+            if(this.child.isShown()){
+                // Collapse row details
+                this.child.hide();
+                $(this.node()).removeClass('shown');
+            }
+        });
+    });
+
 // Add event listener for truncate on draw
         dtable.on('draw.dt', function () {
             if (initFilter) {
@@ -335,7 +362,8 @@ $(document).ready(
         }
 
     }
-);
+
+    );
 
 $.fn.dataTableExt.oApi.clearSearch = function (oSettings) {
     var table = $("#pindex").DataTable();
