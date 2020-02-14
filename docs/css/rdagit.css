@@ -58,12 +58,12 @@
 .pindex_detail td {
     white-space: nowrap;
 }
-#pindex .definition{
+#pindex .definition, #pindex .description{
     width: 100%;
     white-space: normal;
 }
 
-table.pindex_detail td.definition {
+table.pindex_detail td.definition, table.pindex_detail td.description {
     padding-left: 1em;
     white-space: normal;
 }
