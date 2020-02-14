@@ -161,6 +161,23 @@ function makeUri(uri) {
     }
 }
 
+function makeLabelArray(data) {
+    var value = "";
+    if (typeof data != "undefined") {
+        if (data.constructor === Array) {
+            for (z = 0; z < data.length; ++z) {
+                value += formatLabel(data[z]) + '<br />';
+            }
+        }
+        else {
+            value = formatLabel(data);
+        }
+    } else {
+        value = "";
+    }
+    return value;
+}
+
 function makeLinkArray(data) {
     var value = "";
     if (typeof data != "undefined") {
