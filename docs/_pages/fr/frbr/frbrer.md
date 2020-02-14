@@ -2,10 +2,11 @@
 title: FRBR Entity-Relationship Model
 sidebar: fr_sidebar
 permalink: fr/frbr/frbrer.html
-uri: "http://iflastandards.info/ns/fr/frbr/frbrer/"
-jsonld: "frbr_frbrer"
-ns: "fr"
+prefix: "frbrer"
+ns_separator: '/'
 toc: true
+layout: elements
+datatable: true
 ---
 
 ## FRBRer Element Set
