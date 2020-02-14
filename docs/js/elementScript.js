@@ -38,14 +38,10 @@ function format(d) {
                     case 'api':
                     case 'broadMatch':
                     case 'closeMatch':
-                    case 'domain':
                     case 'equivalentClass':
                     case 'equivalentProperty':
                     case 'hasUnconstrained':
                     case 'narrowMatch':
-                    case 'hasUnconstrained':
-                    case 'propertyDisjointWith':
-                    case 'range':
                     case 'related':
                     case 'sameAs':
                     case 'subClassOf':
@@ -53,7 +49,9 @@ function format(d) {
                         rows += makeLinkArray(d[property]);
                         break;
                     case 'disjointWith':
-                        rows += makeLabelArray(d[property]);
+                    case 'inverseOf':
+                    case 'propertyDisjointWith':
+                            rows += makeLabelArray(d[property]);
                         break;
                     case 'altLabel':
                     case 'hiddenLabel':
@@ -62,6 +60,7 @@ function format(d) {
                         rows += makeLiteral(d[property]) + ' ' + getLanguageCallout(d[property]);
                         break;
                     case 'changeNote':
+                    case 'comment':
                     case 'description':
                     case 'editorialNote':
                     case 'example':
@@ -71,6 +70,10 @@ function format(d) {
                     case 'scopeNote':
                     case 'ToolkitDefinition':
                         rows += makeLiteral(d[property]) + ' ' + getLanguageCallout(d[property]);
+                        break;
+                    case 'domain':
+                    case 'range':
+                        rows += formatLabel(d[property]);
                         break;
                     case 'isDefinedBy':
                     case 'status':
