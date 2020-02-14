@@ -138,6 +138,7 @@ layout: default
 <script type="text/javascript">
     var dataSource = "{{ github }}"
     var prefix = "{{ prefix }}";
-    var vocabNamespace = "{{ namespace }}";
+    var vocabNamespace = "{{ namespace }}"
+    vocabNamespace = vocabNamespace.replace(/\/\/$/, "/");
 </script>
  
