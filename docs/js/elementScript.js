@@ -32,24 +32,37 @@ function format(d) {
         for (i = 0, len = ownKeys.length; i < len; i++) {
             property = ownKeys[i];
             if (typeof property != "undefined" && blacklist.indexOf(property) == -1) {
-                rows += '<tr>' + '<td id="detail_key_' + property + '">' + property + ':</td>' + '<td class="definition" id="detail_def_' + property + '">';
+                rows += '<tr>' + '<td id="detail_key_' + property + '">' + property + ':</td>' + '<td class="description" id="detail_def_' + property + '">';
                 switch(property) {
                     case '@id':
                     case 'api':
-                    case 'broader':
-                    case 'narrower':
+                    case 'broadMatch':
+                    case 'closeMatch':
+                    case 'domain':
+                    case 'equivalentClass':
+                    case 'equivalentProperty':
+                    case 'hasUnconstrained':
+                    case 'narrowMatch':
+                    case 'hasUnconstrained':
+                    case 'propertyDisjointWith':
+                    case 'range':
                     case 'related':
-                    case 'inScheme':
+                    case 'sameAs':
+                    case 'subClassOf':
+                    case 'subPropertyOf':
                         rows += makeLinkArray(d[property]);
+                        break;
+                    case 'disjointWith':
+                        rows += makeLabelArray(d[property]);
                         break;
                     case 'altLabel':
                     case 'hiddenLabel':
-                    case 'prefLabel':
+                    case 'label':
                     case 'ToolkitLabel':
                         rows += makeLiteral(d[property]) + ' ' + getLanguageCallout(d[property]);
                         break;
                     case 'changeNote':
-                    case 'definition':
+                    case 'description':
                     case 'editorialNote':
                     case 'example':
                     case 'historyNote':
@@ -58,6 +71,13 @@ function format(d) {
                     case 'scopeNote':
                     case 'ToolkitDefinition':
                         rows += makeLiteral(d[property]) + ' ' + getLanguageCallout(d[property]);
+                        break;
+                    case 'isDefinedBy':
+                    case 'status':
+                        rows += formatLabel(d[property]);
+                        break;
+                    case 'url':
+                        rows += makeUrl(d[property]);
                         break;
                     default:
                         rows += '"' + d[property] + '"';
@@ -97,7 +117,7 @@ function formatCanon(data) {
 function formatLabel(data) {
     var url = data["@id"];
     return '<div class="vurllabel">' +
-        '<a href="' + url + '">' + makeLiteral(data.prefLabel) + '</a> ' + getLanguageCallout(data.prefLabel) +
+        '<a href="' + url + '">' + makeLiteral(data.label) + '</a> ' + getLanguageCallout(data.label) +
         '</div>';
 
 }
@@ -271,8 +291,8 @@ $(document).ready(
                 {
                     "class": "definition",
                     "render": function (data, type, row) {
-                        var definition = makeLiteral(row.definition) + ' ' + getLanguageCallout(row.definition);
-                        return formatRefArray( definition, "definition");
+                        var description = makeLiteral(row.description) + ' ' + getLanguageCallout(row.description);
+                        return formatRefArray( description, "description");
                     }
                 }
             ],
