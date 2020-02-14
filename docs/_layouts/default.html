@@ -39,15 +39,15 @@
 <!-- /#main -->
     </div>
 {% if page.datatable == true %}
-   <script src="{{ "/bower_components/datatables.net/js/jquery.dataTables.min.js" | relative_url }}"></script>
-   <script src="{{ "/bower_components/datatables.net-responsive/js/dataTables.responsive.min.js" | relative_url }}"></script>
+    <script src="{{ "/bower_components/datatables.net/js/jquery.dataTables.min.js" | relative_url }}"></script>
+    <script src="{{ "/bower_components/datatables.net-responsive/js/dataTables.responsive.min.js" | relative_url }}"></script>
     <script src="{{ "/bower_components/protip/protip.min.js" | relative_url }}"></script>
-    <script src="{{ "/js/valueScript.js" | relative_url }}"></script>
-    <!-- First, this walks through the tables that occur between ...-begin
-         and ...-end and add the "datatable" class to them.
-         Then it invokes DataTable's standard initializer
-         Credit here: http://www.beardedhacker.com/blog/2015/08/28/add-class-attribute-to-markdown-table/
-      -->
+    {% if page.layout == 'terms' %}
+        <script src="{{ "/js/valueScript.js" | relative_url }}"></script>
+    {% endif %}
+    {% if page.layout == 'elements' %}
+        <script src="{{ "/js/elementScript.js" | relative_url }}"></script>
+    {% endif %}
 {% endif %}
 
 {% include scripts.html %}
