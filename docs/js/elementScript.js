@@ -222,13 +222,13 @@ function makeLiteral(data) {
 function getLanguageCallout(data) {
     if (typeof data != "undefined") {
         if (typeof data[docLang] != "undefined") {
-            return "@" + docLang;
+            return '<span class="languageTag">@' + docLang+ '</span>';
         }
         if (typeof data.en != "undefined") {
-            return "@en";
+            return '<span class="languageTagDefault">@en</span>';
         }
     }
-    return "@en *";
+    return '<span class="languageTagMissing">@en *</span>';
 }
 
 function setFilter() {
