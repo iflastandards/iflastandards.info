@@ -94,14 +94,55 @@ layout: default
     <div class="row">
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h2>Values Index</h2>
+                <h2>Classes Index</h2>
             </div>
             <div id="tabledata">
                 <div class="tablebuttons">
-                    <button id="btn-show-all-children" type="button">Expand All</button>
-                    <button id="btn-hide-all-children" type="button">Collapse All</button>
+                    <button id="btn-show-all-Classchildren" type="button">Expand All</button>
+                    <button id="btn-hide-all-Classchildren" type="button">Collapse All</button>
                 </div>
-                <table class="table" id="pindex" style="width:100%">
+                <table class="table" id="classindex" style="width:100%">
+                    <thead>
+                    <tr>
+                        <th class="protip" data-pt-scheme="aqua" data-pt-delay-in=500
+                            data-pt-position="left" data-pt-gravity=true
+                            data-pt-title="<p>This column contains the permalink for the documentation for the element in this row.</p><p>Note: It is <emphasis>not</emphasis> the URI for the element.</p>"
+                            style="padding-right: 10px;padding-left: 10px !important;"> #
+                        </th>
+                        <th style="padding-right: 0;padding-left: 0 !important;"></th>
+                        <th class="protip" data-pt-scheme="aqua" data-pt-delay-in=500
+                            data-pt-position="left" data-pt-gravity=true
+                            data-pt-title="<p>This column contains the CURIE for the element. </p><p>The link associated with the curie is the canonical URI. </p>">
+                            CURIE
+                        </th>
+                        <th class="protip" data-pt-scheme="aqua" data-pt-delay-in=500
+                            data-pt-position="left" data-pt-gravity=true
+                            data-pt-title="<p>This column contains the preferred label for the element. </p><p>The link associated with the label is the English lexical alias.</p>">
+                            Label
+                        </th>
+                        <th class="protip" data-pt-scheme="aqua" data-pt-delay-in=500
+                            data-pt-position="left" data-pt-gravity=true
+                            data-pt-title="<p>This column contains the Definition of the Concept.</p><p>You probably figured that out on your own.</p><p>It's also worth mentioning that clicking on any of the column headings will sort the table by that column.</p>">
+                            Definition
+                        </th>
+                    </tr>
+                    </thead>
+                </table>
+            </div>
+            <div class="panel-footer">
+            </div>
+        </div>
+    <div class="row">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h2>Properties Index</h2>
+            </div>
+            <div id="tabledata">
+                <div class="tablebuttons">
+                    <button id="btn-show-all-Propertychildren" type="button">Expand All</button>
+                    <button id="btn-hide-all-Propertychildren" type="button">Collapse All</button>
+                </div>
+                <table class="table" id="propertyindex" style="width:100%">
                     <thead>
                     <tr>
                         <th class="protip" data-pt-scheme="aqua" data-pt-delay-in=500
