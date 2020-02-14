@@ -252,9 +252,6 @@ function setSearch(filter) {
 
 }
 
-function filterClasses(obj) {
-    return obj["@type"] === "Class";
-}
 
 var initFilter = setFilter();
 
@@ -266,72 +263,84 @@ window.onhashchange = function () {
 
 $(document).ready(
     function () {
-        var t8lines = 2;
-        var dtable = $("#pindex");
-        var table = dtable.DataTable({
-            "ajax": {
-                url: dataSource,
-                dataType: 'json',
-                cache: true,
-                crossDomain: true,
-                "dataSrc": function (json) {
-                    json.data = json["@graph"].filter(filterClasses);
-                    return json.data;
+        initDatatable("#classindex", "Class");
+        initDatatable("#propertyindex", "Property");
+    });
+
+function initDatatable(id, type) {
+
+    function filterClasses(obj) {
+        return obj["@type"] === type;
+    }
+
+    var t8lines = 2;
+    var dtable = $(id);
+    var table = dtable.DataTable({
+        "ajax": {
+            url: dataSource,
+            dataType: 'json',
+            cache: true,
+            crossDomain: true,
+            "dataSrc": function (json) {
+                json.data = json["@graph"].filter(filterClasses);
+                return json.data;
+            }
+        },
+        "columns": [
+            {
+                "orderable": false,
+                "class": 'permalink',
+                "render": function (data, type, row) {
+                    if (typeof row["@id"] != "undefined") {
+                        var url = makeUrl(row["@id"]);
+                        regexp = new RegExp(vocabNamespace + "(.*)$", "gi");
+                        var id = row["@id"].replace(regexp, "$1");
+                        return '<a id="' + id + '" href="' + url + '" title="permalink: ' + url + '">#</a>';
+                    }
                 }
             },
-            "columns": [
-                {
-                    "orderable": false,
-                    "class": 'permalink',
-                    "render": function (data, type, row) {
-                        if (typeof row["@id"] != "undefined") {
-                            var url = makeUrl(row["@id"]);
-                            regexp = new RegExp(vocabNamespace+"(.*)$", "gi");
-                            var id = row["@id"].replace(regexp, "$1");
-                            return '<a id="' + id + '" href="' + url + '" title="permalink: ' + url + '">#</a>';
-                        }
-                    }
-                },
-                {
-                    "class": 'details-control',
-                    "orderable": false,
-                    "data": null,
-                    "defaultContent": ''
-                },
-                {
-                    "render": function (data, type, row) {
-                        return formatCanon(row);
-                    }
-                }, {
-                    "render": function (data, type, row) {
-                        return formatLabel(row);
-                    }
-                },
-                {
-                    "class": "definition",
-                    "render": function (data, type, row) {
-                        var description = makeLiteral(row.description) + ' ' + getLanguageCallout(row.description);
-                        return formatRefArray( description, "description");
-                    }
+            {
+                "class": 'details-control',
+                "orderable": false,
+                "data": null,
+                "defaultContent": ''
+            },
+            {
+                "render": function (data, type, row) {
+                    return formatCanon(row);
                 }
-            ],
-            "order": [
-                [2, 'asc']
-            ],
-            "lengthMenu": [
-                [25, 50, 100, -1],
-                [25, 50, 100, "All"]
-            ],
-            "deferRender": true
-        });
+            }, {
+                "render": function (data, type, row) {
+                    return formatLabel(row);
+                }
+            },
+            {
+                "class": "definition",
+                "render": function (data, type, row) {
+                    var description = makeLiteral(row.description) + ' ' + getLanguageCallout(row.description);
+                    return formatRefArray(description, "description");
+                }
+            }
+        ],
+        "order": [
+            [2, 'asc']
+        ],
+        "lengthMenu": [
+            [25, 50, 100, -1],
+            [25, 50, 100, "All"]
+        ],
+        "deferRender": true
+    });
 
+    showButton = '#btn-show-all-' + type + 'children';
+    hideButton = '#btn-hide-all-' + type + 'children';
 
-     // Handle click on "Expand All" button
-    $('#btn-show-all-children').on('click', function(){
+    // Handle click on "Expand All" button
+    $(showButton).on('click', function () {
         // Enumerate all rows
-        table.rows().every(function(){
+        table.rows().every(function () {
             // If row has details collapsed
-            if(!this.child.isShown()){
+            if (!this.child.isShown()) {
                 // Open this row
                 this.child(format(this.data())).show();
                 $(this.node()).addClass('shown');
@@ -340,11 +349,11 @@ $(document).ready(
     });
 
     // Handle click on "Collapse All" button
-    $('#btn-hide-all-children').on('click', function(){
+    $(hideButton).on('click', function () {
         // Enumerate all rows
-        table.rows().every(function(){
+        table.rows().every(function () {
             // If row has details expanded
-            if(this.child.isShown()){
+            if (this.child.isShown()) {
                 // Collapse row details
                 this.child.hide();
                 $(this.node()).removeClass('shown');
@@ -352,57 +361,53 @@ $(document).ready(
         });
     });
 
-// Add event listener for truncate on draw
-        dtable.on('draw.dt', function () {
-            if (initFilter) {
-                var id = "#" + initFilter;
-                var tr = $(id).closest('tr');
-                var row = table.row(tr);
-                var child = row.child(format(row.data()));
-                if (typeof child != "undefined") {
-                    child.show();
-                    tr.addClass('shown');
-                }
-                $("div#pindex_filter input").val(initFilter);
-            }
-        });
-
-// Add event listener for opening and closing details
-        dtable.children("tbody").on('click', 'td.details-control', function () {
-            var tr = $(this).closest('tr');
+    // Add event listener for truncate on draw
+    dtable.on('draw.dt', function () {
+        if (initFilter) {
+            var id = "#" + initFilter;
+            var tr = $(id).closest('tr');
             var row = table.row(tr);
-
-            if (row.child.isShown()) {
-                // This row is already open - close it
-                row.child.hide();
-                tr.removeClass('shown');
-            }
-            else {
-                // Open this row
-                row.child(format(row.data())).show();
+            var child = row.child(format(row.data()));
+            if (typeof child != "undefined") {
+                child.show();
                 tr.addClass('shown');
             }
-        });
-
-
-        $('input[type=search]').on('click', function () {
-            if (history.pushState) {
-                history.pushState(null, null, document.location.pathname);
-            }
-            else {
-                location.hash = '';
-            }
-            setSearch('');
-        });
-
-        if (initFilter) {
-            table.column(2).search(initFilter);
             $("div#pindex_filter input").val(initFilter);
         }
+    });
 
+    // Add event listener for opening and closing details
+    dtable.children("tbody").on('click', 'td.details-control', function () {
+        var tr = $(this).closest('tr');
+        var row = table.row(tr);
+
+        if (row.child.isShown()) {
+            // This row is already open - close it
+            row.child.hide();
+            tr.removeClass('shown');
+        }
+        else {
+            // Open this row
+            row.child(format(row.data())).show();
+            tr.addClass('shown');
+        }
+    });
+
+    $('input[type=search]').on('click', function () {
+        if (history.pushState) {
+            history.pushState(null, null, document.location.pathname);
+        }
+        else {
+            location.hash = '';
+        }
+        setSearch('');
+    });
+
+    if (initFilter) {
+        table.column(2).search(initFilter);
+        $("div#pindex_filter input").val(initFilter);
     }
-
-    );
+}
 
 $.fn.dataTableExt.oApi.clearSearch = function (oSettings) {
     var table = $("#pindex").DataTable();
