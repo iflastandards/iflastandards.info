@@ -23,7 +23,7 @@ function format(d) {
     // `d` is the original data object for the row
 
     //TODO: build output and formatting instructions from the context
-    var blacklist = ['toolkitDefinition', 'toolkitLabel', 'label', 'description', 'inScheme', '@type', '@id', 'name','isDefinedBy', 'url'];
+    var blacklist = ['toolkitDefinition', 'toolkitLabel', 'label', 'description', 'inScheme', '@type', '@id', 'name', 'isDefinedBy', 'url'];
     if (typeof d != "undefined") {
         var ownKeys = Object.getOwnPropertyNames(d).sort();
         var property = '';
@@ -33,7 +33,7 @@ function format(d) {
             property = ownKeys[i];
             if (typeof property != "undefined" && blacklist.indexOf(property) == -1) {
                 rows += '<tr>' + '<td id="detail_key_' + property + '">' + property + ':</td>' + '<td class="description" id="detail_def_' + property + '">';
-                switch(property) {
+                switch (property) {
                     case '@id':
                     case 'api':
                     case 'broadMatch':
@@ -122,7 +122,6 @@ function formatLabel(data) {
 
 }
 
-
 function formatRefArray(data, classname) {
     var value = "";
     if (typeof data != "undefined") {
@@ -142,14 +141,14 @@ function formatRefArray(data, classname) {
 
 function makeCurie(uri) {
     if (typeof uri.replace === "function") {
-        regexp = new RegExp(vocabNamespace+"(.*)$", "gi");
+        regexp = new RegExp(vocabNamespace + "(.*)$", "gi");
         return uri.replace(regexp, prefix + ":$1");
     }
 }
 
 function makeUrl(uri) {
-    if (typeof uri.replace === "function" ) {
-        if(uri.search('#') === -1){
+    if (typeof uri.replace === "function") {
+        if (uri.search('#') === -1) {
             return uri.replace(/^(http:\/\/)(.*)\/(.*)$/ig, "$1www.$2#$3");
         }
         return uri;
@@ -210,10 +209,10 @@ function makeLiteral(data) {
             return '"' + data.en + '"';
         }
         if (data instanceof Object) { //it's only available in a language that's not English'
-        return "";
+            return "";
+        }
+        return '"' + data + '"';
     }
-    return '"' + data + '"';
-     }
     else {
         return "";
     }
@@ -222,7 +221,7 @@ function makeLiteral(data) {
 function getLanguageCallout(data) {
     if (typeof data != "undefined") {
         if (typeof data[docLang] != "undefined") {
-            return '<span class="languageTag">@' + docLang+ '</span>';
+            return '<span class="languageTag">@' + docLang + '</span>';
         }
         if (typeof data.en != "undefined") {
             return '<span class="languageTagDefault">@en</span>';
@@ -446,8 +445,8 @@ $(document).ready(function () {
 
     //if the language code is set and in the rtl array, then make the datatable rtl
     var docLang = gup('language', Location.href, 'en');
-    if (['ar','dv','fa','ff','he','jv','kk','ks','ku','ms','ml','pa','ps','sd','so','tk','ug','ur','yi'].includes(docLang)){
-        document.querySelector("table.dataTable").dir='rtl';
+    if (['ar', 'dv', 'fa', 'ff', 'he', 'jv', 'kk', 'ks', 'ku', 'ms', 'ml', 'pa', 'ps', 'sd', 'so', 'tk', 'ug', 'ur', 'yi'].includes(docLang)) {
+        document.querySelector("table.dataTable").dir = 'rtl';
     }
 
 });
