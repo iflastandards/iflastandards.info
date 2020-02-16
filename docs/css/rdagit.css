@@ -63,7 +63,7 @@
     white-space: normal;
 }
 
-table.pindex_detail td.definition, table.pindex_detail td.description {
+table.pindex_detail td.definition, table.cindex_detail td.description {
     padding-left: 1em;
     white-space: normal;
 }
