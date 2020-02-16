@@ -12,12 +12,11 @@ layout: default
 {% assign concept = site.data.rdf.terms[ns][jsonld]["@graph"][0] %}
 {% assign pageTitle = concept.title.en %}
 {% assign pageDescription = concept.description.en %}
-{% assign regID = concept.api | split: "/" | last %}
+{% assign regID = concept.omr_api | split: "/" | last %}
 {% assign pageRDF = concept['@id'] %}
 {% assign namespace = pageRDF | append: page.ns_separator %}
 {% assign prefix = page.prefix %}
 {% assign github = "https://raw.githubusercontent.com/iflastandards/iflastandards.info/master/jsonld/ns" | append: page.id | append: '.jsonld' %}
-
 <div class="post-content">
     <h1>IFLA value vocabularies</h1> 
     <div class="row">

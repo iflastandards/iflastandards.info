@@ -12,7 +12,7 @@ layout: default
 {% assign element = site.data.rdf.elements[ns][jsonld]["@graph"][0] %}
 {% assign pageTitle = element.title.en %}
 {% assign pageDescription = element.description.en %}
-{% assign regID = element.api | split: "/" | last %}
+{% assign regID = element.omr_api | split: "/" | last %}
 {% assign pageRDF = element['@id'] %}
 {% assign namespace = pageRDF | append: page.ns_separator %}
 {% assign prefix = page.prefix %}
