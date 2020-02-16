@@ -97,7 +97,7 @@ function format(d) {
                         break;
                     case 'domain':
                     case 'range':
-                        rows += formatLabel(d[property]);
+                        rows += makeLabelArray(d[property]);
                         break;
                     case 'isDefinedBy':
                     case 'status':
@@ -143,10 +143,14 @@ function formatCanon(data) {
 
 function formatLabel(data) {
     var url = data["@id"];
-    return '<div class="vurllabel">' +
-        '<a href="' + url + '">' + makeLiteral(data.label) + '</a> ' + getLanguageCallout(data.label) +
-        '</div>';
-
+    var label ='';
+    if (typeof data.label != "undefined") {
+        label = makeLiteral(data.label) + '</a> ' + getLanguageCallout(data.label);
+    }
+    else {
+        label = url + '</a> ';
+    }
+    return '<div class="vurllabel">' + '<a href="' + url + '">' + label + '</div>';
 }
 
 function formatRefArray(data, classname) {
