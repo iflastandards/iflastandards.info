@@ -17,7 +17,6 @@ layout: default
 {% assign namespace = pageRDF | append: page.ns_separator %}
 {% assign prefix = page.prefix %}
 {% assign github = "https://raw.githubusercontent.com/iflastandards/iflastandards.info/master/jsonld/ns" | append: page.id | append: '.jsonld' %}
-{{github}}
 <div class="post-content">
     <h1>IFLA Element Sets</h1> 
     <div class="row">
@@ -133,7 +132,7 @@ layout: default
             <div class="panel-footer">
             </div>
         </div>   
-{% endif %}}
+{% endif %}
     <div class="row">
         <div class="panel panel-default">
             <div class="panel-heading">
