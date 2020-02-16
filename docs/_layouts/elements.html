@@ -91,6 +91,7 @@ layout: default
         </div>
     </div>
     </div>
+{% if page.classtable == true %}
     <div class="row">
         <div class="panel panel-default">
             <div class="panel-heading">
@@ -101,7 +102,7 @@ layout: default
                     <button id="btn-show-all-Classchildren" type="button">Expand All</button>
                     <button id="btn-hide-all-Classchildren" type="button">Collapse All</button>
                 </div>
-                <table class="table" id="classindex" style="width:100%">
+                <table class="table" id="cindex" style="width:100%">
                     <thead>
                     <tr>
                         <th class="protip" data-pt-scheme="aqua" data-pt-delay-in=500
@@ -131,7 +132,8 @@ layout: default
             </div>
             <div class="panel-footer">
             </div>
-        </div>
+        </div>   
+{% endif %}}
     <div class="row">
         <div class="panel panel-default">
             <div class="panel-heading">
@@ -142,7 +144,7 @@ layout: default
                     <button id="btn-show-all-Propertychildren" type="button">Expand All</button>
                     <button id="btn-hide-all-Propertychildren" type="button">Collapse All</button>
                 </div>
-                <table class="table" id="propertyindex" style="width:100%">
+                <table class="table" id="pindex" style="width:100%">
                     <thead>
                     <tr>
                         <th class="protip" data-pt-scheme="aqua" data-pt-delay-in=500

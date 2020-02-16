@@ -7,6 +7,7 @@ ns_separator: '/'
 toc: true
 layout: elements
 datatable: true
+classtable: true
 ---
 
 ## FRBRer Element Set
