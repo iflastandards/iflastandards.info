@@ -46,7 +46,7 @@
 	font-style: italic;
 	font-size: 0.9em;
 }
-#propertyindex, #classindex {
+#pindex, #cindex {
     white-space: nowrap;
 }
 .pindex_detail tr {
@@ -58,7 +58,7 @@
 .pindex_detail td {
     white-space: nowrap;
 }
-#propertyindex .definition, #propertyindex .description, #classindex .definition, #classindex .description{
+#pindex .definition, #pindex .description, #cindex .definition, #cindex .description{
     width: 100%;
     white-space: normal;
 }
