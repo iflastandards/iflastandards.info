@@ -56,21 +56,25 @@ function format(d) {
                 switch (property) {
                     case '@id':
                     case 'api':
+                        rows += makeLinkArray(d[property]);
+                        break;
                     case 'broadMatch':
                     case 'closeMatch':
+                    case 'disjointWith':
                     case 'equivalentClass':
                     case 'equivalentProperty':
+                    case 'hasSubClass':
+                    case 'hasSubclass':
+                    case 'hasSubProperty':
+                    case 'hasSubproperty':
                     case 'hasUnconstrained':
+                    case 'inverseOf':
                     case 'narrowMatch':
+                    case 'propertyDisjointWith':
                     case 'related':
                     case 'sameAs':
                     case 'subClassOf':
                     case 'subPropertyOf':
-                        rows += makeLinkArray(d[property]);
-                        break;
-                    case 'disjointWith':
-                    case 'inverseOf':
-                    case 'propertyDisjointWith':
                             rows += makeLabelArray(d[property]);
                         break;
                     case 'altLabel':
