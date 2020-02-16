@@ -1,3 +1,22 @@
+var canonical = document.createElement('link');
+canonical.rel = 'canonical';
+canonical.href = pageRDF;
+document.head.appendChild(canonical);
+
+var alt_rdf = document.createElement('link');
+alt_rdf.rel = 'alternate';
+alt_rdf.type = 'application/rdf+xml';
+alt_rdf.title = 'RDF/XML';
+alt_rdf.href = pageRDF+'.xml';
+document.head.appendChild(alt_rdf);
+
+var alt_atom = document.createElement('link');
+alt_atom.rel = 'alternate';
+alt_atom.type = 'application/atom+xml';
+alt_atom.title = 'Atom';
+alt_atom.href = 'http://metadataregistry.org/history/feed/vocabulary_id/'+regID+'.atom';
+document.head.appendChild(alt_atom);
+
 function gup(name, url, theDefault) {
     if (!url) url = location.href;
     name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");

@@ -138,5 +138,13 @@ layout: default
     var dataSource = "{{ github }}"
     var prefix = "{{ prefix }}";
     var vocabNamespace = "{{ namespace }}";
+    var regID = "{{regID}}";
+    var pageRDF = "{{pageRDF}}";
+
+{% if pageDescription != '' %}
+    document.getElementsByTagName('meta')["description"].content = "{{ pageDescription | strip_html | strip_newlines | truncate: 160 }}";
+{% else %}
+    document.getElementsByTagName('meta')["description"].content = "{{ site.title }}";
+{% endif %}
 </script>
  
