@@ -199,6 +199,11 @@ function makeLink(uri) {
 function makeLiteral(data) {
     if (typeof data != "undefined" && data != null) {
         if (typeof data[docLang] != "undefined") {
+            if(Array.isArray(data[docLang])){
+                var temp = '';
+                for (s of data[docLang]){ temp+='"'+s+'"<br/>'};
+                return temp;
+            }
             return '"' + data[docLang] + '"';
         }
         if (typeof data.en != "undefined") {
