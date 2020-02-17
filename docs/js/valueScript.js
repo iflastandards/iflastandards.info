@@ -42,7 +42,7 @@ function format(d) {
     // `d` is the original data object for the row
 
     //TODO: build output and formatting instructions from the context
-    var blacklist = ['toolkitDefinition', 'toolkitLabel', 'prefLabel', 'definition', 'inScheme', '@type'];
+    var blacklist = ['toolkitDefinition', 'toolkitLabel', 'prefLabel', 'definition', 'inScheme', '@type', 'status'];
     if (typeof d != "undefined") {
         var ownKeys = Object.getOwnPropertyNames(d).sort();
         var property = '';
