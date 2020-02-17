@@ -210,8 +210,10 @@ function makeLiteral(data) {
             return '"' + data.en + '"';
         }
         if (data instanceof Object) { //it's only available in a language that's not English'
-        return "";
-    }
+            var temp = '';
+            for (var key in data){ temp = data[key]};
+            return '<span class="notRequestedLanguage">"' + temp + '"</span>';
+        }
     return '"' + data + '"';
      }
     else {
@@ -225,7 +227,12 @@ function getLanguageCallout(data) {
             return "@" + docLang;
         }
         if (typeof data.en != "undefined") {
-            return "@en";
+            return "@en *";
+        }
+        if (data instanceof Object) { //it's only available in a language that's not English or the requested language'
+            var temp = '';
+            for (var key in data){ temp = key};
+            return '<span class="notRequestedLanguageCode">@'+temp+' *</span>';
         }
     }
     return "@en *";
