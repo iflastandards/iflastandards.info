@@ -43,7 +43,7 @@ function format(d) {
     // `d` is the original data object for the row
 
     //TODO: build output and formatting instructions from the context
-    var blacklist = ['toolkitDefinition', 'toolkitLabel', 'label', 'description', 'inScheme', '@type', '@id', 'name', 'isDefinedBy', 'url', 'status'];
+    var blacklist = ['toolkitDefinition', 'toolkitLabel', 'label', 'description', 'inScheme', '@type', '@id', 'name', 'isDefinedBy', 'status'];
     if (typeof d != "undefined") {
         var ownKeys = Object.getOwnPropertyNames(d).sort();
         var property = '';
@@ -179,6 +179,11 @@ function makeCurie(uri) {
 
 function makeUrl(uri) {
     if (typeof uri.replace === "function") {
+        if (uri.search('http://metadataregistry.org') !== -1) {
+            var re = omr_url+'$1';
+            var url = uri.replace(/^http\:\/\/metadataregistry.org\/(.*)$/ig, re);
+            return '<div class="vurllabel">' + '<a href="' + url + '" title="'+url+'" target=”_blank”>Show/Edit in OMR</div>';
+        }
         if (uri.search('#') === -1) {
             return uri.replace(/^(http:\/\/)(.*)\/(.*)$/ig, "$1www.$2#$3");
         }
