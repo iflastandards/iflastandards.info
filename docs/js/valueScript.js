@@ -54,7 +54,6 @@ function format(d) {
                 rows += '<tr>' + '<td id="detail_key_' + property + '">' + property + ':</td>' + '<td class="definition" id="detail_def_' + property + '">';
                 switch(property) {
                     case '@id':
-                    case 'api':
                     case 'broader':
                     case 'narrower':
                     case 'related':
@@ -77,6 +76,9 @@ function format(d) {
                     case 'scopeNote':
                     case 'ToolkitDefinition':
                         rows += makeLiteral(d[property]) + ' ' + getLanguageCallout(d[property]);
+                        break;
+                    case 'api':
+                        rows += makeApi(d[property]);
                         break;
                     default:
                         rows += '"' + d[property] + '"';
@@ -137,6 +139,17 @@ function formatRefArray(data, classname) {
         value = "";
     }
     return value;
+}
+
+function makeApi(uri) {
+    if (typeof uri.replace === "function") {
+        if (uri.search('http://api.metadataregistry.org') !== -1) {
+            var re = omr_url+'$1';
+            var url = uri.replace(/^http\:\/\/api\.metadataregistry.org\/(.*)$/ig, re);
+            return '<div class="vurllabel">' + '<a href="' + url + '" title="'+url+'" target=”_blank”>Show/Edit in OMR</div>';
+        }
+        return uri;
+    }
 }
 
 function makeCurie(uri) {
