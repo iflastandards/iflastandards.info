@@ -64,7 +64,7 @@ function format(d) {
                     case 'hiddenLabel':
                     case 'prefLabel':
                     case 'ToolkitLabel':
-                        rows += makeLiteral(d[property]) + ' ' + getLanguageCallout(d[property]);
+                        rows += makeLiteral(d[property]);
                         break;
                     case 'changeNote':
                     case 'definition':
@@ -75,7 +75,7 @@ function format(d) {
                     case 'note':
                     case 'scopeNote':
                     case 'ToolkitDefinition':
-                        rows += makeLiteral(d[property]) + ' ' + getLanguageCallout(d[property]);
+                        rows += makeLiteral(d[property]);
                         break;
                     case 'api':
                         rows += makeApi(d[property]);
@@ -118,7 +118,7 @@ function formatCanon(data) {
 function formatLabel(data) {
     var url = data["@id"];
     return '<div class="vurllabel">' +
-        '<a href="' + url + '">' + makeLiteral(data.prefLabel) + '</a> ' + getLanguageCallout(data.prefLabel) +
+        '<a href="' + url + '">' + makeLiteral(data.prefLabel) + '</a> ' +
         '</div>';
 
 }
@@ -201,24 +201,45 @@ function makeLiteral(data) {
         if (typeof data[docLang] != "undefined") {
             if(Array.isArray(data[docLang])){
                 var temp = '';
-                for (s of data[docLang]){ temp+='"'+s+'"<br/>'};
+                var num;
+                for (num=0; num < data[docLang].length; num++){
+                    temp+='"'+data[docLang][num]+'"<br/>';
+                }
                 return temp;
             }
             return '"' + data[docLang] + '"';
         }
         if (typeof data.en != "undefined") {
-            return '"' + data.en + '"';
+            return makeNotRequestedLanguage(data.en, 'en') ;
         }
         if (data instanceof Object) { //it's only available in a language that's not English'
-            var temp = '';
-            for (var key in data){ temp = data[key]};
-            return '<span class="notRequestedLanguage">"' + temp + '"</span>';
+            var tempe = '';
+            for (var key in data){ 
+                if(Array.isArray(data[key])){
+                    if(tempe != ''){
+                        tempe += '<br>'
+                    }
+                    var langArray = data[key];
+                    for (var key2 in langArray){
+                        tempe += makeNotRequestedLanguage(langArray[key2], key);
+                        tempe += '<br>';
+                    }
+                }
+                else {
+                    tempe += makeNotRequestedLanguage(data[key], key);
+                }
+            }
+            return tempe;
         }
     return '"' + data + '"';
      }
     else {
         return "";
     }
+}
+
+function makeNotRequestedLanguage(val, lang) {
+    return '<span class="notRequestedLanguage">"' + val + '"</span> <span class="notRequestedLanguageCode">@'+lang+' *</span>';
 }
 
 function getLanguageCallout(data) {
