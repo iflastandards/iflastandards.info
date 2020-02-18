@@ -231,7 +231,9 @@ function getLanguageCallout(data) {
         }
         if (data instanceof Object) { //it's only available in a language that's not English or the requested language'
             var temp = '';
-            for (var key in data){ temp = key};
+            for (var key in data){ 
+                temp = key;
+            }
             return '<span class="notRequestedLanguageCode">@'+temp+' *</span>';
         }
     }
@@ -454,7 +456,7 @@ $(document).ready(function () {
     //if the language code is set and in the rtl array, then make the datatable rtl
     var docLang = gup('language', Location.href, 'en');
     if (['ar','dv','fa','ff','he','jv','kk','ks','ku','ms','ml','pa','ps','sd','so','tk','ug','ur','yi'].includes(docLang)){
-        document.querySelector("table.dataTable").dir='rtl'
-    };
+        document.querySelector("table.dataTable").dir='rtl';
+    }
 
 });

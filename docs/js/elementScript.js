@@ -190,6 +190,7 @@ function makeUrl(uri) {
         return uri;
     }
 }
+
 function makeUri(uri) {
     if (typeof uri.replace === "function") {
         return uri.replace(/^(http:\/\/)(.*)\/(.*)$/ig, "$1$2/$3");
