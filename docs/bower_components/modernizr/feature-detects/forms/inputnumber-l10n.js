@@ -7,7 +7,7 @@
   "notes": [{
     "name": "Webkit Bug Tracker Listing",
     "href": "https://bugs.webkit.org/show_bug.cgi?id=42484"
-  },{
+  }, {
     "name": "Based on This",
     "href": "https://trac.webkit.org/browser/trunk/LayoutTests/fast/forms/script-tests/input-number-keyoperation.js?rev=80096#L9"
   }],
@@ -31,7 +31,7 @@ define(['Modernizr', 'createElement', 'getBody', 'test/inputtypes', 'test/forms/
 
     body.insertBefore(div, firstChild);
 
-    div.innerHTML = '<input type="number" value="1.0" step="0.1"/>';
+    div.innerHTML = '<input type="number" value="1.0" step="0.1" style="position: fixed; top: 0;" />';
     var input = div.childNodes[0];
     body.appendChild(div);
 

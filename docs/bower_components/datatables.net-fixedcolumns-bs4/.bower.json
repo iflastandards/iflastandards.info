@@ -1,0 +1,48 @@
+{
+  "name": "datatables.net-fixedcolumns-bs4",
+  "description": "FixedColumns for DataTables with styling for [Bootstrap 4](http://getbootstrap.com/)",
+  "main": [
+    "css/fixedColumns.bootstrap4.css"
+  ],
+  "keywords": [
+    "fixed columns",
+    "DataTables",
+    "jQuery",
+    "table",
+    "Bootstrap 4"
+  ],
+  "dependencies": {
+    "jquery": ">=1.7",
+    "datatables.net-bs4": ">=1.10.13",
+    "datatables.net-fixedcolumns": ">=3.2.2"
+  },
+  "moduleType": [
+    "globals",
+    "amd",
+    "node"
+  ],
+  "ignore": [
+    "composer.json",
+    "datatables.json",
+    "package.json"
+  ],
+  "authors": [
+    {
+      "name": "SpryMedia Ltd",
+      "homepage": "https://datatables.net"
+    }
+  ],
+  "homepage": "https://datatables.net",
+  "license": "MIT",
+  "version": "3.3.0",
+  "_release": "3.3.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "3.3.0",
+    "commit": "e01f28c6ffa489d09f3997ba95476004d0cacdd1"
+  },
+  "_source": "https://github.com/DataTables/Dist-DataTables-FixedColumns-Bootstrap4.git",
+  "_target": "^3.3.0",
+  "_originalSource": "datatables.net-fixedcolumns-bs4",
+  "_direct": true
+}
