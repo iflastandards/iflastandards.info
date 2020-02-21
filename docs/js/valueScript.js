@@ -201,9 +201,8 @@ function makeLiteral(data) {
         if (typeof data[docLang] != "undefined") {
             if(Array.isArray(data[docLang])){
                 var temp = '';
-                var num;
-                for (num=0; num < data[docLang].length; num++){
-                    temp+='"'+data[docLang][num]+'"<br/>';
+                for (z = 0; z < data[docLang].length; z++){
+                    temp+='"'+data[docLang][z]+'"<br/>';
                 }
                 return temp;
             }
@@ -217,7 +216,7 @@ function makeLiteral(data) {
             for (var key in data){ 
                 if(Array.isArray(data[key])){
                     if(tempe != ''){
-                        tempe += '<br>'
+                        tempe += '<br>';
                     }
                     var langArray = data[key];
                     for (var key2 in langArray){
