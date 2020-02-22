@@ -40,6 +40,7 @@
     "jszip": "^3.2.2",
     "pdfmake": "^0.1.64",
     "popper.js": "^1.16.0",
-    "bootswatch": "^4.4.1"
+    "bootswatch": "^4.4.1",
+    "fontawesome": "^5.12.1"
   }
 }
