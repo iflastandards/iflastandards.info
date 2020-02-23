@@ -1,11 +1,11 @@
-<!DOCTYPE html lang="en">
-<html>
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 <head>
     {% include head.html %}
 </head>
 <body>
 {% include topnav.html %}
-
+<p>page:paths{{page_paths}}</p>
 <!-- Page Content -->
 <div class="container-fluid">
   <div id="main">
