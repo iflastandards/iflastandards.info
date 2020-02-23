@@ -5,17 +5,19 @@
 <meta name="keywords" content="{{page.tags}}{% if page.tags %}, {% endif %} {{page.keywords}}">
 <title>{{ page.title }} | {{ site.site_title }}</title>
 <script src="{{ "/bower_components/jquery/dist/jquery.js" | relative_url }}"></script>
-<link rel="stylesheet" type="text/css" href="{{ "/css/syntax.css" | relative_url }}">
+{%- comment -%} <link rel="stylesheet" type="text/css" href="{{ "/css/syntax.css" | relative_url }}"> {%- endcomment -%}
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" href="{{ "/bower_components/bootstrap/dist/css/bootstrap.min.css" | relative_url }}">
+<link rel="stylesheet" type="text/css" href="{{ "/bower_components/bootswatch/dist/lumen/bootstrap.min.css" | relative_url }}">
 <link rel="stylesheet" type="text/css" href="{{ "/css/modern-business.css" | relative_url }}">
 <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" type="text/css" href="{{ "/css/customstyles.css" | relative_url }}">
-<link rel="stylesheet" type="text/css" href="{{ "/css/boxshadowproperties.css" | relative_url }}">
+{%- comment -%} <link rel="stylesheet" type="text/css" href="{{ "/css/customstyles.css" | relative_url }}"> {%- endcomment -%}
+{%- comment -%} <link rel="stylesheet" type="text/css" href="{{ "/css/boxshadowproperties.css" | relative_url }}"> {%- endcomment -%}
 <!-- most color styles are extracted out to here -->
-<link rel="stylesheet" type="text/css" href="{{ "/css/theme-blue.css" | relative_url }}">
+{%- comment -%} <link rel="stylesheet" type="text/css" href="{{ "/css/theme-blue.css" | relative_url }}"> {%- endcomment -%}
+<link rel="stylesheet" type="text/css" href="{{ "/bower_components/fontawesome/css/solid.min.css" | relative_url }}">
+<link rel="stylesheet" type="text/css" href="{{ "/bower_components/fontawesome/css/fontawesome.min.css" | relative_url }}">
 <link rel="stylesheet" type="text/css" href="{{ "/css/style.css" | relative_url }}">
-<link rel="stylesheet" type="text/css" href="{{ "/css/rdagit.css" | relative_url }}">
+{%- comment -%} <link rel="stylesheet" type="text/css" href="{{ "/css/rdagit.css" | relative_url }}"> {%- endcomment -%}
 
 <link rel="shortcut icon" href="{{ "/images/favicon.ico" | relative_url }}">
 
@@ -32,3 +34,7 @@
     <link rel="stylesheet" type="text/css" href="{{ "/bower_components/protip/css/protip.css" | relative_url }}">
     <link rel="stylesheet" type="text/css" href="{{ "/bower_components/code-prettify/src/prettify.css" | relative_url }}">
 {% endif %}
+
+   <!-- Font Awesome JS -->
+    <script defer src="bower_components/fontawesome/js/solid.min.js"></script>
+    <script defer src="bower_components/fontawesome/js/fontawesome.min.js"></script>
