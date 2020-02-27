@@ -28,7 +28,12 @@ layout: default
 <article>
   <h2 class="border-0">{{ element.title[lang] | escape }}</h2>
   <div class="container-fluid">
-    <div class="row">
+    <div class="row col-xl-4 col-md-6 col-sm-12">
+      <p>
+{{element.description.en}}
+    </p>
+  </div>
+    <div class="row border-bottom border-primary mb-3 pb-2">
       <section class="col-sm text-nowrap" id="metadata">
         <h3>Metadata</h3>
         <table class="table-bordered table-sm table-striped">
