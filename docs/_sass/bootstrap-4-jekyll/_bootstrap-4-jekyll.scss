@@ -32,3 +32,12 @@ table.pindex_detail > tr {
 .notRequestedLanguageCode {
   color: $yellow;
 }
+span.twocolumns > ul:first-of-type {
+  -webkit-column-count: 2;
+     -moz-column-count: 2;
+          column-count: 2;
+
+  -webkit-column-gap: 20px;
+     -moz-column-gap: 20px;
+          column-gap: 20px;
+}
