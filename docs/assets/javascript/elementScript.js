@@ -392,7 +392,7 @@ function initDatatable(id, type) {
             {
                 "class": "definition",
                 "render": function (data, type, row) {
-                    var description = makeLiteral(row.description) + ' ' + getLanguageCallout(row.description);
+                    var description = makeLiteral(row.description);
                     return formatRefArray(description, "description");
                 },
                 "width": "65%"
