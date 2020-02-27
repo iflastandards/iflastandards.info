@@ -480,7 +480,7 @@ $(document).ready(function () {
         defaults: {
             position: 'top-left',
             gravity: true,
-            delayIn: 500
+            delayIn: 1500
         }
     });
 
