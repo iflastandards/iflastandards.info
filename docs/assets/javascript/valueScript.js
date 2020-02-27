@@ -109,8 +109,7 @@ function formatCanon(data) {
 function formatLabel(data) {
     var url = data["@id"];
     return '<div class="vurllabel">' +
-        '<a href="' + url + '">' + makeLiteral(data.prefLabel) + '</a> '
-        '</div>';
+        '<a href="' + url + '">' + makeLiteral(data.prefLabel) + '</a></div>';
 
 }
 
