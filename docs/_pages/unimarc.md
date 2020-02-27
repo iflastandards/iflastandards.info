@@ -1,8 +1,7 @@
 ---
 title: UNIMARC Introduction
-sidebar: unimarc_sidebar
 permalink: unimarc.html
-toc: true
+layout: index
 ---
 
 ## Overview

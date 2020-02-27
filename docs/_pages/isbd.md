@@ -1,8 +1,7 @@
 ---
 title: ISBD Introduction
-sidebar: isbd_sidebar
 permalink: isbd.html
-toc: true
+layout: index
 ---
 
 ## Overview

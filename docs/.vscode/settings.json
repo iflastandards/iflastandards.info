@@ -1,6 +1,29 @@
 // Place your settings in this file to overwrite default and user settings.
 {
   "files.associations": {
-    "*.html": "liquid"
-  }
+    "*.html": "html"
+  },
+    // Controls whether formatting is enabled or disabled
+    "liquid.format": true,
+    // Formatting code style rules
+    "liquid.rules": {
+      // Ignored tags
+      "ignore": [
+        {
+          "type": "", // Accepts html or liquid
+          "begin": "", // The start tag pattern
+          "end": "" // the ending tag pattern/name
+        }
+      ],
+      // HTML code style
+      "html": {},
+      // JavaScript code style (applied to the {% javascript %} tag)
+      "js": {},
+      // CSS code style (appled to {% style %} and {% stylesheet %} tags)
+      "css": {},
+      // SCSS code style (applied to the {% stylesheet 'scss' %} tag)
+      "scss": {},
+      // JSON code style (applied to the {% schema %} tag)
+      "json": {}
+    }
 }

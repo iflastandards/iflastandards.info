@@ -1,0 +1,11 @@
+{
+  "elements": [
+    "html5"
+  ],
+  "extends": [
+    "html-validate:recommended"
+  ],
+  "transform": {
+    "^.*\\.md$": "html-validate-markdown"
+  }
+}

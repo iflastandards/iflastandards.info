@@ -1,60 +1,19 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
-<head>
-    {% include head.html %}
-</head>
+
+{%- include head.html -%}
+
 <body>
-{% include topnav.html %}
-<p>page:paths{{page_paths}}</p>
-<!-- Page Content -->
-<div class="container-fluid">
-  <div id="main">
-    <!-- Content Row -->
-    <div class="row">        
-        {% assign content_col_size = "col-md-12" %}
-        {% unless page.hide_sidebar %}
-            <!-- Sidebar Column -->
-            <div class="col-md-3" id="tg-sb-sidebar">
-                {% include sidebar.html %}
-            </div>
-            {% assign content_col_size = "col-md-9" %}
-        {% endunless %}
-
-        <!-- Content Column -->
-        <div class="{{content_col_size}}" id="tg-sb-content">
-            <section id="content" class="content">
-                <article id="page" class="page">
-                    <div class="page-content">
-                        <div class="rg-pagecontent">
-                            {{content}}
-                        </div>
-                    </div>
-                </article>
-            </section>
-        </div>
-    <!-- /.row -->
+<div class="fixed-top">
+  {%- include header.html -%}
+  {% include breadcrumbs.html %}
 </div>
-<!-- /.container -->
-</div>
-<!-- /#main -->
-    </div>
-{% if page.datatable == true %}
-    <script src="{{ "/bower_components/datatables.net/js/jquery.dataTables.min.js" | relative_url }}"></script>
-    <script src="{{ "/bower_components/datatables.net-responsive/js/dataTables.responsive.min.js" | relative_url }}"></script>
-    <script src="{{ "/bower_components/protip/protip.min.js" | relative_url }}"></script>
-    {% if page.layout == 'terms' %}
-        <script src="{{ "/js/valueScript.js" | relative_url }}"></script>
-    {% endif %}
-    {% if page.layout == 'elements' %}
-        <script src="{{ "/js/elementScript.js" | relative_url }}"></script>
-    {% endif %}
-{% endif %}
+  <div class="container-fluid page-content" style="padding-top: 120px;">
+    {{ content }}
+  </div>
 
-{% include scripts.html %}
+  {%- include footer.html -%}
+
 </body>
-{% if site.google_analytics %}
-    {% include google_analytics.html %}
-{% endif %}
-</html> 
-    </head>
+
 </html>

@@ -30,10 +30,11 @@ port: 4000
 exclude:
   - .idea/
   - .gitignore
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - update_boostrap.sh
   - vendor
-  - bower_components/bootstrap/site
-  - bower_components/bootswatch/docs
-  - bower_components/popper.js/docs
 # these are the files and directories that jekyll will exclude from the build
 
 feedback_subject_line: IFLA Standards Vocabulary documentation

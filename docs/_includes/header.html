@@ -1,0 +1,79 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+
+    {%- assign page_paths = site.header_pages -%}
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+    <!-- entries without drop-downs appear here -->
+
+    {% assign topnav = site.data[page.topnav] %}
+    {% assign topnav_dropdowns = site.data[page.topnav].topnav_dropdowns %}
+
+    <!-- entries with drop-downs appear here -->
+    <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
+    {% for entry in topnav_dropdowns %}
+        {% for folder in entry.folders %}
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ folder.title }}</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">                  
+                        {% for folderitem in folder.folderitems %}
+                            {% if folderitem.external_url %}
+                                <a class="dropdown-item" href="{{folderitem.external_url}}" target="_blank" rel="noopener">{{folderitem.title}}</a>                                        </li>
+                            {% elsif page.url contains folderitem.url %}
+                                <a class="dropdown-item active" href="{{folderitem.url | relative_url }}">{{folderitem.title}}</a>
+                            {% else %}
+                                <a class="dropdown-item" href="{{folderitem.url | relative_url }}">{{folderitem.title}}</a>
+                            {% endif %}
+                        {% endfor %}
+                </div>
+            </li>
+        {% endfor %}
+    {% endfor %}
+    {% for entry in topnav.topnav %}
+        {% for item in entry.items %}
+            {% if item.external_url %}
+                <li class="nav-item">
+                    <a class="nav-link" href="{{item.external_url}}" target="_blank" rel="noopener">{{item.title}}</a>
+                </li>
+            {% elsif page.url contains item.url %}
+                <li  class="nav-item active">
+                    <a class="nav-link" href="{{item.url}}">{{item.title}}</a>
+                </li>
+            {% else %}
+                <li class="nav-item">
+                    <a class="nav-link" href="{{item.url}}">{{item.title}}</a>
+                </li>
+            {% endif %}
+        {% endfor %}
+    {% endfor %}
+    {% if site.feedback_disable == null or site.feedback_disable == false %}
+        {% include feedback.html %}
+    {% endif %}
+                <!--comment out this block if you want to hide search-->
+                {%- comment -%} <li>
+                    <!--start search-->
+                    <div id="search-demo-container">
+                        <input type="text" id="search-input" placeholder="{{site.data.strings.search_placeholder_text}}">
+                        <ul id="results-container"></ul>
+                    </div>
+                    <script src="{{ "/js/jekyll-search.js" | relative_url }}" type="text/javascript"></script>
+                    <script type="text/javascript">
+                        SimpleJekyllSearch.init({
+                            searchInput: document.getElementById("search-input"),
+                            resultsContainer: document.getElementById("results-container"),
+                            dataSource: "{{ " / search.json " | relative_url }}",
+                            searchResultTemplate: "<li><a href=\"{url}\" title=\"{{ page.title | escape }}>{title}</a></li>",
+                            noResultsText: "{{ site.data.strings.search_no_results_text }}",
+                            limit: 10,
+                            fuzzy: true
+                        })
+                    </script>
+                    <!--end search-->
+                </li>{%- endcomment -%}
+            </ul> 
+        </div>
+</nav>

@@ -1,60 +1,12 @@
 <!-- Scripts-->
-<script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
-<script src="{{ "/bower_components/bootstrap/dist/js/bootstrap.js" | relative_url }}"></script>
+{%- comment -%} <script src="{{ "/bower_components/bootstrap/dist/js/bootstrap.js" | relative_url }}"></script>
 <script src="{{ "/bower_components/jquery.cookie/jquery.cookie.js" | relative_url }}"></script>
 <script src="{{ "/bower_components/navgoco/src/jquery.navgoco.min.js" | relative_url }}"></script>
 <script src="{{ "/bower_components/log/log.min.js" | relative_url }}"></script>
 <script src="{{ "/bower_components/trunk8/trunk8.js" | relative_url }}"></script>
-<script src="{{ "/bower_components/code-prettify/src/prettify.js" | relative_url }}"></script>
-<script src="{{ "/js/toc.js" | relative_url }}"></script>
-<script src="{{ "/js/customscripts.js" | relative_url }}"></script>
-    <script>
-        $(document).ready(function() {
-            // Initialize navgoco with default options
-            $("#mysidebar").navgoco({
-                caretHtml: '',
-                accordion: true,
-                openClass: 'active', // open
-                save: false, // leave false or nav highlighting doesn't work right
-                cookie: {
-                    name: 'navgoco',
-                    expires: false,
-                    path: '/'
-                },
-                slide: {
-                    duration: 400,
-                    easing: 'swing'
-                }
-            });
-
-            $("#collapseAll").click(function(e) {
-                e.preventDefault();
-                $("#mysidebar").navgoco('toggle', false);
-            });
-
-            $("#expandAll").click(function(e) {
-                e.preventDefault();
-                $("#mysidebar").navgoco('toggle', true);
-            });
-
-        });
-
-    </script>
-    <script>
-        $(function () {
-            $('[data-toggle="tooltip"]').tooltip()
-        })
-    </script>
-    <script>
-        $(document).ready(function() {
-            $("#tg-sb-link").click(function() {
-                $("#tg-sb-sidebar").toggle();
-                $("#tg-sb-content").toggleClass('col-md-9');
-                $("#tg-sb-content").toggleClass('col-md-12');
-                $("#tg-sb-icon").toggleClass('fa-toggle-on');
-                $("#tg-sb-icon").toggleClass('fa-toggle-off');
-            });
-        });
-    </script>
+<script src="{{ "/bower_components/code-prettify/src/prettify.js" | relative_url }}"></script> {%- endcomment -%}
+{%- comment -%} <script src="{{ "/assets/javascript/toc.js" | relative_url }}"></script> {%- endcomment -%}
+{%- comment -%} <script type="text/javascript" src="{{ "/assets/javascript/prettify/prettify.js" | relative_url }}"></script> {%- endcomment -%}
+<script src="{{ "/assets/javascript/customscripts.js" | relative_url }}"></script>
 
  

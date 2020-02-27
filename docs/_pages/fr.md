@@ -1,8 +1,7 @@
 ---
 title: FRBR Introduction
-sidebar: fr_sidebar
 permalink: fr.html
-toc: true
+layout: index
 ---
 
 ## Overview

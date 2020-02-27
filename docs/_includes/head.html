@@ -1,40 +1,22 @@
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="{% if page.summary %}{{ page.summary | strip_html | strip_newlines | truncate: 160 }}{% endif %}">
-<meta name="keywords" content="{{page.tags}}{% if page.tags %}, {% endif %} {{page.keywords}}">
-<title>{{ page.title }} | {{ site.site_title }}</title>
-<script src="{{ "/bower_components/jquery/dist/jquery.js" | relative_url }}"></script>
-{%- comment -%} <link rel="stylesheet" type="text/css" href="{{ "/css/syntax.css" | relative_url }}"> {%- endcomment -%}
-<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" href="{{ "/bower_components/bootswatch/dist/lumen/bootstrap.min.css" | relative_url }}">
-<link rel="stylesheet" type="text/css" href="{{ "/css/modern-business.css" | relative_url }}">
-<!-- Latest compiled and minified CSS -->
-{%- comment -%} <link rel="stylesheet" type="text/css" href="{{ "/css/customstyles.css" | relative_url }}"> {%- endcomment -%}
-{%- comment -%} <link rel="stylesheet" type="text/css" href="{{ "/css/boxshadowproperties.css" | relative_url }}"> {%- endcomment -%}
-<!-- most color styles are extracted out to here -->
-{%- comment -%} <link rel="stylesheet" type="text/css" href="{{ "/css/theme-blue.css" | relative_url }}"> {%- endcomment -%}
-<link rel="stylesheet" type="text/css" href="{{ "/bower_components/fontawesome/css/solid.min.css" | relative_url }}">
-<link rel="stylesheet" type="text/css" href="{{ "/bower_components/fontawesome/css/fontawesome.min.css" | relative_url }}">
-<link rel="stylesheet" type="text/css" href="{{ "/css/style.css" | relative_url }}">
-{%- comment -%} <link rel="stylesheet" type="text/css" href="{{ "/css/rdagit.css" | relative_url }}"> {%- endcomment -%}
+<head>
+ <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 
-<link rel="shortcut icon" href="{{ "/images/favicon.ico" | relative_url }}">
+  {%- seo -%}
 
-<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-<![endif]-->
-<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.url }}">
-
-{% if page.datatable == true %}
-    <link rel="stylesheet" type="text/css" href="{{ "/bower_components/datatables.net-dt/css/jquery.dataTables.min.css" | relative_url }}">
-    <link rel="stylesheet" type="text/css" href="{{ "/bower_components/protip/css/protip.css" | relative_url }}">
-    <link rel="stylesheet" type="text/css" href="{{ "/bower_components/code-prettify/src/prettify.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/font-awesome/css/font-awesome.min.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/css/protip.min.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/css/prettify/prettify.css" | relative_url }}">
+  {% if page.bootstrap_table %}
+  <link rel="stylesheet" href="{{ "/assets/css/dataTables.bootstrap4.min.css" | relative_url }}">
+{% else %}
+  <link rel="stylesheet" href="{{ "/assets/css/jquery.dataTables.min.css" | relative_url }}">
 {% endif %}
 
-   <!-- Font Awesome JS -->
-    <script defer src="bower_components/fontawesome/js/solid.min.js"></script>
-    <script defer src="bower_components/fontawesome/js/fontawesome.min.js"></script>
+<script src="{{ "/assets/javascript/bootstrap/jquery.min.js" | relative_url }}"></script>
+<script src="{{ "/assets/javascript/prettify/run_prettify.js?autoload=true" | relative_url }}"></script>
+<script src="{{ "/assets/javascript/bootstrap/bootstrap.bundle.min.js" | relative_url }}"></script>
+</head>

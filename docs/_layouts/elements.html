@@ -1,195 +1,235 @@
 ---
 layout: default
 ---
+{% assign lang = page.lang | default: site.lang | default: "en" %}
 {% assign lexical = page.id | split: "/" | last %}
 {% assign ns = page.id | remove_first: '/' | split: "/" | first %}
 {% assign temp = ns | prepend: '/' | append: '/' %}
 {% assign jsonld = page.id | remove_first: temp | replace: "/", "_"  %}
 {% assign first = jsonld | slice: 0 %}
 {% if '_' == first %}
-   {% assign: jsonld = jsonld | remove_first: '_'  %}
+{% assign: jsonld = jsonld | remove_first: '_'  %}
 {% endif %}
 {% assign element = site.data.rdf.elements[ns][jsonld]["@graph"][0] %}
 {% assign pageTitle = element.title.en %}
+{% assign pageLanguages = element.languages %}
 {% assign pageDescription = element.description.en %}
 {% assign regID = element.omr_api | split: "/" | last %}
-{% assign pageRDF = element['@id'] %}
+{% if page.ns_separator == "/" %}
+{% assign pageRDF = element['@id'] | append: '^^^' | remove: '/^^^' | remove: '^^^'%}
+{% endif %}
+{% if page.ns_separator == "#" %}
+{% assign pageRDF = element['@id'] | append: '^^^' | remove: '#^^^'  | remove: '^^^' %}
+{% endif %}
 {% assign namespace = pageRDF | append: page.ns_separator %}
 {% assign prefix = page.prefix %}
 {% assign github = "https://raw.githubusercontent.com/iflastandards/iflastandards.info/master/jsonld/ns" | append: page.id | append: '.jsonld' %}
-<div class="post-content">
-    <h1>IFLA Element Sets</h1> 
+<h1 class="border-bottom">IFLA Element Sets</h1>
+<article>
+  <h2 class="border-0">{{ concept.title[lang] | escape }}</h2>
+  <div class="container-fluid">
     <div class="row">
-        <div class="col-md-6">
-            <div class="rgelement-title">
-                <h2>{{pageTitle}}</h2>
-            </div>
-            <div class="rgelement-description">
-                <p>{{pageDescription}}</p>
-            </div>
-            <div class="rgelement-reference">
-                <table>
-                    <tr>
-                        <td>Number of elements:</td>
-                        <td>{{element.count}}</td>
-                    </tr>
-                    <tr>
-                        <td>URI:</td>
-                        <td>{{pageRDF}}</td>
-                    </tr>
-                    <tr>
-                        <td>Namespace:</td>
-                        <td>{{namespace}}</td>
-                    </tr>
-                    <tr>
-                        <td>Suggested prefix*:</td>
-                        <td>{{prefix}}</td>
-                    </tr>
-                    <tr>
-                        <td>Example curie:</td>
-                        <td>{{prefix}}:1001</td>
-                    </tr>
-                </table>
-                <p>* registered at <a href="http://prefix.cc" target="_blank">prefix.cc</a></p>
-            </div>
-        </div>
-    <div class="row">
-        <div class="col-md-6">
-            <div class="rgelement-download">
-                <h3>Downloads</h3>
-                <ul>
-                   <li><a id="dl_nt" href="{{ page.id | append: '.nt' | relative_url }}">N-Triples
-                        (text/rdf+nt)</a></li>
-                    <li><a id="dl_xml" href="{{ page.id | append: '.xml' | relative_url }}">RDF/XML
-                        (application/rdf+xml)</a></li>
-                    <li><a id="dl_jsonld" href="{{ page.id | append: '.jsonld' | relative_url }}">JSON-LD
-                        (application/json | application/json+ld)</a> (see the <a
-                            href="https://github.com/RDARegistry/RDA-Vocabularies/blob/master/jsonld/termList/_readme.md">Readme</a>)
-                    </li>
-                </ul>
-            </div>
-{% if element.languages %}
-            <div class="rgelement-languages">
-                <h3>Languages</h3>
-                <ul id="langList">
-    {% for lang in element.languages %}
-        {% if lang.version == "WIP" %}
-            <li><a title="Work In Progress" aria-disabled="true" disabled="disabled" class="not-active">{{lang.lang}}</a></li>
-        {% else %}
-            <li><a id="lang_{{lang.code}}" href="{{ page.id | relative_url }}?language={{lang.code}}"
-            {% if lang.source %}title="English Source Version: 
-                {{lang.source}}Current {{lang.lang}} Version: {{lang.version}}" 
-            {% endif %}>
-            {{lang.lang}}</a>
+      <section class="col-sm text-nowrap" id="metadata">
+        <h3>Metadata</h3>
+        <table class="table-bordered table-sm">
+          <tr>
+            <td>Number of elements:</td>
+            <td>{{element.count}}</td>
+          </tr>
+          <tr>
+            <td>URI:</td>
+            <td>{{pageRDF}}</td>
+          </tr>
+          <tr>
+            <td>Namespace:</td>
+            <td>{{namespace}}</td>
+          </tr>
+          <tr>
+            <td>Suggested prefix*:</td>
+            <td>{{prefix}}</td>
+          </tr>
+          <tr>
+            <td>Example curie:</td>
+            <td>{{prefix}}:1001</td>
+          </tr>
+        </table>
+      </section>
+      <div class="col-sm text-nowrap">
+        <section id="download">
+          <h3>Downloads</h3>
+          <ul>
+            <li>
+              <a id="dl_nt" href="{{ page.id | append: '.nt' | relative_url }}">N-Triples
+                (text/rdf+nt)</a>
             </li>
+            <li>
+              <a id="dl_xml" href="{{ page.id | append: '.xml' | relative_url }}">RDF/XML
+                (application/rdf+xml)</a>
+            </li>
+            <li>
+              <a id="dl_jsonld" href="{{ page.id | append: '.jsonld' | relative_url }}">JSON-LD
+                (application/json | application/json+ld)</a>
+              (see the
+              <a
+                href="https://github.com/RDARegistry/RDA-Vocabularies/blob/master/jsonld/termList/_readme.md">Readme</a>)
+            </li>
+          </ul>
+        </section>
+        {% if element.languages %}
+        <section id="languages" class="d-block">
+          <h3>Languages</h3>
+          <ul id="langList">
+            {% for lang in element.languages %}
+            {% if lang.version == "WIP" %}
+            <li>
+              <a aria-disabled="true" class="not-active" disabled="disabled" title="Work In Progress">{{lang.lang}}</a>
+            </li>
+            {% else %}
+            <li>
+              <a id="lang_{{lang.code}}" href="{{ page.id | relative_url }}?language={{lang.code}}" {% if lang.source %}
+                title="English Source Version: {{lang.source}}Current {{lang.lang}} Version: {{lang.version}}"
+                {% endif %}>
+                {{lang.lang}}
+              </a>
+            </li>
+            {% endif %}
+            {% endfor %}
+          </ul>
+        </section>
         {% endif %}
-    {% endfor %}
-                </ul>
-            </div>
-{% endif %}
+      </div>
+    </div>
+    <!-- add a Classes table if the page calls for one -->
+    {% if page.classtable == true %}
+    <!-- add a tab setup -->
+    <div class="row">
+      <nav>
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+          <a class="nav-item nav-link active" id="nav-classes-tab" data-toggle="tab" href="#nav-classes" role="tab"
+            aria-controls="nav-classes" aria-selected="true">Classes</a>
+          <a class="nav-item nav-link" id="nav-properties-tab" data-toggle="tab" href="#nav-properties" role="tab"
+            aria-controls="nav-properties" aria-selected="false">Properties</a>
         </div>
+      </nav>
     </div>
-    </div>
-{% if page.classtable == true %}
-    <div class="row">
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h2>Classes Index</h2>
-            </div>
-            <div id="classtabledata">
+    <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade show active" id="nav-classes" role="tabpanel" aria-labelledby="nav-classes-tab">
+        <div class="row">
+          <div class="card w-100">
+            <div class="card-body">
+              <h3 class="card-title">Classes Index</h3>
+              <div id="classtabledata">
                 <div class="tablebuttons">
-                    <button id="btn-show-all-Classchildren" type="button">Expand All</button>
-                    <button id="btn-hide-all-Classchildren" type="button">Collapse All</button>
+                  <button id="btn-show-all-Classchildren" type="button">Expand All</button>
+                  <button id="btn-hide-all-Classchildren" type="button">Collapse All</button>
                 </div>
-                <table class="table" id="cindex" style="width:100%">
-                    <thead>
+                <table class="table w-100" id="cindex">
+                  <thead>
                     <tr>
-                        <th class="protip" data-pt-scheme="aqua" data-pt-delay-in=500
-                            data-pt-position="left" data-pt-gravity=true
-                            data-pt-title="<p>This column contains the permalink for the documentation for the element in this row.</p><p>Note: It is <emphasis>not</emphasis> the URI for the element.</p>"
-                            style="padding-right: 10px;padding-left: 10px !important;"> #
-                        </th>
-                        <th style="padding-right: 0;padding-left: 0 !important;"></th>
-                        <th class="protip" data-pt-scheme="aqua" data-pt-delay-in=500
-                            data-pt-position="left" data-pt-gravity=true
-                            data-pt-title="<p>This column contains the CURIE for the element. </p><p>The link associated with the curie is the canonical URI. </p>">
-                            CURIE
-                        </th>
-                        <th class="protip" data-pt-scheme="aqua" data-pt-delay-in=500
-                            data-pt-position="left" data-pt-gravity=true
-                            data-pt-title="<p>This column contains the preferred label for the element. </p><p>The link associated with the label is the English lexical alias.</p>">
-                            Label
-                        </th>
-                        <th class="protip" data-pt-scheme="aqua" data-pt-delay-in=500
-                            data-pt-position="left" data-pt-gravity=true
-                            data-pt-title="<p>This column contains the Definition of the Concept.</p><p>You probably figured that out on your own.</p><p>It's also worth mentioning that clicking on any of the column headings will sort the table by that column.</p>">
-                            Definition
-                        </th>
+                      <th scope="col" class="protip pr-2 pl-2" data-pt-scheme="aqua" data-pt-delay-in="500"
+                        data-pt-position="left" data-pt-gravity="true"
+                        data-pt-title="<p>This column contains the permalink for the documentation for the element in this row.</p><p>Note: It is <emphasis>not</emphasis> the URI for the element.</p>">
+                        #
+                      </th>
+                      <th scope="col" class="pl-0 pr-0"></th>
+                      <th scope="col" class="protip" data-pt-scheme="aqua" data-pt-delay-in="500"
+                        data-pt-position="left" data-pt-gravity="true"
+                        data-pt-title="<p>This column contains the CURIE for the element. </p><p>The link associated with the curie is the canonical URI. </p>">
+                        CURIE
+                      </th>
+                      <th scope="col" class="protip" data-pt-scheme="aqua" data-pt-delay-in="500"
+                        data-pt-position="left" data-pt-gravity="true"
+                        data-pt-title="<p>This column contains the preferred label for the element. </p><p>The link associated with the label is the English lexical alias.</p>">
+                        Label
+                      </th>
+                      <th scope="col" class="protip" data-pt-scheme="aqua" data-pt-delay-in="500"
+                        data-pt-position="left" data-pt-gravity="true"
+                        data-pt-title="<p>This column contains the Description of the Element.</p><p>You probably figured that out on your own.</p><p>It's also worth mentioning that clicking on any of the column headings will sort the table by that column.</p>">
+                        Description
+                      </th>
                     </tr>
-                    </thead>
+                  </thead>
                 </table>
+              </div>
             </div>
-            <div class="panel-footer">
-            </div>
-        </div>   
-{% endif %}
-    <div class="row">
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h2>Properties Index</h2>
-            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="nav-properties" role="tabpanel" aria-labelledby="nav-properties-tab">
+        {% endif %}
+        <!-- Do the Properties table -->
+        <div class="row">
+          <div class="card w-100">
+            <div class="card-body">
+            <h3 class="card-title">Properties Index</h3>
             <div id="propertytabledata">
-                <div class="tablebuttons">
-                    <button id="btn-show-all-Propertychildren" type="button">Expand All</button>
-                    <button id="btn-hide-all-Propertychildren" type="button">Collapse All</button>
-                </div>
-                <table class="table" id="pindex" style="width:100%">
-                    <thead>
-                    <tr>
-                        <th class="protip" data-pt-scheme="aqua" data-pt-delay-in=500
-                            data-pt-position="left" data-pt-gravity=true
-                            data-pt-title="<p>This column contains the permalink for the documentation for the element in this row.</p><p>Note: It is <emphasis>not</emphasis> the URI for the element.</p>"
-                            style="padding-right: 10px;padding-left: 10px !important;"> #
-                        </th>
-                        <th style="padding-right: 0;padding-left: 0 !important;"></th>
-                        <th class="protip" data-pt-scheme="aqua" data-pt-delay-in=500
-                            data-pt-position="left" data-pt-gravity=true
-                            data-pt-title="<p>This column contains the CURIE for the element. </p><p>The link associated with the curie is the canonical URI. </p>">
-                            CURIE
-                        </th>
-                        <th class="protip" data-pt-scheme="aqua" data-pt-delay-in=500
-                            data-pt-position="left" data-pt-gravity=true
-                            data-pt-title="<p>This column contains the preferred label for the element. </p><p>The link associated with the label is the English lexical alias.</p>">
-                            Label
-                        </th>
-                        <th class="protip" data-pt-scheme="aqua" data-pt-delay-in=500
-                            data-pt-position="left" data-pt-gravity=true
-                            data-pt-title="<p>This column contains the Definition of the Concept.</p><p>You probably figured that out on your own.</p><p>It's also worth mentioning that clicking on any of the column headings will sort the table by that column.</p>">
-                            Definition
-                        </th>
-                    </tr>
-                    </thead>
-                </table>
+              <div class="tablebuttons">
+                <button id="btn-show-all-Propertychildren" type="button">Expand All</button>
+                <button id="btn-hide-all-Propertychildren" type="button">Collapse All</button>
+              </div>
+              <table class="table w-100" id="pindex">
+                <thead>
+                  <tr>
+                    <th scope="col" class="protip pl-2 pr-2" data-pt-scheme="aqua" data-pt-delay-in="500"
+                      data-pt-position="left" data-pt-gravity="true"
+                      data-pt-title="<p>This column contains the permalink for the documentation for the element in this row.</p><p>Note: It is <emphasis>not</emphasis> the URI for the element.</p>">
+                      #
+                    </th>
+                    <th scope="col" class="pl-0 pr-0"></th>
+                    <th scope="col" class="protip" data-pt-scheme="aqua" data-pt-delay-in="500" data-pt-position="left"
+                      data-pt-gravity="true"
+                      data-pt-title="<p>This column contains the CURIE for the element. </p><p>The link associated with the curie is the canonical URI. </p>">
+                      CURIE
+                    </th>
+                    <th scope="col" class="protip" data-pt-scheme="aqua" data-pt-delay-in="500" data-pt-position="left"
+                      data-pt-gravity="true"
+                      data-pt-title="<p>This column contains the preferred label for the element. </p><p>The link associated with the label is the English lexical alias.</p>">
+                      Label
+                    </th>
+                    <th scope="col" class="protip" data-pt-scheme="aqua" data-pt-delay-in="500" data-pt-position="left"
+                      data-pt-gravity="true"
+                      data-pt-title="<p>This column contains the Description of the Element.</p><p>You probably figured that out on your own.</p><p>It's also worth mentioning that clicking on any of the column headings will sort the table by that column.</p>">
+                      Description
+                    </th>
+                  </tr>
+                </thead>
+              </table>
             </div>
-            <div class="panel-footer">
-            </div>
+          </div>
         </div>
+      </div>
     </div>
-</div>
+  </div>
+    <!-- only add this if a class table is called for -->
+    {% if page.classtable == true %}
+  </div>
+  </div>
+  {% endif %}
+</article>
 {{site.data.alerts.hr_shaded}}
 <script type="text/javascript">
-    var omr_url = "{{ site.omr_url }}"
-    var dataSource = "{{ github }}"
-    var prefix = "{{ prefix }}";
-    var vocabNamespace = "{{ namespace }}"
-    vocabNamespace = vocabNamespace.replace(/\/\/$/, "/");
-    var regID = "{{regID}}";
-    var pageRDF = "{{pageRDF}}";
-{% if pageDescription != '' %}
-    document.getElementsByTagName('meta')["description"].content = "{{ pageDescription | strip_html | strip_newlines | truncate: 160 }}";
-{% else %}
-    document.getElementsByTagName('meta')["description"].content = "{{ site.title }}";
-{% endif %}
+  var omr_url = "{{ site.omr_url }}"
+  var dataSource = "{{ github }}"
+  var prefix = "{{ prefix }}";
+  var vocabNamespace = "{{ namespace }}";
+  var regID = "{{regID}}";
+  var pageRDF = "{{pageRDF}}";
+  var pageLanguages = '{{pageLanguages}}';
 
+  {% if pageDescription != '' %}
+  document.getElementsByTagName('meta')["description"].content = "{{ pageDescription | strip_html | strip_newlines | truncate: 160 }}";
+  {% else %}
+  document.getElementsByTagName('meta')["description"].content = "{{ site.title }}";
+  {% endif %}
 </script>
- 
+
+<script src="{{ "/assets/javascript/plugins/jquery.datatables.min.js" | relative_url }}"></script>
+
+{%- if page.bootstrap_table -%}
+<script src="{{ "/assets/javascript/plugins/datatables.bootstrap4.min.js" | relative_url }}"></script>
+{%- else -%}
+<script src="{{ "/assets/javascript/plugins/dataTables.dataTables.min.js" | relative_url }}"></script>
+{%- endif -%}
+
+<script src="{{ "/assets/javascript/plugins/protip.min.js" | relative_url }}"></script>
+<script src="{{ "/assets/javascript/elementScript.js" | relative_url }}"></script>
