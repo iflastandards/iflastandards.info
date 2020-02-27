@@ -10,6 +10,8 @@ This page introduces the UNIMARC Element Sets and Value Vocabularies.
 
 ## UNIMARC Element Sets
 
+<div class="twocolumns">
+
 * [UNIMARC/B elements 0XX]({{"/unimarc/unimarcb/elements/0XX" | relative_url}})
 * [UNIMARC/B elements 1XX]({{"/unimarc/unimarcb/elements/1XX" | relative_url}})
 * [UNIMARC/B elements 2XX]({{"/unimarc/unimarcb/elements/2XX" | relative_url}})
@@ -36,6 +38,8 @@ This page introduces the UNIMARC Element Sets and Value Vocabularies.
 * [UNIMARC/B elements 850]({{"/unimarc/unimarcb/elements/850" | relative_url}})
 * [UNIMARC/B elements 856]({{"/unimarc/unimarcb/elements/856" | relative_url}})
 * [UNIMARC/B elements 886]({{"/unimarc/unimarcb/elements/886" | relative_url}})
+
+</div>
 
 ## UNIMARC Value Vocabularies
 

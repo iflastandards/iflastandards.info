@@ -32,7 +32,7 @@ table.pindex_detail > tr {
 .notRequestedLanguageCode {
   color: $yellow;
 }
-span.twocolumns > ul:first-of-type {
+div.twocolumns > ul:first-of-type {
   -webkit-column-count: 2;
      -moz-column-count: 2;
           column-count: 2;
