@@ -21,6 +21,8 @@ github_editme_path: iflastandards/iflastandards.info/blob/master/docs/
 google_analytics: 
 # if you have google-analytics ID, put it in. if not, edit this value to blank.
 
+baseurl: iflastandards.github.io/iflastandards.info
+
 host: 127.0.0.1
 # the preview server used. Leave as is.
 
