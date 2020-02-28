@@ -10,7 +10,7 @@
       {% if forloop.last %}
       <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
       {% else %}
-      <li class="breadcrumb-item"><a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{% assign: crumblink = crumb | prepend: crumblink | append: "/" %}{% endfor %}{{crumblink | relative_url}}">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</a></li>
+      <li class="breadcrumb-item"><a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{% assign: crumblink = crumb | prepend: crumblink | append: "/" %}{% endfor %}{{crumblink | append: "^^^" | remove: "/^^^" | relative_url}}">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</a></li>
       {% endif %}
     {% endfor %}
     </ol>
