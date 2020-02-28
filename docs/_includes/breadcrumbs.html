@@ -1,6 +1,6 @@
 {% assign crumbs = page.url | relative_url | remove:'/index.html' | split: '/' %}
 {%- assign crumbsize = crumbs | size  -%}
-{% assign crumblink = "/" | relative_url  %}
+{% assign crumblink = "" %}
 {%- if crumbsize  > 0 -%}
 <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
