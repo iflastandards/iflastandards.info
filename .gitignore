@@ -3,3 +3,5 @@
 /.DS_Store
 /iflastandards.code-workspace
 /docs/.vscode
+/.zshrc
+/redirect.conf
