@@ -21,4 +21,4 @@ topnav_dropdowns:
         - title: The UNIMARC Vocabularies
           url: /unimarc.html
         - title: MulDiCat
-          url: /muldicat.html
+          url: /muldicat
