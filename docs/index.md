@@ -8,4 +8,4 @@ title: IFLA Namespaces
 * [The FRBR Vocabularies](fr)
 * [The ISBD Vocabularies](isbd)
 * [The UNIMARC Vocabularies](unimarc)
-* [MulDiCat](MulDiCat)
+* [MulDiCat](muldicat)
