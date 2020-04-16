@@ -1,2 +1,0 @@
-<http://www.openvoc.info/isbd/> <http://purl.org/dc/elements/1.1/title> "ISBD elements (open)"@en .
-<http://www.openvoc.info/isbd/> <http://www.w3.org/2004/02/skos/core#note> "Experimental set of ISBD properties without domains or ranges, for use by non-ISBD communities and applications, and for mappings between ISBD and other namespaces."@en .
