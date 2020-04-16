@@ -23,7 +23,7 @@ layout: default
 {% endif %}
 {% assign namespace = pageRDF | append: page.ns_separator %}
 {% assign prefix = page.prefix %}
-{% assign github = "https://raw.githubusercontent.com/iflastandards/iflastandards.info/master/jsonld/ns" | append: page.id | append: '.jsonld' %}
+{% assign github = "https://raw.githubusercontent.com/iflastandards/" | append: ns | append: "/master/jsonld/ns" | append: page.id | append: '.jsonld' %}
 <h1 class="border-bottom">IFLA Value Vocabularies</h1>
 <article>
   <h2 class="border-0">{{ concept.title[lang] | escape }}</h2>
