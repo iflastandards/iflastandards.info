@@ -27,7 +27,7 @@
                     "version": "Release 1"
                 }
             ],
-            "dateOfPublication": "January 31, 2020"
+            "dateOfPublication": "April 16, 2020"
         },
         {
             "@id": "http://iflastandards.info/ns/fr/frbr/frbrer/C1001",
@@ -623,9 +623,6 @@
                 "es": "es ejemplar de"
             },
             "name": "isExemplarOf",
-            "propertyDisjointWith": [
-                []
-            ],
             "range": {
                 "@id": "http://iflastandards.info/ns/fr/frbr/frbrer/C1003",
                 "url": "http://metadataregistry.org/schemaprop/show/id/1565.html",
@@ -2728,9 +2725,6 @@
                 "url": "http://metadataregistry.org/schemaprop/show/id/1563.html",
                 "label": "Work"
             },
-            "sameAs": [
-                []
-            ],
             "status": {
                 "@id": "http://metadataregistry.org/uri/RegStatus/1001",
                 "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Published.en",

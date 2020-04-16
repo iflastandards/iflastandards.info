@@ -26,7 +26,7 @@
                     "version": "Release 1"
                 }
             ],
-            "dateOfPublication": "January 11, 2020"
+            "dateOfPublication": "April 16, 2020"
         },
         {
             "@id": "http://iflastandards.info/ns/unimarc/unimarcb/elements/1XX/U100__a00-07",
@@ -8169,17 +8169,8 @@
                 "url": "http://metadataregistry.org/schema/show/id/127.html",
                 "label": "UNIMARC/B elements 1XX"
             },
-            "label": {
-                "en": "has Instruments or voices for ensemble in Coded data field: form of musical work and key or mode (deprecated)"
-            },
             "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/1XX/hasInstrumentsOrVoicesForEnsembleInCodedDataFieldFormOfMusicalWorkAndKeyOrMode.en",
             "name": "hasInstrumentsOrVoicesForEnsembleInCodedDataFieldFormOfMusicalWorkAndKeyOrMode",
-            "status": {
-                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
-                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
-                "url": "http://metadataregistry.org/concept/show/id/419.html",
-                "label": "Deprecated"
-            },
             "url": "http://metadataregistry.org/schemaprop/show/id/22269.html"
         },
         {
@@ -8190,17 +8181,8 @@
                 "url": "http://metadataregistry.org/schema/show/id/127.html",
                 "label": "UNIMARC/B elements 1XX"
             },
-            "label": {
-                "en": "has Instruments or voices for soloists in Coded data field: form of musical work and key or mode (deprecated)"
-            },
             "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/1XX/hasInstrumentsOrVoicesForSoloistsInCodedDataFieldFormOfMusicalWorkAndKeyOrMode.en",
             "name": "hasInstrumentsOrVoicesForSoloistsInCodedDataFieldFormOfMusicalWorkAndKeyOrMode",
-            "status": {
-                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
-                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
-                "url": "http://metadataregistry.org/concept/show/id/419.html",
-                "label": "Deprecated"
-            },
             "url": "http://metadataregistry.org/schemaprop/show/id/22270.html"
         },
         {
@@ -9619,17 +9601,8 @@
                 "url": "http://metadataregistry.org/schema/show/id/127.html",
                 "label": "UNIMARC/B elements 1XX"
             },
-            "label": {
-                "en": "has Type of performance medium in Coded data field: medium of performance (Original composition) (Not applicable) (deprecated)"
-            },
             "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/1XX/hasTypeOfPerformanceMediumInCodedDataFieldMediumOfPerformanceOriginalCompositionNotApplicable.en",
             "name": "hasTypeOfPerformanceMediumInCodedDataFieldMediumOfPerformanceOriginalCompositionNotApplicable",
-            "status": {
-                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
-                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
-                "url": "http://metadataregistry.org/concept/show/id/419.html",
-                "label": "Deprecated"
-            },
             "url": "http://metadataregistry.org/schemaprop/show/id/22288.html"
         },
         {
@@ -9640,17 +9613,8 @@
                 "url": "http://metadataregistry.org/schema/show/id/127.html",
                 "label": "UNIMARC/B elements 1XX"
             },
-            "label": {
-                "en": "has No. of instruments or voices of Instrument/voice, conductor, other performer or device in Coded data field: medium of performance (Original composition) (Not applicable) (deprecated)"
-            },
             "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/1XX/hasNoOfInstrumentsOrVoicesOfInstrumentVoiceConductorOtherPerformerOrDeviceInCodedDataFieldMediumOfPerformanceOriginalCompositionNotApplicable.en",
             "name": "hasNoOfInstrumentsOrVoicesOfInstrumentVoiceConductorOtherPerformerOrDeviceInCodedDataFieldMediumOfPerformanceOriginalCompositionNotApplicable",
-            "status": {
-                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
-                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
-                "url": "http://metadataregistry.org/concept/show/id/419.html",
-                "label": "Deprecated"
-            },
             "url": "http://metadataregistry.org/schemaprop/show/id/22570.html"
         },
         {
@@ -9661,17 +9625,8 @@
                 "url": "http://metadataregistry.org/schema/show/id/127.html",
                 "label": "UNIMARC/B elements 1XX"
             },
-            "label": {
-                "en": "has Type of instrument or voice of Instrument/voice, conductor, other performer or device in Coded data field: medium of performance (Original composition) (Not applicable) (deprecated)"
-            },
             "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/1XX/hasTypeOfInstrumentOrVoiceOfInstrumentVoiceConductorOtherPerformerOrDeviceInCodedDataFieldMediumOfPerformanceOriginalCompositionNotApplicable.en",
             "name": "hasTypeOfInstrumentOrVoiceOfInstrumentVoiceConductorOtherPerformerOrDeviceInCodedDataFieldMediumOfPerformanceOriginalCompositionNotApplicable",
-            "status": {
-                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
-                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
-                "url": "http://metadataregistry.org/concept/show/id/419.html",
-                "label": "Deprecated"
-            },
             "url": "http://metadataregistry.org/schemaprop/show/id/22571.html"
         },
         {
@@ -9682,17 +9637,8 @@
                 "url": "http://metadataregistry.org/schema/show/id/127.html",
                 "label": "UNIMARC/B elements 1XX"
             },
-            "label": {
-                "en": "has Suffix of Instrument/voice, conductor, other performer or device in Coded data field: medium of performance (Original composition) (Not applicable) (deprecated)"
-            },
             "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/1XX/hasSuffixOfInstrumentVoiceConductorOtherPerformerOrDeviceInCodedDataFieldMediumOfPerformanceOriginalCompositionNotApplicable.en",
             "name": "hasSuffixOfInstrumentVoiceConductorOtherPerformerOrDeviceInCodedDataFieldMediumOfPerformanceOriginalCompositionNotApplicable",
-            "status": {
-                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
-                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
-                "url": "http://metadataregistry.org/concept/show/id/419.html",
-                "label": "Deprecated"
-            },
             "url": "http://metadataregistry.org/schemaprop/show/id/22572.html"
         },
         {
@@ -9703,17 +9649,8 @@
                 "url": "http://metadataregistry.org/schema/show/id/127.html",
                 "label": "UNIMARC/B elements 1XX"
             },
-            "label": {
-                "en": "has No. of instruments or voices of Type of ensemble in Coded data field: medium of performance (Original composition) (Not applicable) (deprecated)"
-            },
             "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/1XX/hasNoOfInstrumentsOrVoicesOfTypeOfEnsembleInCodedDataFieldMediumOfPerformanceOriginalCompositionNotApplicable.en",
             "name": "hasNoOfInstrumentsOrVoicesOfTypeOfEnsembleInCodedDataFieldMediumOfPerformanceOriginalCompositionNotApplicable",
-            "status": {
-                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
-                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
-                "url": "http://metadataregistry.org/concept/show/id/419.html",
-                "label": "Deprecated"
-            },
             "url": "http://metadataregistry.org/schemaprop/show/id/22573.html"
         },
         {
@@ -9724,17 +9661,8 @@
                 "url": "http://metadataregistry.org/schema/show/id/127.html",
                 "label": "UNIMARC/B elements 1XX"
             },
-            "label": {
-                "en": "has Type of instrument or voice of Type of ensemble in Coded data field: medium of performance (Original composition) (Not applicable) (deprecated)"
-            },
             "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/1XX/hasTypeOfInstrumentOrVoiceOfTypeOfEnsembleInCodedDataFieldMediumOfPerformanceOriginalCompositionNotApplicable.en",
             "name": "hasTypeOfInstrumentOrVoiceOfTypeOfEnsembleInCodedDataFieldMediumOfPerformanceOriginalCompositionNotApplicable",
-            "status": {
-                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
-                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
-                "url": "http://metadataregistry.org/concept/show/id/419.html",
-                "label": "Deprecated"
-            },
             "url": "http://metadataregistry.org/schemaprop/show/id/22574.html"
         },
         {
@@ -9745,17 +9673,8 @@
                 "url": "http://metadataregistry.org/schema/show/id/127.html",
                 "label": "UNIMARC/B elements 1XX"
             },
-            "label": {
-                "en": "has Suffix of Type of ensemble in Coded data field: medium of performance (Original composition) (Not applicable) (deprecated)"
-            },
             "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/1XX/hasSuffixOfTypeOfEnsembleInCodedDataFieldMediumOfPerformanceOriginalCompositionNotApplicable.en",
             "name": "hasSuffixOfTypeOfEnsembleInCodedDataFieldMediumOfPerformanceOriginalCompositionNotApplicable",
-            "status": {
-                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
-                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
-                "url": "http://metadataregistry.org/concept/show/id/419.html",
-                "label": "Deprecated"
-            },
             "url": "http://metadataregistry.org/schemaprop/show/id/22575.html"
         },
         {
@@ -9766,17 +9685,8 @@
                 "url": "http://metadataregistry.org/schema/show/id/127.html",
                 "label": "UNIMARC/B elements 1XX"
             },
-            "label": {
-                "en": "has No. of real parts of ensemble of Group within larger ensemble in Coded data field: medium of performance (Original composition) (Not applicable) (deprecated)"
-            },
             "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/1XX/hasNoOfRealPartsOfEnsembleOfGroupWithinLargerEnsembleInCodedDataFieldMediumOfPerformanceOriginalCompositionNotApplicable.en",
             "name": "hasNoOfRealPartsOfEnsembleOfGroupWithinLargerEnsembleInCodedDataFieldMediumOfPerformanceOriginalCompositionNotApplicable",
-            "status": {
-                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
-                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
-                "url": "http://metadataregistry.org/concept/show/id/419.html",
-                "label": "Deprecated"
-            },
             "url": "http://metadataregistry.org/schemaprop/show/id/22576.html"
         },
         {
@@ -9787,17 +9697,8 @@
                 "url": "http://metadataregistry.org/schema/show/id/127.html",
                 "label": "UNIMARC/B elements 1XX"
             },
-            "label": {
-                "en": "has Type of ensemble of Group within larger ensemble in Coded data field: medium of performance (Original composition) (Not applicable) (deprecated)"
-            },
             "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/1XX/hasTypeOfEnsembleOfGroupWithinLargerEnsembleInCodedDataFieldMediumOfPerformanceOriginalCompositionNotApplicable.en",
             "name": "hasTypeOfEnsembleOfGroupWithinLargerEnsembleInCodedDataFieldMediumOfPerformanceOriginalCompositionNotApplicable",
-            "status": {
-                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
-                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
-                "url": "http://metadataregistry.org/concept/show/id/419.html",
-                "label": "Deprecated"
-            },
             "url": "http://metadataregistry.org/schemaprop/show/id/22577.html"
         },
         {
@@ -9808,17 +9709,8 @@
                 "url": "http://metadataregistry.org/schema/show/id/127.html",
                 "label": "UNIMARC/B elements 1XX"
             },
-            "label": {
-                "en": "has Suffix of Group within larger ensemble in Coded data field: medium of performance (Original composition) (Not applicable) (deprecated)"
-            },
             "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/1XX/hasSuffixOfGroupWithinLargerEnsembleInCodedDataFieldMediumOfPerformanceOriginalCompositionNotApplicable.en",
             "name": "hasSuffixOfGroupWithinLargerEnsembleInCodedDataFieldMediumOfPerformanceOriginalCompositionNotApplicable",
-            "status": {
-                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
-                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
-                "url": "http://metadataregistry.org/concept/show/id/419.html",
-                "label": "Deprecated"
-            },
             "url": "http://metadataregistry.org/schemaprop/show/id/22578.html"
         },
         {
@@ -9829,17 +9721,8 @@
                 "url": "http://metadataregistry.org/schema/show/id/127.html",
                 "label": "UNIMARC/B elements 1XX"
             },
-            "label": {
-                "en": "has No. of instruments or voices of Number of parts in Coded data field: medium of performance (Original composition) (Not applicable) (deprecated)"
-            },
             "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/1XX/hasNoOfInstrumentsOrVoicesOfNumberOfPartsInCodedDataFieldMediumOfPerformanceOriginalCompositionNotApplicable.en",
             "name": "hasNoOfInstrumentsOrVoicesOfNumberOfPartsInCodedDataFieldMediumOfPerformanceOriginalCompositionNotApplicable",
-            "status": {
-                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
-                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
-                "url": "http://metadataregistry.org/concept/show/id/419.html",
-                "label": "Deprecated"
-            },
             "url": "http://metadataregistry.org/schemaprop/show/id/22579.html"
         },
         {
@@ -9850,17 +9733,8 @@
                 "url": "http://metadataregistry.org/schema/show/id/127.html",
                 "label": "UNIMARC/B elements 1XX"
             },
-            "label": {
-                "en": "has Suffix of Number of parts in Coded data field: medium of performance (Original composition) (Not applicable) (deprecated)"
-            },
             "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/1XX/hasSuffixOfNumberOfPartsInCodedDataFieldMediumOfPerformanceOriginalCompositionNotApplicable.en",
             "name": "hasSuffixOfNumberOfPartsInCodedDataFieldMediumOfPerformanceOriginalCompositionNotApplicable",
-            "status": {
-                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
-                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
-                "url": "http://metadataregistry.org/concept/show/id/419.html",
-                "label": "Deprecated"
-            },
             "url": "http://metadataregistry.org/schemaprop/show/id/22580.html"
         },
         {
@@ -9871,17 +9745,8 @@
                 "url": "http://metadataregistry.org/schema/show/id/127.html",
                 "label": "UNIMARC/B elements 1XX"
             },
-            "label": {
-                "en": "has No. of instruments or voices of Number of players in Coded data field: medium of performance (Original composition) (Not applicable) (deprecated)"
-            },
             "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/1XX/hasNoOfInstrumentsOrVoicesOfNumberOfPlayersInCodedDataFieldMediumOfPerformanceOriginalCompositionNotApplicable.en",
             "name": "hasNoOfInstrumentsOrVoicesOfNumberOfPlayersInCodedDataFieldMediumOfPerformanceOriginalCompositionNotApplicable",
-            "status": {
-                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
-                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
-                "url": "http://metadataregistry.org/concept/show/id/419.html",
-                "label": "Deprecated"
-            },
             "url": "http://metadataregistry.org/schemaprop/show/id/22581.html"
         },
         {
@@ -9892,17 +9757,8 @@
                 "url": "http://metadataregistry.org/schema/show/id/127.html",
                 "label": "UNIMARC/B elements 1XX"
             },
-            "label": {
-                "en": "has Suffix of Number of players in Coded data field: medium of performance (Original composition) (Not applicable) (deprecated)"
-            },
             "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/1XX/hasSuffixOfNumberOfPlayersInCodedDataFieldMediumOfPerformanceOriginalCompositionNotApplicable.en",
             "name": "hasSuffixOfNumberOfPlayersInCodedDataFieldMediumOfPerformanceOriginalCompositionNotApplicable",
-            "status": {
-                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
-                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
-                "url": "http://metadataregistry.org/concept/show/id/419.html",
-                "label": "Deprecated"
-            },
             "url": "http://metadataregistry.org/schemaprop/show/id/22582.html"
         },
         {
@@ -9918,17 +9774,8 @@
                 "url": "http://metadataregistry.org/schema/show/id/127.html",
                 "label": "UNIMARC/B elements 1XX"
             },
-            "label": {
-                "en": "has Type of performance medium in Coded data field: medium of performance (Original composition) (Alternative medium of performance) (deprecated)"
-            },
             "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/1XX/hasTypeOfPerformanceMediumInCodedDataFieldMediumOfPerformanceOriginalCompositionAlternativeMediumOfPerformance.en",
             "name": "hasTypeOfPerformanceMediumInCodedDataFieldMediumOfPerformanceOriginalCompositionAlternativeMediumOfPerformance",
-            "status": {
-                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
-                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
-                "url": "http://metadataregistry.org/concept/show/id/419.html",
-                "label": "Deprecated"
-            },
             "url": "http://metadataregistry.org/schemaprop/show/id/22289.html"
         },
         {
@@ -9939,17 +9786,8 @@
                 "url": "http://metadataregistry.org/schema/show/id/127.html",
                 "label": "UNIMARC/B elements 1XX"
             },
-            "label": {
-                "en": "has No. of instruments or voices of Instrument/voice, conductor, other performer or device in Coded data field: medium of performance (Original composition) (Alternative medium of performance) (deprecated)"
-            },
             "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/1XX/hasNoOfInstrumentsOrVoicesOfInstrumentVoiceConductorOtherPerformerOrDeviceInCodedDataFieldMediumOfPerformanceOriginalCompositionAlternativeMediumOfPerformance.en",
             "name": "hasNoOfInstrumentsOrVoicesOfInstrumentVoiceConductorOtherPerformerOrDeviceInCodedDataFieldMediumOfPerformanceOriginalCompositionAlternativeMediumOfPerformance",
-            "status": {
-                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
-                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
-                "url": "http://metadataregistry.org/concept/show/id/419.html",
-                "label": "Deprecated"
-            },
             "url": "http://metadataregistry.org/schemaprop/show/id/22583.html"
         },
         {
@@ -9960,17 +9798,8 @@
                 "url": "http://metadataregistry.org/schema/show/id/127.html",
                 "label": "UNIMARC/B elements 1XX"
             },
-            "label": {
-                "en": "has Type of instrument or voice of Instrument/voice, conductor, other performer or device in Coded data field: medium of performance (Original composition) (Alternative medium of performance) (deprecated)"
-            },
             "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/1XX/hasTypeOfInstrumentOrVoiceOfInstrumentVoiceConductorOtherPerformerOrDeviceInCodedDataFieldMediumOfPerformanceOriginalCompositionAlternativeMediumOfPerformance.en",
             "name": "hasTypeOfInstrumentOrVoiceOfInstrumentVoiceConductorOtherPerformerOrDeviceInCodedDataFieldMediumOfPerformanceOriginalCompositionAlternativeMediumOfPerformance",
-            "status": {
-                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
-                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
-                "url": "http://metadataregistry.org/concept/show/id/419.html",
-                "label": "Deprecated"
-            },
             "url": "http://metadataregistry.org/schemaprop/show/id/22584.html"
         },
         {
@@ -9981,17 +9810,8 @@
                 "url": "http://metadataregistry.org/schema/show/id/127.html",
                 "label": "UNIMARC/B elements 1XX"
             },
-            "label": {
-                "en": "has Suffix of Instrument/voice, conductor, other performer or device in Coded data field: medium of performance (Original composition) (Alternative medium of performance) (deprecated)"
-            },
             "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/1XX/hasSuffixOfInstrumentVoiceConductorOtherPerformerOrDeviceInCodedDataFieldMediumOfPerformanceOriginalCompositionAlternativeMediumOfPerformance.en",
             "name": "hasSuffixOfInstrumentVoiceConductorOtherPerformerOrDeviceInCodedDataFieldMediumOfPerformanceOriginalCompositionAlternativeMediumOfPerformance",
-            "status": {
-                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
-                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
-                "url": "http://metadataregistry.org/concept/show/id/419.html",
-                "label": "Deprecated"
-            },
             "url": "http://metadataregistry.org/schemaprop/show/id/22585.html"
         },
         {
@@ -10002,17 +9822,8 @@
                 "url": "http://metadataregistry.org/schema/show/id/127.html",
                 "label": "UNIMARC/B elements 1XX"
             },
-            "label": {
-                "en": "has No. of instruments or voices of Type of ensemble in Coded data field: medium of performance (Original composition) (Alternative medium of performance) (deprecated)"
-            },
             "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/1XX/hasNoOfInstrumentsOrVoicesOfTypeOfEnsembleInCodedDataFieldMediumOfPerformanceOriginalCompositionAlternativeMediumOfPerformance.en",
             "name": "hasNoOfInstrumentsOrVoicesOfTypeOfEnsembleInCodedDataFieldMediumOfPerformanceOriginalCompositionAlternativeMediumOfPerformance",
-            "status": {
-                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
-                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
-                "url": "http://metadataregistry.org/concept/show/id/419.html",
-                "label": "Deprecated"
-            },
             "url": "http://metadataregistry.org/schemaprop/show/id/22586.html"
         },
         {
@@ -10023,17 +9834,8 @@
                 "url": "http://metadataregistry.org/schema/show/id/127.html",
                 "label": "UNIMARC/B elements 1XX"
             },
-            "label": {
-                "en": "has Type of instrument or voice of Type of ensemble in Coded data field: medium of performance (Original composition) (Alternative medium of performance) (deprecated)"
-            },
             "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/1XX/hasTypeOfInstrumentOrVoiceOfTypeOfEnsembleInCodedDataFieldMediumOfPerformanceOriginalCompositionAlternativeMediumOfPerformance.en",
             "name": "hasTypeOfInstrumentOrVoiceOfTypeOfEnsembleInCodedDataFieldMediumOfPerformanceOriginalCompositionAlternativeMediumOfPerformance",
-            "status": {
-                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
-                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
-                "url": "http://metadataregistry.org/concept/show/id/419.html",
-                "label": "Deprecated"
-            },
             "url": "http://metadataregistry.org/schemaprop/show/id/22587.html"
         },
         {
@@ -10044,17 +9846,8 @@
                 "url": "http://metadataregistry.org/schema/show/id/127.html",
                 "label": "UNIMARC/B elements 1XX"
             },
-            "label": {
-                "en": "has Suffix of Type of ensemble in Coded data field: medium of performance (Original composition) (Alternative medium of performance) (deprecated)"
-            },
             "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/1XX/hasSuffixOfTypeOfEnsembleInCodedDataFieldMediumOfPerformanceOriginalCompositionAlternativeMediumOfPerformance.en",
             "name": "hasSuffixOfTypeOfEnsembleInCodedDataFieldMediumOfPerformanceOriginalCompositionAlternativeMediumOfPerformance",
-            "status": {
-                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
-                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
-                "url": "http://metadataregistry.org/concept/show/id/419.html",
-                "label": "Deprecated"
-            },
             "url": "http://metadataregistry.org/schemaprop/show/id/22588.html"
         },
         {
@@ -10065,17 +9858,8 @@
                 "url": "http://metadataregistry.org/schema/show/id/127.html",
                 "label": "UNIMARC/B elements 1XX"
             },
-            "label": {
-                "en": "has No. of real parts of ensemble of Group within larger ensemble in Coded data field: medium of performance (Original composition) (Alternative medium of performance) (deprecated)"
-            },
             "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/1XX/hasNoOfRealPartsOfEnsembleOfGroupWithinLargerEnsembleInCodedDataFieldMediumOfPerformanceOriginalCompositionAlternativeMediumOfPerformance.en",
             "name": "hasNoOfRealPartsOfEnsembleOfGroupWithinLargerEnsembleInCodedDataFieldMediumOfPerformanceOriginalCompositionAlternativeMediumOfPerformance",
-            "status": {
-                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
-                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
-                "url": "http://metadataregistry.org/concept/show/id/419.html",
-                "label": "Deprecated"
-            },
             "url": "http://metadataregistry.org/schemaprop/show/id/22589.html"
         },
         {
@@ -10086,17 +9870,8 @@
                 "url": "http://metadataregistry.org/schema/show/id/127.html",
                 "label": "UNIMARC/B elements 1XX"
             },
-            "label": {
-                "en": "has Type of ensemble of Group within larger ensemble in Coded data field: medium of performance (Original composition) (Alternative medium of performance) (deprecated)"
-            },
             "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/1XX/hasTypeOfEnsembleOfGroupWithinLargerEnsembleInCodedDataFieldMediumOfPerformanceOriginalCompositionAlternativeMediumOfPerformance.en",
             "name": "hasTypeOfEnsembleOfGroupWithinLargerEnsembleInCodedDataFieldMediumOfPerformanceOriginalCompositionAlternativeMediumOfPerformance",
-            "status": {
-                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
-                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
-                "url": "http://metadataregistry.org/concept/show/id/419.html",
-                "label": "Deprecated"
-            },
             "url": "http://metadataregistry.org/schemaprop/show/id/22590.html"
         },
         {
@@ -10107,17 +9882,8 @@
                 "url": "http://metadataregistry.org/schema/show/id/127.html",
                 "label": "UNIMARC/B elements 1XX"
             },
-            "label": {
-                "en": "has Suffix of Group within larger ensemble in Coded data field: medium of performance (Original composition) (Alternative medium of performance) (deprecated)"
-            },
             "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/1XX/hasSuffixOfGroupWithinLargerEnsembleInCodedDataFieldMediumOfPerformanceOriginalCompositionAlternativeMediumOfPerformance.en",
             "name": "hasSuffixOfGroupWithinLargerEnsembleInCodedDataFieldMediumOfPerformanceOriginalCompositionAlternativeMediumOfPerformance",
-            "status": {
-                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
-                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
-                "url": "http://metadataregistry.org/concept/show/id/419.html",
-                "label": "Deprecated"
-            },
             "url": "http://metadataregistry.org/schemaprop/show/id/22591.html"
         },
         {
@@ -10128,17 +9894,8 @@
                 "url": "http://metadataregistry.org/schema/show/id/127.html",
                 "label": "UNIMARC/B elements 1XX"
             },
-            "label": {
-                "en": "has No. of instruments or voices of Number of parts in Coded data field: medium of performance (Original composition) (Alternative medium of performance) (deprecated)"
-            },
             "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/1XX/hasNoOfInstrumentsOrVoicesOfNumberOfPartsInCodedDataFieldMediumOfPerformanceOriginalCompositionAlternativeMediumOfPerformance.en",
             "name": "hasNoOfInstrumentsOrVoicesOfNumberOfPartsInCodedDataFieldMediumOfPerformanceOriginalCompositionAlternativeMediumOfPerformance",
-            "status": {
-                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
-                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
-                "url": "http://metadataregistry.org/concept/show/id/419.html",
-                "label": "Deprecated"
-            },
             "url": "http://metadataregistry.org/schemaprop/show/id/22592.html"
         },
         {
@@ -10149,17 +9906,8 @@
                 "url": "http://metadataregistry.org/schema/show/id/127.html",
                 "label": "UNIMARC/B elements 1XX"
             },
-            "label": {
-                "en": "has Suffix of Number of parts in Coded data field: medium of performance (Original composition) (Alternative medium of performance) (deprecated)"
-            },
             "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/1XX/hasSuffixOfNumberOfPartsInCodedDataFieldMediumOfPerformanceOriginalCompositionAlternativeMediumOfPerformance.en",
             "name": "hasSuffixOfNumberOfPartsInCodedDataFieldMediumOfPerformanceOriginalCompositionAlternativeMediumOfPerformance",
-            "status": {
-                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
-                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
-                "url": "http://metadataregistry.org/concept/show/id/419.html",
-                "label": "Deprecated"
-            },
             "url": "http://metadataregistry.org/schemaprop/show/id/22593.html"
         },
         {
@@ -10170,17 +9918,8 @@
                 "url": "http://metadataregistry.org/schema/show/id/127.html",
                 "label": "UNIMARC/B elements 1XX"
             },
-            "label": {
-                "en": "has No. of instruments or voices of Number of players in Coded data field: medium of performance (Original composition) (Alternative medium of performance) (deprecated)"
-            },
             "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/1XX/hasNoOfInstrumentsOrVoicesOfNumberOfPlayersInCodedDataFieldMediumOfPerformanceOriginalCompositionAlternativeMediumOfPerformance.en",
             "name": "hasNoOfInstrumentsOrVoicesOfNumberOfPlayersInCodedDataFieldMediumOfPerformanceOriginalCompositionAlternativeMediumOfPerformance",
-            "status": {
-                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
-                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
-                "url": "http://metadataregistry.org/concept/show/id/419.html",
-                "label": "Deprecated"
-            },
             "url": "http://metadataregistry.org/schemaprop/show/id/22594.html"
         },
         {
@@ -10191,17 +9930,8 @@
                 "url": "http://metadataregistry.org/schema/show/id/127.html",
                 "label": "UNIMARC/B elements 1XX"
             },
-            "label": {
-                "en": "has Suffix of Number of players in Coded data field: medium of performance (Original composition) (Alternative medium of performance) (deprecated)"
-            },
             "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/1XX/hasSuffixOfNumberOfPlayersInCodedDataFieldMediumOfPerformanceOriginalCompositionAlternativeMediumOfPerformance.en",
             "name": "hasSuffixOfNumberOfPlayersInCodedDataFieldMediumOfPerformanceOriginalCompositionAlternativeMediumOfPerformance",
-            "status": {
-                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
-                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
-                "url": "http://metadataregistry.org/concept/show/id/419.html",
-                "label": "Deprecated"
-            },
             "url": "http://metadataregistry.org/schemaprop/show/id/22595.html"
         },
         {
@@ -10217,17 +9947,8 @@
                 "url": "http://metadataregistry.org/schema/show/id/127.html",
                 "label": "UNIMARC/B elements 1XX"
             },
-            "label": {
-                "en": "has Type of performance medium in Coded data field: medium of performance (Arranged composition) (Not applicable) (deprecated)"
-            },
             "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/1XX/hasTypeOfPerformanceMediumInCodedDataFieldMediumOfPerformanceArrangedCompositionNotApplicable.en",
             "name": "hasTypeOfPerformanceMediumInCodedDataFieldMediumOfPerformanceArrangedCompositionNotApplicable",
-            "status": {
-                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
-                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
-                "url": "http://metadataregistry.org/concept/show/id/419.html",
-                "label": "Deprecated"
-            },
             "url": "http://metadataregistry.org/schemaprop/show/id/22290.html"
         },
         {
@@ -10238,17 +9959,8 @@
                 "url": "http://metadataregistry.org/schema/show/id/127.html",
                 "label": "UNIMARC/B elements 1XX"
             },
-            "label": {
-                "en": "has No. of instruments or voices of Instrument/voice, conductor, other performer or device in Coded data field: medium of performance (Arranged composition) (Not applicable) (deprecated)"
-            },
             "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/1XX/hasNoOfInstrumentsOrVoicesOfInstrumentVoiceConductorOtherPerformerOrDeviceInCodedDataFieldMediumOfPerformanceArrangedCompositionNotApplicable.en",
             "name": "hasNoOfInstrumentsOrVoicesOfInstrumentVoiceConductorOtherPerformerOrDeviceInCodedDataFieldMediumOfPerformanceArrangedCompositionNotApplicable",
-            "status": {
-                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
-                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
-                "url": "http://metadataregistry.org/concept/show/id/419.html",
-                "label": "Deprecated"
-            },
             "url": "http://metadataregistry.org/schemaprop/show/id/22596.html"
         },
         {
@@ -10259,17 +9971,8 @@
                 "url": "http://metadataregistry.org/schema/show/id/127.html",
                 "label": "UNIMARC/B elements 1XX"
             },
-            "label": {
-                "en": "has Type of instrument or voice of Instrument/voice, conductor, other performer or device in Coded data field: medium of performance (Arranged composition) (Not applicable) (deprecated)"
-            },
             "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/1XX/hasTypeOfInstrumentOrVoiceOfInstrumentVoiceConductorOtherPerformerOrDeviceInCodedDataFieldMediumOfPerformanceArrangedCompositionNotApplicable.en",
             "name": "hasTypeOfInstrumentOrVoiceOfInstrumentVoiceConductorOtherPerformerOrDeviceInCodedDataFieldMediumOfPerformanceArrangedCompositionNotApplicable",
-            "status": {
-                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
-                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
-                "url": "http://metadataregistry.org/concept/show/id/419.html",
-                "label": "Deprecated"
-            },
             "url": "http://metadataregistry.org/schemaprop/show/id/22597.html"
         },
         {
@@ -10280,17 +9983,8 @@
                 "url": "http://metadataregistry.org/schema/show/id/127.html",
                 "label": "UNIMARC/B elements 1XX"
             },
-            "label": {
-                "en": "has Suffix of Instrument/voice, conductor, other performer or device in Coded data field: medium of performance (Arranged composition) (Not applicable) (deprecated)"
-            },
             "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/1XX/hasSuffixOfInstrumentVoiceConductorOtherPerformerOrDeviceInCodedDataFieldMediumOfPerformanceArrangedCompositionNotApplicable.en",
             "name": "hasSuffixOfInstrumentVoiceConductorOtherPerformerOrDeviceInCodedDataFieldMediumOfPerformanceArrangedCompositionNotApplicable",
-            "status": {
-                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
-                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
-                "url": "http://metadataregistry.org/concept/show/id/419.html",
-                "label": "Deprecated"
-            },
             "url": "http://metadataregistry.org/schemaprop/show/id/22598.html"
         },
         {
@@ -10301,17 +9995,8 @@
                 "url": "http://metadataregistry.org/schema/show/id/127.html",
                 "label": "UNIMARC/B elements 1XX"
             },
-            "label": {
-                "en": "has No. of instruments or voices of Type of ensemble in Coded data field: medium of performance (Arranged composition) (Not applicable) (deprecated)"
-            },
             "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/1XX/hasNoOfInstrumentsOrVoicesOfTypeOfEnsembleInCodedDataFieldMediumOfPerformanceArrangedCompositionNotApplicable.en",
             "name": "hasNoOfInstrumentsOrVoicesOfTypeOfEnsembleInCodedDataFieldMediumOfPerformanceArrangedCompositionNotApplicable",
-            "status": {
-                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
-                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
-                "url": "http://metadataregistry.org/concept/show/id/419.html",
-                "label": "Deprecated"
-            },
             "url": "http://metadataregistry.org/schemaprop/show/id/22599.html"
         },
         {
@@ -10322,17 +10007,8 @@
                 "url": "http://metadataregistry.org/schema/show/id/127.html",
                 "label": "UNIMARC/B elements 1XX"
             },
-            "label": {
-                "en": "has Type of instrument or voice of Type of ensemble in Coded data field: medium of performance (Arranged composition) (Not applicable) (deprecated)"
-            },
             "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/1XX/hasTypeOfInstrumentOrVoiceOfTypeOfEnsembleInCodedDataFieldMediumOfPerformanceArrangedCompositionNotApplicable.en",
             "name": "hasTypeOfInstrumentOrVoiceOfTypeOfEnsembleInCodedDataFieldMediumOfPerformanceArrangedCompositionNotApplicable",
-            "status": {
-                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
-                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
-                "url": "http://metadataregistry.org/concept/show/id/419.html",
-                "label": "Deprecated"
-            },
             "url": "http://metadataregistry.org/schemaprop/show/id/22600.html"
         },
         {
@@ -10343,17 +10019,8 @@
                 "url": "http://metadataregistry.org/schema/show/id/127.html",
                 "label": "UNIMARC/B elements 1XX"
             },
-            "label": {
-                "en": "has Suffix of Type of ensemble in Coded data field: medium of performance (Arranged composition) (Not applicable) (deprecated)"
-            },
             "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/1XX/hasSuffixOfTypeOfEnsembleInCodedDataFieldMediumOfPerformanceArrangedCompositionNotApplicable.en",
             "name": "hasSuffixOfTypeOfEnsembleInCodedDataFieldMediumOfPerformanceArrangedCompositionNotApplicable",
-            "status": {
-                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
-                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
-                "url": "http://metadataregistry.org/concept/show/id/419.html",
-                "label": "Deprecated"
-            },
             "url": "http://metadataregistry.org/schemaprop/show/id/22601.html"
         },
         {
@@ -10364,17 +10031,8 @@
                 "url": "http://metadataregistry.org/schema/show/id/127.html",
                 "label": "UNIMARC/B elements 1XX"
             },
-            "label": {
-                "en": "has No. of real parts of ensemble of Group within larger ensemble in Coded data field: medium of performance (Arranged composition) (Not applicable) (deprecated)"
-            },
             "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/1XX/hasNoOfRealPartsOfEnsembleOfGroupWithinLargerEnsembleInCodedDataFieldMediumOfPerformanceArrangedCompositionNotApplicable.en",
             "name": "hasNoOfRealPartsOfEnsembleOfGroupWithinLargerEnsembleInCodedDataFieldMediumOfPerformanceArrangedCompositionNotApplicable",
-            "status": {
-                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
-                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
-                "url": "http://metadataregistry.org/concept/show/id/419.html",
-                "label": "Deprecated"
-            },
             "url": "http://metadataregistry.org/schemaprop/show/id/22602.html"
         },
         {
@@ -10385,17 +10043,8 @@
                 "url": "http://metadataregistry.org/schema/show/id/127.html",
                 "label": "UNIMARC/B elements 1XX"
             },
-            "label": {
-                "en": "has Type of ensemble of Group within larger ensemble in Coded data field: medium of performance (Arranged composition) (Not applicable) (deprecated)"
-            },
             "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/1XX/hasTypeOfEnsembleOfGroupWithinLargerEnsembleInCodedDataFieldMediumOfPerformanceArrangedCompositionNotApplicable.en",
             "name": "hasTypeOfEnsembleOfGroupWithinLargerEnsembleInCodedDataFieldMediumOfPerformanceArrangedCompositionNotApplicable",
-            "status": {
-                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
-                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
-                "url": "http://metadataregistry.org/concept/show/id/419.html",
-                "label": "Deprecated"
-            },
             "url": "http://metadataregistry.org/schemaprop/show/id/22603.html"
         },
         {
@@ -10406,17 +10055,8 @@
                 "url": "http://metadataregistry.org/schema/show/id/127.html",
                 "label": "UNIMARC/B elements 1XX"
             },
-            "label": {
-                "en": "has Suffix of Group within larger ensemble in Coded data field: medium of performance (Arranged composition) (Not applicable) (deprecated)"
-            },
             "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/1XX/hasSuffixOfGroupWithinLargerEnsembleInCodedDataFieldMediumOfPerformanceArrangedCompositionNotApplicable.en",
             "name": "hasSuffixOfGroupWithinLargerEnsembleInCodedDataFieldMediumOfPerformanceArrangedCompositionNotApplicable",
-            "status": {
-                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
-                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
-                "url": "http://metadataregistry.org/concept/show/id/419.html",
-                "label": "Deprecated"
-            },
             "url": "http://metadataregistry.org/schemaprop/show/id/22604.html"
         },
         {
@@ -10427,17 +10067,8 @@
                 "url": "http://metadataregistry.org/schema/show/id/127.html",
                 "label": "UNIMARC/B elements 1XX"
             },
-            "label": {
-                "en": "has No. of instruments or voices of Number of parts in Coded data field: medium of performance (Arranged composition) (Not applicable) (deprecated)"
-            },
             "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/1XX/hasNoOfInstrumentsOrVoicesOfNumberOfPartsInCodedDataFieldMediumOfPerformanceArrangedCompositionNotApplicable.en",
             "name": "hasNoOfInstrumentsOrVoicesOfNumberOfPartsInCodedDataFieldMediumOfPerformanceArrangedCompositionNotApplicable",
-            "status": {
-                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
-                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
-                "url": "http://metadataregistry.org/concept/show/id/419.html",
-                "label": "Deprecated"
-            },
             "url": "http://metadataregistry.org/schemaprop/show/id/22605.html"
         },
         {
@@ -10448,17 +10079,8 @@
                 "url": "http://metadataregistry.org/schema/show/id/127.html",
                 "label": "UNIMARC/B elements 1XX"
             },
-            "label": {
-                "en": "has Suffix of Number of parts in Coded data field: medium of performance (Arranged composition) (Not applicable) (deprecated)"
-            },
             "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/1XX/hasSuffixOfNumberOfPartsInCodedDataFieldMediumOfPerformanceArrangedCompositionNotApplicable.en",
             "name": "hasSuffixOfNumberOfPartsInCodedDataFieldMediumOfPerformanceArrangedCompositionNotApplicable",
-            "status": {
-                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
-                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
-                "url": "http://metadataregistry.org/concept/show/id/419.html",
-                "label": "Deprecated"
-            },
             "url": "http://metadataregistry.org/schemaprop/show/id/22606.html"
         },
         {
@@ -10469,17 +10091,8 @@
                 "url": "http://metadataregistry.org/schema/show/id/127.html",
                 "label": "UNIMARC/B elements 1XX"
             },
-            "label": {
-                "en": "has No. of instruments or voices of Number of players in Coded data field: medium of performance (Arranged composition) (Not applicable) (deprecated)"
-            },
             "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/1XX/hasNoOfInstrumentsOrVoicesOfNumberOfPlayersInCodedDataFieldMediumOfPerformanceArrangedCompositionNotApplicable.en",
             "name": "hasNoOfInstrumentsOrVoicesOfNumberOfPlayersInCodedDataFieldMediumOfPerformanceArrangedCompositionNotApplicable",
-            "status": {
-                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
-                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
-                "url": "http://metadataregistry.org/concept/show/id/419.html",
-                "label": "Deprecated"
-            },
             "url": "http://metadataregistry.org/schemaprop/show/id/22607.html"
         },
         {
@@ -10490,17 +10103,8 @@
                 "url": "http://metadataregistry.org/schema/show/id/127.html",
                 "label": "UNIMARC/B elements 1XX"
             },
-            "label": {
-                "en": "has Suffix of Number of players in Coded data field: medium of performance (Arranged composition) (Not applicable) (deprecated)"
-            },
             "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/1XX/hasSuffixOfNumberOfPlayersInCodedDataFieldMediumOfPerformanceArrangedCompositionNotApplicable.en",
             "name": "hasSuffixOfNumberOfPlayersInCodedDataFieldMediumOfPerformanceArrangedCompositionNotApplicable",
-            "status": {
-                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
-                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
-                "url": "http://metadataregistry.org/concept/show/id/419.html",
-                "label": "Deprecated"
-            },
             "url": "http://metadataregistry.org/schemaprop/show/id/22608.html"
         },
         {
@@ -10516,17 +10120,8 @@
                 "url": "http://metadataregistry.org/schema/show/id/127.html",
                 "label": "UNIMARC/B elements 1XX"
             },
-            "label": {
-                "en": "has Type of performance medium in Coded data field: medium of performance (Arranged composition) (Alternative medium of performance) (deprecated)"
-            },
             "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/1XX/hasTypeOfPerformanceMediumInCodedDataFieldMediumOfPerformanceArrangedCompositionAlternativeMediumOfPerformance.en",
             "name": "hasTypeOfPerformanceMediumInCodedDataFieldMediumOfPerformanceArrangedCompositionAlternativeMediumOfPerformance",
-            "status": {
-                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
-                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
-                "url": "http://metadataregistry.org/concept/show/id/419.html",
-                "label": "Deprecated"
-            },
             "url": "http://metadataregistry.org/schemaprop/show/id/22291.html"
         },
         {
@@ -10537,17 +10132,8 @@
                 "url": "http://metadataregistry.org/schema/show/id/127.html",
                 "label": "UNIMARC/B elements 1XX"
             },
-            "label": {
-                "en": "has No. of instruments or voices of Instrument/voice, conductor, other performer or device in Coded data field: medium of performance (Arranged composition) (Alternative medium of performance) (deprecated)"
-            },
             "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/1XX/hasNoOfInstrumentsOrVoicesOfInstrumentVoiceConductorOtherPerformerOrDeviceInCodedDataFieldMediumOfPerformanceArrangedCompositionAlternativeMediumOfPerformance.en",
             "name": "hasNoOfInstrumentsOrVoicesOfInstrumentVoiceConductorOtherPerformerOrDeviceInCodedDataFieldMediumOfPerformanceArrangedCompositionAlternativeMediumOfPerformance",
-            "status": {
-                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
-                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
-                "url": "http://metadataregistry.org/concept/show/id/419.html",
-                "label": "Deprecated"
-            },
             "url": "http://metadataregistry.org/schemaprop/show/id/22609.html"
         },
         {
@@ -10558,17 +10144,8 @@
                 "url": "http://metadataregistry.org/schema/show/id/127.html",
                 "label": "UNIMARC/B elements 1XX"
             },
-            "label": {
-                "en": "has Type of instrument or voice of Instrument/voice, conductor, other performer or device in Coded data field: medium of performance (Arranged composition) (Alternative medium of performance) (deprecated)"
-            },
             "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/1XX/hasTypeOfInstrumentOrVoiceOfInstrumentVoiceConductorOtherPerformerOrDeviceInCodedDataFieldMediumOfPerformanceArrangedCompositionAlternativeMediumOfPerformance.en",
             "name": "hasTypeOfInstrumentOrVoiceOfInstrumentVoiceConductorOtherPerformerOrDeviceInCodedDataFieldMediumOfPerformanceArrangedCompositionAlternativeMediumOfPerformance",
-            "status": {
-                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
-                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
-                "url": "http://metadataregistry.org/concept/show/id/419.html",
-                "label": "Deprecated"
-            },
             "url": "http://metadataregistry.org/schemaprop/show/id/22610.html"
         },
         {
@@ -10579,17 +10156,8 @@
                 "url": "http://metadataregistry.org/schema/show/id/127.html",
                 "label": "UNIMARC/B elements 1XX"
             },
-            "label": {
-                "en": "has Suffix of Instrument/voice, conductor, other performer or device in Coded data field: medium of performance (Arranged composition) (Alternative medium of performance) (deprecated)"
-            },
             "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/1XX/hasSuffixOfInstrumentVoiceConductorOtherPerformerOrDeviceInCodedDataFieldMediumOfPerformanceArrangedCompositionAlternativeMediumOfPerformance.en",
             "name": "hasSuffixOfInstrumentVoiceConductorOtherPerformerOrDeviceInCodedDataFieldMediumOfPerformanceArrangedCompositionAlternativeMediumOfPerformance",
-            "status": {
-                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
-                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
-                "url": "http://metadataregistry.org/concept/show/id/419.html",
-                "label": "Deprecated"
-            },
             "url": "http://metadataregistry.org/schemaprop/show/id/22611.html"
         },
         {
@@ -10600,17 +10168,8 @@
                 "url": "http://metadataregistry.org/schema/show/id/127.html",
                 "label": "UNIMARC/B elements 1XX"
             },
-            "label": {
-                "en": "has No. of instruments or voices of Type of ensemble in Coded data field: medium of performance (Arranged composition) (Alternative medium of performance) (deprecated)"
-            },
             "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/1XX/hasNoOfInstrumentsOrVoicesOfTypeOfEnsembleInCodedDataFieldMediumOfPerformanceArrangedCompositionAlternativeMediumOfPerformance.en",
             "name": "hasNoOfInstrumentsOrVoicesOfTypeOfEnsembleInCodedDataFieldMediumOfPerformanceArrangedCompositionAlternativeMediumOfPerformance",
-            "status": {
-                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
-                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
-                "url": "http://metadataregistry.org/concept/show/id/419.html",
-                "label": "Deprecated"
-            },
             "url": "http://metadataregistry.org/schemaprop/show/id/22612.html"
         },
         {
@@ -10621,17 +10180,8 @@
                 "url": "http://metadataregistry.org/schema/show/id/127.html",
                 "label": "UNIMARC/B elements 1XX"
             },
-            "label": {
-                "en": "has Type of instrument or voice of Type of ensemble in Coded data field: medium of performance (Arranged composition) (Alternative medium of performance) (deprecated)"
-            },
             "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/1XX/hasTypeOfInstrumentOrVoiceOfTypeOfEnsembleInCodedDataFieldMediumOfPerformanceArrangedCompositionAlternativeMediumOfPerformance.en",
             "name": "hasTypeOfInstrumentOrVoiceOfTypeOfEnsembleInCodedDataFieldMediumOfPerformanceArrangedCompositionAlternativeMediumOfPerformance",
-            "status": {
-                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
-                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
-                "url": "http://metadataregistry.org/concept/show/id/419.html",
-                "label": "Deprecated"
-            },
             "url": "http://metadataregistry.org/schemaprop/show/id/22613.html"
         },
         {
@@ -10642,17 +10192,8 @@
                 "url": "http://metadataregistry.org/schema/show/id/127.html",
                 "label": "UNIMARC/B elements 1XX"
             },
-            "label": {
-                "en": "has Suffix of Type of ensemble in Coded data field: medium of performance (Arranged composition) (Alternative medium of performance) (deprecated)"
-            },
             "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/1XX/hasSuffixOfTypeOfEnsembleInCodedDataFieldMediumOfPerformanceArrangedCompositionAlternativeMediumOfPerformance.en",
             "name": "hasSuffixOfTypeOfEnsembleInCodedDataFieldMediumOfPerformanceArrangedCompositionAlternativeMediumOfPerformance",
-            "status": {
-                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
-                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
-                "url": "http://metadataregistry.org/concept/show/id/419.html",
-                "label": "Deprecated"
-            },
             "url": "http://metadataregistry.org/schemaprop/show/id/22614.html"
         },
         {
@@ -10663,17 +10204,8 @@
                 "url": "http://metadataregistry.org/schema/show/id/127.html",
                 "label": "UNIMARC/B elements 1XX"
             },
-            "label": {
-                "en": "has No. of real parts of ensemble of Group within larger ensemble in Coded data field: medium of performance (Arranged composition) (Alternative medium of performance) (deprecated)"
-            },
             "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/1XX/hasNoOfRealPartsOfEnsembleOfGroupWithinLargerEnsembleInCodedDataFieldMediumOfPerformanceArrangedCompositionAlternativeMediumOfPerformance.en",
             "name": "hasNoOfRealPartsOfEnsembleOfGroupWithinLargerEnsembleInCodedDataFieldMediumOfPerformanceArrangedCompositionAlternativeMediumOfPerformance",
-            "status": {
-                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
-                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
-                "url": "http://metadataregistry.org/concept/show/id/419.html",
-                "label": "Deprecated"
-            },
             "url": "http://metadataregistry.org/schemaprop/show/id/22615.html"
         },
         {
@@ -10684,17 +10216,8 @@
                 "url": "http://metadataregistry.org/schema/show/id/127.html",
                 "label": "UNIMARC/B elements 1XX"
             },
-            "label": {
-                "en": "has Type of ensemble of Group within larger ensemble in Coded data field: medium of performance (Arranged composition) (Alternative medium of performance) (deprecated)"
-            },
             "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/1XX/hasTypeOfEnsembleOfGroupWithinLargerEnsembleInCodedDataFieldMediumOfPerformanceArrangedCompositionAlternativeMediumOfPerformance.en",
             "name": "hasTypeOfEnsembleOfGroupWithinLargerEnsembleInCodedDataFieldMediumOfPerformanceArrangedCompositionAlternativeMediumOfPerformance",
-            "status": {
-                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
-                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
-                "url": "http://metadataregistry.org/concept/show/id/419.html",
-                "label": "Deprecated"
-            },
             "url": "http://metadataregistry.org/schemaprop/show/id/22616.html"
         },
         {
@@ -10705,17 +10228,8 @@
                 "url": "http://metadataregistry.org/schema/show/id/127.html",
                 "label": "UNIMARC/B elements 1XX"
             },
-            "label": {
-                "en": "has Suffix of Group within larger ensemble in Coded data field: medium of performance (Arranged composition) (Alternative medium of performance) (deprecated)"
-            },
             "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/1XX/hasSuffixOfGroupWithinLargerEnsembleInCodedDataFieldMediumOfPerformanceArrangedCompositionAlternativeMediumOfPerformance.en",
             "name": "hasSuffixOfGroupWithinLargerEnsembleInCodedDataFieldMediumOfPerformanceArrangedCompositionAlternativeMediumOfPerformance",
-            "status": {
-                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
-                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
-                "url": "http://metadataregistry.org/concept/show/id/419.html",
-                "label": "Deprecated"
-            },
             "url": "http://metadataregistry.org/schemaprop/show/id/22617.html"
         },
         {
@@ -10726,17 +10240,8 @@
                 "url": "http://metadataregistry.org/schema/show/id/127.html",
                 "label": "UNIMARC/B elements 1XX"
             },
-            "label": {
-                "en": "has No. of instruments or voices of Number of parts in Coded data field: medium of performance (Arranged composition) (Alternative medium of performance) (deprecated)"
-            },
             "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/1XX/hasNoOfInstrumentsOrVoicesOfNumberOfPartsInCodedDataFieldMediumOfPerformanceArrangedCompositionAlternativeMediumOfPerformance.en",
             "name": "hasNoOfInstrumentsOrVoicesOfNumberOfPartsInCodedDataFieldMediumOfPerformanceArrangedCompositionAlternativeMediumOfPerformance",
-            "status": {
-                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
-                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
-                "url": "http://metadataregistry.org/concept/show/id/419.html",
-                "label": "Deprecated"
-            },
             "url": "http://metadataregistry.org/schemaprop/show/id/22618.html"
         },
         {
@@ -10747,17 +10252,8 @@
                 "url": "http://metadataregistry.org/schema/show/id/127.html",
                 "label": "UNIMARC/B elements 1XX"
             },
-            "label": {
-                "en": "has Suffix of Number of parts in Coded data field: medium of performance (Arranged composition) (Alternative medium of performance) (deprecated)"
-            },
             "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/1XX/hasSuffixOfNumberOfPartsInCodedDataFieldMediumOfPerformanceArrangedCompositionAlternativeMediumOfPerformance.en",
             "name": "hasSuffixOfNumberOfPartsInCodedDataFieldMediumOfPerformanceArrangedCompositionAlternativeMediumOfPerformance",
-            "status": {
-                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
-                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
-                "url": "http://metadataregistry.org/concept/show/id/419.html",
-                "label": "Deprecated"
-            },
             "url": "http://metadataregistry.org/schemaprop/show/id/22619.html"
         },
         {
@@ -10768,17 +10264,8 @@
                 "url": "http://metadataregistry.org/schema/show/id/127.html",
                 "label": "UNIMARC/B elements 1XX"
             },
-            "label": {
-                "en": "has No. of instruments or voices of Number of players in Coded data field: medium of performance (Arranged composition) (Alternative medium of performance) (deprecated)"
-            },
             "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/1XX/hasNoOfInstrumentsOrVoicesOfNumberOfPlayersInCodedDataFieldMediumOfPerformanceArrangedCompositionAlternativeMediumOfPerformance.en",
             "name": "hasNoOfInstrumentsOrVoicesOfNumberOfPlayersInCodedDataFieldMediumOfPerformanceArrangedCompositionAlternativeMediumOfPerformance",
-            "status": {
-                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
-                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
-                "url": "http://metadataregistry.org/concept/show/id/419.html",
-                "label": "Deprecated"
-            },
             "url": "http://metadataregistry.org/schemaprop/show/id/22620.html"
         },
         {
@@ -10789,17 +10276,8 @@
                 "url": "http://metadataregistry.org/schema/show/id/127.html",
                 "label": "UNIMARC/B elements 1XX"
             },
-            "label": {
-                "en": "has Suffix of Number of players in Coded data field: medium of performance (Arranged composition) (Alternative medium of performance) (deprecated)"
-            },
             "lexicalAlias": "http://iflastandards.info/ns/unimarc/unimarcb/elements/1XX/hasSuffixOfNumberOfPlayersInCodedDataFieldMediumOfPerformanceArrangedCompositionAlternativeMediumOfPerformance.en",
             "name": "hasSuffixOfNumberOfPlayersInCodedDataFieldMediumOfPerformanceArrangedCompositionAlternativeMediumOfPerformance",
-            "status": {
-                "@id": "http://metadataregistry.org/uri/RegStatus/1008",
-                "lexicalAlias": "http://metadataregistry.org/uri/RegStatus/Deprecated.en",
-                "url": "http://metadataregistry.org/concept/show/id/419.html",
-                "label": "Deprecated"
-            },
             "url": "http://metadataregistry.org/schemaprop/show/id/22621.html"
         },
         {

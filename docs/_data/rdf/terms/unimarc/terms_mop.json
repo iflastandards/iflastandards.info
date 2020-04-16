@@ -101,7 +101,7 @@
                     "version": "Release 1"
                 }
             ],
-            "dateOfPublication": "January 31, 2020"
+            "dateOfPublication": "April 16, 2020"
         },
         {
             "@id": "http://iflastandards.info/ns/unimarc/terms/mop/b",
@@ -222,7 +222,6 @@
                 "en": "bombardon",
                 "de": "Bombardon",
                 "fr": "bombardone",
-                "pt": "bombardino (deprecated)",
                 "es": "bombardón"
             },
             "status": "Published"
@@ -1806,7 +1805,6 @@
                 "en": "lyricon",
                 "de": "Blaswandler",
                 "it": "liricon",
-                "fr": "ondes Martenot (deprecated)",
                 "pt": "lyricon"
             },
             "status": "Published"
@@ -6374,8 +6372,7 @@
                 "de": "Xylophon",
                 "it": "xilofono",
                 "fr": "xylophone",
-                "pt": "xilofone",
-                "es": "zarb (deprecated)"
+                "pt": "xilofone"
             },
             "status": "Published"
         },

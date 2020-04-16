@@ -23,25 +23,10 @@
                 {
                     "code": "en",
                     "lang": "English",
-                    "version": "UNIMARC 1.0"
+                    "version": "Release 1"
                 }
             ],
-            "dateOfPublication": "January 31, 2020"
-        },
-        {
-            "@id": "http://iflastandards.info/ns/unimarc/terms/tac/#k",
-            "@type": "Concept",
-            "api": "http://api.metadataregistry.org/concepts/6345",
-            "inScheme": "http://iflastandards.info/ns/unimarc/terms/tac#",
-            "notation": {
-                "en": "k"
-            },
-            "prefLabel": {
-                "en": "adult, serious",
-                "it": "adulti, serio",
-                "pt": "adulto, público especializado"
-            },
-            "status": "Published"
+            "dateOfPublication": "April 16, 2020"
         },
         {
             "@id": "http://iflastandards.info/ns/unimarc/terms/tac#a",
@@ -115,6 +100,21 @@
                 "en": "young adult, ages 14-20",
                 "it": "adolescente (14-20 anni)",
                 "pt": "jovem adulto, idades 14-20"
+            },
+            "status": "Published"
+        },
+        {
+            "@id": "http://iflastandards.info/ns/unimarc/terms/tac#k",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/6345",
+            "inScheme": "http://iflastandards.info/ns/unimarc/terms/tac#",
+            "notation": {
+                "en": "k"
+            },
+            "prefLabel": {
+                "en": "adult, serious",
+                "it": "adulti, serio",
+                "pt": "adulto, público especializado"
             },
             "status": "Published"
         },
