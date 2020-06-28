@@ -1,12 +1,9 @@
 ---
-title: UNIMARC Introduction
-permalink: unimarc.html
-layout: index
+title: News
+layout: home
 ---
 
-## News
-
-There is no News.
+Alas, there is no News.
 
 There once was a time when the phrase "No news is good news!" might possibly have been true.
 
