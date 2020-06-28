@@ -29,7 +29,7 @@
             "dateOfPublication": "April 16, 2020"
         },
         {
-            "@id": "http://iflastandards.info/ns/unimarc/terms/soundgrw#a ",
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundgrw#a",
             "@type": "Concept",
             "api": "http://api.metadataregistry.org/concepts/7539",
             "definition": {
@@ -45,7 +45,7 @@
             "status": "Published"
         },
         {
-            "@id": "http://iflastandards.info/ns/unimarc/terms/soundgrw#b ",
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundgrw#b",
             "@type": "Concept",
             "api": "http://api.metadataregistry.org/concepts/7540",
             "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundgrw#",
@@ -58,7 +58,7 @@
             "status": "Published"
         },
         {
-            "@id": "http://iflastandards.info/ns/unimarc/terms/soundgrw#u ",
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundgrw#u",
             "@type": "Concept",
             "api": "http://api.metadataregistry.org/concepts/7541",
             "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundgrw#",
@@ -71,7 +71,7 @@
             "status": "Published"
         },
         {
-            "@id": "http://iflastandards.info/ns/unimarc/terms/soundgrw#x ",
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundgrw#x",
             "@type": "Concept",
             "api": "http://api.metadataregistry.org/concepts/7542",
             "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundgrw#",
@@ -84,7 +84,7 @@
             "status": "Published"
         },
         {
-            "@id": "http://iflastandards.info/ns/unimarc/terms/soundgrw#z ",
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundgrw#z",
             "@type": "Concept",
             "api": "http://api.metadataregistry.org/concepts/7543",
             "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundgrw#",

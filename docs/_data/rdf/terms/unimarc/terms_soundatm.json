@@ -42,7 +42,7 @@
             "status": "Published"
         },
         {
-            "@id": "http://iflastandards.info/ns/unimarc/terms/soundatm#b ",
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundatm#b",
             "@type": "Concept",
             "api": "http://api.metadataregistry.org/concepts/7523",
             "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundatm#",
@@ -55,7 +55,7 @@
             "status": "Published"
         },
         {
-            "@id": "http://iflastandards.info/ns/unimarc/terms/soundatm#c ",
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundatm#c",
             "@type": "Concept",
             "api": "http://api.metadataregistry.org/concepts/7524",
             "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundatm#",
@@ -68,7 +68,7 @@
             "status": "Published"
         },
         {
-            "@id": "http://iflastandards.info/ns/unimarc/terms/soundatm#d ",
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundatm#d",
             "@type": "Concept",
             "api": "http://api.metadataregistry.org/concepts/7525",
             "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundatm#",
@@ -81,7 +81,7 @@
             "status": "Published"
         },
         {
-            "@id": "http://iflastandards.info/ns/unimarc/terms/soundatm#e ",
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundatm#e",
             "@type": "Concept",
             "api": "http://api.metadataregistry.org/concepts/7526",
             "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundatm#",
@@ -94,7 +94,7 @@
             "status": "Published"
         },
         {
-            "@id": "http://iflastandards.info/ns/unimarc/terms/soundatm#f ",
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundatm#f",
             "@type": "Concept",
             "api": "http://api.metadataregistry.org/concepts/7527",
             "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundatm#",
@@ -107,7 +107,7 @@
             "status": "Published"
         },
         {
-            "@id": "http://iflastandards.info/ns/unimarc/terms/soundatm#g ",
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundatm#g",
             "@type": "Concept",
             "api": "http://api.metadataregistry.org/concepts/7528",
             "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundatm#",
@@ -120,7 +120,7 @@
             "status": "Published"
         },
         {
-            "@id": "http://iflastandards.info/ns/unimarc/terms/soundatm#h ",
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundatm#h",
             "@type": "Concept",
             "api": "http://api.metadataregistry.org/concepts/7529",
             "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundatm#",
@@ -133,7 +133,7 @@
             "status": "Published"
         },
         {
-            "@id": "http://iflastandards.info/ns/unimarc/terms/soundatm#i ",
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundatm#i",
             "@type": "Concept",
             "api": "http://api.metadataregistry.org/concepts/7530",
             "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundatm#",
@@ -146,7 +146,7 @@
             "status": "Published"
         },
         {
-            "@id": "http://iflastandards.info/ns/unimarc/terms/soundatm#j ",
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundatm#j",
             "@type": "Concept",
             "api": "http://api.metadataregistry.org/concepts/7531",
             "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundatm#",
@@ -159,7 +159,7 @@
             "status": "Published"
         },
         {
-            "@id": "http://iflastandards.info/ns/unimarc/terms/soundatm#k ",
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundatm#k",
             "@type": "Concept",
             "api": "http://api.metadataregistry.org/concepts/7532",
             "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundatm#",
@@ -172,7 +172,7 @@
             "status": "Published"
         },
         {
-            "@id": "http://iflastandards.info/ns/unimarc/terms/soundatm#l ",
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundatm#l",
             "@type": "Concept",
             "api": "http://api.metadataregistry.org/concepts/7533",
             "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundatm#",
@@ -185,7 +185,7 @@
             "status": "Published"
         },
         {
-            "@id": "http://iflastandards.info/ns/unimarc/terms/soundatm#r ",
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundatm#r",
             "@type": "Concept",
             "api": "http://api.metadataregistry.org/concepts/7534",
             "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundatm#",
@@ -198,7 +198,7 @@
             "status": "Published"
         },
         {
-            "@id": "http://iflastandards.info/ns/unimarc/terms/soundatm#s ",
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundatm#s",
             "@type": "Concept",
             "api": "http://api.metadataregistry.org/concepts/7535",
             "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundatm#",
@@ -211,7 +211,7 @@
             "status": "Published"
         },
         {
-            "@id": "http://iflastandards.info/ns/unimarc/terms/soundatm#z ",
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundatm#z",
             "@type": "Concept",
             "api": "http://api.metadataregistry.org/concepts/7536",
             "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundatm#",

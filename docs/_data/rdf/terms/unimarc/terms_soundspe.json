@@ -29,7 +29,7 @@
             "dateOfPublication": "April 16, 2020"
         },
         {
-            "@id": "http://iflastandards.info/ns/unimarc/terms/soundspe#a ",
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundspe#a",
             "@type": "Concept",
             "api": "http://api.metadataregistry.org/concepts/7572",
             "definition": {
@@ -45,7 +45,7 @@
             "status": "Published"
         },
         {
-            "@id": "http://iflastandards.info/ns/unimarc/terms/soundspe#b ",
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundspe#b",
             "@type": "Concept",
             "api": "http://api.metadataregistry.org/concepts/7573",
             "definition": {
@@ -61,7 +61,7 @@
             "status": "Published"
         },
         {
-            "@id": "http://iflastandards.info/ns/unimarc/terms/soundspe#c ",
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundspe#c",
             "@type": "Concept",
             "api": "http://api.metadataregistry.org/concepts/7574",
             "definition": {
@@ -77,7 +77,7 @@
             "status": "Published"
         },
         {
-            "@id": "http://iflastandards.info/ns/unimarc/terms/soundspe#d ",
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundspe#d",
             "@type": "Concept",
             "api": "http://api.metadataregistry.org/concepts/7575",
             "definition": {
@@ -93,7 +93,7 @@
             "status": "Published"
         },
         {
-            "@id": "http://iflastandards.info/ns/unimarc/terms/soundspe#e ",
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundspe#e",
             "@type": "Concept",
             "api": "http://api.metadataregistry.org/concepts/7576",
             "definition": {
@@ -109,7 +109,7 @@
             "status": "Published"
         },
         {
-            "@id": "http://iflastandards.info/ns/unimarc/terms/soundspe#g ",
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundspe#g",
             "@type": "Concept",
             "api": "http://api.metadataregistry.org/concepts/7577",
             "definition": {
@@ -125,7 +125,7 @@
             "status": "Published"
         },
         {
-            "@id": "http://iflastandards.info/ns/unimarc/terms/soundspe#h ",
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundspe#h",
             "@type": "Concept",
             "api": "http://api.metadataregistry.org/concepts/7578",
             "definition": {
@@ -141,7 +141,7 @@
             "status": "Published"
         },
         {
-            "@id": "http://iflastandards.info/ns/unimarc/terms/soundspe#i ",
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundspe#i",
             "@type": "Concept",
             "api": "http://api.metadataregistry.org/concepts/7579",
             "definition": {
@@ -157,7 +157,7 @@
             "status": "Published"
         },
         {
-            "@id": "http://iflastandards.info/ns/unimarc/terms/soundspe#k ",
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundspe#k",
             "@type": "Concept",
             "api": "http://api.metadataregistry.org/concepts/7580",
             "definition": {
@@ -173,7 +173,7 @@
             "status": "Published"
         },
         {
-            "@id": "http://iflastandards.info/ns/unimarc/terms/soundspe#l ",
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundspe#l",
             "@type": "Concept",
             "api": "http://api.metadataregistry.org/concepts/7581",
             "definition": {
@@ -189,7 +189,7 @@
             "status": "Published"
         },
         {
-            "@id": "http://iflastandards.info/ns/unimarc/terms/soundspe#m ",
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundspe#m",
             "@type": "Concept",
             "api": "http://api.metadataregistry.org/concepts/7582",
             "definition": {
@@ -205,7 +205,7 @@
             "status": "Published"
         },
         {
-            "@id": "http://iflastandards.info/ns/unimarc/terms/soundspe#n ",
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundspe#n",
             "@type": "Concept",
             "api": "http://api.metadataregistry.org/concepts/7583",
             "definition": {
@@ -221,7 +221,7 @@
             "status": "Published"
         },
         {
-            "@id": "http://iflastandards.info/ns/unimarc/terms/soundspe#o ",
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundspe#o",
             "@type": "Concept",
             "api": "http://api.metadataregistry.org/concepts/7584",
             "definition": {
@@ -237,7 +237,7 @@
             "status": "Published"
         },
         {
-            "@id": "http://iflastandards.info/ns/unimarc/terms/soundspe#p ",
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundspe#p",
             "@type": "Concept",
             "api": "http://api.metadataregistry.org/concepts/7585",
             "definition": {
@@ -253,7 +253,7 @@
             "status": "Published"
         },
         {
-            "@id": "http://iflastandards.info/ns/unimarc/terms/soundspe#q ",
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundspe#q",
             "@type": "Concept",
             "api": "http://api.metadataregistry.org/concepts/7586",
             "definition": {
@@ -269,7 +269,7 @@
             "status": "Published"
         },
         {
-            "@id": "http://iflastandards.info/ns/unimarc/terms/soundspe#r ",
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundspe#r",
             "@type": "Concept",
             "api": "http://api.metadataregistry.org/concepts/7587",
             "definition": {
@@ -285,7 +285,7 @@
             "status": "Published"
         },
         {
-            "@id": "http://iflastandards.info/ns/unimarc/terms/soundspe#u ",
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundspe#u",
             "@type": "Concept",
             "api": "http://api.metadataregistry.org/concepts/7569",
             "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundspe#",
@@ -298,7 +298,7 @@
             "status": "Published"
         },
         {
-            "@id": "http://iflastandards.info/ns/unimarc/terms/soundspe#x ",
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundspe#x",
             "@type": "Concept",
             "api": "http://api.metadataregistry.org/concepts/7570",
             "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundspe#",
@@ -311,7 +311,7 @@
             "status": "Published"
         },
         {
-            "@id": "http://iflastandards.info/ns/unimarc/terms/soundspe#z ",
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundspe#z",
             "@type": "Concept",
             "api": "http://api.metadataregistry.org/concepts/7571",
             "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundspe#",

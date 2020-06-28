@@ -29,7 +29,7 @@
             "dateOfPublication": "April 16, 2020"
         },
         {
-            "@id": "http://iflastandards.info/ns/unimarc/terms/soundmod#a ",
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundmod#a",
             "@type": "Concept",
             "api": "http://api.metadataregistry.org/concepts/7544",
             "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundmod#",
@@ -42,7 +42,7 @@
             "status": "Published"
         },
         {
-            "@id": "http://iflastandards.info/ns/unimarc/terms/soundmod#b ",
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundmod#b",
             "@type": "Concept",
             "api": "http://api.metadataregistry.org/concepts/7545",
             "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundmod#",
@@ -55,7 +55,7 @@
             "status": "Published"
         },
         {
-            "@id": "http://iflastandards.info/ns/unimarc/terms/soundmod#c ",
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundmod#c",
             "@type": "Concept",
             "api": "http://api.metadataregistry.org/concepts/7546",
             "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundmod#",
@@ -68,7 +68,7 @@
             "status": "Published"
         },
         {
-            "@id": "http://iflastandards.info/ns/unimarc/terms/soundmod#u ",
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundmod#u",
             "@type": "Concept",
             "api": "http://api.metadataregistry.org/concepts/7547",
             "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundmod#",
@@ -81,7 +81,7 @@
             "status": "Published"
         },
         {
-            "@id": "http://iflastandards.info/ns/unimarc/terms/soundmod#z ",
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundmod#z",
             "@type": "Concept",
             "api": "http://api.metadataregistry.org/concepts/7548",
             "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundmod#",

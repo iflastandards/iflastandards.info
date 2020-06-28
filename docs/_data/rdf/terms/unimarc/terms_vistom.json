@@ -42,7 +42,7 @@
             "status": "Published"
         },
         {
-            "@id": "http://iflastandards.info/ns/unimarc/terms/vistom#b ",
+            "@id": "http://iflastandards.info/ns/unimarc/terms/vistom#b",
             "@type": "Concept",
             "api": "http://api.metadataregistry.org/concepts/7757",
             "inScheme": "http://iflastandards.info/ns/unimarc/terms/vistom#",
@@ -55,7 +55,7 @@
             "status": "Published"
         },
         {
-            "@id": "http://iflastandards.info/ns/unimarc/terms/vistom#c ",
+            "@id": "http://iflastandards.info/ns/unimarc/terms/vistom#c",
             "@type": "Concept",
             "api": "http://api.metadataregistry.org/concepts/7758",
             "inScheme": "http://iflastandards.info/ns/unimarc/terms/vistom#",

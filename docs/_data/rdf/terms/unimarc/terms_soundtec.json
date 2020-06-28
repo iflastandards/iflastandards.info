@@ -29,7 +29,7 @@
             "dateOfPublication": "April 16, 2020"
         },
         {
-            "@id": "http://iflastandards.info/ns/unimarc/terms/soundtec#a ",
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundtec#a",
             "@type": "Concept",
             "api": "http://api.metadataregistry.org/concepts/7517",
             "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundtec#",
@@ -42,7 +42,7 @@
             "status": "Published"
         },
         {
-            "@id": "http://iflastandards.info/ns/unimarc/terms/soundtec#b ",
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundtec#b",
             "@type": "Concept",
             "api": "http://api.metadataregistry.org/concepts/7518",
             "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundtec#",
@@ -55,7 +55,7 @@
             "status": "Published"
         },
         {
-            "@id": "http://iflastandards.info/ns/unimarc/terms/soundtec#c ",
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundtec#c",
             "@type": "Concept",
             "api": "http://api.metadataregistry.org/concepts/7519",
             "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundtec#",
@@ -68,7 +68,7 @@
             "status": "Published"
         },
         {
-            "@id": "http://iflastandards.info/ns/unimarc/terms/soundtec#u ",
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundtec#u",
             "@type": "Concept",
             "api": "http://api.metadataregistry.org/concepts/7520",
             "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundtec#",
@@ -81,7 +81,7 @@
             "status": "Published"
         },
         {
-            "@id": "http://iflastandards.info/ns/unimarc/terms/soundtec#z ",
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundtec#z",
             "@type": "Concept",
             "api": "http://api.metadataregistry.org/concepts/7521",
             "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundtec#",

@@ -29,7 +29,7 @@
             "dateOfPublication": "April 16, 2020"
         },
         {
-            "@id": "http://iflastandards.info/ns/unimarc/terms/soundtaw#a ",
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundtaw#a",
             "@type": "Concept",
             "api": "http://api.metadataregistry.org/concepts/7549",
             "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundtaw#",
@@ -42,7 +42,7 @@
             "status": "Published"
         },
         {
-            "@id": "http://iflastandards.info/ns/unimarc/terms/soundtaw#b ",
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundtaw#b",
             "@type": "Concept",
             "api": "http://api.metadataregistry.org/concepts/7550",
             "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundtaw#",
@@ -55,7 +55,7 @@
             "status": "Published"
         },
         {
-            "@id": "http://iflastandards.info/ns/unimarc/terms/soundtaw#c ",
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundtaw#c",
             "@type": "Concept",
             "api": "http://api.metadataregistry.org/concepts/7551",
             "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundtaw#",
@@ -68,7 +68,7 @@
             "status": "Published"
         },
         {
-            "@id": "http://iflastandards.info/ns/unimarc/terms/soundtaw#d ",
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundtaw#d",
             "@type": "Concept",
             "api": "http://api.metadataregistry.org/concepts/7552",
             "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundtaw#",
@@ -81,7 +81,7 @@
             "status": "Published"
         },
         {
-            "@id": "http://iflastandards.info/ns/unimarc/terms/soundtaw#e ",
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundtaw#e",
             "@type": "Concept",
             "api": "http://api.metadataregistry.org/concepts/7553",
             "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundtaw#",
@@ -94,7 +94,7 @@
             "status": "Published"
         },
         {
-            "@id": "http://iflastandards.info/ns/unimarc/terms/soundtaw#f ",
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundtaw#f",
             "@type": "Concept",
             "api": "http://api.metadataregistry.org/concepts/7554",
             "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundtaw#",
@@ -107,7 +107,7 @@
             "status": "Published"
         },
         {
-            "@id": "http://iflastandards.info/ns/unimarc/terms/soundtaw#u ",
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundtaw#u",
             "@type": "Concept",
             "api": "http://api.metadataregistry.org/concepts/7555",
             "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundtaw#",
@@ -120,7 +120,7 @@
             "status": "Published"
         },
         {
-            "@id": "http://iflastandards.info/ns/unimarc/terms/soundtaw#x ",
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundtaw#x",
             "@type": "Concept",
             "api": "http://api.metadataregistry.org/concepts/7556",
             "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundtaw#",
@@ -133,7 +133,7 @@
             "status": "Published"
         },
         {
-            "@id": "http://iflastandards.info/ns/unimarc/terms/soundtaw#z ",
+            "@id": "http://iflastandards.info/ns/unimarc/terms/soundtaw#z",
             "@type": "Concept",
             "api": "http://api.metadataregistry.org/concepts/7557",
             "inScheme": "http://iflastandards.info/ns/unimarc/terms/soundtaw#",
