@@ -3,14 +3,18 @@ title: News
 layout: home
 ---
 
-Alas, there is no News.
+July 3, 2020
 
-There once was a time when the phrase "No news is good news!" might possibly have been true.
+IFLA’s Committee on Standards and Linked Data Technical Subcommittee (LIDATEC) are pleased to announce the launch of IFLA Namespaces. https://www.iflastandards.info/
 
-Now, it's much more likely that 'No News' simply means that the News hasn't yet been written.
+This site allows for linked data access to various IFLA Standards, including: 
+  •	The FRBR Vocabularies
+  •	The ISBD Vocabularies
+  •	The UNIMARC Vocabularies
+  •	MulDiCat
 
-Which is the case in this instance.
+The next standard to be included will be the LRM (Library Reference Model). 
 
-Wait, here's a teaser...
+If you have any questions or comments, please contact: Joseph Hafner, Chair, LIDATEC (using the submit feedback option above)
 
-IFLA’s Committee on Standards and Linked Data Technical Subcommittee (LIDATEC) are pleased to announce the launch of [IFLA Namespaces](https://www.iflastandards.info/). This site allows for linked data access to various IFLA Standards, including: 
+
