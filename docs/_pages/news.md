@@ -15,6 +15,6 @@ This site allows for linked data access to various IFLA Standards, including:
 
 The next standard to be included will be the LRM (Library Reference Model). 
 
-If you have any questions or comments, please contact: Joseph Hafner, Chair, LIDATEC (using the submit feedback option above)
+If you have any questions or comments, please contact: Joseph Hafner, Chair, LIDATEC (please use the "feedback" option above)
 
 
