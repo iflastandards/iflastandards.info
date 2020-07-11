@@ -18,6 +18,8 @@ topnav_dropdowns:
           url: /fr.html
         - title: The ISBD Vocabularies
           url: /isbd.html
+        - title: The LRM Vocabularies
+          url: /lrm.html
         - title: The UNIMARC Vocabularies
           url: /unimarc.html
         - title: MulDiCat
