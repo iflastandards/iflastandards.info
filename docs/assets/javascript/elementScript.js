@@ -176,7 +176,7 @@ function makeUrl(uri) {
             return '<div class="vurllabel">' + '<a href="' + url + '" title="' + url + '" target=”_blank”>Show/Edit in OMR</div>';
         }
         if (uri.search('#') === -1) {
-            return uri.replace(/^(http:\/\/)(.*)\/(.*)$/ig, "$1www.$2#$3");
+            return uri.replace(/^http:\/\/iflastandards\.info\/ns\/(.*)\/(.*)$/ig, "https://www.iflastandards.info/$1#$2");
         }
         return uri;
     }
