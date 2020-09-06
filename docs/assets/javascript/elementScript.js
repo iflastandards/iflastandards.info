@@ -34,7 +34,7 @@ function format(d) {
     // `d` is the original data object for the row
 
     //TODO: build output and formatting instructions from the context
-    var blacklist = ['toolkitDefinition', 'toolkitLabel', 'label', 'description', 'inScheme', '@id', 'name', 'isDefinedBy', 'status', 'lexicalAlias'];
+    var blacklist = ['toolkitDefinition', 'toolkitLabel', 'label', 'description', 'inScheme', '@id', '@type', 'name', 'isDefinedBy', 'status', 'lexicalAlias'];
     if (typeof d != "undefined") {
         var ownKeys = Object.getOwnPropertyNames(d).sort();
         var property = '';
@@ -378,6 +378,12 @@ function initDatatable(id) {
             },
             {
                 "render": function (data, type, row) {
+                    return row['@type'];
+                },
+                "width": "5%"
+            },
+            {
+                "render": function (data, type, row) {
                     return formatCanon(row);
                 },
                 "width": "5%"
@@ -397,7 +403,8 @@ function initDatatable(id) {
             }
         ],
         "order": [
-            [2, 'asc']
+            [2, 'asc'],
+            [3, 'asc']
         ],
         "lengthMenu": [
             [25, 50, 100, -1],
