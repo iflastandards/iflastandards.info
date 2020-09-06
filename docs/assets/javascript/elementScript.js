@@ -313,7 +313,7 @@ function setSearch(filter) {
     var table = $("table#pindex").DataTable();
     table
         .search('')
-        .column(2).search(filter)
+        .column(3).search(filter)
         .draw();
     $('input[type=search]').val(filter);
 
@@ -486,7 +486,7 @@ function initDatatable(id) {
     });
 
     if (initFilter) {
-        table.column(2).search(initFilter);
+        table.column(3).search(initFilter);
         $("div#pindex_filter input").val(initFilter);
     }
 
