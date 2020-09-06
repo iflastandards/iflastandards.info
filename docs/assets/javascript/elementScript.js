@@ -34,7 +34,7 @@ function format(d) {
     // `d` is the original data object for the row
 
     //TODO: build output and formatting instructions from the context
-    var blacklist = ['toolkitDefinition', 'toolkitLabel', 'label', 'description', 'inScheme', '@type', '@id', 'name', 'isDefinedBy', 'status', 'lexicalAlias'];
+    var blacklist = ['toolkitDefinition', 'toolkitLabel', 'label', 'description', 'inScheme', '@id', 'name', 'isDefinedBy', 'status', 'lexicalAlias'];
     if (typeof d != "undefined") {
         var ownKeys = Object.getOwnPropertyNames(d).sort();
         var property = '';
@@ -330,19 +330,14 @@ window.onhashchange = function () {
 
 $(document).ready(
     function () {
-        if ($("#cindex").length > 0) {
-            initDatatable("#cindex", "Class");
-        }
-        if ($("#pindex").length > 0) {
-            initDatatable("#pindex", "Property");
-        }
+            initDatatable("#pindex");
     });
 
-function initDatatable(id, type) {
+function filterElements(obj) {
+    return obj["@type"] !== "ElementSet";
+}
 
-    function filterClasses(obj) {
-        return obj["@type"] === type;
-    }
+function initDatatable(id) {
 
     var t8lines = 2;
     var dtable = $(id);
@@ -353,9 +348,12 @@ function initDatatable(id, type) {
             cache: true,
             crossDomain: true,
             "dataSrc": function (json) {
-                json.data = json["@graph"].filter(filterClasses);
+                json.data = json["@graph"].filter(filterElements);
                 return json.data;
             }
+        },
+        "rowGroup": {
+            "dataSrc": '@type'
         },
         "columns": [
             {
@@ -408,8 +406,8 @@ function initDatatable(id, type) {
         "deferRender": true
     });
 
-    showButton = '#btn-show-all-' + type + 'children';
-    hideButton = '#btn-hide-all-' + type + 'children';
+    showButton = '#btn-show-all-children';
+    hideButton = '#btn-hide-all-children';
 
     // Handle click on "Expand All" button
     $(showButton).on('click', function () {
