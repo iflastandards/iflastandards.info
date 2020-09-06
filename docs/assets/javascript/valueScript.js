@@ -14,7 +14,7 @@ var alt_atom = document.createElement('link');
 alt_atom.rel = 'alternate';
 alt_atom.type = 'application/atom+xml';
 alt_atom.title = 'Atom';
-alt_atom.href = 'http://metadataregistry.org/history/feed/vocabulary_id/'+regID+'.atom';
+alt_atom.href = 'https://beta.metadataregistry.org/history/feed/vocabulary_id/'+regID+'.atom';
 document.head.appendChild(alt_atom);
 
 function gup(name, url, theDefault) {

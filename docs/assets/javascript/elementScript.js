@@ -14,7 +14,7 @@ var alt_atom = document.createElement('link');
 alt_atom.rel = 'alternate';
 alt_atom.type = 'application/atom+xml';
 alt_atom.title = 'Atom';
-alt_atom.href = 'http://metadataregistry.org/schemahistory/feed/schema_id' + regID + '.atom';
+alt_atom.href = 'https://beta.metadataregistry.org/schemahistory/feed/schema_id/' + regID + '.atom';
 
 document.head.appendChild(alt_atom);
 
