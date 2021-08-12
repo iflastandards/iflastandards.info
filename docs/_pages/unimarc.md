@@ -194,3 +194,5 @@ The form of release of a visual projection or motion picture.
 
 * [Visual projections, etc.: Media for sound]({{"/unimarc/terms/vismfs" | relative_url}})
 The medium used to carry the sound, when sound is present, of a visual projection, videorecording, or motion picture.
+
+Added to this site: July 2020
