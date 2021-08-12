@@ -27,3 +27,5 @@ This page introduces the FRBR Element Sets and Value Vocabularies.
   Based on the current text, Feb 2009.
 
 * [FRSAD User Tasks]({{"/fr/frsad/frsadusertask.html" | relative_url}})
+
+<p><em>Added to this site: July 2020</em></p>
