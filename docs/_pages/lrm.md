@@ -12,3 +12,5 @@ This page introduces the LRM Element Sets.
 
 * [LRMer model]({{"/lrm/lrmer.html" | relative_url}})  
   This is the element set of native RDF classes and properties described in the current text (Aug 2017) of the IFLA Library Reference Model (LRM) entity-relationship model.
+  
+  Added to this site: August 2020
