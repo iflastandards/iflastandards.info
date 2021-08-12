@@ -38,3 +38,6 @@ This page introduces the ISBD Element Sets and Value Vocabularies.
 
 * [ISBD Media Type]({{"/isbd/terms/mediatype.html" | relative_url}})  
   Media type categories record the type or types of carrier used to convey the content of the resource. Categories generally reflect the format of the storage medium and housing of a carrier in combination with the type of intermediation device required to render, view, run, etc., the content of a resource.
+
+
+Added to this site: July 2020
