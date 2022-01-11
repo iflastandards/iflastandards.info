@@ -7,7 +7,11 @@ layout: index
 
 ## Overview
 
-This page introduces the UNIMARC Element Sets and Value Vocabularies.
+UNIMARC Standard
+
+The UNIMARC Bibliographic format is widely used standards for the representation and exchange of bibliographic data in machine-readable form. It defines the codes and conventions (tags, indicators, subfield codes, and coded values) that identify the data elements in UNIMARC bibliographic records.  UNIMARC is maintained by an IFLA committee, the Permanent UNIMARC Committee (PUC). Proposals for change usually originate with those creating UNIMARC records or those using UNIMARC records. Changes are made only through the IFLA Permanent UNIMARC Committee.
+
+
 
 ## UNIMARC Element Sets
 
