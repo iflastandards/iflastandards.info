@@ -18,13 +18,17 @@ Last updated on this site: June 2020
 
 Newer edition to be added to this site in 2022
 
-## More information
-
-More information about [UNIMARC Updates] (https://www.ifla.org/unimarc-updates/)
-
 ## Translations
 
 To be added. For information about translations: https://www.ifla.org/resources/?_sfm_unitid=105100&_sfm_resource_type=All
+
+## License
+
+This standard is freely available in the linked data format. Contact the UNIMARC Committee for more information: https://www.ifla.org/g/unimarc-rg/permanent-unimarc-committee-puc/
+
+## More information
+
+More information about [UNIMARC Updates] (https://www.ifla.org/unimarc-updates/)
 
 ## UNIMARC Element Sets
 
