@@ -7,16 +7,24 @@ layout: index
 
 ## Overview
 
-UNIMARC Standard
+## UNIMARC Standard
 
 The UNIMARC Bibliographic format is a widely used standard for the representation and exchange of bibliographic data in machine-readable form. It defines the codes and conventions (tags, indicators, subfield codes, and coded values) that identify the data elements in UNIMARC bibliographic records.  UNIMARC is maintained by an IFLA committee, the Permanent UNIMARC Committee (PUC). Proposals for change usually originate with those creating UNIMARC records or those using UNIMARC records. Changes are made only through the [IFLA Permanent UNIMARC Committee](https://www.ifla.org/g/unimarc-rg/permanent-unimarc-committee-puc/) 
+
+## Version
 
 The version included here: UNIMARC Bibliographic 3rd edition with updates up to 2016.
 Last updated on this site: June 2020
 
 Newer edition to be added to this site in 2022
 
+## More information
+
 More information about [UNIMARC Updates] (https://www.ifla.org/unimarc-updates/)
+
+## Translations
+
+To be added. For information about translations: https://www.ifla.org/resources/?_sfm_unitid=105100&_sfm_resource_type=All
 
 ## UNIMARC Element Sets
 
