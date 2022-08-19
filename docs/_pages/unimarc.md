@@ -13,7 +13,7 @@ The UNIMARC Bibliographic format is a widely used standard for the representatio
 The version included here: UNIMARC Bibliographic 3rd edition with updates up to 2016.
 Last updated on this site: June 2020
 
-Newer edition to be added to this site in 2022
+Newer edition to be added to this site in 2022 or 2023
 
 More information about [UNIMARC Updates] (https://www.ifla.org/unimarc-updates/)
 
