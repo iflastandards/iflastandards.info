@@ -22,7 +22,7 @@
     "datatables.net-responsive-dt": "^2.2.5",
     "font-awesome": "^4.7.0",
     "jquery": "^3.5.1",
-    "jszip": "^3.5.0",
+    "jszip": "^3.8.0",
     "pdfmake": "^0.1.68",
     "popper.js": "^1.16.1",
     "protip": "^1.4.21"
