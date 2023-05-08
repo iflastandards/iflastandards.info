@@ -5,7 +5,7 @@ layout: index
 
 ## Overview
 
-This page introduces the ISBD.
+This page introduces the ISBD Element Sets and Value Vocabularies.
 
 ## ISBD Element Sets
 
