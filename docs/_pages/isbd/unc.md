@@ -5,17 +5,19 @@ layout: index
 
 ## Overview
 
-This page introduces the FRBR Element Sets and Value Vocabularies.
+This page introduces the ISBD Element Sets and Value Vocabularies.
 
 ## ISBD Element Sets
 
 * [ISBD Elements]({{"/isbd/elements.html" | relative_url}})  
-  This is the element set of native RDF classes and properties described in the Functional Requirements for Authority Data model. The model also uses elements previously described in the Functional Requirements for Bibliographic Records (FRBR) entity-relationship model.
+  The ISBD element set is a registration of classes and properties from International Standard Bibliographic Description (ISBD), consolidated edition, published by De Gruyter Saur in July 2011 (ISBN 978-3-11-026379-4).
 
 * [ISBD Elements (unconstrained)]({{"/isbd/unc/elements.html" | relative_url}})  
-  This is the element set of native RDF classes and properties described in the current text (Feb 2009) of the Functional Requirements for Bibliographic Records (FRBR) entity-relationship model.
-
+  The ISBD element set is a registration of classes and properties from International Standard Bibliographic Description (ISBD), consolidated edition, published by De Gruyter Saur in July 2011 (ISBN 978-3-11-026379-4). This version has the same local URI part, label, and definition as each element in the constrained version, but no domain (i.e. Resource) or range is declared.
+  
 ## ISBD Value Vocabularies
+
+The ISBD element set vocabulary includes RDF classes and properties corresponding to ISBD elements. Six concept vocabularies give the controlled terminologies of the ISBD area 0 content forms, qualifications, and media types. Each class, concept, and property has a Uniform Resource Identifier (URI) for use in Semantic Web data triples.
 
 * [ISBD Content Form]({{"/isbd/terms/contentform.html" | relative_url}})  
   Content form categories reflect the fundamental form or forms in which the content of a resource is expressed.
