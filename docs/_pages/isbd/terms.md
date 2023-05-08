@@ -5,7 +5,7 @@ layout: index
 
 ## Overview
 
-This page introduces the FRBR Element Sets and Value Vocabularies.
+This page introduces the ISBD.
 
 ## ISBD Element Sets
 
