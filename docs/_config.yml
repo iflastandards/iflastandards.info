@@ -32,6 +32,7 @@ exclude:
   - .gitignore
   - Gemfile
   - Gemfile.lock
+  - ISBDM
   - node_modules
   - update_boostrap.sh
   - vendor
