@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="description"
+      content="ISBDM: International Standard Bibliographic Description for Manifestation." />
+    <meta name="author" content="ISBD Manifestation Task Force" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ISBD for Manifestation</title>
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css"
+      rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous" />
+    <link href="/ISBDM/styles/isbdm.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark navISBDMMain fixed-top"
+      aria-label="Navigation for ISBD for Manifestation">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/ISBDM/">ISBD for Manifestation</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarISBDM" aria-controls="navbarISBDM" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarISBDM">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link" href="/ISBDM/docs/intro/">Introduction</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/ISBDM/docs/assess/">Assessment</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/ISBDM/docs/statements/">Statements</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/ISBDM/docs/notes/">Notes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/ISBDM/docs/attributes/">Attributes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="/ISBDM/docs/relationships/" aria-current="page"
+                >Relationships</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/ISBDM/docs/ves/">Values</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/ISBDM/docs/glossary/">Glossary</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/ISBDM/docs/fullex/">Examples</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header class="container">
+      <div>
+        <div class="d-inline-flex flex-wrap"><h1><a href="/ISBDM/" class="linkPathEntry">ISBD for
+              Manifestation</a></h1></div>
+        <div class="d-inline-flex"><span class="hsep">&gt;</span></div>
+        <div class="d-inline-flex flex-wrap"><h2><a href="/ISBDM/docs/relationships/"
+              class="linkPathEntry">Relationship elements</a></h2></div>
+        <div class="d-inline-flex"><span class="hsep">&gt;</span></div>
+        <div class="d-inline-flex flex-wrap"><h2><a href="/ISBDM/docs/relationships/placetimes.html"
+              class="linkPathEntry">Place and time-span entities</a></h2></div>
+      </div>
+    </header>
+    <main class="container">
+      <div class="row my-2">
+        <div class="col-md-5">
+          <div class="row gx-0 me-4">
+            <div class="col-md-12">
+              <nav class="d-flex flex-column navISBDMSection"
+                aria-label="Navigation for attribute elements">
+                <div class="d-flex align-items-center">
+                  <a href="/ISBDM/docs/relationships/general.html" class="linkMenuEntry">General
+                    stipulations</a>
+                </div>
+                <div class="d-flex align-items-center">
+                  <a href="/ISBDM/docs/relationships/placetimes.html" class="linkMenuEntry">Place
+                    and time-span entities</a>
+                </div>
+                <div class="d-flex align-items-center">
+                  <a class="linkMenuElement" href="/ISBDM/docs/relationships/1009.html">has place
+                    associated with manifestation</a>
+                </div>
+                <div class="d-flex align-items-center">
+                  <i class="bi bi-arrow-return-right px-1"></i>
+                  <a class="linkMenuElement" href="/ISBDM/docs/relationships/1236.html">has place of
+                    creation of manifestation</a>
+                </div>
+                <div class="d-flex align-items-center">
+                  <i class="bi bi-arrow-return-right px-1"></i>
+                  <i class="bi bi-arrow-return-right px-1"></i>
+                  <a class="linkMenuElement" href="/ISBDM/docs/relationships/1214.html">has place of
+                    manufacture</a>
+                </div>
+                <div class="d-flex align-items-center">
+                  <i class="bi bi-arrow-return-right px-1"></i>
+                  <i class="bi bi-arrow-return-right px-1"></i>
+                  <a class="linkMenuElement" href="/ISBDM/docs/relationships/1212.html">has place of
+                    production</a>
+                </div>
+                <div class="d-flex align-items-center">
+                  <i class="bi bi-arrow-return-right px-1"></i>
+                  <i class="bi bi-arrow-return-right px-1"></i>
+                  <a class="linkMenuElement" href="/ISBDM/docs/relationships/1213.html">has place of
+                    publication</a>
+                </div>
+                <div class="d-flex align-items-center">
+                  <i class="bi bi-arrow-return-right px-1"></i>
+                  <a class="linkMenuElement" href="/ISBDM/docs/relationships/1211.html">has place of
+                    distribution</a>
+                </div>
+                <div class="d-flex align-items-center" aria-current="true">
+                  <i class="bi bi-asterisk navISBDMSectionActive px-1"></i>
+                  <a class="linkMenuElement" href="/ISBDM/docs/relationships/1010.html">has
+                    time-span associated with manifestation</a>
+                </div>
+                <div class="d-flex align-items-center">
+                  <i class="bi bi-arrow-return-right px-1"></i>
+                  <a class="linkMenuElement" href="/ISBDM/docs/relationships/1244.html">has date of
+                    copyright of manifestation</a>
+                </div>
+                <div class="d-flex align-items-center">
+                  <i class="bi bi-arrow-return-right px-1"></i>
+                  <a class="linkMenuElement" href="/ISBDM/docs/relationships/1235.html">has date of
+                    creation of manifestation</a>
+                </div>
+                <div class="d-flex align-items-center">
+                  <i class="bi bi-arrow-return-right px-1"></i>
+                  <i class="bi bi-arrow-return-right px-1"></i>
+                  <a class="linkMenuElement" href="/ISBDM/docs/relationships/1114.html">has date of
+                    manufacture</a>
+                </div>
+                <div class="d-flex align-items-center">
+                  <i class="bi bi-arrow-return-right px-1"></i>
+                  <i class="bi bi-arrow-return-right px-1"></i>
+                  <a class="linkMenuElement" href="/ISBDM/docs/relationships/1209.html">has date of
+                    production</a>
+                </div>
+                <div class="d-flex align-items-center">
+                  <i class="bi bi-arrow-return-right px-1"></i>
+                  <i class="bi bi-arrow-return-right px-1"></i>
+                  <a class="linkMenuElement" href="/ISBDM/docs/relationships/1210.html">has date of
+                    publication</a>
+                </div>
+                <div class="d-flex align-items-center">
+                  <i class="bi bi-arrow-return-right px-1"></i>
+                  <a class="linkMenuElement" href="/ISBDM/docs/relationships/1208.html">has date of
+                    distribution</a>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-7 border rounded">
+          <div class="row m-1">
+            <h3>has time-span associated with manifestation</h3>
+            <h4>Element reference</h4>
+            <div class="px-4">
+              <div class="row">
+                <div class="col-md-3 border elref">Definition</div>
+                <div class="col-md-9 border eltext">Relates a manifestation to a time-span. </div>
+              </div>
+              <div class="row">
+                <div class="col-md-3 border elref">Scope note</div>
+                <div class="col-md-9 border eltext"></div>
+              </div>
+              <div class="row">
+                <div class="col-md-3 border elref">Domain</div>
+                <div class="col-md-9 border eltext">Manifestation</div>
+              </div>
+              <div class="row">
+                <div class="col-md-3 border elref">Range</div>
+                <div class="col-md-9 border eltext">Time-span</div>
+              </div>
+              <div class="row">
+                <div class="col-md-3 border elref">Element sub-type</div>
+                <div class="col-md-9 border eltext">
+                  <div class="d-flex flex-column navISBDMRef"
+                    aria-label="Navigation for related elements">
+                    <a class="linkMenuElement" href="/ISBDM/docs/relationships/1244.html">has date
+                      of copyright of manifestation</a>
+                    <a class="linkMenuElement" href="/ISBDM/docs/relationships/1235.html">has date
+                      of creation of manifestation</a>
+                    <a class="linkMenuElement" href="/ISBDM/docs/relationships/1208.html">has date
+                      of distribution</a>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-3 border elref">Element super-type</div>
+                <div class="col-md-9 border eltext"> </div>
+              </div>
+            </div>
+          </div>
+          <div class="row m-1">
+            <h4>Additional information</h4>
+            <div class="guid">
+              <p>This element supports the user tasks to find and identify the manifestation and to
+                explore the context of the manifestation and its relationship to instances of the
+                Time-span entity.</p>
+            </div>
+            <div class="seeAlsoAdd">
+              <p><i>See also</i>: <a class="linkMenuElement" href="/ISBDM/docs/notes/1272.html">has
+                  note on time-span associated with manifestation</a></p>
+            </div>
+          </div>
+          <div class="row m-1">
+            <h4>Element values</h4>
+            <div class="guid">
+              <p>The values of this element may be indexed for uncontrolled or controlled keywords,
+                or used to construct browsing lists.</p>
+            </div>
+            <div class="guid">
+              <p>For a time-span that is a calendar date or a range of calendar dates, record an
+                authorized access point that conforms to a standard date and time format. Use the
+                following order of preference:</p>
+              <ul class="num">
+                <li><a class="linkOutline"
+                    href="https://www.iso.org/iso-8601-date-and-time-format.html" target="_blank"
+                    >ISO 8601</a></li>
+                <li>A date and time format that is chosen by the cataloguing agency</li>
+              </ul>
+            </div>
+            <h5>String encoding schemes</h5>
+            <div class="guid">
+              <p>A string encoding scheme should use any strings as qualifiers, if it is considered
+                to be useful for users of the metadata.</p>
+            </div>
+            <div class="guid">
+              <p>For a time-span that is a calendar date or a range of calendar dates, apply a
+                string encoding scheme that conforms to the standard date and time format that is
+                selected for an authorized access point.</p>
+              <div class="xampleBlockStip">
+                <p><a class="linkEx" href="#isbdmex1" data-bs-toggle="collapse" role="button"
+                    aria-expanded="false" aria-controls="isbdmex1">Examples</a></p>
+                <div class="collapse xamples" id="isbdmex1">
+                  <div class="row px-2">
+                    <div class="col xampleLabel">has time-span associated with manifestation</div>
+                    <div class="col xampleValue">&quot;1985-03-24&quot;</div>
+                    <div class="col xampleComment">[ISO 8601 format]</div>
+                  </div>
+                  <div class="row px-2">
+                    <div class="col xampleLabel">has time-span associated with manifestation</div>
+                    <div class="col xampleValue">&quot;24 March 1985&quot;</div>
+                    <div class="col xampleComment">[Day-month-year format]</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="guid">
+              <p>For a time-span that is a range of calendar dates, a string encoding scheme should
+                construct the base access point from the authorized access points for dates that are
+                the beginning and end of the range. The scheme should sequence the dates in
+                chronological order and specify the punctuation that is inserted between them.</p>
+            </div>
+            <h5>Estimated or approximate time-spans</h5>
+            <div class="guid">
+              <p>Record a time-span that is estimated as an approximate time-span as:</p>
+              <ul class="bull">
+                <li>A time-span that includes the estimated time-span.</li>
+                <li>A time-span at a broader level of granularity than the estimated time-span.</li>
+              </ul>
+              <div class="xampleBlockStip">
+                <p><a class="linkEx" href="#isbdmex2" data-bs-toggle="collapse" role="button"
+                    aria-expanded="false" aria-controls="isbdmex2">Examples</a></p>
+                <div class="collapse xamples" id="isbdmex2">
+                  <div class="row px-2">
+                    <div class="col xampleLabel">has time-span associated with manifestation</div>
+                    <div class="col xampleValue">&quot;1711-1715&quot;</div>
+                    <div class="col xampleComment">[Known to be after 1711 and before 1715]</div>
+                  </div>
+                  <div class="row px-2">
+                    <div class="col xampleLabel">has time-span associated with manifestation</div>
+                    <div class="col xampleValue">&quot;16&quot;</div>
+                    <div class="col xampleComment">[Estimated to be a time-span within the 17th
+                      century in ISO 1601 format]</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="guid">
+              <p>Record a <a class="linkInline" href="/ISBDM/docs/notes/1272.html">has note on
+                  time-span associated with manifestation</a> element that gives information that
+                the time-span is estimated with an explanation of the recorded range, if it is
+                considered to be useful for users of the metadata.</p>
+              <div class="xampleBlockStip">
+                <p><a class="linkEx" href="#isbdmex3" data-bs-toggle="collapse" role="button"
+                    aria-expanded="false" aria-controls="isbdmex3">Examples</a></p>
+                <div class="collapse xamples" id="isbdmex3">
+                  <div class="row px-2">
+                    <div class="col xampleLabel">has note on time-span associated with
+                      manifestation</div>
+                    <div class="col xampleValue">&quot;Date of publication is known to be after 1711
+                      and before 1715.&quot;</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row m-1">
+            <h4>Stipulations</h4>
+            <div class="stip">
+              <div class="d-flex flexrow">
+                <div class="mandatory mx-1 px-2" title="Mandatory">&#8252;</div>
+              </div>
+              <p>If one or more time-spans are associated with the manifestation, record at least
+                one occurrence of the element. Use the following order of preference to select the
+                value:</p>
+              <ol class="num">
+                <li>Date of creation of manifestation<ol class="al">
+                    <li>Date of publication of manifestation</li>
+                    <li>Date of production of manifestation</li>
+                    <li>Date of manufacture of manifestation</li>
+                  </ol></li>
+                <li>Date of copyright</li>
+                <li>Date of distribution of manifestation</li>
+              </ol>
+            </div>
+            <div class="stip">
+              <p>Apply the <a class="linkInline" href="/ISBDM/docs/relationships/general.html"
+                  >General stipulations for relationship elements</a>.</p>
+              <div class="xampleBlockStip">
+                <p><a class="linkEx" href="#isbdmex4" data-bs-toggle="collapse" role="button"
+                    aria-expanded="false" aria-controls="isbdmex4">Examples</a></p>
+                <div class="collapse xamples" id="isbdmex4">
+                  <div class="row px-2">
+                    <div class="col xampleLabel">has time-span associated with manifestation</div>
+                    <div class="col xampleValue">&quot;1979&quot;</div>
+                    <div class="col xampleComment">[Authorized access point of entity]</div>
+                  </div>
+                  <div class="row px-2">
+                    <div class="col xampleLabel">has time-span associated with manifestation</div>
+                    <div class="col xampleValue">&quot;Q2484&quot;</div>
+                    <div class="col xampleComment">[Identifier of entity]</div>
+                  </div>
+                  <div class="row px-2">
+                    <div class="col xampleLabel">has time-span associated with manifestation</div>
+                    <div class="col xampleValue">https://www.wikidata.org/wiki/Q2484</div>
+                    <div class="col xampleComment">[IRI of entity]</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="stip">
+              <p>Use an appropriate element sub-type to record a more specific relationship.</p>
+            </div>
+            <div class="stip">
+              <p>Record a time-span that is a calendar date that is given in a statement of
+                publication, production, distribution, or manufacture that appears in the
+                manifestation.</p>
+            </div>
+            <div class="stip">
+              <p>Record additional occurrences of the element, if it is considered to be useful for
+                users of the metadata.</p>
+            </div>
+            <div class="stip">
+              <p>Record a calendar date at the finest level of granularity that is considered to be
+                useful for users of the metadata.</p>
+            </div>
+            <div class="stip">
+              <p>Record a chronogram that appears in the manifestation as the corresponding calendar
+                date.</p>
+            </div>
+            <div class="stip">
+              <p>If more than one time-span is named with the same association in a manifestation
+                statement, record one or more occurrences of the element, if it is considered to be
+                useful for users of the metadata. Use the following order of preference to select
+                the values:</p>
+              <ul class="bull">
+                <li>The time-spans that are named most prominently in the typography and layout of
+                  the statement.</li>
+                <li>The time-span that is named first in the statement.</li>
+                <li>The time-spans that are named in a language and script that is preferred by the
+                  cataloguing agency.</li>
+                <li>All time-spans that are named.</li>
+              </ul>
+            </div>
+            <div class="stip">
+              <p>For a manifestation that embodies the expression of a diachronic work, record a
+                time-span that is a complete or open calendar date range.</p>
+            </div>
+            <div class="stip">
+              <p>For a manifestation that embodies the expression of a diachronic work, and if the
+                diachronic work has not terminated, record a time-span that is an open calendar date
+                range. An open calendar date range is an incomplete time-span that lacks a calendar
+                date that is the end of the time-span.</p>
+              <div class="xampleBlockStip">
+                <p><a class="linkEx" href="#isbdmex5" data-bs-toggle="collapse" role="button"
+                    aria-expanded="false" aria-controls="isbdmex5">Examples</a></p>
+                <div class="collapse xamples" id="isbdmex5">
+                  <div class="row px-2">
+                    <div class="col xampleLabel">has time-span associated with manifestation</div>
+                    <div class="col xampleValue">&quot;1951-&quot;</div>
+                    <div class="col xampleComment"></div>
+                  </div>
+                  <hr />
+                  <div class="row px-2">
+                    <div class="col xampleLabel">has time-span associated with manifestation</div>
+                    <div class="col xampleValue">&quot;1 Jan 2000-&quot;</div>
+                    <div class="col xampleComment"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="stip">
+              <p>For a manifestation that embodies the expression of a diachronic work, and if the
+                diachronic work has terminated, record a time-span that is a closed calendar date
+                range. A closed calendar date range is a calendar date that is the start of the
+                time-span followed by connecting punctuation and a calendar date that is the end of
+                the time-span.</p>
+              <div class="xampleBlockStip">
+                <p><a class="linkEx" href="#isbdmex6" data-bs-toggle="collapse" role="button"
+                    aria-expanded="false" aria-controls="isbdmex6">Examples</a></p>
+                <div class="collapse xamples" id="isbdmex6">
+                  <div class="row px-2">
+                    <div class="col xampleLabel">has time-span associated with manifestation</div>
+                    <div class="col xampleValue">&quot;1951-2001&quot;</div>
+                    <div class="col xampleComment"></div>
+                  </div>
+                  <hr />
+                  <div class="row px-2">
+                    <div class="col xampleLabel">has time-span associated with manifestation</div>
+                    <div class="col xampleValue">&quot;1 Jan 2000-15 Nov 2001&quot;</div>
+                    <div class="col xampleComment"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="container">
+      <div class="row my-1 py-1 navISBDMMain text-center">
+        <p class="m-0 p-0">&#10058;<a class="linkFooter" href="/ISBDM/docs/siteMap.html">Site
+            map</a>&#10058;</p>
+        <p class="m-0 p-0">Warning! Content is for demonstration purposes only. Do not distribute
+          beyond the ISBD Review Group.</p>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

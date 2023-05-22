@@ -1,0 +1,406 @@
+@charset "utf-8";
+/* isbdm CSS */
+/* Stylesheet for ISBD for Manifestation */
+/* Navbar fixed to the top */
+body {
+  padding-top: 4rem;
+  color: #000000;
+}
+h1,
+h2 {
+  display: inline-block;
+}
+h1 {
+  font-size: 1.3rem;
+}
+h2 {
+  font-size: 1.3rem;
+}
+h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+h5 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+h3,
+h4,
+h5 {
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+}
+em {
+  color: #336699 !important;
+  font-weight: 600;
+  font-style: italic;
+}
+hr {
+  border-top: 1px dashed black;
+}
+.mandatory {
+  background-color: #66ff33 !important;
+  border: 1px solid #000000;
+  border-radius: 1rem;
+  color: #000000 !important;
+  font-weight: 700;
+}
+.unique {
+  background-color: #ffffff !important;
+  border: 1px solid #e62e00;
+  border-radius: 1rem;
+  color: #e62e00 !important;
+  font-weight: 700;
+}
+.elref {
+  font-style: italic;
+}
+.eltext {
+}
+.backbrowse {
+  border: 1px solid #000000;
+  padding: 1em;
+}
+.figExplain {
+
+}
+.guid,
+.stip {
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.guid {
+  background-color: #e6f0ff !important;
+}
+.stip {
+  background-color: #ffebe6 !important;
+}
+.seeAlsoAdd {
+
+}
+.xampleBlockGuid,
+.xampleBlockStip {
+  padding-bottom: 1rem;
+}
+.xampleBlockGuid .xamples,
+.xampleBlockGuid .linkEx:link,
+.xampleBlockGuid .linkEx:visited,
+.xampleBlockGuid .linkEx:active,
+.xampleBlockGuid .linkEx:hover,
+.xampleBlockStip .xamples,
+.xampleBlockStip .linkEx:link,
+.xampleBlockStip .linkEx:visited,
+.xampleBlockStip .linkEx:active,
+.xampleBlockStip .linkEx:hover {
+  border: 1px solid #000000;
+  border-radius: 0.5rem;
+  color: #000000;
+  padding: 0.1rem;
+}
+.linkImage:link,
+.linkImage:visited,
+.linkImage:active,
+.linkOutline:link,
+.linkOutline:visited,
+.linkOutline:active,
+.xampleBlockGuid .xamples,
+.xampleBlockGuid .linkEx:link,
+.xampleBlockGuid .linkEx:visited,
+.xampleBlockGuid .linkEx:active,
+.xampleBlockGuid .linkEx:hover {
+  background-color: #cce0ff !important;
+}
+.linkInline:link,
+.linkInline:visited,
+.linkInline:active,
+.xampleBlockStip .xamples,
+.xampleBlockStip .linkEx:link,
+.xampleBlockStip .linkEx:visited,
+.xampleBlockStip .linkEx:active,
+.xampleBlockStip .linkEx:hover {
+  background-color: #ffd6cc !important;
+}
+.linkImage:link,
+.linkImage:visited,
+.linkImage:active,
+.linkInline:link,
+.linkInline:visited,
+.linkInline:active,
+.linkOutline:link,
+.linkOutline:visited,
+.linkOutline:active {
+  border-radius: 0.3rem;
+  color: #000000 !important;
+}
+.xampleComment {
+  font-style: italic;
+  text-align: left;
+  max-width: auto;
+}
+.xampleLabel {
+  text-align: left;
+}
+.xampleValue {
+  text-align: left;
+}
+.xampleNarrative {
+
+}
+/* Links (navigation): to ISBDM elements, internal/stipulation sections */
+* a {
+  text-decoration: none;
+}
+.linkMenuElement:link,
+.linkMenuElement:visited,
+.linkMenuElement:active,
+.linkMenuElement:hover,
+.linkMenuEntry:link,
+.linkMenuEntry:visited,
+.linkMenuEntry:active,
+.linkMenuEntry:hover,
+.linkPathEntry:link,
+.linkPathEntry:visited,
+.linkPathEntry:active,
+.linkPathEntry:hover {
+  padding: 0.1rem;
+  border-radius: 0.5rem;
+}
+.linkMenuElement:link,
+.linkMenuElement:visited,
+.linkMenuElement:active,
+.linkMenuElement:hover,
+.linkMenuEntry:link,
+.linkMenuEntry:visited,
+.linkMenuEntry:active,
+.linkMenuEntry:hover,
+.linkPathEntry:link,
+.linkPathEntry:visited,
+.linkPathEntry:active,
+.linkPathEntry:hover {
+  border: 1px solid #ffffff;
+}
+.linkFooter:link,
+.linkFooter:visited,
+.linkFooter:active {
+  padding: 0.1rem;
+  border-radius: 0.3rem;
+  color: #ffd6cc !important;
+}
+.linkMenuElement:link,
+.linkMenuElement:visited,
+.linkMenuElement:active,
+.linkMenuEntry:link,
+.linkMenuEntry:visited,
+.linkMenuEntry:active,
+.linkPathEntry:link,
+.linkPathEntry:visited,
+.linkPathEntry:active {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+.linkFooter:hover,
+.linkInline:hover,
+.linkMenuElement:hover,
+.linkMenuEntry:hover,
+.linkPathEntry:hover {
+  background-color: #e62e00 !important;
+  color: #ffffff !important;
+}
+.linkOutline:hover {
+  background-color: #0000ff !important;
+  color: #ffffff !important;
+
+}
+.hsep {
+  font-size: 1.3rem;
+}
+.navISBDMMain {
+  background-color: #e62e00 !important;
+  color: #ffffff !important;
+}
+.navISBDMRef {
+}
+.navISBDMSection {
+  font-size: 0.8rem;
+}
+.navISBDMSection a:link,
+.navISBDMSection a:visited,
+.navISBDMSection a:active {
+  color: #000000 !important;
+}
+.navISBDMSection a:hover {
+  background-color: #e62e00 !important;
+  color: #ffffff !important;
+}
+.navISBDMSectionActive {
+  color: #e62e00 !important;
+  font-size: 0.6rem;
+}
+.shortcut {
+  padding-left: 4rem;
+}
+.tabCaption {
+  font-style: italic;
+}
+.vesHeader {
+  font-style: italic;
+}
+.bolded,
+.vesValue {
+  font-weight: bold;
+}
+ol.al,
+ol.num,
+ul.bull {
+  padding-left: 4rem;
+}
+ol.al {
+  list-style: lower-alpha;
+}
+ol.num {
+  list-style: decimal;
+}
+ul.bull {
+  list-style: disc;
+}
+ul.nobull {
+  list-style: none;
+}
+ul.entbull {
+  list-style: circle;
+  margin: 1rem;
+  padding: 0;
+}
+.infoBox {
+  background-color: #cfe1fc !important;
+  border: 1px solid #063377;
+  border-radius: 5px;
+}
+.lodBox {
+  background-color: #e7f0fd !important;
+  border: 2px solid #063377;
+  border-radius: 5px;
+}
+/* Colours */
+.bg-dark,
+.dropdown-menu {
+  background-color: #063377 !important;
+}
+/* Site bar */
+.siteBar {
+  background-color: #dc3545 !important;
+  border: 1px solid #cfe1fc;
+  color: #cfe1fc !important;
+  font-size: 0.9rem;
+}
+/* Sequential navigation */
+.seqBar {
+  border: 1px solid #063377;
+  background-color: #063377;
+  color: #063377;
+  font-size: 0.9rem;
+}
+.seqRef {
+  background-color: #cfe1fc !important;
+}
+.seqYbr {
+  background-color: #fee29a !important;
+}
+.linkSeq {
+  color: #063377;
+}
+.btnRef {
+  /*   background-color: #cfe1fc !important; */
+  background-color: transparent;
+  border: 1px solid #063377;
+}
+.btnXd {
+  background-color: #fee29a !important;
+  border: 1px solid #063377;
+  color: #063377;
+}
+.btnExample {
+  background-color: #fee29a !important;
+  border: 1px solid #063377;
+  color: #063377;
+  font-size: 0.8rem;
+}
+.linkPathEntry:link,
+.linkPathEntry:visited,
+.linkPathEntry:active,
+.linkOut:link,
+.linkOut:visited,
+.linkOut:active,
+.linkRR:link,
+.linkRR:visited,
+.linkRR:active,
+.linkTK:link,
+.linkTK:visited,
+.linkTK:active
+{
+  color: #063377;
+}
+.linkOut:link,
+.linkOut:visited,
+.linkOut:active,
+.linkRR:link,
+.linkRR:visited,
+.linkRR:active,
+.linkTK:link,
+.linkTK:visited,
+.linkTK:active
+{
+  background-color: #e7f0fd !important;
+}
+.linkPathEntry:hover {
+  background-color: #fee29a;
+  color: #063377;
+}
+.linkOut:hover {
+  text-decoration: underline;
+}
+.linkRR:hover {
+  background-color: #ffffff !important;
+  color: #063377;
+}
+.linkTK:hover {
+  background-color: #cfe1fc !important;
+  color: #063377;
+}
+/* Text effects */
+.appellation,
+.citeIn {
+  font-weight: 600;
+}
+.noteThis {
+  border: 1px solid black;
+  text-align: center;
+}
+/* Special boxes */
+.debdec {
+  background-color: #ffe6ff;
+}
+.debtip {
+  background-color: #ffe6ff;
+}
+/* E-r diagram entity colours */
+.entityEW {
+  background-color: #ffff99;
+}
+.entityM {
+  background-color: #ffcccc;
+}
+/* Manifestation assessment checklists */
+.cxRowCheck,
+.cxRowHead {
+  border: 1px solid black;
+  margin: 0;
+  padding: 0.2rem;
+}
+.cxRowHead {
+  background-color: lightgray;
+}

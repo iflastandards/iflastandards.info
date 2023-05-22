@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="description"
+      content="ISBDM: International Standard Bibliographic Description for Manifestation." />
+    <meta name="author" content="ISBD Manifestation Task Force" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ISBD for Manifestation</title>
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css"
+      rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous" />
+    <link href="/ISBDM/styles/isbdm.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark navISBDMMain fixed-top"
+      aria-label="Navigation for ISBD for Manifestation">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/ISBDM/">ISBD for Manifestation</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarISBDM" aria-controls="navbarISBDM" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarISBDM">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link" href="/ISBDM/docs/intro/">Introduction</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/ISBDM/docs/assess/">Assessment</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/ISBDM/docs/statements/">Statements</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/ISBDM/docs/notes/">Notes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/ISBDM/docs/attributes/">Attributes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="/ISBDM/docs/relationships/" aria-current="page"
+                >Relationships</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/ISBDM/docs/ves/">Values</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/ISBDM/docs/glossary/">Glossary</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/ISBDM/docs/fullex/">Examples</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header class="container">
+      <div>
+        <div class="d-inline-flex flex-wrap"><h1><a href="/ISBDM/" class="linkPathEntry">ISBD for
+              Manifestation</a></h1></div>
+        <div class="d-inline-flex"><span class="hsep">&gt;</span></div>
+        <div class="d-inline-flex flex-wrap"><h2><a href="/ISBDM/docs/relationships/"
+              class="linkPathEntry">Relationship elements</a></h2></div>
+      </div>
+    </header>
+    <main class="container">
+      <div class="row my-2">
+        <div class="col-md-5">
+          <div class="row gx-0 me-4">
+            <div class="col-md-12">
+              <nav class="d-flex flex-column navISBDMSection"
+                aria-label="Navigation for attribute elements">
+                <div class="d-flex align-items-center" aria-current="true">
+                  <i class="bi bi-asterisk navISBDMSectionActive px-1"></i>
+                  <a href="/ISBDM/docs/relationships/general.html" class="linkMenuEntry">General
+                    stipulations</a>
+                </div>
+                <div class="d-flex align-items-center">
+                  <a class="" href="/ISBDM/docs/relationships/agents.html">Relationship elements for
+                    agent entities</a>
+                </div>
+                <div class="d-flex align-items-center">
+                  <a class="" href="/ISBDM/docs/relationships/resources.html">Relationship elements
+                    for resource entities</a>
+                </div>
+                <div class="d-flex align-items-center">
+                  <a class="" href="/ISBDM/docs/relationships/placetimes.html">Relationship elements
+                    for place and time-span entities</a>
+                </div>
+                <div class="d-flex align-items-center">
+                  <a class="" href="/ISBDM/docs/relationships/nomens.html">Relationship elements for
+                    nomens</a>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-7 border rounded">
+          <div class="row m-1">
+            <h3>General stipulations for relationship elements</h3>
+            <div class="stip">
+              <p>Record a relationship element if it is considered to be useful for users of the
+                metadata.</p>
+            </div>
+            <div class="stip">
+              <p>Record a value for an entity that is named or otherwise identified in a statement
+                that appears in the manifestation.</p>
+            </div>
+            <div class="stip">
+              <p>Record a value for an entity that is associated with the manifestation in external
+                sources of information.</p>
+            </div>
+            <div class="stip">
+              <p>Record an entity that is probably associated with the manifestation. Record a <a
+                  class="linkInline" href="/ISBDM/docs/notes/1265.html">has note on entity
+                  associated with manifestation</a> element that indicates the uncertainty.</p>
+            </div>
+            <div class="stip">
+              <p>Record an entity that is associated with the manifestation. Do not record an entity
+                that is known to be falsely associated with the manifestation.</p>
+            </div>
+            <div class="stip">
+              <p>Record an entity that is real and is known to exist or have existed. Do not record
+                an entity that is known to be fictitious.</p>
+            </div>
+            <div class="stip">
+              <p>Record a <a class="linkInline" href="/ISBDM/docs/notes/1265.html">has note on
+                  entity associated with manifestation</a> element that gives information that is
+                not recorded in a relationship element, if it is considered to be useful for users
+                of the metadata.</p>
+            </div>
+            <div class="stip">
+              <p>If more than one entity is associated with the same relationship of the
+                manifestation, record a separate occurrence of the element for each distinct value
+                that is considered to be useful for users of the metadata. Use the following order
+                of preference:</p>
+              <ol class="num">
+                <li>The prominence of names or titles of entities that appear in statements in the
+                  manifestation.</li>
+                <li>The order of names or titles of entities that appear in a statement in the
+                  manifestation.</li>
+                <li>The predominance of entities that are given in external sources of
+                  information.</li>
+              </ol>
+            </div>
+            <div class="stip">
+              <p>For a manifestation that embodies the expression of a diachronic work, and if there
+                is a change in the information that is given in statements that describe the
+                manifestation and appear in manifestations that embody expressions of issues or
+                iterations of the work, record an additional occurrence of the element for the
+                entity that has changed, if it is considered to be useful for users of the
+                metadata.</p>
+            </div>
+            <div class="stip">
+              <p>For a manifestation that embodies the expression of a diachronic work, record a <a
+                  class="linkInline" href="/ISBDM/docs/notes/1265.html">has note on entity
+                  associated with manifestation</a> element that gives information about a change in
+                an entity that is related to the manifestations that embody expressions of issues or
+                iterations of the work, including identification of the issue or iteration in which
+                the change first appears, if it is considered to be useful for users of the
+                metadata.</p>
+            </div>
+            <div class="stip">
+              <p>For a manifestation that embodies the expression of a diachronic work, record a <a
+                  class="linkInline" href="/ISBDM/docs/notes/1265.html">has note on entity
+                  associated with manifestation</a> element that gives general information about
+                multiple changes over time in entities that are related to the manifestations that
+                embody expressions of issues or iterations of the work,including identification of
+                the issues or iterations in which the changes occur, if it is considered to be
+                useful for users of the metadata.</p>
+            </div>
+            <div class="seeAlsoAdd">
+              <p><i>See also</i>: <a class="linkMenuElement" href="/ISBDM/docs/notes/1265.html">has
+                  note on entity associated with manifestation</a></p>
+            </div>
+          </div>
+          <div class="row m-1">
+            <h4>Element values</h4>
+            <div class="stip">
+              <p>The value of a relationship element is a reference to a related entity.</p>
+              <div class="stip">
+                <p>Record the value of a relationship element as a literal string or as an IRI
+                  (Internationalised Resource Identifier) that is used in semantic linked data. Use
+                  the following order of preference:</p>
+                <ol class="num">
+                  <li>an IRI for the entity</li>
+                  <li>a string that is an identifier of the entity that is a stringified IRI for the
+                    entity, derived by enclosing the IRI in string delimiters such as double quotes
+                    (&quot;IRI&quot;)</li>
+                  <li>a string that is an authorized access point or identifier of the entity that
+                    appears in an authority file or similar dataset</li>
+                  <li>a string that is an access point of the entity that is constructed using a
+                    string encoding scheme</li>
+                </ol>
+              </div>
+            </div>
+            <h5>String encoding schemes</h5>
+            <div class="stip">
+              <p>Use a string encoding scheme to construct an access point for a related entity if
+                an authorized access point is not available.</p>
+            </div>
+            <div class="stip">
+              <p>The string encoding scheme should construct a value that is as unambiguous as
+                possible to support the user task to identify the related entity.</p>
+            </div>
+            <div class="stip">
+              <p>The string encoding scheme should construct a value that consists of a base access
+                point followed by a set of qualifiers. The base access point supports the primary
+                collocation and sort order of access points in a browse index. The qualifiers
+                disambiguate the base access point and are added in a specific sequence to support a
+                secondary collocation and sort order of access points in a browse index.</p>
+            </div>
+            <div class="stip">
+              <p>The string encoding scheme should specify the punctuation marks, labels, or
+                boilerplate strings that are inserted between and within the base access point and
+                the qualifiers to improve clarity and ease of browsing.</p>
+            </div>
+          </div>
+          <div class="row m-1">
+            <h4>Sources of information</h4>
+            <div class="stip">
+              <p>Use <a class="linkInline" href="/ISBDM/docs/intro/i004.html">The manifestation</a>
+                or <a class="linkInline" href="/ISBDM/docs/intro/i005.html">External sources</a> as
+                a source of information for a relationship element.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="container">
+      <div class="row my-1 py-1 navISBDMMain text-center">
+        <p class="m-0 p-0">&#10058;<a class="linkFooter" href="/ISBDM/docs/siteMap.html">Site
+            map</a>&#10058;</p>
+        <p class="m-0 p-0">Warning! Content is for demonstration purposes only. Do not distribute
+          beyond the ISBD Review Group.</p>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
