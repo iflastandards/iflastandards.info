@@ -86,6 +86,9 @@ hr {
 .xampleBlockStip {
   padding-bottom: 1rem;
 }
+.xampleComment .linkEdco:link,
+.xampleComment .linkEdco:visited,
+.xampleComment .linkEdco:active,
 .xampleBlockGuid .xamples,
 .xampleBlockGuid .linkEx:link,
 .xampleBlockGuid .linkEx:visited,
@@ -101,6 +104,9 @@ hr {
   color: #000000;
   padding: 0.1rem;
 }
+.xampleComment .linkEdco:link,
+.xampleComment .linkEdco:visited,
+.xampleComment .linkEdco:active,
 .linkImage:link,
 .linkImage:visited,
 .linkImage:active,
@@ -136,10 +142,13 @@ hr {
   border-radius: 0.3rem;
   color: #000000 !important;
 }
-.xampleComment {
+.editComment {
   font-style: italic;
   text-align: left;
   max-width: auto;
+}
+.xampleComment {
+  text-align: center;
 }
 .xampleLabel {
   text-align: left;
