@@ -81,10 +81,6 @@
                     Penguin Books; volume; paperback)</a>
                 </div>
                 <div class="d-flex align-items-center">
-                  <a href="/ISBDM/docs/fullex/fx011.html" class="linkMenuEntry">Biblioteka Vjeverica
-                    (1957-1998, Mladost; volumen; tvrdi uvez)</a>
-                </div>
-                <div class="d-flex align-items-center">
                   <a href="/ISBDM/docs/fullex/fx010.html" class="linkMenuEntry">Einstein on the
                     beach (2016; Opus Arte; videodisc; DVD)</a>
                 </div>
@@ -97,12 +93,12 @@
                   <a href="/ISBDM/docs/fullex/fx003.html" class="linkMenuEntry">Faded map (2010;
                     Birlinn Limited; volume; hardback)</a>
                 </div>
-                <div class="d-flex align-items-center" aria-current="true">
-                  <i class="bi bi-asterisk navISBDMSectionActive px-1"></i>
+                <div class="d-flex align-items-center">
                   <a href="/ISBDM/docs/fullex/fx005.html" class="linkMenuEntry">Knitting the
                     Semantic Web (2007; Howarth Information Press; volume)</a>
                 </div>
-                <div class="d-flex align-items-center">
+                <div class="d-flex align-items-center" aria-current="true">
+                  <i class="bi bi-asterisk navISBDMSectionActive px-1"></i>
                   <a href="/ISBDM/docs/fullex/fx009.html" class="linkMenuEntry">Lyceum Theatre,
                     London, England, 5/26/72 (2022; Rhino Entertainment LLC; audio disc)</a>
                 </div>
@@ -127,10 +123,11 @@
           </div>
         </div>
         <div class="col-md-7 border rounded">
-          <div class="row my-2">
-            <h3>Knitting the Semantic Web (2007; Howarth Information Press; volume)</h3>
-            <p>A collection aggregate also published as the manifestation of an issue of two serial
-              works.</p>
+          <div class="row m-1">
+            <h3>Lyceum Theatre, London, England, 5/26/72 (2022; Rhino Entertainment LLC; audio
+              disc)</h3>
+            <p>A recording of a live music concert on 4 audio CDs. There is no accompanying booklet.
+              All manifestations statements are taken from the CD tray holder and disc labels.</p>
             <div>
               <div class="row px-2">
                 <div class="col-5 border p-1 xampleLabel">Element</div>
@@ -141,195 +138,140 @@
                 <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
                     href="/ISBDM/docs/statements/1028.html">has manifestation statement of title and
                     responsibility</a></div>
-                <div class="col-6 border p-1 xampleValue">&quot;Knitting the Semantic Web, Jane
-                  Greenberg &hellip;, Eva Méndez &hellip; editors&quot;</div>
+                <div class="col-6 border p-1 xampleValue">&quot;Grateful Dead; Lyceum Theatre;
+                  London, England; 5/26/72&quot;</div>
                 <div class="col-1 border p-1 xampleComment"></div>
               </div>
-              <div>
+              <div class="row px-2">
+                <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
+                    href="/ISBDM/docs/statements/1030.html">has manifestation statement of
+                    publication, production, manufacture, or distribution</a></div>
+                <div class="col-6 border p-1 xampleValue">&quot;Rhino&quot;</div>
+                <div class="col-1 border p-1 xampleComment"><a class="linkEdco" href="#isbdmedcoX"
+                    data-bs-toggle="collapse" role="button" aria-expanded="false"
+                    aria-controls="isbdmedcoX">&#8263;&#8263;</a></div>
+              </div>
+              <div class="collapse editComm" id="isbdmedcoX">
                 <div class="row px-2">
-                  <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
-                      href="/ISBDM/docs/statements/1030.html">has manifestation statement of
-                      publication, production, manufacture, or distribution</a></div>
-                  <div class="col-6 border p-1 xampleValue">&quot;&hellip; co-published
-                    simultaneously as Cataloguing & classification quarterly, volume 43, numbers 3/4
-                    2007&quot;</div>
-                  <div class="col-1 border p-1 xampleComment"><a class="linkEdco"
-                      href="#fx005103001" data-bs-toggle="collapse" role="button"
-                      aria-expanded="false" aria-controls="fx005103001">&#8263;&#8263;</a></div>
-                </div>
-                <div class="collapse editComm" id="fx005103001">
-                  <div class="row px-2">
-                    <div class="col editComment">[Most prominent and first statement.]</div>
-                  </div>
+                  <div class="col border editComment">[Comment]</div>
                 </div>
               </div>
-              <div>
-                <div class="row px-2">
-                  <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
-                      href="/ISBDM/docs/statements/1030.html">has manifestation statement of
-                      publication, production, manufacture, or distribution</a></div>
-                  <div class="col-6 border p-1 xampleValue">&quot;Published by The Haworth
-                    Information Press &hellip; Binghamton NY &hellip; an imprint of The Haworth
-                    Press, Inc.&quot;</div>
-                  <div class="col-1 border p-1 xampleComment"><a class="linkEdco"
-                      href="#fx005103002" data-bs-toggle="collapse" role="button"
-                      aria-expanded="false" aria-controls="fx005103002">&#8263;&#8263;</a></div>
-                </div>
-                <div class="collapse editComm" id="fx005103002">
-                  <div class="row px-2">
-                    <div class="col editComment">[Fullest statement.]</div>
-                  </div>
-                </div>
+              <div class="row px-2">
+                <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
+                    href="/ISBDM/docs/statements/1030.html">has manifestation statement of
+                    publication, production, manufacture, or distribution</a></div>
+                <div class="col-6 border p-1 xampleValue">&quot;&#8471; &amp; &#169; 2022, 2011
+                  Grateful Dead Productions&quot;</div>
+                <div class="col-1 border p-1 xampleComment"></div>
               </div>
-              <div>
-                <div class="row px-2">
-                  <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
-                      href="/ISBDM/docs/statements/1034.html">has manifestation statement of
-                      identifier and terms of availability</a></div>
-                  <div class="col-6 border p-1 xampleValue">&quot;ISBN-13: 978-8-7890-3591-2 (alk.
-                    paper) ISBN-10: 0-7890-591-X (alk. paper)&quot;</div>
-                  <div class="col-1 border p-1 xampleComment"><a class="linkEdco"
-                      href="#fx005103401" data-bs-toggle="collapse" role="button"
-                      aria-expanded="false" aria-controls="fx005103401">&#8263;&#8263;</a></div>
-                </div>
-                <div class="collapse editComm" id="fx005103401">
-                  <div class="row px-2">
-                    <div class="col editComment">[Transcribed from CIP data.]</div>
-                  </div>
-                </div>
+              <div class="row px-2">
+                <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
+                    href="/ISBDM/docs/statements/1034.html">has manifestation statement of
+                    identifier and terms of availability</a></div>
+                <div class="col-6 border p-1 xampleValue">&quot;R2 695010 / 603497839667&quot;</div>
+                <div class="col-1 border p-1 xampleComment"></div>
               </div>
               <div class="row px-2">
                 <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
                     href="/ISBDM/docs/relationships/1038.html">has title proper</a></div>
-                <div class="col-6 border p-1 xampleValue">&quot;Knitting the Semantic
-                  Web&quot;</div>
+                <div class="col-6 border p-1 xampleValue">&quot;Lyceum Theatre, London, England,
+                  5/26/72&quot;</div>
                 <div class="col-1 border p-1 xampleComment"></div>
-              </div>
-              <div>
-                <div class="row px-2">
-                  <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
-                      href="/ISBDM/docs/relationships/1257.html">has authorized access point of
-                      manifestation</a></div>
-                  <div class="col-6 border p-1 xampleValue">&quot;Knitting the Semantic Web (2007;
-                    Howarth Information Press; volume)&quot;</div>
-                  <div class="col-1 border p-1 xampleComment"><a class="linkEdco"
-                      href="#fx005125701" data-bs-toggle="collapse" role="button"
-                      aria-expanded="false" aria-controls="fx005125701">&#8263;&#8263;</a></div>
-                </div>
-                <div class="collapse editComm" id="fx005125701">
-                  <div class="row px-2">
-                    <div class="col editComment">[SES: <a class="linkInline"
-                        href="/ISBDM/docs/relationships/ISBDMSES.html">ISBDM</a>]</div>
-                  </div>
-                </div>
               </div>
               <div class="row px-2">
                 <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
-                    href="/ISBDM/docs/relationships/1111.html">has identifier of
-                  manifestation</a></div>
-                <div class="col-6 border p-1 xampleValue">&quot;9788789035912&quot;</div>
+                    href="/ISBDM/docs/relationships/1257.html">has authorized access point of
+                    manifestation</a></div>
+                <div class="col-6 border p-1 xampleValue">&quot;Lyceum Theatre, London, England,
+                  5/26/72 (2022; Rhino Entertainment LLC; audio disc)&quot;</div>
                 <div class="col-1 border p-1 xampleComment"></div>
               </div>
               <div class="row px-2">
                 <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
                     href="/ISBDM/docs/relationships/1111.html">has identifier of
                   manifestation</a></div>
-                <div class="col-6 border p-1 xampleValue">&quot;07890591X&quot;</div>
-                <div class="col-1 border p-1 xampleComment"></div>
-              </div>
-              <div class="row px-2">
-                <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
-                    href="/ISBDM/docs/relationships/1018.html">has alternate manifestation</a></div>
-                <div class="col-6 border p-1 xampleValue">&quot;Cataloging & classification
-                  quarterly (print), volume 43, issue 3-4 (2007)&quot;</div>
-                <div class="col-1 border p-1 xampleComment"></div>
-              </div>
-              <div class="row px-2">
-                <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
-                    href="/ISBDM/docs/relationships/1018.html">has alternate manifestation</a></div>
-                <div class="col-6 border p-1 xampleValue">&quot;Cataloging & classification
-                  quarterly (online), volume 3, issue 3-4 (2007)&quot;</div>
+                <div class="col-6 border p-1 xampleValue">&quot;603497839667&quot;</div>
                 <div class="col-1 border p-1 xampleComment"></div>
               </div>
               <div class="row px-2">
                 <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
                     href="/ISBDM/docs/relationships/1220.html">has work embodied in
                     manifestation</a></div>
-                <div class="col-6 border p-1 xampleValue">&quot;Knitting the Semantic Web
-                  (Greenberg, Mendez)&quot;</div>
+                <div class="col-6 border p-1 xampleValue">&quot;Grateful Dead. Lyceum Theatre,
+                  London, England, 5/26/72&quot;</div>
                 <div class="col-1 border p-1 xampleComment"></div>
               </div>
               <div class="row px-2">
                 <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
-                    href="/ISBDM/docs/relationships/1006.html">has person associated with
+                    href="/ISBDM/docs/relationships/1007.html">has collective agent associated with
                     manifestation</a></div>
-                <div class="col-6 border p-1 xampleValue">&quot;Greenberg, Jane&quot;</div>
-                <div class="col-1 border p-1 xampleComment"></div>
-              </div>
-              <div class="row px-2">
-                <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
-                    href="/ISBDM/docs/relationships/1006.html">has person associated with
-                    manifestation</a></div>
-                <div class="col-6 border p-1 xampleValue">&quot;Méndez, Eva&quot;</div>
+                <div class="col-6 border p-1 xampleValue">&quot;Grateful Dead&quot;</div>
                 <div class="col-1 border p-1 xampleComment"></div>
               </div>
               <div class="row px-2">
                 <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
                     href="/ISBDM/docs/relationships/1254.html">has publisher collective
                   agent</a></div>
-                <div class="col-6 border p-1 xampleValue">&quot;The Haworth Information
-                  Press&quot;</div>
+                <div class="col-6 border p-1 xampleValue">&quot;Rhino Entertainment LLC&quot;</div>
                 <div class="col-1 border p-1 xampleComment"></div>
               </div>
               <div class="row px-2">
                 <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
-                    href="/ISBDM/docs/relationships/1213.html">has place of publication</a></div>
-                <div class="col-6 border p-1 xampleValue">&quot;Binghamton (New York,
-                  USA)&quot;</div>
-                <div class="col-1 border p-1 xampleComment"></div>
-              </div>
-              <div class="row px-2">
-                <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
-                    href="/ISBDM/docs/relationships/1210.html">has date of publication</a></div>
-                <div class="col-6 border p-1 xampleValue">&quot;2007&quot;</div>
+                    href="/ISBDM/docs/relationships/1244.html">has date of copyright of
+                    manifestation</a></div>
+                <div class="col-6 border p-1 xampleValue">&quot;2022&quot;</div>
                 <div class="col-1 border p-1 xampleComment"></div>
               </div>
               <div class="row px-2">
                 <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
                     href="/ISBDM/docs/attributes/1022.html">has category of carrier</a></div>
-                <div class="col-6 border p-1 xampleValue">&quot;volume&quot;</div>
+                <div class="col-6 border p-1 xampleValue">&quot;audio disc&quot;</div>
                 <div class="col-1 border p-1 xampleComment"></div>
               </div>
               <div class="row px-2">
                 <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
                     href="/ISBDM/docs/attributes/1264.html">has category of embodied
                   content</a></div>
-                <div class="col-6 border p-1 xampleValue">&quot;text&quot;</div>
-                <div class="col-1 border p-1 xampleComment"></div>
-              </div>
-              <div class="row px-2">
-                <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
-                    href="/ISBDM/docs/attributes/1264.html">has category of embodied
-                  content</a></div>
-                <div class="col-6 border p-1 xampleValue">&quot;still image&quot;</div>
+                <div class="col-6 border p-1 xampleValue">&quot;performed music&quot;</div>
                 <div class="col-1 border p-1 xampleComment"></div>
               </div>
               <div class="row px-2">
                 <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
                     href="/ISBDM/docs/attributes/1218.html">has media type</a></div>
-                <div class="col-6 border p-1 xampleValue">&quot;unmediated&quot;</div>
+                <div class="col-6 border p-1 xampleValue">&quot;audio&quot;</div>
                 <div class="col-1 border p-1 xampleComment"></div>
               </div>
               <div class="row px-2">
                 <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
                     href="/ISBDM/docs/attributes/1262.html">has unitary structure</a></div>
-                <div class="col-6 border p-1 xampleValue">&quot;single unit&quot;</div>
+                <div class="col-6 border p-1 xampleValue">&quot;multiple unit&quot;</div>
+                <div class="col-1 border p-1 xampleComment"></div>
+              </div>
+              <div class="row px-2">
+                <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
+                    href="/ISBDM/docs/attributes/1275.html">has extent of unitary
+                  structure</a></div>
+                <div class="col-6 border p-1 xampleValue">&quot;4 CDs&quot;</div>
                 <div class="col-1 border p-1 xampleComment"></div>
               </div>
               <div class="row px-2">
                 <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
                     href="/ISBDM/docs/attributes/1277.html">has extent of embodied content</a></div>
-                <div class="col-6 border p-1 xampleValue">&quot;280 pages&quot;</div>
+                <div class="col-6 border p-1 xampleValue">&quot;222 mins&quot;</div>
+                <div class="col-1 border p-1 xampleComment"></div>
+              </div>
+              <div class="row px-2">
+                <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
+                    href="/ISBDM/docs/attributes/1278.html">has extent of aggregated
+                  content</a></div>
+                <div class="col-6 border p-1 xampleValue">&quot;34 performed songs&quot;</div>
+                <div class="col-1 border p-1 xampleComment"></div>
+              </div>
+              <div class="row px-2">
+                <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
+                    href="/ISBDM/docs/attributes/1023.html">has extent of manifestation</a></div>
+                <div class="col-6 border p-1 xampleValue">&quot;4 CDs (34 performed songs in 222
+                  mins)&quot;</div>
                 <div class="col-1 border p-1 xampleComment"></div>
               </div>
             </div>

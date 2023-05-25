@@ -81,10 +81,6 @@
                     Penguin Books; volume; paperback)</a>
                 </div>
                 <div class="d-flex align-items-center">
-                  <a href="/ISBDM/docs/fullex/fx011.html" class="linkMenuEntry">Biblioteka Vjeverica
-                    (1957-1998, Mladost; volumen; tvrdi uvez)</a>
-                </div>
-                <div class="d-flex align-items-center">
                   <a href="/ISBDM/docs/fullex/fx010.html" class="linkMenuEntry">Einstein on the
                     beach (2016; Opus Arte; videodisc; DVD)</a>
                 </div>
@@ -97,8 +93,7 @@
                   <a href="/ISBDM/docs/fullex/fx003.html" class="linkMenuEntry">Faded map (2010;
                     Birlinn Limited; volume; hardback)</a>
                 </div>
-                <div class="d-flex align-items-center" aria-current="true">
-                  <i class="bi bi-asterisk navISBDMSectionActive px-1"></i>
+                <div class="d-flex align-items-center">
                   <a href="/ISBDM/docs/fullex/fx005.html" class="linkMenuEntry">Knitting the
                     Semantic Web (2007; Howarth Information Press; volume)</a>
                 </div>
@@ -106,7 +101,8 @@
                   <a href="/ISBDM/docs/fullex/fx009.html" class="linkMenuEntry">Lyceum Theatre,
                     London, England, 5/26/72 (2022; Rhino Entertainment LLC; audio disc)</a>
                 </div>
-                <div class="d-flex align-items-center">
+                <div class="d-flex align-items-center" aria-current="true">
+                  <i class="bi bi-asterisk navISBDMSectionActive px-1"></i>
                   <a href="/ISBDM/docs/fullex/fx004.html" class="linkMenuEntry">Medo Winnie zvani
                     Pooh (1986; Mladost; volumen; tvrdi uvez)</a>
                 </div>
@@ -128,54 +124,63 @@
         </div>
         <div class="col-md-7 border rounded">
           <div class="row my-2">
-            <h3>Knitting the Semantic Web (2007; Howarth Information Press; volume)</h3>
-            <p>A collection aggregate also published as the manifestation of an issue of two serial
-              works.</p>
+            <h3>Medo Winnie zvani Pooh (1986; Mladost; volumen; tvrdi uvez)</h3>
+            <p>A single printed volume of a work of fiction translated from English into Croatian.
+              The publisher is one of the two that have published Milne’s novel, and the translator
+              is one of two translators. It is necessary to distinguish this manifestation from
+              others published so far: string encoding schemes used for values of <a
+                class="linkInline" href="/ISBDM/docs/relationships/1257.html">has authorized access
+                point of manifestation</a> and <a class="linkInline"
+                href="/ISBDM/docs/relationships/1012.html">has expression embodied in
+                manifestation</a> reflect that. The manifestation is a sub-unit of a series that has
+              been terminated. The translator changed her name, so the forms are different in values
+              of <a class="linkInline" href="/ISBDM/docs/statements/1028.html">has manifestation
+                statement of title and responsibility</a> and <a class="linkInline"
+                href="/ISBDM/docs/relationships/1006.html">has person associated with
+                manifestation</a>, which is the authorized form of her name taken from the NUL,
+              Croatia. The manifestation itself is an augmentation aggregate, with Milne’s text
+              augmented by Shepard’s illustrations.</p>
+            <p>The focus of the description is the manifestation of the issue, related to the
+              smanifestation of the eries as a super-unit. It is related to a description of the
+              series as a whole, inversely related to the issue as a sub-unit, via authorized access
+              points.</p>
             <div>
               <div class="row px-2">
                 <div class="col-5 border p-1 xampleLabel">Element</div>
                 <div class="col-6 border p-1 xampleValue">Value</div>
                 <div class="col-1 border p-1 xampleComment"></div>
               </div>
-              <div class="row px-2">
-                <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
-                    href="/ISBDM/docs/statements/1028.html">has manifestation statement of title and
-                    responsibility</a></div>
-                <div class="col-6 border p-1 xampleValue">&quot;Knitting the Semantic Web, Jane
-                  Greenberg &hellip;, Eva Méndez &hellip; editors&quot;</div>
-                <div class="col-1 border p-1 xampleComment"></div>
-              </div>
               <div>
                 <div class="row px-2">
                   <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
-                      href="/ISBDM/docs/statements/1030.html">has manifestation statement of
-                      publication, production, manufacture, or distribution</a></div>
-                  <div class="col-6 border p-1 xampleValue">&quot;&hellip; co-published
-                    simultaneously as Cataloguing & classification quarterly, volume 43, numbers 3/4
-                    2007&quot;</div>
+                      href="/ISBDM/docs/statements/1028.html">has manifestation statement of title
+                      and responsibility</a></div>
+                  <div class="col-6 border p-1 xampleValue">&quot;Alan Alexander Milne, Medo Winnie
+                    zvani Pooh&quot;</div>
                   <div class="col-1 border p-1 xampleComment"><a class="linkEdco"
-                      href="#fx005103001" data-bs-toggle="collapse" role="button"
-                      aria-expanded="false" aria-controls="fx005103001">&#8263;&#8263;</a></div>
+                      href="#fx004102801" data-bs-toggle="collapse" role="button"
+                      aria-expanded="false" aria-controls="fx004102801">&#8263;&#8263;</a></div>
                 </div>
-                <div class="collapse editComm" id="fx005103001">
+                <div class="collapse editComm" id="fx004102801">
                   <div class="row px-2">
-                    <div class="col editComment">[Most prominent and first statement.]</div>
+                    <div class="col editComment">[Most prominent statement (via title
+                      component).]</div>
                   </div>
                 </div>
               </div>
               <div>
                 <div class="row px-2">
                   <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
-                      href="/ISBDM/docs/statements/1030.html">has manifestation statement of
-                      publication, production, manufacture, or distribution</a></div>
-                  <div class="col-6 border p-1 xampleValue">&quot;Published by The Haworth
-                    Information Press &hellip; Binghamton NY &hellip; an imprint of The Haworth
-                    Press, Inc.&quot;</div>
+                      href="/ISBDM/docs/statements/1028.html">has manifestation statement of title
+                      and responsibility</a></div>
+                  <div class="col-6 border p-1 xampleValue">&quot;A.A. Milne, Medo Winnie zvani Pooh
+                    … ilustrirao Ernest H. Shepard, prevela Mia Pervan-Plavec, stihove napisao
+                    Zvonimir Balog&quot;</div>
                   <div class="col-1 border p-1 xampleComment"><a class="linkEdco"
-                      href="#fx005103002" data-bs-toggle="collapse" role="button"
-                      aria-expanded="false" aria-controls="fx005103002">&#8263;&#8263;</a></div>
+                      href="#fx004102802" data-bs-toggle="collapse" role="button"
+                      aria-expanded="false" aria-controls="fx004102802">&#8263;&#8263;</a></div>
                 </div>
-                <div class="collapse editComm" id="fx005103002">
+                <div class="collapse editComm" id="fx004102802">
                   <div class="row px-2">
                     <div class="col editComment">[Fullest statement.]</div>
                   </div>
@@ -184,25 +189,76 @@
               <div>
                 <div class="row px-2">
                   <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
-                      href="/ISBDM/docs/statements/1034.html">has manifestation statement of
-                      identifier and terms of availability</a></div>
-                  <div class="col-6 border p-1 xampleValue">&quot;ISBN-13: 978-8-7890-3591-2 (alk.
-                    paper) ISBN-10: 0-7890-591-X (alk. paper)&quot;</div>
+                      href="/ISBDM/docs/statements/1028.html">has manifestation statement of title
+                      and responsibility</a></div>
+                  <div class="col-6 border p-1 xampleValue">&quot;ilustrirao Ernest H. Shepard,
+                    prevela Mia Pervan-Plavec, stihove napisao Zvonimir Balog&quot;</div>
                   <div class="col-1 border p-1 xampleComment"><a class="linkEdco"
-                      href="#fx005103401" data-bs-toggle="collapse" role="button"
-                      aria-expanded="false" aria-controls="fx005103401">&#8263;&#8263;</a></div>
+                      href="#fx004102803" data-bs-toggle="collapse" role="button"
+                      aria-expanded="false" aria-controls="fx004102803">&#8263;&#8263;</a></div>
                 </div>
-                <div class="collapse editComm" id="fx005103401">
+                <div class="collapse editComm" id="fx004102803">
                   <div class="row px-2">
-                    <div class="col editComment">[Transcribed from CIP data.]</div>
+                    <div class="col editComment">[Fullest statement de-duplicated against most
+                      prominent statement.]</div>
                   </div>
                 </div>
               </div>
               <div class="row px-2">
                 <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
+                    href="/ISBDM/docs/statements/1030.html">has manifestation statement of
+                    publication, production, manufacture, or distribution</a></div>
+                <div class="col-6 border p-1 xampleValue">&quot;Mladost, Zagreb 1986&quot;</div>
+                <div class="col-1 border p-1 xampleComment"></div>
+              </div>
+              <div>
+                <div class="row px-2">
+                  <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
+                      href="/ISBDM/docs/statements/1029.html">has manifestation statement of
+                      edition</a></div>
+                  <div class="col-6 border p-1 xampleValue">&quot;Naslov originala, Alan Alexander
+                    Milne, Winnie-the-Pooh, Printed in Great Britain by Richard Clay (The Chaucer
+                    Press) Ltd., Bungay, Suffolk, Prvo izdanje objavljeno 1926 godine&quot;</div>
+                  <div class="col-1 border p-1 xampleComment"><a class="linkEdco"
+                      href="#fx004102901" data-bs-toggle="collapse" role="button"
+                      aria-expanded="false" aria-controls="fx004102901">&#8263;&#8263;</a></div>
+                </div>
+                <div class="collapse editComm" id="fx004102901">
+                  <div class="row px-2">
+                    <div class="col editComment">[Fullest, and first, statement covers the original
+                      manifestation that was translated as edition history.]</div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="row px-2">
+                  <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
+                      href="/ISBDM/docs/statements/1029.html">has manifestation statement of
+                      edition</a></div>
+                  <div class="col-6 border p-1 xampleValue">&quot;Prvo izdanje u ovoj
+                    biblioteci&quot;</div>
+                  <div class="col-1 border p-1 xampleComment"><a class="linkEdco"
+                      href="#fx004102902" data-bs-toggle="collapse" role="button"
+                      aria-expanded="false" aria-controls="fx004102902">&#8263;&#8263;</a></div>
+                </div>
+                <div class="collapse editComm" id="fx004102902">
+                  <div class="row px-2">
+                    <div class="col editComment">[Separate edition topic: indicates the
+                      manifestation may be a reprint for this series.]</div>
+                  </div>
+                </div>
+              </div>
+              <div class="row px-2">
+                <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
+                    href="/ISBDM/docs/statements/1031.html">has manifestation statement of issue or
+                    iteration</a></div>
+                <div class="col-6 border p-1 xampleValue">&quot;Biblioteka Vjeverica&quot;</div>
+                <div class="col-1 border p-1 xampleComment"></div>
+              </div>
+              <div class="row px-2">
+                <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
                     href="/ISBDM/docs/relationships/1038.html">has title proper</a></div>
-                <div class="col-6 border p-1 xampleValue">&quot;Knitting the Semantic
-                  Web&quot;</div>
+                <div class="col-6 border p-1 xampleValue">&quot;Medo Winnie zvani Pooh&quot;</div>
                 <div class="col-1 border p-1 xampleComment"></div>
               </div>
               <div>
@@ -210,13 +266,13 @@
                   <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
                       href="/ISBDM/docs/relationships/1257.html">has authorized access point of
                       manifestation</a></div>
-                  <div class="col-6 border p-1 xampleValue">&quot;Knitting the Semantic Web (2007;
-                    Howarth Information Press; volume)&quot;</div>
+                  <div class="col-6 border p-1 xampleValue">&quot;Medo Winnie zvani Pooh (1986;
+                    Mladost; volumen; tvrdi uvez))&quot;</div>
                   <div class="col-1 border p-1 xampleComment"><a class="linkEdco"
-                      href="#fx005125701" data-bs-toggle="collapse" role="button"
-                      aria-expanded="false" aria-controls="fx005125701">&#8263;&#8263;</a></div>
+                      href="#fx004125701" data-bs-toggle="collapse" role="button"
+                      aria-expanded="false" aria-controls="fx004125701">&#8263;&#8263;</a></div>
                 </div>
-                <div class="collapse editComm" id="fx005125701">
+                <div class="collapse editComm" id="fx004125701">
                   <div class="row px-2">
                     <div class="col editComment">[SES: <a class="linkInline"
                         href="/ISBDM/docs/relationships/ISBDMSES.html">ISBDM</a>]</div>
@@ -225,111 +281,120 @@
               </div>
               <div class="row px-2">
                 <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
-                    href="/ISBDM/docs/relationships/1111.html">has identifier of
-                  manifestation</a></div>
-                <div class="col-6 border p-1 xampleValue">&quot;9788789035912&quot;</div>
-                <div class="col-1 border p-1 xampleComment"></div>
-              </div>
-              <div class="row px-2">
-                <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
-                    href="/ISBDM/docs/relationships/1111.html">has identifier of
-                  manifestation</a></div>
-                <div class="col-6 border p-1 xampleValue">&quot;07890591X&quot;</div>
-                <div class="col-1 border p-1 xampleComment"></div>
-              </div>
-              <div class="row px-2">
-                <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
-                    href="/ISBDM/docs/relationships/1018.html">has alternate manifestation</a></div>
-                <div class="col-6 border p-1 xampleValue">&quot;Cataloging & classification
-                  quarterly (print), volume 43, issue 3-4 (2007)&quot;</div>
-                <div class="col-1 border p-1 xampleComment"></div>
-              </div>
-              <div class="row px-2">
-                <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
-                    href="/ISBDM/docs/relationships/1018.html">has alternate manifestation</a></div>
-                <div class="col-6 border p-1 xampleValue">&quot;Cataloging & classification
-                  quarterly (online), volume 3, issue 3-4 (2007)&quot;</div>
-                <div class="col-1 border p-1 xampleComment"></div>
-              </div>
-              <div class="row px-2">
-                <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
-                    href="/ISBDM/docs/relationships/1220.html">has work embodied in
+                    href="/ISBDM/docs/relationships/1012.html">has expression embodied in
                     manifestation</a></div>
-                <div class="col-6 border p-1 xampleValue">&quot;Knitting the Semantic Web
-                  (Greenberg, Mendez)&quot;</div>
+                <div class="col-6 border p-1 xampleValue">&quot;Milne, Alan Alexander, 1882-1956,
+                  Winnie-the-Pooh. Hrvatski (Pervan, Mia)&quot;</div>
+                <div class="col-1 border p-1 xampleComment"></div>
+              </div>
+              <div class="row px-2">
+                <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
+                    href="/ISBDM/docs/notes/1267.html">has note on expression associated with
+                    manifestation</a></div>
+                <div class="col-6 border p-1 xampleValue">&quot;Prijevod djela:
+                  Winnie-the-Pooh&quot;</div>
+                <div class="col-1 border p-1 xampleComment"></div>
+              </div>
+              <div class="row px-2">
+                <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
+                    href="/ISBDM/docs/relationships/1014.html">has super-unit</a></div>
+                <div class="col-6 border p-1 xampleValue">&quot;Biblioteka Vjeverica (1957-1998,
+                  Mladost; volumen; tvrdi uvez)&quot;</div>
+                <div class="col-1 border p-1 xampleComment"></div>
+              </div>
+              <div class="row px-2">
+                <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
+                    href="/ISBDM/docs/relationships/1003.html">has manifestation associated with
+                    manifestation</a></div>
+                <div class="col-6 border p-1 xampleValue">&quot;Winnie-the-Pooh (Chaucer Press,
+                  1926)&quot;</div>
                 <div class="col-1 border p-1 xampleComment"></div>
               </div>
               <div class="row px-2">
                 <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
                     href="/ISBDM/docs/relationships/1006.html">has person associated with
                     manifestation</a></div>
-                <div class="col-6 border p-1 xampleValue">&quot;Greenberg, Jane&quot;</div>
+                <div class="col-6 border p-1 xampleValue">&quot;Milne, Alan Alexander,
+                  1882-1956&quot;</div>
                 <div class="col-1 border p-1 xampleComment"></div>
               </div>
               <div class="row px-2">
                 <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
                     href="/ISBDM/docs/relationships/1006.html">has person associated with
                     manifestation</a></div>
-                <div class="col-6 border p-1 xampleValue">&quot;Méndez, Eva&quot;</div>
+                <div class="col-6 border p-1 xampleValue">&quot;Shepard, Ernest H.,
+                  1879-1976&quot;</div>
+                <div class="col-1 border p-1 xampleComment"></div>
+              </div>
+              <div class="row px-2">
+                <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
+                    href="/ISBDM/docs/relationships/1006.html">has person associated with
+                    manifestation</a></div>
+                <div class="col-6 border p-1 xampleValue">&quot;Pervan, Mia&quot;</div>
+                <div class="col-1 border p-1 xampleComment"></div>
+              </div>
+              <div class="row px-2">
+                <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
+                    href="/ISBDM/docs/relationships/1006.html">has person associated with
+                    manifestation</a></div>
+                <div class="col-6 border p-1 xampleValue">&quot;Balog, Zvonimir,
+                  1932-2014&quot;</div>
                 <div class="col-1 border p-1 xampleComment"></div>
               </div>
               <div class="row px-2">
                 <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
                     href="/ISBDM/docs/relationships/1254.html">has publisher collective
                   agent</a></div>
-                <div class="col-6 border p-1 xampleValue">&quot;The Haworth Information
-                  Press&quot;</div>
+                <div class="col-6 border p-1 xampleValue">&quot;Mladost&quot;</div>
                 <div class="col-1 border p-1 xampleComment"></div>
               </div>
               <div class="row px-2">
                 <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
                     href="/ISBDM/docs/relationships/1213.html">has place of publication</a></div>
-                <div class="col-6 border p-1 xampleValue">&quot;Binghamton (New York,
-                  USA)&quot;</div>
+                <div class="col-6 border p-1 xampleValue">&quot;Zagreb (Croatia)&quot;</div>
                 <div class="col-1 border p-1 xampleComment"></div>
               </div>
               <div class="row px-2">
                 <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
                     href="/ISBDM/docs/relationships/1210.html">has date of publication</a></div>
-                <div class="col-6 border p-1 xampleValue">&quot;2007&quot;</div>
+                <div class="col-6 border p-1 xampleValue">&quot;1986&quot;</div>
                 <div class="col-1 border p-1 xampleComment"></div>
               </div>
               <div class="row px-2">
                 <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
                     href="/ISBDM/docs/attributes/1022.html">has category of carrier</a></div>
-                <div class="col-6 border p-1 xampleValue">&quot;volume&quot;</div>
+                <div class="col-6 border p-1 xampleValue">&quot;volumen&quot;</div>
                 <div class="col-1 border p-1 xampleComment"></div>
               </div>
               <div class="row px-2">
                 <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
                     href="/ISBDM/docs/attributes/1264.html">has category of embodied
                   content</a></div>
-                <div class="col-6 border p-1 xampleValue">&quot;text&quot;</div>
-                <div class="col-1 border p-1 xampleComment"></div>
-              </div>
-              <div class="row px-2">
-                <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
-                    href="/ISBDM/docs/attributes/1264.html">has category of embodied
-                  content</a></div>
-                <div class="col-6 border p-1 xampleValue">&quot;still image&quot;</div>
+                <div class="col-6 border p-1 xampleValue">&quot;tekst&quot;</div>
                 <div class="col-1 border p-1 xampleComment"></div>
               </div>
               <div class="row px-2">
                 <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
                     href="/ISBDM/docs/attributes/1218.html">has media type</a></div>
-                <div class="col-6 border p-1 xampleValue">&quot;unmediated&quot;</div>
+                <div class="col-6 border p-1 xampleValue">&quot;neposredovan&quot;</div>
                 <div class="col-1 border p-1 xampleComment"></div>
               </div>
               <div class="row px-2">
                 <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
                     href="/ISBDM/docs/attributes/1262.html">has unitary structure</a></div>
-                <div class="col-6 border p-1 xampleValue">&quot;single unit&quot;</div>
+                <div class="col-6 border p-1 xampleValue">&quot;jednodijelan&quot;</div>
+                <div class="col-1 border p-1 xampleComment"></div>
+              </div>
+              <div class="row px-2">
+                <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
+                    href="/ISBDM/docs/attributes/1241.html">has binding</a></div>
+                <div class="col-6 border p-1 xampleValue">&quot;tvrdi uvez&quot;</div>
                 <div class="col-1 border p-1 xampleComment"></div>
               </div>
               <div class="row px-2">
                 <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
                     href="/ISBDM/docs/attributes/1277.html">has extent of embodied content</a></div>
-                <div class="col-6 border p-1 xampleValue">&quot;280 pages&quot;</div>
+                <div class="col-6 border p-1 xampleValue">&quot;168 stranica&quot;</div>
                 <div class="col-1 border p-1 xampleComment"></div>
               </div>
             </div>

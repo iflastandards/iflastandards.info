@@ -81,10 +81,6 @@
                     Penguin Books; volume; paperback)</a>
                 </div>
                 <div class="d-flex align-items-center">
-                  <a href="/ISBDM/docs/fullex/fx011.html" class="linkMenuEntry">Biblioteka Vjeverica
-                    (1957-1998, Mladost; volumen; tvrdi uvez)</a>
-                </div>
-                <div class="d-flex align-items-center">
                   <a href="/ISBDM/docs/fullex/fx010.html" class="linkMenuEntry">Einstein on the
                     beach (2016; Opus Arte; videodisc; DVD)</a>
                 </div>
@@ -97,8 +93,7 @@
                   <a href="/ISBDM/docs/fullex/fx003.html" class="linkMenuEntry">Faded map (2010;
                     Birlinn Limited; volume; hardback)</a>
                 </div>
-                <div class="d-flex align-items-center" aria-current="true">
-                  <i class="bi bi-asterisk navISBDMSectionActive px-1"></i>
+                <div class="d-flex align-items-center">
                   <a href="/ISBDM/docs/fullex/fx005.html" class="linkMenuEntry">Knitting the
                     Semantic Web (2007; Howarth Information Press; volume)</a>
                 </div>
@@ -118,7 +113,8 @@
                   <a href="/ISBDM/docs/fullex/fx001.html" class="linkMenuEntry">Paris apartment
                     (2022; HarperCollinsPublishers; volume; hardback)</a>
                 </div>
-                <div class="d-flex align-items-center">
+                <div class="d-flex align-items-center" aria-current="true">
+                  <i class="bi bi-asterisk navISBDMSectionActive px-1"></i>
                   <a href="/ISBDM/docs/fullex/fx006.html" class="linkMenuEntry">RDA toolkit (2020-;
                     RDA Copyright Holders; online resource)</a>
                 </div>
@@ -128,81 +124,86 @@
         </div>
         <div class="col-md-7 border rounded">
           <div class="row my-2">
-            <h3>Knitting the Semantic Web (2007; Howarth Information Press; volume)</h3>
-            <p>A collection aggregate also published as the manifestation of an issue of two serial
-              works.</p>
+            <h3>RDA toolkit (2020-; RDA Copyright Holders; online resource)</h3>
+            <p>An online manifestation that embodies an integrating work.</p>
             <div>
               <div class="row px-2">
                 <div class="col-5 border p-1 xampleLabel">Element</div>
                 <div class="col-6 border p-1 xampleValue">Value</div>
                 <div class="col-1 border p-1 xampleComment"></div>
               </div>
+              <div>
+                <div class="row px-2">
+                  <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
+                      href="/ISBDM/docs/statements/1028.html">has manifestation statement of title
+                      and responsibility</a></div>
+                  <div class="col-6 border p-1 xampleValue">&quot;Welcome to RDA Toolkit&quot;</div>
+                  <div class="col-1 border p-1 xampleComment"><a class="linkEdco"
+                      href="#fx006102801" data-bs-toggle="collapse" role="button"
+                      aria-expanded="false" aria-controls="fx006102801">&#8263;&#8263;</a></div>
+                </div>
+                <div class="collapse editComm" id="fx006102801">
+                  <div class="row px-2">
+                    <div class="col editComment">[Most prominent statement (on home page).]</div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="row px-2">
+                  <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
+                      href="/ISBDM/docs/statements/1028.html">has manifestation statement of title
+                      and responsibility</a></div>
+                  <div class="col-6 border p-1 xampleValue">&quot;The RDA Steering Committee (RSC)
+                    is authorized by the RDA Board with the responsibility for updating and
+                    maintaining the content of RDA.&quot;</div>
+                  <div class="col-1 border p-1 xampleComment"><a class="linkEdco"
+                      href="#fx006102802" data-bs-toggle="collapse" role="button"
+                      aria-expanded="false" aria-controls="fx006102802">&#8263;&#8263;</a></div>
+                </div>
+                <div class="collapse editComm" id="fx006102802">
+                  <div class="row px-2">
+                    <div class="col editComment">[From About page.]</div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="row px-2">
+                  <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
+                      href="/ISBDM/docs/statements/1030.html">has manifestation statement of
+                      publication, production, manufacture, or distribution</a></div>
+                  <div class="col-6 border p-1 xampleValue">&quot;RDA Toolkit is published by the
+                    RDA Copyright Holders … American Library Association; Canadian Federation of
+                    Library Associations; CILIP: the Chartered Institute of Library and Information
+                    Professionals&quot;</div>
+                  <div class="col-1 border p-1 xampleComment"><a class="linkEdco"
+                      href="#fx006103001" data-bs-toggle="collapse" role="button"
+                      aria-expanded="false" aria-controls="fx006103001">&#8263;&#8263;</a></div>
+                </div>
+                <div class="collapse editComm" id="fx006103001">
+                  <div class="row px-2">
+                    <div class="col editComment">[From About page.]</div>
+                  </div>
+                </div>
+              </div>
               <div class="row px-2">
                 <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
-                    href="/ISBDM/docs/statements/1028.html">has manifestation statement of title and
-                    responsibility</a></div>
-                <div class="col-6 border p-1 xampleValue">&quot;Knitting the Semantic Web, Jane
-                  Greenberg &hellip;, Eva Méndez &hellip; editors&quot;</div>
+                    href="/ISBDM/docs/statements/1034.html">has manifestation statement of
+                    identifier and terms of availability</a></div>
+                <div class="col-6 border p-1 xampleValue">&quot;ISSN 2167-3241&quot;</div>
                 <div class="col-1 border p-1 xampleComment"></div>
               </div>
-              <div>
-                <div class="row px-2">
-                  <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
-                      href="/ISBDM/docs/statements/1030.html">has manifestation statement of
-                      publication, production, manufacture, or distribution</a></div>
-                  <div class="col-6 border p-1 xampleValue">&quot;&hellip; co-published
-                    simultaneously as Cataloguing & classification quarterly, volume 43, numbers 3/4
-                    2007&quot;</div>
-                  <div class="col-1 border p-1 xampleComment"><a class="linkEdco"
-                      href="#fx005103001" data-bs-toggle="collapse" role="button"
-                      aria-expanded="false" aria-controls="fx005103001">&#8263;&#8263;</a></div>
-                </div>
-                <div class="collapse editComm" id="fx005103001">
-                  <div class="row px-2">
-                    <div class="col editComment">[Most prominent and first statement.]</div>
-                  </div>
-                </div>
-              </div>
-              <div>
-                <div class="row px-2">
-                  <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
-                      href="/ISBDM/docs/statements/1030.html">has manifestation statement of
-                      publication, production, manufacture, or distribution</a></div>
-                  <div class="col-6 border p-1 xampleValue">&quot;Published by The Haworth
-                    Information Press &hellip; Binghamton NY &hellip; an imprint of The Haworth
-                    Press, Inc.&quot;</div>
-                  <div class="col-1 border p-1 xampleComment"><a class="linkEdco"
-                      href="#fx005103002" data-bs-toggle="collapse" role="button"
-                      aria-expanded="false" aria-controls="fx005103002">&#8263;&#8263;</a></div>
-                </div>
-                <div class="collapse editComm" id="fx005103002">
-                  <div class="row px-2">
-                    <div class="col editComment">[Fullest statement.]</div>
-                  </div>
-                </div>
-              </div>
-              <div>
-                <div class="row px-2">
-                  <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
-                      href="/ISBDM/docs/statements/1034.html">has manifestation statement of
-                      identifier and terms of availability</a></div>
-                  <div class="col-6 border p-1 xampleValue">&quot;ISBN-13: 978-8-7890-3591-2 (alk.
-                    paper) ISBN-10: 0-7890-591-X (alk. paper)&quot;</div>
-                  <div class="col-1 border p-1 xampleComment"><a class="linkEdco"
-                      href="#fx005103401" data-bs-toggle="collapse" role="button"
-                      aria-expanded="false" aria-controls="fx005103401">&#8263;&#8263;</a></div>
-                </div>
-                <div class="collapse editComm" id="fx005103401">
-                  <div class="row px-2">
-                    <div class="col editComment">[Transcribed from CIP data.]</div>
-                  </div>
-                </div>
+              <div class="row px-2">
+                <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
+                    href="/ISBDM/docs/notes/1207.html">has note on manifestation</a></div>
+                <div class="col-6 border p-1 xampleValue">&quot;The first release of RDA Toolkit
+                  following the RDA Toolkit Restructure and Redesign Project is December
+                  2020.&quot;</div>
+                <div class="col-1 border p-1 xampleComment"></div>
               </div>
               <div class="row px-2">
                 <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
                     href="/ISBDM/docs/relationships/1038.html">has title proper</a></div>
-                <div class="col-6 border p-1 xampleValue">&quot;Knitting the Semantic
-                  Web&quot;</div>
+                <div class="col-6 border p-1 xampleValue">&quot;RDA toolkit&quot;</div>
                 <div class="col-1 border p-1 xampleComment"></div>
               </div>
               <div>
@@ -210,94 +211,120 @@
                   <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
                       href="/ISBDM/docs/relationships/1257.html">has authorized access point of
                       manifestation</a></div>
-                  <div class="col-6 border p-1 xampleValue">&quot;Knitting the Semantic Web (2007;
-                    Howarth Information Press; volume)&quot;</div>
+                  <div class="col-6 border p-1 xampleValue">&quot;RDA toolkit (2020-; RDA Copyright
+                    Holders; online resource)&quot;</div>
                   <div class="col-1 border p-1 xampleComment"><a class="linkEdco"
-                      href="#fx005125701" data-bs-toggle="collapse" role="button"
-                      aria-expanded="false" aria-controls="fx005125701">&#8263;&#8263;</a></div>
+                      href="#fx006125701" data-bs-toggle="collapse" role="button"
+                      aria-expanded="false" aria-controls="fx006125701">&#8263;&#8263;</a></div>
                 </div>
-                <div class="collapse editComm" id="fx005125701">
+                <div class="collapse editComm" id="fx006125701">
                   <div class="row px-2">
                     <div class="col editComment">[SES: <a class="linkInline"
                         href="/ISBDM/docs/relationships/ISBDMSES.html">ISBDM</a>]</div>
                   </div>
                 </div>
               </div>
-              <div class="row px-2">
-                <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
-                    href="/ISBDM/docs/relationships/1111.html">has identifier of
-                  manifestation</a></div>
-                <div class="col-6 border p-1 xampleValue">&quot;9788789035912&quot;</div>
-                <div class="col-1 border p-1 xampleComment"></div>
-              </div>
-              <div class="row px-2">
-                <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
-                    href="/ISBDM/docs/relationships/1111.html">has identifier of
-                  manifestation</a></div>
-                <div class="col-6 border p-1 xampleValue">&quot;07890591X&quot;</div>
-                <div class="col-1 border p-1 xampleComment"></div>
-              </div>
-              <div class="row px-2">
-                <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
-                    href="/ISBDM/docs/relationships/1018.html">has alternate manifestation</a></div>
-                <div class="col-6 border p-1 xampleValue">&quot;Cataloging & classification
-                  quarterly (print), volume 43, issue 3-4 (2007)&quot;</div>
-                <div class="col-1 border p-1 xampleComment"></div>
-              </div>
-              <div class="row px-2">
-                <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
-                    href="/ISBDM/docs/relationships/1018.html">has alternate manifestation</a></div>
-                <div class="col-6 border p-1 xampleValue">&quot;Cataloging & classification
-                  quarterly (online), volume 3, issue 3-4 (2007)&quot;</div>
-                <div class="col-1 border p-1 xampleComment"></div>
-              </div>
-              <div class="row px-2">
-                <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
-                    href="/ISBDM/docs/relationships/1220.html">has work embodied in
+              <div>
+                <div class="row px-2">
+                  <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
+                      href="/ISBDM/docs/relationships/1111.html">has identifier of
                     manifestation</a></div>
-                <div class="col-6 border p-1 xampleValue">&quot;Knitting the Semantic Web
-                  (Greenberg, Mendez)&quot;</div>
-                <div class="col-1 border p-1 xampleComment"></div>
+                  <div class="col-6 border p-1 xampleValue"
+                    >&quot;https://access.rdatoolkit.org/&quot;</div>
+                  <div class="col-1 border p-1 xampleComment"><a class="linkEdco"
+                      href="#fx006111101" data-bs-toggle="collapse" role="button"
+                      aria-expanded="false" aria-controls="fx006111101">&#8263;&#8263;</a></div>
+                </div>
+                <div class="collapse editComm" id="fx006111101">
+                  <div class="row px-2">
+                    <div class="col editComment">[Stringified URL (IRI) of the online
+                      manifestation.]</div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="row px-2">
+                  <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
+                      href="/ISBDM/docs/relationships/1220.html">has work embodied in
+                      manifestation</a></div>
+                  <div class="col-6 border p-1 xampleValue">&quot;ISSN 2167-3241&quot;</div>
+                  <div class="col-1 border p-1 xampleComment"><a class="linkEdco"
+                      href="#fx006122001" data-bs-toggle="collapse" role="button"
+                      aria-expanded="false" aria-controls="fx006122001">&#8263;&#8263;</a></div>
+                </div>
+                <div class="collapse editComm" id="fx006122001">
+                  <div class="row px-2">
+                    <div class="col editComment">[ISSN is a work identifier.]</div>
+                  </div>
+                </div>
               </div>
               <div class="row px-2">
                 <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
-                    href="/ISBDM/docs/relationships/1006.html">has person associated with
+                    href="/ISBDM/docs/relationships/1007.html">has collective agent associated with
                     manifestation</a></div>
-                <div class="col-6 border p-1 xampleValue">&quot;Greenberg, Jane&quot;</div>
-                <div class="col-1 border p-1 xampleComment"></div>
-              </div>
-              <div class="row px-2">
-                <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
-                    href="/ISBDM/docs/relationships/1006.html">has person associated with
-                    manifestation</a></div>
-                <div class="col-6 border p-1 xampleValue">&quot;Méndez, Eva&quot;</div>
+                <div class="col-6 border p-1 xampleValue">&quot;RDA Steering Committee&quot;</div>
                 <div class="col-1 border p-1 xampleComment"></div>
               </div>
               <div class="row px-2">
                 <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
                     href="/ISBDM/docs/relationships/1254.html">has publisher collective
                   agent</a></div>
-                <div class="col-6 border p-1 xampleValue">&quot;The Haworth Information
-                  Press&quot;</div>
+                <div class="col-6 border p-1 xampleValue">&quot;RDA Copyright Holders&quot;</div>
+                <div class="col-1 border p-1 xampleComment"></div>
+              </div>
+              <div class="row px-2">
+                <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
+                    href="/ISBDM/docs/relationships/1254.html">has publisher collective
+                  agent</a></div>
+                <div class="col-6 border p-1 xampleValue">&quot;American Library
+                  Association&quot;</div>
+                <div class="col-1 border p-1 xampleComment"></div>
+              </div>
+              <div class="row px-2">
+                <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
+                    href="/ISBDM/docs/relationships/1254.html">has publisher collective
+                  agent</a></div>
+                <div class="col-6 border p-1 xampleValue">&quot;Canadian Federation of Library
+                  Associations&quot;</div>
+                <div class="col-1 border p-1 xampleComment"></div>
+              </div>
+              <div class="row px-2">
+                <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
+                    href="/ISBDM/docs/relationships/1254.html">has publisher collective
+                  agent</a></div>
+                <div class="col-6 border p-1 xampleValue">&quot;CILIP: the Chartered Institute of
+                  Library and Information Professionals&quot;</div>
                 <div class="col-1 border p-1 xampleComment"></div>
               </div>
               <div class="row px-2">
                 <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
                     href="/ISBDM/docs/relationships/1213.html">has place of publication</a></div>
-                <div class="col-6 border p-1 xampleValue">&quot;Binghamton (New York,
-                  USA)&quot;</div>
+                <div class="col-6 border p-1 xampleValue">&quot;Chicago (Illinois, USA)&quot;</div>
+                <div class="col-1 border p-1 xampleComment"></div>
+              </div>
+              <div class="row px-2">
+                <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
+                    href="/ISBDM/docs/relationships/1213.html">has place of publication</a></div>
+                <div class="col-6 border p-1 xampleValue">&quot;Toronto (Ontario,
+                  Canada)&quot;</div>
+                <div class="col-1 border p-1 xampleComment"></div>
+              </div>
+              <div class="row px-2">
+                <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
+                    href="/ISBDM/docs/relationships/1213.html">has place of publication</a></div>
+                <div class="col-6 border p-1 xampleValue">&quot;London (England)&quot;</div>
                 <div class="col-1 border p-1 xampleComment"></div>
               </div>
               <div class="row px-2">
                 <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
                     href="/ISBDM/docs/relationships/1210.html">has date of publication</a></div>
-                <div class="col-6 border p-1 xampleValue">&quot;2007&quot;</div>
+                <div class="col-6 border p-1 xampleValue">&quot;2020-&quot;</div>
                 <div class="col-1 border p-1 xampleComment"></div>
               </div>
               <div class="row px-2">
                 <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
                     href="/ISBDM/docs/attributes/1022.html">has category of carrier</a></div>
-                <div class="col-6 border p-1 xampleValue">&quot;volume&quot;</div>
+                <div class="col-6 border p-1 xampleValue">&quot;online resource&quot;</div>
                 <div class="col-1 border p-1 xampleComment"></div>
               </div>
               <div class="row px-2">
@@ -309,27 +336,14 @@
               </div>
               <div class="row px-2">
                 <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
-                    href="/ISBDM/docs/attributes/1264.html">has category of embodied
-                  content</a></div>
-                <div class="col-6 border p-1 xampleValue">&quot;still image&quot;</div>
-                <div class="col-1 border p-1 xampleComment"></div>
-              </div>
-              <div class="row px-2">
-                <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
                     href="/ISBDM/docs/attributes/1218.html">has media type</a></div>
-                <div class="col-6 border p-1 xampleValue">&quot;unmediated&quot;</div>
+                <div class="col-6 border p-1 xampleValue">&quot;computer&quot;</div>
                 <div class="col-1 border p-1 xampleComment"></div>
               </div>
               <div class="row px-2">
                 <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
                     href="/ISBDM/docs/attributes/1262.html">has unitary structure</a></div>
                 <div class="col-6 border p-1 xampleValue">&quot;single unit&quot;</div>
-                <div class="col-1 border p-1 xampleComment"></div>
-              </div>
-              <div class="row px-2">
-                <div class="col-5 border p-1 xampleLabel"><a class="linkMenuElement"
-                    href="/ISBDM/docs/attributes/1277.html">has extent of embodied content</a></div>
-                <div class="col-6 border p-1 xampleValue">&quot;280 pages&quot;</div>
                 <div class="col-1 border p-1 xampleComment"></div>
               </div>
             </div>
