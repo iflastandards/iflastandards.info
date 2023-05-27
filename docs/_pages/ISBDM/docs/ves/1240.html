@@ -76,7 +76,8 @@
             <div class="col-md-12">
               <nav class="d-flex flex-column navISBDMSection"
                 aria-label="Navigation for attribute elements">
-                <div class="d-flex align-items-center">
+                <div class="d-flex align-items-center" aria-current="true">
+                  <i class="bi bi-asterisk navISBDMSectionActive px-1"></i>
                   <a href="/ISBDM/docs/ves/1240.html" class="linkMenuEntry">ISBDM Bibliographic
                     Format value vocabulary</a>
                 </div>
@@ -91,8 +92,7 @@
                   <a href="/ISBDM/docs/ves/1264.html" class="linkMenuEntry">ISBDM Category of
                     Content value vocabulary</a>
                 </div>
-                <div class="d-flex align-items-center" aria-current="true">
-                  <i class="bi bi-asterisk navISBDMSectionActive px-1"></i>
+                <div class="d-flex align-items-center">
                   <a href="/ISBDM/docs/ves/1218.html" class="linkMenuEntry">ISBDM Media Type value
                     vocabulary</a>
                 </div>
@@ -113,57 +113,75 @@
           </div>
         </div>
         <div class="col-md-7">
-          <div class="row my-2">
-            <h3>ISBDM Media Type value vocabulary</h3>
+          <div class="row m-1">
+            <h3>ISBDM Bibliographic Format value vocabulary</h3>
             <p>This value vocabulary is a source of values for a <a class="linkInline"
-                href="/ISBDM/docs/attributes/1218.html">has media type</a> element.</p>
+                href="/ISBDM/docs/attributes/1240.html">has bibliographic format</a> element.</p>
             <div class="row vesHeader">
               <div class="col-3 border">Value</div>
               <div class="col-5 border">Definition</div>
               <div class="col-4 border">Scope note</div>
             </div>
-            <div class="row"><div class="col-3 border vesValue"><p>audio</p></div><div
-                class="col-5 border"><p>A media type used to store recorded sound, designed for use
-                  with a playback device such as a turntable, audiocassette player, CD player, or
-                  MP3 player.</p></div><div class="col-4 border"><p>Media used to store digitally
-                  encoded as well as analog sound are included.</p></div></div>
-            <div class="row"><div class="col-3 border vesValue"><p>microform</p></div><div
-                class="col-5 border"><p>A media type used to store reduced-size images not readable
-                  to the human eye, designed for use with a device such as a microfilm or microfiche
-                  reader.</p></div><div class="col-4 border"><p>Both transparent and opaque
-                  micrographic media are included.</p></div></div>
-            <div class="row"><div class="col-3 border vesValue"><p>computer</p></div><div
-                class="col-5 border"><p>A media type used to store electronic files, designed for
-                  use with a computer.</p></div><div class="col-4 border"><p>Media that are accessed
-                  remotely through file servers as well as direct-access media such as computer
-                  tapes and discs are included.</p></div></div>
-            <div class="row"><div class="col-3 border vesValue"><p>microscopic</p></div><div
-                class="col-5 border"><p>A media type used to store minute objects, designed for use
-                  with a device such as a microscope to reveal details invisible to the naked
-                  eye.</p></div><div class="col-4 border"><p></p></div></div>
-            <div class="row"><div class="col-3 border vesValue"><p>projected</p></div><div
-                class="col-5 border"><p>A media type used to store moving or still images, designed
-                  for use with a projection device such as a motion picture film projector, slide
-                  projector, or overhead projector.</p></div><div class="col-4 border"><p>Media
-                  designed to project both two-dimensional and three-dimensional images are
-                  included.</p></div></div>
-            <div class="row"><div class="col-3 border vesValue"><p>stereographic</p></div><div
-                class="col-5 border"><p>A media type used to store pairs of still images, designed
-                  for use with a device such as a stereoscope or stereograph viewer to give the
-                  effect of three dimensions.</p></div><div class="col-4 border"><p></p></div></div>
-            <div class="row"><div class="col-3 border vesValue"><p>unmediated</p></div><div
-                class="col-5 border"><p>A media type used to store content designed to be perceived
-                  directly through one or more of the human senses without the aid of an
-                  intermediating device.</p></div><div class="col-4 border"><p>Media containing
-                  visual or tactile content produced using processes such as printing, engraving,
-                  lithography, etc., embossing, texturing, etc., or by means of handwriting,
-                  drawing, painting, etc., are included. Media used to convey three-dimensional
-                  forms such as sculptures, models, etc., are also included.</p></div></div>
-            <div class="row"><div class="col-3 border vesValue"><p>video</p></div><div
-                class="col-5 border"><p>A media type used to store moving or still images, designed
-                  for use with a playback device such as a videocassette player or DVD
-                player.</p></div><div class="col-4 border"><p>Media used to store digitally encoded
-                  as well as analog images are included.</p></div></div>
+            <div class="row"><div class="col-3 border vesValue"><p>folio</p></div><div
+                class="col-5 border"><p>A bibliographic format that consists of one or more leaves
+                  that are 1/2 of the whole sheet.</p></div><div class="col-4 border"
+              ><p></p></div></div>
+            <div class="row"><div class="col-3 border vesValue"><p>full-sheet</p></div><div
+                class="col-5 border"><p>A bibliographic format that consists of one or more sheets
+                  that have not been cut or folded.</p></div><div class="col-4 border"
+              ><p></p></div></div>
+            <div class="row"><div class="col-3 border vesValue"><p>4to</p></div><div
+                class="col-5 border"><p>A bibliographic format that consists of one or more leaves
+                  that are 1/4 of the whole sheet.</p></div><div class="col-4 border"
+              ><p></p></div></div>
+            <div class="row"><div class="col-3 border vesValue"><p>8vo</p></div><div
+                class="col-5 border"><p>A bibliographic format that consists of one or more leaves
+                  that are 1/8 of the whole sheet.</p></div><div class="col-4 border"
+              ><p></p></div></div>
+            <div class="row"><div class="col-3 border vesValue"><p>12mo</p></div><div
+                class="col-5 border"><p>A bibliographic format that consists of one or more leaves
+                  that are 1/12 of the whole sheet.</p></div><div class="col-4 border"
+              ><p></p></div></div>
+            <div class="row"><div class="col-3 border vesValue"><p>16mo</p></div><div
+                class="col-5 border"><p>A bibliographic format that consists of one or more leaves
+                  that are 1/16 of the whole sheet.</p></div><div class="col-4 border"
+              ><p></p></div></div>
+            <div class="row"><div class="col-3 border vesValue"><p>18mo</p></div><div
+                class="col-5 border"><p>A bibliographic format that consists of one or more leaves
+                  that are 1/18 of the whole sheet.</p></div><div class="col-4 border"
+              ><p></p></div></div>
+            <div class="row"><div class="col-3 border vesValue"><p>24mo</p></div><div
+                class="col-5 border"><p>A bibliographic format that consists of one or more leaves
+                  that are 1/24 of the whole sheet.</p></div><div class="col-4 border"
+              ><p></p></div></div>
+            <div class="row"><div class="col-3 border vesValue"><p>32mo</p></div><div
+                class="col-5 border"><p>A bibliographic format that consists of one or more leaves
+                  that are 1/32 of the whole sheet.</p></div><div class="col-4 border"
+              ><p></p></div></div>
+            <div class="row"><div class="col-3 border vesValue"><p>48mo</p></div><div
+                class="col-5 border"><p>A bibliographic format that consists of one or more leaves
+                  that are 1/48 of the whole sheet.</p></div><div class="col-4 border"
+              ><p></p></div></div>
+            <div class="row"><div class="col-3 border vesValue"><p>64mo</p></div><div
+                class="col-5 border"><p>A bibliographic format that consists of one or more leaves
+                  that are 1/64 of the whole sheet.</p></div><div class="col-4 border"
+              ><p></p></div></div>
+            <div class="row"><div class="col-3 border vesValue"><p>36mo</p></div><div
+                class="col-5 border"><p>A bibliographic format that consists of one or more leaves
+                  that are 1/36 of the whole sheet.</p></div><div class="col-4 border"
+              ><p></p></div></div>
+            <div class="row"><div class="col-3 border vesValue"><p>72mo</p></div><div
+                class="col-5 border"><p>A bibliographic format that consists of one or more leaves
+                  that are 1/72 of the whole sheet.</p></div><div class="col-4 border"
+              ><p></p></div></div>
+            <div class="row"><div class="col-3 border vesValue"><p>96mo</p></div><div
+                class="col-5 border"><p>A bibliographic format that consists of one or more leaves
+                  that are 1/96 of the whole sheet.</p></div><div class="col-4 border"
+              ><p></p></div></div>
+            <div class="row"><div class="col-3 border vesValue"><p>128mo</p></div><div
+                class="col-5 border"><p>A bibliographic format that consists of one or more leaves
+                  that are 1/128 of the whole sheet.</p></div><div class="col-4 border"
+                ><p></p></div></div>
           </div>
         </div>
       </div>
