@@ -85,8 +85,9 @@
                   <a class="linkMenuElement" href="/ISBDM/docs/attributes/1263.html">has category of
                     manifestation</a>
                 </div>
-                <div class="d-flex align-items-center">
+                <div class="d-flex align-items-center" aria-current="true">
                   <i class="bi bi-arrow-return-right px-1"></i>
+                  <i class="bi bi-asterisk navISBDMSectionActive px-1"></i>
                   <a class="linkMenuElement" href="/ISBDM/docs/attributes/1022.html">has category of
                     carrier</a>
                 </div>
@@ -104,9 +105,8 @@
                   <a class="linkMenuElement" href="/ISBDM/docs/attributes/1242.html">has physical
                     details</a>
                 </div>
-                <div class="d-flex align-items-center" aria-current="true">
+                <div class="d-flex align-items-center">
                   <i class="bi bi-arrow-return-right px-1"></i>
-                  <i class="bi bi-asterisk navISBDMSectionActive px-1"> </i>
                   <a class="linkMenuElement" href="/ISBDM/docs/attributes/1241.html">has binding</a>
                 </div>
                 <div class="d-flex align-items-center">
@@ -131,10 +131,11 @@
                   <a class="linkMenuElement" href="/ISBDM/docs/attributes/1277.html">has extent of
                     embodied content</a>
                 </div>
-                <div class="d-flex align-items-center">
+                <div class="d-flex align-items-center" aria-current="true">
                   <i class="bi bi-arrow-return-right px-1"></i>
                   <i class="bi bi-arrow-return-right px-1"></i>
                   <i class="bi bi-arrow-return-right px-1"></i>
+                  <i class="bi bi-asterisk navISBDMSectionActive px-1"></i>
                   <a class="linkMenuElement" href="/ISBDM/docs/attributes/1285.html">has designation
                     of number of sound channels</a>
                 </div>
@@ -285,18 +286,19 @@
         </div>
         <div class="col-md-7 border rounded">
           <div class="row m-1">
-            <h3>has binding</h3>
+            <h3>has designation of number of sound channels</h3>
             <h4>Element reference</h4>
             <div class="px-4">
               <div class="row">
                 <div class="col-md-3 border elref">Definition</div>
-                <div class="col-md-9 border eltext">Relates a manifestation to the method of
-                  attaching more than one sheet to form a single unit.</div>
+                <div class="col-md-9 border eltext">Relates a manifestation to an extent of embodied
+                  content that is a standard configuration of distinct parallel streams that embody
+                  a single expression of audio content.</div>
               </div>
               <div class="row">
                 <div class="col-md-3 border elref">Scope note</div>
-                <div class="col-md-9 border eltext">This element applies to a manifestation that is
-                  a volume.</div>
+                <div class="col-md-9 border eltext">This element applies to a manifestation that
+                  embodies performed music, sounds, or spoken word content.</div>
               </div>
               <div class="row">
                 <div class="col-md-3 border elref">Domain</div>
@@ -308,18 +310,31 @@
               </div>
               <div class="row">
                 <div class="col-md-3 border elref">Element sub-type</div>
-                <div class="col-md-9 border eltext"></div>
+                <div class="col-md-9 border eltext">
+                  <div class="d-flex flex-column navISBDMRef"
+                    aria-label="Navigation for related elements"> </div>
+                </div>
               </div>
               <div class="row">
                 <div class="col-md-3 border elref">Element super-type</div>
                 <div class="col-md-9 border eltext">
                   <div class="d-flex flex-column navISBDMRef"
                     aria-label="Navigation for related elements">
-                    <a class="linkMenuElement" href="/ISBDM/docs/attributes/1242.html">has physical
-                      details</a>
-                  </div>
+                    <a class="linkMenuElement" href="/ISBDM/docs/attributes/1277.html">has extent of
+                      embodied content</a></div>
                 </div>
               </div>
+            </div>
+          </div>
+          <div class="row my-1">
+            <h4>Additional information</h4>
+            <p>Record a designation for the number of channels that embody the content. Do not
+              include recording tracks that are not used.</p>
+            <div class="seeAlso">
+              <p><i>See also</i>: <a class="linkMenuElement" href="/ISBDM/docs/attributes/1228.html"
+                  >has number of recording tracks</a></p>
+              <p><i>See also</i>: <a class="linkMenuElement" href="/ISBDM/docs/attributes/1230.html"
+                  >has number of sound channels</a></p>
             </div>
           </div>
           <div class="row m-1">
@@ -331,15 +346,41 @@
               <p>Apply the stipulations for the element super-type unless indicated otherwise.</p>
             </div>
             <div class="stip">
-              <p>Record only one occurrence of the element.</p>
-            </div>
-            <div class="stip">
               <p>Record a value that appears in the <a class="linkInline"
-                  href="/ISBDM/docs/ves/1241.html">ISBDM Binding value vocabulary</a>.</p>
+                  href="/ISBDM/docs/ves/1285.html">ISBDM Designation of Sound Channels value
+                  vocabulary</a>.</p>
+              <div class="xampleBlockStip">
+                <p><a class="linkEx" href="#isbdmex1" data-bs-toggle="collapse" role="button"
+                    aria-expanded="false" aria-controls="isbdmex1">Examples</a></p>
+                <div class="collapse xamples" id="isbdmex1">
+                  <div>
+                    <div class="row px-2">
+                      <div class="col-6 xampleLabel">has designation of number of sound
+                        channels</div>
+                      <div class="col-6 xampleValue">&quot;stereo&quot;</div>
+                    </div>
+                    <div class="row px-2">
+                      <div class="col editComment">[Full example: <a class="linkInline"
+                          href="/ISBDM/docs/fullex/fx010.html">Einstein on the beach (2016; Opus
+                          Arte; videodisc; DVD)</a>; string from value vocabulary; term for &quot;2
+                        channels&quot;.]</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
             <div class="stip">
-              <p>Record a value that appears in a value vocabulary of choice of the cataloguing
-                agency, if it is considered to be useful for users of the metadata.</p>
+              <p>Record a separate occurrence of the element for each distinct value that is
+                considered to be useful for users of the metadata.</p>
+            </div>
+            <div class="stip">
+              <p>For a manifestation that is a super-unit, record the value that applies to the
+                largest number of sub-units.</p>
+            </div>
+            <div class="stip">
+              <p>For a manifestation that is a super-unit, and if no one value predominates, record
+                separate occurrences of the element for each value that applies to the larger number
+                of sub-units.</p>
             </div>
           </div>
         </div>
