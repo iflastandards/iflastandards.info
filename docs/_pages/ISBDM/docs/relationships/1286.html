@@ -152,11 +152,10 @@
                   <a class="linkMenuElement" href="/ISBDM/docs/relationships/1215.html">has
                     fingerprint</a>
                 </div>
-                <div class="d-flex align-items-center" aria-current="true">
+                <div class="d-flex align-items-center">
                   <i class="bi bi-arrow-return-right px-1"></i>
                   <i class="bi bi-arrow-return-right px-1"></i>
                   <i class="bi bi-arrow-return-right px-1"></i>
-                  <i class="bi bi-asterisk navISBDMSectionActive px-1"></i>
                   <a class="linkMenuElement" href="/ISBDM/docs/relationships/1117.html">has numeric
                     designation</a>
                 </div>
@@ -167,10 +166,11 @@
                   <a class="linkMenuElement" href="/ISBDM/docs/relationships/1259.html">has plate
                     number</a>
                 </div>
-                <div class="d-flex align-items-center">
+                <div class="d-flex align-items-center" aria-current="true">
                   <i class="bi bi-arrow-return-right px-1"></i>
                   <i class="bi bi-arrow-return-right px-1"></i>
                   <i class="bi bi-arrow-return-right px-1"></i>
+                  <i class="bi bi-asterisk navISBDMSectionActive px-1"></i>
                   <a class="linkMenuElement" href="/ISBDM/docs/relationships/1286.html">has uniform
                     resource locator</a>
                 </div>
@@ -200,20 +200,18 @@
         </div>
         <div class="col-md-7 border rounded">
           <div class="row m-1">
-            <h3>has numeric designation</h3>
+            <h3>Element label</h3>
             <h4>Element reference</h4>
             <div class="px-4">
               <div class="row">
                 <div class="col-md-3 border elref">Definition</div>
-                <div class="col-md-9 border eltext">Relates a manifestation to an identifier that
-                  includes numbers or alphabetic characters to indicate a position in a sequence of
-                  issues or iterations of a diachronic work.</div>
+                <div class="col-md-9 border eltext">Relates a manifestation to an online address of
+                  the manifestation.</div>
               </div>
               <div class="row">
                 <div class="col-md-3 border elref">Scope note</div>
-                <div class="col-md-9 border eltext">This element applies to a manifestation that
-                  embodies the expression of a diachronic work or an expression of an issue or
-                  iteration of a diachronic work.</div>
+                <div class="col-md-9 border eltext">This element applies to a manifestation that is
+                  an online resource.</div>
               </div>
               <div class="row">
                 <div class="col-md-3 border elref">Domain</div>
@@ -225,7 +223,10 @@
               </div>
               <div class="row">
                 <div class="col-md-3 border elref">Element sub-type</div>
-                <div class="col-md-9 border eltext"> </div>
+                <div class="col-md-9 border eltext">
+                  <div class="d-flex flex-column navISBDMRef"
+                    aria-label="Navigation for related elements"> </div>
+                </div>
               </div>
               <div class="row">
                 <div class="col-md-3 border elref">Element super-type</div>
@@ -241,14 +242,6 @@
           </div>
           <div class="row m-1">
             <h4>Additional information</h4>
-            <div class="guid">
-              <p>A manifestation may be associated with more than one numeric designation in
-                different languages, scripts, or sequences.</p>
-            </div>
-            <div class="seeAlsoAdd">
-              <p><i>See also</i>: <a class="linkMenuElement"
-                  href="/ISBDM/docs/relationships/1116.html">has chronological designation</a></p>
-            </div>
           </div>
           <div class="row m-1">
             <h4>Stipulations</h4>
@@ -257,62 +250,17 @@
             </div>
             <div class="stip">
               <p>Apply the stipulations for the element super-type unless indicated otherwise.</p>
-            </div>
-            <div class="stip">
-              <p>Record a value that is based on a designation in a statement of issue or iteration
-                that appears in the manifestation or an external source of information.</p>
-            </div>
-            <div class="stip">
-              <p>For manifestation that embodies an expression of an issue or iteration of a
-                diachronic work, record a value that is a numeric designation of only the issue or
-                iteration.</p>
-            </div>
-            <div class="stip">
-              <p>For a manifestation that embodies the expression of a diachronic work, record a
-                value for the manifestation that embodies an expression of the first issue or
-                iteration of the work in a numeric sequence, followed by punctuation to indicate an
-                open sequence.</p>
               <div class="xampleBlockStip">
                 <p><a class="linkEx" href="#isbdmex1" data-bs-toggle="collapse" role="button"
                     aria-expanded="false" aria-controls="isbdmex1">Examples</a></p>
                 <div class="collapse xamples" id="isbdmex1">
                   <div class="row px-2">
-                    <div class="col-6 xampleLabel">has numeric designation</div>
-                    <div class="col-6 xampleValue">&quot;Issue 1-&quot;</div>
+                    <div class="col-6 xampleLabel">has uniform resource locator</div>
+                    <div class="col-6 xampleValue"
+                      >&quot;https://www.iflastandards.info/ISBDM/&quot;</div>
                   </div>
-                  <hr />
                 </div>
               </div>
-            </div>
-            <div class="stip">
-              <p>For a manifestation that embodies the expression of a diachronic work, and if there
-                is a change in the sequence of numeric designations of issues or iterations, record
-                a value that uses a string encoding scheme for:</p>
-              <ol class="num">
-                <li>a value for the manifestation that embodies an expression of the first issue or
-                  iteration of the work in the old numeric sequence</li>
-                <li>punctuation to indicate a sequence range</li>
-                <li>a value for the manifestation that embodies an expression of the last issue or
-                  iteration of the work in the old numeric sequence</li>
-                <li>punctuation to indicate a completed sequence</li>
-                <li>a value for the manifestation that embodies an expression of the first issue or
-                  iteration of the work in the new numeric sequence</li>
-              </ol>
-              <p>Record a <a class="linkInline" href="/ISBDM/docs/notes/1273.html">has note on nomen
-                  associated with manifestation</a> element that gives information about the change,
-                if it is considered to be useful for users of the metadata.</p>
-            </div>
-            <div class="stip">
-              <p>For a manifestation that embodies the expression of a diachronic work that is known
-                or assumed to have terminated, record a value that uses a string encoding scheme
-                for:</p>
-              <ol class="num">
-                <li>a value for the manifestation that embodies an expression of the first issue or
-                  iteration of the work in the numeric sequence</li>
-                <li>punctuation to indicate a sequence range</li>
-                <li>a value for the manifestation that embodies an expression of the last issue or
-                  iteration of the work in the numeric sequence</li>
-              </ol>
             </div>
           </div>
         </div>
