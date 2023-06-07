@@ -119,16 +119,19 @@
                 strings of punctuation. The plus sign &quot;+&quot; indicates the concatenation of
                 two component strings.</p>
               <p>A value of an element sub-type may be used as the source of a component string.</p>
+              <p>A value should be normalised for a component string, to ensure consistent
+                collocation. Normalisation of a name or title value removes a leading definite or
+                indefinite article.</p>
             </div>
             <h2>Manifestation</h2>
             <div class="guid">
               <p>The string encoding scheme specifies that the base access point is followed by a
                 set of qualifiers enclosed in brackets &quot;(...)&quot; and separated by semicolons
                 &quot;; &quot;.</p>
-              <p>{has title proper}|[supplied title] + &quot;(&quot; {has date of creation of
-                manifestation}|{has date of copyright of manifestation} + &quot;; &quot; + {has
-                creator agent of manifestation} + &quot;; &quot; + {has category of carrier} +
-                &quot;)&quot;</p>
+              <p>{normalised(has title proper)}|[supplied title] + &quot;(&quot; {has date of
+                creation of manifestation}|{has date of copyright of manifestation} + &quot;; &quot;
+                + {has creator agent of manifestation} + &quot;; &quot; + {has category of carrier}
+                + &quot;)&quot;</p>
               <p>The sequence of qualifiers supports a standard secondary collocation and sort order
                 of authorized access points in a browse index for manifestations.</p>
             </div>
