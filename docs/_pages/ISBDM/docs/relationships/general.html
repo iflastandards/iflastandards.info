@@ -185,21 +185,34 @@
             <h4>Element values</h4>
             <div class="stip">
               <p>The value of a relationship element is a reference to a related entity.</p>
-              <div class="stip">
-                <p>Record the value of a relationship element as a literal string or as an IRI
-                  (Internationalised Resource Identifier) that is used in semantic linked data. Use
-                  the following order of preference:</p>
-                <ol class="num">
-                  <li>an IRI for the entity</li>
-                  <li>a string that is an identifier of the entity that is a stringified IRI for the
-                    entity, derived by enclosing the IRI in string delimiters such as double quotes
-                    (&quot;IRI&quot;)</li>
-                  <li>a string that is an authorized access point or identifier of the entity that
-                    appears in an authority file or similar dataset</li>
-                  <li>a string that is an access point of the entity that is constructed using a
-                    string encoding scheme</li>
-                </ol>
-              </div>
+            </div>
+            <div class="stip">
+              <p>Record the value of a relationship element as a literal string or as an IRI
+                (Internationalised Resource Identifier) that is used in semantic linked data.</p>
+            </div>
+            <div class="stip">
+              <p>For <em>linked open data</em> applications, use the following order of
+                preference:</p>
+              <ol class="num">
+                <li>an IRI for the entity</li>
+                <li>a string that is an identifier of the entity that is a stringified IRI for the
+                  entity, derived by enclosing the IRI in string delimiters such as double quotes
+                  (&quot;IRI&quot;)</li>
+                <li>a string that is an authorized access point or identifier of the entity that
+                  appears in an authority file or similar dataset</li>
+                <li>a string that is an access point of the entity that is constructed using a
+                  string encoding scheme</li>
+              </ol>
+            </div>
+            <div class="stip">
+              <p>For <em>relational database</em> applications, use the following order of
+                preference:</p>
+              <ol class="num">
+                <li>a string that is an authorized access point or identifier of the entity that
+                  appears in an authority file or similar dataset</li>
+                <li>a string that is an access point of the entity that is constructed using a
+                  string encoding scheme</li>
+              </ol>
             </div>
             <h5>String encoding schemes</h5>
             <div class="stip">

@@ -220,6 +220,11 @@
                 </div>
                 <div class="d-flex align-items-center">
                   <i class="bi bi-arrow-return-right px-1"></i>
+                  <a class="linkMenuElement" href="/ISBDM/docs/attributes/1288.html">has layout of
+                    embodied content</a>
+                </div>
+                <div class="d-flex align-items-center">
+                  <i class="bi bi-arrow-return-right px-1"></i>
                   <a class="linkMenuElement" href="/ISBDM/docs/attributes/1256.html">has
                     manufacturing process</a>
                 </div>
@@ -360,15 +365,20 @@
                 is associated with a characteristic of the manifestation. The value may be
                 qualitative or quantitative.</p>
               <ul class="bull">
-                <li>A qualitative value is a controlled term that appears in a value vocabulary. </li>
+                <li>A qualitative value is a controlled term that appears in a value
+                  vocabulary.</li>
                 <li>A quantitative value is a measurement that consists of a number and a
                   qualitative term for the unit of measurement.</li>
               </ul>
             </div>
             <div class="stip">
               <p>Record a qualitative value of an attribute element as a literal string or as an
-                Internationalized Resource Identifier (IRI) that is used in semantic linked data.
-                Use the following order of preference:</p>
+                Internationalized Resource Identifier (IRI) that is used in semantic linked
+                data.</p>
+            </div>
+            <div class="stip">
+              <p>For <em>linked open data</em> applications, use the following order of
+                preference:</p>
               <ol class="num">
                 <li>an IRI for the concept that appears in a value vocabulary</li>
                 <li>a string that is an identifier of the concept that is a stringified IRI for the
@@ -377,6 +387,17 @@
                 <li>a string that is an identifier for the concept that appears in a value
                   vocabulary</li>
                 <li>a string that is a controlled term for the concept that appears in a value
+                  vocabulary</li>
+                <li>a string that is an uncontrolled term for the concept</li>
+              </ol>
+            </div>
+            <div class="stip">
+              <p>For <em>relational database</em> applications, use the following order of
+                preference:</p>
+              <ol class="num">
+                <li>a string that is a controlled term for the concept that appears in a value
+                  vocabulary</li>
+                <li>a string that is an identifier for the concept that appears in a value
                   vocabulary</li>
                 <li>a string that is an uncontrolled term for the concept</li>
               </ol>
