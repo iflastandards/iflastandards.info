@@ -123,136 +123,140 @@
                 collocation. Normalisation of a name or title value removes a leading definite or
                 indefinite article.</p>
             </div>
+          </div>
+          <div class="row m-1">
             <h4>Manifestation</h4>
-            <div>
-              <div class="guid">
-                <p>The base access point for a manifestation is a normalized value of <a
-                    class="linkInline" href="/ISBDM/docs/relationships/1038.html">has title
-                    proper</a>. If there is no such value, a title supplied by the cataloguing
-                  agency may be used.</p>
-                <p>The string encoding scheme specifies that the base access point is followed by a
-                  set of qualifiers enclosed in brackets &quot;(...)&quot; and separated by
-                  semicolons &quot;; &quot;.</p>
-                <p>{normalised(has title proper)}|[supplied title] + &quot;(&quot; {has date of
-                  creation of manifestation}|{has date of copyright of manifestation} + &quot;;
-                  &quot; + {has creator agent of manifestation} + &quot;; &quot; + {has category of
-                  carrier} + &quot;)&quot;</p>
-                <p>The sequence of qualifiers supports a standard secondary collocation and sort
-                  order of authorized access points in a browse index for manifestations.</p>
-              </div>
-              <div class="guid">
-                <p>Other qualifiers are added to the sequence to disambiguate the basic qualified
-                  access point.</p>
-                <p>Added qualifiers are conditional on specific characteristics of the manifestation
-                  that are recorded as attribute elements. They support a tertiary collocation and
-                  sort order of authorized access points.</p>
-              </div>
-              <div class="guid">
-                <p>Qualify a value of <a class="linkInline" href="/ISBDM/docs/attributes/1022.html"
-                    >has category of carrier</a> that is &quot;volume&quot; with a value of <a
-                    class="linkInline" href="/ISBDM/docs/attributes/1241.html">has binding</a>.</p>
-                <div class="xampleBlockGuid">
-                  <p><a class="linkEx" href="#isbdmex1" data-bs-toggle="collapse" role="button"
-                      aria-expanded="false" aria-controls="isbdmex1">Examples</a></p>
-                  <div class="collapse xamples" id="isbdmex1">
-                    <div>
-                      <div class="row px-2">
-                        <div class="col-6 xampleLabel">has authorized access point of
-                          manifestation</div>
-                        <div class="col-6 xampleValue">&quot;Paris apartment (2022;
-                          HarperCollinsPublishers; volume; case binding)&quot;</div>
-                      </div>
-                      <div class="row px-2">
-                        <div class="col editComment">[Full example: <a class="linkInline"
-                            href="/ISBDM/docs/fullex/fx001.html">Paris apartment (2022;
-                            HarperCollinsPublishers; volume; case binding)</a>.]</div>
-                      </div>
+            <div class="guid">
+              <p>The base access point for a manifestation is a normalized value of <a
+                  class="linkInline" href="/ISBDM/docs/relationships/1038.html">has title
+                proper</a>. If there is no such value, a title supplied by the cataloguing agency
+                may be used.</p>
+              <p>The string encoding scheme specifies that the base access point is followed by a
+                set of qualifiers enclosed in brackets &quot;(...)&quot; and separated by semicolons
+                &quot;; &quot;.</p>
+              <p>{normalised(has title proper)}|[supplied title] + &quot;(&quot; {has date of
+                creation of manifestation}|{has date of copyright of manifestation} + &quot;; &quot;
+                + {has creator agent of manifestation} + &quot;; &quot; + {has category of carrier}
+                + &quot;)&quot;</p>
+              <p>The sequence of qualifiers supports a standard secondary collocation and sort order
+                of authorized access points in a browse index for manifestations.</p>
+            </div>
+            <div class="guid">
+              <p>Other qualifiers are added to the sequence to disambiguate the basic qualified
+                access point.</p>
+              <p>Added qualifiers are conditional on specific characteristics of the manifestation
+                that are recorded as attribute elements. They support a tertiary collocation and
+                sort order of authorized access points.</p>
+            </div>
+            <div class="guid">
+              <p>Qualify a value of <a class="linkInline" href="/ISBDM/docs/attributes/1022.html"
+                  >has category of carrier</a> that is &quot;volume&quot; with a value of <a
+                  class="linkInline" href="/ISBDM/docs/attributes/1241.html">has binding</a>.</p>
+              <div class="xampleBlockGuid">
+                <p><a class="linkEx" href="#isbdmex1" data-bs-toggle="collapse" role="button"
+                    aria-expanded="false" aria-controls="isbdmex1">Examples</a></p>
+                <div class="collapse xamples" id="isbdmex1">
+                  <div>
+                    <div class="row px-2">
+                      <div class="col-6 xampleLabel">has authorized access point of
+                        manifestation</div>
+                      <div class="col-6 xampleValue">&quot;Paris apartment (2022;
+                        HarperCollinsPublishers; volume; case binding)&quot;</div>
                     </div>
-                    <hr />
-                    <div>
-                      <div class="row px-2">
-                        <div class="col-6 xampleLabel">has authorized access point of
-                          manifestation</div>
-                        <div class="col-6 xampleValue">&quot;Evangelistarium Marci Maruli Spalatensis (201-; Nacionalna i sveu&#269;ili&#353;na knji&#382;nica u
-                          Zagrebu; online jedinica gra&#273;e)&quot;</div>
-                      </div>
-                      <div class="row px-2">
-                        <div class="col editComment">[Full example: <a class="linkInline"
-                            href="/ISBDM/docs/fullex/fx008.html">Evangelistarium Marci Maruli Spalatensis (201-; Nacionalna i sveu&#269;ili&#353;na knji&#382;nica u
-                            Zagrebu; online jedinica gra&#273;e)</a>.]</div>
-                      </div>
+                    <div class="row px-2">
+                      <div class="col editComment">[Full example: <a class="linkInline"
+                          href="/ISBDM/docs/fullex/fx001.html">Paris apartment (2022;
+                          HarperCollinsPublishers; volume; case binding)</a>.]</div>
                     </div>
                   </div>
-                </div>
-              </div>
-              <div class="guid">
-                <p>Qualify a value of <a class="linkInline" href="/ISBDM/docs/attributes/1022.html"
-                    >has category of carrier</a> that is &quot;videodisc&quot; with a controlled
-                  term for a finer level of granularity of the category of carrier.</p>
-                <div class="xampleBlockGuid">
-                  <p><a class="linkEx" href="#isbdmex2" data-bs-toggle="collapse" role="button"
-                      aria-expanded="false" aria-controls="isbdmex2">Examples</a></p>
-                  <div class="collapse xamples" id="isbdmex2">
-                    <div>
-                      <div class="row px-2">
-                        <div class="col-6 xampleLabel">has authorized access point of
-                          manifestation</div>
-                        <div class="col-6 xampleValue">&quot;Einstein on the beach (2016; Opus Arte;
-                          videodisc; DVD)&quot;</div>
-                      </div>
-                      <div class="row px-2">
-                        <div class="col editComment">[Full example: <a class="linkInline"
-                            href="/ISBDM/docs/fullex/fx010.html">Einstein on the beach (2016; Opus
-                            Arte; videodisc; DVD)</a>.]</div>
-                      </div>
+                  <hr />
+                  <div>
+                    <div class="row px-2">
+                      <div class="col-6 xampleLabel">has authorized access point of
+                        manifestation</div>
+                      <div class="col-6 xampleValue">&quot;Evangelistarium Marci Maruli Spalatensis
+                        (201-; Nacionalna i sveu&#269;ili&#353;na knji&#382;nica u Zagrebu; online
+                        jedinica gra&#273;e)&quot;</div>
                     </div>
-                  </div>
-                </div>
-              </div>
-              <div class="guid">
-                <p>Qualify a value of <a class="linkInline"
-                    href="/ISBDM/docs/relationships/1038.html">has title proper</a> that is a
-                  generic title with an authorized access point of an agent who is responsible for
-                  the creation of works and expressions that are embodied in the manifestation.</p>
-                <div class="xampleBlockGuid">
-                  <p><a class="linkEx" href="#isbdmex3" data-bs-toggle="collapse" role="button"
-                      aria-expanded="false" aria-controls="isbdmex3">Examples</a></p>
-                  <div class="collapse xamples" id="isbdmex3">
-                    <div>
-                      <div class="row px-2">
-                        <div class="col-6 xampleLabel">has authorized access point of
-                          manifestation</div>
-                        <div class="col-6 xampleValue">&quot;Summary records (Unesco. Executive
-                          Board. 215th session; 2022; Paris) (2023; Unesco Executive Board;
-                          svezak)&quot;</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="guid">
-                <p>Apply the same string encoding scheme to an authorized access point of a related
-                  manifestation.</p>
-                <div class="xampleBlockGuid">
-                  <p><a class="linkEx" href="#isbdmex4" data-bs-toggle="collapse" role="button"
-                      aria-expanded="false" aria-controls="isbdmex4">Examples</a></p>
-                  <div class="collapse xamples" id="isbdmex4">
-                    <div>
-                      <div class="row px-2">
-                        <div class="col-6 xampleLabel">has alternate manifestation</div>
-                        <div class="col-6 xampleValue">&quot;Einstein on the beach (2016; Opus Arte;
-                          videodisc; BD)&quot;</div>
-                      </div>
-                      <div class="row px-2">
-                        <div class="col editComment">[Full example: <a class="linkInline"
-                            href="/ISBDM/docs/fullex/fx010.html">Einstein on the beach (2016; Opus
-                            Arte; videodisc; DVD)</a>.]</div>
-                      </div>
+                    <div class="row px-2">
+                      <div class="col editComment">[Full example: <a class="linkInline"
+                          href="/ISBDM/docs/fullex/fx008.html">Evangelistarium Marci Maruli
+                          Spalatensis (201-; Nacionalna i sveu&#269;ili&#353;na knji&#382;nica u
+                          Zagrebu; online jedinica gra&#273;e)</a>.]</div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+            <div class="guid">
+              <p>Qualify a value of <a class="linkInline" href="/ISBDM/docs/attributes/1022.html"
+                  >has category of carrier</a> that is &quot;videodisc&quot; with a controlled term
+                for a finer level of granularity of the category of carrier.</p>
+              <div class="xampleBlockGuid">
+                <p><a class="linkEx" href="#isbdmex2" data-bs-toggle="collapse" role="button"
+                    aria-expanded="false" aria-controls="isbdmex2">Examples</a></p>
+                <div class="collapse xamples" id="isbdmex2">
+                  <div>
+                    <div class="row px-2">
+                      <div class="col-6 xampleLabel">has authorized access point of
+                        manifestation</div>
+                      <div class="col-6 xampleValue">&quot;Einstein on the beach (2016; Opus Arte;
+                        videodisc; DVD)&quot;</div>
+                    </div>
+                    <div class="row px-2">
+                      <div class="col editComment">[Full example: <a class="linkInline"
+                          href="/ISBDM/docs/fullex/fx010.html">Einstein on the beach (2016; Opus
+                          Arte; videodisc; DVD)</a>.]</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="guid">
+              <p>Qualify a value of <a class="linkInline" href="/ISBDM/docs/relationships/1038.html"
+                  >has title proper</a> that is a generic title with an authorized access point of
+                an agent who is responsible for the creation of works and expressions that are
+                embodied in the manifestation.</p>
+              <div class="xampleBlockGuid">
+                <p><a class="linkEx" href="#isbdmex3" data-bs-toggle="collapse" role="button"
+                    aria-expanded="false" aria-controls="isbdmex3">Examples</a></p>
+                <div class="collapse xamples" id="isbdmex3">
+                  <div>
+                    <div class="row px-2">
+                      <div class="col-6 xampleLabel">has authorized access point of
+                        manifestation</div>
+                      <div class="col-6 xampleValue">&quot;Summary records (Unesco. Executive Board.
+                        215th session; 2022; Paris) (2023; Unesco Executive Board;
+                        svezak)&quot;</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="guid">
+              <p>Apply the same string encoding scheme to an authorized access point of a related
+                manifestation.</p>
+              <div class="xampleBlockGuid">
+                <p><a class="linkEx" href="#isbdmex4" data-bs-toggle="collapse" role="button"
+                    aria-expanded="false" aria-controls="isbdmex4">Examples</a></p>
+                <div class="collapse xamples" id="isbdmex4">
+                  <div>
+                    <div class="row px-2">
+                      <div class="col-6 xampleLabel">has alternate manifestation</div>
+                      <div class="col-6 xampleValue">&quot;Einstein on the beach (2016; Opus Arte;
+                        videodisc; BD)&quot;</div>
+                    </div>
+                    <div class="row px-2">
+                      <div class="col editComment">[Full example: <a class="linkInline"
+                          href="/ISBDM/docs/fullex/fx010.html">Einstein on the beach (2016; Opus
+                          Arte; videodisc; DVD)</a>.]</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row m-1">
             <h4>Item</h4>
             <div class="guid">
               <p>The base access point for an item is a value of <a class="linkInline"
@@ -262,7 +266,7 @@
                 qualifier that is added to the qualifiers of the access point and separated by a
                 semicolon &quot;; &quot;.</p>
               <p>{has authorized access point of manifestation] + insert before
-                &quot;)&quot;(&quot;; &quot; {an identifier or shelfmark of the item})</p>
+                &quot;)&quot;(&quot;; &quot; + {an identifier or shelfmark of the item})</p>
               <p>The qualifier supports a local secondary collocation and sort order of authorized
                 access points of manifestations in a browse index for items.</p>
               <div class="xampleBlockGuid">
@@ -283,9 +287,36 @@
                           Zagrebu; online jedinica gra&#273;e)</a>.]</div>
                     </div>
                   </div>
-                  <hr />
                 </div>
               </div>
+            </div>
+          </div>
+          <div class="row m-1">
+            <h4>Expression</h4>
+            <div class="guid">
+              <p>The base access point for an expression is an authorized access point of the work
+                that is realised by the expression.</p>
+              <p>The string encoding scheme specifies that the base access point is followed by a
+                qualifier that is added to the qualifiers of the access point, if any, and separated
+                by a semicolon &quot;; &quot;.</p>
+              <p>{authorized access point of the work] + insert before &quot;)&quot;(&quot;; &quot;
+                + {a category of content of the expression} + &quot;; &quot; + {a language of the
+                expression})</p>
+              <p>The qualifier supports a local secondary collocation and sort order of authorized
+                access points of expressions in a browse index for expressions.</p>
+            </div>
+          </div>
+          <div class="row m-1">
+            <h4>Work</h4>
+            <div class="guid">
+              <p>The base access point for a work is a combination of a value of an authorized
+                access point of a creator agent of the work and a value of <a class="linkInline"
+                  href="/ISBDM/docs/relationships/1038.html">has title proper</a> of a manifestation
+                that embodies the work.</p>
+              <p>The string encoding scheme specifies that the base access point is followed by a
+                qualifier that is added to the qualifiers of the access point and separated by a
+                semicolon &quot;; &quot;.</p>
+              <p>{authorized access point of a creator agent of the work] + ". " + {has title proper}</p>
             </div>
           </div>
         </div>
