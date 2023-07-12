@@ -85,8 +85,9 @@
                   <a class="linkMenuElement" href="/ISBDM/docs/attributes/1263.html">has category of
                     manifestation</a>
                 </div>
-                <div class="d-flex align-items-center">
+                <div class="d-flex align-items-center" aria-current="true">
                   <i class="bi bi-arrow-return-right px-1"></i>
+                  <i class="bi bi-asterisk navISBDMSectionActive px-1"></i>
                   <a class="linkMenuElement" href="/ISBDM/docs/attributes/1022.html">has category of
                     carrier</a>
                 </div>
@@ -108,8 +109,9 @@
                   <i class="bi bi-arrow-return-right px-1"></i>
                   <a class="linkMenuElement" href="/ISBDM/docs/attributes/1241.html">has binding</a>
                 </div>
-                <div class="d-flex align-items-center">
+                <div class="d-flex align-items-center" aria-current="true">
                   <i class="bi bi-arrow-return-right px-1"></i>
+                  <i class="bi bi-asterisk navISBDMSectionActive px-1"></i>
                   <a class="linkMenuElement" href="/ISBDM/docs/attributes/1289.html">has encoding
                     format</a>
                 </div>
@@ -196,10 +198,9 @@
                   <a class="linkMenuElement" href="/ISBDM/docs/attributes/1228.html">has number of
                     recording tracks</a>
                 </div>
-                <div class="d-flex align-items-center" aria-current="true">
+                <div class="d-flex align-items-center">
                   <i class="bi bi-arrow-return-right px-1"></i>
                   <i class="bi bi-arrow-return-right px-1"></i>
-                  <i class="bi bi-asterisk navISBDMSectionActive px-1"></i>
                   <a class="linkMenuElement" href="/ISBDM/docs/attributes/1275.html">has extent of
                     unitary structure</a>
                 </div>
@@ -300,19 +301,22 @@
         </div>
         <div class="col-md-7 border rounded">
           <div class="row m-1">
-            <h3>has extent of unitary structure</h3>
+            <h3>has encoding format</h3>
             <h4>Element reference</h4>
             <div class="px-4">
               <div class="row">
                 <div class="col-md-3 border elref">Definition</div>
-                <div class="col-md-9 border eltext">Relates a manifestation to an extent of
-                  manifestation that is the number of sub-units of the same category of carrier of
-                  the manifestation.</div>
+                <div class="col-md-9 border eltext">Relates a manifestation to a standard method for
+                  representing content that is embodied in a digital file.</div>
               </div>
               <div class="row">
                 <div class="col-md-3 border elref">Scope note</div>
-                <div class="col-md-9 border eltext">This element applies to a manifestation that has
-                  sub-units.</div>
+                <div class="col-md-9 border eltext">This element applies to a manifestation that
+                  embodies digital content in an audio disc, audiocassette, audiotape reel, computer
+                  card, computer chip cartridge, computer disc, computer disc cartridge, computer
+                  tape cartridge, computer tape cassette, computer tape reel, online resource,
+                  soundtrack reel, video cartridge, videocassette, videodisc, or videotape
+                  reel.</div>
               </div>
               <div class="row">
                 <div class="col-md-3 border elref">Domain</div>
@@ -334,8 +338,8 @@
                 <div class="col-md-9 border eltext">
                   <div class="d-flex flex-column navISBDMRef"
                     aria-label="Navigation for related elements">
-                    <a class="linkMenuElement" href="/ISBDM/docs/attributes/1023.html">has extent of
-                      manifestation</a>
+                    <a class="linkMenuElement" href="/ISBDM/docs/attributes/1242.html">has physical
+                      characteristic</a>
                   </div>
                 </div>
               </div>
@@ -343,19 +347,6 @@
           </div>
           <div class="row m-1">
             <h4>Additional information</h4>
-            <div class="guid">
-              <p>For a manifestation that has no sub-units, consider the extent to be derived as the
-                quantity &quot;1&quot; of a value that is recorded for the <a class="linkInline"
-                  href="/ISBDM/docs/attributes/1022.html">has category of carrier</a> element.</p>
-            </div>
-            <div class="seeAlso">
-              <p><i>See also</i>: <a class="linkMenuElement" href="/ISBDM/docs/attributes/1022.html"
-                  >has category of carrier</a></p>
-            </div>
-            <div class="seeAlso">
-              <p><i>See also</i>: <a class="linkMenuElement" href="/ISBDM/docs/attributes/1262.html"
-                  >has unitary structure</a></p>
-            </div>
           </div>
           <div class="row m-1">
             <h4>Stipulations</h4>
@@ -364,57 +355,22 @@
             </div>
             <div class="stip">
               <p>Apply the stipulations for the element super-type unless indicated otherwise.</p>
-            </div>
-            <div class="stip">
-              <p>Record a quantitative value that consists of a whole number and a term that appears
-                in the <a class="linkInline" href="/ISBDM/docs/ves/1022.html">ISBDM Category of
-                  Carrier value vocabulary</a> for the category of sub-unit that is counted.</p>
               <div class="xampleBlockStip">
                 <p><a class="linkEx" href="#isbdmex1" data-bs-toggle="collapse" role="button"
                     aria-expanded="false" aria-controls="isbdmex1">Examples</a></p>
                 <div class="collapse xamples" id="isbdmex1">
                   <div>
                     <div class="row px-2">
-                      <div class="col-6 xampleLabel">has extent of unitary structure</div>
-                      <div class="col-6 xampleValue">&quot;3 sheets&quot;</div>
+                      <div class="col-6 xampleLabel">has encoding format</div>
+                      <div class="col-6 xampleValue">&quot;plain text format&quot;</div>
                     </div>
                     <div class="row px-2">
                       <div class="col editComment">[Full example: <a class="linkInline"
-                          href="/ISBDM/docs/fullex/fx029.html">Burleska pro klarinet a klav&iacute;r
-                          (1945-03-26; Vost&rcaron;&aacute;k, Zbyn&ecaron;k; sheet)</a>.]</div>
+                          href="/ISBDM/docs/fullex/fx046.html">Emma (1994; Project Gutenberg; online
+                          resource; plain text format)</a>.]</div>
                     </div>
                   </div>
                   <hr />
-                  <div>
-                    <div class="row px-2">
-                      <div class="col-6 xampleLabel">has extent of unitary structure</div>
-                      <div class="col-6 xampleValue">&quot;12 audio discs&quot;</div>
-                    </div>
-                    <div class="row px-2">
-                      <div class="col editComment">[Full example: <a class="linkInline"
-                          href="/ISBDM/docs/fullex/fx018.html">Harry Potter and the goblet of fire
-                          (2000; Listening Library; audiocassette)</a>.]</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="stip">
-              <p>If the manifestation has sub-units of more than one category of carrier, record a
-                separate occurrence of the element for each distinct category that is considered to
-                be useful for users of the metadata.</p>
-              <div class="xampleBlockStip">
-                <p><a class="linkEx" href="#isbdmex2" data-bs-toggle="collapse" role="button"
-                    aria-expanded="false" aria-controls="isbdmex2">Examples</a></p>
-                <div class="collapse xamples" id="isbdmex2">
-                  <div class="row px-2">
-                    <div class="col-6 xampleLabel">has extent of unitary structure</div>
-                    <div class="col-6 xampleValue">&quot;2 volumes&quot;</div>
-                  </div>
-                  <div class="row px-2">
-                    <div class="col-6 xampleLabel">has extent of unitary structure</div>
-                    <div class="col-6 xampleValue">&quot;1 computer disc&quot;</div>
-                  </div>
                 </div>
               </div>
             </div>
