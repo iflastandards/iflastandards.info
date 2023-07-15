@@ -137,10 +137,13 @@
                 description.</p>
             </div>
             <div class="guid">
-              <p>Select the methods to use to describe the unit from the following options:</p>
+              <p>Describe the physical characteristics of the unit by applying any of the following
+                methods:</p>
               <ul class="bull">
+                <li>Record a <a class="linkInline" href="/ISBDM/docs/attributes/1022.html">has
+                    category of carrier</a> element. This is mandatory.</li>
                 <li>Record a <a class="linkInline" href="/ISBDM/docs/attributes/1276.html">has
-                    extent of unit</a> element for the unit.</li>
+                    extent of unit</a> element or element sub-type for the unit.</li>
                 <li>Record a <a class="linkInline" href="/ISBDM/docs/statements/1025.html">has
                     manifestation statement</a> element or element sub-type that includes
                   information about the unit.</li>
@@ -149,6 +152,31 @@
             <div class="guid">
               <p>Describe the unit with more than one method, if it is considered to be useful for
                 users of the metadata.</p>
+              <div class="xampleBlockGuid">
+                <p><a class="linkEx" href="#isbdmex1" data-bs-toggle="collapse" role="button"
+                    aria-expanded="false" aria-controls="isbdmex1">Examples</a></p>
+                <div class="collapse xamples" id="isbdmex1">
+                  <div>
+                    <div class="row px-2">
+                      <div class="col-6 xampleLabel">has category of carrier</div>
+                      <div class="col-6 xampleValue">&quot;volume&quot;</div>
+                    </div>
+                    <div class="row px-2">
+                      <div class="col-6 xampleLabel">has dimensions</div>
+                      <div class="col-6 xampleValue">&quot;18 x 18 cm&quot;</div>
+                    </div>
+                    <div class="row px-2">
+                      <div class="col-6 xampleLabel">has manifestation statement of category</div>
+                      <div class="col-6 xampleValue">&quot;A push, pull and slide book&quot;</div>
+                    </div>
+                    <div class="row px-2">
+                      <div class="col editComment">[Full example: <a class="linkInline"
+                          href="/ISBDM/docs/fullex/fx017.html">Gruffalo (2020; Macmillan Children's
+                          Books; volume; board book binding)</a>.]</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -158,7 +186,8 @@
       <div class="row my-1 py-1 navISBDMMain text-center">
         <p class="m-0 p-0">&#10058;<a class="linkFooter" href="/ISBDM/docs/siteMap.html">Site
             map</a>&#10058;</p>
-        <p class="m-0 p-0">Warning! Content is under development and will change without notice. This is a project of the ISBD Review Group.</p>
+        <p class="m-0 p-0">Warning! Content is under development and will change without notice.
+          This is a project of the ISBD Review Group.</p>
       </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
