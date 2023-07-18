@@ -30,11 +30,11 @@
         <div class="collapse navbar-collapse" id="navbarISBDM">
           <ul class="navbar-nav me-auto mb-2 mb-md-0">
             <li class="nav-item">
-              <a class="nav-link active" href="/ISBDM/docs/intro/" aria-current="page"
-                >Introduction</a>
+              <a class="nav-link" href="/ISBDM/docs/intro/">Introduction</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/ISBDM/docs/statements/">Statements</a>
+              <a class="nav-link active" href="/ISBDM/docs/assess/" aria-current="page"
+                >Assessment</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/ISBDM/docs/notes/">Notes</a>
@@ -74,6 +74,10 @@
             <div class="col-md-12">
               <nav class="d-flex flex-column navISBDMSection"
                 aria-label="Navigation for assessment sections">
+                <div class="d-flex align-items-center">
+                  <a class="linkMenuEntry" href="/ISBDM/docs/assess/p022.html">Manifestation
+                    boundaries</a>
+                </div>
                 <div class="d-flex align-items-center">
                   <a class="linkMenuEntry" href="/ISBDM/docs/assess/p010.html">Number of units</a>
                 </div>
@@ -133,8 +137,8 @@
           <div class="row m-1">
             <h3>Manifestation that is more than one unit</h3>
             <div class="guid">
-              <p>For a manifestation that is published or produced in more than one unit, record at
-                least one description of the unit as a whole or of one of the sub-units.</p>
+              <p>The units in a multiple unit manifestation are related in a hierarchical
+                structure.</p>
               <div class="col-md-12 my-2 text-center">
                 <figure class="figure border border-dark p-2 rounded-2 text-center">
                   <img src="/ISBDM/images/x006.png" class="figure-img img-fluid rounded"
@@ -146,57 +150,44 @@
                       class="linkImage">[Expand image]</a></figcaption>
                 </figure>
               </div>
-              <p>Figure 3 shows that there is a choice of which manifestation units to describe as
-                separate related manifestations and which to include in manifestation statements,
-                extent attributes, or notes for the manifestation that is being described. Optional
-                entities, manifestation statements, and notes are outlined by dashes.</p>
+              <p>Figure 3 shows that for a multiple unit manifestation there is a choice of which
+                manifestation units to describe as separate related manifestations and which to
+                include in manifestation statements, extent attributes, or notes for the
+                manifestation that is being described. Optional entities, manifestation statements,
+                and notes are outlined by dashes.</p>
             </div>
             <div class="guid">
-              <p>Select the methods to use to describe each unit, including sub-units and
-                super-unit, from the following options:</p>
+              <p>For a manifestation that is published or produced in more than one unit, record at
+                least one single description of the unit as a whole, or of one of the sub-units or a
+                super-unit.</p>
+            </div>
+            <div class="guid">
+              <p>For the unit being described, describe its physical characteristics by applying any
+                of the following methods:</p>
               <ul class="bull">
-                <li>Record the unit as a separate manifestation and record a relationship to each
-                  separate description of a sub-unit or a super-unit by recording <a
-                    class="linkInline" href="/ISBDM/docs/relationships/1013.html">has sub-unit</a>
-                  and <a class="linkInline" href="/ISBDM/docs/relationships/1014.html">has
-                    super-unit</a> elements.</li>
+                <li>Record at least one <a class="linkInline"
+                    href="/ISBDM/docs/attributes/1022.html">has category of carrier</a> element for
+                  the unit and its sub-units. This is mandatory.</li>
+                <li>Record a <a class="linkInline" href="/ISBDM/docs/attributes/1276.html">has
+                    extent of unit</a> element or element sub-type for the unit.</li>
                 <li>Record a <a class="linkInline" href="/ISBDM/docs/attributes/1275.html">has
                     extent of unitary structure</a> element for the sub-units.</li>
-                <li>Record a <a class="linkInline" href="/ISBDM/docs/attributes/1276.html">has
-                    extent of unit</a> element for the unit or sub-units.</li>
+                <li>Record a <a class="linkInline" href="/ISBDM/docs/notes/1269.html">has note on
+                    manifestation associated with manifestation</a> element that includes a
+                  description of one or more sub-units or a super-unit.</li>
                 <li>Record a <a class="linkInline" href="/ISBDM/docs/notes/1269.html">has note on
                     manifestation associated with manifestation</a> element that includes a
                   description of one or more sub-units or a super-unit.</li>
                 <li>Record a <a class="linkInline" href="/ISBDM/docs/statements/1025.html">has
                     manifestation statement</a> element or element sub-type that includes
-                  information about sub-units or a super-unit.</li>
+                  information about the unit, one or more sub-units, or a super-unit. Do not
+                  describe a sub-unit or a super-unit.</li>
                 <li>Do not describe the sub-unit or super-unit.</li>
               </ul>
             </div>
             <div class="guid">
-              <p>If no statement appears in the manifestation that distinguishes a sub-unit from
-                other sub-units, describe the sub-unit, if it is considered to be useful for users
-                of the metadata.</p>
-              <div class="xampleBlockGuid">
-                <p><a class="linkEx" href="#isbdmex5" data-bs-toggle="collapse" role="button"
-                    aria-expanded="false" aria-controls="isbdmex5">Examples</a></p>
-                <div class="collapse xamples" id="isbdmex5">
-                  <div class="row px-2">
-                    <div class="col xampleNarrative">It is not usually useful to describe an
-                      individual piece of a jigsaw puzzle.</div>
-                  </div>
-                  <hr />
-                  <div class="row px-2">
-                    <div class="col xampleNarrative">It is useful to describe an individual piece of
-                      a jigsaw puzzle that carries a part of the image that is significant to users
-                      of the metadata.</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="guid">
-              <p>Describe a unit with more than one method, if it is considered to be useful for
-                users of the metadata.</p>
+              <p>Describe the unit, sub-units, or super-unit with more than one method, if it is
+                considered to be useful for users of the metadata.</p>
               <div class="xampleBlockGuid">
                 <p><a class="linkEx" href="#isbdmex4" data-bs-toggle="collapse" role="button"
                     aria-expanded="false" aria-controls="isbdmex4">Examples</a></p>
@@ -242,6 +233,33 @@
                     <div class="row px-2">
                       <div class="col editComment">[Super-unit of unit described.]</div>
                     </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="guid">
+              <p>If a sub-unit or a super-unit has a separate description, record a <a
+                  class="linkInline" href="/ISBDM/docs/relationships/1013.html">has sub-unit</a> or
+                a <a class="linkInline" href="/ISBDM/docs/relationships/1014.html">has
+                  super-unit</a> element to relate the descriptions.</p>
+            </div>
+            <div class="guid">
+              <p>If no statement appears in the manifestation that distinguishes a sub-unit from
+                other sub-units, describe the sub-unit, if it is considered to be useful for users
+                of the metadata.</p>
+              <div class="xampleBlockGuid">
+                <p><a class="linkEx" href="#isbdmex5" data-bs-toggle="collapse" role="button"
+                    aria-expanded="false" aria-controls="isbdmex5">Examples</a></p>
+                <div class="collapse xamples" id="isbdmex5">
+                  <div class="row px-2">
+                    <div class="col xampleNarrative">It is not usually useful to describe an
+                      individual piece of a jigsaw puzzle.</div>
+                  </div>
+                  <hr />
+                  <div class="row px-2">
+                    <div class="col xampleNarrative">It is useful to describe an individual piece of
+                      a jigsaw puzzle that carries a part of the image that is significant to users
+                      of the metadata.</div>
                   </div>
                 </div>
               </div>
