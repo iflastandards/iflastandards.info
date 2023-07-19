@@ -302,7 +302,8 @@
           <div class="row m-1">
             <h3>General stipulations for attribute elements</h3>
             <div class="stip">
-              <p>Record an attribute if it is considered to be useful for users of the metadata.</p>
+              <p>Record an attribute if it is considered to be useful for users of the metadata,
+                unless indicated otherwise.</p>
             </div>
             <div class="stip">
               <p>Record an attribute that is named or otherwise identified in a statement that
@@ -380,10 +381,13 @@
               <p>Record a qualitative value of an attribute element as a literal string or as an
                 Internationalized Resource Identifier (IRI) that is used in semantic linked
                 data.</p>
+              <p>Record only one kind of value for a single instance of an attribute.</p>
+              <p>Record different kinds of values for different occurrences of elements, if it is
+                considered to be useful for users of the metadata.</p>
             </div>
             <div class="stip">
-              <p>For a <em>linked open data</em> application, use the following order of
-                preference:</p>
+              <p>For a <em>linked open data</em> application, use the following order of preference
+                to select the value:</p>
               <ol class="num">
                 <li>an IRI for the concept that appears in a value vocabulary</li>
                 <li>a string that is an identifier of the concept that is a stringified IRI for the
@@ -396,7 +400,7 @@
             </div>
             <div class="stip">
               <p>For a <em>relational database</em> application, use the following order of
-                preference:</p>
+                preference to select the value:</p>
               <ol class="num">
                 <li>a string that is an identifier or controlled term for the concept that appears
                   in a value vocabulary</li>
