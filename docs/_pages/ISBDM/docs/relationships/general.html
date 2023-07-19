@@ -107,7 +107,7 @@
             <h3>General stipulations for relationship elements</h3>
             <div class="stip">
               <p>Record a relationship element if it is considered to be useful for users of the
-                metadata.</p>
+                metadata, unless indicated otherwise.</p>
             </div>
             <div class="stip">
               <p>Record a value for an entity that is named or otherwise identified in a statement
@@ -189,10 +189,13 @@
             <div class="stip">
               <p>Record the value of a relationship element as a literal string or as an IRI
                 (Internationalised Resource Identifier) that is used in semantic linked data.</p>
+              <p>Record only one kind of value for a single instance of a related entity.</p>
+              <p>Record different kinds of values for different occurrences of elements, if it is
+                considered to be useful for users of the metadata.</p>
             </div>
             <div class="stip">
-              <p>For <em>linked open data</em> applications, use the following order of
-                preference:</p>
+              <p>For <em>linked open data</em> applications, use the following order of preference
+                to select the value:</p>
               <ol class="num">
                 <li>an IRI for the entity</li>
                 <li>a string that is an identifier of the entity that is a stringified IRI for the
@@ -206,7 +209,7 @@
             </div>
             <div class="stip">
               <p>For <em>relational database</em> applications, use the following order of
-                preference:</p>
+                preference to select the value:</p>
               <ol class="num">
                 <li>a string that is an authorized access point or identifier of the entity that
                   appears in an authority file or similar dataset</li>
@@ -251,7 +254,8 @@
       <div class="row my-1 py-1 navISBDMMain text-center">
         <p class="m-0 p-0">&#10058;<a class="linkFooter" href="/ISBDM/docs/siteMap.html">Site
             map</a>&#10058;</p>
-        <p class="m-0 p-0">Warning! Content is under development and will change without notice. This is a project of the ISBD Review Group.</p>
+        <p class="m-0 p-0">Warning! Content is under development and will change without notice.
+          This is a project of the ISBD Review Group.</p>
       </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
