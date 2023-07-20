@@ -114,9 +114,10 @@
                   <a class="linkMenuEntry" href="/ISBDM/docs/assess/p025.html">Manifestation that
                     embodies augmented or collected expressions</a>
                 </div>
-                <div class="d-flex align-items-center">
+                <div class="d-flex align-items-center" aria-current="true">
                   <i class="bi bi-arrow-return-right px-1"></i>
                   <i class="bi bi-arrow-return-right px-1"></i>
+                  <i class="bi bi-asterisk navISBDMSectionActive px-1"></i>
                   <a class="linkMenuEntry" href="/ISBDM/docs/assess/p026.html">Manifestation that
                     embodies parallel expressions</a>
                 </div>
@@ -134,9 +135,8 @@
                   <a class="linkMenuEntry" href="/ISBDM/docs/assess/p020.html">Manifestation of an
                     issue of a diachronic work</a>
                 </div>
-                <div class="d-flex align-items-center" aria-current="true">
+                <div class="d-flex align-items-center">
                   <i class="bi bi-arrow-return-right px-1"></i>
-                  <i class="bi bi-asterisk navISBDMSectionActive px-1"></i>
                   <a class="linkMenuEntry" href="/ISBDM/docs/assess/p018.html">Manifestation of a
                     diachronic work</a>
                 </div>
@@ -150,138 +150,26 @@
         </div>
         <div class="col-md-7 border rounded">
           <div class="row m-1">
-            <h3>Manifestation of a diachronic work</h3>
-            <div class="guid">
-              <p>A manifestation cannot embody the expression of more than one diachronic work.</p>
-            </div>
-            <div class="guid">
-              <p>Consider a manifestation that embodies the expression of a diachronic work to be
-                incomplete. The manifestation may be terminated by its producer or publisher before
-                its intended completion. </p>
-            </div>
-            <div class="guid">
-              <p>Consider a manifestation that embodies the expression of a diachronic work that is
-                known or assumed to have terminated to be a special case of an incomplete
-                manifestation. The manifestation may be extended by its producer or publisher after
-                its intended completion.</p>
-            </div>
-            <div class="guid">
-              <p>Record a <a class="linkInline" href="/ISBDM/docs/notes/1207.html">has note on
-                  manifestation</a> element that indicates the intention and status of
-                completeness.</p>
-              <div class="xampleBlockGuid">
-                <p><a class="linkEx" href="#isbdmex1" data-bs-toggle="collapse" role="button"
-                    aria-expanded="false" aria-controls="isbdmex1">Examples</a></p>
-                <div class="collapse xamples" id="isbdmex1">
-                  <div>
-                    <div class="row px-2">
-                      <div class="col-6 xampleLabel">has note on manifestation</div>
-                      <div class="col-6 xampleValue">&quot;Publication ceased in 1998.&quot;</div>
-                    </div>
-                    <div class="row px-2">
-                      <div class="col editComment">[Full example: <a class="linkInline"
-                          href="/ISBDM/docs/fullex/fx011.html">Biblioteka Vjeverica (1957-1998,
-                          Mladost; svezak; tvrdi uvez)</a>.]</div>
-                    </div>
-                  </div>
-                  <hr />
-                  <div>
-                    <div class="row px-2">
-                      <div class="col-6 xampleLabel">has note on manifestation</div>
-                      <div class="col-6 xampleValue">&quot;First issue published in 2004 as volume
-                        26; last issue published in 2012 as volume 45.&quot;</div>
-                    </div>
-                    <div class="row px-2">
-                      <div class="col editComment">[Full example: <a class="linkInline"
-                          href="/ISBDM/docs/fullex/fx013.html">IFLA series on bibliographic control
-                          (2004-2012; De Gruyter Saur; volume)</a>. The note also includes
-                        information about enumeration.]</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="guid">
-              <p>Consider a description of a manifestation that embodies the expression of a
-                diachronic work to be incomplete. The attributes and relationships associated with
-                the manifestation may be changed over time by its producer or publisher.</p>
-            </div>
-            <div class="guid">
-              <p>Record statements, notes, attributes, and relationships that reflect changes to the
-                attributes and relationships that are common to manifestations of expressions of
-                issues or iterations of a diachronic work.</p>
-            </div>
-            <div class="guid">
-              <p>Consider the manifestation that embodies the expression of a successive diachronic
-                work to have complete sub-units that are the manifestations that embody the
-                expressions of issues of the diachronic work.</p>
-              <div class="seeAlsoAdd">
-                <p><i>See also</i>: <a class="linkInline" href="/ISBDM/docs/assess/p010.html">Number
-                    of units</a></p>
-              </div>
-            </div>
-            <div class="guid">
-              <p>Select the methods to use to describe the manifestation that embodies the
-                expression of each issue or iteration of a diachronic work from the following
-                options:</p>
-              <ul class="bull">
-                <li>Record the manifestation that embodies the issue or iteration as a separate
-                  manifestation and record a relationship to it with a <a class="linkInline"
-                    href="/ISBDM/docs/relationships/1013.html">has sub-unit</a> element.</li>
-                <li>Record a <a class="linkInline" href="/ISBDM/docs/statements/1025.html">has
-                    manifestation statement</a> element or element sub-type that includes
-                  information about the manifestation that embodies the issue or iteration.</li>
-                <li>Record a <a class="linkInline" href="/ISBDM/docs/notes/1269.html">has note on
-                    manifestation associated with manifestation</a> element that includes a
-                  description of one or more manifestations that embody issues or iterations.</li>
-                <li>Do not describe the manifestation that embodies the issue or iteration.</li>
-              </ul>
-              <div class="xampleBlockGuid">
-                <p><a class="linkEx" href="#isbdmex2" data-bs-toggle="collapse" role="button"
-                    aria-expanded="false" aria-controls="isbdmex2">Examples</a></p>
-                <div class="collapse xamples" id="isbdmex2">
-                  <div class="row px-2">
-                    <div class="col-6 xampleLabel">has sub-unit</div>
-                    <div class="col-6 xampleValue">&quot;New scientist. The collection (print).
-                      Volume 3, issue 3&quot;</div>
-                  </div>
-                  <div class="row px-2">
-                    <div class="col-6 xampleLabel">has manifestation statement of issue or
-                      iteration</div>
-                    <div class="col-6 xampleValue">&quot;NewScientist, the collection, vol 3 / issue
-                      3&quot;</div>
-                  </div>
-                  <div class="row px-2">
-                    <div class="col-6 xampleLabel">has note on manifestation associated with
-                      manifestation</div>
-                    <div class="col-6 xampleValue">&quot;Volume 3, issue 3 has title The quantum
-                      world.&quot;</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="guid">
-              <p>Record a <a class="linkInline" href="/ISBDM/docs/notes/1270.html">has note on work
-                  associated with manifestation</a> element that includes a description of one or
-                more issue works, if it is considered to be useful for users of the metadata.</p>
-            </div>
+            <h3>Manifestation that embodies parallel expressions</h3>
             <div class="guid">
               <div class="col-md-12 my-2 text-center">
                 <figure class="figure border border-dark p-2 rounded-2 text-center">
-                  <img src="/ISBDM/images/x001.png" class="figure-img img-fluid rounded"
-                    alt="Entity-relationship diagram of the manifestation that embodies a diachronic work as a whole" />
-                  <figcaption class="figure-caption">Figure 11: Entity-relationship diagram of the
-                    manifestation that embodies a diachronic work as a whole.</figcaption>
-                  <figcaption class="figure-caption"><a href="/ISBDM/docs/fullimages/x001.html"
+                  <img src="/ISBDM/images/x003.png" class="figure-img img-fluid rounded"
+                    alt="Entity-relationship diagram of a parallel expressions aggregate" />
+                  <figcaption class="figure-caption">Figure 9: Entity-relationship diagram of a
+                    parallel expressions aggregate.</figcaption>
+                  <figcaption class="figure-caption"><a href="/ISBDM/docs/fullimages/x003.html"
                       class="linkImage">[Expand image]</a></figcaption>
                 </figure>
               </div>
-              <p class="figExplain">Figure 11 shows the diachronic work that is described as a
-                separate related work. There is a choice to describe the manifestations that embody
-                the issues of the diachronic work as separate related manifestations, or to include
-                the issue work or its manifestation in manifestation statements or notes for the
-                manifestation that is being described. Optional entities, manifestation statements,
-                and notes are outlined by dashes.</p>
+              <p class="figExplain">Figure 9 shows the general case when the work that is realised
+                by each of the aggregated expressions that is embodied in a parallel expressions
+                aggregate is described as a separate related work. This satisfies the mandatory
+                requirement for a <a class="linkInline" href="/ISBDM/docs/relationships/1220.html"
+                  >has work embodied in manifestation</a> element. There is a choice of which of the
+                aggregated parallel expressions to include in manifestation statements or notes for
+                the manifestation that is being described. The options for entities, manifestation
+                statements, and notes are outlined by dashes.</p>
             </div>
           </div>
         </div>
