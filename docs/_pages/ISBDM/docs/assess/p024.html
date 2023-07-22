@@ -124,18 +124,18 @@
                 </div>
                 <div class="d-flex align-items-center">
                   <i class="bi bi-arrow-return-right px-1"></i>
-                  <a class="linkMenuEntry" href="/ISBDM/docs/assess/p017.html">Manifestation of a
-                    static work</a>
+                  <a class="linkMenuEntry" href="/ISBDM/docs/assess/p017.html">Manifestation that
+                    embodies a static work</a>
                 </div>
                 <div class="d-flex align-items-center">
                   <i class="bi bi-arrow-return-right px-1"></i>
-                  <a class="linkMenuEntry" href="/ISBDM/docs/assess/p020.html">Manifestation of an
-                    issue of a diachronic work</a>
+                  <a class="linkMenuEntry" href="/ISBDM/docs/assess/p020.html">Manifestation that
+                    embodies an issue of a diachronic work</a>
                 </div>
                 <div class="d-flex align-items-center">
                   <i class="bi bi-arrow-return-right px-1"></i>
-                  <a class="linkMenuEntry" href="/ISBDM/docs/assess/p018.html">Manifestation of a
-                    diachronic work</a>
+                  <a class="linkMenuEntry" href="/ISBDM/docs/assess/p018.html">Manifestation that
+                    embodies a diachronic work</a>
                 </div>
                 <div class="d-flex align-items-center">
                   <a class="linkMenuEntry" href="/ISBDM/docs/assess/p019.html">Describing the
@@ -174,83 +174,116 @@
                 super-unit.</p>
             </div>
             <div class="guid">
-              <p>For the unit being described, describe the physical characteristics of the unit,
-                sub-units, and super-unit by applying any of the following methods:</p>
+              <p>For the unit being described, describe the physical characteristics of a sub-unit
+                by applying any of the following methods:</p>
               <ul class="bull">
-                <li>Record at least one <a class="linkInline"
-                    href="/ISBDM/docs/attributes/1022.html">has category of carrier</a> element for
-                  the unit and its sub-units. This is mandatory.</li>
+                <li>Record a <a class="linkInline" href="/ISBDM/docs/attributes/1022.html">has
+                    category of carrier</a> element for the sub-unit. This is mandatory for at least
+                  one sub-unit.</li>
+                <li>Record a <a class="linkInline" href="/ISBDM/docs/relationships/1013.html">has
+                    sub-unit</a> element.</li>
                 <li>Record a <a class="linkInline" href="/ISBDM/docs/attributes/1276.html">has
-                    extent of unit</a> element or element sub-type for the unit.</li>
+                    extent of unit</a> element or element sub-type.</li>
                 <li>Record a <a class="linkInline" href="/ISBDM/docs/attributes/1275.html">has
-                    extent of unitary structure</a> element for the sub-units.</li>
+                    extent of unitary structure</a> element.</li>
                 <li>Record a <a class="linkInline" href="/ISBDM/docs/notes/1269.html">has note on
-                    manifestation associated with manifestation</a> element that includes a
-                  description of one or more sub-units or a super-unit.</li>
-                <li>Record a <a class="linkInline" href="/ISBDM/docs/notes/1269.html">has note on
-                    manifestation associated with manifestation</a> element that includes a
-                  description of one or more sub-units or a super-unit.</li>
+                    manifestation associated with manifestation</a> element for one or more
+                  sub-units.</li>
+                <li>Record a <a class="linkInline" href="/ISBDM/docs/notes/1284.html">has note on
+                    physical characteristic</a> element that includes information about one or more
+                  sub-units.</li>
                 <li>Record a <a class="linkInline" href="/ISBDM/docs/statements/1025.html">has
                     manifestation statement</a> element or element sub-type that includes
-                  information about the unit, one or more sub-units, or a super-unit.</li>
-                <li>Do not describe the sub-unit or super-unit.</li>
+                  information about one or more sub-units.</li>
+                <li>Do not describe the sub-unit.</li>
               </ul>
-              <p>Describe the unit, sub-units, or super-unit with more than one method, if it is
-                considered to be useful for users of the metadata.</p>
+              <p>Describe a sub-unit with more than one method, if it is considered to be useful for
+                users of the metadata.</p>
               <div class="xampleBlockGuid">
-                <p><a class="linkEx" href="#isbdmex4" data-bs-toggle="collapse" role="button"
-                    aria-expanded="false" aria-controls="isbdmex4">Examples</a></p>
-                <div class="collapse xamples" id="isbdmex4">
+                <p><a class="linkEx" href="#isbdmex1" data-bs-toggle="collapse" role="button"
+                    aria-expanded="false" aria-controls="isbdmex1">Examples</a></p>
+                <div class="collapse xamples" id="isbdmex1">
                   <div>
+                    <div class="row px-2">
+                      <div class="col-6 xampleLabel">has category of carrier</div>
+                      <div class="col-6 xampleValue">&quot;audio disc&quot;</div>
+                    </div>
+                    <div class="row px-2">
+                      <div class="col-6 xampleLabel">has category of carrier</div>
+                      <div class="col-6 xampleValue">&quot;volume&quot;</div>
+                    </div>
                     <div class="row px-2">
                       <div class="col-6 xampleLabel">has sub-unit</div>
-                      <div class="col-6 xampleValue">&quot;Frozen borderline (Nico). Disc one: The
-                        marble index&quot;</div>
+                      <div class="col-6 xampleValue">&quot;Revolver (2022; Apple Corps Limited;
+                        audio disc; 2 CD edition; CD 1)&quot;</div>
                     </div>
                     <div class="row px-2">
-                      <div class="col editComment">[Sub-unit of unit described.]</div>
-                    </div>
-                  </div>
-                  <div>
-                    <div class="row px-2">
-                      <div class="col-6 xampleLabel">has note on manifestation associated with
-                        manifestation</div>
-                      <div class="col-6 xampleValue">&quot;On two discs with an accompanying
-                        booklet.&quot;</div>
+                      <div class="col-6 xampleLabel">has sub-unit</div>
+                      <div class="col-6 xampleValue">&quot;Revolver (2022; Apple Corps Limited;
+                        audio disc; 2 CD edition; CD 2)&quot;</div>
                     </div>
                     <div class="row px-2">
-                      <div class="col editComment">[Sub-units of unit described.]</div>
-                    </div>
-                  </div>
-                  <div>
-                    <div class="row px-2">
-                      <div class="col-6 xampleLabel">has manifestation statement of title and
-                        responsibility</div>
-                      <div class="col-6 xampleValue">&quot;Disc one: The marble index &hellip; Disc
-                        two: Desertshore &hellip;&quot;</div>
-                      <div class="row px-2">
-                        <div class="col editComment">[Sub-units of unit described.]</div>
-                      </div>
-                    </div>
-                  </div>
-                  <hr />
-                  <div>
-                    <div class="row px-2">
-                      <div class="col-6 xampleLabel">has super-unit</div>
-                      <div class="col-6 xampleValue">&quot;Frozen borderline (Nico)&quot;</div>
+                      <div class="col-6 xampleLabel">has sub-unit</div>
+                      <div class="col-6 xampleValue">&quot;Revolver (2022; Apple Corps Limited;
+                        audio disc; 2 CD edition; booklet)&quot;</div>
                     </div>
                     <div class="row px-2">
-                      <div class="col editComment">[Super-unit of unit described.]</div>
+                      <div class="col-6 xampleLabel">has note on physical characteristic</div>
+                      <div class="col-6 xampleValue">&quot;2 CDs and a booklet in a
+                        slipcase.&quot;</div>
+                    </div>
+                    <div class="row px-2">
+                      <div class="col-6 xampleLabel">has manifestation statement of edition</div>
+                      <div class="col-6 xampleValue">&quot;2 CD edition&quot;</div>
+                    </div>
+                    <div class="row px-2">
+                      <div class="col editComment">[Full example: <a class="linkInline"
+                          href="/ISBDM/docs/fullex/fx049.html">Revolver (2022; Apple Corps Limited;
+                          audio disc; 2 CD edition)</a>.]</div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
             <div class="guid">
-              <p>If a sub-unit or a super-unit has a separate description, record a <a
-                  class="linkInline" href="/ISBDM/docs/relationships/1013.html">has sub-unit</a> or
-                a <a class="linkInline" href="/ISBDM/docs/relationships/1014.html">has
-                  super-unit</a> element to relate the descriptions.</p>
+              <p>For the unit being described, describe the physical characteristics of a super-unit
+                by applying any of the following methods:</p>
+              <ul class="bull">
+                <li>Record a <a class="linkInline" href="/ISBDM/docs/relationships/1014.html">has
+                    super-unit</a> element.</li>
+                <li>Record a <a class="linkInline" href="/ISBDM/docs/notes/1269.html">has note on
+                    manifestation associated with manifestation</a> element for the super-unit.</li>
+                <li>Record a <a class="linkInline" href="/ISBDM/docs/statements/1025.html">has
+                    manifestation statement</a> element or element sub-type that includes
+                  information about the super-unit.</li>
+                <li>Do not describe the super-unit.</li>
+              </ul>
+              <p>Describe a super-unit with more than one method, if it is considered to be useful
+                for users of the metadata.</p>
+              <div class="xampleBlockGuid">
+                <p><a class="linkEx" href="#isbdmex2" data-bs-toggle="collapse" role="button"
+                    aria-expanded="false" aria-controls="isbdmex2">Examples</a></p>
+                <div class="collapse xamples" id="isbdmex2">
+                  <div>
+                    <div class="row px-2">
+                      <div class="col-6 xampleLabel">has super-unit</div>
+                      <div class="col-6 xampleValue">&quot;IFLA series on bibliographic control
+                        (2004-2012; De Gruyter Saur; volume)&quot;</div>
+                    </div>
+                    <div class="row px-2">
+                      <div class="col-6 xampleLabel">has manifestation statement of issue or
+                        iteration</div>
+                      <div class="col-6 xampleValue">&quot;IFLA series on bibliographic control vol
+                        44&quot;</div>
+                    </div>
+                    <div class="row px-2">
+                      <div class="col editComment">[Full example: <a class="linkInline"
+                          href="/ISBDM/docs/fullex/fx012.html">ISBD (2011; De Gruyter Saur; volume;
+                          case binding)</a>.]</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
             <div class="guid">
               <p>If no statement appears in the manifestation that distinguishes a sub-unit from
