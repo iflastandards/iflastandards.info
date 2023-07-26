@@ -76,8 +76,7 @@
             <div class="col-md-12">
               <nav class="d-flex flex-column navISBDMSection"
                 aria-label="Navigation for attribute elements">
-                <div class="d-flex align-items-center" aria-current="true">
-                  <i class="bi bi-asterisk navISBDMSectionActive px-1"></i>
+                <div class="d-flex align-items-center">
                   <a href="/ISBDM/docs/ves/1240.html" class="linkMenuEntry">ISBDM Bibliographic
                     Format value vocabulary</a>
                 </div>
@@ -124,7 +123,8 @@
                   <a href="/ISBDM/docs/ves/ISBDMSESExp.html" class="linkMenuEntry">Expression
                     SES</a>
                 </div>
-                <div class="d-flex align-items-center">
+                <div class="d-flex align-items-center" aria-current="true">
+                  <i class="bi bi-asterisk navISBDMSectionActive px-1"></i>
                   <i class="bi bi-arrow-return-right px-1"></i>
                   <a href="/ISBDM/docs/ves/ISBDMSESIte.html" class="linkMenuEntry">Item SES</a>
                 </div>
@@ -141,76 +141,41 @@
             </div>
           </div>
         </div>
-        <div class="col-md-7">
+        <div class="col-md-7 border rounded">
           <div class="row m-1">
-            <h3>ISBDM Bibliographic Format value vocabulary</h3>
-            <p>This value vocabulary is a source of values for a <a class="linkInline"
-                href="/ISBDM/docs/attributes/1240.html">has bibliographic format</a> element.</p>
-            <div class="row vesHeader">
-              <div class="col-3 border">Value</div>
-              <div class="col-5 border">Definition</div>
-              <div class="col-4 border">Scope note</div>
+            <h3>Item SES</h3>
+            <div class="guid">
+              <p>The base access point for an item is a value of <a class="linkInline"
+                  href="/ISBDM/docs/relationships/1257.html">has authorized access point of
+                  manifestation</a>.</p>
+              <p>The string encoding scheme specifies that the base access point is followed by a
+                qualifier that is added to the qualifiers of the access point and separated by a
+                semicolon &quot;; &quot;.</p>
+              <p>{has authorized access point of manifestation] + insert before
+                &quot;)&quot;(&quot;; &quot; + {an identifier or shelfmark of the item})</p>
+              <p>The qualifier supports a local secondary collocation and sort order of authorized
+                access points of manifestations in a browse index for items.</p>
+              <div class="xampleBlockGuid">
+                <p><a class="linkEx" href="#isbdmex6" data-bs-toggle="collapse" role="button"
+                    aria-expanded="false" aria-controls="isbdmex6">Examples</a></p>
+                <div class="collapse xamples" id="isbdmex6">
+                  <div>
+                    <div class="row px-2">
+                      <div class="col-6 xampleLabel">has item reproduced by manifestation</div>
+                      <div class="col-6 xampleValue">&quot;Evangelistarium Marci Maruli Spalatensis
+                        (1519; Officina Adamae Petri; svezak; tvrdi uvez; HR-ZaNSK,
+                        RIIF-8o-416)&quot;</div>
+                    </div>
+                    <div class="row px-2">
+                      <div class="col editComment">[Full example: <a class="linkInline"
+                          href="/ISBDM/docs/fullex/fx008.html">Evangelistarium Marci Maruli
+                          Spalatensis (201-; Nacionalna i sveu&#269;ili&#353;na knji&#382;nica u
+                          Zagrebu; online jedinica gra&#273;e)</a>.]</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="row"><div class="col-3 border vesValue"><p>folio</p></div><div
-                class="col-5 border"><p>A bibliographic format that consists of one or more leaves
-                  that are 1/2 of the whole sheet.</p></div><div class="col-4 border"
-              ><p></p></div></div>
-            <div class="row"><div class="col-3 border vesValue"><p>full-sheet</p></div><div
-                class="col-5 border"><p>A bibliographic format that consists of one or more sheets
-                  that have not been cut or folded.</p></div><div class="col-4 border"
-              ><p></p></div></div>
-            <div class="row"><div class="col-3 border vesValue"><p>4to</p></div><div
-                class="col-5 border"><p>A bibliographic format that consists of one or more leaves
-                  that are 1/4 of the whole sheet.</p></div><div class="col-4 border"
-              ><p></p></div></div>
-            <div class="row"><div class="col-3 border vesValue"><p>8vo</p></div><div
-                class="col-5 border"><p>A bibliographic format that consists of one or more leaves
-                  that are 1/8 of the whole sheet.</p></div><div class="col-4 border"
-              ><p></p></div></div>
-            <div class="row"><div class="col-3 border vesValue"><p>12mo</p></div><div
-                class="col-5 border"><p>A bibliographic format that consists of one or more leaves
-                  that are 1/12 of the whole sheet.</p></div><div class="col-4 border"
-              ><p></p></div></div>
-            <div class="row"><div class="col-3 border vesValue"><p>16mo</p></div><div
-                class="col-5 border"><p>A bibliographic format that consists of one or more leaves
-                  that are 1/16 of the whole sheet.</p></div><div class="col-4 border"
-              ><p></p></div></div>
-            <div class="row"><div class="col-3 border vesValue"><p>18mo</p></div><div
-                class="col-5 border"><p>A bibliographic format that consists of one or more leaves
-                  that are 1/18 of the whole sheet.</p></div><div class="col-4 border"
-              ><p></p></div></div>
-            <div class="row"><div class="col-3 border vesValue"><p>24mo</p></div><div
-                class="col-5 border"><p>A bibliographic format that consists of one or more leaves
-                  that are 1/24 of the whole sheet.</p></div><div class="col-4 border"
-              ><p></p></div></div>
-            <div class="row"><div class="col-3 border vesValue"><p>32mo</p></div><div
-                class="col-5 border"><p>A bibliographic format that consists of one or more leaves
-                  that are 1/32 of the whole sheet.</p></div><div class="col-4 border"
-              ><p></p></div></div>
-            <div class="row"><div class="col-3 border vesValue"><p>48mo</p></div><div
-                class="col-5 border"><p>A bibliographic format that consists of one or more leaves
-                  that are 1/48 of the whole sheet.</p></div><div class="col-4 border"
-              ><p></p></div></div>
-            <div class="row"><div class="col-3 border vesValue"><p>64mo</p></div><div
-                class="col-5 border"><p>A bibliographic format that consists of one or more leaves
-                  that are 1/64 of the whole sheet.</p></div><div class="col-4 border"
-              ><p></p></div></div>
-            <div class="row"><div class="col-3 border vesValue"><p>36mo</p></div><div
-                class="col-5 border"><p>A bibliographic format that consists of one or more leaves
-                  that are 1/36 of the whole sheet.</p></div><div class="col-4 border"
-              ><p></p></div></div>
-            <div class="row"><div class="col-3 border vesValue"><p>72mo</p></div><div
-                class="col-5 border"><p>A bibliographic format that consists of one or more leaves
-                  that are 1/72 of the whole sheet.</p></div><div class="col-4 border"
-              ><p></p></div></div>
-            <div class="row"><div class="col-3 border vesValue"><p>96mo</p></div><div
-                class="col-5 border"><p>A bibliographic format that consists of one or more leaves
-                  that are 1/96 of the whole sheet.</p></div><div class="col-4 border"
-              ><p></p></div></div>
-            <div class="row"><div class="col-3 border vesValue"><p>128mo</p></div><div
-                class="col-5 border"><p>A bibliographic format that consists of one or more leaves
-                  that are 1/128 of the whole sheet.</p></div><div class="col-4 border"
-                ><p></p></div></div>
           </div>
         </div>
       </div>
