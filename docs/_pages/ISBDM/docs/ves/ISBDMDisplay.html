@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>ISBD for Manifestation</title>
     <!-- CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css"
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
       rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -141,6 +141,11 @@
                   <a href="/ISBDM/docs/ves/ISBDMDisplay.html" class="linkMenuEntry">Display of ISBDM
                     metadata</a>
                 </div>
+                <div class="d-flex align-items-center">
+                  <i class="bi bi-arrow-return-right px-1"></i>
+                  <a href="/ISBDM/docs/ves/ISBDMOrder.html" class="linkMenuEntry">Order of
+                    elements</a>
+                </div>
               </nav>
             </div>
           </div>
@@ -150,352 +155,149 @@
             <h3>Display of ISBDM metadata</h3>
             <div class="guid">
               <p>ISBD for Manifestation does not prescribe a selection, order, layout, or
-                punctuation for displaying ISBDM metadata.</p>
+                punctuation for displaying the values of elements in a description of a
+                manifestation.</p>
             </div>
             <div class="guid">
-              <p>This is a suggested order of presentation of element values for a &quot;standard
-                record&quot; display:</p>
-              <ol class="num">
-                <li>Representation of the manifestation. Transcribed values with relevant notes:<ol
-                    class="al">
-                    <li><a class="linkInline" href="/ISBDM/docs/statements/1025.html">has
-                        manifestation statement</a> elements and element sub-types</li>
-                    <li><a class="linkInline" href="/ISBDM/docs/notes/1200.html">has note on
-                        manifestation statement</a> elements and element sub-types</li>
-                  </ol></li>
-                <li>Appellations of the manifestation. Controlled values and relevant notes:<ol
-                    class="al">
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1008.html">has nomen
-                        associated with manifestation</a> elements and element sub-types</li>
-                    <li><a class="linkInline" href="/ISBDM/docs/notes/1273.html">has note on nomen
-                        associated with manifestation</a> element</li>
-                  </ol></li>
-                <li>Creation of the manifestation. Controlled values:<ol class="al">
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1019.html">has creator
-                        agent of manifestation</a> elements and element sub-types</li>
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1236.html">has place
-                        of creation of manifestation</a> elements and element sub-types</li>
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1235.html">has date of
-                        creation of manifestation</a> elements and element sub-types</li>
-                  </ol></li>
-                <li>Attributes of the manifestation. Controlled values with relevant notes:<ol
-                    class="al">
-                    <li><a class="linkInline" href="/ISBDM/docs/attributes/1263.html">has category
-                        of manifestation</a> element and element sub-types</li>
-                    <li><a class="linkInline" href="/ISBDM/docs/notes/1219.html">has note on
-                        category of manifestation</a> element</li>
-                    <li><a class="linkInline" href="/ISBDM/docs/attributes/1242.html">has physical
-                        characteristic</a> element and element sub-types</li>
-                    <li><a class="linkInline" href="/ISBDM/docs/notes/1284.html">has note on
-                        physical characteristic</a> element</li>
-                    <li><a class="linkInline" href="/ISBDM/docs/attributes/1027.html">has use
-                        rights</a> element and element sub-types</li>
-                  </ol></li>
-                <li>Relationships with other manifestations. Controlled values with relevant
-                    notes:<ol class="al">
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1003.html">has
-                        manifestation associated with manifestation</a> element and element
-                      sub-types</li>
-                    <li><a class="linkInline" href="/ISBDM/docs/notes/1269.html">has note on
-                        manifestation associated with manifestation</a> element</li>
-                  </ol></li>
-                <li>Relationships with other resource entities. Controlled values with relevant
-                    notes:<ol class="al">
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1002.html">has
-                        expression associated with manifestation</a> element and element
-                      sub-types</li>
-                    <li><a class="linkInline" href="/ISBDM/docs/notes/1267.html">has note on
-                        expression associated with manifestation</a> element</li>
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1001.html">has work
-                        associated with manifestation</a> element and element sub-types</li>
-                    <li><a class="linkInline" href="/ISBDM/docs/notes/1270.html">has note on work
-                        associated with manifestation</a> element</li>
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1004.html">has item
-                        associated with manifestation</a> element and element sub-types</li>
-                    <li><a class="linkInline" href="/ISBDM/docs/notes/1268.html">has note on item
-                        associated with manifestation</a> element</li>
-                  </ol></li>
-                <li>Relationships with other place and time-span entities. Controlled values with
-                  relevant notes:<ol class="al">
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1009.html">has place
-                        associated with manifestation</a> element and element sub-types</li>
-                    <li><a class="linkInline" href="/ISBDM/docs/notes/1271.html">has note on place
-                        associated with manifestation</a> element</li>
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1010.html">has
-                        time-span associated with manifestation</a> element and element
-                      sub-types</li>
-                    <li><a class="linkInline" href="/ISBDM/docs/notes/1272.html">has note on
-                        time-span associated with manifestation</a> element</li>
-                  </ol></li>
-              </ol>
+              <p>The choice of methods for displaying ISBDM metadata in an information retrieval
+                application is influenced by the intended <a class="linkInline"
+                  href="/ISBDM/docs/intro/i006.html">Metadata utility and processing</a> of ISBDM
+                elements.</p>
             </div>
             <div class="guid">
-              <p>This is a suggested order of specific elements within the suggested order of
-                presentation:</p>
-              <ol class="num">
-                <li>Representation of the manifestation.<ol class="num">
-                    <li><a class="linkInline" href="/ISBDM/docs/statements/1028.html">has
-                        manifestation statement of title and responsibility</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/notes/1206.html">has note on
-                        manifestation statement of title and responsibility</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/statements/1029.html">has
-                        manifestation statement of edition</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/notes/1201.html">has note on
-                        manifestation statement of edition</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/statements/1031.html">has
-                        manifestation statement of issue or iteration</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/notes/1204.html">has note on
-                        manifestation statement of issue or iteration</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/statements/1030.html">has
-                        manifestation statement of publication, production, manufacture, or
-                        distribution</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/notes/1203.html">has note on
-                        manifestation statement of publication, production, manufacture, or
-                        distribution</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/statements/1034.html">has
-                        manifestation statement of identifier and terms of availability</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/notes/1202.html">has note on
-                        manifestation statement of identifier and terms of availability</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/statements/1032.html">has
-                        manifestation statement of category</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/notes/1205.html">has note on
-                        manifestation statement of category</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/statements/1280.html">has
-                        manifestation statement of extent</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/notes/1282.html">has note on
-                        manifestation statement of extent</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/statements/1025.html">has
-                        manifestation statement</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/notes/1200.html">has note on
-                        manifestation statement</a></li>
-                  </ol></li>
-                <li>Appellations of the manifestation.<ol class="num">
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1038.html">has title
-                        proper</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1245.html">has variant
-                        title of manifestation</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1037.html">has title
-                        of manifestation</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1257.html">has
-                        authorized access point of manifestation</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1258.html">has variant
-                        access point of manifestation</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1234.html">has access
-                        point of manifestation</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1261.html">has
-                        catalogue number</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1260.html">has
-                        publisher number</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1116.html">has
-                        chronological designation</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1117.html">has numeric
-                        designation</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1215.html">has
-                        fingerprint</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1259.html">has plate
-                        number</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1286.html">has uniform
-                        resource locator</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1111.html">has
-                        identifier of manifestation</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1008.html">has nomen
-                        associated with manifestation</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/notes/1273.html">has note on nomen
-                        associated with manifestation</a></li>
-                  </ol></li>
-                <li>Creation of the manifestation.<ol class="num">
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1254.html">has
-                        publisher collective agent</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1249.html">has
-                        publisher person</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1217.html">has
-                        publisher agent</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1253.html">has
-                        producer collective agent</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1248.html">has
-                        producer person</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1216.html">has
-                        producer agent</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1252.html">has
-                        manufacturer collective agent</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1247.html">has
-                        manufacturer person</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1020.html">has
-                        manufacturer agent</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1251.html">has creator
-                        collective agent of manifestation</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1246.html">has creator
-                        person of manifestation</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1019.html">has creator
-                        agent of manifestation</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1213.html">has place
-                        of publication</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1212.html">has place
-                        of production</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1214.html">has place
-                        of manufacture</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1236.html">has place
-                        of creation of manifestation</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1210.html">has date of
-                        publication</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1209.html">has date of
-                        production</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1114.html">has date of
-                        manufacture</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1244.html">has date of
-                        copyright of manifestation</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1235.html">has date of
-                        creation of manifestation</a></li>
-                  </ol></li>
-                <li>Attributes of the manifestation.<ol class="num">
-                    <li><a class="linkInline" href="/ISBDM/docs/attributes/1022.html">has category
-                        of carrier</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/attributes/1264.html">has category
-                        of embodied content</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/attributes/1263.html">has category
-                        of manifestation</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/attributes/1218.html">has media
-                        type</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/notes/1219.html">has note on
-                        category of manifestation</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/attributes/1262.html">has unitary
-                        structure</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/attributes/1241.html">has
-                        binding</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/attributes/1289.html">has encoding
-                        format</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/attributes/1231.html">has
-                        equalization</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/attributes/1239.html">has frame
-                        alignment</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/attributes/1288.html">has layout of
-                        embodied content</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/attributes/1256.html">has
-                        manufacturing process</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/attributes/1223.html">has applied
-                        material</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/attributes/1222.html">has base
-                        material</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/attributes/1221.html">has
-                        material</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/attributes/1232.html">has noise
-                        reduction</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/attributes/1224.html">has playing
-                        speed</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/attributes/1225.html">has recording
-                        method</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/attributes/1283.html">has regional
-                        encoding</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/attributes/1229.html">has track
-                        configuration</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/attributes/1242.html">has physical
-                        characteristic</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/notes/1284.html">has note on
-                        physical characteristic</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/attributes/1024.html">has intended
-                        audience of manifestation</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/attributes/1238.html">has terms of
-                        availability</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/attributes/1027.html">has use
-                        rights</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/notes/1207.html">has note on
-                        manifestation</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/attributes/1023.html">has extent of
-                        manifestation</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/attributes/1240.html">has
-                        bibliographic format</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/attributes/1237.html">has
-                        dimensions</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/attributes/1228.html">has number of
-                        recording tracks</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/attributes/1276.html">has extent of
-                        unit</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/attributes/1275.html">has extent of
-                        unitary structure</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/attributes/1285.html">has
-                        designation of number of sound channels</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/attributes/1230.html">has number of
-                        sound channels</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/attributes/1281.html">has image
-                        resolution</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/attributes/1287.html">has playing
-                        time</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/attributes/1243.html">has reduction
-                        ratio</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/attributes/1277.html">has extent of
-                        embodied content</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/attributes/1278.html">has extent of
-                        aggregated content</a></li>
-                  </ol></li>
-                <li>Relationships with other manifestations.<ol class="num">
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1013.html">has
-                        sub-unit</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1014.html">has
-                        super-unit</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1018.html">has
-                        alternate manifestation</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1015.html">has
-                        manifestation reproduced by manifestation</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1016.html">has
-                        manifestation that reproduces manifestation</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1003.html">has
-                        manifestation associated with manifestation</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/notes/1269.html">has note on
-                        manifestation associated with manifestation</a></li>
-                  </ol></li>
-                <li>Relationships with other resource entities.<ol class="num">
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1012.html">has
-                        expression embodied in manifestation</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1002.html">has
-                        expression associated with manifestation</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/notes/1267.html">has note on
-                        expression associated with manifestation</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1220.html">has work
-                        embodied in manifestation</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1001.html">has work
-                        associated with manifestation</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/notes/1270.html">has note on work
-                        associated with manifestation</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1011.html">has item
-                        that exemplifies manifestation</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1017.html">has item
-                        reproduced by manifestation</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1004.html">has item
-                        associated with manifestation</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/notes/1268.html">has note on item
-                        associated with manifestation</a></li>
-                  </ol></li>
-                <li>Relationships with agents.<ol class="num">
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1255.html">has
-                        distributor collective agent</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1250.html">has
-                        distributor person</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1021.html">has
-                        distributor agent</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1251.html">has creator
-                        collective agent of manifestation</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1006.html">has person
-                        associated with manifestation</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1005.html">has agent
-                        associated with manifestation</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/notes/1266.html">has note on agent
-                        associated with manifestation</a></li>
-                  </ol></li>
-                <li>Relationships with other place and time-span entities.<ol class="num">
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1211.html">has place
-                        of distribution</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1009.html">has place
-                        associated with manifestation</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/notes/1271.html">has note on place
-                        associated with manifestation</a> element</li>
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1208.html">has date of
-                        distribution</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/relationships/1010.html">has
-                        time-span associated with manifestation</a></li>
-                    <li><a class="linkInline" href="/ISBDM/docs/notes/1272.html">has note on
-                        time-span associated with manifestation</a></li>
-                  </ol></li>
-              </ol>
+              <p>The value of a <a class="linkInline" href="/ISBDM/docs/statements/1025.html">has
+                  manifestation statement</a> element or element sub-type is at a broad level of
+                granularity, and it may overlap with the value of another similar element.</p>
+              <p>Specific element labels may be omitted to simplify the display of a set of
+                values.</p>
+              <div class="xampleBlockGuid">
+                <p><a class="linkEx" href="#isbdmex1" data-bs-toggle="collapse" role="button"
+                    aria-expanded="false" aria-controls="isbdmex1">Examples</a></p>
+                <div class="collapse xamples" id="isbdmex1">
+                  <p>The values of statements in a description are concatenated into a single
+                    display value with delimiting punctuation:</p>
+                  <div>
+                    <div class="row px-2">
+                      <div class="col xampleNarrative">
+                        <p>&quot;Jane Austen, Emma, edited with an introduction by Ronald Blythe. -
+                          Penguin English library. - Penguin Books Ltd, Harmondsworth &hellip;
+                          England, &hellip; Reprinted 1971. - ISBN 0 14 043.101 5.&quot;</p>
+                      </div>
+                    </div>
+                    <div class="row px-2">
+                      <div class="col editComment">[Full example: <a class="linkInline"
+                          href="/ISBDM/docs/fullex/fx025.html">Emma (1971; Penguin Books; volume;
+                          perfect binding)</a>. The delimiting punctuation is &quot;. - &quot;
+                        (stop-space-hyphen-space).]</div>
+                    </div>
+                  </div>
+                  <hr />
+                  <div>
+                    <div class="row px-2">
+                      <div class="col xampleNarrative">
+                        <p>&quot;give it up b/w tired. - lcd soundsystem | a. written by james
+                          murphy b. by james murphy and pat mahoney | a give it up | james murphy:
+                          vocals, bass, drums, percussion, synthesizers, programming | produce by
+                          the dfa | b tired | james murphy: vocals, bass, guitar; pat mahoney:
+                          drums, percussion; ems synthesizer | produce by the dfa. - p+c dfa records
+                          2002. - output recordings &hellip; london, - oprdfa004. - 45 rpm&quot;</p>
+                      </div>
+                    </div>
+                    <div class="row px-2">
+                      <div class="col editComment">[Full example: <a class="linkInline"
+                          href="/ISBDM/docs/fullex/fx058.html">Give it up b/w Tired (2002; Ouput
+                          Recordings; audio disc)</a>. The delimiting punctuation is &quot;. -
+                        &quot; (stop-space-hyphen-space).]</div>
+                    </div>
+                  </div>
+                  <hr />
+                  <div>
+                    <div class="row px-2">
+                      <div class="col xampleNarrative">
+                        <p>&quot;Henri Cartier-Bresson (1908-2004) / Truman Capote, ecrivain, USA,
+                          1947 / courtesy Fondation HCB : &copy; Nouvelles Images S.A. et H.
+                          Cartier-Bresson - Magnum Photos 2008 / 45700 Lombreuil, France :
+                          764697001022, 764697150065&quot;</p>
+                      </div>
+                    </div>
+                    <div class="row px-2">
+                      <div class="col editComment">[Full example: <a class="linkInline"
+                          href="/ISBDM/docs/fullex/fx060.html">Truman Capote, ecrivain, USA, 1947
+                          (2008; Nouvelles Images S.A.; card)</a>. The delimiting punctuation is
+                        &quot; :&quot; (space-colon-space).]</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="guid">
+              <p>The controlled value of an attribute element can be displayed or otherwise output
+                as a non-textual symbol.</p>
+              <div class="xampleBlockGuid">
+                <p><a class="linkEx" href="#isbdmex2" data-bs-toggle="collapse" role="button"
+                    aria-expanded="false" aria-controls="isbdmex2">Examples</a></p>
+                <div class="collapse xamples" id="isbdmex2">
+                  <div class="row px-2">
+                    <div class="col xampleNarrative">
+                      <p>Display the value &quot;volume&quot; of a <a class="linkInline"
+                          href="/ISBDM/docs/attributes/1263.html">has category of manifestation</a>
+                        element as <span style="font-size:1.5rem;"><i class="bi bi-book px-1"
+                          ></i></span>.</p>
+                    </div>
+                  </div>
+                  <hr />
+                  <div class="row px-2">
+                    <div class="col xampleNarrative">
+                      <p>Display the value &quot;microform&quot; of a <a class="linkInline"
+                          href="/ISBDM/docs/attributes/1218.html">has media type</a> element as
+                          <span style="font-size:1.5rem;"><i class="bi bi-zoom-in px-1"
+                        ></i></span>.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="guid">
+              <p>The controlled values of a <a class="linkInline"
+                  href="/ISBDM/docs/attributes/1263.html">has category of manifestation</a> element
+                and element sub-types can be concatenated into a single compound value and displayed
+                with or without a generic &quot;category&quot; label to simplify the display of a
+                set of values.</p>
+              <div class="xampleBlockGuid">
+                <p><a class="linkEx" href="#isbdmex3" data-bs-toggle="collapse" role="button"
+                    aria-expanded="false" aria-controls="isbdmex3">Examples</a></p>
+                <div class="collapse xamples" id="isbdmex3">
+                  <div>
+                    <div class="row px-2">
+                      <div class="col xampleNarrative">
+                        <p>&quot;volume; unmediated; still image; text&quot;</p>
+                      </div>
+                    </div>
+                    <div class="row px-2">
+                      <div class="col editComment">[Full example: <a class="linkInline"
+                          href="/ISBDM/docs/fullex/fx059.html">Asterix and the gowden heuk (2014;
+                          Itchy Coo; volume)</a>. The delimiting punctuation is "; "
+                        (semicolon-space).]</div>
+                    </div>
+                  </div>
+                  <hr />
+                  <div>
+                    <div class="row px-2">
+                      <div class="col xampleNarrative">
+                        <p>&quot;Type: audiocassette - spoken word&quot;</p>
+                      </div>
+                    </div>
+                    <div class="row px-2">
+                      <div class="col editComment">[Full example: <a class="linkInline"
+                          href="/ISBDM/docs/fullex/fx018.html">Harry Potter and the goblet of fire
+                          (2000; Listening Library; audiocassette)</a>. The delimiting punctuation
+                        is " - " (space-hyphen-space). The value of <a class="linkInline"
+                          href="/ISBDM/docs/attributes/1218.html">has media type</a> is omitted for
+                        clarity. A generic label is &quot;Type&quot;.]</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
