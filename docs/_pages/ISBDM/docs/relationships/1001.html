@@ -216,18 +216,19 @@
             </div>
             <h5>String encoding schemes</h5>
             <div class="guid">
-              <p>[Guidance for base]</p>
+              <p>A string encoding scheme for an authorized access point of a work should support
+                several levels of identification and collation:</p>
+              <ol class="num">
+                <li>an agent who is responsible for the creation of the work</li>
+                <li>a title that is assigned by an agent who is responsible for the creation of the
+                  work or a cataloguing agency</li>
+                <li>specific attributes of the work</li>
+              </ol>
             </div>
             <div class="guid">
-              <p>For a work that is anonymous, apply the guidance for the language or country of
-                origin of the name that is available in <a class="linkOutline"
-                  href="https://www.ifla.org/g/cataloguing/anonymous-classics/" target="_blank"
-                  >Anonymous classics</a>, if it is considered to be useful for users of the
-                metadata.</p>
-            </div>
-            <div class="guid">
-              <p>A string encoding scheme should use any strings as qualifiers, if it is considered
-                to be useful for users of the metadata.</p>
+              <p><a class="linkInline" href="/ISBDM/docs/ves/ISBDMSESWor.html">Work SES</a> is a
+                string encoding scheme suggested by <span class="thisem">ISBD for
+                  Manifestation</span> for an authorized access point of a work.</p>
             </div>
           </div>
           <div class="row m-1">
@@ -238,14 +239,45 @@
             </div>
             <div class="stip">
               <p>Use an appropriate element sub-type to record a more specific relationship.</p>
+              <div class="xampleBlockStip">
+                <p><a class="linkEx" href="#isbdmex1" data-bs-toggle="collapse" role="button"
+                    aria-expanded="false" aria-controls="isbdmex1">Examples</a></p>
+                <div class="collapse xamples" id="isbdmex1">
+                  <div>
+                    <div class="row px-2">
+                      <div class="col-6 xampleLabel">has work embodied in manifestation</div>
+                      <div class="col-6 xampleValue">&quot;Ziga Media, LLC. National
+                        parks&quot;</div>
+                    </div>
+                    <div class="row px-2">
+                      <div class="col editComment">[Full example: <a class="linkInline"
+                          href="/ISBDM/docs/fullex/fx061.html">National parks (2015; Ziga Media,
+                          LLC; flipchart)</a>.]</div>
+                    </div>
+                  </div>
+                  <hr />
+                  <div>
+                    <div class="row px-2">
+                      <div class="col-6 xampleLabel">has work embodied in manifestation</div>
+                      <div class="col-6 xampleValue">&quot;Krämer, Felix, 1971-. Matisse
+                        Bonnard&quot;</div>
+                    </div>
+                    <div class="row px-2">
+                      <div class="col editComment">[Full example: <a class="linkInline"
+                          href="/ISBDM/docs/fullex/fx065.html">Matisse Bonnard (2017; Städel Museum;
+                          volume; case binding)</a>.]</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
             <div class="stip">
               <p>Record a work that is associated with the manifestation. Do not record a work that
                 is known to be falsely associated with the manifestation.</p>
               <div class="xampleBlockStip">
-                <p><a class="linkEx" href="#isbdmex1" data-bs-toggle="collapse" role="button"
-                    aria-expanded="false" aria-controls="isbdmex1">Examples</a></p>
-                <div class="collapse xamples" id="isbdmex1">
+                <p><a class="linkEx" href="#isbdmex2" data-bs-toggle="collapse" role="button"
+                    aria-expanded="false" aria-controls="isbdmex2">Examples</a></p>
+                <div class="collapse xamples" id="isbdmex2">
                   <div>
                     <div class="row px-2">
                       <div class="col-6 xampleLabel">has work associated with manifestation</div>
@@ -258,6 +290,36 @@
                         is an inspiration for the work that is embodied in the manifestation.]</div>
                     </div>
                   </div>
+                  <hr />
+                  <div>
+                    <div class="row px-2">
+                      <div class="col-6 xampleLabel">has work associated with manifestation</div>
+                      <div class="col-6 xampleValue">&quot;McCall Smith, Alexander, 1948-.
+                        Emma&quot;</div>
+                    </div>
+                    <div class="row px-2">
+                      <div class="col editComment">[Full example: <a class="linkInline"
+                          href="/ISBDM/docs/fullex/fx053.html">Emma (1815; John Murray; case
+                          binding)</a>. The value is an authorized access point of a work that is
+                        inspired by a work that is embodied in the manifestation.]</div>
+                    </div>
+                  </div>
+                  <hr />
+                  <div>
+                    <div class="row px-2">
+                      <div class="col-6 xampleLabel">has work associated with manifestation</div>
+                      <div class="col-6 xampleValue">&quot;New scientist. The collection (2014-;
+                        Reed Business Information Ltd; online resource)&quot;</div>
+                    </div>
+                    <div class="row px-2">
+                      <div class="col editComment">[Full example: <a class="linkInline"
+                          href="/ISBDM/docs/fullex/fx056.html">New scientist. The collection (2014-;
+                          Reed Business Information Ltd; volume)</a>. The value is an authorized
+                        access point of a diachronic work that is embodied in a carrier type that is
+                        different to the manifestation. The related work does not have a distinct
+                        ISSN.]</div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -265,9 +327,9 @@
               <p>Record a separate occurrence of the element for each distinct value that is
                 considered to be useful for users of the metadata.</p>
               <div class="xampleBlockStip">
-                <p><a class="linkEx" href="#isbdmex2" data-bs-toggle="collapse" role="button"
-                    aria-expanded="false" aria-controls="isbdmex2">Examples</a></p>
-                <div class="collapse xamples" id="isbdmex2">
+                <p><a class="linkEx" href="#isbdmex3" data-bs-toggle="collapse" role="button"
+                    aria-expanded="false" aria-controls="isbdmex3">Examples</a></p>
+                <div class="collapse xamples" id="isbdmex3">
                   <div>
                     <div class="row px-2">
                       <div class="col-6 xampleLabel">has work associated with manifestation</div>

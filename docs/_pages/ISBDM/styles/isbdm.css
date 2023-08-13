@@ -265,6 +265,13 @@ hr {
 .vesValue {
   font-weight: bold;
 }
+.thisem {
+  font-weight: 400;
+}
+.thatem {
+  font-style: italic;
+  font-weight: 400;
+}
 ol.al,
 ol.num,
 ul.bull {
