@@ -91,16 +91,14 @@
                   <a href="/ISBDM/docs/ves/1264.html" class="linkMenuEntry">ISBDM Category of
                     Content value vocabulary</a>
                 </div>
-                <div class="d-flex align-items-center" aria-current="true">
-                  <i class="bi bi-asterisk navISBDMSectionActive px-1"></i>
+                <div class="d-flex align-items-center">
                   <a href="/ISBDM/docs/ves/1285.html" class="linkMenuEntry">ISBDM Designation of
                     Sound Channels value vocabulary</a>
                 </div>
                 <div class="d-flex align-items-center">
                   <a href="/ISBDM/docs/ves/1288.html" class="linkMenuEntry">ISBDM Layout of Embodied
                     Content value vocabulary</a>
-                </div>
-                <div class="d-flex align-items-center">
+                </div><div class="d-flex align-items-center">
                   <a href="/ISBDM/docs/ves/1218.html" class="linkMenuEntry">ISBDM Media Type value
                     vocabulary</a>
                 </div>
@@ -122,11 +120,6 @@
                 </div>
                 <div class="d-flex align-items-center">
                   <i class="bi bi-arrow-return-right px-1"></i>
-                  <a href="/ISBDM/docs/ves/ISBDMSESCol.html" class="linkMenuEntry">Collective Agent
-                    SES</a>
-                </div>
-                <div class="d-flex align-items-center">
-                  <i class="bi bi-arrow-return-right px-1"></i>
                   <a href="/ISBDM/docs/ves/ISBDMSESExp.html" class="linkMenuEntry">Expression
                     SES</a>
                 </div>
@@ -143,8 +136,9 @@
                   <i class="bi bi-arrow-return-right px-1"></i>
                   <a href="/ISBDM/docs/ves/ISBDMSESPer.html" class="linkMenuEntry">Person SES</a>
                 </div>
-                <div class="d-flex align-items-center">
+                <div class="d-flex align-items-center" aria-current="true">
                   <i class="bi bi-arrow-return-right px-1"></i>
+                  <i class="bi bi-asterisk navISBDMSectionActive px-1"></i>
                   <a href="/ISBDM/docs/ves/ISBDMSESPla.html" class="linkMenuEntry">Place SES</a>
                 </div>
                 <div class="d-flex align-items-center">
@@ -169,30 +163,33 @@
             </div>
           </div>
         </div>
-        <div class="col-md-7">
+        <div class="col-md-7 border rounded">
           <div class="row m-1">
-            <h3>ISBDM Designation of Sound Channels value vocabulary</h3>
-            <p>This value vocabulary is a source of values for a <a class="linkInline"
-                href="/ISBDM/docs/attributes/1285.html">has designation of number of sound
-                channels</a> element.</p>
-            <div class="row vesHeader">
-              <div class="col-3 border">Value</div>
-              <div class="col-5 border">Definition</div>
-              <div class="col-4 border">Scope note</div>
+            <h3>Person SES</h3>
+            <div class="guid">
+              <p>This is a suggested string encoding scheme for an authorized access point of a
+                place that is related to the manifestation.</p>
+              <p>The encoding scheme is applicable to the value of a <a class="linkInline"
+                  href="/ISBDM/docs/relationships/1009.html">has place associated with
+                  manifestation</a> element or element subtype.</p>
             </div>
-            <div class="row"><div class="col-3 border vesValue"><p>mono</p></div><div
-                class="col-5 border"><p>A designation of sound channels that is a single channel for
-                  monophonic sound.</p></div><div class="col-4 border"><p></p></div></div>
-            <div class="row"><div class="col-3 border vesValue"><p>quadraphonic</p></div><div
-                class="col-5 border"><p>A designation of sound channels that is four channels for
-                  quadraphonic sound.</p></div><div class="col-4 border"><p></p></div></div>
-            <div class="row"><div class="col-3 border vesValue"><p>stereo</p></div><div
-                class="col-5 border"><p>A designation of sound channels that is two channels for
-                  stereophonic sound.</p></div><div class="col-4 border"><p></p></div></div>
-            <div class="row"><div class="col-3 border vesValue"><p>surround</p></div><div
-                class="col-5 border"><p>A designation of sound channels that is more than four
-                  channels for surround sound.</p></div><div class="col-4 border"
-              ><p></p></div></div>
+            <div class="guid">
+              <p>The base access point of a place is a name of the place that is the most common in
+                external sources of information.</p>
+            </div>
+            <div class="guid">
+              <p>Other qualifiers are added to disambiguate the base access point.</p>
+              <p>Added qualifiers are conditional on specific characteristics of the place. They
+                support a secondary collocation and sort order of authorized access points.</p>
+            </div>
+            <div class="guid">
+              <p>A string encoding scheme should use the following strings as qualifiers of a base
+                access point:</p>
+              <ul class="bull">
+                <li>A name of a larger place that includes the place</li>
+                <li>A category of place</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>

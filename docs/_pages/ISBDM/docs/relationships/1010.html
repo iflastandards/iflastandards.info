@@ -234,46 +234,28 @@
             </div>
             <h5>String encoding schemes</h5>
             <div class="guid">
-              <p>A string encoding scheme should use any strings as qualifiers, if it is considered
-                to be useful for users of the metadata.</p>
+              <p>A string encoding scheme for an authorized access point of a time-span should
+                support several levels of identification and collation:</p>
+              <ol class="num">
+                <li>A name of the time-span</li>
+                <li>A category of time-span</li>
+              </ol>
             </div>
             <div class="guid">
               <p>For a time-span that is a calendar date or a range of calendar dates, apply a
                 string encoding scheme that conforms to the standard date and time format that is
                 selected for an authorized access point.</p>
-              <div class="xampleBlockGuid">
-                <p><a class="linkEx" href="#isbdmex1" data-bs-toggle="collapse" role="button"
-                    aria-expanded="false" aria-controls="isbdmex1">Examples</a></p>
-                <div class="collapse xamples" id="isbdmex1">
-                  <div>
-                    <div class="row px-2">
-                      <div class="col-6 xampleLabel">has time-span associated with
-                        manifestation</div>
-                      <div class="col-6 xampleValue">&quot;1985-03-24&quot;</div>
-                    </div>
-                    <div class="row px-2">
-                      <div class="col editComment">[ISO 8601 format.]</div>
-                    </div>
-                  </div>
-                  <hr />
-                  <div>
-                    <div class="row px-2">
-                      <div class="col-6 xampleLabel">has time-span associated with
-                        manifestation</div>
-                      <div class="col-6 xampleValue">&quot;24 March 1985&quot;</div>
-                    </div>
-                    <div class="row px-2">
-                      <div class="col editComment">[Day-month-year format.]</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
             <div class="guid">
               <p>For a time-span that is a range of calendar dates, a string encoding scheme should
                 construct the base access point from the authorized access points for dates that are
                 the beginning and end of the range. The scheme should sequence the dates in
                 chronological order and specify the punctuation that is inserted between them.</p>
+            </div>
+            <div class="guid">
+              <p><a class="linkInline" href="/ISBDM/docs/ves/ISBDMSESTime.html">Time-span SES</a> is
+                a string encoding scheme suggested by ISBD for Manifestation for an authorized
+                access point of a time-span.</p>
             </div>
             <h5>Estimated or approximate time-spans</h5>
             <div class="guid">
