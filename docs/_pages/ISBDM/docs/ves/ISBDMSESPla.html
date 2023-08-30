@@ -120,6 +120,11 @@
                 </div>
                 <div class="d-flex align-items-center">
                   <i class="bi bi-arrow-return-right px-1"></i>
+                  <a href="/ISBDM/docs/ves/ISBDMSESCol.html" class="linkMenuEntry">Collective Agent
+                    SES</a>
+                </div>
+                <div class="d-flex align-items-center">
+                  <i class="bi bi-arrow-return-right px-1"></i>
                   <a href="/ISBDM/docs/ves/ISBDMSESExp.html" class="linkMenuEntry">Expression
                     SES</a>
                 </div>
@@ -165,7 +170,7 @@
         </div>
         <div class="col-md-7 border rounded">
           <div class="row m-1">
-            <h3>Person SES</h3>
+            <h3>Place SES</h3>
             <div class="guid">
               <p>This is a suggested string encoding scheme for an authorized access point of a
                 place that is related to the manifestation.</p>
@@ -176,15 +181,15 @@
             <div class="guid">
               <p>The base access point of a place is a name of the place that is the most common in
                 external sources of information.</p>
+              <p>{name of the place}</p>
             </div>
             <div class="guid">
-              <p>Other qualifiers are added to disambiguate the base access point.</p>
+              <p>The base access point may be followed by a set of qualifiers enclosed in brackets
+                &quot;(&hellip;)&quot; and separated by semicolons &quot;; &quot;.</p>
+              <p>Add qualifiers to disambiguate the base access point.</p>
               <p>Added qualifiers are conditional on specific characteristics of the place. They
                 support a secondary collocation and sort order of authorized access points.</p>
-            </div>
-            <div class="guid">
-              <p>A string encoding scheme should use the following strings as qualifiers of a base
-                access point:</p>
+              <p>Use the following strings as qualifiers of a base access point:</p>
               <ul class="bull">
                 <li>A name of a larger place that includes the place</li>
                 <li>A category of place</li>
