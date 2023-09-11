@@ -144,6 +144,26 @@
                 </div>
                 <div class="d-flex align-items-center">
                   <i class="bi bi-arrow-return-right px-1"></i>
+                  <i class="bi bi-arrow-return-right px-1"></i>
+                  <a href="/ISBDM/docs/ves/ISBDMSES1023.html" class="linkMenuEntry">Extent of
+                    manifestation SES</a>
+                </div>
+                <div class="d-flex align-items-center">
+                  <i class="bi bi-arrow-return-right px-1"></i> Nomen </div>
+                <div class="d-flex align-items-center">
+                  <i class="bi bi-arrow-return-right px-1"></i>
+                  <i class="bi bi-arrow-return-right px-1"></i>
+                  <a href="/ISBDM/docs/ves/ISBDMSES1116.html" class="linkMenuEntry">Chronological
+                    designation SES</a>
+                </div>
+                <div class="d-flex align-items-center">
+                  <i class="bi bi-arrow-return-right px-1"></i>
+                  <i class="bi bi-arrow-return-right px-1"></i>
+                  <a href="/ISBDM/docs/ves/ISBDMSES1117.html" class="linkMenuEntry">Numeric
+                    designation SES</a>
+                </div>
+                <div class="d-flex align-items-center">
+                  <i class="bi bi-arrow-return-right px-1"></i>
                   <a href="/ISBDM/docs/ves/ISBDMSESPer.html" class="linkMenuEntry">Person SES</a>
                 </div>
                 <div class="d-flex align-items-center">
@@ -179,15 +199,63 @@
               <p>This is a set of suggested string encoding schemes for authorized access points for
                 the manifestation and related entities that are applied to the <a class="linkInline"
                   href="/ISBDM/docs/fullex/">Examples</a> in ISBD for Manifestation.</p>
-              <p>In this specification, the curly brackets &quot;{}&quot; indicate the element that
-                is the source of a component string. The vertical bar &quot;|&quot; indicates a
-                choice of source, in order of availability. The quotation marks indicate boilerplate
-                strings of punctuation. The plus sign &quot;+&quot; indicates the concatenation of
-                two component strings.</p>
+            </div>
+            <div class="guid">
+              <p>The sources of component strings, their order, added punctuation, and added
+                boilerplate strings are given in an ISBDM stting template.</p>
+              <ul class="bull">
+                <li>The source of a component string is given as an ISBDM element name in curly
+                  brackets &quot;{}&quot;. For example, &quot;{has title proper}&quot;.</li>
+                <li>The external source of a component string is given in square brackets
+                  &quot;[]&quot;. For example, &quot;[supplied title]&quot;</li>
+                <li>An action that is applied to a component string is named and followed by the
+                  component string enclosed in round brackets &quot;()&quot;. For example,
+                  &quot;normalised({has title proper})&quot;</li>
+                <li>A choice of sources of a component string is indicated by a vertical bar
+                  &quot;|&quot; and given in order of availability. For example, &quot;{has title
+                  proper}|[supplied title]&quot;.</li>
+                <li>Added punctuation and boilerplate strings are given in quotation marks
+                  &quot;&quot;. For example, &quot;; &quot;.</li>
+                <li>The concatenation of component strings is indicated by a sign of addition
+                  &quot;+&quot;. For example, &quot;{has category of carrier} +
+                  &quot;)&quot;&quot;.</li>
+              </ul>
+            </div>
+            <div class="guid">
               <p>A value of an element sub-type may be used as the source of a component string.</p>
-              <p>A value should be normalised for a component string, to ensure consistent
-                collocation. Normalisation of a name or title value removes a leading definite or
+              <p>A value of a component string should be normalised to ensure consistent collocation
+                and display. Normalisation of a name or title value removes a leading definite or
                 indefinite article.</p>
+            </div>
+            <div class="guid">
+              <p>The suggested string encoding schemes for entities are:</p>
+              <ul class="bull">
+                <li><a href="/ISBDM/docs/ves/ISBDMSESAge.html" class="linkInline">Agent SES</a></li>
+                <li><a href="/ISBDM/docs/ves/ISBDMSESCol.html" class="linkInline">Collective Agent
+                    SES</a></li>
+                <li><a href="/ISBDM/docs/ves/ISBDMSESExp.html" class="linkInline">Expression
+                  SES</a></li>
+                <li><a href="/ISBDM/docs/ves/ISBDMSESIte.html" class="linkInline">Item SES</a></li>
+                <li><a href="/ISBDM/docs/ves/ISBDMSESMan.html" class="linkInline">Manifestation
+                    SES</a></li>
+                <li><a href="/ISBDM/docs/ves/ISBDMSESPer.html" class="linkInline">Person
+                  SES</a></li>
+                <li><a href="/ISBDM/docs/ves/ISBDMSESPla.html" class="linkInline">Place SES</a></li>
+                <li><a href="/ISBDM/docs/ves/ISBDMSESTime.html" class="linkInline">Time-span
+                  SES</a></li>
+                <li><a href="/ISBDM/docs/ves/ISBDMSESWor.html" class="linkInline">Work SES</a></li>
+              </ul>
+            </div>
+            <div class="guid">
+              <p>The suggested string encoding schemes for elements are:</p>
+              <ul class="bull">
+                <li><a href="/ISBDM/docs/ves/ISBDMSES1116.html" class="linkInline">Chronological
+                    designation SES</a></li>
+                <li><a href="/ISBDM/docs/ves/ISBDMSES1023.html" class="linkInline">Extent of
+                    manifestation SES</a></li>
+                <li><a href="/ISBDM/docs/ves/ISBDMSES1117.html" class="linkInline">Numeric
+                    designation SES</a></li>
+              </ul>
             </div>
           </div>
         </div>

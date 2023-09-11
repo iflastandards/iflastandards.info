@@ -95,12 +95,10 @@
                   <a href="/ISBDM/docs/ves/1285.html" class="linkMenuEntry">ISBDM Designation of
                     Sound Channels value vocabulary</a>
                 </div>
-                <div class="d-flex align-items-center" aria-current="true">
-                  <i class="bi bi-asterisk navISBDMSectionActive px-1"></i>
+                <div class="d-flex align-items-center">
                   <a href="/ISBDM/docs/ves/1288.html" class="linkMenuEntry">ISBDM Layout of Embodied
                     Content value vocabulary</a>
-                </div>
-                <div class="d-flex align-items-center">
+                </div><div class="d-flex align-items-center">
                   <a href="/ISBDM/docs/ves/1218.html" class="linkMenuEntry">ISBDM Media Type value
                     vocabulary</a>
                 </div>
@@ -143,9 +141,10 @@
                   <a href="/ISBDM/docs/ves/ISBDMSESMan.html" class="linkMenuEntry">Manifestation
                     SES</a>
                 </div>
-                <div class="d-flex align-items-center">
+                <div class="d-flex align-items-center" aria-current="true">
                   <i class="bi bi-arrow-return-right px-1"></i>
                   <i class="bi bi-arrow-return-right px-1"></i>
+                  <i class="bi bi-asterisk navISBDMSectionActive px-1"></i>
                   <a href="/ISBDM/docs/ves/ISBDMSES1023.html" class="linkMenuEntry">Extent of
                     manifestation SES</a>
                 </div>
@@ -193,40 +192,139 @@
             </div>
           </div>
         </div>
-        <div class="col-md-7">
+        <div class="col-md-7 border rounded">
           <div class="row m-1">
-            <h3>ISBDM Layout of Embodied Content value vocabulary</h3>
-            <p>This value vocabulary is a source of values for a <a class="linkInline"
-                href="/ISBDM/docs/attributes/1288.html">has layout of embodied content</a>
-              element.</p>
-            <div class="row vesHeader">
-              <div class="col-3 border">Value</div>
-              <div class="col-5 border">Definition</div>
-              <div class="col-4 border">Scope note</div>
+            <h3>Extent of manifestation SES</h3>
+            <div class="guid">
+              <p>This is a suggested string encoding scheme for a value of a <a class="linkInline"
+                  href="/ISBDM/docs/attributes/1023.html">has extent of manifestation</a>
+                element.</p>
             </div>
-            <div class="row"><div class="col-3 border vesValue"><p>columns</p></div><div
-                class="col-5 border"><p>A layout of embodied content where content is arranged in
-                  two or more vertical sections on a page, separated by vertical
-                gutters.</p></div><div class="col-4 border"><p>This value applies to a manifestation
-                  that is a card, sheet, or volume.</p></div></div>
-            <div class="row"><div class="col-3 border vesValue"><p>frames</p></div><div
-                class="col-5 border"><p>A layout of embodied content where content is arranged in
-                  two or more blockes on a page, separated by horizontal or vertical
-                gutters.</p></div><div class="col-4 border"><p>This value applies to a a
-                  manifestation that is an aperture card, card, film roll, filmslip, filmstrip,
-                  filmstrip cartridge, microfiche, microfiche cassette, microfilm cartridge,
-                  microfilm cassette, microfilm reel, microfilm roll, microfilm slip, microopaque,
-                  sheet, stereograph disc, or volume.</p></div></div>
-            <div class="row"><div class="col-3 border vesValue"><p>pages</p></div><div
-                class="col-5 border"><p>A layout of embodied content where content is embodied in
-                  both sides of a leaf or sheet.</p></div><div class="col-4 border"><p>This value
-                  applies to a manifestation that is a card, sheet, or volume.</p></div></div>
-            <div class="row"><div class="col-3 border vesValue"
-                ><p>t&ecirc;te-b&ecirc;che</p></div><div class="col-5 border"><p>A layout of
-                  embodied content that is two sets of content embodied in a volume where the sets
-                  are rotated 180° relative to each other so that one set is accessed from the front
-                  of the binding and the other from the back.</p></div><div class="col-4 border"
-                  ><p>This value applies to a manifestation that is a volume.</p></div></div>
+            <div class="guid">
+              <p>The string encoding scheme combines values of the element sub-types in the
+                following order:</p>
+              <ol class="num">
+                <li><a class="linkInline" href="/ISBDM/docs/attributes/1275.html">has extent of
+                    unitary structure</a></li>
+                <li><a class="linkInline" href="/ISBDM/docs/attributes/1276.html">has extent of
+                    unit</a></li>
+                <li><a class="linkInline" href="/ISBDM/docs/attributes/1278.html">has extent of
+                    aggregated content</a></li>
+                <li><a class="linkInline" href="/ISBDM/docs/attributes/1277.html">has extent of
+                    embodied content</a></li>
+              </ol>
+              <p>The ISBDM string template is:</p>
+              <p>{has extent of unitary structure} + &quot;(&quot; {has extent of unit} + &quot;;
+                &quot; + {has extent of aggregated content} + &quot; in &quot; + {has extent of
+                embodied content} + &quot;)&quot;</p>
+              <div class="xampleBlockGuid">
+                <p><a class="linkEx" href="#isbdmex1" data-bs-toggle="collapse" role="button"
+                    aria-expanded="false" aria-controls="isbdmex1">Examples</a></p>
+                <div class="collapse xamples" id="isbdmex1">
+                  <div class="row px-2">
+                    <div class="col-6 xampleLabel">has extent of manifestation</div>
+                    <div class="col-6 xampleValue">&quot;3 volumes (124 leaves; 150 photographs in
+                      200 pages)&quot;</div>
+                  </div>
+                  <div class="row px-2">
+                    <div class="col-6 xampleLabel">has extent of manifestation</div>
+                    <div class="col-6 xampleValue">&quot;3 volumes (150 photographs in 200
+                      pages)&quot;</div>
+                  </div>
+                  <div class="row px-2">
+                    <div class="col-6 xampleLabel">has extent of manifestation</div>
+                    <div class="col-6 xampleValue">&quot;3 volumes (200 pages)&quot;</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="guid">
+              <p>For a manifestation that has no sub-units, use the string that is the number
+                &quot;1&quot; followed by a value for the <a class="linkInline"
+                  href="/ISBDM/docs/attributes/1022.html">has category of carrier</a> element as a
+                substitute for a value of <a class="linkInline"
+                  href="/ISBDM/docs/attributes/1275.html">has extent of unitary structure</a>.</p>
+              <div class="xampleBlockGuid">
+                <p><a class="linkEx" href="#isbdmex2" data-bs-toggle="collapse" role="button"
+                    aria-expanded="false" aria-controls="isbdmex2">Examples</a></p>
+                <div class="collapse xamples" id="isbdmex2">
+                  <div>
+                    <div class="row px-2">
+                      <div class="col-6 xampleLabel">has extent of manifestation</div>
+                      <div class="col-6 xampleValue">&quot;1 list (70 x 50 cm; 1 plakat na 70 x 50
+                        cm)&quot;</div>
+                    </div>
+                    <div class="row px-2">
+                      <div class="col editComment">[Full example: <a class="linkInline"
+                          href="/ISBDM/docs/fullex/fx043.html">Zadar does Banksy (2023; Narodni
+                          muzej Zadar; list)</a>.]</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="guid">
+              <p>For a manifestation that is a super-unit, a string encoding scheme may combine
+                values of element sub-types for sub-units of the manifestation.</p>
+              <div class="xampleBlockGuid">
+                <p><a class="linkEx" href="#isbdmex3" data-bs-toggle="collapse" role="button"
+                    aria-expanded="false" aria-controls="isbdmex3">Examples</a></p>
+                <div class="collapse xamples" id="isbdmex3">
+                  <div>
+                    <div class="row px-2">
+                      <div class="col-6 xampleLabel">has extent of manifestation</div>
+                      <div class="col-6 xampleValue">&quot;1 volume (122 pages) + 1 audio disc (15
+                        performed songs in 49 min 14 sec)&quot;</div>
+                    </div>
+                    <div class="row px-2">
+                      <div class="col editComment">[Full example: <a class="linkInline"
+                          href="/ISBDM/docs/fullex/fx032.html">Mojo 357 (2023; H Bauer Publishing
+                          Ltd.; volume + audio disc)</a>.]</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="guid">
+              <p>For a manifestation that embodies only one expression, use the string that is the
+                number &quot;1&quot; followed by a value for the <a class="linkInline"
+                  href="/ISBDM/docs/attributes/1264.html">has category of embodied content</a>
+                element or a controlled term for a finer level of granularity of the category as a
+                substitute for a value of <a class="linkInline"
+                  href="/ISBDM/docs/attributes/1278.html">has extent of aggregated content</a>.</p>
+              <div class="xampleBlockGuid">
+                <p><a class="linkEx" href="#isbdmex4" data-bs-toggle="collapse" role="button"
+                    aria-expanded="false" aria-controls="isbdmex4">Examples</a></p>
+                <div class="collapse xamples" id="isbdmex4">
+                  <div>
+                    <div class="row px-2">
+                      <div class="col-6 xampleLabel">has extent of manifestation</div>
+                      <div class="col-6 xampleValue">&quot;3 volumes (1 text in 363
+                        pages)&quot;</div>
+                    </div>
+                    <div class="row px-2">
+                      <div class="col editComment">[Full example: <a class="linkInline"
+                          href="/ISBDM/docs/fullex/fx053.html">Emma (1815; John Murray; case
+                          binding)</a>. The manifestation is a single novel that is embodied in
+                        three volumes.]</div>
+                    </div>
+                  </div>
+                  <hr />
+                  <div>
+                    <div class="row px-2">
+                      <div class="col-6 xampleLabel">has extent of manifestation</div>
+                      <div class="col-6 xampleValue">&quot;1 hartë&quot;</div>
+                    </div>
+                    <div class="row px-2">
+                      <div class="col editComment">[Full example: <a class="linkInline"
+                          href="/ISBDM/docs/fullex/fx073.html">Corso delli fiumi Drino, e Boiana
+                          nella Dalmatia (2011; Biblioteka Kombëtare e Shqipërisë; burim
+                        online)</a>.]</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
