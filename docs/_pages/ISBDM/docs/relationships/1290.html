@@ -88,13 +88,13 @@
                   <a href="/ISBDM/docs/relationships/placetimes.html" class="linkMenuEntry">Place
                     and time-span entities</a>
                 </div>
-                <div class="d-flex align-items-center" aria-current="true">
-                  <i class="bi bi-asterisk navISBDMSectionActive px-1"></i>
+                <div class="d-flex align-items-center">
                   <a class="linkMenuElement" href="/ISBDM/docs/relationships/1009.html">has place
                     associated with manifestation</a>
                 </div>
-                <div class="d-flex align-items-center">
+                <div class="d-flex align-items-center" aria-current="true">
                   <i class="bi bi-arrow-return-right px-1"></i>
+                  <i class="bi bi-asterisk navISBDMSectionActive px-1"></i>
                   <a class="linkMenuElement" href="/ISBDM/docs/relationships/1290.html">has location
                     of collection</a>
                 </div>
@@ -160,6 +160,7 @@
                 </div>
                 <div class="d-flex align-items-center">
                   <i class="bi bi-arrow-return-right px-1"></i>
+                  <i class="bi bi-arrow-return-right px-1"></i>
                   <a class="linkMenuElement" href="/ISBDM/docs/relationships/1208.html">has date of
                     distribution</a>
                 </div>
@@ -169,16 +170,18 @@
         </div>
         <div class="col-md-7 border rounded">
           <div class="row m-1">
-            <h3>has place associated with manifestation</h3>
+            <h3>has location of collection</h3>
             <h4>Element reference</h4>
             <div class="px-4">
               <div class="row">
                 <div class="col-md-3 border elref">Definition</div>
-                <div class="col-md-9 border eltext">Relates a manifestation to a place. </div>
+                <div class="col-md-9 border eltext">Relates a manifestation to a place where the
+                  manifestation is stored.</div>
               </div>
               <div class="row">
                 <div class="col-md-3 border elref">Scope note</div>
-                <div class="col-md-9 border eltext"></div>
+                <div class="col-md-9 border eltext">This element applies to a manifestation that is
+                  a collection manifestation.</div>
               </div>
               <div class="row">
                 <div class="col-md-3 border elref">Domain</div>
@@ -192,129 +195,31 @@
                 <div class="col-md-3 border elref">Element sub-type</div>
                 <div class="col-md-9 border eltext">
                   <div class="d-flex flex-column navISBDMRef"
-                    aria-label="Navigation for related elements">
-                    <a class="linkMenuElement" href="/ISBDM/docs/relationships/1236.html">has place
-                      of creation of manifestation</a>
-                    <a class="linkMenuElement" href="/ISBDM/docs/relationships/1211.html">has place
-                      of distribution</a>
-                  </div>
+                    aria-label="Navigation for related elements"></div>
                 </div>
               </div>
               <div class="row">
                 <div class="col-md-3 border elref">Element super-type</div>
-                <div class="col-md-9 border eltext"> </div>
+                <div class="col-md-9 border eltext">
+                  <div class="d-flex flex-column navISBDMRef"
+                    aria-label="Navigation for related elements"><a class="linkMenuElement"
+                      href="/ISBDM/docs/relationships/1009.html">has place associated with
+                      manifestation</a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
           <div class="row m-1">
             <h4>Additional information</h4>
-            <div class="guid">
-              <p>This element supports the user tasks to find and identify the manifestation and to
-                explore the context of the manifestation and its relationship to instances of the
-                Place entity.</p>
-            </div>
-            <div class="guid">
-              <p>Consider a jurisdiction to be a collective agent.</p>
-            </div>
-            <div class="seeAlsoAdd">
-              <p><i>See also</i>: <a class="linkMenuElement" href="/ISBDM/docs/notes/1271.html">has
-                  note on place associated with manifestation</a></p>
-            </div>
-          </div>
-          <div class="row m-1">
-            <h4>Element values</h4>
-            <div class="guid">
-              <p>The values of this element may be indexed for uncontrolled or controlled keywords,
-                or used to construct browsing lists.</p>
-            </div>
-            <h5>String encoding schemes</h5>
-            <div class="guid">
-              <p>A string encoding scheme for an authorized access point of a place should support
-                several levels of identification and collation:</p>
-              <ol class="num">
-                <li>A name of the place</li>
-                <li>A category of place</li>
-              </ol>
-            </div>
-            <div class="guid">
-              <p><a class="linkInline" href="/ISBDM/docs/ves/ISBDMSESPla.html">Place SES</a> is a
-                string encoding scheme suggested by ISBD for Manifestation for an authorized access
-                point of a place.</p>
-            </div>
           </div>
           <div class="row m-1">
             <h4>Stipulations</h4>
             <div class="stip">
-              <div class="d-flex flexrow">
-                <div class="mandatory mx-1 px-2" title="Mandatory">&#8252;</div>
-              </div>
-              <p>If one or more places are associated with the manifestation, record at least one
-                occurrence of the element. Use the following order of preference to select the
-                value:</p>
-              <ol class="num">
-                <li>Place of creation of manifestation<ol class="al">
-                    <li>Place of publication of manifestation</li>
-                    <li>Place of production of manifestation</li>
-                    <li>Place of manufacture of manifestation</li>
-                  </ol></li>
-                <li>Place of distribution of manifestation</li>
-              </ol>
+              <p>Use the element super-type to record a less specific relationship.</p>
             </div>
             <div class="stip">
-              <p>Apply the <a class="linkInline" href="/ISBDM/docs/relationships/general.html"
-                  >General stipulations for relationship elements</a>.</p>
-              <div class="xampleBlockStip">
-                <p><a class="linkEx" href="#isbdmex2" data-bs-toggle="collapse" role="button"
-                    aria-expanded="false" aria-controls="isbdmex2">Examples</a></p>
-                <div class="collapse xamples" id="isbdmex2">
-                  <div>
-                    <div class="row px-2">
-                      <div class="col-6 xampleLabel">has place associated with manifestation</div>
-                      <div class="col-6 xampleValue">&quot;Normandy (France)&quot;</div>
-                    </div>
-                    <div class="row px-2">
-                      <div class="col editComment">[Full example: <a class="linkInline"
-                          href="/ISBDM/docs/fullex/fx063.html">Spring cannot be cancelled (2022;
-                          Thames &amp; Hudson; volume; perfect binding)</a>. The value is an
-                        authorized access point of a place that is the subject of a work that is
-                        embodied in the manifestation.]</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="stip">
-              <p>Use an appropriate element sub-type to record a more specific relationship.</p>
-            </div>
-            <div class="stip">
-              <p>Record a place that is named in a statement of publication, production,
-                distribution, or manufacture that appears in the manifestation.</p>
-            </div>
-            <div class="stip">
-              <p>Record additional occurrences of the element, if it is considered to be useful for
-                users of the metadata.</p>
-            </div>
-            <div class="stip">
-              <p>Record a place at the finest level of granularity that is considered to be useful
-                for users of the metadata.</p>
-            </div>
-            <div class="stip">
-              <p>If more than one place is named with the same association in a manifestation
-                statement, record one or more occurrences of the element, if it is considered to be
-                useful for users of the metadata. Use the following order of preference to select
-                the values:</p>
-              <ul class="bull">
-                <li>The places that are named most prominently in the typography and layout of the
-                  statement.</li>
-                <li>The place that is named first in the statement.</li>
-                <li>The places that are named in a language and script that is preferred by the
-                  cataloguing agency.</li>
-                <li>All places that are named.</li>
-              </ul>
-            </div>
-            <div class="stip">
-              <p>Record a separate occurrence of the element for each distinct value that is
-                considered to be useful for users of the metadata.</p>
+              <p>Apply the stipulations for the element super-type unless indicated otherwise.</p>
             </div>
           </div>
         </div>
