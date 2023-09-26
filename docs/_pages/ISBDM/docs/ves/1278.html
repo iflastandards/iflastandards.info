@@ -66,7 +66,7 @@
               Manifestation</a></h1></div>
         <div class="d-inline-flex"><span class="hsep">&gt;</span></div>
         <div class="d-inline-flex flex-wrap"><h2><a href="/ISBDM/docs/ves/" class="linkPathEntry"
-              >Values</a></h2></div>
+              >Value vocabularies</a></h2></div>
       </div>
     </header>
     <main class="container">
@@ -95,7 +95,8 @@
                   <a href="/ISBDM/docs/ves/1285.html" class="linkMenuEntry">ISBDM Designation of
                     Sound Channels value vocabulary</a>
                 </div>
-                <div class="d-flex align-items-center">
+                <div class="d-flex align-items-center" aria-current="true">
+                  <i class="bi bi-asterisk navISBDMSectionActive px-1"></i>
                   <a href="/ISBDM/docs/ves/1278.html" class="linkMenuEntry">ISBDM Extent of
                     Aggregated Content value vocabulary</a>
                 </div>
@@ -181,9 +182,8 @@
                   <i class="bi bi-arrow-return-right px-1"></i>
                   <a href="/ISBDM/docs/ves/ISBDMSESTim.html" class="linkMenuEntry">Time-span SES</a>
                 </div>
-                <div class="d-flex align-items-center" aria-current="true">
+                <div class="d-flex align-items-center">
                   <i class="bi bi-arrow-return-right px-1"></i>
-                  <i class="bi bi-asterisk navISBDMSectionActive px-1"></i>
                   <a href="/ISBDM/docs/ves/ISBDMSESWor.html" class="linkMenuEntry">Work SES</a>
                 </div>
                 <div class="d-flex align-items-center">
@@ -201,94 +201,82 @@
         </div>
         <div class="col-md-7 border rounded">
           <div class="row m-1">
-            <h3>Work SES</h3>
+            <h3>ISBDM Extent of Aggregated Content value vocabulary</h3>
             <div class="guid">
-              <p>This is a suggested string encoding scheme for an authorized access point of a work
-                that is related to the manifestation.</p>
-              <p>The encoding scheme is applicable to the value of a <a class="linkInline"
-                  href="/ISBDM/docs/relationships/1001.html">has work associated with
-                  manifestation</a> element or element subtype.</p>
+              <p>This value vocabulary is a source of values for a <a class="linkInline"
+                  href="/ISBDM/docs/attributes/1278.html">has extent of aggregated content</a>
+                element.</p>
             </div>
-            <div class="guid">
-              <p>The base access point of a work is a combination of a value of an authorized access
-                point of a creator agent of the work and a value of a preferred title of the
-                work.</p>
-              <p>The ISBDM string template is:</p>
-              <p>[authorized access point of a creator agent of the work] + ". " + [preferred title
-                of the work]</p>
+            <div class="row vesHeader">
+              <div class="col-3 border">Value</div>
+              <div class="col-5 border">Definition</div>
+              <div class="col-4 border">Scope note</div>
             </div>
-            <div class="guid">
-              <p>For a work that is anonymous, apply the guidance for the language or country of
-                origin of the name that is available in <a class="linkOutline"
-                  href="https://www.ifla.org/g/cataloguing/anonymous-classics/" target="_blank"
-                  >Anonymous classics</a>, if it is considered to be useful for users of the
-                metadata.</p>
-            </div>
-            <div class="guid">
-              <p>The base access point may be followed by a set of qualifiers enclosed in brackets
-                &quot;(&hellip;)&quot; and separated by semicolons &quot;; &quot;.</p>
-              <p>Add qualifiers to the sequence to disambiguate the basic qualified access
-                point.</p>
-              <p>Added qualifiers are conditional on specific characteristics of the work that are
-                recorded as attribute elements, including representative expression attributes. They
-                support a tertiary collocation and sort order of authorized access points.</p>
-              <div class="xampleBlockGuid">
-                <p><a class="linkEx" href="#isbdmex1" data-bs-toggle="collapse" role="button"
-                    aria-expanded="false" aria-controls="isbdmex1">Examples</a></p>
-                <div class="collapse xamples" id="isbdmex1">
-                  <div>
-                    <div class="row px-2">
-                      <div class="col-6 xampleLabel">has work embodied in manifestation</div>
-                      <div class="col-6 xampleValue">&quot;Bonnard, Pierre, 1867-1947.
-                        Café&quot;</div>
-                    </div>
-                    <div class="row px-2">
-                      <div class="col editComment">[Full example: <a class="linkInline"
-                          href="/ISBDM/docs/fullex/fx066.html">Coffee (2003; Tate; card)</a>. The
-                        base access point is not qualified.]</div>
-                    </div>
-                  </div>
-                  <hr />
-                  <div>
-                    <div class="row px-2">
-                      <div class="col-6 xampleLabel">has work embodied in manifestation</div>
-                      <div class="col-6 xampleValue">&quot;Gayford, Martin , 1952-. Spring cannot be
-                        cancelled (text)&quot;</div>
-                    </div>
-                    <div class="row px-2">
-                      <div class="col editComment">[Full example: <a class="linkInline"
-                          href="/ISBDM/docs/fullex/fx063.html">Spring cannot be cancelled (2022;
-                          Thames &amp; Hudson; volume; perfect binding)</a>. The base access point
-                        is qualified by a value of a category of content of a representative
-                        expression.]</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="guid">
-              <p>For a work that is an augmenting work that is embodied in an aggregate
-                manifestation, and if the preferred title of the work is a generic title, qualify
-                the base access point with a preferred title of the augmented work.</p>
-              <div class="xampleBlockGuid">
-                <p><a class="linkEx" href="#isbdmex2" data-bs-toggle="collapse" role="button"
-                    aria-expanded="false" aria-controls="isbdmex2">Examples</a></p>
-                <div class="collapse xamples" id="isbdmex2">
-                  <div>
-                    <div class="row px-2">
-                      <div class="col-6 xampleLabel">has work associated with manifestation</div>
-                      <div class="col-6 xampleValue">&quot;Blythe, Ronald, 1922-2023. Introduction
-                        (Emma)&quot;</div>
-                    </div>
-                    <div class="row px-2">
-                      <div class="col editComment">The work augments another work that is embodied
-                        in the same manifestation.]</div>
-                    </div>
-                  </div>
-                  <hr />
-                </div>
-              </div>
-            </div>
+            <div class="row"><div class="col-3 border vesValue"><p>chart</p></div><div
+                class="col-5 border"><p>A unit of extent of aggregated content that is a still image
+                  that is a representation of data in graphic or tabular form.</p></div><div
+                class="col-4 border"><p></p></div></div>
+            <div class="row"><div class="col-3 border vesValue"><p>diagram</p></div><div
+                class="col-5 border"><p>A unit of extent of aggregated content that is a still image
+                  that is a representation of numeric data, of of an action or
+                process.</p></div><div class="col-4 border"><p></p></div></div>
+            <div class="row"><div class="col-3 border vesValue"><p>drawing</p></div><div
+                class="col-5 border"><p>A unit of extent of aggregated content that is a still image
+                  that is composed of lines that represent the delineation of form.</p></div><div
+                class="col-4 border"><p></p></div></div>
+            <div class="row"><div class="col-3 border vesValue"><p>icon</p></div><div
+                class="col-5 border"><p>A unit of extent of aggregated content that is a still image
+                  that portrays a sacred entity and that is itself regarded as sacred.</p></div><div
+                class="col-4 border"><p></p></div></div>
+            <div class="row"><div class="col-3 border vesValue"><p>map</p></div><div
+                class="col-5 border"><p>A unit of extent of aggregated content that is a
+                  cartographic image that represents an area on the surface of the earth, another
+                  celestial body, or an imaginary place.</p></div><div class="col-4 border"
+                ><p></p></div></div>
+            <div class="row"><div class="col-3 border vesValue"><p>part</p></div><div
+                class="col-5 border"><p>A unit of extent of aggregated content that is notated
+                  music.</p></div><div class="col-4 border"><p></p></div></div>
+            <div class="row"><div class="col-3 border vesValue"><p>performed song</p></div><div
+                class="col-5 border"><p>A unit of extent of aggregated content that is performed
+                  music that is recorded in a live performance.</p></div><div class="col-4 border"
+                ><p></p></div></div>
+            <div class="row"><div class="col-3 border vesValue"><p>photograph</p></div><div
+                class="col-5 border"><p>A unit of extent of aggregated content that is a still image
+                  that is captured by a lens.</p></div><div class="col-4 border"><p></p></div></div>
+            <div class="row"><div class="col-3 border vesValue"><p>profile</p></div><div
+                class="col-5 border"><p>A unit of extent of aggregated content that is a
+                  cartographic image.</p></div><div class="col-4 border"><p></p></div></div>
+            <div class="row"><div class="col-3 border vesValue"><p>radiograph</p></div><div
+                class="col-5 border"><p>A unit of extent of aggregated content that is a still image
+                  produced by radiation.</p></div><div class="col-4 border"><p></p></div></div>
+            <div class="row"><div class="col-3 border vesValue"><p>recorded songs</p></div><div
+                class="col-5 border"><p>A unit of extent of aggregated content that is performed
+                  music that is recorded in a studio.</p></div><div class="col-4 border"
+                ><p></p></div></div>
+            <div class="row"><div class="col-3 border vesValue"><p>remote-sensing
+                image</p></div><div class="col-5 border"><p>A unit of extent of aggregated content
+                  that is a cartographic image that is captured by a remote-sensing
+                instrument.</p></div><div class="col-4 border"><p></p></div></div>
+            <div class="row"><div class="col-3 border vesValue"><p>score</p></div><div
+                class="col-5 border"><p>A unit of extent of aggregated content that is notated
+                  music.</p></div><div class="col-4 border"><p></p></div></div>
+            <div class="row"><div class="col-3 border vesValue"><p>section</p></div><div
+                class="col-5 border"><p>A unit of extent of aggregated content that is a
+                  cartographic image that represents a slice through the surface of the earth or
+                  some other celestial body.</p></div><div class="col-4 border"><p></p></div></div>
+            <div class="row"><div class="col-3 border vesValue"><p>technical drawing</p></div><div
+                class="col-5 border"><p>A unit of extent of aggregated content that is a still image
+                  that represents a cross section of an object or part of an object for use in an
+                  engineering or other technical context.</p></div><div class="col-4 border"
+                ><p></p></div></div>
+            <div class="row"><div class="col-3 border vesValue"><p>view</p></div><div
+                class="col-5 border"><p>A unit of extent of aggregated content that is a still image
+                  that represents a landscape from an oblique point of view.</p></div><div
+                class="col-4 border"><p>A bird's-eye view, panorama, panoramic drawing, worm's-eye
+                  view, etc., are included.</p></div></div>
+            <div class="row"><div class="col-3 border vesValue"><p>vocal score</p></div><div
+                class="col-5 border"><p>A unit of extent of aggregated content that is notated
+                  music.</p></div><div class="col-4 border"><p></p></div></div>
           </div>
         </div>
       </div>
