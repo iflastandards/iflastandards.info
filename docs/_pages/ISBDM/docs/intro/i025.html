@@ -117,15 +117,15 @@
                   <a class="linkMenuEntry" href="/ISBDM/docs/intro/i006.html">Metadata utility and
                     processing</a>
                 </div>
-                <div class="d-flex align-items-center" aria-current="true">
-                  <i class="bi bi-asterisk navISBDMSectionActive px-1"></i>
+                <div class="d-flex align-items-center">
                   <a class="linkMenuEntry" href="/ISBDM/docs/intro/i007.html">Language and
                     script</a>
                 </div>
                 <div class="d-flex align-items-center">
                   <a class="linkMenuEntry" href="/ISBDM/docs/intro/i014.html">Reproductions</a>
                 </div>
-                <div class="d-flex align-items-center">
+                <div class="d-flex align-items-center" aria-current="true">
+                  <i class="bi bi-asterisk navISBDMSectionActive px-1"></i>
                   <a class="linkMenuEntry" href="/ISBDM/docs/intro/i025.html">Collections</a>
                 </div>
                 <div class="d-flex align-items-center">
@@ -137,19 +137,85 @@
         </div>
         <div class="col-md-7 border rounded">
           <div class="row m-1">
-            <h3>Language and script</h3>
+            <h3>Collections</h3>
             <div class="guid">
-              <p>The language and script of the value of <a class="linkInline"
-                  href="/ISBDM/docs/statements/">statement elements</a> should be preserved in the
-                context of the transcription rules as much as possible with the technology that is
-                available to the cataloguing agency.</p>
+              <p>A collection is a set of items that are gathered together for some purpose. A
+                collection includes:</p>
+              <ul class="num">
+                <li>a library or cultural heritage collection that provides easy and contextual
+                  access to exemplars of manifestations with characteristics in common (such as
+                  category of carrier) or which embody content with similar characteristics or
+                  subjects (such as a common language or theme)</li>
+                <li>a bound or boxed set of exemplars of more than one manifestation, manufactured
+                  by an agent for preservation or circulation of the items</li>
+                <li>an exhibition that associates items for education, promotion, or
+                  entertainment</li>
+              </ul>
+              <p>The set of collected items may be fixed or it may change as a result of additions
+                and withdrawals.</p>
+              <p>The set of collected items may include specified sub-sets of items and may be a
+                sub-set of a larger collection.</p>
             </div>
             <div class="guid">
-              <p>Language and script of the values of <a class="linkInline"
-                  href="/ISBDM/docs/notes/">note elements</a>, <a class="linkInline"
-                  href="/ISBDM/docs/attributes/">attribute elements</a>, and <a class="linkInline"
-                  href="/ISBDM/docs/relationships/">relationship elements</a> should be applied
-                according to local needs.</p>
+              <p>Consider a collection to be an information resource that is a manifestation with
+                only one exemplifier that embodies only one expression that realises a collecting
+                work.</p>
+              <p>Consider the expression that realises a collecting work as having no intrinsic
+                characteristics that are useful to describe. The collecting expression does not
+                inherit the characteristics of the expressions that are embodied in the
+                manifestations that are exemplified by the collected items, and the common
+                characteristics of those expressions are included in the description of the
+                collecting work. There is no utility in describing the collecting expression.</p>
+            </div>
+            <div class="guid">
+              <div class="col-md-12 my-2 text-center">
+                <figure class="figure border border-dark p-2 rounded-2 text-center">
+                  <img src="/ISBDM/images/x012.png" class="figure-img img-fluid rounded"
+                    alt="Entity-relationship diagram of resource entities and relationships for a collection" />
+                  <figcaption class="figure-caption">Figure 1: Entity-relationship diagram of
+                    resource entities and relationships for a collection.</figcaption>
+                  <figcaption class="figure-caption"><a href="/ISBDM/docs/fullimages/x012.html"
+                      class="linkImage">[Expand image]</a></figcaption>
+                </figure>
+              </div>
+              <p class="figExplain">Figure 1 shows the resource entities and relationships that may
+                be used to describe a collection manifestation.</p>
+              <p>Use a <a class="linkInline" href="/ISBDM/docs/relationships/1279.html">has
+                  holding</a> element to relate a collection manifestation to an item that is
+                collected.</p>
+              <p>Use a <a class="linkInline" href="/ISBDM/docs/relationships/1014.html">has
+                  super-unit</a> element to relate a collection manifestation to a broader
+                collection manifestation of which it is a part.</p>
+            </div>
+            <div class="guid">
+              <p>Record a <a class="linkInline" href="/ISBDM/docs/relationships/1290.html">has
+                  location of collection</a> element to relate a collection manifestation to a place
+                where the collection is located.</p>
+              <div class="xampleBlockGuid">
+                <p><a class="linkEx" href="#isbdmex1" data-bs-toggle="collapse" role="button"
+                    aria-expanded="false" aria-controls="isbdmex1">Examples</a></p>
+                <div class="collapse xamples" id="isbdmex1">
+                  <div>
+                    <div class="row px-2">
+                      <div class="col-6 xampleLabel">has location of collection</div>
+                      <div class="col-6 xampleValue">&quot;Bibliothèque nationale de France,
+                        département Cartes et plans (Paris; France)&quot;</div>
+                    </div>
+                    <div class="row px-2">
+                      <div class="col editComment">[Full example: <a class="linkInline"
+                          href="/ISBDM/docs/fullex/fx078.html">Collection (Bibliothèque nationale de
+                          France, département Cartes et plans)</a>.]</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="guid">
+              <p>Record a <a class="linkInline" href="/ISBDM/docs/relationships/1014.html">has
+                  super-unit</a> element or a <a class="linkInline"
+                  href="/ISBDM/docs/relationships/1013.html">has sub-unit</a> element to relate a
+                collection manifestation to the manifestation of a super-collection or a
+                sub-collection, respectively.</p>
             </div>
           </div>
         </div>
