@@ -66,7 +66,7 @@
               Manifestation</a></h1></div>
         <div class="d-inline-flex"><span class="hsep">&gt;</span></div>
         <div class="d-inline-flex flex-wrap"><h2><a href="/ISBDM/docs/ves/" class="linkPathEntry"
-              >Values</a></h2></div>
+              >Value vocabularies</a></h2></div>
       </div>
     </header>
     <main class="container">
@@ -97,21 +97,21 @@
                 </div>
                 <div class="d-flex align-items-center">
                   <a href="/ISBDM/docs/ves/1278.html" class="linkMenuEntry">ISBDM Extent of
-                    Aggregated Content value vocabulary</a>
+                    aggregated content value vocabulary</a>
                 </div>
                 <div class="d-flex align-items-center">
-                  <a href="/ISBDM/docs/ves/1275.html" class="linkMenuEntry">ISBDM Extent of Unitary
-                    Structure value vocabulary</a>
+                  <a href="/ISBDM/docs/ves/1275.html" class="linkMenuEntry">ISBDM Extent of unitary
+                    structure value vocabulary</a>
                 </div>
                 <div class="d-flex align-items-center">
                   <a href="/ISBDM/docs/ves/1288.html" class="linkMenuEntry">ISBDM Layout of Embodied
                     Content value vocabulary</a>
-                </div><div class="d-flex align-items-center">
+                </div>
+                <div class="d-flex align-items-center">
                   <a href="/ISBDM/docs/ves/1218.html" class="linkMenuEntry">ISBDM Media Type value
                     vocabulary</a>
                 </div>
-                <div class="d-flex align-items-center" aria-current="true">
-                  <i class="bi bi-asterisk navISBDMSectionActive px-1"></i>
+                <div class="d-flex align-items-center">
                   <a href="/ISBDM/docs/ves/1256.html" class="linkMenuEntry">ISBDM Manufacturing
                     Process value vocabulary</a>
                 </div>
@@ -164,9 +164,10 @@
                   <a href="/ISBDM/docs/ves/ISBDMSES1116.html" class="linkMenuEntry">Chronological
                     designation SES</a>
                 </div>
-                <div class="d-flex align-items-center">
+                <div class="d-flex align-items-center" aria-current="true">
                   <i class="bi bi-arrow-return-right px-1"></i>
                   <i class="bi bi-arrow-return-right px-1"></i>
+                  <i class="bi bi-asterisk navISBDMSectionActive px-1"></i>
                   <a href="/ISBDM/docs/ves/ISBDMSES1037.html" class="linkMenuEntry">Compound title
                     SES</a>
                 </div>
@@ -207,114 +208,45 @@
         </div>
         <div class="col-md-7 border rounded">
           <div class="row m-1">
-            <h3>ISBDM Manufacturing Process value vocabulary</h3>
+            <h3>Compound title SES</h3>
             <div class="guid">
-              <p>This value vocabulary is a source of values for a <a class="linkInline"
-                  href="/ISBDM/docs/attributes/1256.html">has manufacturing process</a> element.</p>
+              <p>This is a suggested string encoding scheme for a value of a <a class="linkInline"
+                  href="/ISBDM/docs/relationships/1037.html">has title of manifestation</a> element
+                that is a compound title.</p>
             </div>
-            <div class="row vesHeader">
-              <div class="col-3 border">Value</div>
-              <div class="col-5 border">Definition</div>
-              <div class="col-4 border">Scope note</div>
+            <div class="guid">
+              <p>The string encoding scheme combines values of strings that are taken from
+                statements of title and responsibility that appear in the manifestation, in the
+                following order:</p>
+              <ol class="num">
+                <li>a common title of a super-unit of the manifestation</li>
+                <li>a unit designation of the manifestation</li>
+                <li>a unit title of the manifestation</li>
+              </ol>
+              <p>The ISBDM string template is:</p>
+              <p>[common title] + &quot;: &quot; + [unit designation} + &quot;: &quot; + [unit
+                title]</p>
+              <div class="xampleBlockGuid">
+                <p><a class="linkEx" href="#isbdmex1" data-bs-toggle="collapse" role="button"
+                    aria-expanded="false" aria-controls="isbdmex1">Examples</a></p>
+                <div class="collapse xamples" id="isbdmex1">
+                  <div>
+                    <div class="row px-2">
+                      <div class="col-6 xampleLabel"><a class="linkMenuElement"
+                          href="/ISBDM/docs/relationships/1038.html">has title proper</a></div>
+                      <div class="col-6 xampleValue">&quot;Homazh për De Radën: DVD 1&quot;</div>
+                    </div>
+                    <div class="row px-2">
+                      <div class="col editComment">[Full example: <a class="linkInline"
+                          href="/ISBDM/docs/fullex/fx082.html">Homazh për De Radën: DVD 1 (2004;
+                          Università della Calabria; videodisk)</a>. The value uses a common title
+                        and a unit designation; there is no unit title.]</div>
+                    </div>
+                  </div>
+                  <hr />
+                </div>
+              </div>
             </div>
-            <div class="row"><div class="col-3 border vesValue"><p>blueline process</p></div><div
-                class="col-5 border"><p>A production method that consists of a contact printing
-                  process based on diazonium salt and azo dye chemical reactions that renders all
-                  opaque tones or colours as blue on a neutral background.</p></div><div
-                class="col-4 border"><p></p></div></div>
-            <div class="row"><div class="col-3 border vesValue"><p>blueprint process</p></div><div
-                class="col-5 border"><p>A production method that consists of a contact printing
-                  process based on iron salt chemical reactions that renders all opaque tones or
-                  colours as white on a blue background.</p></div><div class="col-4 border"
-                ><p></p></div></div>
-            <div class="row"><div class="col-3 border vesValue"><p>burning</p></div><div
-                class="col-5 border"><p>A production method that consists of the application of heat
-                  to mark the surface of a material.</p></div><div class="col-4 border"
-                ><p></p></div></div>
-            <div class="row"><div class="col-3 border vesValue"><p>collotype</p></div><div
-                class="col-5 border"><p>A production method that consists of a contact printing
-                  process using a dichromate chemical reaction that hardens gelatin on exposure to
-                  ultraviolet light to produce a positive master that is subsequently used in a
-                  lithographic process.</p></div><div class="col-4 border"><p></p></div></div>
-            <div class="row"><div class="col-3 border vesValue"><p>daguerreotype
-                process</p></div><div class="col-5 border"><p>A production method that consists of a
-                  photographic process using a silver-coated copper plate that is exposed in a
-                  camera and subsequently developed, usually using mercury vapour, and fixed with
-                  salt to create a positive image.</p></div><div class="col-4 border"
-              ><p></p></div></div>
-            <div class="row"><div class="col-3 border vesValue"><p>embossing</p></div><div
-                class="col-5 border"><p>A production method that consists of the use of either a
-                  metal or plastic sheet as a master with specialized equipment to produce copies
-                  for a manifestation of a tactile expression.</p></div><div class="col-4 border"
-                ><p></p></div></div>
-            <div class="row"><div class="col-3 border vesValue"><p>engraving</p></div><div
-                class="col-5 border"><p>A production method that consists of the incision of marks
-                  on the surface of a hard material using a sharp tool.</p></div><div
-                class="col-4 border"><p>Engraving includes the preparation of a printing plate for
-                  an intaglio process.</p></div></div>
-            <div class="row"><div class="col-3 border vesValue"><p>etching</p></div><div
-                class="col-5 border"><p>A production method that consists of an intaglio process in
-                  which a design is worked into an acid-resistant substance coating a metal printing
-                  plate; the plate is then exposed to acid, which etches the plate where the metal
-                  is exposed, to create lines and dark areas.</p></div><div class="col-4 border"
-                ><p></p></div></div>
-            <div class="row"><div class="col-3 border vesValue"><p>inscribing</p></div><div
-                class="col-5 border"><p>A production method that consists of a process that fixes
-                  signs and symbols onto a base material by cutting into the surface.</p></div><div
-                class="col-4 border"><p></p></div></div>
-            <div class="row"><div class="col-3 border vesValue"><p>lithography</p></div><div
-                class="col-5 border"><p>A production method that consists of a planographic printing
-                  process in which a stone or plate is prepared using a water-repelling substance
-                  making parts of the plate receptive to ink.</p></div><div class="col-4 border"
-                ><p></p></div></div>
-            <div class="row"><div class="col-3 border vesValue"><p>photocopying</p></div><div
-                class="col-5 border"><p>A production method that consists of a macroform
-                  photoreproduction process using radiant energy in contact with or projected on
-                  opaque material.</p></div><div class="col-4 border"><p></p></div></div>
-            <div class="row"><div class="col-3 border vesValue"><p>photoengraving</p></div><div
-                class="col-5 border"><p>A production method that consists of a photomechanical
-                  process for the preparation of chemically etched printing plates.</p></div><div
-                class="col-4 border"><p></p></div></div>
-            <div class="row"><div class="col-3 border vesValue"><p>photogravure
-                process</p></div><div class="col-5 border"><p>A production method that consists of
-                  an intaglio process in which the metal printing plate is prepared using a
-                  dichromate process to leave a gelatin resist coating of varying thickness that is
-                  etched to form cells of varying depth able to hold different amounts of
-                ink.</p></div><div class="col-4 border"><p></p></div></div>
-            <div class="row"><div class="col-3 border vesValue"><p>printing</p></div><div
-                class="col-5 border"><p>A production method that consists of a process that
-                  transfers a pictorial or textual image from a master carrier to the surface of
-                  another carrier, often using a plate, block, stone, or screen coated with a
-                  transferable material.</p></div><div class="col-4 border"><p>Includes the
-                  production of photographic prints and paper copies of stored computer
-                data.</p></div></div>
-            <div class="row"><div class="col-3 border vesValue"><p>solid dot</p></div><div
-                class="col-5 border"><p>A production method for a manifestation of a tactile
-                  expression in which solid plastic dots are heat sealed onto the surface of thin
-                  but strong paper.</p></div><div class="col-4 border"><p></p></div></div>
-            <div class="row"><div class="col-3 border vesValue"><p>stamping</p></div><div
-                class="col-5 border"><p>A production method that consists of the application of
-                  pressure to make an impression on the surface of a material.</p></div><div
-                class="col-4 border"><p></p></div></div>
-            <div class="row"><div class="col-3 border vesValue"><p>swell paper</p></div><div
-                class="col-5 border"><p>A production method for a manifestation of a tactile
-                  expression in which an image is printed on a special type of paper with embedded
-                  microcapsules of alcohol which burst when exposed to heat to make the surface of
-                  the paper swell up.</p></div><div class="col-4 border"><p></p></div></div>
-            <div class="row"><div class="col-3 border vesValue"><p>thermoform</p></div><div
-                class="col-5 border"><p>A production method for a manifestation of a tactile
-                  expression in which a collage master is covered with a sheet of plastic, which is
-                  heated and vacuumed to generate a copy of a model or diagram.</p></div><div
-                class="col-4 border"><p></p></div></div>
-            <div class="row"><div class="col-3 border vesValue"><p>white print process</p></div><div
-                class="col-5 border"><p>A production method that consists of a contact printing
-                  process based on a light sensitive process that renders all opaque tones or
-                  colours as black or a colour on a white background.</p></div><div
-                class="col-4 border"><p></p></div></div>
-            <div class="row"><div class="col-3 border vesValue"><p>woodcut making</p></div><div
-                class="col-5 border"><p>A production method that consists of a relief process in
-                  which a design is cut into and printed from the surface of a wood
-                block.</p></div><div class="col-4 border"><p></p></div></div>
           </div>
         </div>
       </div>
