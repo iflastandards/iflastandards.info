@@ -43,11 +43,20 @@ hr {
   border-top: 1px dashed black;
 }
 .mandatory {
-  background-color: #66ff33 !important;
-  border: 1px solid #000000;
+/*   background-color: #66ff33 !important;
+ *   color: #000000 !important;
+ *   
+ *
+ */
+  background-color: #dc3545 !important;
+  border-style: hidden;
   border-radius: 1rem;
-  color: #000000 !important;
+  color: #ffffff !important;
   font-weight: 700;
+}
+.mandatory a {
+ color: #ffffff !important;
+ 
 }
 .unique {
   background-color: #ffffff !important;
@@ -80,7 +89,6 @@ hr {
   background-color: #ffebe6 !important;
 }
 .seeAlsoAdd {
-
 }
 .xampleBlockGuid,
 .xampleBlockStip {
