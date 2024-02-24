@@ -1,49 +1,6 @@
 {
-  "name": "bootstrap-4-github-pages",
-  "version": "1.0.0",
-  "description": "[![Build Status](https://travis-ci.org/nicolas-van/bootstrap-4-github-pages.svg?branch=master)](https://travis-ci.org/nicolas-van/bootstrap-4-github-pages)",
-  "main": "index.js",
   "dependencies": {
-    "bootstrap": "^4.5.2",
-    "code-prettify": "^0.1.0",
-    "datatables.net-bs4": "^1.10.21",
-    "datatables.net-buttons": "^1.6.3",
-    "datatables.net-buttons-bs4": "^1.6.3",
-    "datatables.net-buttons-dt": "^1.6.3",
-    "datatables.net-dt": "^1.10.21",
-    "datatables.net-fixedcolumns": "^3.3.1",
-    "datatables.net-fixedcolumns-bs4": "^3.3.1",
-    "datatables.net-fixedcolumns-dt": "^3.3.1",
-    "datatables.net-fixedheader": "^3.1.7",
-    "datatables.net-fixedheader-bs4": "^3.1.7",
-    "datatables.net-fixedheader-dt": "^3.1.7",
-    "datatables.net-responsive": "^2.2.5",
-    "datatables.net-responsive-bs4": "^2.2.5",
-    "datatables.net-responsive-dt": "^2.2.5",
-    "font-awesome": "^4.7.0",
-    "jquery": "^3.5.1",
-    "jszip": "^3.5.0",
-    "pdfmake": "^0.1.68",
-    "popper.js": "^1.16.1",
-    "protip": "^1.4.21"
-  },
-  "devDependencies": {
-    "html-validate": "^2.23.1",
-    "html-validate-markdown": "^2.0.1",
-    "html-validate-vue": "^3.1.0",
-    "jshint": "^2.12.0"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nicolas-van/bootstrap-4-github-pages.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/nicolas-van/bootstrap-4-github-pages/issues"
-  },
-  "homepage": "https://github.com/nicolas-van/bootstrap-4-github-pages#readme"
+    "bootstrap": "^4.6.2",
+    "jquery": "^3.7.1"
+  }
 }
