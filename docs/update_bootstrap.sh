@@ -1,4 +1,4 @@
-#! /bin/sh
+#!/usr/bin/env zsh
 
 # A useful script to download the latest version of bootstrap and jquery
 
