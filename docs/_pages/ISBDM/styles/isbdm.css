@@ -43,7 +43,7 @@ hr {
   border-top: 1px dashed black;
 }
 .mandatory {
-/*   background-color: #66ff33 !important;
+  /*   background-color: #66ff33 !important;
  *   color: #000000 !important;
  *   
  *
@@ -55,8 +55,8 @@ hr {
   font-weight: 700;
 }
 .mandatory a {
- color: #ffffff !important;
- 
+  color: #ffffff !important;
+
 }
 .unique {
   background-color: #ffffff !important;
@@ -89,6 +89,10 @@ hr {
   background-color: #ffebe6 !important;
 }
 .seeAlsoAdd {
+}
+.tocNoLink {
+  font-weight: 600;
+  font-style: italic;
 }
 .xampleBlockGuid,
 .xampleBlockStip {
