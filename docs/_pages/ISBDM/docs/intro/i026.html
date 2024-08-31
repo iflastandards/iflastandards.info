@@ -144,49 +144,85 @@
           <div class="row m-1">
             <h3>Granularity</h3>
             <h4>Element hierarchies</h4>
-            <div class="guid">
-              <p>The elements of ISBD for Manifestation are arranged in semantic hierarchies. Each
-                element may have none, one, or two element super-types with a broader meaning, or
-                none, one, or more element sub-types with a finer meaning.</p>
-              <p>An element with no element super-type has the broadest level of granularity in its
-                hierarchy. These elements are:</p>
-              <ul class="bull">
-                <li><a class="linkInline" href="/ISBDM/docs/statements/1025.html">has manifestation
-                    statement</a></li>
-                <li><a class="linkInline" href="/ISBDM/docs/notes/1207.html">has note on
-                    manifestation</a></li>
-                <li><a class="linkInline" href="/ISBDM/docs/attributes/1263.html">has category of
-                    manifestation</a></li>
-                <li><a class="linkInline" href="/ISBDM/docs/attributes/1242.html">has physical
-                    characteristic</a></li>
-                <li><a class="linkInline" href="/ISBDM/docs/attributes/1027.html">has use
-                  rights</a></li>
-                <li><a class="linkInline" href="/ISBDM/docs/relationships/1005.html">has agent
-                    associated with manifestation</a></li>
-                <li><a class="linkInline" href="/ISBDM/docs/relationships/1002.html">has expression
-                    associated with manifestation</a></li>
-                <li><a class="linkInline" href="/ISBDM/docs/relationships/1004.html">has item
-                    associated with manifestation</a></li>
-                <li><a class="linkInline" href="/ISBDM/docs/relationships/1003.html">has
-                    manifestation associated with manifestation</a></li>
-                <li><a class="linkInline" href="/ISBDM/docs/relationships/1001.html">has work
-                    associated with manifestation</a></li>
-                <li><a class="linkInline" href="/ISBDM/docs/relationships/1009.html">has place
-                    associated with manifestation</a></li>
-                <li><a class="linkInline" href="/ISBDM/docs/relationships/1010.html">has time-span
-                    associated with manifestation</a></li>
-                <li><a class="linkInline" href="/ISBDM/docs/relationships/1008.html">has nomen
-                    associated with manifestation</a></li>
-              </ul>
-              <p>An element with no element sub-types has the finest level of granularity in its
-                hierarchy.</p>
-              <p>The only elements with two element super-types are relationship elements with a
-                range of Agent or its sub-types Collective Agent and Person. These elements are
-                included in a poly-hierarchy that reflects the entity hierarchy of Agent as well as
-                the basic semantic hierarchy of relationships.</p>
-              <p>Other elements with only one element super-type are included in a mono-hierarchy
-                that reflects the basic semantic hierarchy of the elements.</p>
+            <div>
+              <div class="guid">
+                <p>The elements of ISBD for Manifestation are arranged in semantic hierarchies. Each
+                  element may have none, one, or two element super-types with a broader meaning, or
+                  none, one, or more element sub-types with a finer meaning.</p>
+              </div>
+              <div class="guid">
+                <p>The hierarchical structure is based on the definitions, scope notes, and entity
+                  range of the elements.</p>
+                <p>The definition and scope note of an element super-type are inherited and refined
+                  by its sub-types.</p>
+                <p>A refinement in an element sub-type is not applicable to its super-type.</p>
+              </div>
+              <div class="guid">
+                <p>An element with no element super-type has the broadest level of granularity in
+                  its hierarchy. These elements are:</p>
+                <ul class="bull">
+                  <li><a class="linkInline" href="/ISBDM/docs/statements/1025.html">has
+                      manifestation statement</a></li>
+                  <li><a class="linkInline" href="/ISBDM/docs/notes/1207.html">has note on
+                      manifestation</a></li>
+                  <li><a class="linkInline" href="/ISBDM/docs/attributes/1263.html">has category of
+                      manifestation</a></li>
+                  <li><a class="linkInline" href="/ISBDM/docs/attributes/1242.html">has physical
+                      characteristic</a></li>
+                  <li><a class="linkInline" href="/ISBDM/docs/attributes/1027.html">has use
+                      rights</a></li>
+                  <li><a class="linkInline" href="/ISBDM/docs/relationships/1005.html">has agent
+                      associated with manifestation</a></li>
+                  <li><a class="linkInline" href="/ISBDM/docs/relationships/1002.html">has
+                      expression associated with manifestation</a></li>
+                  <li><a class="linkInline" href="/ISBDM/docs/relationships/1004.html">has item
+                      associated with manifestation</a></li>
+                  <li><a class="linkInline" href="/ISBDM/docs/relationships/1003.html">has
+                      manifestation associated with manifestation</a></li>
+                  <li><a class="linkInline" href="/ISBDM/docs/relationships/1001.html">has work
+                      associated with manifestation</a></li>
+                  <li><a class="linkInline" href="/ISBDM/docs/relationships/1009.html">has place
+                      associated with manifestation</a></li>
+                  <li><a class="linkInline" href="/ISBDM/docs/relationships/1010.html">has time-span
+                      associated with manifestation</a></li>
+                  <li><a class="linkInline" href="/ISBDM/docs/relationships/1008.html">has nomen
+                      associated with manifestation</a></li>
+                </ul>
+              </div>
+              <div class="guid">
+                <p>An element with no element sub-types has the finest level of granularity in its
+                  hierarchy.</p>
+              </div>
+              <div class="guid">
+                <p>The only elements with two element super-types are relationship elements with a
+                  range of Agent or its sub-types Collective Agent and Person. These elements are
+                  included in a poly-hierarchy that reflects the entity hierarchy of Agent as well
+                  as the basic semantic hierarchy of relationships.</p>
+                <p>Other elements with only one element super-type are included in a mono-hierarchy
+                  that reflects the basic semantic hierarchy of the elements.</p>
+              </div>
             </div>
+            <h4>Element refinement</h4>
+            <div>
+              <div class="guid">
+                <p>The granularity of ISBD for Manifestation element hierarchies accommodates
+                  general metadata for a wide range of carriers.</p>
+                <p>If a finer level of granularity is required for specific kinds of carriers, an
+                  ISBDM hierarchy can be extended by adding an element sub-type to the finest level
+                  ISBDM element in the hierarchy or as a sibling sub-type above the finest
+                  level.</p>
+              </div>
+              <div class="guid">
+                <p>An ISBDM element may be refined by an external element if the external element
+                  has a definition and scope note that indicate a finer level of granularity in its
+                  meaning relative to the ISBDM element.</p>
+                <p>If the ISBDM element has sub-types, the external element must not have a
+                  significant overlap with the ISBDM element sub-types.</p>
+              </div>
+            </div>
+            <h4>Data granularity</h4>
+            <div>
+              <p>Under construction.</p></div>
           </div>
         </div>
       </div>
