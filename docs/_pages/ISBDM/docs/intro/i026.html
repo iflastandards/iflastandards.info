@@ -195,9 +195,9 @@
               </div>
               <div class="guid">
                 <p>The only elements with two element super-types are relationship elements with a
-                  range of Agent or its sub-types Collective Agent and Person. These elements are
-                  included in a poly-hierarchy that reflects the entity hierarchy of Agent as well
-                  as the basic semantic hierarchy of relationships.</p>
+                  range of Agent or its entity sub-types Collective Agent and Person. These elements
+                  are included in a poly-hierarchy that reflects the entity hierarchy of Agent as
+                  well as the basic semantic hierarchy of relationships.</p>
                 <p>Other elements with only one element super-type are included in a mono-hierarchy
                   that reflects the basic semantic hierarchy of the elements.</p>
               </div>
@@ -207,22 +207,34 @@
               <div class="guid">
                 <p>The granularity of ISBD for Manifestation element hierarchies accommodates
                   general metadata for a wide range of carriers.</p>
-                <p>If a finer level of granularity is required for specific kinds of carriers, an
-                  ISBDM hierarchy can be extended by adding an element sub-type to the finest level
-                  ISBDM element in the hierarchy or as a sibling sub-type above the finest
-                  level.</p>
+                <p>If a finer level of granularity is required for specific kinds of carriers or if
+                  it is considered to be useful for users of the metadata, an ISBDM hierarchy can be
+                  extended by adding an element sub-type to the finest level ISBDM element in the
+                  hierarchy or as a sibling sub-type of an element above the finest level.</p>
               </div>
               <div class="guid">
                 <p>An ISBDM element may be refined by an external element if the external element
                   has a definition and scope note that indicate a finer level of granularity in its
                   meaning relative to the ISBDM element.</p>
-                <p>If the ISBDM element has sub-types, the external element must not have a
-                  significant overlap with the ISBDM element sub-types.</p>
+                <p>If the external element is a sibling of an ISBDM element, their semantics must
+                  not overlap.</p>
               </div>
             </div>
             <h4>Data granularity</h4>
             <div>
-              <p>Under construction.</p></div>
+              <div class="guid">
+                <p>A semantic hierarchy allows data to flow from a finer to a broader level of
+                  granularity.</p>
+                <p>The inheritance of semantics from a broader element to a finer element means that
+                  the value of a finer element is also a value of a broader element, within each
+                  hierarchy.</p></div>
+            </div>
+            <div class="guid">
+              <p>Metadata from an external refinement of an ISBDM element is interoperable with
+                ISBDM at the level of granularity of the ISBDM element</p>
+              <p>Metadata from ISBDM elements at different levels of granularity within a hierarchy
+                is interoperable at the level of granularity of the broadest of the elements.</p>
+            </div>
           </div>
         </div>
       </div>
