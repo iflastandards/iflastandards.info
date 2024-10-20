@@ -305,132 +305,28 @@ ul.entbull {
   margin: 1rem;
   padding: 0;
 }
-.infoBox {
-  background-color: #cfe1fc !important;
-  border: 1px solid #063377;
-  border-radius: 5px;
-}
-.lodBox {
-  background-color: #e7f0fd !important;
-  border: 2px solid #063377;
-  border-radius: 5px;
-}
+
 /* Colours */
 .bg-dark,
 .dropdown-menu {
   background-color: #063377 !important;
 }
-/* Site bar */
-.siteBar {
-  background-color: #dc3545 !important;
-  border: 1px solid #cfe1fc;
-  color: #cfe1fc !important;
-  font-size: 0.9rem;
-}
-/* Sequential navigation */
-.seqBar {
-  border: 1px solid #063377;
-  background-color: #063377;
-  color: #063377;
-  font-size: 0.9rem;
-}
-.seqRef {
-  background-color: #cfe1fc !important;
-}
-.seqYbr {
-  background-color: #fee29a !important;
-}
-.linkSeq {
-  color: #063377;
-}
-.btnRef {
-  /*   background-color: #cfe1fc !important; */
-  background-color: transparent;
-  border: 1px solid #063377;
-}
-.btnXd {
-  background-color: #fee29a !important;
-  border: 1px solid #063377;
-  color: #063377;
-}
-.btnExample {
-  background-color: #fee29a !important;
-  border: 1px solid #063377;
-  color: #063377;
-  font-size: 0.8rem;
-}
+
+/* 
 .linkPathEntry:link,
 .linkPathEntry:visited,
 .linkPathEntry:active,
-.linkOut:link,
-.linkOut:visited,
-.linkOut:active,
-.linkRR:link,
-.linkRR:visited,
-.linkRR:active,
-.linkTK:link,
-.linkTK:visited,
-.linkTK:active
 {
   color: #063377;
 }
-.linkOut:link,
-.linkOut:visited,
-.linkOut:active,
-.linkRR:link,
-.linkRR:visited,
-.linkRR:active,
-.linkTK:link,
-.linkTK:visited,
-.linkTK:active
-{
   background-color: #e7f0fd !important;
 }
 .linkPathEntry:hover {
   background-color: #fee29a;
   color: #063377;
 }
-.linkOut:hover {
-  text-decoration: underline;
-}
-.linkRR:hover {
-  background-color: #ffffff !important;
-  color: #063377;
-}
-.linkTK:hover {
-  background-color: #cfe1fc !important;
-  color: #063377;
-}
-/* Text effects */
-.appellation,
-.citeIn {
-  font-weight: 600;
-}
-.noteThis {
-  border: 1px solid black;
-  text-align: center;
-}
-/* Special boxes */
-.debdec {
-  background-color: #ffe6ff;
-}
-.debtip {
-  background-color: #ffe6ff;
-}
-/* E-r diagram entity colours */
-.entityEW {
-  background-color: #ffff99;
-}
-.entityM {
-  background-color: #ffcccc;
-}
-/* Manifestation assessment checklists */
-.cxRowCheck,
-.cxRowHead {
-  border: 1px solid black;
-  margin: 0;
-  padding: 0.2rem;
-}
-.cxRowHead {
-  background-color: lightgray;
-}
+*/
+
+
+
+
