@@ -2,6 +2,11 @@
 title: News
 layout: home
 ---
+May 2024
+
+The Metadata Technical Standards (METATEC) Review Group replaces the IFLA Linked Data Technical (LIDATEC) Review Group.
+
+The METATEC Review Group reports directly to the Advisory Committee on Standards.
 
 October 12, 2023
 
