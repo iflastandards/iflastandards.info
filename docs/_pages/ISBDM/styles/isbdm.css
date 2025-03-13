@@ -70,6 +70,32 @@ hr {
 }
 .eltext {
 }
+.craff {
+  font-style: italic;
+}
+.crname {
+
+}
+.crplace {
+  font-style: italic;
+}
+.tppub {
+  padding-top: 1.1rem;
+  text-align: center;
+}
+.tpsor {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding-bottom: 0.5rem;
+  padding-top: 1rem;
+}
+.tptit {
+  font-size: 3rem;
+  font-weight: 600;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  text-align: center;
+}
 .backbrowse {
   border: 1px solid #000000;
   padding: 1em;
@@ -326,7 +352,6 @@ ul.entbull {
   color: #063377;
 }
 */
-
 
 
 

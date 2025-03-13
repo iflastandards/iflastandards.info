@@ -21,6 +21,11 @@
     <nav class="navbar navbar-expand-md navbar-dark navISBDMMain fixed-top"
       aria-label="Navigation for ISBD for Manifestation">
       <div class="container-fluid">
+        <a class="navbar-brand" href="https://www.ifla.org/"><img
+            src="/ISBDM/images/logo-ifla_black.png"
+            alt="Logo of the International Federation of Library Associations and Institutions"
+            height="50" />
+        </a>
         <a class="navbar-brand" href="/ISBDM/">ISBD for Manifestation</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
           data-bs-target="#navbarISBDM" aria-controls="navbarISBDM" aria-expanded="false"
@@ -57,11 +62,14 @@
             <li class="nav-item">
               <a class="nav-link" href="/ISBDM/docs/fullex/">Examples</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/ISBDM/docs/about/">About</a>
+            </li>
           </ul>
         </div>
       </div>
     </nav>
-    <header class="container">
+    <header class="container mt-3">
       <div>
         <div class="d-inline-flex flex-wrap"><h1><a href="/ISBDM/" class="linkPathEntry">ISBD for
               Manifestation</a></h1></div>
@@ -81,8 +89,7 @@
               <nav class="d-flex flex-column navISBDMSection"
                 aria-label="Navigation for attribute elements">
                 <div class="d-flex align-items-center">
-                  <a href="/ISBDM/docs/relationships/general.html" class="linkMenuEntry">General
-                    stipulations</a>
+                  <a href="/ISBDM/docs/relationships/general.html" class="linkMenuEntry">[General stipulations]</a>
                 </div>
                 <div class="d-flex align-items-center">
                   <a href="/ISBDM/docs/relationships/resources.html" class="linkMenuEntry">Resource
@@ -155,6 +162,11 @@
                   <a class="linkMenuElement" href="/ISBDM/docs/relationships/1220.html">has work
                     embodied in manifestation</a>
                 </div>
+                <div class="d-flex align-items-center">
+                  <i class="bi bi-arrow-return-right px-1"></i>
+                  <a class="linkMenuElement" href="/ISBDM/docs/relationships/1292.html">is subject
+                    manifestation of</a>
+                </div>
               </nav>
             </div>
           </div>
@@ -201,7 +213,21 @@
               </div>
               <div class="row">
                 <div class="col-md-3 border elref">Element super-type</div>
-                <div class="col-md-9 border eltext"> </div>
+                <div class="col-md-9 border eltext"><div class="d-flex flex-column navISBDMRef"
+                    aria-label="Navigation for related elements">
+                    <a class="linkMenuElement" href="/ISBDM/docs/relationships/1291.html">has entity
+                      associated with manifestation</a></div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-3 border elref">Inverse element</div>
+                <div class="col-md-9 border eltext">
+                  <div class="d-flex flex-column navISBDMRef"
+                    aria-label="Navigation for related elements">
+                    <a class="linkMenuElement" href="/ISBDM/docs/relationships/1003.html">has
+                      manifestation associated with manifestation</a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -257,61 +283,7 @@
           <div class="row m-1">
             <h4>Stipulations</h4>
             <div class="stip">
-              <p>Apply the <a class="linkInline" href="/ISBDM/docs/relationships/general.html"
-                  >General stipulations for relationship elements</a>.</p>
-              <div class="xampleBlockStip">
-                <p><a class="linkEx" href="#isbdmex1" data-bs-toggle="collapse" role="button"
-                    aria-expanded="false" aria-controls="isbdmex1">Examples</a></p>
-                <div class="collapse xamples" id="isbdmex1">
-                  <div>
-                    <div class="row px-2">
-                      <div class="col-6 xampleLabel">has manifestation associated with
-                        manifestation</div>
-                      <div class="col-6 xampleValue">&quot;Corso delli fiumi Drino, e Boiana nella
-                        Dalmatia (1688; fletë)&quot;</div>
-                    </div>
-                    <div class="row px-2">
-                      <div class="col editComment">[Full example: <a class="linkInline"
-                          href="/ISBDM/docs/fullex/fx073.html">Corso delli fiumi Drino, e Boiana
-                          nella Dalmatia (2011; Biblioteka Kombëtare e Shqipërisë; burim
-                        online)</a>. The associated manifestation is exemplified by an item that is
-                        reproduced by the manifestation.]</div>
-                    </div>
-                  </div>
-                  <hr />
-                  <div>
-                    <div class="row px-2">
-                      <div class="col-6 xampleLabel">has manifestation associated with
-                        manifestation</div>
-                      <div class="col-6 xampleValue">&quot;Corso delli fiumi Drino, e Boiana nella
-                        Dalmatia (2011; Biblioteka Kombëtare e Shqipërisë; burim online)&quot;</div>
-                    </div>
-                    <div class="row px-2">
-                      <div class="col editComment">[Full example: <a class="linkInline"
-                          href="/ISBDM/docs/fullex/fx074.html">Corso delli fiumi Drino, e Boiana
-                          nella Dalmatia (1688; fletë)</a>. The associated manifestation is a
-                        reproduction of an item that exemplifies the manifestation.]</div>
-                    </div>
-                  </div>
-                  <hr />
-                  <div>
-                    <div class="row px-2">
-                      <div class="col-6 xampleLabel">has manifestation associated with
-                        manifestation</div>
-                      <div class="col-6 xampleValue">&quot;Zbornik Pravnog fakulteta u Zagrebu
-                        (1948-; Izdavački zavod Jugoslavenske akademije znanosti i umjetnosti;
-                        svezak)&quot;</div>
-                    </div>
-                    <div class="row px-2">
-                      <div class="col editComment">[Full example: <a class="linkInline"
-                          href="/ISBDM/docs/fullex/fx080.html">Zbornik Pravnog fakulteta u Zagrebu
-                          (1948-; Izdavački zavod Jugoslavenske akademije znanosti i umjetnosti;
-                          svezak)</a>. The associated manifestation embodies the source of the
-                        offprint that is embodied in the manifestation.]</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <p>Use an appropriate element super-type to record a less specific relationship.</p>
             </div>
             <div class="stip">
               <p>Use an appropriate element sub-type to record a more specific relationship.</p>
@@ -365,6 +337,62 @@
               </div>
             </div>
             <div class="stip">
+              <p>Apply the stipulations for the element super-types unless indicated otherwise.</p>
+              <div class="xampleBlockStip">
+                <p><a class="linkEx" href="#isbdmex1" data-bs-toggle="collapse" role="button"
+                  aria-expanded="false" aria-controls="isbdmex1">Examples</a></p>
+                <div class="collapse xamples" id="isbdmex1">
+                  <div>
+                    <div class="row px-2">
+                      <div class="col-6 xampleLabel">has manifestation associated with
+                        manifestation</div>
+                      <div class="col-6 xampleValue">&quot;Corso delli fiumi Drino, e Boiana nella
+                        Dalmatia (1688; fletë)&quot;</div>
+                    </div>
+                    <div class="row px-2">
+                      <div class="col editComment">[Full example: <a class="linkInline"
+                        href="/ISBDM/docs/fullex/fx073.html">Corso delli fiumi Drino, e Boiana
+                        nella Dalmatia (2011; Biblioteka Kombëtare e Shqipërisë; burim
+                        online)</a>. The associated manifestation is exemplified by an item that is
+                        reproduced by the manifestation.]</div>
+                    </div>
+                  </div>
+                  <hr />
+                  <div>
+                    <div class="row px-2">
+                      <div class="col-6 xampleLabel">has manifestation associated with
+                        manifestation</div>
+                      <div class="col-6 xampleValue">&quot;Corso delli fiumi Drino, e Boiana nella
+                        Dalmatia (2011; Biblioteka Kombëtare e Shqipërisë; burim online)&quot;</div>
+                    </div>
+                    <div class="row px-2">
+                      <div class="col editComment">[Full example: <a class="linkInline"
+                        href="/ISBDM/docs/fullex/fx074.html">Corso delli fiumi Drino, e Boiana
+                        nella Dalmatia (1688; fletë)</a>. The associated manifestation is a
+                        reproduction of an item that exemplifies the manifestation.]</div>
+                    </div>
+                  </div>
+                  <hr />
+                  <div>
+                    <div class="row px-2">
+                      <div class="col-6 xampleLabel">has manifestation associated with
+                        manifestation</div>
+                      <div class="col-6 xampleValue">&quot;Zbornik Pravnog fakulteta u Zagrebu
+                        (1948-; Izdavački zavod Jugoslavenske akademije znanosti i umjetnosti;
+                        svezak)&quot;</div>
+                    </div>
+                    <div class="row px-2">
+                      <div class="col editComment">[Full example: <a class="linkInline"
+                        href="/ISBDM/docs/fullex/fx080.html">Zbornik Pravnog fakulteta u Zagrebu
+                        (1948-; Izdavački zavod Jugoslavenske akademije znanosti i umjetnosti;
+                        svezak)</a>. The associated manifestation embodies the source of the
+                        offprint that is embodied in the manifestation.]</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="stip">
               <p>Record a separate occurrence of the element for each distinct value that is
                 considered to be useful for users of the metadata.</p>
               <div class="xampleBlockStip">
@@ -409,9 +437,11 @@
       <div class="row my-1 py-1 navISBDMMain text-center">
         <p class="m-0 p-0">&#10058;<a class="linkFooter" href="/ISBDM/docs/siteMap.html">Site
             map</a>&#10058;</p>
-        <p class="m-0 p-0">Warning! Content is under development and will change without notice.
-          This is a project of the ISBD Review Group.</p>
-        <p class="m-0 p-0">Main design and content editors: Gordon Dunsire and Mirna Willer.</p>
+        
+        <p class="m-1 p-0"> <a class="me-1" href="https://creativecommons.org/licenses/by/4.0/"><img
+              src="/ISBDM/images/cc0_by.png"
+              alt="Badge for Creative Commmons Attribution 4.0 International license" height="30"
+             /></a> Gordon Dunsire and Mirna Willer (Main design and content editors).</p>
       </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>

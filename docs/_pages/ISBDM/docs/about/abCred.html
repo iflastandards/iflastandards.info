@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="description"
+      content="ISBDM: International Standard Bibliographic Description for Manifestation." />
+    <meta name="author" content="ISBD Manifestation Task Force" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ISBD for Manifestation</title>
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css"
+      rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous" />
+    <link href="/ISBDM/styles/isbdm.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark navISBDMMain fixed-top"
+      aria-label="Navigation for ISBD for Manifestation">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="https://www.ifla.org/"><img
+            src="/ISBDM/images/logo-ifla_black.png"
+            alt="Logo of the International Federation of Library Associations and Institutions"
+            height="50" />
+        </a>
+        <a class="navbar-brand" href="/ISBDM/">ISBD for Manifestation</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarISBDM" aria-controls="navbarISBDM" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarISBDM">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link" href="/ISBDM/docs/intro/">Introduction</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/ISBDM/docs/assess/">Assessment</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/ISBDM/docs/statements/">Statements</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/ISBDM/docs/notes/">Notes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/ISBDM/docs/attributes/">Attributes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/ISBDM/docs/relationships/">Relationships</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/ISBDM/docs/ves/">Values</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/ISBDM/docs/glossary/">Glossary</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/ISBDM/docs/fullex/">Examples</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="/ISBDM/docs/about/" aria-current="page">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header class="container mt-3"><div>
+        <div class="d-inline-flex flex-wrap"><h1><a href="/ISBDM/" class="linkPathEntry">ISBD for
+              Manifestation</a></h1></div>
+        <div class="d-inline-flex"><span class="hsep">&gt;</span></div>
+        <div class="d-inline-flex flex-wrap"><h2><a href="/ISBDM/docs/about/" class="linkPathEntry"
+              >About</a></h2></div>
+      </div>
+    </header>
+    <main class="container">
+      <div class="row my-2">
+        <div class="col-md-5">
+          <div class="row gx-0 me-4">
+            <div class="col-md-12">
+              <nav class="d-flex flex-column navISBDMSection"
+                aria-label="Navigation for About sections">
+                <div class="d-flex align-items-center">
+                  <a class="linkMenuEntry" href="/ISBDM/docs/about/abUse.html">Layout and use</a>
+                </div>
+                <div class="d-flex align-items-center">
+                  <a class="linkMenuEntry" href="/ISBDM/docs/about/abApp.html">Application</a>
+                </div>
+                <div class="d-flex align-items-center">
+                  <a class="linkMenuEntry" href="/ISBDM/docs/about/abStand.html">Related
+                    standards</a>
+                </div>
+                <div class="d-flex align-items-center">
+                  <a class="linkMenuEntry" href="/ISBDM/docs/about/abBack.html">Background and
+                    history</a>
+                </div>
+                <div class="d-flex align-items-center" aria-current="true">
+                  <i class="bi bi-asterisk navISBDMSectionActive px-1"></i>
+                  <a class="linkMenuEntry" href="/ISBDM/docs/about/abCred.html">Credits and
+                    acknowledgements</a>
+                </div>
+                <div class="d-flex align-items-center">
+                  <a class="linkMenuEntry" href="/ISBDM/docs/about/abStat.html">Status</a>
+                </div>
+                <div class="d-flex align-items-center">
+                  <a class="linkMenuEntry" href="/ISBDM/docs/about/abFeed.html">Feedback and
+                    maintenance</a>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-7 border rounded">
+          <div class="row m-1">
+            <h3>Credits and acknowledgements</h3>
+            <div class="guid">
+              <p>ISBD for Manifestation was developed by the ISBD Manifestation Task Force as a
+                project of the ISBD Review Group.</p>
+            </div>
+            <h4>ISBD for Manifestation Task Force, 2019-2025</h4>
+            <div class="guid">
+              <div class="px-4">
+                <div class="row border">
+                  <div class="col-md-4 crname">Elena Escolano Rodriguez (2019-2022)</div>
+                  <div class="col-md-6 craff">Ministerio de Asuntos Económicos y Transformación
+                    Digital</div>
+                  <div class="col-md-2 crplace">Spain</div>
+                </div>
+                <div class="row border">
+                  <div class="col-md-4 crname">Gordon Dunsire (main design and content editor)</div>
+                  <div class="col-md-6 craff"></div>
+                  <div class="col-md-2 crplace">United Kingdom</div>
+                </div>
+                <div class="row border">
+                  <div class="col-md-4 crname">Mikael Wetterstrom</div>
+                  <div class="col-md-6 craff">ISSN International Centre</div>
+                  <div class="col-md-2 crplace">France</div>
+                </div>
+                <div class="row border">
+                  <div class="col-md-4 crname">Mirna Willer (main design and content editor)</div>
+                  <div class="col-md-6 craff"></div>
+                  <div class="col-md-2 crplace">Croatia</div>
+                </div>
+                <div class="row border">
+                  <div class="col-md-4 crname">Rehab Ouf</div>
+                  <div class="col-md-6 craff">Bibliotheca Alexandrina</div>
+                  <div class="col-md-2 crplace">Egypt</div>
+                </div>
+                <div class="row border">
+                  <div class="col-md-4 crname">Renate Behrens (chair)</div>
+                  <div class="col-md-6 craff">Deutsche Nationalbibliothek</div>
+                  <div class="col-md-2 crplace">Germany</div>
+                </div>
+                <div class="row border">
+                  <div class="col-md-4 crname">Saeedeh Akbari-Daryan</div>
+                  <div class="col-md-6 craff">National Library of Iran</div>
+                  <div class="col-md-2 crplace">Iran</div>
+                </div>
+                <div class="row border">
+                  <div class="col-md-4 crname">Szabina Ilácsa (2019-2022)</div>
+                  <div class="col-md-6 craff">National Széchényi Library</div>
+                  <div class="col-md-2 crplace">Hungary</div>
+                </div>
+              </div>
+            </div>
+            <h5>Prescription and Granularity Task and Finish Group</h5>
+            <div class="guid">
+              <div class="px-4">
+                <div class="row border">
+                  <div class="col-md-4 crname">Chris Holden</div>
+                  <div class="col-md-6 craff">Library of Congress</div>
+                  <div class="col-md-2 crplace">USA</div>
+                </div>
+                <div class="row border">
+                  <div class="col-md-4 crname">Fatma Zahra Ali Pacha</div>
+                  <div class="col-md-6 craff"></div>
+                  <div class="col-md-2 crplace">Algiers</div>
+                </div>
+                <div class="row border">
+                  <div class="col-md-4 crname">Gordon Dunsire (group moderator)</div>
+                  <div class="col-md-6 craff"></div>
+                  <div class="col-md-2 crplace">United Kingdom</div>
+                </div>
+                <div class="row border">
+                  <div class="col-md-4 crname">Irena Kavčič</div>
+                  <div class="col-md-6 craff">National and University Library</div>
+                  <div class="col-md-2 crplace">Slovenia</div>
+                </div>
+                <div class="row border">
+                  <div class="col-md-4 crname">Maliheh Dorkhosh</div>
+                  <div class="col-md-6 craff"></div>
+                  <div class="col-md-2 crplace">Iran</div>
+                </div>
+                <div class="row border">
+                  <div class="col-md-4 crname">María Camila Restrepo Fernández</div>
+                  <div class="col-md-6 craff"></div>
+                  <div class="col-md-2 crplace">Colombia</div>
+                </div>
+                <div class="row border">
+                  <div class="col-md-4 crname">Mihwa Lee</div>
+                  <div class="col-md-6 craff">Kongju National University</div>
+                  <div class="col-md-2 crplace">Republic of Korea</div>
+                </div>
+              </div>
+            </div>
+            <h5>Examples Task and Finish Group</h5>
+            <div class="guid">
+              <div class="px-4">
+                <div class="row border">
+                  <div class="col-md-4 crname">Aicha Afaf Saha</div>
+                  <div class="col-md-6 craff">University of Algiers</div>
+                  <div class="col-md-2 crplace">Algeria</div>
+                </div>
+                <div class="row border">
+                  <div class="col-md-4 crname">Antonin Benoit Diouf</div>
+                  <div class="col-md-6 craff"></div>
+                  <div class="col-md-2 crplace">Senegal</div>
+                </div>
+                <div class="row border">
+                  <div class="col-md-4 crname">Ederina Demo</div>
+                  <div class="col-md-6 craff">National Library of Albania</div>
+                  <div class="col-md-2 crplace">Albania</div>
+                </div>
+                <div class="row border">
+                  <div class="col-md-4 crname">Elia Ekinović Micak</div>
+                  <div class="col-md-6 craff">National and University Library in Zagreb</div>
+                  <div class="col-md-2 crplace">Croatia</div>
+                </div>
+                <div class="row border">
+                  <div class="col-md-4 crname">Honor Moody</div>
+                  <div class="col-md-6 craff">Harvard University Library</div>
+                  <div class="col-md-2 crplace">USA</div>
+                </div>
+                <div class="row border">
+                  <div class="col-md-4 crname">Hyejin Kim</div>
+                  <div class="col-md-6 craff">National Assembly Library of Korea</div>
+                  <div class="col-md-2 crplace">Republic of Korea</div>
+                </div>
+                <div class="row border">
+                  <div class="col-md-4 crname">Jennifer B. Dimasaca</div>
+                  <div class="col-md-6 craff">National Library of the Philippines</div>
+                  <div class="col-md-2 crplace">Philippines</div>
+                </div>
+                <div class="row border">
+                  <div class="col-md-4 crname">Mirna Willer (group moderator)</div>
+                  <div class="col-md-6 craff"></div>
+                  <div class="col-md-2 crplace">Croatia</div>
+                </div>
+                <div class="row border">
+                  <div class="col-md-4 crname">Mounira Hattab</div>
+                  <div class="col-md-6 craff">University of Algiers</div>
+                  <div class="col-md-2 crplace">Algeria</div>
+                </div>
+                <div class="row border">
+                  <div class="col-md-4 crname">Priscilla Pun</div>
+                  <div class="col-md-6 craff">University of Macau Library</div>
+                  <div class="col-md-2 crplace">China</div>
+                </div>
+                <div class="row border">
+                  <div class="col-md-4 crname">Rosinda Ferreira</div>
+                  <div class="col-md-6 craff"></div>
+                  <div class="col-md-2 crplace">Spain</div>
+                </div>
+                <div class="row border">
+                  <div class="col-md-4 crname">Saeedeh Akbari-Daryan</div>
+                  <div class="col-md-6 craff">National Library of Iran</div>
+                  <div class="col-md-2 crplace">Iran</div>
+                </div>
+              </div>
+            </div>
+            <h4>ISBD Review Group</h4>
+            <div class="guid">
+              <div class="px-4">
+                <div class="row border">
+                  <div class="col-md-4 crname">Anisatul Wahidah Abdul Wahid</div>
+                  <div class="col-md-6 craff">National Library of Malaysia</div>
+                  <div class="col-md-2 crplace">Malaysia</div>
+                </div>
+                <div class="row border">
+                  <div class="col-md-4 crname">Ederina Demo</div>
+                  <div class="col-md-6 craff">National Library of Albania</div>
+                  <div class="col-md-2 crplace">Albania</div>
+                </div>
+                <div class="row border">
+                  <div class="col-md-4 crname">Elena Escolano Rodriguez</div>
+                  <div class="col-md-6 craff">Ministerio de Asuntos Económicos y Transformación
+                    Digital</div>
+                  <div class="col-md-2 crplace">Spain</div>
+                </div>
+                <div class="row border">
+                  <div class="col-md-4 crname">Hyejin Kim</div>
+                  <div class="col-md-6 craff">National Assembly Library of Korea</div>
+                  <div class="col-md-2 crplace">Republic of Korea</div>
+                </div>
+                <div class="row border">
+                  <div class="col-md-4 crname">Jennifer B. Dimasaca</div>
+                  <div class="col-md-6 craff">National Library of the Philippines</div>
+                  <div class="col-md-2 crplace">Philippines</div>
+                </div>
+                <div class="row border">
+                  <div class="col-md-4 crname">Judit Fejes</div>
+                  <div class="col-md-6 craff">University Library and Archives of Eötvös Loránd
+                    University (ELTE)</div>
+                  <div class="col-md-2 crplace">Hungary</div>
+                </div>
+                <div class="row border">
+                  <div class="col-md-4 crname">Madireng Monyela</div>
+                  <div class="col-md-6 craff">University of Limpopo</div>
+                  <div class="col-md-2 crplace">South Africa</div>
+                </div>
+                <div class="row border">
+                  <div class="col-md-4 crname">Mihwa Lee</div>
+                  <div class="col-md-6 craff">Kongju National University</div>
+                  <div class="col-md-2 crplace">Republic of Korea</div>
+                </div>
+                <div class="row border">
+                  <div class="col-md-4 crname">Mikael Wetterstrom (chair; 2023-</div>
+                  <div class="col-md-6 craff">National Library of Sweden</div>
+                  <div class="col-md-2 crplace">Sweden</div>
+                </div>
+                <div class="row border">
+                  <div class="col-md-4 crname">Rehab Ouf (chair; 2019-2023)</div>
+                  <div class="col-md-6 craff">Bibliotheca Alexandrina</div>
+                  <div class="col-md-2 crplace">Egypt</div>
+                </div>
+                <div class="row border">
+                  <div class="col-md-4 crname">Renate Behrens</div>
+                  <div class="col-md-6 craff">Deutsche Nationalbibliothek</div>
+                  <div class="col-md-2 crplace">Germany</div>
+                </div>
+                <div class="row border">
+                  <div class="col-md-4 crname">Saeedeh Akbari-Daryan</div>
+                  <div class="col-md-6 craff">National Library of Iran</div>
+                  <div class="col-md-2 crplace">Iran</div>
+                </div>
+                <div class="row border">
+                  <div class="col-md-4 crname">Szabina Ilácsa</div>
+                  <div class="col-md-6 craff">National Széchényi Library</div>
+                  <div class="col-md-2 crplace">Hungary</div>
+                </div>
+              </div>
+            </div>
+            <h4>Liaisons of ISBD Review Group / ISBD for Manifestation Task Group</h4>
+            <div class="guid">
+              <div class="px-4">
+                <div class="row border">
+                  <div class="col-md-4 crname">Gordon Dunsire</div>
+                  <div class="col-md-6 craff">IFLA Bibliographic Conceptual Models (BCM) Review
+                    Group</div>
+                </div>
+                <div class="row border">
+                  <div class="col-md-4 crname">Isabel Garcia-Monge</div>
+                  <div class="col-md-6 craff">IFLA Rare Books and Special Collections Section
+                    (RBSCS)</div>
+                </div>
+                <div class="row border">
+                  <div class="col-md-4 crname">Juan Ignacio Modenes</div>
+                  <div class="col-md-6 craff">ISSN International Centre (2024-)</div>
+                </div>
+                <div class="row border">
+                  <div class="col-md-4 crname">Mikael Wetterstrom</div>
+                  <div class="col-md-6 craff">ISSN International Centre (2019-2024)</div>
+                </div>
+                <div class="row border">
+                  <div class="col-md-4 crname">Mirna Willer</div>
+                  <div class="col-md-6 craff">IFLA Permanent UNIMARC Committee (PUC)</div>
+                </div>
+                <div class="row border">
+                  <div class="col-md-4 crname">Renate Behrens</div>
+                  <div class="col-md-6 craff">RDA Steering Committee (RSC)</div>
+                </div>
+              </div>
+            </div>
+            <h4>Expert advisors of ISBD Review Group</h4>
+            <div class="guid">
+              <div class="px-4">
+                <div class="row border">
+                  <div class="col-md-4 crname">Ben Gu</div>
+                  <div class="col-md-6 craff">China</div>
+                </div>
+                <div class="row border">
+                  <div class="col-md-4 crname">Massimo Gentili-Tedeschi</div>
+                  <div class="col-md-6 craff">Italy</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="container">
+      <div class="row my-1 py-1 navISBDMMain text-center">
+        <p class="m-0 p-0">&#10058;<a class="linkFooter" href="/ISBDM/docs/siteMap.html">Site
+            map</a>&#10058;</p>
+        <p class="m-0 p-0">
+          <a class="me-1" href=" https://creativecommons.org/licenses/by/4.0/"><img
+              src="/ISBDM/images/cc0_by.png"
+              alt="Badge for Creative Commmons Attribution 4.0 International license" height="30"
+             /></a> Gordon Dunsire and Mirna Willer (Main design and content editors).</p>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
