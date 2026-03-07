@@ -21,4 +21,6 @@ _Unless otherwise indicated, content shared on this website is licensed under th
 
 _For any questions relating to IFLA’s Policies, please contact ifla@ifla.org._
 
-_Access the [full text of IFLA’s copyright policy.](https://www.ifla.org/copyright/)_
+_Access the full text of IFLA’s [Copyright Policy.](https://www.ifla.org/copyright/), [Cookie Policy](https://www.ifla.org/cookie-policy/), and [Privacy Notice](https://www.ifla.org/privacy-notice)_
+
+This website does not use cookies or any similar tracking technologies.
