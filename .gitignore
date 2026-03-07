@@ -5,3 +5,4 @@
 /docs/.vscode
 /.zshrc
 /redirect.conf
+.DS_Store
